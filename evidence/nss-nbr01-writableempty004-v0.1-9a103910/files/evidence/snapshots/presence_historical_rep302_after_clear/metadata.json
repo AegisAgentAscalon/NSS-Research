@@ -1,0 +1,17 @@
+{
+  "events": 4,
+  "identity": {
+    "mode": "presence_historical",
+    "repair": "487dfa30312ce83ee086526e696546a81a510ef67cdea8cdd6b8869cd39cbabc",
+    "representation": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+    "schema": "writable-empty004/state-v1",
+    "scope": "resume-test",
+    "shape": [
+      4,
+      4,
+      16
+    ]
+  },
+  "rounds": 121,
+  "sha256": "5bebdc72cb7de4d3bc62400b8b8f91b9052b05e383a7be985e37ca9a5a3f1750"
+}

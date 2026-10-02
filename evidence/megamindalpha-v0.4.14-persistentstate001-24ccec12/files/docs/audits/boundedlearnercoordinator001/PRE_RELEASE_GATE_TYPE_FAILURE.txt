@@ -1,0 +1,32 @@
+test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) ... 
+  test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) (value=[]) ... ERROR
+  test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) (value={}) ... ERROR
+
+======================================================================
+ERROR: test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) (value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_learner_tooling.py", line 81, in test_public_gate_rejects_malformed_ids_as_typed_errors
+    journal.gate(value,'learner-worker',at=2000000000)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/learner_store.py", line 169, in gate
+    if cycle_id not in cycles:fail('INSUFFICIENT_EVIDENCE','Unknown learning cycle')
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+======================================================================
+ERROR: test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) (value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_learner_tooling.py", line 81, in test_public_gate_rejects_malformed_ids_as_typed_errors
+    journal.gate(value,'learner-worker',at=2000000000)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/learner_store.py", line 169, in gate
+    if cycle_id not in cycles:fail('INSUFFICIENT_EVIDENCE','Unknown learning cycle')
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (errors=2)

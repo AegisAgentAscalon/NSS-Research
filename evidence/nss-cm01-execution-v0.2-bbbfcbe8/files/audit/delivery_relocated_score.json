@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/cm01_delivery_qa/NSS_CM01_Execution_v0.2/source/score.py",
+    "--input",
+    "/mnt/data/cm01_delivery_qa/NSS_CM01_Execution_v0.2/raw/main/capture_run/inputs",
+    "--capture",
+    "/mnt/data/cm01_delivery_qa/NSS_CM01_Execution_v0.2/raw/main/capture_run/capture",
+    "--output",
+    "/mnt/data/cm01_delivery_qa/relocated_scores"
+  ],
+  "ended_epoch": 1790275537.451683,
+  "name": "delivery_relocated_score",
+  "optimizer_updates": 0,
+  "peak_sampled_process_tree_rss_bytes": 483155968,
+  "returncode": 0,
+  "sampling_interval_seconds": 0.1,
+  "shared_elapsed_seconds": 1247.8523962497711,
+  "stage_seconds": 6.959375619888306,
+  "started_epoch": 1790275530.4923084,
+  "status": "PASS",
+  "stop_reason": null
+}

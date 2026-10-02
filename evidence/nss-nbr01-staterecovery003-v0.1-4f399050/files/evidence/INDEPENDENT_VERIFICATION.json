@@ -1,0 +1,44 @@
+{
+  "cells_replayed": 11090,
+  "checkpoints_verified": 15,
+  "meaning": "Fresh interpreter replay of the same implementation, not independent external replication",
+  "pairs": [
+    {
+      "all_prediction_arrays_identical": true,
+      "cells": 2218,
+      "metric_rows_identical": true,
+      "rep_seed": 301,
+      "seconds": 10.76455807800005
+    },
+    {
+      "all_prediction_arrays_identical": true,
+      "cells": 2218,
+      "metric_rows_identical": true,
+      "rep_seed": 302,
+      "seconds": 9.64976957400006
+    },
+    {
+      "all_prediction_arrays_identical": true,
+      "cells": 2218,
+      "metric_rows_identical": true,
+      "rep_seed": 303,
+      "seconds": 9.374756626000021
+    },
+    {
+      "all_prediction_arrays_identical": true,
+      "cells": 2218,
+      "metric_rows_identical": true,
+      "rep_seed": 304,
+      "seconds": 9.544377095000073
+    },
+    {
+      "all_prediction_arrays_identical": true,
+      "cells": 2218,
+      "metric_rows_identical": true,
+      "rep_seed": 305,
+      "seconds": 9.315379115999917
+    }
+  ],
+  "source_registration_unchanged": true,
+  "status": "PASS"
+}

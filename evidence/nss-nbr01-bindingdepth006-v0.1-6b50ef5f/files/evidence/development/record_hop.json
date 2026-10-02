@@ -1,0 +1,106 @@
+{
+  "batch": 64,
+  "changed": true,
+  "checkpoint_sha256": "0f7f8668b6183ab91a60a4cc74a3084d0fed1f3c838c785fb5b34281505f761f",
+  "development": true,
+  "end_utc": "2026-09-21T09:28:02.921579+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 650,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T09:28:02.921765+00:00"
+  },
+  "final_weight_hash": "13afe86b71aa1516b43f39dce48a0f20d4d728dfd7ca21a52dabd8167f9df1f3",
+  "history": [
+    {
+      "loss": 12.271724700927734,
+      "seconds": 0.016221141000016814,
+      "step": 1
+    },
+    {
+      "loss": 0.11696883291006088,
+      "seconds": 0.3661130520000029,
+      "step": 100
+    },
+    {
+      "loss": 0.214214026927948,
+      "seconds": 0.7323792480000293,
+      "step": 200
+    },
+    {
+      "loss": 0.011596095748245716,
+      "seconds": 1.086221672000022,
+      "step": 300
+    },
+    {
+      "loss": 0.02659282088279724,
+      "seconds": 1.4148051669999973,
+      "step": 400
+    },
+    {
+      "loss": 0.007465249393135309,
+      "seconds": 1.7496859040000459,
+      "step": 500
+    },
+    {
+      "loss": 0.004855148959904909,
+      "seconds": 2.0858073010000453,
+      "step": 600
+    },
+    {
+      "loss": 0.0027679612394422293,
+      "seconds": 2.4075039070000344,
+      "step": 700
+    },
+    {
+      "loss": 0.0038237650878727436,
+      "seconds": 2.7449554380000336,
+      "step": 800
+    },
+    {
+      "loss": 0.0020693789701908827,
+      "seconds": 3.0740660620000426,
+      "step": 900
+    },
+    {
+      "loss": 0.024598391726613045,
+      "seconds": 3.3900204650000205,
+      "step": 1000
+    },
+    {
+      "loss": 0.0028583072125911713,
+      "seconds": 3.7100944250000225,
+      "step": 1100
+    },
+    {
+      "loss": 0.0026707465294748545,
+      "seconds": 4.024908218000007,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "f45487b4a141075a719bdf549e984cd61ec084bbaebad7748bf59c1b927e9048",
+  "kind": "record_hop",
+  "parameters": 818,
+  "recipe": {
+    "data_seed": 100741,
+    "intermediate_targets": true,
+    "lr": 0.002,
+    "max_chain": 4,
+    "optimizer": "AdamW",
+    "training_depths": [
+      1,
+      2,
+      4
+    ],
+    "weight_decay": 0.0001
+  },
+  "rss_max_kib": 319860,
+  "seed": 741,
+  "start_utc": "2026-09-21T09:27:58.894695+00:00",
+  "steps": 1200,
+  "training_seconds": 4.026874191000047
+}

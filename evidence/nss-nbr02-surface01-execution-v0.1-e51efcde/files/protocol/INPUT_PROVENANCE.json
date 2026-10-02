@@ -1,0 +1,12 @@
+{
+  "history_source": {
+    "name": "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+    "bytes": 104740,
+    "sha256": "49ef49349312ff7e8be181fe6202bb5c079e13402e68427835a794181236fb20",
+    "use": "Historical motivation only, not executable original study payload. Not copied into this execution package."
+  },
+  "dispatch": "User explicitly authorized the preceding named proposal by saying Run it.",
+  "new_protocol": true,
+  "historical_checkpoint_loading": false,
+  "main_result": "STOP_BASELINE_COMPETENCE"
+}

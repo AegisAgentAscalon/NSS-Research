@@ -1,0 +1,37 @@
+test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event (test_persistent_state.PersistentStateTests.test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event) ... ERROR
+
+======================================================================
+ERROR: test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event (test_persistent_state.PersistentStateTests.test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/tests/test_persistent_state.py", line 395, in test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event
+    self.updated(ops)
+    ~~~~~~~~~~~~^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/tests/state_helpers.py", line 55, in updated
+    c=self.approve(self.proposal(deltas,op=op));return self.ctl.apply(c)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/tests/state_helpers.py", line 51, in proposal
+    return prepare(self.state_view(live=False),operation_id=op or 'update-'+str(self.events),
+        proposer_id='fake-proposer',proposer_version='v1',state_scope=SCOPE,deltas=deltas)
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/state_contracts.py", line 126, in prepare
+    return command(c)
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/state_contracts.py", line 73, in command
+    validate(value, 'state_bind.schema.json' if value['action'] == 'BIND_STATE' else 'state_update.schema.json')
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/serialization.py", line 37, in validate
+    _validate(value, read_json(SCHEMAS / name), "$")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/serialization.py", line 59, in _validate
+    _validate(item, props[key], path + "." + key)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/serialization.py", line 62, in _validate
+    fail("VALIDATION_FAILED", f"{path}: array size out of bounds")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.14_PersistentState001/nss_base/runtime.py", line 12, in fail
+    raise ContractError(code, message)
+nss_base.runtime.ContractError: $.deltas: array size out of bounds
+
+----------------------------------------------------------------------
+Ran 1 test in 11.266s
+
+FAILED (errors=1)

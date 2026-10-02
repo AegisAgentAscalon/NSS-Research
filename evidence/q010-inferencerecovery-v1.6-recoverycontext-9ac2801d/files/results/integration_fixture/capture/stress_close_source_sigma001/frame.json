@@ -1,0 +1,1039 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-fe746afc98cbc05bcfc7",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-fe746afc98cbc05bcfc7",
+        "close_identity_transform": {
+          "algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+          "decoy_id": 12,
+          "rng_seed_u64": 16268941594361843884,
+          "role": "source",
+          "seed_context": {
+            "condition_id": "stress_close_source_sigma001",
+            "episode_id": "stress_close_source_sigma001-s1201-e000-close-source",
+            "paired_seed": 1201,
+            "protocol_version": "Q010R-CM1",
+            "purpose": "close_identity",
+            "split": "stress",
+            "stage_index": null
+          },
+          "sigma": 0.01,
+          "target_id": 3
+        },
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e000",
+        "graph_seed": 14570006777924614088,
+        "graph_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "stress_close_source_sigma001-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 18392746578195733773,
+        "treatment_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 7,
+      "displaced_decoy_id": 12,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "stress_close_source_sigma001-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        9,
+        10,
+        15,
+        14,
+        6,
+        2,
+        5,
+        12,
+        13,
+        1,
+        4,
+        8,
+        3,
+        7,
+        11,
+        0
+      ],
+      "query_slot": 3,
+      "query_symbol_id": 3,
+      "replacement_decoy_id": 12,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "close_transform_algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+        "close_transform_decoy_id": 12,
+        "close_transform_role": "source",
+        "close_transform_seed_u64": 16268941594361843884,
+        "close_transform_sigma": 0.01,
+        "close_transform_target_id": 3,
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e000",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e000",
+        "graph_seed": 14570006777924614088,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 18392746578195733773,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "971561d39792986486805d39b5b6e3465b86e09de862d1c32c1b2421df86eeb8",
+      "split": "development",
+      "stage_next_ids": [
+        13,
+        1,
+        9,
+        5,
+        11,
+        15,
+        14,
+        0
+      ],
+      "stage_row_targets": [
+        12,
+        8,
+        9,
+        0,
+        6,
+        14,
+        2,
+        3
+      ],
+      "stage_source_ids": [
+        3,
+        13,
+        1,
+        9,
+        5,
+        11,
+        15,
+        14
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        3,
+        13,
+        1,
+        9,
+        5,
+        11,
+        15,
+        14,
+        0
+      ],
+      "task_truth_hash": "253e954a5987f3dac1f1ec5f24cfd43bfdc7c6ed551ddc528fb7204e94340308",
+      "terminal_id": 0,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          15,
+          14
+        ]
+      ],
+      "truth_graph_hash": "401811c048c4a9f5dad0c5a70f16a8be776bbe613d8bb09aa1bc44d294b4ff64"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-468b2dcd890ebe38b342",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-468b2dcd890ebe38b342",
+        "close_identity_transform": {
+          "algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+          "decoy_id": 14,
+          "rng_seed_u64": 9434235240241593369,
+          "role": "source",
+          "seed_context": {
+            "condition_id": "stress_close_source_sigma001",
+            "episode_id": "stress_close_source_sigma001-s1201-e001-close-source",
+            "paired_seed": 1201,
+            "protocol_version": "Q010R-CM1",
+            "purpose": "close_identity",
+            "split": "stress",
+            "stage_index": null
+          },
+          "sigma": 0.01,
+          "target_id": 11
+        },
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e001",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e001",
+        "graph_seed": 6325981224525410351,
+        "graph_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "stress_close_source_sigma001-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 13547028268181711142,
+        "treatment_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 2,
+      "displaced_decoy_id": 14,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "stress_close_source_sigma001-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        3,
+        2,
+        14,
+        5,
+        11,
+        7,
+        12,
+        4,
+        1,
+        8,
+        6,
+        10,
+        0,
+        15,
+        13,
+        9
+      ],
+      "query_slot": 11,
+      "query_symbol_id": 11,
+      "replacement_decoy_id": 14,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "close_transform_algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+        "close_transform_decoy_id": 14,
+        "close_transform_role": "source",
+        "close_transform_seed_u64": 9434235240241593369,
+        "close_transform_sigma": 0.01,
+        "close_transform_target_id": 11,
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e001",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e001",
+        "graph_seed": 6325981224525410351,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 13547028268181711142,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "ab04364c60447031e672f4fe38317db283e8bbfe2a8ea20d476012cf39c3246e",
+      "split": "development",
+      "stage_next_ids": [
+        5,
+        6,
+        8,
+        15,
+        2,
+        7,
+        0,
+        12
+      ],
+      "stage_row_targets": [
+        4,
+        3,
+        10,
+        9,
+        13,
+        1,
+        5,
+        12
+      ],
+      "stage_source_ids": [
+        11,
+        5,
+        6,
+        8,
+        15,
+        2,
+        7,
+        0
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        11,
+        5,
+        6,
+        8,
+        15,
+        2,
+        7,
+        0,
+        12
+      ],
+      "task_truth_hash": "3acf79a699d05961497f8b17c8d3ebbbcf509b70d824ee78d8bf3827f0142cc9",
+      "terminal_id": 12,
+      "truth_edges": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          2
+        ]
+      ],
+      "truth_graph_hash": "46ae51b5aedc1bd191cae09553a537c616e2535fa7b1e80f77f4ad9e0fe41f39"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-caab6a822ac5d9c81bf3",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-caab6a822ac5d9c81bf3",
+        "close_identity_transform": {
+          "algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+          "decoy_id": 13,
+          "rng_seed_u64": 15196168326315267126,
+          "role": "source",
+          "seed_context": {
+            "condition_id": "stress_close_source_sigma001",
+            "episode_id": "stress_close_source_sigma001-s1201-e064-close-source",
+            "paired_seed": 1201,
+            "protocol_version": "Q010R-CM1",
+            "purpose": "close_identity",
+            "split": "stress",
+            "stage_index": null
+          },
+          "sigma": 0.01,
+          "target_id": 9
+        },
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e064",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e064",
+        "graph_seed": 15881925345888228379,
+        "graph_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 1,
+        "near_treatment": false,
+        "pair_id": "stress_close_source_sigma001-s1201-e064",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 7256170957411263277,
+        "treatment_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 1,
+      "displaced_decoy_id": 13,
+      "missing": true,
+      "missing_at": 1,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "stress_close_source_sigma001-s1201-e064",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        15,
+        13,
+        12,
+        9,
+        2,
+        8,
+        3,
+        6,
+        10,
+        11,
+        4,
+        1,
+        7,
+        5,
+        0,
+        14
+      ],
+      "query_slot": 9,
+      "query_symbol_id": 9,
+      "replacement_decoy_id": 13,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "close_transform_algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+        "close_transform_decoy_id": 13,
+        "close_transform_role": "source",
+        "close_transform_seed_u64": 15196168326315267126,
+        "close_transform_sigma": 0.01,
+        "close_transform_target_id": 9,
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e064",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e064",
+        "graph_seed": 15881925345888228379,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 7256170957411263277,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "34520fbbb52a8fa17d08d06b6e9259e1697d1666e6c354b55dd1644a4a6e5d78",
+      "split": "development",
+      "stage_next_ids": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        9,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        9,
+        15,
+        0,
+        1,
+        4,
+        8,
+        6,
+        2,
+        14
+      ],
+      "task_truth_hash": "3928c7f88286e8f462d191c78a0936704148bf72cc3969eb2d26f7ba08a39925",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "5aadbcfba927e8f2ab4ca9cf0a5ec7fe99ca845326868cbb69aa032c7b0bb103"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-bbe6146ce75d7afe8940",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-bbe6146ce75d7afe8940",
+        "close_identity_transform": {
+          "algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+          "decoy_id": 14,
+          "rng_seed_u64": 419242269020782704,
+          "role": "source",
+          "seed_context": {
+            "condition_id": "stress_close_source_sigma001",
+            "episode_id": "stress_close_source_sigma001-s1201-e065-close-source",
+            "paired_seed": 1201,
+            "protocol_version": "Q010R-CM1",
+            "purpose": "close_identity",
+            "split": "stress",
+            "stage_index": null
+          },
+          "sigma": 0.01,
+          "target_id": 1
+        },
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e065",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e065",
+        "graph_seed": 15751277721427573113,
+        "graph_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 2,
+        "near_treatment": false,
+        "pair_id": "stress_close_source_sigma001-s1201-e065",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 9849418117555200769,
+        "treatment_seed_context": {
+          "condition_id": "stress_close_source_sigma001",
+          "episode_id": "stress_close_source_sigma001-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 2,
+      "displaced_decoy_id": 14,
+      "missing": true,
+      "missing_at": 2,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "stress_close_source_sigma001-s1201-e065",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        9,
+        15,
+        14,
+        10,
+        5,
+        0,
+        7,
+        3,
+        4,
+        12,
+        1,
+        2,
+        11,
+        6,
+        8,
+        13
+      ],
+      "query_slot": 1,
+      "query_symbol_id": 1,
+      "replacement_decoy_id": 14,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "close_transform_algorithm": "normalize-target-code-plus-pcg64-gaussian-v1",
+        "close_transform_decoy_id": 14,
+        "close_transform_role": "source",
+        "close_transform_seed_u64": 419242269020782704,
+        "close_transform_sigma": 0.01,
+        "close_transform_target_id": 1,
+        "condition_id": "stress_close_source_sigma001",
+        "episode_id": "stress_close_source_sigma001-s1201-e065",
+        "graph_pair_condition_id": "stress_close_source_sigma001",
+        "graph_pair_episode_id": "stress_close_source_sigma001-s1201-e065",
+        "graph_seed": 15751277721427573113,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 9849418117555200769,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "b5607bc0c324e1de60fff84517fd357a84f357042dfd136cff973eb3e22b54d5",
+      "split": "development",
+      "stage_next_ids": [
+        11,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        10,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        1,
+        11,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        1,
+        11,
+        0,
+        9,
+        15,
+        6,
+        12,
+        13,
+        2
+      ],
+      "task_truth_hash": "28bf7c226cfe065a2be95a985c7772247cc0be4aeb7d1a5c9cc99ca2be6cfc38",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          15,
+          6
+        ]
+      ],
+      "truth_graph_hash": "74474825ab1cf4a54f94aa68d58f838dc1aa02ed12a73389d0f74fb37406b95f"
+    }
+  ],
+  "checkpoint": null,
+  "condition_id": "stress_close_source_sigma001",
+  "depth": 8,
+  "episode_ids": [
+    "stress_close_source_sigma001-s1201-e000",
+    "stress_close_source_sigma001-s1201-e001",
+    "stress_close_source_sigma001-s1201-e064",
+    "stress_close_source_sigma001-s1201-e065"
+  ],
+  "event_count": 0,
+  "faults": {},
+  "feedback_mode": "assisted",
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 3,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "36357feec18e1c1510d9f71d86dd8a647c7513ebc654a5eea8180184b12bab1c"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 11,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "2df62de2ff0fff774cdc09f4ac231eea508925178b0d9db28bffdca4783793e8"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 9,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "47f021174cdb9818dfcac4974dff85682b8f34e06233f30c5a119cab4e5548cc"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 1,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "3f7f0c6e3ca9380e4b7cbadb942b096810024447c669b00534483fc19d148587"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 0
+}

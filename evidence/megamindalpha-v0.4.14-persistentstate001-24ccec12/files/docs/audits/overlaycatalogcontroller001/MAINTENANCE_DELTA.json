@@ -1,0 +1,54 @@
+{
+  "nss_base": {
+    "baseline_files": 53,
+    "final_files": 59,
+    "before_lines": 7919,
+    "after_lines": 8677,
+    "changed": [
+      "generation_state.py",
+      "generation_store.py",
+      "task_records.py"
+    ],
+    "added": [
+      "catalog_cli.py",
+      "catalog_contracts.py",
+      "catalog_controller.py",
+      "catalog_tasks.py",
+      "generation_views.py",
+      "overlaycatalogcontroller001.py"
+    ],
+    "removed": [],
+    "diff_added_lines": 894,
+    "diff_deleted_lines": 136
+  },
+  "tests": {
+    "baseline_files": 47,
+    "final_files": 51,
+    "before_lines": 5454,
+    "after_lines": 5998,
+    "changed": [],
+    "added": [
+      "catalog_helpers.py",
+      "test_catalog_controller.py",
+      "test_catalog_crashes_integrity.py",
+      "test_catalog_tooling.py"
+    ],
+    "removed": [],
+    "diff_added_lines": 544,
+    "diff_deleted_lines": 0
+  },
+  "tools": {
+    "baseline_files": 18,
+    "final_files": 18,
+    "before_lines": 912,
+    "after_lines": 943,
+    "changed": [
+      "generate_generation_schemas.py",
+      "run_release_checks.py"
+    ],
+    "added": [],
+    "removed": [],
+    "diff_added_lines": 33,
+    "diff_deleted_lines": 2
+  }
+}

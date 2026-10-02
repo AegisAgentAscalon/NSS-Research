@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "positive",
+    "payload_change",
+    "extra_reported",
+    "strict_extra",
+    "manifest_change"
+  ],
+  "count": 5,
+  "model_calls": 0
+}

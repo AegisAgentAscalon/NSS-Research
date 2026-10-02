@@ -1,0 +1,16 @@
+{
+  "array_files": 7,
+  "arrays": 61,
+  "case_event_decision_metadata_exact": true,
+  "elements": 10513,
+  "noninvariant_cost_fields": [
+    "python_directory_and_binding_bytes",
+    "python_journal_bytes",
+    "python_parsed_fields_bytes",
+    "python_string_bytes",
+    "python_workspace_bytes",
+    "route_pair_nanoseconds"
+  ],
+  "replay_is_not_new_sample": true,
+  "status": "PASS_EXACT_FRESH_PROCESS_REPLAY"
+}

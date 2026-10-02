@@ -1,0 +1,18 @@
+{
+  "zip": "NSS_NBR02_DC01_Complete_v0.5.zip",
+  "bytes": 28920440,
+  "sha256": "89408f120363c37788abd0198cdcf980a6d98f661f2cb2999e47bf472d43a421",
+  "manifest_files": 207,
+  "logical_restored_bytes": 219183670,
+  "aliases": 68,
+  "envelopes": [
+    {
+      "path": "raw/primary/worker/records.bin",
+      "payload": ".payload/records-ee2864b0986de2dd08f0.envelopes.xz",
+      "payload_bytes": 13602172,
+      "payload_sha256": "7d7094d7470b8de0b19702a5db5e11592975646f456b8e5d222553df94921a1a",
+      "restored_sha256": "ee2864b0986de2dd08f0828e8ff5de7b7daf49e7261ee2609cfc2a28e54085fe"
+    }
+  ],
+  "packaging_epoch": 1790333401.1094425
+}

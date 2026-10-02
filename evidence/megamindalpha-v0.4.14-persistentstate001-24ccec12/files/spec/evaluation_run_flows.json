@@ -1,0 +1,639 @@
+{
+  "schema_version": 2,
+  "title": "EvaluationRun001 implementation subflows",
+  "purpose": "Bounded local development evidence inside the existing evaluation/qualification boundary; no new cognition system.",
+  "global_outcomes": [
+    "SUCCESS",
+    "NEEDS_CLARIFICATION",
+    "INSUFFICIENT_EVIDENCE",
+    "BUDGET_EXHAUSTED",
+    "CONSTRAINT_CONFLICT",
+    "CAPABILITY_UNAVAILABLE",
+    "INCOMPATIBLE_CONFIGURATION",
+    "TRANSITION_UNQUALIFIED",
+    "AUTHORIZATION_DENIED",
+    "VALIDATION_FAILED",
+    "RECOVERY_REQUIRED",
+    "ACTION_UNCERTAIN",
+    "ACTION_FAILED",
+    "INTERNAL_FAILURE",
+    "QUALIFICATION_FAILED",
+    "STAGING_FAILED",
+    "MIGRATION_REQUIRED",
+    "POLICY_DENIED",
+    "NO_VALID_OVERLAY",
+    "STALE_STATE",
+    "SOURCE_INVALID",
+    "TRAINING_NOT_JUSTIFIED",
+    "DATA_RESTRICTED",
+    "CORE_MUTATION_DETECTED",
+    "TRAINING_DIVERGED",
+    "EVIDENCE_INCOMPLETE",
+    "THRESHOLD_NOT_MET",
+    "NONDETERMINISTIC_RESULT",
+    "ABI_MISMATCH",
+    "CHECKSUM_MISMATCH",
+    "DEPENDENCY_CONFLICT",
+    "RESOURCE_UNAVAILABLE",
+    "TOKENIZER_MISMATCH",
+    "CONTEXT_ABI_MISMATCH",
+    "MANDATORY_CONTEXT_OVERFLOW",
+    "SOURCE_VALIDATION_FAILED",
+    "REHYDRATION_FAILED",
+    "DEPTH_STALLED",
+    "CONTEXT_REQUIRED",
+    "ARTIFACT_MISSING",
+    "UNQUALIFIED_CONFIGURATION",
+    "QUALIFICATION_EVIDENCE_MISSING",
+    "MODALITY_UNSUPPORTED",
+    "ENCODE_FAILED",
+    "CONTINUITY_VALIDATION_FAILED",
+    "IDENTITY_INVALID",
+    "POLICY_CONFLICT",
+    "CHECKPOINT_INVALID",
+    "MIGRATION_UNSAFE",
+    "COMPATIBILITY_UNKNOWN",
+    "RETENTION_RESTRICTED",
+    "CONFLICT_REQUIRES_REVIEW",
+    "PROVENANCE_INCOMPLETE",
+    "TRAINING_RESTRICTED",
+    "CONFLICT_UNRESOLVED",
+    "SOURCE_UNKNOWN",
+    "RETRIEVAL_FAILED",
+    "STALE_OR_CONFLICTED",
+    "DATASET_INVALID",
+    "RESOURCE_FAILURE",
+    "ACTION_RECONCILIATION_REQUIRED",
+    "ATOMIC_PUBLISH_FAILED"
+  ],
+  "shared_primitives": {
+    "REQUIRE": "Abort the current flow immediately with the supplied typed non-success outcome unless the predicate is true.",
+    "VALIDATE": "Validate schema plus semantic invariants.",
+    "RESOLVE": "Resolve an exact immutable reference; never guess a missing artifact.",
+    "HASH": "Content-address identity material.",
+    "QUALIFIED": "Check claim/profile/transition against bound qualification evidence.",
+    "AUTHORIZE": "Request scoped authorization from Nexus; no implicit authority carry-forward.",
+    "PIN": "Bind state to an exact ECID/configuration identity.",
+    "BUDGET": "Reserve/release bounded compute, context, or refinement budget.",
+    "ATOMIC_PUBLISH": "Stage fully, then atomically publish or preserve prior valid state.",
+    "REPLAY_SAFE": "Check durable action evidence; unresolved effects block replay. Reconciliation is explicit, never a hidden automatic retry.",
+    "REHYDRATE": "Load only the externally referenced context required for the current step.",
+    "COMPACT": "Produce minimal carry-forward state while preserving required dependencies.",
+    "RESULT": "Return typed success or typed non-success outcome.",
+    "AUDIT": "Append immutable/auditable decision or lifecycle evidence.",
+    "IDEMPOTENT_EXECUTE": "Execute side effect under idempotency key and durable commit semantics.",
+    "TRY": "Unwrap a typed result only on SUCCESS; propagate its non-success code unchanged. Helper failures are implicit exits from every process node."
+  },
+  "global_rules": [
+    "Compress implementation, not contract meaning: factor repeated guards into shared primitives only after behavior is test-covered.",
+    "Every terminal path returns a typed outcome.",
+    "Every production mutation is staged and atomically published or leaves the prior valid state intact.",
+    "Every side effect is separated from replayable computation and has idempotency/reconciliation semantics.",
+    "No subsystem reaches into another subsystem internals; use versioned typed public contracts.",
+    "Research mechanisms (HSA/MSA, recurrent depth, DARP, directional-guidance implementations) are independently qualified and are not prerequisites for proving overlay composition.",
+    "Core-only execution remains mandatory for each Core generation.",
+    "Terminal maps contain allowed outcome sets. Grouped failure exits preserve the actual error code; they do not translate every failure into one generic status.",
+    "Every helper failure implicitly exits through the declared failure envelope. Graphs are summaries, not exhaustive executable programs. TRY and REQUIRE are fail-fast.",
+    "All loops consume finite budgets and have stalled/no-progress exits. Graph reachability alone does not prove termination.",
+    "Canonical describes design authority, not implementation. The implementation field states the available simulator coverage.",
+    "Forbidden-edge statements are reviewed architectural constraints; the graph validator does not inspect runtime imports/calls or enforce these prose rules."
+  ],
+  "flows": [
+    {
+      "id": "evaluation_prepare",
+      "title": "EvaluationRun001 \u2014 exact plan and preparation",
+      "owner": "evaluation_store (public source gates in evaluation_inputs)",
+      "purpose": "Capture reproducible development observations without granting data reuse or release authority.",
+      "status": "local synthetic integer protocol only",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "EvaluationPlan / exact report reference",
+        "Candidate+suite+fixture bytes",
+        "Optional current-use development snapshot adapter"
+      ],
+      "outputs": [
+        "Prepared/finalized immutable run receipt",
+        "Historical report or typed failure; never an approval token"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Normalize exact proposed plan",
+          "kind": "start"
+        },
+        {
+          "id": "existing",
+          "label": "Run ID already present?",
+          "kind": "decision"
+        },
+        {
+          "id": "same",
+          "label": "Plan matches existing run?",
+          "kind": "decision"
+        },
+        {
+          "id": "capture",
+          "label": "Verify and capture candidate / test / code / data bytes",
+          "kind": "process"
+        },
+        {
+          "id": "persist",
+          "label": "Commit immutable PREPARED plan + material",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return receipt; existing record is historical only",
+          "kind": "success"
+        },
+        {
+          "id": "fail",
+          "label": "Typed failure; no approval or overwritten record",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "existing",
+          "when": "always"
+        },
+        {
+          "from": "existing",
+          "to": "same",
+          "when": "yes"
+        },
+        {
+          "from": "same",
+          "to": "done",
+          "when": "same plan"
+        },
+        {
+          "from": "same",
+          "to": "fail",
+          "when": "different plan or corrupt record"
+        },
+        {
+          "from": "existing",
+          "to": "capture",
+          "when": "no"
+        },
+        {
+          "from": "capture",
+          "to": "persist",
+          "when": "valid current inputs"
+        },
+        {
+          "from": "capture",
+          "to": "fail",
+          "when": "input / permission failure"
+        },
+        {
+          "from": "persist",
+          "to": "done",
+          "when": "committed"
+        },
+        {
+          "from": "persist",
+          "to": "fail",
+          "when": "storage failure"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CAPABILITY_UNAVAILABLE",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CAPABILITY_UNAVAILABLE",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "Evaluator -> deployment",
+        "Evaluation consumer -> private archive storage",
+        "Stored historical score -> renewed data permission",
+        "Artifact text -> dynamic code execution"
+      ],
+      "invariants": [
+        "Suite thresholds/test identities are pinned before computation.",
+        "Only pure bounded integer checks can replay.",
+        "Any result says authority NONE.",
+        "Prepared runs have no verdict; finalization publishes report+receipt together.",
+        "A valid report may say PASS, FAIL or INCONCLUSIVE; syscall SUCCESS is not evaluation PASS."
+      ],
+      "pseudocode": [
+        "function PREPARE(plan):",
+        "  VALIDATE(plan); prior = LOOKUP(plan.run_id)",
+        "  if prior: REQUIRE(prior.plan == plan, CONSTRAINT_CONFLICT); return HISTORICAL_RECEIPT(prior)",
+        "  material = TRY(CAPTURE_EXACT_CURRENT_INPUTS(plan))",
+        "  ATOMIC_PUBLISH(PREPARED(plan, material))",
+        "  return RESULT(SUCCESS, prepared_receipt_with_no_verdict)"
+      ],
+      "uses_primitives": [
+        "VALIDATE",
+        "HASH",
+        "TRY",
+        "REQUIRE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Replay bounded pure work instead of retaining half-trusted trial checkpoints.",
+        "Recheck mutable source permissions; do not cache authority.",
+        "One owner for evaluation rows, none for production configuration."
+      ]
+    },
+    {
+      "id": "evaluation_execute",
+      "title": "EvaluationRun001 \u2014 bounded repeats and publication",
+      "owner": "evaluation_store (public source gates in evaluation_inputs)",
+      "purpose": "Capture reproducible development observations without granting data reuse or release authority.",
+      "status": "local synthetic integer protocol only",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "EvaluationPlan / exact report reference",
+        "Candidate+suite+fixture bytes",
+        "Optional current-use development snapshot adapter"
+      ],
+      "outputs": [
+        "Prepared/finalized immutable run receipt",
+        "Historical report or typed failure; never an approval token"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Prepare or resume exact run",
+          "kind": "start"
+        },
+        {
+          "id": "final",
+          "label": "Already FINALIZED?",
+          "kind": "decision"
+        },
+        {
+          "id": "gate",
+          "label": "Recheck exact source/code/data eligibility",
+          "kind": "process"
+        },
+        {
+          "id": "compute",
+          "label": "Execute one pure repeat; consume finite check budget",
+          "kind": "process"
+        },
+        {
+          "id": "more",
+          "label": "Another repeat fits frozen budget?",
+          "kind": "decision"
+        },
+        {
+          "id": "derive",
+          "label": "Derive complete PASS/FAIL or budget INCONCLUSIVE",
+          "kind": "process"
+        },
+        {
+          "id": "current",
+          "label": "Final current-input and permission gate",
+          "kind": "process"
+        },
+        {
+          "id": "publish",
+          "label": "Atomic report + completion receipt publication",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return finalized or historical receipt; authority NONE",
+          "kind": "success"
+        },
+        {
+          "id": "fail",
+          "label": "Typed failure; PREPARED remains without verdict",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "final",
+          "when": "always"
+        },
+        {
+          "from": "final",
+          "to": "done",
+          "when": "yes: history only"
+        },
+        {
+          "from": "final",
+          "to": "gate",
+          "when": "no"
+        },
+        {
+          "from": "gate",
+          "to": "compute",
+          "when": "current inputs match"
+        },
+        {
+          "from": "gate",
+          "to": "fail",
+          "when": "changed / revoked / missing"
+        },
+        {
+          "from": "compute",
+          "to": "more",
+          "when": "always"
+        },
+        {
+          "from": "more",
+          "to": "gate",
+          "when": "yes: next repeat"
+        },
+        {
+          "from": "more",
+          "to": "derive",
+          "when": "no"
+        },
+        {
+          "from": "derive",
+          "to": "current",
+          "when": "always"
+        },
+        {
+          "from": "current",
+          "to": "publish",
+          "when": "unchanged and permitted"
+        },
+        {
+          "from": "current",
+          "to": "fail",
+          "when": "changed or revoked"
+        },
+        {
+          "from": "publish",
+          "to": "done",
+          "when": "committed"
+        },
+        {
+          "from": "publish",
+          "to": "fail",
+          "when": "storage failure"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CAPABILITY_UNAVAILABLE",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CAPABILITY_UNAVAILABLE",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "Evaluator -> deployment",
+        "Evaluation consumer -> private archive storage",
+        "Stored historical score -> renewed data permission",
+        "Artifact text -> dynamic code execution"
+      ],
+      "invariants": [
+        "Suite thresholds/test identities are pinned before computation.",
+        "Only pure bounded integer checks can replay.",
+        "Any result says authority NONE.",
+        "Prepared runs have no verdict; finalization publishes report+receipt together.",
+        "A valid report may say PASS, FAIL or INCONCLUSIVE; syscall SUCCESS is not evaluation PASS."
+      ],
+      "pseudocode": [
+        "function EXECUTE(plan):",
+        "  receipt = TRY(PREPARE(plan)); if receipt.finalized: return HISTORICAL(receipt)",
+        "  for repeat in FINITE_REPEATS(plan):",
+        "    REQUIRE(CURRENT_INPUTS_MATCH(), INCOMPATIBLE_CONFIGURATION)",
+        "    rows += PURE_CHECKS_WITH_REMAINING_BUDGET(repeat)",
+        "  report = DERIVE_VERDICT_AND_VALIDATE_EXACT_TRIAL_MATRIX(rows)",
+        "  TRY(RECHECK_INPUTS_AND_PERMISSIONS())",
+        "  ATOMIC_PUBLISH(report, exact_completion_receipt)",
+        "  return RESULT(SUCCESS, receipt_with_evaluation_verdict_and_no_authority)"
+      ],
+      "uses_primitives": [
+        "VALIDATE",
+        "HASH",
+        "TRY",
+        "REQUIRE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Replay bounded pure work instead of retaining half-trusted trial checkpoints.",
+        "Recheck mutable source permissions; do not cache authority.",
+        "One owner for evaluation rows, none for production configuration."
+      ]
+    },
+    {
+      "id": "evaluation_current_use",
+      "title": "EvaluationRun001 \u2014 historical inspection versus current check",
+      "owner": "evaluation_store (public source gates in evaluation_inputs)",
+      "purpose": "Capture reproducible development observations without granting data reuse or release authority.",
+      "status": "local synthetic integer protocol only",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "EvaluationPlan / exact report reference",
+        "Candidate+suite+fixture bytes",
+        "Optional current-use development snapshot adapter"
+      ],
+      "outputs": [
+        "Prepared/finalized immutable run receipt",
+        "Historical report or typed failure; never an approval token"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Exact run or report request",
+          "kind": "start"
+        },
+        {
+          "id": "validate",
+          "label": "Verify stored bytes, full trial matrix and receipt",
+          "kind": "process"
+        },
+        {
+          "id": "mode",
+          "label": "Historical or current check?",
+          "kind": "decision"
+        },
+        {
+          "id": "hash",
+          "label": "Report finalized and expected digest matches?",
+          "kind": "decision"
+        },
+        {
+          "id": "gate",
+          "label": "Recheck actual candidate / suite / fixtures / code / data",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return explicitly scoped evidence; no release authority",
+          "kind": "success"
+        },
+        {
+          "id": "fail",
+          "label": "Typed failure; retain historical record",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "validate",
+          "when": "always"
+        },
+        {
+          "from": "validate",
+          "to": "mode",
+          "when": "valid"
+        },
+        {
+          "from": "validate",
+          "to": "fail",
+          "when": "corruption"
+        },
+        {
+          "from": "mode",
+          "to": "done",
+          "when": "historical inspect"
+        },
+        {
+          "from": "mode",
+          "to": "hash",
+          "when": "current check"
+        },
+        {
+          "from": "hash",
+          "to": "gate",
+          "when": "yes"
+        },
+        {
+          "from": "hash",
+          "to": "fail",
+          "when": "no or incomplete"
+        },
+        {
+          "from": "gate",
+          "to": "done",
+          "when": "current exact inputs permitted"
+        },
+        {
+          "from": "gate",
+          "to": "fail",
+          "when": "revoked / missing / changed"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CAPABILITY_UNAVAILABLE",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CAPABILITY_UNAVAILABLE",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "Evaluator -> deployment",
+        "Evaluation consumer -> private archive storage",
+        "Stored historical score -> renewed data permission",
+        "Artifact text -> dynamic code execution"
+      ],
+      "invariants": [
+        "Suite thresholds/test identities are pinned before computation.",
+        "Only pure bounded integer checks can replay.",
+        "Any result says authority NONE.",
+        "Prepared runs have no verdict; finalization publishes report+receipt together.",
+        "A valid report may say PASS, FAIL or INCONCLUSIVE; syscall SUCCESS is not evaluation PASS."
+      ],
+      "pseudocode": [
+        "function VERIFY_CURRENT(id, expected_report_hash):",
+        "  run = TRY(READ_AND_VALIDATE_HISTORY(id))",
+        "  REQUIRE(run.finalized, INSUFFICIENT_EVIDENCE)",
+        "  REQUIRE(HASH(run.report) == expected_report_hash, CONSTRAINT_CONFLICT)",
+        "  TRY(CAPTURE_EXACT_CURRENT_INPUTS(run.plan))",
+        "  return RESULT(SUCCESS, point_in_time_check_not_a_permission_lease)"
+      ],
+      "uses_primitives": [
+        "VALIDATE",
+        "HASH",
+        "TRY",
+        "REQUIRE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Replay bounded pure work instead of retaining half-trusted trial checkpoints.",
+        "Recheck mutable source permissions; do not cache authority.",
+        "One owner for evaluation rows, none for production configuration."
+      ]
+    }
+  ]
+}

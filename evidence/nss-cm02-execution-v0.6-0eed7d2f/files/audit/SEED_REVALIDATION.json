@@ -1,0 +1,8 @@
+{
+  "allocations": 477,
+  "existing_review_collision_audit_sha256": "63e7531d5bf1e9300445097ecc818518bc05e9fcde7dd5b4b4fae6b7cd301639",
+  "missing_historical_rng_histories_auditable": false,
+  "new_seed_namespace_introduced": false,
+  "prior_audit_dependencies_match_current_archives": true,
+  "status": "PASS_477_REDERIVED_AND_UNIQUE"
+}

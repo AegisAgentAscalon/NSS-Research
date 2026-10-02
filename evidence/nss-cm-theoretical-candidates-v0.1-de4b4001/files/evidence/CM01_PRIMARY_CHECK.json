@@ -1,0 +1,66 @@
+{
+  "schema": "cm01-retained-results-review-v1",
+  "source_archive": "Research/NSS_CM01_Execution_v0.2.zip",
+  "source_sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+  "method": "Assigned metrics worker aggregated retained DECISIONS.csv, HELDOUT_PAIRED.csv and CONTROLS.csv with standard-library tools; no model run. No standalone aggregation script was retained.",
+  "main_decision_rows": 23040,
+  "incorrect_decision_rows": 10571,
+  "unique_case_ids": 512,
+  "primary_near_heldout": {
+    "A_correct": 88,
+    "B_correct": 142,
+    "evaluations": 200,
+    "unique_episodes": 40,
+    "fixed_model_seeds": 5,
+    "family_gain_pp": [
+      22.5,
+      30,
+      45,
+      27.5,
+      10
+    ],
+    "family_bound_known_B_accuracy": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "families_meeting_rule": 5
+  },
+  "primary_near_noise": {
+    "low": {
+      "sigma": 0.01,
+      "A_correct": 71,
+      "B_C_correct": 70,
+      "evaluations": 100,
+      "unique_episodes": 20
+    },
+    "high": {
+      "sigma": 0.2,
+      "A_correct": 17,
+      "B_C_correct": 72,
+      "evaluations": 100,
+      "unique_episodes": 20
+    }
+  },
+  "primary_near_no_cue_per_workspace_interface": {
+    "accepted_false_bindings": 100,
+    "incidental_correct_content": 33,
+    "evaluations": 100
+  },
+  "public_exact_heldout": {
+    "bound_known_correct": 40,
+    "bound_known_episodes": 40,
+    "bound_close_correct": 40,
+    "bound_close_episodes": 40
+  },
+  "archive_reported_not_recomputed_here": [
+    "7680 exact B/C comparison pairs",
+    "500 invalid-reference abstentions, including 400 known-answer losses and 100 deleted-record correct UNKNOWN outcomes",
+    "448 distinct public inputs",
+    "fresh-process numerical replay and scorer arithmetic correctness",
+    "complete study resource and byte-traffic accounting"
+  ],
+  "scientific_execution_performed": false
+}

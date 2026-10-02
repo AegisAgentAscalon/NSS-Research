@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/Q010_InferenceRecovery_v1.6/recovery/worker.py",
+    "compare",
+    "--input",
+    "/mnt/data/Q010_InferenceRecovery_v1.6/results/main/seed1204/capture",
+    "--right",
+    "/mnt/data/Q010_InferenceRecovery_v1.6/results/main/seed1204/replay",
+    "--output",
+    "/mnt/data/Q010_InferenceRecovery_v1.6/results/main/seed1204/EXACT_REPLAY.json",
+    "--source-lock",
+    "930d3fb476962ff3d51a40d2add84e0c109ada09a5339c54471d6abeda53bf8c"
+  ],
+  "pid": 1250,
+  "source_lock_sha256": "930d3fb476962ff3d51a40d2add84e0c109ada09a5339c54471d6abeda53bf8c",
+  "utc": "2026-09-24T16:18:36.734248+00:00"
+}

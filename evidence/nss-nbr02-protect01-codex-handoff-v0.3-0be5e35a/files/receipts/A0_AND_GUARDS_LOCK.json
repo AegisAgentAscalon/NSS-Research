@@ -1,0 +1,109 @@
+{
+  "calibration": {
+    "G": {
+      "median_loss": 0.006258498049799929,
+      "median_margin": 0.012276683402895394,
+      "observations": 32,
+      "tau_loss": 0.006258498049799929,
+      "tau_margin": 0.012276683402895394
+    },
+    "L": {
+      "median_loss": 0.011690039549957454,
+      "median_margin": 0.022610645199115487,
+      "observations": 32,
+      "tau_loss": 0.01,
+      "tau_margin": 0.02
+    }
+  },
+  "fits": [
+    {
+      "arm": "G",
+      "development_correct": 17,
+      "fit": 0,
+      "frozen_correct": 11,
+      "gain": 6,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "G",
+      "development_correct": 18,
+      "fit": 1,
+      "frozen_correct": 17,
+      "gain": 1,
+      "initial_correct": 8,
+      "pass": 0
+    },
+    {
+      "arm": "G",
+      "development_correct": 19,
+      "fit": 2,
+      "frozen_correct": 14,
+      "gain": 5,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "G",
+      "development_correct": 17,
+      "fit": 3,
+      "frozen_correct": 14,
+      "gain": 3,
+      "initial_correct": 8,
+      "pass": 0
+    },
+    {
+      "arm": "L",
+      "development_correct": 18,
+      "fit": 0,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 18,
+      "fit": 1,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 19,
+      "fit": 2,
+      "frozen_correct": 14,
+      "gain": 5,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 18,
+      "fit": 3,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    }
+  ],
+  "heldout_not_generated": true,
+  "initial_checkpoint_digests": {
+    "0/G": "4735976fcc48a421575d87c654094d132fa33a4ac0a1a48903e5a85dcba9a815",
+    "0/L": "f9b648927b03ea792243f23aebe08841bef66372673dea84860167dbee9e1195",
+    "1/G": "2de4443212f056415e605a20b7764e461b3214092983ad844700971d201b72f2",
+    "1/L": "330a1e885936e3ca37dbdb42450b60a2e919d55f7814df85cc2af3698a16f23b",
+    "2/G": "d5308dfd9bb18b7e088f307bea707ef961cb17ebd36d1acd3e2867fa61f542c1",
+    "2/L": "26a8421ce59bf64ad831b69d7f9f44b3a8bcd4187848296575dd5c2e932bd368",
+    "3/G": "f3e7800ae5b0732cb4330d339246765b6579f0dbff37fba31d43aedde648ca81",
+    "3/L": "af1d9ba02d664c6103d03d0aba2a723e3071cf6780a9e15b610dd50313269a72"
+  },
+  "passing_fits": {
+    "G": 2,
+    "L": 4
+  },
+  "source_lock": "3b0018c298beb255330ebe85af23498b18d94c176ec319ed984773822fb749d0",
+  "status": "BASELINE_INCOMPETENT"
+}

@@ -1,0 +1,2550 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-644ef3d72a366fabd3ba",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-644ef3d72a366fabd3ba",
+        "close_identity_transform": null,
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e000",
+        "graph_seed": 9746401083321406050,
+        "graph_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "corruption_shuffled_values-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 12317933807999700754,
+        "treatment_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 10,
+      "displaced_decoy_id": 11,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "corruption_shuffled_values-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        1,
+        7,
+        12,
+        9,
+        4,
+        13,
+        8,
+        5,
+        0,
+        2,
+        11,
+        6,
+        14,
+        15,
+        3,
+        10
+      ],
+      "query_slot": 15,
+      "query_symbol_id": 15,
+      "replacement_decoy_id": 11,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e000",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e000",
+        "graph_seed": 9746401083321406050,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 12317933807999700754,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "0cd2e219091b2c367b81f3520b05ebbd9e1b876301f19dab0bfc9c97daa5b247",
+      "split": "development",
+      "stage_next_ids": [
+        6,
+        9,
+        14,
+        13,
+        5,
+        4,
+        12,
+        0
+      ],
+      "stage_row_targets": [
+        13,
+        11,
+        3,
+        12,
+        5,
+        7,
+        4,
+        2
+      ],
+      "stage_source_ids": [
+        15,
+        6,
+        9,
+        14,
+        13,
+        5,
+        4,
+        12
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        15,
+        6,
+        9,
+        14,
+        13,
+        5,
+        4,
+        12,
+        0
+      ],
+      "task_truth_hash": "191ff882c0e8469e356b6bb649aba92a44ea5de035663139fab52e7894cd3f5e",
+      "terminal_id": 0,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          15,
+          6
+        ]
+      ],
+      "truth_graph_hash": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-321975dcb2d22bd83f6c",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-321975dcb2d22bd83f6c",
+        "close_identity_transform": null,
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e001",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e001",
+        "graph_seed": 960736055451329862,
+        "graph_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "corruption_shuffled_values-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 2872455053903144239,
+        "treatment_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 7,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "corruption_shuffled_values-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        4,
+        9,
+        13,
+        14,
+        6,
+        11,
+        10,
+        15,
+        0,
+        1,
+        12,
+        7,
+        8,
+        3,
+        5,
+        2
+      ],
+      "query_slot": 4,
+      "query_symbol_id": 4,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e001",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e001",
+        "graph_seed": 960736055451329862,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 2872455053903144239,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "3fd143b497d8dc311745ec9ca3b2cb1b86f2fbd023b9e24c94d6480f94301fa4",
+      "split": "development",
+      "stage_next_ids": [
+        8,
+        1,
+        12,
+        2,
+        7,
+        14,
+        10,
+        5
+      ],
+      "stage_row_targets": [
+        0,
+        12,
+        9,
+        10,
+        15,
+        11,
+        3,
+        6
+      ],
+      "stage_source_ids": [
+        4,
+        8,
+        1,
+        12,
+        2,
+        7,
+        14,
+        10
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        4,
+        8,
+        1,
+        12,
+        2,
+        7,
+        14,
+        10,
+        5
+      ],
+      "task_truth_hash": "46742520dd6d98a0598010672c86a14e940e12aaba17af05e437bd69fe710a32",
+      "terminal_id": 5,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-01dfd3cf1af7f6dccb8b",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-01dfd3cf1af7f6dccb8b",
+        "close_identity_transform": null,
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e064",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e064",
+        "graph_seed": 7681773884686013430,
+        "graph_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 1,
+        "near_treatment": false,
+        "pair_id": "corruption_shuffled_values-s1201-e064",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 4878874779231504662,
+        "treatment_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 6,
+      "displaced_decoy_id": 14,
+      "missing": true,
+      "missing_at": 1,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "corruption_shuffled_values-s1201-e064",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        8,
+        0,
+        5,
+        10,
+        11,
+        9,
+        14,
+        7,
+        13,
+        1,
+        15,
+        2,
+        12,
+        4,
+        3,
+        6
+      ],
+      "query_slot": 4,
+      "query_symbol_id": 4,
+      "replacement_decoy_id": 14,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e064",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e064",
+        "graph_seed": 7681773884686013430,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 4878874779231504662,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "f4ec3ac6d44166b4efecf5bfcbb1d69aa0bfdad8659a1606667acb01c98755c3",
+      "split": "development",
+      "stage_next_ids": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        4,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        10,
+        2,
+        3,
+        15
+      ],
+      "task_truth_hash": "867bb6b009bd0e8c735bfb36838eed78ee7b4322502f575e09452f639802de17",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "truth_graph_hash": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-347b969715a94cd8fc84",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-347b969715a94cd8fc84",
+        "close_identity_transform": null,
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e065",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e065",
+        "graph_seed": 13842194623353756007,
+        "graph_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 2,
+        "near_treatment": false,
+        "pair_id": "corruption_shuffled_values-s1201-e065",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 3862515867283543375,
+        "treatment_seed_context": {
+          "condition_id": "corruption_shuffled_values",
+          "episode_id": "corruption_shuffled_values-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 12,
+      "displaced_decoy_id": 15,
+      "missing": true,
+      "missing_at": 2,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "corruption_shuffled_values-s1201-e065",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        14,
+        12,
+        5,
+        11,
+        3,
+        10,
+        0,
+        4,
+        2,
+        7,
+        1,
+        8,
+        15,
+        6,
+        13,
+        9
+      ],
+      "query_slot": 14,
+      "query_symbol_id": 14,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "corruption_shuffled_values",
+        "episode_id": "corruption_shuffled_values-s1201-e065",
+        "graph_pair_condition_id": "corruption_shuffled_values",
+        "graph_pair_episode_id": "corruption_shuffled_values-s1201-e065",
+        "graph_seed": 13842194623353756007,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 3862515867283543375,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "4cc0c45600bde95eb20afdbdd31a7dc275cbf88fa3836e1b805ba3af7741261b",
+      "split": "development",
+      "stage_next_ids": [
+        10,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        0,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        14,
+        10,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        14,
+        10,
+        7,
+        3,
+        1,
+        2,
+        13,
+        6,
+        0
+      ],
+      "task_truth_hash": "b3bbbefdc0527db86c88b832794d1179d9f83d9613ad9149732aa059778ddf7d",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          4
+        ]
+      ],
+      "truth_graph_hash": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f"
+    }
+  ],
+  "checkpoint": null,
+  "condition_id": "corruption_shuffled_values",
+  "depth": 8,
+  "episode_ids": [
+    "corruption_shuffled_values-s1201-e000",
+    "corruption_shuffled_values-s1201-e001",
+    "corruption_shuffled_values-s1201-e064",
+    "corruption_shuffled_values-s1201-e065"
+  ],
+  "event_count": 0,
+  "faults": {
+    "operations_by_case": [
+      {
+        "source_events": [
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-0",
+            "handle": 0,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 1,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 0
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-1",
+            "handle": 1,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 2,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 1
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-2",
+            "handle": 2,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 3,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 2
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-3",
+            "handle": 3,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 4,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 3
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-4",
+            "handle": 4,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 5,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 4
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-5",
+            "handle": 5,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 6,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 5
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-6",
+            "handle": 6,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 7,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 6
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-7",
+            "handle": 7,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 8,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 7
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-8",
+            "handle": 8,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 9,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 8
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-9",
+            "handle": 9,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 10,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 9
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-10",
+            "handle": 10,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 11,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 10
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-11",
+            "handle": 11,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 12,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 11
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-12",
+            "handle": 12,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 13,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 12
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-13",
+            "handle": 13,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 14,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 13
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-14",
+            "handle": 14,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 15,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 14
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-register-15",
+            "handle": 15,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 16,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "symbol_id": 15
+          },
+          {
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "event_id": "c-644ef3d72a366fabd3ba-graph-truth",
+            "kind": "graph_truth",
+            "protocol_id": "q010r-draft-v1",
+            "registered_symbol_ids": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 17,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "task_truth_hash": "191ff882c0e8469e356b6bb649aba92a44ea5de035663139fab52e7894cd3f5e",
+            "truth_edges": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                12
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                9
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                14
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                12,
+                0
+              ],
+              [
+                13,
+                5
+              ],
+              [
+                14,
+                13
+              ],
+              [
+                15,
+                6
+              ]
+            ],
+            "truth_graph_hash": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24"
+          }
+        ],
+        "storage_ops": [
+          {
+            "after_map_sha256": "1cc8a4fd9f8e3785795af22a7463edb23e38bd30af2168ed26098a5c22f1aa7d",
+            "after_snapshot_id": null,
+            "after_state_signature": "7101c9ff4a107b194103fa94fa8ea84e662fe4484d1e0a061b94b2cc813818fd",
+            "before_map_sha256": "212ff3cd6a30976419f2454769bba4af9fd234e9b033332b9dacdebcbd48ef67",
+            "before_snapshot_id": null,
+            "before_state_signature": "685a51daa708d088bde3ddd2f734fa6fa93235037e482645231ded42556b8246",
+            "case_id": "c-644ef3d72a366fabd3ba",
+            "destination_symbol_id": null,
+            "fault_id": "fault-4be6a2ed2670f48d-00000001",
+            "fault_parameters": {
+              "direction": "new_values[i]=old_values[permutation[i]]",
+              "draw_schedule": {
+                "order": [
+                  "permutation"
+                ],
+                "output_index_order": "ascending",
+                "size": 16
+              },
+              "operation_algorithm": "inject_shuffled_values-v1",
+              "permutation": [
+                5,
+                9,
+                10,
+                4,
+                3,
+                13,
+                7,
+                0,
+                1,
+                15,
+                11,
+                2,
+                12,
+                8,
+                6,
+                14
+              ],
+              "permutation_source": "pcg64-permutation-draw",
+              "present_rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "rng_algorithm": "numpy-pcg64-v1",
+              "rng_seed_context": {
+                "condition_id": "corruption_shuffled_values",
+                "episode_id": "c-644ef3d72a366fabd3ba-fault-e000",
+                "paired_seed": 1201,
+                "protocol_version": "Q010R-CM1",
+                "purpose": "fault_shuffle_values",
+                "split": "stress",
+                "stage_index": null
+              },
+              "rng_seed_u64": 9450553077686659880,
+              "rng_state_after": {
+                "bit_generator": "PCG64",
+                "has_uint32": 1,
+                "state": {
+                  "inc": 263935716218818311928177503082340182651,
+                  "state": 41337991495071423429575614896743853148
+                },
+                "uinteger": 975111709
+              },
+              "rng_state_before": {
+                "bit_generator": "PCG64",
+                "has_uint32": 0,
+                "state": {
+                  "inc": 263935716218818311928177503082340182651,
+                  "state": 324643430617032054917675421908862689230
+                },
+                "uinteger": 0
+              }
+            },
+            "model_id": "shared-actual-store",
+            "operation": "inject_shuffled_values",
+            "operation_id": "c-644ef3d72a366fabd3ba-fault-000",
+            "protocol_id": "q010r-draft-v1",
+            "qualified": false,
+            "reason": "fault_changes_actual_store_only",
+            "record_id": "storage-4be6a2ed2670f48d-00000049",
+            "requested_epoch": 1,
+            "requested_operation": "inject_shuffled_values",
+            "requested_revision": null,
+            "requested_scope": "study",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 49,
+            "source_identity": "579d303e303442743be2f2b998671f0fd6ffa9a22383c8aaf51a981a8205bf24",
+            "source_symbol_id": null,
+            "status": "fault_injected",
+            "transaction_id": null,
+            "truth_changed": false,
+            "truth_event_id": null
+          }
+        ]
+      },
+      {
+        "source_events": [
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-0",
+            "handle": 0,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 1,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 0
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-1",
+            "handle": 1,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 2,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 1
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-2",
+            "handle": 2,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 3,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 2
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-3",
+            "handle": 3,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 4,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 3
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-4",
+            "handle": 4,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 5,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 4
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-5",
+            "handle": 5,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 6,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 5
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-6",
+            "handle": 6,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 7,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 6
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-7",
+            "handle": 7,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 8,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 7
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-8",
+            "handle": 8,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 9,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 8
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-9",
+            "handle": 9,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 10,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 9
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-10",
+            "handle": 10,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 11,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 10
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-11",
+            "handle": 11,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 12,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 11
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-12",
+            "handle": 12,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 13,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 12
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-13",
+            "handle": 13,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 14,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 13
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-14",
+            "handle": 14,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 15,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 14
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-register-15",
+            "handle": 15,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 16,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "symbol_id": 15
+          },
+          {
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "event_id": "c-321975dcb2d22bd83f6c-graph-truth",
+            "kind": "graph_truth",
+            "protocol_id": "q010r-draft-v1",
+            "registered_symbol_ids": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 17,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "task_truth_hash": "46742520dd6d98a0598010672c86a14e940e12aaba17af05e437bd69fe710a32",
+            "truth_edges": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                8
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                14
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                10,
+                5
+              ],
+              [
+                11,
+                11
+              ],
+              [
+                12,
+                2
+              ],
+              [
+                13,
+                13
+              ],
+              [
+                14,
+                10
+              ],
+              [
+                15,
+                0
+              ]
+            ],
+            "truth_graph_hash": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122"
+          }
+        ],
+        "storage_ops": [
+          {
+            "after_map_sha256": "6f7214c40ef61929eacfca3779a3b5cb66fa7823346fa353b4eca8034fcfb928",
+            "after_snapshot_id": null,
+            "after_state_signature": "bfe550625c3337fdb6ac144569b48ddf71afdac37567c49c958b272fc6ba00a7",
+            "before_map_sha256": "ec910f71b9294b0f24ae4d00f7706c692a67ec6cbbc281415a7722cc2cc9aa66",
+            "before_snapshot_id": null,
+            "before_state_signature": "d81544788373f4017e97f2f9f090d875eb0aaa335fea6d2651aec4c7472e4229",
+            "case_id": "c-321975dcb2d22bd83f6c",
+            "destination_symbol_id": null,
+            "fault_id": "fault-f7be9702d28325f7-00000001",
+            "fault_parameters": {
+              "direction": "new_values[i]=old_values[permutation[i]]",
+              "draw_schedule": {
+                "order": [
+                  "permutation"
+                ],
+                "output_index_order": "ascending",
+                "size": 16
+              },
+              "operation_algorithm": "inject_shuffled_values-v1",
+              "permutation": [
+                4,
+                7,
+                13,
+                15,
+                5,
+                11,
+                10,
+                1,
+                6,
+                2,
+                8,
+                0,
+                3,
+                9,
+                14,
+                12
+              ],
+              "permutation_source": "pcg64-permutation-draw",
+              "present_rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "rng_algorithm": "numpy-pcg64-v1",
+              "rng_seed_context": {
+                "condition_id": "corruption_shuffled_values",
+                "episode_id": "c-321975dcb2d22bd83f6c-fault-e001",
+                "paired_seed": 1201,
+                "protocol_version": "Q010R-CM1",
+                "purpose": "fault_shuffle_values",
+                "split": "stress",
+                "stage_index": null
+              },
+              "rng_seed_u64": 15895922308576018678,
+              "rng_state_after": {
+                "bit_generator": "PCG64",
+                "has_uint32": 0,
+                "state": {
+                  "inc": 161028810350321573462486127398076062867,
+                  "state": 245684613840302793334351605860580261885
+                },
+                "uinteger": 2261699997
+              },
+              "rng_state_before": {
+                "bit_generator": "PCG64",
+                "has_uint32": 0,
+                "state": {
+                  "inc": 161028810350321573462486127398076062867,
+                  "state": 128775725295925849273611697615914198453
+                },
+                "uinteger": 0
+              }
+            },
+            "model_id": "shared-actual-store",
+            "operation": "inject_shuffled_values",
+            "operation_id": "c-321975dcb2d22bd83f6c-fault-001",
+            "protocol_id": "q010r-draft-v1",
+            "qualified": false,
+            "reason": "fault_changes_actual_store_only",
+            "record_id": "storage-f7be9702d28325f7-00000049",
+            "requested_epoch": 1,
+            "requested_operation": "inject_shuffled_values",
+            "requested_revision": null,
+            "requested_scope": "study",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 49,
+            "source_identity": "ae9bd3c162a611557e9b5402dbf88718ca4563d85ea674ab02bed9fcbb47b122",
+            "source_symbol_id": null,
+            "status": "fault_injected",
+            "transaction_id": null,
+            "truth_changed": false,
+            "truth_event_id": null
+          }
+        ]
+      },
+      {
+        "source_events": [
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-0",
+            "handle": 0,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 1,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 0
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-1",
+            "handle": 1,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 2,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 1
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-2",
+            "handle": 2,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 3,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 2
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-3",
+            "handle": 3,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 4,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 3
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-4",
+            "handle": 4,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 5,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 4
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-5",
+            "handle": 5,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 6,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 5
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-6",
+            "handle": 6,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 7,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 6
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-7",
+            "handle": 7,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 8,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 7
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-8",
+            "handle": 8,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 9,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 8
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-9",
+            "handle": 9,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 10,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 9
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-10",
+            "handle": 10,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 11,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 10
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-11",
+            "handle": 11,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 12,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 11
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-12",
+            "handle": 12,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 13,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 12
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-13",
+            "handle": 13,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 14,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 13
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-14",
+            "handle": 14,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 15,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 14
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-register-15",
+            "handle": 15,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 16,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "symbol_id": 15
+          },
+          {
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "event_id": "c-01dfd3cf1af7f6dccb8b-graph-truth",
+            "kind": "graph_truth",
+            "protocol_id": "q010r-draft-v1",
+            "registered_symbol_ids": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 17,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "task_truth_hash": "867bb6b009bd0e8c735bfb36838eed78ee7b4322502f575e09452f639802de17",
+            "truth_edges": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                15
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                2
+              ],
+              [
+                11,
+                10
+              ],
+              [
+                12,
+                12
+              ],
+              [
+                13,
+                13
+              ],
+              [
+                14,
+                0
+              ],
+              [
+                15,
+                15
+              ]
+            ],
+            "truth_graph_hash": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c"
+          }
+        ],
+        "storage_ops": [
+          {
+            "after_map_sha256": "8a510628a2363d0430b3266702d2d2f561a771fc47fec101a20a03053178cdf9",
+            "after_snapshot_id": null,
+            "after_state_signature": "a1557775a804ed6ce7a2b89ebe6f748627353edc9a7032d7d89e5b127d131a5a",
+            "before_map_sha256": "27fdf44b76dd1976b4afa3e37c8a3125e0b626bf87e18321a5e3f66bcb21b66a",
+            "before_snapshot_id": null,
+            "before_state_signature": "d11b8218c9a64c54eb797e26cdd77d4f4ae90aed6f2c05ffc9247bbaa03abc95",
+            "case_id": "c-01dfd3cf1af7f6dccb8b",
+            "destination_symbol_id": null,
+            "fault_id": "fault-f432a8ecadb54ddd-00000001",
+            "fault_parameters": {
+              "direction": "new_values[i]=old_values[permutation[i]]",
+              "draw_schedule": {
+                "order": [
+                  "permutation"
+                ],
+                "output_index_order": "ascending",
+                "size": 15
+              },
+              "operation_algorithm": "inject_shuffled_values-v1",
+              "permutation": [
+                13,
+                1,
+                8,
+                11,
+                0,
+                2,
+                6,
+                4,
+                10,
+                3,
+                14,
+                12,
+                5,
+                7,
+                9
+              ],
+              "permutation_source": "pcg64-permutation-draw",
+              "present_rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14,
+                15
+              ],
+              "rng_algorithm": "numpy-pcg64-v1",
+              "rng_seed_context": {
+                "condition_id": "corruption_shuffled_values",
+                "episode_id": "c-01dfd3cf1af7f6dccb8b-fault-e064",
+                "paired_seed": 1201,
+                "protocol_version": "Q010R-CM1",
+                "purpose": "fault_shuffle_values",
+                "split": "stress",
+                "stage_index": null
+              },
+              "rng_seed_u64": 15964863082889466678,
+              "rng_state_after": {
+                "bit_generator": "PCG64",
+                "has_uint32": 1,
+                "state": {
+                  "inc": 41358079313885431236041365217120271977,
+                  "state": 287356850468547166673563675056254263617
+                },
+                "uinteger": 2505402226
+              },
+              "rng_state_before": {
+                "bit_generator": "PCG64",
+                "has_uint32": 0,
+                "state": {
+                  "inc": 41358079313885431236041365217120271977,
+                  "state": 181752704056466389052149628410397919741
+                },
+                "uinteger": 0
+              }
+            },
+            "model_id": "shared-actual-store",
+            "operation": "inject_shuffled_values",
+            "operation_id": "c-01dfd3cf1af7f6dccb8b-fault-064",
+            "protocol_id": "q010r-draft-v1",
+            "qualified": false,
+            "reason": "fault_changes_actual_store_only",
+            "record_id": "storage-f432a8ecadb54ddd-00000047",
+            "requested_epoch": 1,
+            "requested_operation": "inject_shuffled_values",
+            "requested_revision": null,
+            "requested_scope": "study",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 47,
+            "source_identity": "7a8a0e9b166c74c7f563cdf8334707eb93843be87a32499ba207261bed126b0c",
+            "source_symbol_id": null,
+            "status": "fault_injected",
+            "transaction_id": null,
+            "truth_changed": false,
+            "truth_event_id": null
+          }
+        ]
+      },
+      {
+        "source_events": [
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-0",
+            "handle": 0,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 1,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 0
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-1",
+            "handle": 1,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 2,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 1
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-2",
+            "handle": 2,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 3,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 2
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-3",
+            "handle": 3,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 4,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 3
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-4",
+            "handle": 4,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 5,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 4
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-5",
+            "handle": 5,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 6,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 5
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-6",
+            "handle": 6,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 7,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 6
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-7",
+            "handle": 7,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 8,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 7
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-8",
+            "handle": 8,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 9,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 8
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-9",
+            "handle": 9,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 10,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 9
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-10",
+            "handle": 10,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 11,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 10
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-11",
+            "handle": 11,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 12,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 11
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-12",
+            "handle": 12,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 13,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 12
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-13",
+            "handle": 13,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 14,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 13
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-14",
+            "handle": 14,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 15,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 14
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-register-15",
+            "handle": 15,
+            "kind": "registration",
+            "protocol_id": "q010r-draft-v1",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 16,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "symbol_id": 15
+          },
+          {
+            "case_id": "c-347b969715a94cd8fc84",
+            "event_id": "c-347b969715a94cd8fc84-graph-truth",
+            "kind": "graph_truth",
+            "protocol_id": "q010r-draft-v1",
+            "registered_symbol_ids": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 17,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "task_truth_hash": "b3bbbefdc0527db86c88b832794d1179d9f83d9613ad9149732aa059778ddf7d",
+            "truth_edges": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                13
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                4,
+                4
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                6,
+                0
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                9,
+                9
+              ],
+              [
+                11,
+                11
+              ],
+              [
+                12,
+                12
+              ],
+              [
+                13,
+                6
+              ],
+              [
+                14,
+                10
+              ],
+              [
+                15,
+                4
+              ]
+            ],
+            "truth_graph_hash": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f"
+          }
+        ],
+        "storage_ops": [
+          {
+            "after_map_sha256": "1c130eee16e2ab2fb14d5894a710ad59757530625461481db0900a462a39ffc5",
+            "after_snapshot_id": null,
+            "after_state_signature": "1bc1d156533fe3d9637f64b3de250e51a776249b4996406b8565394b4431fdc3",
+            "before_map_sha256": "56e7757ee88cb96611a257895704e9457a4e45e46a5cca2112b4c0c0bea3f476",
+            "before_snapshot_id": null,
+            "before_state_signature": "5f84dddd57eb3b4639dd4f1361f4a2a906943dc7222037037ca1361bb4de5670",
+            "case_id": "c-347b969715a94cd8fc84",
+            "destination_symbol_id": null,
+            "fault_id": "fault-e3562c8c174e6d20-00000001",
+            "fault_parameters": {
+              "direction": "new_values[i]=old_values[permutation[i]]",
+              "draw_schedule": {
+                "order": [
+                  "permutation"
+                ],
+                "output_index_order": "ascending",
+                "size": 15
+              },
+              "operation_algorithm": "inject_shuffled_values-v1",
+              "permutation": [
+                9,
+                0,
+                6,
+                7,
+                1,
+                2,
+                3,
+                14,
+                8,
+                13,
+                12,
+                4,
+                5,
+                10,
+                11
+              ],
+              "permutation_source": "pcg64-permutation-draw",
+              "present_rows": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "rng_algorithm": "numpy-pcg64-v1",
+              "rng_seed_context": {
+                "condition_id": "corruption_shuffled_values",
+                "episode_id": "c-347b969715a94cd8fc84-fault-e065",
+                "paired_seed": 1201,
+                "protocol_version": "Q010R-CM1",
+                "purpose": "fault_shuffle_values",
+                "split": "stress",
+                "stage_index": null
+              },
+              "rng_seed_u64": 8764911525373522356,
+              "rng_state_after": {
+                "bit_generator": "PCG64",
+                "has_uint32": 1,
+                "state": {
+                  "inc": 275129098597998538131688367398030942003,
+                  "state": 117174949480339841676425050529217676509
+                },
+                "uinteger": 2487713620
+              },
+              "rng_state_before": {
+                "bit_generator": "PCG64",
+                "has_uint32": 0,
+                "state": {
+                  "inc": 275129098597998538131688367398030942003,
+                  "state": 321531410858778375245366293517786999290
+                },
+                "uinteger": 0
+              }
+            },
+            "model_id": "shared-actual-store",
+            "operation": "inject_shuffled_values",
+            "operation_id": "c-347b969715a94cd8fc84-fault-065",
+            "protocol_id": "q010r-draft-v1",
+            "qualified": false,
+            "reason": "fault_changes_actual_store_only",
+            "record_id": "storage-e3562c8c174e6d20-00000047",
+            "requested_epoch": 1,
+            "requested_operation": "inject_shuffled_values",
+            "requested_revision": null,
+            "requested_scope": "study",
+            "run_id": "chat13-fault",
+            "schema_version": 1,
+            "sequence": 47,
+            "source_identity": "49637ac7f8bed93beaf0349c8b36c4cdf8dc7db0ac55e9ecbb660b5c07e38d2f",
+            "source_symbol_id": null,
+            "status": "fault_injected",
+            "transaction_id": null,
+            "truth_changed": false,
+            "truth_event_id": null
+          }
+        ]
+      }
+    ]
+  },
+  "feedback_mode": "assisted",
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 15,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "213bfdd9bb7b093ac8f1e28991366f8887db6e5324039538cccecf7655c6ddef"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 4,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "8fb54c4b088d6eaca319e1b992d48f7fb04ebc8122a3895af223f599c6d5d840"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 4,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "fc90a856618abd7525ef88d39aaf71dcc1c1bd4752194c81668863c8496ecfab"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 14,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "1bf58e87c5573584a3d26458ef593baa1c1a631af528f1b1cdecb7b34940be32"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 1
+}

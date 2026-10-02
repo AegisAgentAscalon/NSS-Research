@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM02_Execution_v0.6/src/test_contract.py"
+  ],
+  "failure": null,
+  "poll_interval_seconds": 0.05,
+  "returncode": 0,
+  "sampled_cgroup_peak_bytes": 1508466688,
+  "sampled_process_tree_peak_rss_bytes": 195612672,
+  "samples": 12,
+  "shared_wall_seconds": 1520.2299914360046,
+  "stage": "prelock_contract_tests",
+  "stage_wall_seconds": 0.614764928817749,
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "total_recorded_attempted_forwards": 2395
+}

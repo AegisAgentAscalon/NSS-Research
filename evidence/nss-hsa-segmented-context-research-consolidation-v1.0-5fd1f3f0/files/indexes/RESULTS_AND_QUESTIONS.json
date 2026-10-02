@@ -1,0 +1,284 @@
+{
+  "schema": "nss.hsa-segmented.consolidation.metrics.v1",
+  "scope": "Selected original reported metrics; no rerun or pooling across studies.",
+  "questions": [
+    {
+      "id": "HSC-Q01",
+      "question": "Can the components be implemented with distinct, inspectable interfaces?",
+      "consolidated_answer": "Yes, bounded: SH01 shared records; SH02 isolated graph/plan/backend; SC01\u2013CAP01 explicit execution lifecycle."
+    },
+    {
+      "id": "HSC-Q02",
+      "question": "Does supplied hierarchy help learning a maintenance rule?",
+      "consolidated_answer": "Yes under SH01's fixed recipe and three completed pairs; not a universal dense-attention limitation."
+    },
+    {
+      "id": "HSC-Q03",
+      "question": "Does fewer attention work mean lower latency or memory?",
+      "consolidated_answer": "Not automatically. SH01 lost on time; SH02 packing helped at larger shapes; total-memory/energy superiority remains unestablished."
+    },
+    {
+      "id": "HSC-Q04",
+      "question": "Can cleanup preserve the original computation?",
+      "consolidated_answer": "SH02 preserved class decisions and numerical tolerance; historical bitwise replay mismatch remains recorded."
+    },
+    {
+      "id": "HSC-Q05",
+      "question": "Can a bounded workspace handle revisions and interrupted jobs?",
+      "consolidated_answer": "Yes on SC01/SC02 typed fixtures, with exact source/model binding and explicit deferrals."
+    },
+    {
+      "id": "HSC-Q06",
+      "question": "Does segmentation beat competent conventional caching?",
+      "consolidated_answer": "Sometimes in time, not universally; no unique answer-quality advantage shown."
+    },
+    {
+      "id": "HSC-Q07",
+      "question": "Does caching intermediate neural work improve maintenance cost?",
+      "consolidated_answer": "The tested SC02 cache saved computation but lost runtime in all 20 timing cells."
+    },
+    {
+      "id": "HSC-Q08",
+      "question": "Can required computation span packets smaller than its closure?",
+      "consolidated_answer": "Yes in CAP01 through carried joint-softmax arithmetic and external layer storage."
+    },
+    {
+      "id": "HSC-Q09",
+      "question": "Is custom hierarchical grouping necessary for that capacity?",
+      "consolidated_answer": "No in the tested implementation: ordinary multi-pass grouping matched answers and numerical agreement."
+    },
+    {
+      "id": "HSC-Q10",
+      "question": "Does more input reach reliably improve interpretation?",
+      "consolidated_answer": "Access works; larger-layout mistakes remained. This is not new-rule or deeper transitive reasoning."
+    },
+    {
+      "id": "HSC-Q11",
+      "question": "Can broader preparation improve large-layout behavior without losing the small rule?",
+      "consolidated_answer": "Yes, bounded in CAP02; 128-task HSA improved with eight-task retention, while 512-task stress remained imperfect."
+    },
+    {
+      "id": "HSC-Q12",
+      "question": "Is the proposed 25,000-language-token maintenance system established?",
+      "consolidated_answer": "No. No tokenized writer/reader or active-versus-cumulative language-token budget was tested."
+    },
+    {
+      "id": "HSC-Q13",
+      "question": "Are three hierarchy levels optimal, and is the whole NSS lifecycle qualified?",
+      "consolidated_answer": "Neither. Three is the retained working choice; depth optimization and full lifecycle remain untested."
+    }
+  ],
+  "study_order": [
+    "SH01",
+    "SH02",
+    "SC01",
+    "SC02",
+    "CAP01",
+    "CAP02"
+  ],
+  "disposition": "PARKED_FOR_INTEGRATION",
+  "sh01": {
+    "source": "SH01-R \u00a74",
+    "paired_seeds": [
+      8801,
+      8802,
+      8804
+    ],
+    "interrupted_hsa_seed": 8803,
+    "dense_correct": 5553,
+    "hsa_correct": 6133,
+    "decision_denominator": 6144,
+    "dense_whole_correct": 368,
+    "hsa_whole_correct": 758,
+    "whole_denominator": 768
+  },
+  "sh02": {
+    "source": "SH02-R \u00a7\u00a73\u20135",
+    "decisions_unchanged": 9984,
+    "historical_bitwise_failed_files": 9,
+    "historical_max_abs_difference": 2.38418579e-06,
+    "batch1_tasks": [
+      8,
+      32,
+      128,
+      512
+    ],
+    "old_hsa_ms": [
+      0.6226,
+      1.7751,
+      9.5426,
+      71.2465
+    ],
+    "packed_hsa_ms": [
+      0.7934,
+      1.2772,
+      2.5691,
+      12.6545
+    ],
+    "dense_ms": [
+      0.2663,
+      0.5324,
+      1.9619,
+      19.564
+    ]
+  },
+  "sc01": {
+    "source": "SC01-R \u00a7\u00a73\u20136",
+    "conditions": 324,
+    "answer_observations": 26604,
+    "numerical_comparisons": 106416,
+    "class_differences": 0,
+    "tolerance_failures": 0,
+    "source_tasks": [
+      8,
+      32,
+      128
+    ],
+    "active_row_caps": [
+      40,
+      128,
+      384
+    ],
+    "active_row_max": [
+      36,
+      126,
+      383
+    ]
+  },
+  "sc02": {
+    "source": "SC02-R \u00a7\u00a74\u20138",
+    "conditions": 720,
+    "answer_observations": 61620,
+    "numerical_comparisons": 246480,
+    "class_differences": 0,
+    "tolerance_failures": 0,
+    "per_arm_correct": 12199,
+    "per_arm_denominator": 12324,
+    "neural_cache_slower_cells": 20,
+    "timing_cells": 20,
+    "first_layer_demands": 61344,
+    "reused_first_layer_rows": 28800
+  },
+  "cap01": {
+    "source": "CAP01-R \u00a7\u00a72\u20136",
+    "cases": 488,
+    "primary_cases": 432,
+    "stress_cases": 24,
+    "sensitivity_cases": 32,
+    "primary_active_query_plus_key_records": 32,
+    "decisions": 3904,
+    "stage_scalar_comparisons": 4078784,
+    "class_differences": 0,
+    "tolerance_failures": 0,
+    "policy_pairs": 244,
+    "nonfrozen_results": [
+      {
+        "tasks": 8,
+        "dense": 204,
+        "hsa": 240,
+        "denominator": 240,
+        "dense_whole": 6,
+        "hsa_whole": 30,
+        "jobs": 30,
+        "scope": "primary"
+      },
+      {
+        "tasks": 32,
+        "dense": 225,
+        "hsa": 240,
+        "denominator": 240,
+        "dense_whole": 15,
+        "hsa_whole": 30,
+        "jobs": 30,
+        "scope": "primary"
+      },
+      {
+        "tasks": 128,
+        "dense": 188,
+        "hsa": 235,
+        "denominator": 240,
+        "dense_whole": 3,
+        "hsa_whole": 25,
+        "jobs": 30,
+        "scope": "primary"
+      },
+      {
+        "tasks": 512,
+        "dense": 16,
+        "hsa": 35,
+        "denominator": 40,
+        "dense_whole": 0,
+        "hsa_whole": 0,
+        "jobs": 5,
+        "scope": "one-world one-pair stress"
+      }
+    ]
+  },
+  "cap02": {
+    "source": "CAP02-R \u00a7\u00a71\u20137",
+    "main_optimizer_applications": 1152,
+    "preflight_optimizer_applications": 3,
+    "continuations": 12,
+    "endpoints": 18,
+    "worlds": 130,
+    "streamed_subset_checks": 12,
+    "hsa_nonfrozen": [
+      {
+        "tasks": 8,
+        "U": 767,
+        "S": 768,
+        "M": 768,
+        "denominator": 768,
+        "U_whole": 95,
+        "M_whole": 96,
+        "jobs": 96,
+        "scope": "primary"
+      },
+      {
+        "tasks": 32,
+        "U": 762,
+        "S": 767,
+        "M": 767,
+        "denominator": 768,
+        "U_whole": 91,
+        "M_whole": 95,
+        "jobs": 96,
+        "scope": "primary"
+      },
+      {
+        "tasks": 128,
+        "U": 749,
+        "S": 730,
+        "M": 766,
+        "denominator": 768,
+        "U_whole": 80,
+        "M_whole": 94,
+        "jobs": 96,
+        "scope": "primary"
+      },
+      {
+        "tasks": 512,
+        "U": 175,
+        "S": 177,
+        "M": 189,
+        "denominator": 192,
+        "U_whole": 11,
+        "M_whole": 21,
+        "jobs": 24,
+        "scope": "stress"
+      }
+    ],
+    "mixed_128_repaired_old_errors": 19,
+    "mixed_128_new_selected_errors": 2,
+    "mixed_512_remaining_selected_false_ready": 3
+  },
+  "not_demonstrated": [
+    "25,000 language-token maintenance",
+    "whole-night token budget",
+    "learned semantic segmentation",
+    "DARP",
+    "general identity continuity",
+    "whole NSS learning-and-adoption lifecycle",
+    "unique custom-grouping capability superiority"
+  ]
+}

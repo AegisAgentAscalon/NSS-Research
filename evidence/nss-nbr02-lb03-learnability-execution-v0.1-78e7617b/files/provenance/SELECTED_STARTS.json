@@ -1,0 +1,58 @@
+[
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4101_Q2_M8/step0000.pt",
+    "copied_to": "inputs/parents/4101_s0000.pt",
+    "sha256": "feea4b02dabca0e9143ae6ae7a11b611aab3ef4f0a52b647745ed444f64d1846"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4101_Q2_M8/step1024.pt",
+    "copied_to": "inputs/parents/4101_s1024.pt",
+    "sha256": "1619eef9bb3d769c4283c8e9a05c2dc7ca5b5a5ca4e92fa3d21dbc8afcfc5065"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4102_Q2_M8/step0000.pt",
+    "copied_to": "inputs/parents/4102_s0000.pt",
+    "sha256": "7e0643518524421c5420031545d7601eae84aaaae3ca47af9f96ba20c6252eff"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4102_Q2_M8/step1024.pt",
+    "copied_to": "inputs/parents/4102_s1024.pt",
+    "sha256": "b8dac8b11390052718a6dca0b2603ea1a387fe8718c4f7b0c62827b8eb557af0"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4103_Q2_M8/step0000.pt",
+    "copied_to": "inputs/parents/4103_s0000.pt",
+    "sha256": "4ce4bd82ca4855734ce490af183a0eb9b03857579b1caac963448082a34ccef2"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4103_Q2_M8/step1024.pt",
+    "copied_to": "inputs/parents/4103_s1024.pt",
+    "sha256": "544a7942730102eaffbd4699b796ad34fb39279a879dce191c2c8fd04cc40fc7"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4104_Q2_M8/step0000.pt",
+    "copied_to": "inputs/parents/4104_s0000.pt",
+    "sha256": "40ce116e4ec732f6c85fc27c4aabd24b76dda0f2c14a754492c8ac8b86210d2a"
+  },
+  {
+    "pass_number": 57,
+    "archive": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1.zip",
+    "member": "NSS_NBR02_LB02_Q2_TRAIN_Execution_v0.1/checkpoints/4104_Q2_M8/step1024.pt",
+    "copied_to": "inputs/parents/4104_s1024.pt",
+    "sha256": "6683f98ff9b018d61baa3a6d8b8b7c1353adf9ad2c93ef2eaf3e5052cd492f50"
+  }
+]

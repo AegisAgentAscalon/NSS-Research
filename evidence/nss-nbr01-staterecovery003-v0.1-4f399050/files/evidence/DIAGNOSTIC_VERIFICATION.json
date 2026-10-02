@@ -1,0 +1,9 @@
+{
+  "fresh_interpreter": true,
+  "local_stability_cases": 10,
+  "numerical_results_identical": true,
+  "original_sha256": "591d8ec5d18c2c93a02241655e9a7b22929879632f8968ce99ab5388572f2b03",
+  "presence_cases": 15,
+  "replayed_sha256": "591d8ec5d18c2c93a02241655e9a7b22929879632f8968ce99ab5388572f2b03",
+  "status": "PASS"
+}

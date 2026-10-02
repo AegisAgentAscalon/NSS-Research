@@ -1,0 +1,35 @@
+{
+  "per_pass_record_counts": {
+    "load": 348,
+    "management_load": 348,
+    "cue": 2548,
+    "fillers": 2438,
+    "update": 1928,
+    "frozen_receipt": 612,
+    "query": 15724,
+    "checkpoint": 562,
+    "fork": 102,
+    "fork_match": 102,
+    "derivative": 8
+  },
+  "per_record_numeric_upper_bytes": {
+    "load": 2696,
+    "management_load": 0,
+    "cue": 10648,
+    "fillers": 2112,
+    "update": 5400,
+    "frozen_receipt": 2696,
+    "query": 272,
+    "checkpoint": 10248,
+    "fork": 10704,
+    "fork_match": 2696,
+    "derivative": 2696
+  },
+  "both_passes_no_alias_numeric_upper_bytes": 113408384,
+  "max_single_metadata_and_descriptor_header": 65536,
+  "max_decoded_frame_bytes": 131072,
+  "encoded_raw_cap": 268435456,
+  "delivery_cap": 67108864,
+  "formal_whole_schema_upper_below_cap_claimed": false,
+  "method": "Shape/count evidence is separate from empirical compressibility. File monitor enforces actual encoded storage; cost admission measures complete envelopes and all prefix files, not just numeric arrays."
+}

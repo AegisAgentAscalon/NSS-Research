@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM01_Execution_v0.2/source/capture.py",
+    "--fixture",
+    "--input",
+    "/mnt/data/NSS_CM01_Execution_v0.2/raw/fixture/replay_run/inputs",
+    "--output",
+    "/mnt/data/NSS_CM01_Execution_v0.2/raw/fixture/replay_run/capture"
+  ],
+  "ended_epoch": 1790275022.2840567,
+  "name": "fixture_replay_capture",
+  "optimizer_updates": 0,
+  "peak_sampled_process_tree_rss_bytes": 426569728,
+  "returncode": 0,
+  "sampling_interval_seconds": 0.1,
+  "shared_elapsed_seconds": 732.6847796440125,
+  "stage_seconds": 3.432547092437744,
+  "started_epoch": 1790275018.8515205,
+  "status": "PASS",
+  "stop_reason": null
+}

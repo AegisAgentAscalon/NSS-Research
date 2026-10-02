@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "purpose": {
+      "type": "string",
+      "enum": [
+        "DEVELOPMENT_SYNTHETIC"
+      ]
+    },
+    "evaluation_permission": {
+      "type": "object",
+      "properties": {
+        "actor": {
+          "$ref": "experience_actor.schema.json"
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        }
+      },
+      "required": [
+        "actor",
+        "reference"
+      ],
+      "additionalProperties": false
+    },
+    "minimum_pass_basis_points": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "[A-Za-z0-9_.:-]+"
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "[A-Za-z0-9_.:-]+"
+          },
+          "checker": {
+            "type": "string",
+            "enum": [
+              "exact_integer_sequence_v1"
+            ]
+          },
+          "fixture": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 512
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 64,
+                "maxLength": 64,
+                "pattern": "[0-9a-f]{64}"
+              }
+            },
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "additionalProperties": false
+          },
+          "expected": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": -1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+              "maximum": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            },
+            "minItems": 1,
+            "maxItems": 64
+          },
+          "mandatory": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "version",
+          "checker",
+          "fixture",
+          "expected",
+          "mandatory"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 32
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "version",
+    "purpose",
+    "evaluation_permission",
+    "minimum_pass_basis_points",
+    "tests"
+  ],
+  "additionalProperties": false
+}

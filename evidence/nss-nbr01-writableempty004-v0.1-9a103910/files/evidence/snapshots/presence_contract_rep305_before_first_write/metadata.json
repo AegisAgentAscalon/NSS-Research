@@ -1,0 +1,17 @@
+{
+  "events": 2,
+  "identity": {
+    "mode": "presence_contract",
+    "repair": "3f253c2aebf72f30f38e5dfcbde33b1430fac5466ddbc90cf859cfe4f7694d4c",
+    "representation": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+    "schema": "writable-empty004/state-v1",
+    "scope": "resume-test",
+    "shape": [
+      4,
+      4,
+      16
+    ]
+  },
+  "rounds": 25,
+  "sha256": "ba4f037af952ef64baa472dd1e38ac42c9aac80ef8dc45d1ad5121339d34b8e4"
+}

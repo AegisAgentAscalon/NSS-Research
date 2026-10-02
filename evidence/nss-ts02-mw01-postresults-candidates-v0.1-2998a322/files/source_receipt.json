@@ -1,0 +1,23 @@
+{
+  "artifact": "TS02-MW01 v0.2 report-only evidence review source receipt",
+  "hash_algorithm": "SHA-256",
+  "measurement": "raw bytes of the supplied Markdown inputs",
+  "inputs": [
+    {
+      "path": ".codex-remote-attachments/01a0ca9e-7135-72f2-b263-03a0c38af737/72bbacab-a26d-4b41-8b82-115d3978edbd/1-REPORT-6-.md",
+      "bytes": 23877,
+      "sha256": "9bdfd1402cac26c76b22db8ee3a31a446ed227b92f993458a1da4f913c1617e4"
+    },
+    {
+      "path": ".codex-remote-attachments/01a0ca9e-7135-72f2-b263-03a0c38af737/72bbacab-a26d-4b41-8b82-115d3978edbd/2-CHAT_PROMPT-5-1-.md",
+      "bytes": 6585,
+      "sha256": "a5f267cd2d9aa22790cb6ef7626c85a35ba029d69be1b94fab07a401a16412be"
+    },
+    {
+      "path": ".codex-remote-attachments/01a0ca9e-7135-72f2-b263-03a0c38af737/72bbacab-a26d-4b41-8b82-115d3978edbd/3-ARCHITECTURE_EVIDENCE_UPDATE.md",
+      "bytes": 3340,
+      "sha256": "7b4badad71a894c6d80d2d1aea578f49d2f882dea091d532adb636a9d0a8c1da"
+    }
+  ],
+  "scope": "Document arithmetic and claims reviewed; no study archive, raw scores, source, checkpoints, or architecture ledger were replayed or independently inspected."
+}

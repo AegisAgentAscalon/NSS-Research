@@ -1,0 +1,29 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM02_Execution_v0.6/src/novelty.py",
+    "--input",
+    "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input",
+    "--previous",
+    "/mnt/data/NSS_CM02_Execution_v0.6/failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+    "--output",
+    "/mnt/data/NSS_CM02_Execution_v0.6/audit/MAIN_INPUT_IDENTITY.json"
+  ],
+  "failure": null,
+  "poll_interval_seconds": 0.05,
+  "returncode": 0,
+  "sampled_cgroup_peak_bytes": 1535492096,
+  "sampled_process_tree_peak_rss_bytes": 212746240,
+  "samples": 24,
+  "shared_wall_seconds": 1544.994000196457,
+  "stage": "main_input_novelty",
+  "stage_wall_seconds": 1.2414672374725342,
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "total_recorded_attempted_forwards": 2395
+}

@@ -1,0 +1,22 @@
+{
+  "status": "INCOMPLETE_INTERRUPTED_DURING_MAIN_CAPTURE",
+  "reason": "Assistant container.exec command timeout of 60 seconds terminated process group; study hard time/memory/forward ceilings not reached.",
+  "not_a_scientific_safety_failure": true,
+  "main_scoring_started": false,
+  "main_capture_complete": false,
+  "main_capture_attempts": {
+    "attempted": 1085,
+    "completed": 1084,
+    "physical_forward_batches": 1085,
+    "query_id": "058856ab561e1d10e00246877fdc1e62-08",
+    "seed": 1205
+  },
+  "all_attempts_including_failed_v0_3": 1220,
+  "recorded_final_summary_missing": true,
+  "partial_outputs_retained_verbatim": true,
+  "no_claim_all_attempted_forwards_completed": true,
+  "source_lock_sha256": "0969dd258b6260c0adf7bd9f8cdde529a16eb1972af5c76dcc79bf41dbe1dacf",
+  "next_execution_reuses_exact_cases": true,
+  "no_result_based_selection_or_retuning": true,
+  "timestamp_unix": 1790281292.3900375
+}

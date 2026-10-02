@@ -1,0 +1,123 @@
+{
+  "study": "NSS-NBR02-STATEBRIDGE01",
+  "protocol_version": "0.1",
+  "execution_version": "0.1",
+  "created_utc": "2026-09-26T03:19:37.037427+00:00",
+  "fits": 4,
+  "hidden": 64,
+  "input": 16,
+  "output": 9,
+  "parameters": 16329,
+  "initial_updates": 2000,
+  "initial_batch": 16,
+  "initial_lengths": [
+    17,
+    33
+  ],
+  "initial_lr": 0.001,
+  "initial_clip": 1.0,
+  "b_loss_weight": 1.0,
+  "checkpoint_every": 250,
+  "online_updates": 8,
+  "online_lr": 0.5,
+  "online_clip": 1.0,
+  "repair_updates": 4,
+  "repair_batch": 8,
+  "repair_length": 17,
+  "repair_lr": 0.1,
+  "repair_clip": 1.0,
+  "read_positions": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "dev_lengths": [
+    17,
+    33
+  ],
+  "test_lengths": [
+    33,
+    65
+  ],
+  "dev_scenarios": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "test_scenarios": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "main_prefixes": 32,
+  "dev_prefixes": 32,
+  "a0_joint_min": 0.95,
+  "a0_b_correct": 4,
+  "a0_state_advantage": 0.4,
+  "a0_fits_min": 3,
+  "continuation_floor": 0.95,
+  "max_parent_accuracy_drop": 0.05,
+  "b_retention_fraction": 0.875,
+  "fit_min_scenarios": 6,
+  "pooled_min_scenarios": 29,
+  "planned_updates_per_pass": 8512,
+  "update_cap_all": 18000,
+  "backward_cap_all": 18032,
+  "cell_cap_all": 12000000,
+  "head_cap_all": 12000000,
+  "time_cap_seconds": 7200,
+  "process_rss_cap": 3221225472,
+  "container_cap": 3758096384,
+  "retained_bytes_cap": 536870912,
+  "delivery_bytes_cap": 134217728,
+  "float_atol": 2e-06,
+  "float_rtol": 2e-05,
+  "probe_updates": 20,
+  "fixture_online_updates": 4,
+  "fixture_repair_updates": 4,
+  "bad_update_fixtures": 4,
+  "numpy": "2.3.5",
+  "torch": "2.10.0+cpu",
+  "seed_recipe": "int.from_bytes(sha256((study+\"/v0.1/\"+name).encode()).digest()[:8],\"big\") % (2**63-1)",
+  "baseline_weights": "new fits only; historical weights never loaded",
+  "methods": [
+    "EXACT_REVERSE_MODE"
+  ],
+  "scope_reduction": "One exact-gradient reference; does not compare G with L or change historical local learning."
+}

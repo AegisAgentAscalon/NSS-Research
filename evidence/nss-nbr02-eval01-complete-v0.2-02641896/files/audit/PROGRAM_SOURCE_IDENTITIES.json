@@ -1,0 +1,14 @@
+{
+  "OBJECTIVE_DIRECTION.md": {
+    "bytes": 12988,
+    "sha256": "109a6b218e808ab4686ea94550fcfe19cf98aaeeabb1f199641ee705823caa78"
+  },
+  "STARTING_CONTRACT.md": {
+    "bytes": 8032,
+    "sha256": "0b74e6f6796a0c0880cecc5019db858e2bb03dd12f6b62e11cbb0d83606988f1"
+  },
+  "G01_G22_REGISTER.md": {
+    "bytes": 3026,
+    "sha256": "d88db9ad87ca020d8e36ac1fd99fb52f7b9e90300a76557d4436211aba390806"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "stop_reason": null,
+  "peak_process_tree_rss": 820551680,
+  "peak_container_current": 1959301120,
+  "stage_seconds": 48.461928606033325,
+  "shared_seconds": 946.6634080410004,
+  "sampling_seconds": 0.1,
+  "pre_supervisor_not_continuously_measured": true
+}

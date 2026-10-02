@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        3
+      ]
+    },
+    "operation_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "caller_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "agent_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "project_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "session_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        }
+      },
+      "required": [
+        "agent_id",
+        "project_id",
+        "session_id"
+      ],
+      "additionalProperties": false
+    },
+    "expected_record_sha256": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    },
+    "expected_revision": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "proposer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "review": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "HUMAN_LOCAL_ATTESTATION"
+          ]
+        },
+        "reviewer_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "proposal_sha256": {
+          "type": "string",
+          "pattern": "[0-9a-f]{64}"
+        },
+        "reviewed_at": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 253402300799
+        },
+        "expires_at": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 253402300799
+        },
+        "decision": {
+          "type": "string",
+          "enum": [
+            "APPROVE"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "kind",
+        "reviewer_id",
+        "proposal_sha256",
+        "reviewed_at",
+        "expires_at",
+        "decision",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "BIND_STATE"
+      ]
+    },
+    "policy": {
+      "type": "object",
+      "properties": {
+        "policy_id": {
+          "type": "string",
+          "enum": [
+            "reviewed_symbolic_deltas_v1"
+          ]
+        },
+        "instruction_policy_sha256": {
+          "type": "string",
+          "pattern": "[0-9a-f]{64}"
+        },
+        "max_record_bytes": {
+          "type": "integer",
+          "minimum": 1024,
+          "maximum": 131072
+        }
+      },
+      "required": [
+        "policy_id",
+        "instruction_policy_sha256",
+        "max_record_bytes"
+      ],
+      "additionalProperties": false
+    },
+    "archive_binding": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": [
+            "MegaMindAlpha.ExperienceArchive001"
+          ]
+        },
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "[0-9a-f]{64}"
+        }
+      },
+      "required": [
+        "format",
+        "schema_version",
+        "locator",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "store_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "expected_configuration_sha256": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    }
+  },
+  "required": [
+    "schema_version",
+    "operation_id",
+    "caller_id",
+    "scope",
+    "expected_record_sha256",
+    "expected_revision",
+    "proposer",
+    "review",
+    "action",
+    "policy",
+    "archive_binding",
+    "store_id",
+    "task_id",
+    "expected_configuration_sha256"
+  ],
+  "additionalProperties": false
+}

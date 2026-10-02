@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "fresh_interpreters": true,
+  "same_weight_gate_metric_cells": 600,
+  "isolation_cells": 45,
+  "note": "All diagnostic counts and interventions reproduced; not a new confirmatory task."
+}

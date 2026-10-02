@@ -1,0 +1,23 @@
+{
+  "status": "DELIVERY_RESCORE_WRAPPER_FAILURE",
+  "candidate_zip_sha256": "68cedd917feb5cb8d9512f5327cb90b7e631d6b5b4259fd269d08325fc2509aa",
+  "scientific_tables_changed": false,
+  "only_audit_difference": {
+    "old_log": {
+      "events": 34632,
+      "intents": 1928,
+      "commits": 1928,
+      "unknown_attempts": [],
+      "chain": "1281a4bf6fff216565981555ddba051fab450185f45f5c31b1786607df64d939"
+    },
+    "new_closed_log": {
+      "events": 34633,
+      "intents": 1928,
+      "commits": 1928,
+      "unknown_attempts": [],
+      "chain": "b67cc88b0e3b6e360dbf3f6fa39061ebeb67cdd1e475d8f562162baa9bb03f43"
+    }
+  },
+  "cause": "Original final audit ran before CLOSE. CLOSE added one WORKER_FINISH log event. Wrapper incorrectly required the pre-close and closed log summaries to be byte-identical. No raw numerical file or result changed.",
+  "additional_model_calls": 0
+}

@@ -1,0 +1,153 @@
+{
+  "study": "NSS-NBR02-REV01",
+  "execution_version": "v0.4",
+  "scientific_protocol": "reviewed v0.2",
+  "complete_archive": {
+    "filename": "NSS_NBR02_REV01_Complete_v0.4.zip",
+    "bytes": 20961112,
+    "sha256": "f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e",
+    "study": "NSS-NBR02-REV01",
+    "execution_version": "v0.4",
+    "protocol": "reviewed v0.2",
+    "evidence_scope": "Complete newly executed study evidence, source, gradients, parameter checkpoints, scored negatives, adaptive replay and stopped attempt; historical archives are not duplicated."
+  },
+  "compact_archive": {
+    "filename": "NSS_NBR02_REV01_Codex_Handoff_v0.4.zip",
+    "bytes": 177099,
+    "sha256": "e76a4b30e17413baaa26b3431b0b18cdf61a318e9ff6b06bef1881320c19ff19",
+    "manifest_files": 28,
+    "fresh_extraction_check": {
+      "status": "PASS",
+      "verified_files": 28,
+      "model_calls": 0
+    },
+    "scope": "review-only; no raw array/model payloads"
+  },
+  "scientific_status": {
+    "study": "NSS-NBR02-REV01",
+    "execution_version": "v0.4",
+    "scientific_protocol": "reviewed v0.2",
+    "status": "COMPLETED_SCIENTIFIC_TRADEOFF",
+    "engineering": "PASS",
+    "efficacy": {
+      "G": "PASS",
+      "L": "PASS"
+    },
+    "old_label_retention": {
+      "G": "PASS",
+      "L": "FAIL"
+    },
+    "old_confidence_retention": {
+      "G": "FAIL",
+      "L": "FAIL"
+    },
+    "overall": {
+      "G": "FAIL",
+      "L": "FAIL"
+    },
+    "zero_trial_selection_or_fit_retries": true,
+    "prior_storage_stop_preserved": true,
+    "all_attempt_counts": {
+      "updates": 4024,
+      "cell": 119184,
+      "head": 38528,
+      "backward": 2024
+    },
+    "full_adaptive_replay": {
+      "frames": 24720,
+      "arrays": 71400,
+      "elements": 11946576
+    },
+    "phase_status": {
+      "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+      "NBR02": "ACTIVE",
+      "NBR03": "NOT_DISPATCHED",
+      "NBR04": "NOT_DISPATCHED"
+    },
+    "dream_maintenance": "DEFERRED_DESIGN/RET-DREAM-MAINT-001",
+    "workspace_repair": "PARKED_OPEN/RET-MW01-FIT-001",
+    "post_NBR03_foundation_return": "FCR-0103-001",
+    "parent_architecture_unchanged": true
+  },
+  "final_delivery_verification": {
+    "zip_bytes": 20961112,
+    "zip_sha256": "f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e",
+    "steps": [
+      {
+        "stage": "restore",
+        "returncode": 0,
+        "seconds": 2.771049737930298
+      },
+      {
+        "stage": "verify",
+        "returncode": 0,
+        "seconds": 0.8258175849914551
+      },
+      {
+        "stage": "rescore",
+        "returncode": 0,
+        "seconds": 11.07964277267456
+      }
+    ],
+    "status": "PASS",
+    "additional_neural_calls": 0,
+    "fresh_extraction_directory": "/mnt/data/_rev01_final_qa2",
+    "verified_files": 280,
+    "numerical_score_files_byte_identical": 10,
+    "closed_log_footer_validated": true,
+    "shared_active_seconds": 1984.6896727085114
+  },
+  "source_and_parent_checks": {
+    "status": "PASS",
+    "frozen_source_entries": 28,
+    "parent_archives_unchanged": {
+      "/mnt/data/NSS_Architecture_Ledger_v0.1.zip": "8ca191b60c8793bfd4aa8bd2e36740b3f41c1d471f19a5e0e42388db04375b43",
+      "/mnt/data/NSS_NBR02_DC01_Complete_v0.5.zip": "89408f120363c37788abd0198cdcf980a6d98f661f2cb2999e47bf472d43a421"
+    },
+    "wrapper_CLI_only_no_third_run": true
+  },
+  "adaptive_replay": {
+    "frames": 24720,
+    "arrays": 71400,
+    "elements": 11946576,
+    "scientific_files_exact_between_capture_replay": 11,
+    "relocated_scientific_score_files_exact": 10,
+    "audit_metadata": "All numerical audit fields exact; one final WORKER_FINISH append validated explicitly for relocated scoring."
+  },
+  "all_attempt_limits": {
+    "updates": {
+      "used": 4024,
+      "cap": 4500
+    },
+    "cell_examples": {
+      "used": 119184,
+      "cap": 180000
+    },
+    "head_vectors": {
+      "used": 38528,
+      "cap": 60000
+    },
+    "backwards": {
+      "used": 2024,
+      "cap": 2500
+    }
+  },
+  "retained_failures": {
+    "preflight_storage_stop_v03": "168 updates, all with durable completion; preserved and charged",
+    "first_delivery_wrapper": "Numerical scores exact but wrapper rejected single post-score CLOSE/WORKER_FINISH log append; strict footer-aware helper corrected; failed receipt retained. Locked scientific scorer, evidence, scores unchanged.",
+    "negative_neural_query_rows_primary": 1431
+  },
+  "no_additional_neural_calls_during_packaging": true,
+  "restore_commands": [
+    "python RESTORE_EVIDENCE.py",
+    "python VERIFY_STUDY.py"
+  ],
+  "report_path": "/mnt/data/NSS_NBR02_REV01_Execution_v0.4/REPORT.md",
+  "dream_concept_path": "/mnt/data/NSS_NBR02_REV01_Execution_v0.4/DREAM_MAINTENANCE.md",
+  "limitations": [
+    "Internal adaptive replay and independent NumPy scoring are not third-party/cross-device replication.",
+    "Whole native memory and per-operation latency not established; OBS-DC01-COST-001 remains open.",
+    "Same small binary grammar overlaps historical tasks; new maps/seeds are not broad generalization.",
+    "Tertiary maintenance is documented only, not implemented."
+  ]
+}

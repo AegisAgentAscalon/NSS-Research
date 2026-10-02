@@ -1,0 +1,21 @@
+{
+  "scope": "C00 ordinary-contract conformance only",
+  "per_pass": {
+    "factorial_cases": 1440,
+    "literal_corners": 44,
+    "main_reviews": 1484,
+    "additional_lifecycle_reviews_including_two_children": 28,
+    "all_reviews": 1512,
+    "lifecycle_scenarios": 14,
+    "deliberate_crash_children": 2,
+    "copied_log_corruptions": 6
+  },
+  "capture_plus_replay_reviews": 3024,
+  "caps": {"rule_calls": 10000, "lifecycle_operations": 500,
+    "seconds_after_source_lock": 1800, "worker_tree_bytes": 1073741824,
+    "output_bytes": 67108864, "delivery_zip_bytes": 16777216},
+  "neural_work": {"models_loaded": 0, "forwards": 0, "gradients": 0, "optimizer_updates": 0},
+  "scorer": "independent scalar/boolean reference; not neural model inference",
+  "omissions": ["no native learner", "no live service deployment", "no runtime state migration",
+    "no production threshold validation", "no hidden-skill generalization guarantee"]
+}

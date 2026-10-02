@@ -1,0 +1,12 @@
+{
+  "event": "CALLER_TIMEOUT",
+  "caller_limit_seconds": 90,
+  "command": "main.py --n32 then main.py --n128",
+  "retained_n32": 240,
+  "retained_n128": 233,
+  "last_complete": "n128_s942202_revisions_m8804_F.json",
+  "remaining_n128": 7,
+  "unfinished_inference_work": "unknown; no optimizer used",
+  "policy": "keep every complete output; evaluate only absent conditions with same locked runner",
+  "recorded_utc": "2026-09-28T03:16:39Z"
+}

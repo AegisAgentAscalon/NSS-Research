@@ -1,0 +1,21 @@
+{
+  "phase": "POST_PILOT_CAUSAL_DIAGNOSTIC_NOT_CONFIRMATORY",
+  "source_sha256": "1a1930abeb7f362892c57d0e4541226407e5ce32186d80606a314e4a9f8ed141",
+  "threshold": 0.5,
+  "depth": 4,
+  "delay": 128,
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "policies": [
+    "soft",
+    "close_low_only",
+    "open_high_only"
+  ],
+  "parameter_updates": 0,
+  "question": "Separate residual low-gate writes from insufficient high-gate admission."
+}

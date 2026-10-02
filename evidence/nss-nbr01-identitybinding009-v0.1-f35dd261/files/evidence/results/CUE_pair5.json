@@ -1,0 +1,89 @@
+{
+  "array_digest": "b5d4a148c617c9a277867590580f4629308c44c186f398e9411ba4b12309a5ad",
+  "array_sha256": "4f5c25e24a92f3e917b77c867a260ca3da36975293a6e1aa0f2f003969908261",
+  "configs": [
+    {
+      "batch": 1024,
+      "family": "known_clean",
+      "seed": 72955000
+    },
+    {
+      "batch": 1024,
+      "family": "known_q05",
+      "seed": 72955001
+    },
+    {
+      "batch": 1024,
+      "family": "known_q20",
+      "seed": 72955002
+    },
+    {
+      "batch": 1024,
+      "family": "novel",
+      "seed": 72955003
+    },
+    {
+      "batch": 1024,
+      "family": "near_novel",
+      "seed": 72955004
+    },
+    {
+      "batch": 1024,
+      "family": "second_missing",
+      "seed": 72955005
+    },
+    {
+      "batch": 1024,
+      "family": "second_conflicting",
+      "seed": 72955006
+    },
+    {
+      "batch": 1024,
+      "family": "second_shuffled",
+      "seed": 72955007
+    },
+    {
+      "batch": 1024,
+      "family": "both_common_noise",
+      "seed": 72955008
+    },
+    {
+      "batch": 1024,
+      "family": "novel_both_near",
+      "seed": 72955009
+    },
+    {
+      "batch": 1024,
+      "family": "identical_known",
+      "seed": 72955100
+    },
+    {
+      "batch": 1024,
+      "family": "identical_novel",
+      "seed": 72955100
+    }
+  ],
+  "cuts": {
+    "duplicate32": {
+      "distance": 0.45999999999999996,
+      "margin": 0.0
+    },
+    "independent32": {
+      "distance": 0.6199999999999999,
+      "margin": 0.0
+    },
+    "single16": {
+      "distance": 0.45999999999999996,
+      "margin": 0.0
+    },
+    "single32": {
+      "distance": 0.8599999999999999,
+      "margin": 0.0
+    }
+  },
+  "n_arrays": 240,
+  "pair": 5,
+  "stage": "CUE",
+  "status": "conditional diagnostic locked before main; extra information not equal evidence",
+  "timestamp": "2026-09-21T19:08:54.870573+00:00"
+}

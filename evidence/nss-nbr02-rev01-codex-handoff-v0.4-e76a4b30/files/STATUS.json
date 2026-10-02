@@ -1,0 +1,46 @@
+{
+  "study": "NSS-NBR02-REV01",
+  "execution_version": "v0.4",
+  "scientific_protocol": "reviewed v0.2",
+  "status": "COMPLETED_SCIENTIFIC_TRADEOFF",
+  "engineering": "PASS",
+  "efficacy": {
+    "G": "PASS",
+    "L": "PASS"
+  },
+  "old_label_retention": {
+    "G": "PASS",
+    "L": "FAIL"
+  },
+  "old_confidence_retention": {
+    "G": "FAIL",
+    "L": "FAIL"
+  },
+  "overall": {
+    "G": "FAIL",
+    "L": "FAIL"
+  },
+  "zero_trial_selection_or_fit_retries": true,
+  "prior_storage_stop_preserved": true,
+  "all_attempt_counts": {
+    "updates": 4024,
+    "cell": 119184,
+    "head": 38528,
+    "backward": 2024
+  },
+  "full_adaptive_replay": {
+    "frames": 24720,
+    "arrays": 71400,
+    "elements": 11946576
+  },
+  "phase_status": {
+    "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+    "NBR02": "ACTIVE",
+    "NBR03": "NOT_DISPATCHED",
+    "NBR04": "NOT_DISPATCHED"
+  },
+  "dream_maintenance": "DEFERRED_DESIGN/RET-DREAM-MAINT-001",
+  "workspace_repair": "PARKED_OPEN/RET-MW01-FIT-001",
+  "post_NBR03_foundation_return": "FCR-0103-001",
+  "parent_architecture_unchanged": true
+}

@@ -1,0 +1,79 @@
+{
+  "execution": "0.2",
+  "files": [
+    {
+      "bytes": 2740,
+      "path": "source/common.py",
+      "sha256": "b3dd2924249eb2391f25d8d4c24da6ac9edc0364abb2cb860e34dd7aa29fcad1"
+    },
+    {
+      "bytes": 2547,
+      "path": "source/data.py",
+      "sha256": "cbec2dd104d1bde8858f311650184adcee3799a3749273a5a6dec54b4446f88a"
+    },
+    {
+      "bytes": 3078,
+      "path": "source/model.py",
+      "sha256": "72ecdd39bdc4defaabc46b42da628749ceede9ed1a26c4ce51aab778c1a7e984"
+    },
+    {
+      "bytes": 771,
+      "path": "source/pinning.py",
+      "sha256": "99a2ef3fa47ec30f982d7b2d768903a62b5316cb6f63e0463ebcdab039eae098"
+    },
+    {
+      "bytes": 1820,
+      "path": "source/preflight.py",
+      "sha256": "c269249ee272294c044a1f66ab5116aa4ca4ce035836399af1196505ffd859af"
+    },
+    {
+      "bytes": 3812,
+      "path": "source/reference.py",
+      "sha256": "257d539bcbb575244c74d114c2984830f5f16e0e786dbf00933b3eceae361045"
+    },
+    {
+      "bytes": 15257,
+      "path": "source/run.py",
+      "sha256": "311c5685d0deefa411aa170adb13584745f919c5bf79c5ee1955e3ea16e6652b"
+    },
+    {
+      "bytes": 13106,
+      "path": "source/score.py",
+      "sha256": "6eb1516a96ae409d69f86b8ad8fa7af870abe07504881458acf8315b47d2320e"
+    },
+    {
+      "bytes": 2257,
+      "path": "source/supervise.py",
+      "sha256": "f0cdd67c545c059a4c58683362abe5a9ba98cd2b236e0c0de2541200df7c99f2"
+    },
+    {
+      "bytes": 2242,
+      "path": "protocol/CONFIG.json",
+      "sha256": "5985e03c60d6581a99eff873fc6e27e76d6c129c9c130afd0f454677279a0bb3"
+    },
+    {
+      "bytes": 10636,
+      "path": "protocol/PROTOCOL.md",
+      "sha256": "fd68113f9c7e7d6c25abaf01cd56d0b4b833615603f44e24f4a73aeace7bba61"
+    },
+    {
+      "bytes": 608,
+      "path": "protocol/WORK_AND_STORAGE.json",
+      "sha256": "4ece396460e6698fd64e6929ce2f15a55c2f71bc00245b2c25a07df00fc2dae7"
+    },
+    {
+      "bytes": 565,
+      "path": "program/SOURCE_IDENTITIES.json",
+      "sha256": "064cfbc53aad18e79dd9ae861f390ebc5ff9db25f38296ea67d484fc75e26238"
+    },
+    {
+      "bytes": 2455,
+      "path": "program/TASK_VERSION_AND_CURATION.md",
+      "sha256": "344f942c21527f7abce6cbba9ac93713fcc25199153cba928b02ed7df3dfe8fb"
+    }
+  ],
+  "prior_charged_attempts": 1,
+  "scientific_protocol": "0.1",
+  "study": "STATEBRIDGE01",
+  "utc": "2026-09-26T03:28:25.619724+00:00"
+}

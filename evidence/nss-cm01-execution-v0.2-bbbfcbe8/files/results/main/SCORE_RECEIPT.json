@@ -1,0 +1,36 @@
+{
+  "B_C_comparisons_equal": 7680,
+  "all_heldout_invalid_reference_rules_pass": true,
+  "array_elements_audited": 1108800,
+  "bound_public_exact_prediction_agreement": {
+    "attention": {
+      "comparisons": 400,
+      "identical_predictions": 308
+    },
+    "near": {
+      "comparisons": 400,
+      "identical_predictions": 342
+    },
+    "ordinary": {
+      "comparisons": 400,
+      "identical_predictions": 329
+    }
+  },
+  "control_rows": 1024,
+  "decision_rows": 23040,
+  "incorrect_decision_rows": 10571,
+  "independent_management_replays": 512,
+  "independently_reconstructed_cases": 512,
+  "kind": "main",
+  "matched_opposite_truth_pairs": 64,
+  "neural_calls_audited": 10560,
+  "no_cue_counterfactuals": 32,
+  "primary_near_heldout_families_meeting_gain_control": 5,
+  "primary_useful_reference_signal": true,
+  "producer_modules_imported": [],
+  "records": 512,
+  "source_lock_sha256": "7265605c0cf7f82b2025a38820e50ca8dd4d988a68d19463931bfc765d7d6a2d",
+  "status": "PASS_INDEPENDENT_SCORING",
+  "training_updates": 0,
+  "underflow_check": null
+}

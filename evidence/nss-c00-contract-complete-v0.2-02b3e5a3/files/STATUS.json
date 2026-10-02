@@ -1,0 +1,42 @@
+{
+  "study_id": "C00-CONTRACT01",
+  "version": "0.2",
+  "status": "COMPLETED_BOUNDED_ENGINEERING_CONFORMANCE",
+  "synthetic_only": true,
+  "contribution00": "IMPLEMENTED_MINIMAL_RULE_AND_LEDGER",
+  "contribution01": "NOT_TESTED_LEARNED_OR_PARTIAL_EVIDENCE_REVIEW",
+  "operational_thresholds": "UNSELECTED_NOT_VALIDATED",
+  "serving_deployment": false,
+  "fixture_cases": 1494,
+  "oracle_matches": 1494,
+  "lifecycle_scenarios": 14,
+  "model_loads": 0,
+  "model_forwards": 0,
+  "gradients": 0,
+  "optimizer_updates": 0,
+  "primary_plus_replay_rule_evaluations": 3044,
+  "protected_scope": "declared author-specified finite capability panel",
+  "supervised_stage_seconds": 13.333209379000095,
+  "max_sampled_worker_tree_bytes": 206192640,
+  "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+  "NBR02": "ACTIVE_RESEARCH",
+  "other_dispatch": "PAUSED",
+  "parent_architecture": "UNCHANGED",
+  "new_tests_authorized_only": "Contribution00 bounded conformance",
+  "new_open_tickets": [
+    "RET-C00-POLICY-001",
+    "RET-C00-COVERAGE-001",
+    "RET-C00-PUBLISH-001",
+    "RET-C00-AUTHORITY-001"
+  ],
+  "old_tickets_preserved": [
+    "RET-MW01-FIT-001",
+    "RET-DREAM-MAINT-001",
+    "RET-TRAIN-SELFPLAY-001",
+    "OBS-DC01-COST-001",
+    "FCR-0103-001"
+  ],
+  "all_attempt_rule_evaluations": 6069,
+  "prior_attempt": "v0.1 initial fixture pass, then withdrawn after schema QA failure; retained in attempts/v0.1",
+  "implementation_corrections": "strict Boolean authority/compatibility flags, ten regression cases"
+}

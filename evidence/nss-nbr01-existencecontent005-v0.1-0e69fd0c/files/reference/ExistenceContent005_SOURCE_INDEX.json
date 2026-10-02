@@ -1,0 +1,59 @@
+{
+  "primary_input": "NSS_NBR01_WritableEmpty004_v0.1.zip",
+  "source_representations": "HorizonBinding002 wide soft301\u2013305, copied byte-for-byte through004",
+  "source_content_maps": "StateRecovery003 recurrent501\u2013505, copied byte-for-byte through004",
+  "development": "Representation141 and parent441, a historical development pair with separate poor content-noise competence",
+  "input_archives": "See ../evidence/INPUT_BEFORE.json",
+  "source_checkpoints": {
+    "reference/recurrent_rep301_seed501.safetensors": {
+      "sha256": "0e9c472144f70069a186876b8ac6f3ac1b9a78c2d2f12e47bbfe7d18a593a29a",
+      "matches_supplied004_reference": true
+    },
+    "reference/recurrent_rep141_seed441.safetensors": {
+      "sha256": "d75b5db37767c506618fde9dff6276eb789308f8a7daa5cd3bd45ed26ef5e8a4",
+      "matches_supplied004_reference": true
+    },
+    "reference/recurrent_rep302_seed502.safetensors": {
+      "sha256": "7e3b59c3c5ca81347d492c0457fff767048bb88ff7510d4ec76701528648f222",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed302.safetensors": {
+      "sha256": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed141.safetensors": {
+      "sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+      "matches_supplied004_reference": true
+    },
+    "reference/recurrent_rep304_seed504.safetensors": {
+      "sha256": "a0c955d5e38afa91e025e3c5c39114ecb01584354da7c21f469ae26b8eaed300",
+      "matches_supplied004_reference": true
+    },
+    "reference/recurrent_rep303_seed503.safetensors": {
+      "sha256": "5726e038d132f82fda216beeb52aab30b52231708c52ef7a05badb5fd413e460",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed304.safetensors": {
+      "sha256": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+      "matches_supplied004_reference": true
+    },
+    "reference/recurrent_rep305_seed505.safetensors": {
+      "sha256": "f6623b76eaa7d7010167f2c77cfebead5043e4aa37e8f398d0e21e4e2c0158a6",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed305.safetensors": {
+      "sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed303.safetensors": {
+      "sha256": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+      "matches_supplied004_reference": true
+    },
+    "reference/soft_slots_wide_seed301.safetensors": {
+      "sha256": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+      "matches_supplied004_reference": true
+    }
+  },
+  "earlier_revised004_maps": "NOT reused as content parents; comparison here keeps the original003 content map frozen in split arms",
+  "license": "No new third-party license grant is inferred from these project files."
+}

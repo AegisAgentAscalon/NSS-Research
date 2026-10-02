@@ -1,0 +1,4 @@
+split,arm,n,correct,accuracy,known,known_correct,known_accuracy,correct_unknown,hidden_intent_wrong_bindings,safe_but_lost_recall
+fixture,I,24,21,0.875,23,20,0.8695652173913043,1,2,1
+fixture,O,24,16,0.6666666666666666,23,15,0.6521739130434783,1,0,0
+fixture,W,24,21,0.875,23,20,0.8695652173913043,1,2,1

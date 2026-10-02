@@ -1,0 +1,15 @@
+query_id,family,split,checkpoint,system,model_seed,predicted,main_expected,alternate_expected,main_correct,alternate_correct,paired_label_accuracy,new_forwards
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,O,1201,-1,6,0,0,0,0.0,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,W,1201,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,I,1201,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,X_I,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,X_S,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,X_W,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-16,CM02FIX-00,fixture,16,X_latest,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,W,1201,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,I,1201,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,O,1201,6,6,0,1,0,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,X_I,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,X_S,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,X_W,none,0,6,0,0,1,0.5,0
+448d30e207970d14087655ccdd016a1d-32,CM02FIX-00,fixture,32,X_latest,none,0,6,0,0,1,0.5,0

@@ -1,0 +1,679 @@
+{
+  "status": "EXACT_ORIGINAL_PARENT_BYTES",
+  "parent_archive_sha256": "f35dd261c2af96058f9d3647c6345fa83d4176b426f92f3aa093861759f7632a",
+  "old_starter_parent_file_count": 129,
+  "this_subset_files": 134,
+  "not_original_010_reference_copy_manifest": true,
+  "selected_files": {
+    "MANIFEST.json": {
+      "sha256": "0ee2130b17acca0f8c68375075f5011c25b57f2f19aa564dabe7becea964861f",
+      "bytes": 64912,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/MANIFEST.json"
+    },
+    "NBR01_STATUS_REVIEW.md": {
+      "sha256": "a84ef7cb6b6858de72ecb16c89f5fae4e31d5517eacd1c163fa36e154dcfb3a1",
+      "bytes": 6351,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/NBR01_STATUS_REVIEW.md"
+    },
+    "REPORT.md": {
+      "sha256": "0c22c966385907b86c1e334179dc8538fb13488e1122aa9e7e5c896b4e0c94cb",
+      "bytes": 24052,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/REPORT.md"
+    },
+    "checkpoints/binder_near_1101.json": {
+      "sha256": "69b35817fe4add4ee362d140dbb333343d0b8ec2053a9dd775b55ee82fb65065",
+      "bytes": 2164,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1101.json"
+    },
+    "checkpoints/binder_near_1101.safetensors": {
+      "sha256": "2181a5a3e9a9ee6c6d3375a4c407f850f6d591f4f5e3a68c81d031b0f50eb2f8",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1101.safetensors"
+    },
+    "checkpoints/binder_near_1102.json": {
+      "sha256": "01bb094ec0a7337a74e059027901a034d6f6adf96d15fc90bcdca9a666098a70",
+      "bytes": 2157,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1102.json"
+    },
+    "checkpoints/binder_near_1102.safetensors": {
+      "sha256": "b3a6c57b26f8a3d666d031296ea333a1cda87f9f0e5f7396746638ab9da45210",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1102.safetensors"
+    },
+    "checkpoints/binder_near_1103.json": {
+      "sha256": "ff851b1f45cbd0bb713f2ed2c1cae139bdb14b8f638e76b67b7c57878027934c",
+      "bytes": 2158,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1103.json"
+    },
+    "checkpoints/binder_near_1103.safetensors": {
+      "sha256": "90ef16dd527287de8fe82a562deada62195618162b46e9e7b3eca2c525cd0ff7",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1103.safetensors"
+    },
+    "checkpoints/binder_near_1104.json": {
+      "sha256": "33337781c4225cc108dcf3294120345e13e17be6a3d2dce1aea79fe4ed58a8d5",
+      "bytes": 2150,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1104.json"
+    },
+    "checkpoints/binder_near_1104.safetensors": {
+      "sha256": "8bb4203b4fe94151f6567408a9428df2c46055c2e1d6205c62bff0a81278ae22",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1104.safetensors"
+    },
+    "checkpoints/binder_near_1105.json": {
+      "sha256": "bc55d6106b4b43ed5d7b58349d1a8c28a2ef9ff81f0264bfd16c3c31c961b63f",
+      "bytes": 2162,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1105.json"
+    },
+    "checkpoints/binder_near_1105.safetensors": {
+      "sha256": "e0389add4f81e6aa9ab0ea993d5e706db1f3bbcb85999ca271dc5480aaeecfac",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_near_1105.safetensors"
+    },
+    "checkpoints/binder_ordinary_1101.json": {
+      "sha256": "9bc56a2bc225030d4d1ff156db9a4d5e6def22f926affa255a8f81dc2ba7ffda",
+      "bytes": 2161,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1101.json"
+    },
+    "checkpoints/binder_ordinary_1101.safetensors": {
+      "sha256": "f8e508e355257ea08aba3721c849185d1aa5682bbce4ef125b38b26647a0a4a3",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1101.safetensors"
+    },
+    "checkpoints/binder_ordinary_1102.json": {
+      "sha256": "1c54b48089474d74f24c02cdaf8c1f03dbde3af6669e2eaf53caf1bf0d8667f5",
+      "bytes": 2165,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1102.json"
+    },
+    "checkpoints/binder_ordinary_1102.safetensors": {
+      "sha256": "0742c1334d33c126d159c5d3b502fdbc1409247699a28113df8a1adb4bd5dd9f",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1102.safetensors"
+    },
+    "checkpoints/binder_ordinary_1103.json": {
+      "sha256": "1a5ac154edcc6de1ee646183c4cba2bd6a0f3acec48419e762c8c4411b757461",
+      "bytes": 2165,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1103.json"
+    },
+    "checkpoints/binder_ordinary_1103.safetensors": {
+      "sha256": "0f1ba6ecf0663f02091151cd535d1bc32360f861071b265032230b61a05623e0",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1103.safetensors"
+    },
+    "checkpoints/binder_ordinary_1104.json": {
+      "sha256": "dc12f8d48f9e30897a8d0fea254d06cddbd5be0d7caf3d5d03edc63bd58a1269",
+      "bytes": 2164,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1104.json"
+    },
+    "checkpoints/binder_ordinary_1104.safetensors": {
+      "sha256": "4fd3a080f85f36cfd6ad2351c60c6ddf581a74eb7de4472b668fb1722ca5f7cb",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1104.safetensors"
+    },
+    "checkpoints/binder_ordinary_1105.json": {
+      "sha256": "001db7ad67aa46376cb81877c615787aed5e8dc931be5ed89f15225c8ced9446",
+      "bytes": 2163,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1105.json"
+    },
+    "checkpoints/binder_ordinary_1105.safetensors": {
+      "sha256": "5fb8310c400c65ba5b900934f1b2d4f0d7ab43c83bc9ea16db2cda56edba8956",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/binder_ordinary_1105.safetensors"
+    },
+    "checkpoints/cue_calibration_1.json": {
+      "sha256": "103420c2c86810bd867339e8c5ca93dc279491a0c3a1f0054dcbf1e94ee4fd71",
+      "bytes": 1179,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_1.json"
+    },
+    "checkpoints/cue_calibration_1.npz": {
+      "sha256": "f7deaa6e5aba610006cec002d96b67eef2cfc77fd4ed1fd5e353ce505dab5a46",
+      "bytes": 144325,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_1.npz"
+    },
+    "checkpoints/cue_calibration_2.json": {
+      "sha256": "0f7707afa8c0b743d3849fc29c2a79a848f36eefddf68ebb649fa9a09a29bdfe",
+      "bytes": 1221,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_2.json"
+    },
+    "checkpoints/cue_calibration_2.npz": {
+      "sha256": "8b63aadfa623bae377c30a03c209f720e8c70ce1715a3a992da3ed949a6266dd",
+      "bytes": 144242,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_2.npz"
+    },
+    "checkpoints/cue_calibration_3.json": {
+      "sha256": "1c290cdd4f572d3ed62e28cd49776ee7c51353060d7d36af3c19ec912438d583",
+      "bytes": 1227,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_3.json"
+    },
+    "checkpoints/cue_calibration_3.npz": {
+      "sha256": "81a884732134291ae9df18b294fd2acb92fed00ed4e847687d49d8c357880b2b",
+      "bytes": 144518,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_3.npz"
+    },
+    "checkpoints/cue_calibration_4.json": {
+      "sha256": "11b64713317a28d41e58500eb692eded3ad1265e82376119837a235a36739eeb",
+      "bytes": 1178,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_4.json"
+    },
+    "checkpoints/cue_calibration_4.npz": {
+      "sha256": "f8aa56a6a0739708a404ca0d8fb266b7d05d3aa205499c3d239851f5182cd4b2",
+      "bytes": 144440,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_4.npz"
+    },
+    "checkpoints/cue_calibration_5.json": {
+      "sha256": "f565ade689475e7750a310b64a9c5a1f24951796ed77de4862ce9de04b381c76",
+      "bytes": 1223,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_5.json"
+    },
+    "checkpoints/cue_calibration_5.npz": {
+      "sha256": "69da16ae493c3e18c4507e5bb0a3c6859c18847f0119cc574e0bf994fc4a6c25",
+      "bytes": 144353,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/checkpoints/cue_calibration_5.npz"
+    },
+    "nbr009/__init__.py": {
+      "sha256": "e17a242e6c98864f7c39661dbc21a033f773df2a61e87fbfff6245c7db2e7184",
+      "bytes": 208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/__init__.py"
+    },
+    "nbr009/common.py": {
+      "sha256": "8e0bcdbc45d9937ff9df02280dfb1a947c7a9c78ec2a60b4fc24e1aac81944b3",
+      "bytes": 1768,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/common.py"
+    },
+    "nbr009/context.py": {
+      "sha256": "826e1a8f856355cb94c60d8ba3b1e84f948537b1db308d1b35cb7dd7b415d9df",
+      "bytes": 5775,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/context.py"
+    },
+    "nbr009/episodes.py": {
+      "sha256": "6d7522cb84fe871404e6f628c49c80c19cc946faf1da45627e05ebe624cd9ee1",
+      "bytes": 2144,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/episodes.py"
+    },
+    "nbr009/readout.py": {
+      "sha256": "b37e65e7a68cc095cdca20e192c928dd74eefc5f2c942460e582fa7c923715d4",
+      "bytes": 1816,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/readout.py"
+    },
+    "nbr009/score.py": {
+      "sha256": "9032f2caf514e0826e5bb31e81439975fa5f001cd89bb81b65cdfd2f1d718a48",
+      "bytes": 7314,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/score.py"
+    },
+    "nbr009/stage_a.py": {
+      "sha256": "764856e93959a1f26e9f1bdf999e15e554dfa30974ddd7bc02a1e3351673af22",
+      "bytes": 6517,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/stage_a.py"
+    },
+    "nbr009/stage_b.py": {
+      "sha256": "e655031d6d16a430e300ccdb6750956a6697aed06bd7d140b64ae273931b9a98",
+      "bytes": 7246,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/stage_b.py"
+    },
+    "nbr009/state.py": {
+      "sha256": "6f0b93485be1f4c197fc26a31b43d6eb4d5cd5bd5f3d68a4674f0bf5e84efcdc",
+      "bytes": 13359,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/state.py"
+    },
+    "nbr009/train.py": {
+      "sha256": "b49dceec43a4b566408b92ec75179c52501bd11999d2557f689eac3a81f986b2",
+      "bytes": 4020,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/nbr009/train.py"
+    },
+    "reference/Study008_REPORT.md": {
+      "sha256": "2a20f2d1537b2828958dcdcf6f12de7db2fb49f4d58144581974a87cc484cc81",
+      "bytes": 21282,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/Study008_REPORT.md"
+    },
+    "reference/parent008/checkpoints/calibration_1001.json": {
+      "sha256": "a0b2691576ca993742ce0522222dec01db243337759b2ae02dab397c53b14793",
+      "bytes": 1558,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1001.json"
+    },
+    "reference/parent008/checkpoints/calibration_1001.npz": {
+      "sha256": "a825fbee8d3b7d1b05750be36f803349f2c60c716a0a15c89bbda60d52143b4c",
+      "bytes": 667438,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1001.npz"
+    },
+    "reference/parent008/checkpoints/calibration_1002.json": {
+      "sha256": "095b6886b62ed89a53e845f6f18768f80d336dd82914c1f7d497d7e86cdcd2a5",
+      "bytes": 1552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1002.json"
+    },
+    "reference/parent008/checkpoints/calibration_1002.npz": {
+      "sha256": "0c067df2835f7200748b69b9dd4deeffbf13979af7db052d222527d682789e0b",
+      "bytes": 668299,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1002.npz"
+    },
+    "reference/parent008/checkpoints/calibration_1003.json": {
+      "sha256": "7fe2da91910ef0f9c7fa212621165f572d1c76155bee81b1ab501cb17a9e809b",
+      "bytes": 1551,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1003.json"
+    },
+    "reference/parent008/checkpoints/calibration_1003.npz": {
+      "sha256": "a07ab1b496b67aa673e8d499f54435d06a3f583c26d9300dc5a1f8a359fd33f3",
+      "bytes": 669127,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1003.npz"
+    },
+    "reference/parent008/checkpoints/calibration_1004.json": {
+      "sha256": "01d054b54e965b18737f4c5aa2eb9ce36189b5af2eb6d35b24c6db87ee32e6e1",
+      "bytes": 1551,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1004.json"
+    },
+    "reference/parent008/checkpoints/calibration_1004.npz": {
+      "sha256": "d57f67dcfaa28c0ce636d4faf0c3db24de3d339fe02fcd37ecded8f4c55ffcf8",
+      "bytes": 666911,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1004.npz"
+    },
+    "reference/parent008/checkpoints/calibration_1005.json": {
+      "sha256": "fc39eed897bb8976c7b01b211ccb629e729dceae3bd17629c29a8c2a9ae8c974",
+      "bytes": 1548,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1005.json"
+    },
+    "reference/parent008/checkpoints/calibration_1005.npz": {
+      "sha256": "9205a5e37c69574ca1134013e3e52a39a4dadabc59d77d017eaa59ae9a0b0065",
+      "bytes": 670287,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/calibration_1005.npz"
+    },
+    "reference/parent008/checkpoints/match_head_1001.json": {
+      "sha256": "0310c2c9d53b06621299e5a05a395b18d14eae9764b5d0f8c0b8cd4bcae67494",
+      "bytes": 1287,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1001.json"
+    },
+    "reference/parent008/checkpoints/match_head_1001.safetensors": {
+      "sha256": "c59cf06827d6fd4fa8fd894c813c16f2949fd52d4f1b0f074b6e53ddb0cd6a5d",
+      "bytes": 2956,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1001.safetensors"
+    },
+    "reference/parent008/checkpoints/match_head_1002.json": {
+      "sha256": "9fff84a84eaa80119b3d7c96c1fdacaa6a488ae4603883466e694d1d43fe16ec",
+      "bytes": 1290,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1002.json"
+    },
+    "reference/parent008/checkpoints/match_head_1002.safetensors": {
+      "sha256": "1e94b46d4a5bf5958ff130d384b0addca0ca5359387fc070ab27eff841c8c0b9",
+      "bytes": 2956,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1002.safetensors"
+    },
+    "reference/parent008/checkpoints/match_head_1003.json": {
+      "sha256": "05131f3356c3ab39b3d1107b865eff0970995773fe950c1a73b9de6070bcbb47",
+      "bytes": 1289,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1003.json"
+    },
+    "reference/parent008/checkpoints/match_head_1003.safetensors": {
+      "sha256": "185076b89159a42ffff816c1b0ea7d73a54e0779860ab38072e13b68304e1a45",
+      "bytes": 2956,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1003.safetensors"
+    },
+    "reference/parent008/checkpoints/match_head_1004.json": {
+      "sha256": "9d21c1ca0c215cfa7e0bb533347f8d0d87db515249ea43d798f6d3e3621d65b3",
+      "bytes": 1292,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1004.json"
+    },
+    "reference/parent008/checkpoints/match_head_1004.safetensors": {
+      "sha256": "fcbbfc8d9360944199428789e6adb77582d11d93b2dca8cce8fdf748e3091e51",
+      "bytes": 2956,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1004.safetensors"
+    },
+    "reference/parent008/checkpoints/match_head_1005.json": {
+      "sha256": "b1253589426228e27d5995ec33489fb97c560e56b27998632ff090f653966716",
+      "bytes": 1292,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1005.json"
+    },
+    "reference/parent008/checkpoints/match_head_1005.safetensors": {
+      "sha256": "9b8531ae2b081cb0cfcf59b5f7a18e83ed10d6089845e6887d3802760826fcb1",
+      "bytes": 2956,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/checkpoints/match_head_1005.safetensors"
+    },
+    "reference/parent008/nbr008/__init__.py": {
+      "sha256": "fbde327f7acf823d7f525c0933a80e4383dba8fc3bc7ecd07148a0a284dcf22f",
+      "bytes": 206,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/__init__.py"
+    },
+    "reference/parent008/nbr008/common.py": {
+      "sha256": "10eb631b016cebc165c84c18b4dbc7f10d9e0ccf1fefa7823fc65740a36fa76a",
+      "bytes": 952,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/common.py"
+    },
+    "reference/parent008/nbr008/config.py": {
+      "sha256": "b0bfeebc835dd873fa0cb70ff00ed145af57e01b377a903f730a107578d9449a",
+      "bytes": 1165,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/config.py"
+    },
+    "reference/parent008/nbr008/evaluate.py": {
+      "sha256": "312bb58ca48339c6c1f2bb3b0ae097c177fa4db7e8a5c3aa278ca18a377e554e",
+      "bytes": 11876,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/evaluate.py"
+    },
+    "reference/parent008/nbr008/membership_eval.py": {
+      "sha256": "0c0ae572e7cb134d7287c571dbf394d4bd2f101811cf7ae59237960e21a4558a",
+      "bytes": 4141,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/membership_eval.py"
+    },
+    "reference/parent008/nbr008/pipeline.py": {
+      "sha256": "8c37098cb7b4f6faf1b1bccd76b71218ad0bbcd697e084532e1119823a936ba2",
+      "bytes": 4541,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/pipeline.py"
+    },
+    "reference/parent008/nbr008/prepare.py": {
+      "sha256": "3cb9b410d660abd4cc3b8fdcd66a1f421187d6d764d8286bd457ee2b52a5e8fb",
+      "bytes": 4909,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/prepare.py"
+    },
+    "reference/parent008/nbr008/resolver.py": {
+      "sha256": "ca94fb8dbddc58bf9be40424e3c927c6d1f1b83e8c91895656b0c89689d32500",
+      "bytes": 4796,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/resolver.py"
+    },
+    "reference/parent008/nbr008/samples.py": {
+      "sha256": "9da4965a424e1be1de809c2b64e2640a1611e07408c259e83592c24317b9e9a5",
+      "bytes": 2849,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/samples.py"
+    },
+    "reference/parent008/nbr008/state.py": {
+      "sha256": "7567e395cd408b485975957ad8ecc060bd1cd485096ef6442770d601ddaceff7",
+      "bytes": 8328,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/nbr008/state.py"
+    },
+    "reference/parent008/reference/RepairBinding007_REPORT.md": {
+      "sha256": "d2bd40670f84ac7505550c80a98192b1254a64a6567c120f08bc849837c8a933",
+      "bytes": 18879,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/RepairBinding007_REPORT.md"
+    },
+    "reference/parent008/reference/nbr006/__init__.py": {
+      "sha256": "6e4517f507fde1525dffb730ef14b2b1c923fb764a5a31651ff9cf50db9c8a0a",
+      "bytes": 101,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/__init__.py"
+    },
+    "reference/parent008/reference/nbr006/common.py": {
+      "sha256": "d4e164d0a17b92619be634bc6effcf7bb373c812494a4685c00b37298583276f",
+      "bytes": 1400,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/common.py"
+    },
+    "reference/parent008/reference/nbr006/continuation.py": {
+      "sha256": "69695c51ed4008a21699f6c37115de25359f19f20199cdf5413000e9221cc0d4",
+      "bytes": 2983,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/continuation.py"
+    },
+    "reference/parent008/reference/nbr006/data.py": {
+      "sha256": "3296bec5937c1afaea49decae11c8776ecec4153493513a4adc1918b9af2485c",
+      "bytes": 2831,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/data.py"
+    },
+    "reference/parent008/reference/nbr006/eval.py": {
+      "sha256": "a7abd1c9b7aa35035375b0ee3d253aad3b375a39cf417230fde43c2c19bfd338",
+      "bytes": 9004,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/eval.py"
+    },
+    "reference/parent008/reference/nbr006/exact_eval.py": {
+      "sha256": "c0cbdaf33b98a2e1b5d4d1107eaa4de59ea8789969480383d13e75dc31fa77fb",
+      "bytes": 1724,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/exact_eval.py"
+    },
+    "reference/parent008/reference/nbr006/models.py": {
+      "sha256": "80b97089d3e6d080f2acff0f35bd0d1a4b47ca20451f230e79745fb1b06c3c69",
+      "bytes": 5593,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/models.py"
+    },
+    "reference/parent008/reference/nbr006/quick_eval.py": {
+      "sha256": "4795d49c031bcb668ca49528cbbe36e43881d1d8ea9a2b0c979400394cf1f16d",
+      "bytes": 890,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/quick_eval.py"
+    },
+    "reference/parent008/reference/nbr006/store.py": {
+      "sha256": "c6ceb7cd883f9a996793b97f998fd54ace732f9b8798750e6ec6c73651bb37af",
+      "bytes": 4485,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/store.py"
+    },
+    "reference/parent008/reference/nbr006/train.py": {
+      "sha256": "b538f84dc8cae56dbb1253c856f7d28f87872059d355245047f4e230cad9e30b",
+      "bytes": 3378,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/train.py"
+    },
+    "reference/parent008/reference/nbr006/verify.py": {
+      "sha256": "aca93a7d897c12745d50642780459a4647fc3151dc0d6f948c098f52e262222d",
+      "bytes": 2243,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr006/verify.py"
+    },
+    "reference/parent008/reference/nbr007/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr007/__init__.py"
+    },
+    "reference/parent008/reference/nbr007/repair.py": {
+      "sha256": "e15c1f874b1de79b5573669a68f8035f3a5183a27392e64036a3644e013f3f2f",
+      "bytes": 2915,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/nbr007/repair.py"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_801.json": {
+      "sha256": "57dca934803e208476850f55ba47bd8d887e61fd1edc25c900284fee9a76b9ca",
+      "bytes": 2723,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_801.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_801.safetensors": {
+      "sha256": "35851ec168fba34210a3a86c7709b46e71adc1b0c875b2c0d6cbe22faa3e65a9",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_801.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_802.json": {
+      "sha256": "3a88f13c508bed0e14b66a7a549ecd751f7f8247b3d72b04e9b2b019e9fd6df0",
+      "bytes": 2725,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_802.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_802.safetensors": {
+      "sha256": "1996820572d57a3022d9463e186a05dc88d376ae36e41f6bb14f5a8c60fffeb3",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_802.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_803.json": {
+      "sha256": "4f52c0736000680b995ccf27d921e4bedcf7b5c01f9b1b4c703c15653df6dc6c",
+      "bytes": 2720,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_803.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_803.safetensors": {
+      "sha256": "cf5347be8a7d91a61f0d372248664bd9afc2a59503b4196c9d9b4416b894372e",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_803.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_804.json": {
+      "sha256": "cab98643ea989e79bd7f0b7b20dda08790b0a50fcf77d3743d7ac05a45d6a2e6",
+      "bytes": 2723,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_804.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_804.safetensors": {
+      "sha256": "775573855c68f5bc95d7f3c90a67c5375bf2daad2d50a19f10008d7ec5c632be",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_804.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_805.json": {
+      "sha256": "b5d3d9df7ddbf0fe1bc74e429daee0599b6a2dac68daedfdb9540587459a2c1f",
+      "bytes": 2724,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_805.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/binder_805.safetensors": {
+      "sha256": "9307875e5f4d7eb56f9a827326f8e8b300c3e6a8cd4eb8fc27a8c354dfdcc60a",
+      "bytes": 3552,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/binder_805.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_801.json": {
+      "sha256": "ca511eff59ba5f017853d43af436ef2be7b40edc9e9848b288c87616a5d5abc3",
+      "bytes": 7769,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_801.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_801.safetensors": {
+      "sha256": "6fbd2d147f720af2eba20bbb1d8696c9a4fee58610a39fe96954ece1125bbe44",
+      "bytes": 11208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_801.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_802.json": {
+      "sha256": "8b7e4f1ee22459effa46da6fc90661af4058ce5e2907ffc4ef428f6542994cca",
+      "bytes": 7760,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_802.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_802.safetensors": {
+      "sha256": "a1337bedf5ea879bdc72de5c2f6ee52a50be68db453cdb440871a13e4fac2496",
+      "bytes": 11208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_802.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_803.json": {
+      "sha256": "ea908e20a9d783823c3d920253ada965c60e560c7e74642312c80372ec1d8f31",
+      "bytes": 7763,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_803.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_803.safetensors": {
+      "sha256": "5a8ce83b06be4b8982b004123cfdb487676f5a8efb919c496b74d579f2f1c709",
+      "bytes": 11208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_803.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_804.json": {
+      "sha256": "dc1dbd0053d307cb8aa0184c50708cc6efe778328e37e19b01266b5248aeea91",
+      "bytes": 7769,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_804.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_804.safetensors": {
+      "sha256": "7d81c70ed080841a6a9914e771b6507336b0c66d965c46a7b2fe556b78f0685e",
+      "bytes": 11208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_804.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_805.json": {
+      "sha256": "af1b189d7bb8eb41d92be19ad36e2f4353f56f52c494e390778cd9734557abe6",
+      "bytes": 7757,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_805.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/gated_hop_805.safetensors": {
+      "sha256": "631989eeade04ffb5dac94270ec1a1dbdfb06e94feecd6a67c12478572c0a55f",
+      "bytes": 11208,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/gated_hop_805.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_901.json": {
+      "sha256": "75a178daaf56da5fb661ee1ee3a6d32dac193bab157254964e05efe5aef05e38",
+      "bytes": 1533,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_901.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_901.safetensors": {
+      "sha256": "5243028d1a3125c34770589e12bc31a828025e9d24c73b05781c29ac53ec0bff",
+      "bytes": 1196,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_901.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_902.json": {
+      "sha256": "a30f2926b06cf7aed303c79ee5c583edbaa171ce906e91b79d703d00889ad0d6",
+      "bytes": 1532,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_902.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_902.safetensors": {
+      "sha256": "396298be4e7dbc781c689445c23f32d0f9ba587352d5f8158238503cacc57591",
+      "bytes": 1196,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_902.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_903.json": {
+      "sha256": "a7bd14bcd4578e30881dddf6558a2671e39e22330ef4b7f0832b3068fbc4098b",
+      "bytes": 1533,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_903.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_903.safetensors": {
+      "sha256": "ee0823684288587b8ed85123dccee26639cb3f0d24fd1b2d7a4f344fd667cb62",
+      "bytes": 1196,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_903.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_904.json": {
+      "sha256": "a7ad1da3023ff6dc0501ce4645975ecad651b7564d44398721767ccaca764021",
+      "bytes": 1536,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_904.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_904.safetensors": {
+      "sha256": "3359a893607e667e4e83c6299296625955555879e9c42d2b99721368c8d57b29",
+      "bytes": 1196,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_904.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_905.json": {
+      "sha256": "356bc1cd7b3c9d69d929c02a32039c069304815737e6994d877c9eb0b4bd693e",
+      "bytes": 1534,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_905.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/learned_dictionary_905.safetensors": {
+      "sha256": "97b1e07a96145903557b7bc6fb7785482c2ae7d6fa8cb5682677d9b24017a4f0",
+      "bytes": 1196,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/learned_dictionary_905.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_801.json": {
+      "sha256": "526612a6b333ce455e5cf8e4c69f0d2445f2d1b7ff15c042d47eb3afc8403d41",
+      "bytes": 7780,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_801.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_801.safetensors": {
+      "sha256": "bbac41517c64a205d37aa742df4eef97e7fe08c40c2499ac0ca8bc9cbfb00628",
+      "bytes": 3576,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_801.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_802.json": {
+      "sha256": "a90946e4ae39612e79ca5704a24ba054cd1f4246239d698a470a003faa1adcda",
+      "bytes": 7793,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_802.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_802.safetensors": {
+      "sha256": "e68293b59be10dee76c8066747f4dd5b7ba049dd22db15742ad14165870caac4",
+      "bytes": 3576,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_802.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_803.json": {
+      "sha256": "c6fc8b3d4945704fcc0a756b5fb617b2eb581892df3d3fbfac5abd71a04f297a",
+      "bytes": 7775,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_803.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_803.safetensors": {
+      "sha256": "5fce5b8d85da665487ef9bcf55d8af54c97ce649154f00efe8546a7225b648b5",
+      "bytes": 3576,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_803.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_804.json": {
+      "sha256": "88a76323ed4da7a11013d6f8805782a7f6f93c8ab29ebaa85be7c7ea814cf408",
+      "bytes": 7791,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_804.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_804.safetensors": {
+      "sha256": "5cc2a1636a4bde269bbce69501a14ba2dac3a547e5106f6fbebb287209bbaa20",
+      "bytes": 3576,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_804.safetensors"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_805.json": {
+      "sha256": "dd6d3414187f9c739c4368c11c4d053f1e2369f15fdc216fb60bc90c735af186",
+      "bytes": 7796,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_805.json"
+    },
+    "reference/parent008/reference/parent_checkpoints/record_hop_805.safetensors": {
+      "sha256": "b2b07fce31cc9c7a15b13f37f48890f88d578db3ca0144f45ab7693723f90e51",
+      "bytes": 3576,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/reference/parent008/reference/parent_checkpoints/record_hop_805.safetensors"
+    },
+    "requirements.txt": {
+      "sha256": "b76b86d4ac429b2617cfb99e7c813461b692b99e78d94487e6accba6454b1128",
+      "bytes": 187,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/requirements.txt"
+    },
+    "spec/EXECUTION_LOCK.json": {
+      "sha256": "405adde083395b360f420fccadc4bfc61bf11add54cd4913f5b23e7e90cba393",
+      "bytes": 33570,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/spec/EXECUTION_LOCK.json"
+    },
+    "spec/NSS_NBR01_IdentityBinding009_Research_Plan_v0.1.docx": {
+      "sha256": "ccb9abd20434c4f3d5af2ee9a339ada95b5a5822caa258bf1a9b59fbf4e8c91f",
+      "bytes": 48872,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/spec/NSS_NBR01_IdentityBinding009_Research_Plan_v0.1.docx"
+    },
+    "spec/NSS_NBR01_IdentityBinding009_Research_Plan_v0.1.md": {
+      "sha256": "8828905480b211479751f5a4609b22e9fb206785a65317dde0cc82a37e5674a2",
+      "bytes": 22925,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/spec/NSS_NBR01_IdentityBinding009_Research_Plan_v0.1.md"
+    },
+    "spec/RESOLVED_PROTOCOL.md": {
+      "sha256": "c09c46600765fc5ce5fb59245239749f0d19a7a7287c2f0f504628d686fe9444",
+      "bytes": 6307,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/spec/RESOLVED_PROTOCOL.md"
+    },
+    "tests/test_identity.py": {
+      "sha256": "ada48c68ebb24a95ceb7385edd96b216bfd6b75563ba53d3216c8791eb5326da",
+      "bytes": 11028,
+      "source_archive_member": "NSS_NBR01_IdentityBinding009_v0.1/tests/test_identity.py"
+    }
+  }
+}

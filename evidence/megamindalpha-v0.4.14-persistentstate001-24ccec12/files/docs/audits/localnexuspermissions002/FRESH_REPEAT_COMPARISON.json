@@ -1,0 +1,9 @@
+{
+  "same_checkpoint_hashes": true,
+  "same_metric_dictionaries": true,
+  "trials": 6,
+  "checkpoint_hashes_compared": 30,
+  "metric_groups_compared": 60,
+  "authority": "NONE",
+  "scope": "Two fresh local runs, not archived v1 or cross-platform proof"
+}

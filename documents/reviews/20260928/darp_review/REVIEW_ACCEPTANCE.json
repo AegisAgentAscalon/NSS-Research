@@ -1,0 +1,41 @@
+{
+  "utc": "2026-09-28T18:29:19.668223+00:00",
+  "scope": "DARP DOCX review and theory; no experiment",
+  "source_identity": {
+    "source": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx",
+    "bytes": 68425,
+    "sha256": "d7db73d8e79520bfe760bb4fb71fc084ceea220bca1aa5bd062ac4e58e802bd5",
+    "text_paragraph_or_table_rows": 399,
+    "words": 8024,
+    "method": "DOCX main body XML paragraphs and table rows in order; content extraction only; no render/visual review"
+  },
+  "literature": "NETWORK_ACCESS.json",
+  "worker": "Luna Max brief critique returned and accepted; no worker files",
+  "updated": [
+    {
+      "path": "ARCHITECTURE_REVIEW.md",
+      "bytes": 28012,
+      "sha256": "9ca258f3e2a5da9e85f4156372e854b41ccf9f34edd5bef14158df09183eb72e"
+    },
+    {
+      "path": "RESEARCH_STATE.md",
+      "bytes": 6584,
+      "sha256": "d290f1e6acec91d555cb109de61bccac8abef09ab7843fa5e237a73274cf30f9"
+    },
+    {
+      "path": "RESEARCH_INDEX.md",
+      "bytes": 28972,
+      "sha256": "6909855a8fd11691f2a08d872c44c651501f7aaa33ae15a82729e4f92d620161"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3815,
+      "sha256": "f01252bc1c1c0ce132d6fb6473105be0eefbfbef560f6a2376b4f05b348cd7cc"
+    },
+    {
+      "path": "RESEARCH_PLAN.md",
+      "bytes": 14241,
+      "sha256": "fd2c59049448fa692d638f2f629d270c7eabc83df331d27643cc1cf3dedab0d8"
+    }
+  ]
+}

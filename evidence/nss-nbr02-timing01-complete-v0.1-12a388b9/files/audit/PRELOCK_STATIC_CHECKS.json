@@ -1,0 +1,14 @@
+{
+  "all_source_parses": true,
+  "symbolic_totals_independently_enumerated": {
+    "cell": 197112,
+    "head": 63464,
+    "backward": 4700,
+    "update": 6136,
+    "fetch": 3712,
+    "local": 4700
+  },
+  "model_ops": 0,
+  "stimulus_draws": 0,
+  "new_prospective_gate_explicit": true
+}

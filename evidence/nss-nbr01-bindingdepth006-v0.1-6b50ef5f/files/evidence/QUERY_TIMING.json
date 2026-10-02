@@ -1,0 +1,211 @@
+{
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 1621,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T09:53:19.772780+00:00"
+  },
+  "identity_codebook_bytes_per_stream": 1156,
+  "query_code_bytes": 68,
+  "record_state_bytes_per_stream": 2192,
+  "rows": [
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 0.31702299997959926,
+      "batch128_min_ms": 0.27244100010648253,
+      "depth_allowance": 1,
+      "kind": "record_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 0.5557829999816022,
+      "batch128_min_ms": 0.5132740000135527,
+      "depth_allowance": 2,
+      "kind": "record_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 1.0783610000544286,
+      "batch128_min_ms": 1.0055459999875893,
+      "depth_allowance": 4,
+      "kind": "record_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 8,
+      "batch128_median_ms": 2.0304760000726674,
+      "batch128_min_ms": 1.972213000044576,
+      "depth_allowance": 8,
+      "kind": "record_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 0.36662300010448234,
+      "batch128_min_ms": 0.3362370000559167,
+      "depth_allowance": 1,
+      "kind": "gated_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 0.7081979998702082,
+      "batch128_min_ms": 0.6385930000760709,
+      "depth_allowance": 2,
+      "kind": "gated_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 1.3848124999640277,
+      "batch128_min_ms": 1.2691729998550727,
+      "depth_allowance": 4,
+      "kind": "gated_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 8,
+      "batch128_median_ms": 2.731923999931496,
+      "batch128_min_ms": 2.5340700001379446,
+      "depth_allowance": 8,
+      "kind": "gated_hop",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 0.28045749991179036,
+      "batch128_min_ms": 0.271199000053457,
+      "depth_allowance": 1,
+      "kind": "untied_hop4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 0.5471645000625358,
+      "batch128_min_ms": 0.5070239999440673,
+      "depth_allowance": 2,
+      "kind": "untied_hop4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 1.0806039999806671,
+      "batch128_min_ms": 1.0161820000575972,
+      "depth_allowance": 4,
+      "kind": "untied_hop4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 1.0267379999504556,
+      "batch128_min_ms": 1.0101929999564163,
+      "depth_allowance": 8,
+      "kind": "untied_hop4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 0.6631645001107245,
+      "batch128_min_ms": 0.6297589998212061,
+      "depth_allowance": 1,
+      "kind": "tied_attention",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 1.1534339998888754,
+      "batch128_min_ms": 1.125437000155216,
+      "depth_allowance": 2,
+      "kind": "tied_attention",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 2.2131770000441975,
+      "batch128_min_ms": 2.1088700000291283,
+      "depth_allowance": 4,
+      "kind": "tied_attention",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 8,
+      "batch128_median_ms": 4.152410000074269,
+      "batch128_min_ms": 4.078208000009909,
+      "depth_allowance": 8,
+      "kind": "tied_attention",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 0.6665444999498504,
+      "batch128_min_ms": 0.6238710000161518,
+      "depth_allowance": 1,
+      "kind": "fixed_attention4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 1.1952419999943231,
+      "batch128_min_ms": 1.125897000065379,
+      "depth_allowance": 2,
+      "kind": "fixed_attention4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 2.3988264998706654,
+      "batch128_min_ms": 2.096080000001166,
+      "depth_allowance": 4,
+      "kind": "fixed_attention4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 2.302285000041593,
+      "batch128_min_ms": 2.112004000082379,
+      "depth_allowance": 8,
+      "kind": "fixed_attention4",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 1,
+      "batch128_median_ms": 1.2559934999671896,
+      "batch128_min_ms": 1.2135590000070806,
+      "depth_allowance": 1,
+      "kind": "exact_lookup",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 2,
+      "batch128_median_ms": 1.2652274999709334,
+      "batch128_min_ms": 1.2347920001047896,
+      "depth_allowance": 2,
+      "kind": "exact_lookup",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 4,
+      "batch128_median_ms": 1.406119500074965,
+      "batch128_min_ms": 1.3444870000967057,
+      "depth_allowance": 4,
+      "kind": "exact_lookup",
+      "repetitions": 30
+    },
+    {
+      "actual_query_rounds": 8,
+      "batch128_median_ms": 1.5734824999071861,
+      "batch128_min_ms": 1.4902959999290033,
+      "depth_allowance": 8,
+      "kind": "exact_lookup",
+      "repetitions": 30
+    }
+  ],
+  "rss_max_kib": 319832,
+  "scope": "One checkpoint/architecture; batched CPU latency, not user-device latency or matched full pipeline cost. Exact control is Python byte-dictionary lookup, not optimized kernel."
+}

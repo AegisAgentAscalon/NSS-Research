@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-21T19:03:36.004860+00:00",
+  "kind": "Tool lifetime timeout",
+  "command": "scripts/run_main.py --pair 1",
+  "timeout_ms": 200000,
+  "main_result_files_emitted": 0,
+  "thresholds_and_source_changed": false,
+  "action": "Run same locked commands as local subprocesses and poll during this turn. Pair1 restarts from same inputs; no score or seed excluded."
+}

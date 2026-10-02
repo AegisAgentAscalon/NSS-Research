@@ -1,0 +1,16 @@
+{
+  "status": "PASS_FROZEN_REJECTION_REPRODUCED_ON_FRESH_MAIN_AND_AMENDED_ACCEPTANCE",
+  "seed": 1201,
+  "condition": "durability_sigma02_no_maintenance_livewrite64",
+  "checkpoint": 64,
+  "reader": "ordinary",
+  "step_zero_based": 0,
+  "frozen_rejection": "Torch softmax component 12 exceeds the declared float64 bound",
+  "unchanged_raw_capture": "results/main/seed1201/capture/durability_sigma02_no_maintenance_livewrite64/cp0064.npz",
+  "unchanged_capture_sha256": "175c6a2cbaabc402dc775a49e959636d27f41af095118bee5832616e483aee98",
+  "fresh_fixture_sha256": "fffc59aa08ac1a4ad2b10575903c64439ff92b23aeb87e6221fe2fd95f64ae39",
+  "batch_size": 128,
+  "exact_cpu_replay_unchanged": true,
+  "original_historical_row_recovered": false,
+  "note": "Full128-case batch retained to preserve CPU reduction layout. This is newly regenerated evidence, not the absent historical raw row."
+}

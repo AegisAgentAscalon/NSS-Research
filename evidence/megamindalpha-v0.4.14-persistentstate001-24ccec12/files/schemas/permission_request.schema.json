@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "request_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "caller_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "operation": {
+      "const": "NEURAL_PROBE_REPLAY"
+    },
+    "policy_sha256": {
+      "const": "11a2e3c1d26e9d7b12d098d853135da88f40c68efcc00054e564fca0a79d7e7a"
+    },
+    "qualification_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "certificate_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "claim": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "TRANSITION"
+            },
+            "source": {
+              "const": "AB"
+            },
+            "destination": {
+              "const": "A"
+            },
+            "mode": {
+              "const": "replay"
+            }
+          },
+          "required": [
+            "kind",
+            "source",
+            "destination",
+            "mode"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "TRANSITION"
+            },
+            "source": {
+              "const": "A"
+            },
+            "destination": {
+              "const": "CORE"
+            },
+            "mode": {
+              "const": "replay"
+            }
+          },
+          "required": [
+            "kind",
+            "source",
+            "destination",
+            "mode"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "binding": {
+      "$ref": "qualification_binding.schema.json"
+    },
+    "inputs": {
+      "const": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      }
+    },
+    "source_state_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "action_receipts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+          },
+          "receipt": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "key",
+          "receipt"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 32,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "caller_id",
+    "task_id",
+    "operation",
+    "policy_sha256",
+    "qualification_id",
+    "certificate_sha256",
+    "claim",
+    "binding",
+    "inputs",
+    "source_state_sha256",
+    "action_receipts"
+  ],
+  "additionalProperties": false
+}

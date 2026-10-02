@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "id": "dataset",
+      "spec": "spec/dataset_snapshot_flows.json",
+      "output": "docs/DATASET_SNAPSHOT_LOGIC.md",
+      "heading": "# DatasetSnapshot001 \u2014 implementation logic",
+      "introduction": "Two helpers of the existing Builder/Dataset Curator and Experience Archive. These graphs describe software contracts, not learned curation or release authorization.",
+      "parents": [
+        "builder",
+        "experience"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "spec": "spec/evaluation_run_flows.json",
+      "output": "docs/EVALUATION_RUN_LOGIC.md",
+      "heading": "# EvaluationRun001 \u2014 pseudocode implementation flows",
+      "introduction": "Three helpers under the existing evaluation/qualification boundary. A completed development evaluation is NOT qualification or deployment permission. A successful operation may return a FAIL or INCONCLUSIVE evaluation verdict.",
+      "parents": [
+        "qualification"
+      ]
+    },
+    {
+      "id": "neural",
+      "spec": "spec/neural_probe_flows.json",
+      "output": "docs/NEURAL_PROBE_LOGIC.md",
+      "heading": "# NeuralProbe001 \u2014 implementation logic",
+      "introduction": "Three subordinate experiment flows. `partial-simulator` is the inherited schema-v2 coverage label; the forward computation is real PyTorch, but approval and runtime hardware remain fixtures. Not production qualification.",
+      "parents": []
+    },
+    {
+      "id": "qualification",
+      "spec": "spec/qualification_evidence_flows.json",
+      "output": "docs/QUALIFICATION_EVIDENCE_LOGIC.md",
+      "heading": "# QualificationEvidence002 \u2014 executable workflow logic",
+      "introduction": "Trusted-local workflow, not authenticated authority. SUCCESS may return a rejected or inconclusive review record: only a QUALIFIED certificate can satisfy its exact claim. No result authorizes deployment.",
+      "parents": [
+        "qualification"
+      ]
+    },
+    {
+      "id": "permission",
+      "spec": "spec/local_nexus_permissions_flows.json",
+      "output": "docs/LOCAL_NEXUS_PERMISSIONS_LOGIC.md",
+      "heading": "# LocalNexusPermissions002 \u2014 protocol logic",
+      "introduction": "Trusted local protocol, not authenticated Nexus or an Aegis Runtime execution permit. Terminal SUCCESS can mean historical receipt or abandonment, not dispatch permission.",
+      "parents": [
+        "nexus"
+      ]
+    },
+    {
+      "id": "generation",
+      "spec": "spec/overlay_generation_flows.json",
+      "output": "docs/OVERLAY_GENERATION_LOGIC.md",
+      "heading": "# OverlayGenerationManager001 \u2014 local catalogue lifecycle",
+      "introduction": "A whole family is staged and its catalogue pointer/archive/receipt published atomically. This is not device loading or production deployment. History is not renewed permission.",
+      "parents": [
+        "overlay_generation"
+      ]
+    },
+    {
+      "id": "catalog",
+      "spec": "spec/overlay_catalog_flows.json",
+      "output": "docs/OVERLAY_CATALOG_LOGIC.md",
+      "heading": "# OverlayCatalogController001 \u2014 implementation logic",
+      "introduction": "Three helpers for reviewed catalogue selection and task-bound stage lifecycle. Cost/labels are fixtures; no learned routing, native paging, or execution authority.",
+      "parents": [
+        "overlay_index"
+      ]
+    },
+    {
+      "id": "context",
+      "spec": "spec/context_retrieval_flows.json",
+      "output": "docs/CONTEXT_RETRIEVAL_LOGIC.md",
+      "heading": "# ContextRetrieval001 \u2014 software context logic",
+      "introduction": "Three read-only helpers of the existing context contract. Exact source-aware packets use a canonical-JSON byte budget. Native HSA/MSA, learned retrieval, tokenization and task mutation remain absent.",
+      "parents": [
+        "context_manager",
+        "token_context_abi"
+      ]
+    },
+    {
+      "id": "learner",
+      "parents": [
+        "builder",
+        "overlay_trainer"
+      ],
+      "spec": "spec/bounded_learner_flows.json",
+      "output": "docs/BOUNDED_LEARNER_LOGIC.md",
+      "heading": "# BoundedLearnerCoordinator001 logic",
+      "introduction": "Fixed local workflow through proposal. Dataset/candidate/evaluation owners stay authoritative; partial or unsupported acceptance fails closed."
+    },
+    {
+      "id": "candidate",
+      "spec": "spec/candidate_acceptance_flows.json",
+      "output": "docs/CANDIDATE_ACCEPTANCE_LOGIC.md",
+      "heading": "# CandidateAcceptance001 \u2014 bounded integrated acceptance logic",
+      "introduction": "A separate installed candidate-evidence adapter closes the local human-assisted learning/adoption/rollback loop. Roles remain attestations; no self-approval, native Runtime permit, generic neural-state migration or production authority.",
+      "parents": [
+        "qualification",
+        "overlay_generation"
+      ]
+    },
+    {
+      "id": "state",
+      "spec": "spec/persistent_state_flows.json",
+      "output": "docs/PERSISTENT_STATE_LOGIC.md",
+      "heading": "# PersistentState001 \u2014 reviewed scoped state logic",
+      "introduction": "Three helper flows extend existing Generations/TaskRecord and read-only context. Local reviewer labels are attestations; data is not root instruction, permission, truth or learned temporal state.",
+      "parents": [
+        "working_ar"
+      ]
+    }
+  ]
+}

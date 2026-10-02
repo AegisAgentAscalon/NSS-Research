@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETE_INDEPENDENTLY_SCORED_COMPARISON_NOT_PRODUCT_QUALIFICATION",
+  "criteria_sha256": "037bed12ef4a342564f8004e6e41f519f69d3e026bc5dea5210f0599f317a617",
+  "main_query_chains": 449640,
+  "metric_rows": 7800,
+  "conditions": 64,
+  "seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "input_scores": [
+    {
+      "seed": 1201,
+      "sha256": "ed1570c450d05a79c426c0c399b0effaab08b2142356599873052533c0d00f8e",
+      "verification_sha256": "3d3d82eed62310d5eb712d7bc70c8fb1b989ae1c8565974059895e226f1e3373"
+    },
+    {
+      "seed": 1202,
+      "sha256": "91425488b2b95479dcfd133b258a19604ffcb70d17297123d9fdf7517cc2012a",
+      "verification_sha256": "4e9fbf6926e41a5e04a555476b8cdfbb1d7a7c00d303decfdd5bebea5a3d7d95"
+    },
+    {
+      "seed": 1203,
+      "sha256": "4d42c7e83876824dd0f920c9b170e09401229d90d99ab93154b582eedca8db20",
+      "verification_sha256": "bac8bc8f390ecaa67e6bc9eb93514447113dc40a7e8b4f17dcff49e938e6363a"
+    },
+    {
+      "seed": 1204,
+      "sha256": "a72a53b43682fce324911fd324a01ea9f55ab7b9c8bbf67de83c015ddfc74254",
+      "verification_sha256": "daa41bc5011e06d74b1263c8dbcc3ee27ed1f0f7979e37ff818b7e6cdcba3d46"
+    },
+    {
+      "seed": 1205,
+      "sha256": "eb8e3731e9b603dce12a0e1471189bdb821ae4818a1913dc439be8488601175e",
+      "verification_sha256": "d7fb6efa835317ff74bbedd5103caab40bf5e8f07ee100a602f15ae58e9fb46d"
+    }
+  ],
+  "candidates": [
+    {
+      "role": "ordinary",
+      "pooled_gate_pass": true,
+      "pooled_failures": [],
+      "per_seed": [
+        {
+          "seed": 1201,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1202,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1203,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1204,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1205,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "strict_all_seed_gate_pass": true
+    },
+    {
+      "role": "near",
+      "pooled_gate_pass": true,
+      "pooled_failures": [],
+      "per_seed": [
+        {
+          "seed": 1201,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1202,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1203,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1204,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1205,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "strict_all_seed_gate_pass": true
+    },
+    {
+      "role": "attention",
+      "pooled_gate_pass": true,
+      "pooled_failures": [],
+      "per_seed": [
+        {
+          "seed": 1201,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1202,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1203,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1204,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        },
+        {
+          "seed": 1205,
+          "checks": 83,
+          "passed": true,
+          "failures": []
+        }
+      ],
+      "strict_all_seed_gate_pass": true
+    }
+  ],
+  "limits": "new reconstruction criteria .90 core/.95 direct/.90 cadence8 checkpoint, not historical .95 all-pair study. All diagnostics retained; pooled and stronger all-pair gates separately reported."
+}

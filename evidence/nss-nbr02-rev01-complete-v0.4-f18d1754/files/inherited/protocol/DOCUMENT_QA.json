@@ -1,0 +1,24 @@
+{
+  "kind": "documentation QA only",
+  "rendered_page_count": 10,
+  "all_pages_visually_inspected": true,
+  "page_layout": "no clipping, overlaps or missing-glyph defects observed",
+  "docx_sha256": "562925bc4cc5c5baf35937b39b6b1e2c53c5db018f02e6c911468a0b72d2655a",
+  "schema_definition_validated": true,
+  "source_bytes_unchanged": true,
+  "scientific_runtime_imported": false,
+  "experimental_execution": false,
+  "page_image_hashes": {
+    "page-1.png": "3d2a27ea4db3e3a976226a278da53609b07aa93a8e06e5a7a3c5ebb6a2419f79",
+    "page-2.png": "bc02189b6e62e36d7041793acc220e5a6191f8f3962b4adb0d3f524a7842023c",
+    "page-3.png": "103e285abcee5ab3a5eddaf955f2317704111915bca4856888090954a28eaa25",
+    "page-4.png": "848a577c0cb54e5785bd3eb4447e4ed337c0a10feeb66f372004d7264b9d7848",
+    "page-5.png": "93818e707d4bb4759236b2d1f0038004159bf60e0aafdf5b20cd65c283d878fc",
+    "page-6.png": "e92a6e2406b4ac2a8ba4f1bb49da326cb687b4c1bffb1dda9594147cdcdf04e9",
+    "page-7.png": "7b97aa3a1c27a38b98aec4398b4e6ddd6e0c21a0abf50d74819b4779cc4572e5",
+    "page-8.png": "b7917d6e02cb1a78f8fdaf67738f04caf674e614f240e7f12b5eb091a06e2a2c",
+    "page-9.png": "3248e6850a24e2a9915b6979851a4f3559a161f9e3ef1291db73d90cfe7248d9",
+    "page-10.png": "396ca50acfe748aa54817e10fd4952610ae9c80e74749e147c4004c894b6fa96"
+  },
+  "QA_images_shipped": false
+}

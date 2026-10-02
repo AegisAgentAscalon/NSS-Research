@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-21T17:57:03.384206+00:00",
+  "kind": "lossless result transport, NOT low-bit neural storage",
+  "files": [
+    {
+      "original_path": "results/membership_pair1.npz",
+      "original_bytes": 6186198,
+      "original_sha256": "e2c50818395d42485375baeee2adcfba081096c88d22ca6494e8b4c2ff3c439f",
+      "transport_path": "results/membership_pair1.npz.xz",
+      "transport_bytes": 1834820,
+      "transport_sha256": "1f9a3af7fd62fa7e122be65585602e1a7341cffe5a3e0b0de019dd888a77adc0",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/membership_pair2.npz",
+      "original_bytes": 6189920,
+      "original_sha256": "da9dfc83e3f79494e097416f9695719eecfafa7455dd3bccc1c45d22407587fb",
+      "transport_path": "results/membership_pair2.npz.xz",
+      "transport_bytes": 1834024,
+      "transport_sha256": "9d568e83dc2d68f7476b9638f5de9a74dd049ef7cfa8680479d67463cc8c37dd",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/membership_pair3.npz",
+      "original_bytes": 6185571,
+      "original_sha256": "d32c01d1b38eb44951e5813103d97d930ff86dff523053c6dbaf0eabddb12fac",
+      "transport_path": "results/membership_pair3.npz.xz",
+      "transport_bytes": 1832896,
+      "transport_sha256": "6acc64fe4b775cacda2fcbe9077ec08aa2e2c8b4da3d50219cae7af87fb63f03",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/membership_pair4.npz",
+      "original_bytes": 6188292,
+      "original_sha256": "f8f805b3f25beb8b967cffbf2094b58c79c861613ef87dee256577324f0f38c9",
+      "transport_path": "results/membership_pair4.npz.xz",
+      "transport_bytes": 1834860,
+      "transport_sha256": "1ac4c4e6712005313543b990164f77bf18559ca4aee72980bc7e6968d8aee237",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/membership_pair5.npz",
+      "original_bytes": 6190044,
+      "original_sha256": "e5a9c0605f417203d7bf748f7fa300cf2c9be77d9e1816d78e8c00a3ce3aa5a3",
+      "transport_path": "results/membership_pair5.npz.xz",
+      "transport_bytes": 1824308,
+      "transport_sha256": "7fd749cfe1ad1f18c28d1731546587a754a7cd117b7ef08024929cbd3bb6183d",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/state_pair1.npz",
+      "original_bytes": 40878940,
+      "original_sha256": "3337382150300fe9982d6b3b9f457f81faa22cb16cf8013479759fbbace7e432",
+      "transport_path": "results/state_pair1.npz.xz",
+      "transport_bytes": 7412764,
+      "transport_sha256": "dd588a0a4e1702184896016e04bea6fe3b50e96f8df9654c10514240aa1f97b8",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/state_pair2.npz",
+      "original_bytes": 41174792,
+      "original_sha256": "cf111bf0f30332bd3fc962c7ec9ea1e5e648e00dd3158e4e38f511d727f63789",
+      "transport_path": "results/state_pair2.npz.xz",
+      "transport_bytes": 7341588,
+      "transport_sha256": "c9f06bc2b581df4e035b651d875ab9b7af33b583a1fcc90b62930d6827feca20",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/state_pair3.npz",
+      "original_bytes": 41249845,
+      "original_sha256": "bd94506adb0239ed64042fd8f7dfb802bc4f2ae78b9256ff3f55483a2e47c7fb",
+      "transport_path": "results/state_pair3.npz.xz",
+      "transport_bytes": 7448816,
+      "transport_sha256": "f7c15c37002fd7b687c70a16cd050091748211579200cfae03c569c51dc7e759",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/state_pair4.npz",
+      "original_bytes": 41278322,
+      "original_sha256": "04422b859f8149035dc17c21c4b30c8948519d5f24e19064f96b9305fa88c0b3",
+      "transport_path": "results/state_pair4.npz.xz",
+      "transport_bytes": 7342148,
+      "transport_sha256": "c982d5aff43c48ab4c31dcbbcc5be9f8a62bb5ca7e4400641a64a99c0dd37346",
+      "lossless_roundtrip": true
+    },
+    {
+      "original_path": "results/state_pair5.npz",
+      "original_bytes": 41047310,
+      "original_sha256": "398c1b0ea4ec08964d1d50750ccd4f012ac0e2743799ed84d381de9c75ccbd58",
+      "transport_path": "results/state_pair5.npz.xz",
+      "transport_bytes": 7332100,
+      "transport_sha256": "48e1301cf1c0dab847f6263f985144d2bf5270d98b073e64a5890a376d6fdb0b",
+      "lossless_roundtrip": true
+    }
+  ],
+  "seconds": 27.645077474000118
+}

@@ -1,0 +1,181 @@
+{
+  "entries": [
+    {
+      "arrays": 260,
+      "kind": "record_hop",
+      "rows": 260,
+      "seed": 801,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "gated_hop",
+      "rows": 260,
+      "seed": 801,
+      "status": "PASS"
+    },
+    {
+      "arrays": 284,
+      "kind": "untied_hop4",
+      "rows": 284,
+      "seed": 801,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "tied_attention",
+      "rows": 260,
+      "seed": 801,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "fixed_attention4",
+      "rows": 260,
+      "seed": 801,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "record_hop",
+      "rows": 260,
+      "seed": 802,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "gated_hop",
+      "rows": 260,
+      "seed": 802,
+      "status": "PASS"
+    },
+    {
+      "arrays": 284,
+      "kind": "untied_hop4",
+      "rows": 284,
+      "seed": 802,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "tied_attention",
+      "rows": 260,
+      "seed": 802,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "fixed_attention4",
+      "rows": 260,
+      "seed": 802,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "record_hop",
+      "rows": 260,
+      "seed": 803,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "gated_hop",
+      "rows": 260,
+      "seed": 803,
+      "status": "PASS"
+    },
+    {
+      "arrays": 284,
+      "kind": "untied_hop4",
+      "rows": 284,
+      "seed": 803,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "tied_attention",
+      "rows": 260,
+      "seed": 803,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "fixed_attention4",
+      "rows": 260,
+      "seed": 803,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "record_hop",
+      "rows": 260,
+      "seed": 804,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "gated_hop",
+      "rows": 260,
+      "seed": 804,
+      "status": "PASS"
+    },
+    {
+      "arrays": 284,
+      "kind": "untied_hop4",
+      "rows": 284,
+      "seed": 804,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "tied_attention",
+      "rows": 260,
+      "seed": 804,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "fixed_attention4",
+      "rows": 260,
+      "seed": 804,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "record_hop",
+      "rows": 260,
+      "seed": 805,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "gated_hop",
+      "rows": 260,
+      "seed": 805,
+      "status": "PASS"
+    },
+    {
+      "arrays": 284,
+      "kind": "untied_hop4",
+      "rows": 284,
+      "seed": 805,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "tied_attention",
+      "rows": 260,
+      "seed": 805,
+      "status": "PASS"
+    },
+    {
+      "arrays": 260,
+      "kind": "fixed_attention4",
+      "rows": 260,
+      "seed": 805,
+      "status": "PASS"
+    }
+  ],
+  "fresh_interpreters": 25,
+  "status": "PASS"
+}

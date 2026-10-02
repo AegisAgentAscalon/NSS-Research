@@ -1,0 +1,17 @@
+{
+  "events": 2,
+  "identity": {
+    "mode": "local_empty",
+    "repair": "5ddd38df36f11e34d782e779139fc013abdbb773510cdc107638b085c63379e9",
+    "representation": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+    "schema": "writable-empty004/state-v1",
+    "scope": "resume-test",
+    "shape": [
+      4,
+      4,
+      16
+    ]
+  },
+  "rounds": 25,
+  "sha256": "eacc42869a1a3cc35fc589b36248019414015eb2c3677aada8040869edaf64d1"
+}

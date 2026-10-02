@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/mnt/data/NSS_NBR02_SH01_Execution_v0.1/source/preflight.py", line 113, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ~~~~^^
+  File "/mnt/data/NSS_NBR02_SH01_Execution_v0.1/source/preflight.py", line 52, in main
+    before=next(iter(m.cache.values()))['body'].encode();after=m.packet(roots)
+                                                               ~~~~~~~~^^^^^^^
+  File "/mnt/data/NSS_NBR02_SH01_Execution_v0.1/source/store.py", line 68, in packet
+    records=[self.store.get(sid,scope,cutoff) for sid in sorted(selected)]
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/NSS_NBR02_SH01_Execution_v0.1/source/store.py", line 33, in get
+    if sha(b)!=e['hash']:raise ContextError('SOURCE_DIGEST_MISMATCH')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+store.ContextError: SOURCE_DIGEST_MISMATCH

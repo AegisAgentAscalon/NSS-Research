@@ -1,0 +1,1122 @@
+[
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_clean",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "known_q05",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 689,
+    "family": "known_q20",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6728515625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 694,
+    "family": "known_q20",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.677734375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 689,
+    "family": "known_q20",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6728515625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 694,
+    "family": "known_q20",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.677734375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1023,
+    "family": "known_q20",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9990234375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1023,
+    "family": "known_q20",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9990234375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1022,
+    "family": "known_q20",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.998046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1022,
+    "family": "known_q20",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.998046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1021,
+    "family": "novel",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9970703125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 3,
+    "family": "novel",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0029296875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 3,
+    "family": "novel",
+    "method": "single16",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0029296875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1021,
+    "family": "novel",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9970703125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 3,
+    "family": "novel",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0029296875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 3,
+    "family": "novel",
+    "method": "duplicate32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0029296875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel",
+    "method": "independent32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1016,
+    "family": "novel",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9921875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 8,
+    "family": "novel",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0078125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 8,
+    "family": "novel",
+    "method": "single32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0078125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "near_novel",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "single16",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "near_novel",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "duplicate32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 969,
+    "family": "near_novel",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9462890625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 55,
+    "family": "near_novel",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0537109375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 55,
+    "family": "near_novel",
+    "method": "independent32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0537109375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "near_novel",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "near_novel",
+    "method": "single32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 682,
+    "family": "second_missing",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.666015625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 683,
+    "family": "second_missing",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6669921875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 682,
+    "family": "second_missing",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.666015625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 683,
+    "family": "second_missing",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6669921875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 51,
+    "family": "second_missing",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0498046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 51,
+    "family": "second_missing",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0498046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1020,
+    "family": "second_missing",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.99609375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1020,
+    "family": "second_missing",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.99609375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 693,
+    "family": "second_conflicting",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6767578125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 695,
+    "family": "second_conflicting",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6787109375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 693,
+    "family": "second_conflicting",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6767578125,
+    "stage": "CUE"
+  },
+  {
+    "correct": 695,
+    "family": "second_conflicting",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6787109375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 4,
+    "family": "second_conflicting",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.00390625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 58,
+    "family": "second_conflicting",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.056640625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1019,
+    "family": "second_conflicting",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9951171875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1020,
+    "family": "second_conflicting",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.99609375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 646,
+    "family": "second_shuffled",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.630859375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 649,
+    "family": "second_shuffled",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6337890625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 646,
+    "family": "second_shuffled",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.630859375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 649,
+    "family": "second_shuffled",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.6337890625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 10,
+    "family": "second_shuffled",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.009765625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 10,
+    "family": "second_shuffled",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.009765625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1023,
+    "family": "second_shuffled",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9990234375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1023,
+    "family": "second_shuffled",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.9990234375,
+    "stage": "CUE"
+  },
+  {
+    "correct": 688,
+    "family": "both_common_noise",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.671875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 688,
+    "family": "both_common_noise",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.671875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 688,
+    "family": "both_common_noise",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.671875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 688,
+    "family": "both_common_noise",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.671875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 906,
+    "family": "both_common_noise",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.884765625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 906,
+    "family": "both_common_noise",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.884765625,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1022,
+    "family": "both_common_noise",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.998046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1022,
+    "family": "both_common_noise",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.998046875,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel_both_near",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "single16",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel_both_near",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "duplicate32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel_both_near",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "independent32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "novel_both_near",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "novel_both_near",
+    "method": "single32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_known",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "identical_novel",
+    "method": "single16",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "single16",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "single16",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "identical_novel",
+    "method": "duplicate32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "duplicate32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "duplicate32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "identical_novel",
+    "method": "independent32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "independent32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "independent32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 0,
+    "family": "identical_novel",
+    "method": "single32",
+    "metric": "correct",
+    "n": 1024,
+    "pair": 4,
+    "rate": 0.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "single32",
+    "metric": "accepted",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  },
+  {
+    "correct": 1024,
+    "family": "identical_novel",
+    "method": "single32",
+    "metric": "false_accept",
+    "n": 1024,
+    "pair": 4,
+    "rate": 1.0,
+    "stage": "CUE"
+  }
+]

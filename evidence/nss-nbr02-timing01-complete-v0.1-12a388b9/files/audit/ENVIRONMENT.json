@@ -1,0 +1,16 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy_package": "2.3.5",
+  "torch_package": "2.10.0+cpu",
+  "cpu_count": 5,
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "cgroup_memory_max": "4294967296",
+  "cpu_max": "400000 100000",
+  "torch_runtime_imported": false
+}

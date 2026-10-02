@@ -1,0 +1,83 @@
+{
+  "candidates": [
+    {
+      "mode": "M32",
+      "full_quality_passing_parents": {
+        "EARLY": [
+          4101,
+          4102,
+          4103,
+          4104
+        ],
+        "NEW": [
+          4101,
+          4103,
+          4104
+        ]
+      },
+      "parents_passing_both_regimes": [
+        4101,
+        4103,
+        4104
+      ],
+      "separate_regime_quality_screen_pass": true,
+      "array_saving": 0.0,
+      "memory_screen_pass": null,
+      "runtime_screen_pass": true,
+      "declared_overall_candidate_screen_pass": null,
+      "qualification_scope": "Three-of-four required separately in each regime; intersecting cohort is additionally reported, not retroactively required. This does not establish universal noninferiority, exact retention or stable arithmetic of all internal intermediates."
+    },
+    {
+      "mode": "M16_NEAREST",
+      "full_quality_passing_parents": {
+        "EARLY": [
+          4101,
+          4102,
+          4103,
+          4104
+        ],
+        "NEW": [
+          4101,
+          4102
+        ]
+      },
+      "parents_passing_both_regimes": [
+        4101,
+        4102
+      ],
+      "separate_regime_quality_screen_pass": false,
+      "array_saving": 0.19445684726381707,
+      "memory_screen_pass": true,
+      "runtime_screen_pass": true,
+      "declared_overall_candidate_screen_pass": false,
+      "qualification_scope": "Three-of-four required separately in each regime; intersecting cohort is additionally reported, not retroactively required. This does not establish universal noninferiority, exact retention or stable arithmetic of all internal intermediates."
+    },
+    {
+      "mode": "M16_STOCHASTIC",
+      "full_quality_passing_parents": {
+        "EARLY": [
+          4101,
+          4103,
+          4104
+        ],
+        "NEW": [
+          4101,
+          4102,
+          4103
+        ]
+      },
+      "parents_passing_both_regimes": [
+        4101,
+        4103
+      ],
+      "separate_regime_quality_screen_pass": true,
+      "array_saving": 0.19445684726381707,
+      "memory_screen_pass": true,
+      "runtime_screen_pass": true,
+      "declared_overall_candidate_screen_pass": true,
+      "qualification_scope": "Three-of-four required separately in each regime; intersecting cohort is additionally reported, not retroactively required. This does not establish universal noninferiority, exact retention or stable arithmetic of all internal intermediates."
+    }
+  ],
+  "recommendation": "Retain stochastic FP16 masters as the leading bounded low-bit-training candidate, not a universal replacement. It passes the predeclared separate-regime screen, with only two shared parents passing both regimes. Nearest is useful for early preparation but fails new-learning retention cohort. Keep M32 control and all failures; no post-learning repair/integration or automatic next experiment.",
+  "technical_status": "PASS_DECLARED_CHECKS_WITH_NUMERICAL_WARNING"
+}

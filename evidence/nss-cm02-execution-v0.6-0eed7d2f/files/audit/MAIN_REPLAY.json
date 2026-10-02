@@ -1,0 +1,15 @@
+{
+  "arrays": 14400,
+  "byte_identical_independently_scored_files": 16,
+  "byte_identical_npz_containers": 1800,
+  "deterministic_metadata_files": 39,
+  "distinct_outputs": 1800,
+  "elements": 187200,
+  "excluded": [
+    "timing.jsonl",
+    "worker stderr logs",
+    "external supervisor elapsed/RSS/cgroup receipts"
+  ],
+  "no_new_scientific_samples": true,
+  "status": "PASS_EXACT_FRESH_PROCESS_REPLAY"
+}

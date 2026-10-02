@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_BOUNDED_COMPONENT",
+  "conditions": 324,
+  "episodes": 36,
+  "models": [
+    8801,
+    8802,
+    8804
+  ],
+  "answers": 26604,
+  "numeric_scalars": 106416,
+  "numeric_violations": 0,
+  "changed_classes": 0,
+  "max_abs": 2.86102294921875e-06,
+  "max_normalized": 0.09038716554641724,
+  "budget_deferrals": 5184,
+  "completed_request_occasions": 3294,
+  "deferred_request_occasions": 648,
+  "partial_request_occasions": 54,
+  "duplicate_receipts": 0,
+  "main_sliced_reader_calls": 3177,
+  "main_reference_reader_calls": 1134,
+  "main_core_seconds": 12.158992803001524,
+  "peak_main_process_rss_bytes": 329707520,
+  "optimizer_applications": 0,
+  "new_fits": 0,
+  "closure": [
+    {
+      "n": 8,
+      "full_positions": 36,
+      "min_single": 24,
+      "max_single": 36,
+      "all_task_query_metadata_required": true
+    },
+    {
+      "n": 32,
+      "full_positions": 135,
+      "min_single": 66,
+      "max_single": 96,
+      "all_task_query_metadata_required": true
+    },
+    {
+      "n": 128,
+      "full_positions": 524,
+      "min_single": 209,
+      "max_single": 254,
+      "all_task_query_metadata_required": true
+    }
+  ],
+  "audit_status": "PASS",
+  "preflight_checks": 34,
+  "post_lock_driver_names": [
+    "complete_timing.py",
+    "complete_timing_128.py",
+    "audit.py",
+    "summarize.py"
+  ],
+  "caveats": [
+    "Repeated model/policy/job observations are not independent trials.",
+    "The full archive is RAM-backed and outside the active input-row cap.",
+    "Timing is prototype CPU/in-memory and not a system-wide energy/storage benchmark.",
+    "Two timing runner interruptions preserved completed families and separately completed only missing resume families."
+  ]
+}

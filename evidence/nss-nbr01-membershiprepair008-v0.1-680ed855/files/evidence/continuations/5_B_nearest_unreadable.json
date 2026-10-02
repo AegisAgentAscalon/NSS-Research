@@ -1,0 +1,33 @@
+{
+  "abi": "nbr008-membership-v1",
+  "binder": "259fd6d47f811a1dec47cd8dd1f4934f32de3b1bf8d011a560866e2cb96fcb2c",
+  "contract": {
+    "abi": "nbr008-membership-v1",
+    "calibration": {
+      "threshold": 0.5191957950592041
+    },
+    "capacity": 16,
+    "head": "553c201ebf02538618c5f95980f7558b89dc9e664df9b345d5c462c19cede20f",
+    "method": "B_nearest",
+    "parents": {
+      "binder": "259fd6d47f811a1dec47cd8dd1f4934f32de3b1bf8d011a560866e2cb96fcb2c",
+      "dictionary": "0938d3ffad42057af45102169da1277010c9984cacac7ec028a657b3da5c199d",
+      "gated_hop": "20a980c78c4adc46662d0f3f41ef5ff47e93c13ab31a499ddb07482029bbe30d",
+      "record_hop": "ded722da30c2b1901043d63324a7d85e29724248d337b7b90ff49c883c738bb6"
+    },
+    "unreadable_policy": "sticky_until_qualified_write_or_clear"
+  },
+  "events": 13,
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 6050065525809311467572294423240405151,
+      "state": 59876295229533408063170574987286195978
+    },
+    "uinteger": 0
+  },
+  "scope": "study",
+  "sha256": "d752297d86bf187e509e5acc88d981f00c7a9af3c0b2cb1aefa3fba771a86572",
+  "tick": 0
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.20",
+  "previous_version": "0.19",
+  "old_history_unchanged": 54,
+  "new_history_total": 55,
+  "optional_unchanged": 6,
+  "literature_unchanged": 14,
+  "new_study": "BRIDGE01",
+  "low_bit_execution": false,
+  "new_files": {
+    "md": "b71459e9c199a5627622ed6172af2e9496d51112e3e573b2e9bd45c7acf87dea",
+    "json": "6b2d78c6d01fba5ec0d3eb9b27008a12927240b6d724eca9ac82b5827be56ab1"
+  }
+}

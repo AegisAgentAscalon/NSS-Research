@@ -1,0 +1,135 @@
+{
+  "kind": "POST_EXECUTION_ADVERSARIAL_SCHEMA_QA",
+  "case": "text_false_is_not_boolean_permission",
+  "source_version": "0.1",
+  "public_input": {
+    "candidate": {
+      "artifact": {
+        "p1_milli": {
+          "focal": 950,
+          "old0": 50,
+          "old1": 50,
+          "old2": 50
+        },
+        "revision_id": "candidate0"
+      },
+      "artifact_hash": "3240701ce97c90cd5b8d7d0e8a47f99b39e6450adedbe3c3721a0db5352fdda8",
+      "authority_valid": true,
+      "completion": "committed",
+      "deadline": 5,
+      "domain": "parameter_candidate",
+      "epoch_id": "epoch0",
+      "evidence_origin": "verified_fixture",
+      "measured_artifact": "3240701ce97c90cd5b8d7d0e8a47f99b39e6450adedbe3c3721a0db5352fdda8",
+      "parent_id": "parent0",
+      "pending_trace": false,
+      "permitted": "false",
+      "receipt_cutoff": 2,
+      "receipt_revisions": {
+        "focal": 2,
+        "old0": 1,
+        "old1": 1,
+        "old2": 1
+      },
+      "revision_id": "candidate0",
+      "schema_id": "schema0",
+      "state_compatible": true
+    },
+    "policy": {
+      "epoch_drop": 100,
+      "min_focal": 850,
+      "min_old": 600,
+      "parent_drop": 50
+    },
+    "snapshot": {
+      "accepted_id": "parent0",
+      "anchor_p1": {
+        "old0": 50,
+        "old1": 50,
+        "old2": 50
+      },
+      "cutoff": 2,
+      "epoch_id": "epoch0",
+      "epoch_target_revisions": {
+        "old0": 1,
+        "old1": 1,
+        "old2": 1
+      },
+      "parent_p1": {
+        "focal": 50,
+        "old0": 50,
+        "old1": 50,
+        "old2": 50
+      },
+      "requirements": {
+        "focal": {
+          "kind": "focal",
+          "released_at": 2,
+          "revision": 2,
+          "target": 1
+        },
+        "old0": {
+          "kind": "old",
+          "released_at": 1,
+          "revision": 1,
+          "target": 0
+        },
+        "old1": {
+          "kind": "old",
+          "released_at": 1,
+          "revision": 1,
+          "target": 0
+        },
+        "old2": {
+          "kind": "old",
+          "released_at": 1,
+          "revision": 1,
+          "target": 0
+        }
+      },
+      "schema_id": "schema0"
+    },
+    "tick": 3
+  },
+  "result": {
+    "decision": "ADOPT_ELIGIBLE",
+    "reasons": [
+      "CONTRACT_SATISFIED"
+    ],
+    "input_hash": "ddf188c831036b1bc6e2896d5dcad0169b98d2865b0ca38537d5f66d2f97c915",
+    "metrics": {
+      "late": false,
+      "by_capability": {
+        "focal": {
+          "prob_milli": 950,
+          "class_correct": true
+        },
+        "old0": {
+          "prob_milli": 950,
+          "class_correct": true,
+          "parent_drop": 0,
+          "epoch_drop": 0
+        },
+        "old1": {
+          "prob_milli": 950,
+          "class_correct": true,
+          "parent_drop": 0,
+          "epoch_drop": 0
+        },
+        "old2": {
+          "prob_milli": 950,
+          "class_correct": true,
+          "parent_drop": 0,
+          "epoch_drop": 0
+        }
+      }
+    },
+    "review_version": "C00_RULE_V1"
+  },
+  "expected_integrity_behavior": "REJECT_NON_BOOLEAN_PERMISSION",
+  "observed_bug": true,
+  "additional_production_rule_calls": 1,
+  "no_neural_work": true,
+  "disposition": "WITHDRAW_IMPLEMENTATION_CANDIDATE_AND_FIX_TYPES_IN_NEW_VERSION",
+  "not_scientific_candidate_selection": true
+}

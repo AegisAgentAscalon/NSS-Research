@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "analysis/PUBLISH_DIAGNOSTICS.py",
+    "--input",
+    "replay",
+    "--output",
+    "scores_replay",
+    "--config",
+    "protocol/CONFIG.json"
+  ],
+  "returncode": 0,
+  "stop": null,
+  "peak_sampled_process_rss": 151769088,
+  "peak_sampled_container": 2125213696,
+  "elapsed_since_origin": 1054.3519144058228,
+  "sampling_seconds": 0.2
+}

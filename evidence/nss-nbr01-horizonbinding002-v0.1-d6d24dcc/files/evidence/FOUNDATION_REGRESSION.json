@@ -1,0 +1,8 @@
+{
+  "test_count": 68,
+  "status": "PASS",
+  "fresh_manifest_files_matched": 974,
+  "python_site_packages_disabled": true,
+  "full_historical_suite": "NOT_RUN",
+  "foundation_source_changed": false
+}

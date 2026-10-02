@@ -1,0 +1,18 @@
+{
+  "caveat": "Protected presence is additional exact information and changes the mechanism. It is not a main-score correction or a general biological/epistemic model.",
+  "code_sha256": "52255aaa774abad60b2d820f84e4d538b680619119421b21047ed66216759e83",
+  "main_results_sha256": {
+    "rep301_seed501.json": "d0bea3520431b9b741d570fb859b650683e5ea6c2d8ec825a935b09058b1a730",
+    "rep302_seed502.json": "a68280927fcdf88707148be0b9b83b95eb4552c2fb34dbb0630a6882ba28689a",
+    "rep303_seed503.json": "64cdd74b3533941cb1b439676614b378deabee830755fa1731f250a7d487ad5a",
+    "rep304_seed504.json": "e1c02d41399d2d530780fd89d5d2ad5e9fffd2894a7443c08f8fc195b57ede24",
+    "rep305_seed505.json": "a3f76123283d922ff8bda7d30a25f79df6bb832467531f0b4ecd4ab61420db72"
+  },
+  "no_weights_changed": true,
+  "questions": [
+    "Is the exact zero fixed point locally expansive under small perturbations compared with established-code attractors?",
+    "Does protected existence metadata derived from visible setup writes block the false-memory channel, and does bad metadata break it?"
+  ],
+  "status": "REGISTERED_AFTER_MAIN_RESULTS_BEFORE_DIAGNOSTIC",
+  "time_unix": 1789946962.1914423
+}

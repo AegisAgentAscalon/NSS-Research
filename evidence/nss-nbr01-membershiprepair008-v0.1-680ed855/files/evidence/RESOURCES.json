@@ -1,0 +1,521 @@
+{
+  "allocation_profile": [
+    {
+      "cpu_memory_bytes": 34816,
+      "op": "aten::isfinite",
+      "self_cpu_memory_bytes": -208896
+    },
+    {
+      "cpu_memory_bytes": 278528,
+      "op": "aten::abs",
+      "self_cpu_memory_bytes": 139264
+    },
+    {
+      "cpu_memory_bytes": 205168,
+      "op": "aten::empty",
+      "self_cpu_memory_bytes": 205168
+    },
+    {
+      "cpu_memory_bytes": 34816,
+      "op": "aten::ne",
+      "self_cpu_memory_bytes": 34808
+    },
+    {
+      "cpu_memory_bytes": 20512,
+      "op": "aten::to",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 20512,
+      "op": "aten::_to_copy",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 57376,
+      "op": "aten::empty_strided",
+      "self_cpu_memory_bytes": 57376
+    },
+    {
+      "cpu_memory_bytes": 34816,
+      "op": "aten::eq",
+      "self_cpu_memory_bytes": 34816
+    },
+    {
+      "cpu_memory_bytes": 243712,
+      "op": "aten::mul",
+      "self_cpu_memory_bytes": 243704
+    },
+    {
+      "cpu_memory_bytes": 2,
+      "op": "aten::all",
+      "self_cpu_memory_bytes": 2
+    },
+    {
+      "cpu_memory_bytes": 204800,
+      "op": "aten::einsum",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 204800,
+      "op": "aten::bmm",
+      "self_cpu_memory_bytes": 204800
+    },
+    {
+      "cpu_memory_bytes": 422144,
+      "op": "aten::square",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 422144,
+      "op": "aten::pow",
+      "self_cpu_memory_bytes": 422144
+    },
+    {
+      "cpu_memory_bytes": 29952,
+      "op": "aten::sum",
+      "self_cpu_memory_bytes": 13568
+    },
+    {
+      "cpu_memory_bytes": 69632,
+      "op": "aten::add",
+      "self_cpu_memory_bytes": 69632
+    },
+    {
+      "cpu_memory_bytes": 77824,
+      "op": "aten::sub",
+      "self_cpu_memory_bytes": 77820
+    },
+    {
+      "cpu_memory_bytes": 86016,
+      "op": "aten::clamp_min",
+      "self_cpu_memory_bytes": 86016
+    },
+    {
+      "cpu_memory_bytes": 5184,
+      "op": "aten::bitwise_not",
+      "self_cpu_memory_bytes": 5184
+    },
+    {
+      "cpu_memory_bytes": 200704,
+      "op": "aten::masked_fill",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 200704,
+      "op": "aten::clone",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 237568,
+      "op": "aten::empty_like",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 49152,
+      "op": "aten::topk",
+      "self_cpu_memory_bytes": 49152
+    },
+    {
+      "cpu_memory_bytes": 8192,
+      "op": "aten::sqrt",
+      "self_cpu_memory_bytes": 8192
+    },
+    {
+      "cpu_memory_bytes": 1024,
+      "op": "aten::arange",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 512,
+      "op": "aten::resize_",
+      "self_cpu_memory_bytes": 512
+    },
+    {
+      "cpu_memory_bytes": 69632,
+      "op": "aten::index",
+      "self_cpu_memory_bytes": 69632
+    },
+    {
+      "cpu_memory_bytes": 8192,
+      "op": "aten::linalg_vector_norm",
+      "self_cpu_memory_bytes": 8192
+    },
+    {
+      "cpu_memory_bytes": 143360,
+      "op": "aten::div",
+      "self_cpu_memory_bytes": 139260
+    },
+    {
+      "cpu_memory_bytes": 2048,
+      "op": "aten::ge",
+      "self_cpu_memory_bytes": 2044
+    },
+    {
+      "cpu_memory_bytes": 12288,
+      "op": "aten::ones_like",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 98304,
+      "op": "aten::where",
+      "self_cpu_memory_bytes": 98304
+    },
+    {
+      "cpu_memory_bytes": 16384,
+      "op": "aten::clamp",
+      "self_cpu_memory_bytes": 16384
+    },
+    {
+      "cpu_memory_bytes": 380928,
+      "op": "aten::stack",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 456000,
+      "op": "aten::cat",
+      "self_cpu_memory_bytes": 456000
+    },
+    {
+      "cpu_memory_bytes": 1024,
+      "op": "aten::le",
+      "self_cpu_memory_bytes": 1024
+    },
+    {
+      "cpu_memory_bytes": 1024,
+      "op": "aten::lt",
+      "self_cpu_memory_bytes": 1020
+    },
+    {
+      "cpu_memory_bytes": 64,
+      "op": "aten::gt",
+      "self_cpu_memory_bytes": 64
+    },
+    {
+      "cpu_memory_bytes": 2048,
+      "op": "aten::__and__",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 2048,
+      "op": "aten::bitwise_and",
+      "self_cpu_memory_bytes": 2048
+    },
+    {
+      "cpu_memory_bytes": 4096,
+      "op": "aten::neg",
+      "self_cpu_memory_bytes": 4096
+    },
+    {
+      "cpu_memory_bytes": 2465792,
+      "op": "aten::linear",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 2465792,
+      "op": "aten::addmm",
+      "self_cpu_memory_bytes": 2465792
+    },
+    {
+      "cpu_memory_bytes": 2392064,
+      "op": "aten::tanh",
+      "self_cpu_memory_bytes": 2392064
+    },
+    {
+      "cpu_memory_bytes": 4096,
+      "op": "aten::sigmoid",
+      "self_cpu_memory_bytes": 4096
+    },
+    {
+      "cpu_memory_bytes": 4352,
+      "op": "aten::zeros",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 64,
+      "op": "aten::ones",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 69632,
+      "op": "aten::softmax",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 69632,
+      "op": "aten::_softmax",
+      "self_cpu_memory_bytes": 69632
+    },
+    {
+      "cpu_memory_bytes": 16384,
+      "op": "aten::full_like",
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "cpu_memory_bytes": 8192,
+      "op": "aten::zeros_like",
+      "self_cpu_memory_bytes": 0
+    }
+  ],
+  "environment": {
+    "cuda": false,
+    "max_rss_kib": 323752,
+    "numpy": "2.3.5",
+    "pid": 1605,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T17:43:32.421403+00:00"
+  },
+  "notes": [
+    "all candidate parents loaded together in harness; per-arm deployment residency differs",
+    "latencies include Python and validation; no optimized kernel or hardware-noise claim",
+    "head633 parameters; training gradient and AdamW state additionally counted",
+    "codebook is protected exact reference without graph edges; audit logs not available to inference"
+  ],
+  "raw_state_example": {
+    "active_mask": 16,
+    "per_stream": 3336.0,
+    "presence_readability_flags": 48,
+    "record_keys_values": 2176,
+    "reference_revision": 8,
+    "reference_values": 1088
+  },
+  "resident_parameter_bytes": {
+    "binder": 3272,
+    "dictionary": 900,
+    "gated_hop": 10616,
+    "head": 2532,
+    "record_hop": 3272
+  },
+  "rows": [
+    {
+      "batch": 1,
+      "median_ms": 0.34378,
+      "method": "nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.325363,
+      "p90_ms": 0.44142549999999997,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 7.431112000000001,
+      "method": "nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 7.1253614999999995,
+      "p90_ms": 7.9126989000000005,
+      "repeats": 20
+    },
+    {
+      "batch": 1,
+      "median_ms": 0.5609055000000001,
+      "method": "learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.5239775999999999,
+      "p90_ms": 0.7068098,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 10.334779000000001,
+      "method": "learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 9.8228416,
+      "p90_ms": 11.721112900000003,
+      "repeats": 20
+    },
+    {
+      "batch": 1,
+      "median_ms": 0.3561345,
+      "method": "A_nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.3409818,
+      "p90_ms": 0.4731359,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 7.713735,
+      "method": "A_nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 7.414575500000001,
+      "p90_ms": 8.8749388,
+      "repeats": 20
+    },
+    {
+      "batch": 1,
+      "median_ms": 0.4193835,
+      "method": "B_nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.386986,
+      "p90_ms": 0.4425232,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 8.331897,
+      "method": "B_nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 8.0798741,
+      "p90_ms": 9.0719235,
+      "repeats": 20
+    },
+    {
+      "batch": 1,
+      "median_ms": 0.575473,
+      "method": "A_learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.539968,
+      "p90_ms": 0.6279423000000001,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 10.682164,
+      "method": "A_learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 10.2226001,
+      "p90_ms": 11.1959373,
+      "repeats": 20
+    },
+    {
+      "batch": 1,
+      "median_ms": 0.611902,
+      "method": "B_learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.5738819000000001,
+      "p90_ms": 0.7066486,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 1,
+      "median_ms": 11.1771465,
+      "method": "B_learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 10.7191026,
+      "p90_ms": 12.066305500000002,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 1.0198135000000002,
+      "method": "nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 0.998674,
+      "p90_ms": 1.1675198,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 15.538923,
+      "method": "nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 10.2395967,
+      "p90_ms": 15.8939919,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 4.141857,
+      "method": "learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 3.8875732,
+      "p90_ms": 5.1442638,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 16.889768,
+      "method": "learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 15.5390268,
+      "p90_ms": 22.3550827,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 1.025196,
+      "method": "A_nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 1.0115560000000001,
+      "p90_ms": 1.125428,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 12.0596545,
+      "method": "A_nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 10.737023200000001,
+      "p90_ms": 15.729120400000001,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 1.2609050000000002,
+      "method": "B_nearest",
+      "operation": "one_field_16_records",
+      "p10_ms": 1.199249,
+      "p90_ms": 1.4718556999999999,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 12.0312915,
+      "method": "B_nearest",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 11.6314855,
+      "p90_ms": 13.6379707,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 4.1296145,
+      "method": "A_learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 3.786737,
+      "p90_ms": 5.9170829000000005,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 16.953248000000002,
+      "method": "A_learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 15.7966456,
+      "p90_ms": 24.4604903,
+      "repeats": 20
+    },
+    {
+      "batch": 64,
+      "median_ms": 4.0250725,
+      "method": "B_learned",
+      "operation": "one_field_16_records",
+      "p10_ms": 3.9409132,
+      "p90_ms": 4.4091845,
+      "repeats": 50,
+      "state_bytes_per_stream": 3336.0
+    },
+    {
+      "batch": 64,
+      "median_ms": 16.7694475,
+      "method": "B_learned",
+      "operation": "eight_query_rounds_with_decodes",
+      "p10_ms": 16.3607787,
+      "p90_ms": 18.5374549,
+      "repeats": 20
+    }
+  ]
+}

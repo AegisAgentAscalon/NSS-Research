@@ -1,0 +1,80 @@
+{
+  "batch": 128,
+  "checkpoint_sha256": "5fb8310c400c65ba5b900934f1b2d4f0d7ab43c83bc9ea16db2cda56edba8956",
+  "data_checks": {
+    "1": "46657f0fa96793deb24f865da99dfeac61a7c771fe40a0ac467b45631f2f6fff",
+    "1200": "a6e37f829d0208b8af44b764da6b8af2239a90a1323f13f4f85e8dd6f663cd6e",
+    "601": "3274b2032f64e1e7b2758cf9cd11502ecfd19ece2ac9935dd96771d7c0243d2e"
+  },
+  "development": false,
+  "end_utc": "2026-09-21T18:59:06.864370+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 868,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T18:59:06.864436+00:00"
+  },
+  "examples": 153600,
+  "final_weight_hash": "172f9aaa68fa085b57b2a34848179554e5e0a79ac7d3da07969bb6f64f4991ea",
+  "fit_seconds": 3.0456908989999647,
+  "history": [
+    {
+      "accuracy": 1.0,
+      "loss": 0.0029224553145468235,
+      "seconds": 0.006720504999975674,
+      "step": 1
+    },
+    {
+      "accuracy": 0.9921875,
+      "loss": 0.01007607951760292,
+      "seconds": 0.49090822300001946,
+      "step": 200
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0014404800022020936,
+      "seconds": 1.003395572000045,
+      "step": 400
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0029179148841649294,
+      "seconds": 1.5023383540000168,
+      "step": 600
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 5.630562372971326e-05,
+      "seconds": 2.0077677850000555,
+      "step": 800
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.00010051870776806027,
+      "seconds": 2.5110928349999995,
+      "step": 1000
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0003491214010864496,
+      "seconds": 3.0440211390000513,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "259fd6d47f811a1dec47cd8dd1f4934f32de3b1bf8d011a560866e2cb96fcb2c",
+  "kind": "ordinary",
+  "lr": 0.002,
+  "optimizer": "AdamW",
+  "pair": 5,
+  "parameters": 818,
+  "scale": 74.279296875,
+  "seed": 1105,
+  "start_utc": "2026-09-21T18:59:03.818700+00:00",
+  "steps": 1200,
+  "threshold": 0.853445291519165,
+  "weight_decay": 0.0001
+}

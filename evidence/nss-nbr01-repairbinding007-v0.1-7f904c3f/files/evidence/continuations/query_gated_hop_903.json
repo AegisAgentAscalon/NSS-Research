@@ -1,0 +1,21 @@
+{
+  "abi": "nbr007-compatible-records-v1",
+  "identities": {
+    "binder": "90801de82d07a9fafd985683d0b6bdaf13cc64af579a3b8b973373b7e027fb52",
+    "dictionary_schema": "identity17-v1",
+    "reader": "50fc3375241f9008374ca5ed8c0ce2b9d1212309fbe269ba8c718966349ff3ee",
+    "repair": "none"
+  },
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 152547165251974950621040335624460326511,
+      "state": 62969135148410014369103176266291273770
+    },
+    "uinteger": 0
+  },
+  "rounds": 3,
+  "scope": "research",
+  "sha256": "24673dc2b001c65c9c20a2a229df4b3e0464131cd34e2273e279bf4c10ddb43d"
+}

@@ -1,0 +1,19 @@
+{
+  "study": "NSS-NBR02-REV01",
+  "review_version": "0.2",
+  "status": "PROPOSED_NOT_DISPATCHED",
+  "execution_authorized": false,
+  "scientific_model_loads": 0,
+  "training_updates": 0,
+  "inference_calls": 0,
+  "stimulus_PRNG_draws": 0,
+  "runtime_fault_tests": 0,
+  "implemented_scientific_source_lock": false,
+  "dream_maintenance": "SEPARATE_PROPOSED_ARCHITECTURE_LINK",
+  "parent_architecture_modified": false,
+  "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+  "NBR02": "ACTIVE_COMPLETED_DC01_REFERENCE_REV01_PROPOSED",
+  "RET_MW01_FIT_001": "PARKED_OPEN",
+  "FCR_0103_001": "USER_REQUESTED_FUTURE_RETURN_NOT_CLEARED",
+  "new_gate_or_broader_scope_pass": false
+}

@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "log": "evidence/MAIN_membership_eval_1.log",
+      "module": "membership_eval",
+      "pair": 1,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_evaluate_1.log",
+      "module": "evaluate",
+      "pair": 1,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_membership_eval_2.log",
+      "module": "membership_eval",
+      "pair": 2,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_evaluate_2.log",
+      "module": "evaluate",
+      "pair": 2,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_membership_eval_3.log",
+      "module": "membership_eval",
+      "pair": 3,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_evaluate_3.log",
+      "module": "evaluate",
+      "pair": 3,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_membership_eval_4.log",
+      "module": "membership_eval",
+      "pair": 4,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_evaluate_4.log",
+      "module": "evaluate",
+      "pair": 4,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_membership_eval_5.log",
+      "module": "membership_eval",
+      "pair": 5,
+      "returncode": 0
+    },
+    {
+      "log": "evidence/MAIN_evaluate_5.log",
+      "module": "evaluate",
+      "pair": 5,
+      "returncode": 0
+    }
+  ],
+  "seconds": 653.26446077,
+  "utc": "2026-09-21T17:41:51.124773+00:00"
+}

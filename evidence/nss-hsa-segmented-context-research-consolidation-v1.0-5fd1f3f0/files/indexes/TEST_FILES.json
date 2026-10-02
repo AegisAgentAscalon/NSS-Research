@@ -1,0 +1,464 @@
+[
+  {
+    "study": "SH01",
+    "archive": "original_archives/NSS_NBR02_SH01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SH01_Execution_v0.1/source/preflight.py",
+    "path": "source/preflight.py",
+    "bytes": 7932,
+    "sha256": "18d9ba341b18af426f846490254bc65fd50163f5971c57a74b377b6ebb544d79",
+    "functions": [
+      {
+        "name": "main",
+        "line": 11,
+        "end_line": 114
+      },
+      {
+        "name": "check",
+        "line": 13,
+        "end_line": 15
+      },
+      {
+        "name": "throws",
+        "line": 16,
+        "end_line": 18
+      },
+      {
+        "name": "__init__",
+        "line": 88,
+        "end_line": 88
+      },
+      {
+        "name": "__torch_dispatch__",
+        "line": 89,
+        "end_line": 95
+      },
+      {
+        "name": "walk",
+        "line": 91,
+        "end_line": 94
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SH02",
+    "archive": "original_archives/NSS_NBR02_SH02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SH02_Execution_v0.1/scripts/post_audit.py",
+    "path": "scripts/post_audit.py",
+    "bytes": 2823,
+    "sha256": "76e0e5cb4f3605fcc9927596d7b8e0008028ac6ef7dc1dd4a9df743a60006522",
+    "functions": [
+      {
+        "name": "main",
+        "line": 8,
+        "end_line": 39
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SH02",
+    "archive": "original_archives/NSS_NBR02_SH02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SH02_Execution_v0.1/scripts/regression.py",
+    "path": "scripts/regression.py",
+    "bytes": 3890,
+    "sha256": "e7d43eb07a4e37a48b8d6138d6a5b5c41b26367226d4b5252629799bfd5b5c74",
+    "functions": [
+      {
+        "name": "main",
+        "line": 8,
+        "end_line": 49
+      },
+      {
+        "name": "record",
+        "line": 22,
+        "end_line": 23
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SH02",
+    "archive": "original_archives/NSS_NBR02_SH02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SH02_Execution_v0.1/tests/validate.py",
+    "path": "tests/validate.py",
+    "bytes": 9710,
+    "sha256": "e114459d3797db8e1ccd4eba2fb4fbb3b692614d6e7275c5e2a2b82651695fcd",
+    "functions": [
+      {
+        "name": "check",
+        "line": 13,
+        "end_line": 19
+      },
+      {
+        "name": "cmp",
+        "line": 21,
+        "end_line": 23
+      },
+      {
+        "name": "expected",
+        "line": 25,
+        "end_line": 29
+      },
+      {
+        "name": "graph_features",
+        "line": 31,
+        "end_line": 44
+      },
+      {
+        "name": "numerical",
+        "line": 46,
+        "end_line": 64
+      },
+      {
+        "name": "full_gradient",
+        "line": 66,
+        "end_line": 77
+      },
+      {
+        "name": "cache_test",
+        "line": 79,
+        "end_line": 84
+      },
+      {
+        "name": "degenerate_graph",
+        "line": 86,
+        "end_line": 91
+      },
+      {
+        "name": "noninterference",
+        "line": 93,
+        "end_line": 98
+      },
+      {
+        "name": "shape_trace",
+        "line": 100,
+        "end_line": 116
+      },
+      {
+        "name": "__torch_dispatch__",
+        "line": 104,
+        "end_line": 110
+      },
+      {
+        "name": "visit",
+        "line": 106,
+        "end_line": 109
+      },
+      {
+        "name": "faults",
+        "line": 118,
+        "end_line": 140
+      },
+      {
+        "name": "mut",
+        "line": 135,
+        "end_line": 139
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC01",
+    "archive": "original_archives/NSS_NBR02_SC01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC01_Execution_v0.1/scripts/audit.py",
+    "path": "scripts/audit.py",
+    "bytes": 5869,
+    "sha256": "2728c6cdcf6a3d0372379b3fd92796baa15c48080fbf4ecec15ea1090a411227",
+    "functions": [
+      {
+        "name": "main",
+        "line": 8,
+        "end_line": 73
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC01",
+    "archive": "original_archives/NSS_NBR02_SC01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC01_Execution_v0.1/tests/pipeline_preflight.py",
+    "path": "tests/pipeline_preflight.py",
+    "bytes": 1161,
+    "sha256": "4ed736d9ede966109c4d687021631ed8cf36f00572e07390e63d06543818d906",
+    "functions": [
+      {
+        "name": "main",
+        "line": 8,
+        "end_line": 21
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC01",
+    "archive": "original_archives/NSS_NBR02_SC01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC01_Execution_v0.1/tests/preflight.py",
+    "path": "tests/preflight.py",
+    "bytes": 6621,
+    "sha256": "21ae46dd35d6f4459072db7a2a2cc2730e50b51f8d52007cc7d28eb6fbec2052",
+    "functions": [
+      {
+        "name": "main",
+        "line": 10,
+        "end_line": 103
+      },
+      {
+        "name": "check",
+        "line": 12,
+        "end_line": 16
+      },
+      {
+        "name": "requires_fault",
+        "line": 17,
+        "end_line": 20
+      },
+      {
+        "name": "fn",
+        "line": 25,
+        "end_line": 35
+      },
+      {
+        "name": "fn",
+        "line": 39,
+        "end_line": 42
+      },
+      {
+        "name": "lifecycle",
+        "line": 45,
+        "end_line": 56
+      },
+      {
+        "name": "pressure",
+        "line": 58,
+        "end_line": 61
+      },
+      {
+        "name": "corrupt",
+        "line": 64,
+        "end_line": 66
+      },
+      {
+        "name": "event_gap",
+        "line": 74,
+        "end_line": 76
+      },
+      {
+        "name": "missing_edge",
+        "line": 78,
+        "end_line": 79
+      },
+      {
+        "name": "nonfinite",
+        "line": 81,
+        "end_line": 83
+      },
+      {
+        "name": "isolation",
+        "line": 85,
+        "end_line": 89
+      },
+      {
+        "name": "deps_revision",
+        "line": 91,
+        "end_line": 97
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC02",
+    "archive": "original_archives/NSS_NBR02_SC02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC02_Execution_v0.1/postrun/audit.py",
+    "path": "postrun/audit.py",
+    "bytes": 5335,
+    "sha256": "523b2d97c10a2068758bcecc733ae6805cae2a33de6701478d0b436f5883ab0a",
+    "functions": [
+      {
+        "name": "recount",
+        "line": 8,
+        "end_line": 50
+      },
+      {
+        "name": "replay",
+        "line": 52,
+        "end_line": 65
+      },
+      {
+        "name": "snapshots",
+        "line": 67,
+        "end_line": 84
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC02",
+    "archive": "original_archives/NSS_NBR02_SC02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC02_Execution_v0.1/tests/preflight.py",
+    "path": "tests/preflight.py",
+    "bytes": 7963,
+    "sha256": "d84655b8f271756ea97251ca3168bc10059d72b057f766207587af522ba9aef0",
+    "functions": [
+      {
+        "name": "check",
+        "line": 13,
+        "end_line": 16
+      },
+      {
+        "name": "fault",
+        "line": 17,
+        "end_line": 21
+      },
+      {
+        "name": "equal_store",
+        "line": 22,
+        "end_line": 25
+      },
+      {
+        "name": "publisher",
+        "line": 28,
+        "end_line": 37
+      },
+      {
+        "name": "live",
+        "line": 41,
+        "end_line": 64
+      },
+      {
+        "name": "baddep",
+        "line": 67,
+        "end_line": 71
+      },
+      {
+        "name": "corrupt",
+        "line": 78,
+        "end_line": 80
+      },
+      {
+        "name": "eventgap",
+        "line": 85,
+        "end_line": 88
+      },
+      {
+        "name": "modelmutation",
+        "line": 90,
+        "end_line": 93
+      },
+      {
+        "name": "replacement",
+        "line": 95,
+        "end_line": 98
+      },
+      {
+        "name": "stale_intermediate",
+        "line": 100,
+        "end_line": 108
+      },
+      {
+        "name": "stale_signature",
+        "line": 110,
+        "end_line": 114
+      },
+      {
+        "name": "sizecontrol",
+        "line": 116,
+        "end_line": 120
+      },
+      {
+        "name": "isolated",
+        "line": 122,
+        "end_line": 125
+      },
+      {
+        "name": "nan",
+        "line": 128,
+        "end_line": 133
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "SC02",
+    "archive": "original_archives/NSS_NBR02_SC02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_SC02_Execution_v0.1/tests/smoke.py",
+    "path": "tests/smoke.py",
+    "bytes": 1111,
+    "sha256": "4636702ecff400c0b1a83e012f39da194af4fe05096c19d0cd49852f708230b6",
+    "functions": [],
+    "parse_error": null
+  },
+  {
+    "study": "CAP01",
+    "archive": "original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_CAP01_Execution_v0.1/scripts/audit.py",
+    "path": "scripts/audit.py",
+    "bytes": 5864,
+    "sha256": "23af02ec5bb969cd58c3684056e36eeb6af536c73d29e56393197eb927369e9d",
+    "functions": [
+      {
+        "name": "model",
+        "line": 9,
+        "end_line": 10
+      },
+      {
+        "name": "recount",
+        "line": 12,
+        "end_line": 52
+      },
+      {
+        "name": "replay",
+        "line": 54,
+        "end_line": 65
+      },
+      {
+        "name": "resume",
+        "line": 67,
+        "end_line": 80
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "CAP01",
+    "archive": "original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip",
+    "member": "NSS_NBR02_CAP01_Execution_v0.1/tests/preflight.py",
+    "path": "tests/preflight.py",
+    "bytes": 5875,
+    "sha256": "e2bdc86504d3bd9e9331f0aa3d14560163dfa8f16d03d95d116a1041429dadc3",
+    "functions": [
+      {
+        "name": "run",
+        "line": 10,
+        "end_line": 72
+      },
+      {
+        "name": "fails",
+        "line": 40,
+        "end_line": 45
+      }
+    ],
+    "parse_error": null
+  },
+  {
+    "study": "CAP02",
+    "archive": "original_archives/NSS_NBR02_CAP02_Execution_v0.1.zip",
+    "member": "NSS_NBR02_CAP02_Execution_v0.1/audit/recount_and_replay.py",
+    "path": "audit/recount_and_replay.py",
+    "bytes": 7284,
+    "sha256": "e3e4224aef92b9d88f968cd35a54ca43582eddfb728b58782dbe76c19812c53d",
+    "functions": [
+      {
+        "name": "label",
+        "line": 12,
+        "end_line": 15
+      },
+      {
+        "name": "metrics",
+        "line": 16,
+        "end_line": 22
+      }
+    ],
+    "parse_error": null
+  }
+]

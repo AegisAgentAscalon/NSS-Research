@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_BOUNDED_PREPARATION",
+  "component_disposition": "PARKED_FOR_INTEGRATION",
+  "utc": "2026-09-28T12:38:46.030528+00:00",
+  "main_updates": 1152,
+  "preflight_updates": 3,
+  "total_updates": 1155,
+  "continuation_branches": 12,
+  "parent_models": 6,
+  "new_random_fits": 0,
+  "endpoint_files": 18,
+  "world_rows": 2340,
+  "stream_checks": 12,
+  "numerical_violations": 0,
+  "main_core_seconds": 22.073351308000042,
+  "main_peak_rss_bytes": 399749120,
+  "no_follow_on_run": true
+}

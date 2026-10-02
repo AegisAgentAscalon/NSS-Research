@@ -1,0 +1,332 @@
+{
+  "all_checkpoints_unchanged": true,
+  "checkpoints": 40,
+  "comparisons": [
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_short_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_short_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_short_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_short_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_short_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_wide_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_wide_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_wide_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_wide_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 2681,
+      "checkpoint": "gru_slots_wide_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_short_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_short_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_short_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_short_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_short_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_wide_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_wide_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_wide_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_wide_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 1050,
+      "checkpoint": "hard_slots_wide_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 48
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_short_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_short_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_short_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_short_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_short_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_wide_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_wide_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_wide_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_wide_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": true,
+      "changed_elements": 1050,
+      "checkpoint": "soft_slots_wide_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 192
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_short_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_short_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_short_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_short_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_short_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_wide_seed301.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_wide_seed302.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_wide_seed303.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_wide_seed304.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    },
+    {
+      "calibration_reproduced": false,
+      "changed_elements": 5771,
+      "checkpoint": "tape_reader_wide_seed305.safetensors",
+      "exact_final_identity": true,
+      "exact_initial_identity": true,
+      "rows_reproduced": 96
+    }
+  ],
+  "matched_training_stream_groups": 10,
+  "model_metric_cells_reproduced": 3840,
+  "note": "Fresh checkpoint reload, regeneration of episodes and predictions; same published model implementation, not an independent model reimplementation.",
+  "registered_files": 10,
+  "registered_files_unchanged": true,
+  "status": "PASS"
+}

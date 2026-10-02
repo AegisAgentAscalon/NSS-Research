@@ -1,0 +1,188 @@
+{
+  "answer_evaluations": 1013760,
+  "configurations": 30,
+  "entries": [
+    {
+      "answer_evaluations": 33280,
+      "file": "exact_lookup_801.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "exact_lookup_802.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "exact_lookup_803.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "exact_lookup_804.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "exact_lookup_805.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "fixed_attention4_801.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "fixed_attention4_802.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "fixed_attention4_803.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "fixed_attention4_804.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "fixed_attention4_805.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "gated_hop_801.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "gated_hop_802.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "gated_hop_803.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "gated_hop_804.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "gated_hop_805.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "record_hop_801.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "record_hop_802.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "record_hop_803.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "record_hop_804.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "record_hop_805.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "tied_attention_801.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "tied_attention_802.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "tied_attention_803.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "tied_attention_804.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 33280,
+      "file": "tied_attention_805.json",
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 36352,
+      "file": "untied_hop4_801.json",
+      "rows": 284,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 36352,
+      "file": "untied_hop4_802.json",
+      "rows": 284,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 36352,
+      "file": "untied_hop4_803.json",
+      "rows": 284,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 36352,
+      "file": "untied_hop4_804.json",
+      "rows": 284,
+      "status": "PASS"
+    },
+    {
+      "answer_evaluations": 36352,
+      "file": "untied_hop4_805.json",
+      "rows": 284,
+      "status": "PASS"
+    }
+  ],
+  "rows": 7920,
+  "status": "PASS"
+}

@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "loss": 1.9730850458145142,
+      "A_loss": 0.0,
+      "B_loss": 1.9730850458145142,
+      "grad_norm": 0.7224530577659607,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.10682665556669235,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.037383921444416046,
+        "cell.bias_hh": 0.037358008325099945,
+        "head.weight": 0.06806675344705582,
+        "head.bias": 0.008955343626439571
+      }
+    },
+    {
+      "loss": 1.9421314001083374,
+      "A_loss": 0.0,
+      "B_loss": 1.9421314001083374,
+      "grad_norm": 0.7266983389854431,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.1065906435251236,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.03754546120762825,
+        "cell.bias_hh": 0.037530317902565,
+        "head.weight": 0.0682608038187027,
+        "head.bias": 0.008942890912294388
+      }
+    },
+    {
+      "loss": 1.9098975658416748,
+      "A_loss": 0.0,
+      "B_loss": 1.9098975658416748,
+      "grad_norm": 0.7312913537025452,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.10653724521398544,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.0377756766974926,
+        "cell.bias_hh": 0.037772826850414276,
+        "head.weight": 0.0685773715376854,
+        "head.bias": 0.008928275667130947
+      }
+    },
+    {
+      "loss": 1.8762800693511963,
+      "A_loss": 0.0,
+      "B_loss": 1.8762800693511963,
+      "grad_norm": 0.7360998392105103,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.10668707638978958,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.03806183859705925,
+        "cell.bias_hh": 0.038071874529123306,
+        "head.weight": 0.06898854672908783,
+        "head.bias": 0.008911212906241417
+      }
+    }
+  ],
+  "counters": {
+    "optimizer_applications": 4,
+    "backward_calls": 4,
+    "canonical_state_rows": 32,
+    "reference_state_rows": 0
+  },
+  "peak_rss": 330629120
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "observed_first_before_input_inspection": [
+    "Q010_SHELL_EXECUTION_OK",
+    "Q010_PYTHON_EXECUTION_OK 3.13.5"
+  ],
+  "prior_backend_failures_not_reinterpreted_as_model_failures": true,
+  "initial_inputs_all_three_present": true
+}

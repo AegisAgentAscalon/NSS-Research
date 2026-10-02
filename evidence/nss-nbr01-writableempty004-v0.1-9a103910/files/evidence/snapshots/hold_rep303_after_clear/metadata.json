@@ -1,0 +1,17 @@
+{
+  "events": 4,
+  "identity": {
+    "mode": "hold",
+    "repair": null,
+    "representation": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+    "schema": "writable-empty004/state-v1",
+    "scope": "resume-test",
+    "shape": [
+      4,
+      4,
+      16
+    ]
+  },
+  "rounds": 121,
+  "sha256": "bc2a6d4f21842b1fc4217c03f80be9ccd9e851f276c9f2c832449defc18b6e4b"
+}

@@ -1,0 +1,38 @@
+{
+  "study": "CYCLE01-A",
+  "version": "0.1",
+  "scope": "TWO_NIGHT_DEVELOPMENT_FEASIBILITY_NOT_RESERVED_MAIN",
+  "seeds": [
+    4101,
+    4102,
+    4103,
+    4104
+  ],
+  "policies": [
+    "FIXED",
+    "LEARN",
+    "REPLAY",
+    "BALANCED"
+  ],
+  "nights": 2,
+  "changed_cues": [
+    0,
+    1
+  ],
+  "b_updates": 64,
+  "repair_updates": 32,
+  "lr": 0.003,
+  "guard_seed": 1380101,
+  "live_seed": 1380102,
+  "replay_seed_offset": 1381000,
+  "precision": "float64",
+  "atol": 1e-09,
+  "rtol": 1e-08,
+  "preflight_max_updates": 16,
+  "development_max_updates": 2048,
+  "max_core_seconds": 1200,
+  "max_branch_seconds": 120,
+  "max_rss": 2147483648,
+  "max_storage": 134217728,
+  "created_utc": "2026-09-29T11:39:49.043689+00:00"
+}

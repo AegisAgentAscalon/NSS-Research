@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 96,
+      "pattern": "^[A-Za-z0-9_.:-]+$"
+    },
+    "producer_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 96,
+      "pattern": "^[A-Za-z0-9_.:-]+$"
+    },
+    "at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    },
+    "claim": {
+      "$ref": "qualification_claim.schema.json"
+    },
+    "binding": {
+      "$ref": "qualification_binding.schema.json"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 96,
+        "pattern": "^[A-Za-z0-9_.:-]+$"
+      },
+      "minItems": 0,
+      "maxItems": 3,
+      "uniqueItems": true
+    },
+    "policy_sha256": {
+      "const": "ea039f28495130c3e9a7cab635d027a9e54a9b81ed69a2ff0038981a001fc0e3"
+    },
+    "purpose": {
+      "const": "LOCAL_DEVELOPMENT_QUALIFICATION"
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "producer_id",
+    "at",
+    "claim",
+    "binding",
+    "prerequisites",
+    "policy_sha256",
+    "purpose"
+  ],
+  "additionalProperties": false
+}

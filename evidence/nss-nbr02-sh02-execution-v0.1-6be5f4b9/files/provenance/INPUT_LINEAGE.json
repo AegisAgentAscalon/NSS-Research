@@ -1,0 +1,94 @@
+{
+  "upstream_archive": "NSS_NBR02_SH01_Execution_v0.1.zip",
+  "archive_sha256": "25f0c450ec5ab1cdba541f885485a0a231fe3dd10a728ea7d000dc6b42e1af39",
+  "upstream_CRC_pass": true,
+  "upstream_manifest_files_verified": 140,
+  "upstream_manifest_mismatches": 0,
+  "copied_and_derived": [
+    {
+      "source": "fixtures/development.jsonl.gz",
+      "destination": "fixtures/development.jsonl.gz",
+      "sha256": "1f6b0af4409e034538b7a88813ecfa3f6387f85ac4d01dc5d6cd92f872b88883"
+    },
+    {
+      "source": "fixtures/confirmation.jsonl.gz",
+      "destination": "fixtures/confirmation.jsonl.gz",
+      "sha256": "7463e419ee2b841e00c8ef4d032365633656564049f6d90c9ec16209bf050fc0"
+    },
+    {
+      "source": "fixtures/stress.jsonl.gz",
+      "destination": "fixtures/stress.jsonl.gz",
+      "sha256": "1cc9acfc8e7c17431e4af6978582df8f8821ab9324bf524c553cd67e609afdde"
+    },
+    {
+      "source": "checkpoints/8801_hsa_0600.pt",
+      "destination": "checkpoints/8801_hsa_inference.pt",
+      "source_sha256": "24fa055c5662bba43024f4a742fdaf6b46e6f50c4accf1421f9c9041f76552eb",
+      "destination_sha256": "d55a21a44c31b22cadf9b4bc13e14d0c3b2e93ec342dce3f378f7c08a16cffd0",
+      "operation": "strip optimizer/RNG only; tensors unchanged",
+      "model_hash": "5fe41f790cfe5a91bc1a46ffa2129c6274f39617aa470624dfc5ccb44f842107"
+    },
+    {
+      "source": "results/pred_8801_hsa_development.npz",
+      "destination": "reference/pred_8801_hsa_development.npz",
+      "sha256": "f98c904eda164742fdbb530041d5aa8b88edeeae5711d6dfdc0baf13b13c5199"
+    },
+    {
+      "source": "results/pred_8801_hsa_confirmation.npz",
+      "destination": "reference/pred_8801_hsa_confirmation.npz",
+      "sha256": "3bbc75cae5929feb8afa3894d00243f0d87f30593fbdf7019cf79cf77ddcc3a4"
+    },
+    {
+      "source": "results/pred_8801_hsa_stress.npz",
+      "destination": "reference/pred_8801_hsa_stress.npz",
+      "sha256": "5a5fd782bffb86dd59372f6fc23463f3d8a0740db7f88e64afca3b1e5513481c"
+    },
+    {
+      "source": "checkpoints/8802_hsa_0600.pt",
+      "destination": "checkpoints/8802_hsa_inference.pt",
+      "source_sha256": "a6af639a28dd990cf0dcf229c35c775c2d121f00b702d4cd5e2301d5ea933d07",
+      "destination_sha256": "2006e155b39f708f52d9738b0420b98e591190bbf0681e5c1a6052cadd076a85",
+      "operation": "strip optimizer/RNG only; tensors unchanged",
+      "model_hash": "9e09a51bc8cbd0896fe5d87faf313e8a463fe773cb2b462aeba7ceac6aa4d215"
+    },
+    {
+      "source": "results/pred_8802_hsa_development.npz",
+      "destination": "reference/pred_8802_hsa_development.npz",
+      "sha256": "7c2b5daa43b50ddaa4dec5924a93de385078686d5863d4519364f16908e062eb"
+    },
+    {
+      "source": "results/pred_8802_hsa_confirmation.npz",
+      "destination": "reference/pred_8802_hsa_confirmation.npz",
+      "sha256": "8e8913d18674e011da672af73b31a1c90afff881a4f7d5b473d78a7944b2fe1b"
+    },
+    {
+      "source": "results/pred_8802_hsa_stress.npz",
+      "destination": "reference/pred_8802_hsa_stress.npz",
+      "sha256": "7f0ea79b07e642e88ed15aa7bebb3683e3677eb3dd6082acb941df175d31f3de"
+    },
+    {
+      "source": "checkpoints/8804_hsa_0600.pt",
+      "destination": "checkpoints/8804_hsa_inference.pt",
+      "source_sha256": "bd3eb0c1f260f2299f3a705744306725c27acd62fd5317828ff3b5648f8fa94a",
+      "destination_sha256": "55e65566dd62a8490ec349bc27bcc082df2a83e276249ff323ba5f8487d7002e",
+      "operation": "strip optimizer/RNG only; tensors unchanged",
+      "model_hash": "cb72c2a15188ba7fee2abf9c22fe03f9b8dbf5fa9bef0b566affc50de28f2603"
+    },
+    {
+      "source": "results/pred_8804_hsa_development.npz",
+      "destination": "reference/pred_8804_hsa_development.npz",
+      "sha256": "98ef46c7e20f93188d828db16493d603c275a1db2b5976511c1f92c26440bf4a"
+    },
+    {
+      "source": "results/pred_8804_hsa_confirmation.npz",
+      "destination": "reference/pred_8804_hsa_confirmation.npz",
+      "sha256": "52e3437916efe006a200071c9f6fa2e048b30d5bb0d86c0cbb79f819d3461789"
+    },
+    {
+      "source": "results/pred_8804_hsa_stress.npz",
+      "destination": "reference/pred_8804_hsa_stress.npz",
+      "sha256": "e3762c4a7a2b40795603c3144dbdaba45adb5b62d61fb788fb553c712dc8290f"
+    }
+  ],
+  "optimizer_updates": 0
+}

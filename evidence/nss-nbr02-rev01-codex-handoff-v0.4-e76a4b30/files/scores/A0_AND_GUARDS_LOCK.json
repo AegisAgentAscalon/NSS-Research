@@ -1,0 +1,109 @@
+{
+  "calibration": {
+    "G": {
+      "median_loss": 0.007561968144858086,
+      "median_margin": 0.014779054619160237,
+      "observations": 32,
+      "tau_loss": 0.007561968144858086,
+      "tau_margin": 0.014779054619160237
+    },
+    "L": {
+      "median_loss": 0.014917776285315237,
+      "median_margin": 0.026991582377197954,
+      "observations": 32,
+      "tau_loss": 0.01,
+      "tau_margin": 0.02
+    }
+  },
+  "fits": [
+    {
+      "arm": "G",
+      "development_correct": 18,
+      "fit": 0,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "G",
+      "development_correct": 17,
+      "fit": 1,
+      "frozen_correct": 14,
+      "gain": 3,
+      "initial_correct": 8,
+      "pass": 0
+    },
+    {
+      "arm": "G",
+      "development_correct": 16,
+      "fit": 2,
+      "frozen_correct": 11,
+      "gain": 5,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "G",
+      "development_correct": 16,
+      "fit": 3,
+      "frozen_correct": 8,
+      "gain": 8,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 18,
+      "fit": 0,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 18,
+      "fit": 1,
+      "frozen_correct": 14,
+      "gain": 4,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 16,
+      "fit": 2,
+      "frozen_correct": 8,
+      "gain": 8,
+      "initial_correct": 8,
+      "pass": 1
+    },
+    {
+      "arm": "L",
+      "development_correct": 16,
+      "fit": 3,
+      "frozen_correct": 8,
+      "gain": 8,
+      "initial_correct": 8,
+      "pass": 1
+    }
+  ],
+  "heldout_not_generated": true,
+  "initial_checkpoint_digests": {
+    "0/G": "27b0552454841b99d7a6e48136bb20628f96a3c3a1f6286af0912c4feb2912c4",
+    "0/L": "1785be425385a3368a41ef92f1ee575eb229cc8a1872716dba8aab173a418129",
+    "1/G": "7d576e32ff45b03c750efb2148931d25a294c2e41655435cb0eb250193dbf166",
+    "1/L": "8b2330c6c78a72f14d51d631bca629554e4cb36583ba3a7f9f9e84c3d17d7562",
+    "2/G": "e4a090cdd4623bf2bbc22ae1497f4ba81e5ff69ef85bf7c0871b28e4d2351387",
+    "2/L": "a7690c6c90bea942e71afeef3400cde32fd479e81ef4da5b604852510f7df2c3",
+    "3/G": "18a4cd774b9318f00e898e0099138c1dbd840b313ca37c86d9a63a40a8778add",
+    "3/L": "6800b3a44359e95ec430a24574cd080c688d182fa456014566f30240dc00ab2d"
+  },
+  "passing_fits": {
+    "G": 3,
+    "L": 4
+  },
+  "source_lock": "bdd60899e13b773c727399b2dbd5dbd61904b9eb2f91eab7e57db53f81134c5a",
+  "status": "ADMITTED"
+}

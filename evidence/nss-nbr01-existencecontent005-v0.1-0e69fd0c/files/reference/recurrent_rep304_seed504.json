@@ -1,0 +1,147 @@
+{
+  "answer_labels": 230400,
+  "changed_parameter_elements": 2128,
+  "checkpoint_sha256": "a0c955d5e38afa91e025e3c5c39114ecb01584354da7c21f469ae26b8eaed300",
+  "direct_state_target_supervision": true,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789946739.5310857,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 230400,
+  "fast_slow_rates": null,
+  "final_digest": "27d9d002d18c6b142fad16a20be119ef2d68b43e4867a8027a2645ded4c4b357",
+  "frozen_reference_unchanged": true,
+  "gradient_bytes": 8512,
+  "initial_digest": "3d25a6cdcc66bc00ab25467ae6f92304f2ba4202df02d3d9475fb4e7f203683e",
+  "kind": "recurrent",
+  "learn_seed": 504,
+  "logs": [
+    {
+      "accuracy": 0.78125,
+      "grad_norm": 0.7374153733253479,
+      "loss": 0.4363808035850525,
+      "mse": 0.48745548725128174,
+      "rounds": 2,
+      "step": 1
+    },
+    {
+      "accuracy": 0.9375,
+      "grad_norm": 0.09772923588752747,
+      "loss": 0.06005461886525154,
+      "mse": 0.026567380875349045,
+      "rounds": 2,
+      "step": 150
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.07090052962303162,
+      "loss": 0.05719269812107086,
+      "mse": 0.03880280256271362,
+      "rounds": 2,
+      "step": 300
+    },
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.057709626853466034,
+      "loss": 0.03168482333421707,
+      "mse": 0.02192091755568981,
+      "rounds": 2,
+      "step": 450
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.09294568002223969,
+      "loss": 0.025855597108602524,
+      "mse": 0.018438275903463364,
+      "rounds": 4,
+      "step": 600
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.051869895309209824,
+      "loss": 0.03814226761460304,
+      "mse": 0.02726815827190876,
+      "rounds": 1,
+      "step": 750
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.05498052015900612,
+      "loss": 0.02244376577436924,
+      "mse": 0.012638464570045471,
+      "rounds": 2,
+      "step": 900
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.07393507659435272,
+      "loss": 0.014799166470766068,
+      "mse": 0.00831166934221983,
+      "rounds": 4,
+      "step": 1050
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.07626347988843918,
+      "loss": 0.024977881461381912,
+      "mse": 0.01307059358805418,
+      "rounds": 2,
+      "step": 1200
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.07934582233428955,
+      "loss": 0.017432283610105515,
+      "mse": 0.00992631446570158,
+      "rounds": 4,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.06166048347949982,
+      "loss": 0.019457997754216194,
+      "mse": 0.01119193248450756,
+      "rounds": 2,
+      "step": 1500
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.05808901786804199,
+      "loss": 0.02528328262269497,
+      "mse": 0.017837800085544586,
+      "rounds": 1,
+      "step": 1650
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.031229721382260323,
+      "loss": 0.007375350221991539,
+      "mse": 0.00250545097514987,
+      "rounds": 4,
+      "step": 1800
+    }
+  ],
+  "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+  "optimizer_tensor_bytes": 17040,
+  "parameter_bytes": 8512,
+  "reference_sha256": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+  "rep_seed": 304,
+  "rss_process_peak_5ms_sample_bytes": 328196096,
+  "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+  "status": "RUN",
+  "steps": 1800,
+  "target_code_scalars": 3686400,
+  "train_cpu_seconds": 3.9586254430000025,
+  "train_wall_seconds": 3.929779733000032,
+  "trainable_parameters": 2128,
+  "training_data_digest": "b72effa3294edccec318bf7b731597b4eb3156519485b162167f15e7444209b0"
+}

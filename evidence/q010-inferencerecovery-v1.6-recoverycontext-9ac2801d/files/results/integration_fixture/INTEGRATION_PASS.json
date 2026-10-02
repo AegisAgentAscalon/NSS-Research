@@ -1,0 +1,14 @@
+{
+  "cases_per_non_lifecycle_condition": 4,
+  "conditions": 64,
+  "frames": 129,
+  "logical_stage_evaluations": 19104,
+  "new_optimizer_updates": 0,
+  "not_added_to_main_workload": true,
+  "query_chains": 2880,
+  "readers": "saved main seed1201 exports plus inherited and exact controls",
+  "seed": 1201,
+  "source_lock_sha256": "930d3fb476962ff3d51a40d2add84e0c109ada09a5339c54471d6abeda53bf8c",
+  "split": "development",
+  "status": "PASS_END_TO_END_INTEGRATION"
+}

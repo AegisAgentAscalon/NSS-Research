@@ -1,0 +1,36 @@
+{
+  "study": "NSS-NBR02-DC01",
+  "execution": "v0.5",
+  "scientific_protocol": "integrated_v0.3",
+  "status": "COMPLETED_BOUNDED_SCIENTIFIC_SCREENS_PASSED",
+  "A0": "PASS",
+  "D1": "PASS",
+  "D2_G": "PASS",
+  "D2_L": "PASS",
+  "D3": "PASS",
+  "overall_efficiency": "NOT_ESTABLISHED",
+  "memory_inventory_limit": "OBS-DC01-COST-001",
+  "heldout_generated": true,
+  "original_v0.4_status": "STOPPED_AT_STORAGE_ADMISSION_PRESERVED",
+  "numerical_attempts": {
+    "cell": 331744,
+    "head": 48672,
+    "backward": 4560,
+    "update_attempt": 9088,
+    "update_commit": 9088
+  },
+  "full_adaptive_replay": {
+    "frames": 42402,
+    "arrays": 117866,
+    "elements": 29728572
+  },
+  "new_candidates_executed": false,
+  "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+  "NBR02": "ACTIVE_COMPLETED_DC01_REFERENCE_FOR_REVIEW",
+  "NBR03": "NOT_DISPATCHED",
+  "RET-MW01-FIT-001": "PARKED_OPEN",
+  "FCR-0103-001": "PLANNED_AFTER_NBR03_BEFORE_NBR04",
+  "parent_architecture_changed": false,
+  "active_seconds_through_documentation": 2161.330154657364,
+  "completion_date_utc": "2026-09-25"
+}

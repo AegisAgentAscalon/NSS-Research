@@ -1,0 +1,503 @@
+{
+  "count": 83,
+  "tests": [
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_missing_revocation_index_row_must_not_restore_permission",
+      "line": 28
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_revocation_index_cannot_be_repointed_away_from_affected_source",
+      "line": 34
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_corrupted_revocation_event_blocks_consumption",
+      "line": 39
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_batch_reads_exact_revisions_without_admin_inspection",
+      "line": 44
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_batch_checks_are_one_consistent_archive_transaction",
+      "line": 50
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_revocation_between_observation_and_publication_yields_nonusable_snapshot",
+      "line": 71
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_consumption_is_rechecked_every_time",
+      "line": 81
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_unknown_or_future_store_schema_fails_closed",
+      "line": 87
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_missing_snapshot_db_not_recreated_on_read",
+      "line": 91
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_malformed_db_file_open_is_typed",
+      "line": 95
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_orphan_operation_detected_by_audit",
+      "line": 99
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_operation_identity_corruption_rejected",
+      "line": 105
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_bad_ids_types_and_splits_fail_typed",
+      "line": 110
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_batch_invalid_requests_fail_typed",
+      "line": 121
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_deep_nonfinite_and_cyclic_request_rejected",
+      "line": 126
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_oversized_input_rejected_without_publication",
+      "line": 135
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_unrecognized_fault_point_is_not_accepted",
+      "line": 140
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_request_does_not_allow_executable_transform_or_implicit_latest",
+      "line": 143
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_whitespace_example_rejected",
+      "line": 148
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_shared_ancestor_source_cannot_leak_across_splits",
+      "line": 152
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_sql_failure_rolls_back_manifest_and_preserves_prior_dataset",
+      "line": 164
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_returned_values_cannot_mutate_published_manifest",
+      "line": 174
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_invalid_archive_and_path_objects_are_typed",
+      "line": 181
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_duplicate_stored_json_field_fails_closed",
+      "line": 186
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_changed_approval_or_unrelated_permission_requires_explicit_rebuild",
+      "line": 193
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_actual_tokenizer_byte_budget_enforced",
+      "line": 200
+    },
+    {
+      "module": "test_dataset_boundaries",
+      "class": "BoundaryTests",
+      "test": "test_partial_archive_batch_is_rejected_before_publication",
+      "line": 204
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_build_inspect_read_and_revocation",
+      "line": 31
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_prepare_is_not_build_or_approval",
+      "line": 40
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_preparation_can_use_unapproved_ref_but_build_blocks",
+      "line": 48
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_never_initializes_on_inspect",
+      "line": 57
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_duplicate_json_keys_rejected",
+      "line": 61
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_oversized_deep_nonfinite_requests_rejected",
+      "line": 65
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CLITests",
+      "test": "test_cli_wrong_tokenizer_returns_nonzero_not_success",
+      "line": 71
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CrashTests",
+      "test": "test_real_process_death_before_and_after_publication",
+      "line": 77
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CrashTests",
+      "test": "test_crash_replay_rechecks_revocation_before_new_publication",
+      "line": 95
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "CrashTests",
+      "test": "test_committed_crash_retry_does_not_regrant_use",
+      "line": 105
+    },
+    {
+      "module": "test_dataset_cli_crashes",
+      "class": "IntegrationTests",
+      "test": "test_complete_synthetic_pipeline_and_revocation",
+      "line": 118
+    },
+    {
+      "module": "test_dataset_spec_boundaries",
+      "class": "SpecBoundaryTests",
+      "test": "test_parent_atlas_and_two_helper_flows_validate",
+      "line": 9
+    },
+    {
+      "module": "test_dataset_spec_boundaries",
+      "class": "SpecBoundaryTests",
+      "test": "test_only_store_owns_dataset_sql_and_no_archive_private_access",
+      "line": 14
+    },
+    {
+      "module": "test_dataset_spec_boundaries",
+      "class": "SpecBoundaryTests",
+      "test": "test_schema_limits_match_runtime_contract",
+      "line": 22
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_build_is_fixed_and_source_linked",
+      "line": 37
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_pending_record_not_training_data",
+      "line": 48
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_approved_without_training_permission_is_blocked",
+      "line": 53
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_retrieval_permission_is_not_training",
+      "line": 57
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_no_silent_skipping_of_denied_member",
+      "line": 62
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_record_correction_preserves_snapshot_but_blocks_old_use",
+      "line": 67
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_unrelated_archive_growth_does_not_mutate_or_block",
+      "line": 78
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_source_revocation_blocks_after_reopen",
+      "line": 83
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_revocation_of_validation_member_blocks_training_split_too",
+      "line": 90
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_unrelated_purpose_revocation_does_not_block_training",
+      "line": 94
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_withdrawal_blocks_snapshot",
+      "line": 98
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_dispute_blocks_snapshot",
+      "line": 102
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_same_family_cannot_cross_splits",
+      "line": 106
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_same_source_cannot_cross_splits_even_with_different_family",
+      "line": 110
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_shared_family_and_source_allowed_within_one_split",
+      "line": 114
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_duplicate_projected_examples_rejected_not_silently_removed",
+      "line": 119
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_newline_projection_and_collision",
+      "line": 124
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_exact_retry_after_revocation_is_historical_receipt_only",
+      "line": 131
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_same_operation_different_request_rejected",
+      "line": 138
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_same_snapshot_id_different_operation_rejected",
+      "line": 142
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_member_order_normalized_for_idempotency",
+      "line": 146
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_consume_requires_exact_manifest_hash",
+      "line": 150
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_tokenizer_tamper_blocks_build_and_read",
+      "line": 154
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_different_archive_cannot_be_substituted",
+      "line": 160
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_missing_archive_not_recreated",
+      "line": 165
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_missing_tokenizer_is_typed",
+      "line": 170
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_corrupt_manifest_blocks_read_and_audit",
+      "line": 174
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_missing_operation_receipt_blocks_read",
+      "line": 180
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_missing_source_bytes_fail_closed",
+      "line": 185
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_admin_inspect_not_a_permission_grant",
+      "line": 190
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_requested_split_not_present_returns_no_examples",
+      "line": 195
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_invalid_read_purpose_cannot_bypass_training_gate",
+      "line": 199
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_model_cannot_attest_selection",
+      "line": 206
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_malformed_requests_fail_typed_and_leave_no_snapshot",
+      "line": 210
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_duplicate_members_and_boolean_revision_rejected",
+      "line": 220
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_wrong_revision_and_wrong_hash_rejected",
+      "line": 226
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_at_least_one_train_member_required",
+      "line": 232
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_request_cannot_predate_selected_review",
+      "line": 236
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_too_many_members_rejected_before_archive_lookup",
+      "line": 240
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_nonempty_directory_and_unknown_store_rejected",
+      "line": 244
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_list_and_operation_receipt",
+      "line": 249
+    },
+    {
+      "module": "test_datasetsnapshot001",
+      "class": "SnapshotTests",
+      "test": "test_schema_manifest_roundtrip",
+      "line": 255
+    }
+  ]
+}

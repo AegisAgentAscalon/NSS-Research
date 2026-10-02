@@ -1,0 +1,21 @@
+{
+  "disposition": "COMPLETE_BOUNDED_CAPACITY_DIAGNOSTIC",
+  "cases_completed": 488,
+  "cases_planned": 488,
+  "optimizer_applications": 0,
+  "new_fits": 0,
+  "numerical_violations": 0,
+  "class_parity_failures": 0,
+  "core_seconds": 211.84110616600242,
+  "runner_seconds": 231.6146475899999,
+  "audit": {
+    "bit_exact_replays": 40,
+    "bit_exact_resumes": 14,
+    "fresh_replays": 40,
+    "policy_pairs": 244,
+    "recount_cases": 488,
+    "saved_resumes": 14
+  },
+  "historical_gates_changed": false,
+  "next_run_authorized": false
+}

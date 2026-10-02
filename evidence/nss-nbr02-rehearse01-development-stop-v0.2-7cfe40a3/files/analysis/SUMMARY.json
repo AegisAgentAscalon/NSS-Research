@@ -1,0 +1,134 @@
+{
+  "status": "DEVELOPMENT_ONLY_NOT_QUALIFICATION",
+  "query_rows": 13220,
+  "negative_rows": 2046,
+  "phase_rows": {
+    "derivative": 8,
+    "development": 8160,
+    "fixture": 3060,
+    "initial": 800,
+    "probe": 1020,
+    "probe_warm": 36,
+    "sandbox": 8,
+    "warm": 128
+  },
+  "phase_negatives": {
+    "derivative": 2,
+    "development": 271,
+    "fixture": 1230,
+    "initial": 89,
+    "probe": 429,
+    "probe_warm": 21,
+    "sandbox": 4
+  },
+  "first_correct": {
+    "G": {
+      "B1_correct": 4,
+      "U_correct": 16,
+      "F_correct": 16,
+      "R_correct": 16
+    },
+    "L": {
+      "B1_correct": 5,
+      "U_correct": 16,
+      "F_correct": 16,
+      "R_correct": 16
+    }
+  },
+  "old_tail_correct": [
+    {
+      "arm": "G",
+      "branch": "F",
+      "sum": 507,
+      "count": 512
+    },
+    {
+      "arm": "G",
+      "branch": "R",
+      "sum": 512,
+      "count": 512
+    },
+    {
+      "arm": "G",
+      "branch": "U",
+      "sum": 509,
+      "count": 512
+    },
+    {
+      "arm": "L",
+      "branch": "F",
+      "sum": 512,
+      "count": 512
+    },
+    {
+      "arm": "L",
+      "branch": "R",
+      "sum": 512,
+      "count": 512
+    },
+    {
+      "arm": "L",
+      "branch": "U",
+      "sum": 512,
+      "count": 512
+    }
+  ],
+  "confidence_exceeding_cells": [
+    {
+      "arm": "G",
+      "branch": "F",
+      "fail": 12
+    },
+    {
+      "arm": "G",
+      "branch": "R",
+      "fail": 2
+    },
+    {
+      "arm": "G",
+      "branch": "U",
+      "fail": 11
+    },
+    {
+      "arm": "L",
+      "branch": "F",
+      "fail": 14
+    },
+    {
+      "arm": "L",
+      "branch": "R",
+      "fail": 5
+    },
+    {
+      "arm": "L",
+      "branch": "U",
+      "fail": 13
+    }
+  ],
+  "rehearsal_old_repairs_breaks": [
+    {
+      "arm": "G",
+      "branch": "F",
+      "repaired": 0,
+      "broken": 1
+    },
+    {
+      "arm": "G",
+      "branch": "R",
+      "repaired": 0,
+      "broken": 0
+    },
+    {
+      "arm": "L",
+      "branch": "F",
+      "repaired": 0,
+      "broken": 0
+    },
+    {
+      "arm": "L",
+      "branch": "R",
+      "repaired": 0,
+      "broken": 0
+    }
+  ]
+}

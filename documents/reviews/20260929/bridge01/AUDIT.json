@@ -1,0 +1,962 @@
+{
+  "review_type": "read-only static evidence inspection",
+  "scope": "Local supplied ZIPs and DOCX only. No external reads, network access, archive code execution, test execution, model inference, optimizer/training run, or checkpoint deserialization.",
+  "archive_integrity": [
+    {
+      "path": "NSS_NBR02_BRIDGE01_Prototype_v0.1.zip",
+      "bytes": 7732985,
+      "sha256": "ade14d04d64dd5fb074bff38e109d2715c24c0104b2008a5e033f22bd789ea5f",
+      "zip_crc_check": "PASS",
+      "member_count": 721,
+      "uncompressed_bytes": 50030989,
+      "unsafe_or_nonportable_member_paths": [],
+      "manifest_file_count": 719,
+      "manifest_sidecar_matches_json": true,
+      "manifest_missing_members": [],
+      "unmanifested_members": [],
+      "manifest_payload_mismatches": []
+    },
+    {
+      "path": "NSS_NBR02_BRIDGE01_Codex_Review_v0.1.zip",
+      "bytes": 150152,
+      "sha256": "bbe83ae41f521b49b5208d9fbfea4f8cbd20abea66afd0c1fc1f90c4f6dfdef8",
+      "zip_crc_check": "PASS",
+      "member_count": 32,
+      "uncompressed_bytes": 502685,
+      "unsafe_or_nonportable_member_paths": [],
+      "manifest_file_count": 30,
+      "manifest_sidecar_matches_json": true,
+      "manifest_missing_members": [],
+      "unmanifested_members": [],
+      "manifest_payload_mismatches": []
+    }
+  ],
+  "standalone_document_parity": {
+    "standalone_path": "NSS_NBR02_BRIDGE01_Architecture_Report_and_Low_Bit_Handoff_v0.1.docx",
+    "embedded_archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.docx",
+    "standalone_bytes": 51832,
+    "embedded_bytes": 51832,
+    "standalone_sha256": "3d45f9f4b9b6202942288e957c6458b94e93c34c586a469b34c19764dc637bc0",
+    "embedded_sha256": "3d45f9f4b9b6202942288e957c6458b94e93c34c586a469b34c19764dc637bc0",
+    "byte_identical": true
+  },
+  "checkpoint_inventory": [
+    {
+      "parent": 4101,
+      "files": [
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4101.npz",
+          "bytes": 74554,
+          "sha256": "f871320bcb8047c8bbcac6ad3e764c8b03a868e44fe1f4956326974f6d6ce14f",
+          "container_signature": "504b0304",
+          "container": "NPZ/ZIP",
+          "array_header_count": 6,
+          "arrays": [
+            {
+              "name": "cell.weight_ih.npy",
+              "shape": [
+                192,
+                26
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.weight_hh.npy",
+              "shape": [
+                192,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_ih.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_hh.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.weight.npy",
+              "shape": [
+                9,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.bias.npy",
+              "shape": [
+                9
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            }
+          ],
+          "numeric_arrays_loaded": false
+        },
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4101.pt",
+          "bytes": 232367,
+          "sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978",
+          "container_signature": "504b0304",
+          "container": "ZIP checkpoint container",
+          "inner_members_listed_only": [
+            {
+              "name": "parent_4101_2000/data.pkl",
+              "bytes": 2204
+            },
+            {
+              "name": "parent_4101_2000/.format_version",
+              "bytes": 1
+            },
+            {
+              "name": "parent_4101_2000/.storage_alignment",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4101_2000/byteorder",
+              "bytes": 6
+            },
+            {
+              "name": "parent_4101_2000/data/0",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4101_2000/data/1",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4101_2000/data/2",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/3",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/4",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4101_2000/data/5",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4101_2000/data/6",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/7",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4101_2000/data/8",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4101_2000/data/9",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/10",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4101_2000/data/11",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4101_2000/data/12",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/13",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/14",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/15",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/16",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/17",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4101_2000/data/18",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/19",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4101_2000/data/20",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4101_2000/data/21",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4101_2000/data/22",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4101_2000/data/23",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4101_2000/data/24",
+              "bytes": 5056
+            },
+            {
+              "name": "parent_4101_2000/version",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4101_2000/.data/serialization_id",
+              "bytes": 40
+            }
+          ],
+          "pickle_or_tensor_data_deserialized": false
+        }
+      ]
+    },
+    {
+      "parent": 4102,
+      "files": [
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4102.npz",
+          "bytes": 74554,
+          "sha256": "1e0cb2bf453ce26c934f0c3a524e86f3617f1f97f855fbdf5d217c6ecfb1e2a2",
+          "container_signature": "504b0304",
+          "container": "NPZ/ZIP",
+          "array_header_count": 6,
+          "arrays": [
+            {
+              "name": "cell.weight_ih.npy",
+              "shape": [
+                192,
+                26
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.weight_hh.npy",
+              "shape": [
+                192,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_ih.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_hh.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.weight.npy",
+              "shape": [
+                9,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.bias.npy",
+              "shape": [
+                9
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            }
+          ],
+          "numeric_arrays_loaded": false
+        },
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4102.pt",
+          "bytes": 232367,
+          "sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb",
+          "container_signature": "504b0304",
+          "container": "ZIP checkpoint container",
+          "inner_members_listed_only": [
+            {
+              "name": "parent_4102_2000/data.pkl",
+              "bytes": 2204
+            },
+            {
+              "name": "parent_4102_2000/.format_version",
+              "bytes": 1
+            },
+            {
+              "name": "parent_4102_2000/.storage_alignment",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4102_2000/byteorder",
+              "bytes": 6
+            },
+            {
+              "name": "parent_4102_2000/data/0",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4102_2000/data/1",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4102_2000/data/2",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/3",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/4",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4102_2000/data/5",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4102_2000/data/6",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/7",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4102_2000/data/8",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4102_2000/data/9",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/10",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4102_2000/data/11",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4102_2000/data/12",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/13",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/14",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/15",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/16",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/17",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4102_2000/data/18",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/19",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4102_2000/data/20",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4102_2000/data/21",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4102_2000/data/22",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4102_2000/data/23",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4102_2000/data/24",
+              "bytes": 5056
+            },
+            {
+              "name": "parent_4102_2000/version",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4102_2000/.data/serialization_id",
+              "bytes": 40
+            }
+          ],
+          "pickle_or_tensor_data_deserialized": false
+        }
+      ]
+    },
+    {
+      "parent": 4103,
+      "files": [
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4103.npz",
+          "bytes": 74554,
+          "sha256": "51bc66662090507b8a3003bfe7efc7267d7220ad6dd03e4bb8222ab43414512f",
+          "container_signature": "504b0304",
+          "container": "NPZ/ZIP",
+          "array_header_count": 6,
+          "arrays": [
+            {
+              "name": "cell.weight_ih.npy",
+              "shape": [
+                192,
+                26
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.weight_hh.npy",
+              "shape": [
+                192,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_ih.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_hh.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.weight.npy",
+              "shape": [
+                9,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.bias.npy",
+              "shape": [
+                9
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            }
+          ],
+          "numeric_arrays_loaded": false
+        },
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4103.pt",
+          "bytes": 232367,
+          "sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda",
+          "container_signature": "504b0304",
+          "container": "ZIP checkpoint container",
+          "inner_members_listed_only": [
+            {
+              "name": "parent_4103_2000/data.pkl",
+              "bytes": 2204
+            },
+            {
+              "name": "parent_4103_2000/.format_version",
+              "bytes": 1
+            },
+            {
+              "name": "parent_4103_2000/.storage_alignment",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4103_2000/byteorder",
+              "bytes": 6
+            },
+            {
+              "name": "parent_4103_2000/data/0",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4103_2000/data/1",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4103_2000/data/2",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/3",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/4",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4103_2000/data/5",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4103_2000/data/6",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/7",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4103_2000/data/8",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4103_2000/data/9",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/10",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4103_2000/data/11",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4103_2000/data/12",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/13",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/14",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/15",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/16",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/17",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4103_2000/data/18",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/19",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4103_2000/data/20",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4103_2000/data/21",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4103_2000/data/22",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4103_2000/data/23",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4103_2000/data/24",
+              "bytes": 5056
+            },
+            {
+              "name": "parent_4103_2000/version",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4103_2000/.data/serialization_id",
+              "bytes": 40
+            }
+          ],
+          "pickle_or_tensor_data_deserialized": false
+        }
+      ]
+    },
+    {
+      "parent": 4104,
+      "files": [
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4104.npz",
+          "bytes": 74554,
+          "sha256": "071261d50e3aba895f6801efe8080f3c1b7b31fbf57b4b040a1a835cd4cad1e2",
+          "container_signature": "504b0304",
+          "container": "NPZ/ZIP",
+          "array_header_count": 6,
+          "arrays": [
+            {
+              "name": "cell.weight_ih.npy",
+              "shape": [
+                192,
+                26
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.weight_hh.npy",
+              "shape": [
+                192,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_ih.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "cell.bias_hh.npy",
+              "shape": [
+                192
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.weight.npy",
+              "shape": [
+                9,
+                64
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            },
+            {
+              "name": "head.bias.npy",
+              "shape": [
+                9
+              ],
+              "dtype": "<f4",
+              "fortran_order": false
+            }
+          ],
+          "numeric_arrays_loaded": false
+        },
+        {
+          "archive_member": "NSS_NBR02_BRIDGE01_Prototype_v0.1/models/parent_4104.pt",
+          "bytes": 232367,
+          "sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571",
+          "container_signature": "504b0304",
+          "container": "ZIP checkpoint container",
+          "inner_members_listed_only": [
+            {
+              "name": "parent_4104_2000/data.pkl",
+              "bytes": 2204
+            },
+            {
+              "name": "parent_4104_2000/.format_version",
+              "bytes": 1
+            },
+            {
+              "name": "parent_4104_2000/.storage_alignment",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4104_2000/byteorder",
+              "bytes": 6
+            },
+            {
+              "name": "parent_4104_2000/data/0",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4104_2000/data/1",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4104_2000/data/2",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/3",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/4",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4104_2000/data/5",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4104_2000/data/6",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/7",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4104_2000/data/8",
+              "bytes": 19968
+            },
+            {
+              "name": "parent_4104_2000/data/9",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/10",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4104_2000/data/11",
+              "bytes": 49152
+            },
+            {
+              "name": "parent_4104_2000/data/12",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/13",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/14",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/15",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/16",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/17",
+              "bytes": 768
+            },
+            {
+              "name": "parent_4104_2000/data/18",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/19",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4104_2000/data/20",
+              "bytes": 2304
+            },
+            {
+              "name": "parent_4104_2000/data/21",
+              "bytes": 4
+            },
+            {
+              "name": "parent_4104_2000/data/22",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4104_2000/data/23",
+              "bytes": 36
+            },
+            {
+              "name": "parent_4104_2000/data/24",
+              "bytes": 5056
+            },
+            {
+              "name": "parent_4104_2000/version",
+              "bytes": 2
+            },
+            {
+              "name": "parent_4104_2000/.data/serialization_id",
+              "bytes": 40
+            }
+          ],
+          "pickle_or_tensor_data_deserialized": false
+        }
+      ]
+    }
+  ],
+  "retained_result_metadata": {
+    "summary": {
+      "study": "NSS NBR02 BRIDGE01",
+      "version": "0.1",
+      "cases": 216,
+      "rows": 216,
+      "language_model_inference_calls": 0,
+      "optimizer_applications": 0,
+      "measured_runner_seconds": 6.330911027000013,
+      "process_peak_rss_bytes": 99147776,
+      "by_mode": {
+        "rule": {
+          "cases": 24,
+          "complete": 24,
+          "neural_predictions": 0,
+          "neural_correct": 0,
+          "neural_false_done": 0,
+          "rejected_proposals": 62
+        },
+        "shadow": {
+          "cases": 96,
+          "complete": 96,
+          "neural_predictions": 2072,
+          "neural_correct": 2072,
+          "neural_false_done": 0,
+          "rejected_proposals": 248
+        },
+        "recurrent": {
+          "cases": 96,
+          "complete": 96,
+          "neural_predictions": 2072,
+          "neural_correct": 2072,
+          "neural_false_done": 0,
+          "rejected_proposals": 248
+        }
+      }
+    },
+    "independent_audit_claims": {
+      "counts": {
+        "argmax_differences": 0,
+        "cases": 216,
+        "effect_integrity": 3474,
+        "full_fresh_replays": 216,
+        "independent_recounts": 216,
+        "mismatched_acceptance": 0,
+        "neural_event_labels_checked": 4144,
+        "numerical_scalars": 302512,
+        "outside": 0,
+        "raw_response_judgments": 4482,
+        "recount_mismatches": 0
+      },
+      "maximum_absolute_numeric_difference": 7.105427357601002e-15,
+      "tolerance": "1e-9+1e-8*abs(reference)",
+      "optimizer_applications": 0,
+      "resource_limit_note": {
+        "64MiB_exceeded": false,
+        "bytes_before_doc_packaging": 49396009,
+        "note": "Final footprint and runner time/RSS checked retrospectively; protocol caps were NOT continuously enforced except request-round cap. Original source unchanged."
+      }
+    },
+    "preflight_claims": {
+      "passed": 41,
+      "test_groups": 41,
+      "loopback_test_label": "real loopback server, scripted reply, NO language inference"
+    },
+    "source_text_keyword_counts": {
+      "source/nss_bridge/recurrent.py": {
+        "quant": 0,
+        "int8": 0,
+        "uint8": 0,
+        "float16": 0,
+        "bfloat16": 0,
+        "float32": 0,
+        "float64": 5,
+        "optimizer": 0,
+        "train(?:ing)?": 1
+      },
+      "source/nss_bridge/bridge.py": {
+        "quant": 0,
+        "int8": 0,
+        "uint8": 0,
+        "float16": 0,
+        "bfloat16": 0,
+        "float32": 0,
+        "float64": 0,
+        "optimizer": 0,
+        "train(?:ing)?": 0
+      },
+      "source/nss_bridge/runner.py": {
+        "quant": 0,
+        "int8": 0,
+        "uint8": 0,
+        "float16": 0,
+        "bfloat16": 0,
+        "float32": 0,
+        "float64": 0,
+        "optimizer": 2,
+        "train(?:ing)?": 0
+      },
+      "source/nss_bridge/adapters.py": {
+        "quant": 0,
+        "int8": 0,
+        "uint8": 0,
+        "float16": 0,
+        "bfloat16": 0,
+        "float32": 0,
+        "float64": 0,
+        "optimizer": 0,
+        "train(?:ing)?": 0
+      }
+    }
+  },
+  "interpretation_boundary": "Numeric counts are read from retained result/audit JSON and report text; they are not freshly reproduced in this review. Source keyword counts are a narrow static scan, not a complete formal proof that every code path lacks low-bit support."
+}

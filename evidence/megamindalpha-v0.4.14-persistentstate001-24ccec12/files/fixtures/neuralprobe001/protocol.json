@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment": "NeuralProbe001",
+  "architecture": "two_linear_symbol_blocks_v1",
+  "codec": "one_hot_16_pair_v1",
+  "width": 16,
+  "rank": 4,
+  "core_steps": 240,
+  "overlay_steps": 350,
+  "learning_rate": 0.03,
+  "seeds": [101, 211, 307],
+  "precisions": ["fp32", "ternary_core_reference"],
+  "max_optimizer_steps": 12000,
+  "minimum_accuracy": 0.95,
+  "minimum_ablation_gap": 0.1,
+  "recovery_atol": 0.000001,
+  "recovery_rtol": 0.000001,
+  "evaluation_exposure": "DEVELOPER_VISIBLE_SYNTHETIC_HELDOUT_PAIRS"
+}

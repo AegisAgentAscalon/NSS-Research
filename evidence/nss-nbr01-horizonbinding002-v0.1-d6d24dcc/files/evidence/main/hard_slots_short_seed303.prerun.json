@@ -1,0 +1,21 @@
+{
+  "curriculum": "short",
+  "initial_parameter_digest": "e971fc9efbfebfbabb1e2524b48c9aae35e6936ebe27e3eb2dcaf4b597d165a5",
+  "kind": "hard_slots",
+  "protocol_sha256": "4cb724c1bfea9cc13714d1ff6bdd9b671b80051cfbded880ae3ab256b7c0ea2b",
+  "seed": 303,
+  "source": {
+    "nbr01_horizon/__init__.py": "4646c020c390fd22d86fc3b3d17c593a4894a6fe9eaf767cdabb3f236e9d0ab9",
+    "nbr01_horizon/data.py": "f7da0f2908ab89831de9a31090df7efe5fc5d86034a5049374427b886dc913a2",
+    "nbr01_horizon/evaluate.py": "1ca2650d5a2967e17c3f184dc7488fcffa5bf5919156fd625a245070a18a0d83",
+    "nbr01_horizon/models.py": "b7ea3b103cc6231a5e428a38206cd73a8ab323f422d8a2130249be8acbedf952",
+    "nbr01_horizon/state.py": "867cd81d0ae37868c1ad77440402d980cf9a63ff836364a5503267aff2768057",
+    "nbr01_horizon/train.py": "ec75ff4af47ef69b8a88c555fd3c45169d207ff97e7ba3dbe8343d8d173a99e6",
+    "nbr01_horizon/util.py": "8f20fbe15d483263f56c772a72260a6a60c424cb74cd36b055c37268464cad8f",
+    "run.py": "30375d39868ae96d12b9df72221c020ec042e6a8ae2124c947c4a4ef14fb3f34",
+    "tests/test_horizon.py": "f778733817ddaad4c975bb7c4dc445140080aef55466593195b8b25db2e154df"
+  },
+  "status": "NOT_RUN",
+  "steps": 2400,
+  "time_unix": 1789930829.3087401
+}

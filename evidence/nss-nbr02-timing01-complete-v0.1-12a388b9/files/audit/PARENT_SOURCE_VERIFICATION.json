@@ -1,0 +1,17 @@
+{
+  "verified": [
+    "source/driver.py",
+    "source/supervise.py",
+    "source/envelope_codec.py",
+    "source/base_runtime.py",
+    "source/worker.py",
+    "source/rev_runtime.py",
+    "source/scorer.py",
+    "source/runtime.py",
+    "source/faults.py",
+    "source/static_checks.py",
+    "source/check_lock.py",
+    "source/reference_numeric.py"
+  ],
+  "scope": "source byte identity, not fresh historical numerical replay"
+}

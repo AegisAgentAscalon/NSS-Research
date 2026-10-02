@@ -1,0 +1,13 @@
+{
+  "manifest_files": 522,
+  "mismatches": [],
+  "original_source_files_unchanged": [
+    "source/sc01.py",
+    "source/sh01_common.py",
+    "source/nss_hsa/attention.py",
+    "source/nss_hsa/records.py",
+    "source/nss_hsa/reader.py",
+    "source/nss_hsa/__init__.py",
+    "source/nss_hsa/hierarchy.py"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "calibration_identical": true,
+  "checkpoint_identical": true,
+  "history_and_batch_fingerprints_identical": true,
+  "optimizer_steps": 1200,
+  "seconds": 5.908943624999893,
+  "seed": 1001,
+  "sha256": "c59cf06827d6fd4fa8fd894c813c16f2949fd52d4f1b0f074b6e53ddb0cd6a5d",
+  "status": "PASS"
+}

@@ -1,0 +1,28 @@
+{
+  "cases_per_model": 65,
+  "code_hashes": {
+    "nbr006/__init__.py": "6e4517f507fde1525dffb730ef14b2b1c923fb764a5a31651ff9cf50db9c8a0a",
+    "nbr006/common.py": "d4e164d0a17b92619be634bc6effcf7bb373c812494a4685c00b37298583276f",
+    "nbr006/data.py": "3296bec5937c1afaea49decae11c8776ecec4153493513a4adc1918b9af2485c",
+    "nbr006/eval.py": "a7abd1c9b7aa35035375b0ee3d253aad3b375a39cf417230fde43c2c19bfd338",
+    "nbr006/models.py": "80b97089d3e6d080f2acff0f35bd0d1a4b47ca20451f230e79745fb1b06c3c69",
+    "nbr006/quick_eval.py": "4795d49c031bcb668ca49528cbbe36e43881d1d8ea9a2b0c979400394cf1f16d",
+    "nbr006/store.py": "c6ceb7cd883f9a996793b97f998fd54ace732f9b8798750e6ec6c73651bb37af",
+    "nbr006/train.py": "b538f84dc8cae56dbb1253c856f7d28f87872059d355245047f4e230cad9e30b",
+    "scripts/eval_batch.py": "085373292d8ccda4a6171790371ffe0bbe4631247a8f9e341f117356dd7d8821",
+    "scripts/main_batch.py": "ea67c8a0b452ccfdc59d60e777c9ebb9c6f813f99db2289f2ca749c71325964c",
+    "spec/PROTOCOL.md": "912dc300ac493b9d296c45982cf1d35dfb6303ddd2b76273e943f3b03259ee7f"
+  },
+  "evaluation_batch": 128,
+  "input_manifest_sha256": "5ac5d6b4d7ef333db4967249ea362444049bba41e8d8f6de44b936c9a01ff395",
+  "seeds": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "status": "LOCKED_BEFORE_MAIN_FITS_AND_MAIN_SCORING",
+  "untied_extra_cases": 6,
+  "utc": "2026-09-21T09:39:20.940161+00:00"
+}

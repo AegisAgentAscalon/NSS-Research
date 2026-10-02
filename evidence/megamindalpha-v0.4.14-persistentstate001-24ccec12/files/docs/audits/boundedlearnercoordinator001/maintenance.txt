@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "size": {
+    "nss_base": {
+      "python_files": 71,
+      "physical_lines": 10186,
+      "nonblank_lines": 9064
+    },
+    "tests": {
+      "python_files": 63,
+      "physical_lines": 7047,
+      "nonblank_lines": 6186
+    },
+    "tools": {
+      "python_files": 20,
+      "physical_lines": 1126,
+      "nonblank_lines": 1036
+    }
+  },
+  "interpretation": "Test volume is not bloat by itself. Distinct regressions remain; remove stale assertions and duplicate mechanics."
+}

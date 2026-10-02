@@ -1,0 +1,374 @@
+{
+  "additional_scalar_presence_only_masked_errors": [
+    {
+      "affected_streams": 1,
+      "masked_false_presence_read_positions": 2011,
+      "seed": 301
+    },
+    {
+      "affected_streams": 0,
+      "masked_false_presence_read_positions": 0,
+      "seed": 302
+    },
+    {
+      "affected_streams": 0,
+      "masked_false_presence_read_positions": 0,
+      "seed": 303
+    },
+    {
+      "affected_streams": 0,
+      "masked_false_presence_read_positions": 0,
+      "seed": 304
+    },
+    {
+      "affected_streams": 0,
+      "masked_false_presence_read_positions": 0,
+      "seed": 305
+    }
+  ],
+  "all_nominal_arrays_equal": true,
+  "nominal_equality_to_protected": [
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split1",
+      "seed": 301
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split4",
+      "seed": 301
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed1",
+      "seed": 301
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed4",
+      "seed": 301
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split1",
+      "seed": 302
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split4",
+      "seed": 302
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed1",
+      "seed": 302
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed4",
+      "seed": 302
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split1",
+      "seed": 303
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split4",
+      "seed": 303
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed1",
+      "seed": 303
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed4",
+      "seed": 303
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split1",
+      "seed": 304
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split4",
+      "seed": 304
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed1",
+      "seed": 304
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed4",
+      "seed": 304
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split1",
+      "seed": 305
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "split4",
+      "seed": 305
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed1",
+      "seed": 305
+    },
+    {
+      "equal": true,
+      "keys": {
+        "trace_life_150_0": true,
+        "trace_life_150_0_exist": true,
+        "trace_life_150_1": true,
+        "trace_life_150_1_exist": true,
+        "trace_life_150_2": true,
+        "trace_life_150_2_exist": true,
+        "trace_life_150_3": true,
+        "trace_life_150_3_exist": true,
+        "trace_life_150_4": true,
+        "trace_life_150_4_exist": true
+      },
+      "mode": "fixed4",
+      "seed": 305
+    }
+  ],
+  "status": "CHECKED",
+  "timing": "Post-analysis of registered stored outputs, not a newly tuned test"
+}

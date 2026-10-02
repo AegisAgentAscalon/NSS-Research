@@ -1,0 +1,81 @@
+{
+  "created_utc_observed_on_host": "2026-09-25T03:46:57.709940+00:00",
+  "scope": "Document, archive identity and manifest checks only; no fresh numerical study, model loads, gradients or replay",
+  "sources": [
+    {
+      "file": "NSS_TS03_CR01_PostResults_Candidates_v0.1.zip",
+      "bytes": 60785,
+      "sha256": "9c3a089eabf8769051cbb17c4bfaa5e3fddeeb24ba2695328bfc21ae9d5b35a7",
+      "scope": "Current Codex proposal; complete Markdown/package review"
+    },
+    {
+      "file": "NSS_CKA01_Codex_Handoff_v0.2.zip",
+      "bytes": 160421,
+      "sha256": "115f5950e6abcaa53ca80c39c35f2775a097870e53041559d863da96fe9d2bef",
+      "scope": "Checkpoint-audit compact report/context; read as retained evidence"
+    },
+    {
+      "file": "NSS_Checkpoint_Generalization_Audit_v0.2.zip",
+      "bytes": 34518103,
+      "sha256": "a039ce3e7c97449b5ab57bd76bd8aeab1a708f032433770d6c4b0e9eed976e13",
+      "scope": "Full CKA01 archive: bytes/hash checked only in this turn"
+    },
+    {
+      "file": "NSS_TS03_CR01_Execution_v0.4.zip",
+      "bytes": 65909061,
+      "sha256": "d46e51ee3d70abfb7d1dab9232a00a572c6e06f6bd9e923535ca7b22033d09f5",
+      "scope": "Full TS03 archive: bytes/hash checked only in this turn"
+    },
+    {
+      "file": "NSS_Architecture_Ledger_v0.1.zip",
+      "bytes": 165217,
+      "sha256": "8ca191b60c8793bfd4aa8bd2e36740b3f41c1d471f19a5e0e42388db04375b43",
+      "scope": "Parent architecture reference; payload hashes checked; unchanged"
+    },
+    {
+      "file": "NSS_NBR01_Closeout_and_NextPass_Proposals_v0.1.zip",
+      "bytes": 20288,
+      "sha256": "2ca92d0ff0320cd0566f82524d189c944b3deb84c2ca06fba4878ab2581c1f5f",
+      "scope": "Original closeout proposal; scope retained"
+    },
+    {
+      "file": "NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+      "bytes": 47114,
+      "sha256": "38bffa49b2eb8aa621396bdd338c3068db5ca6f4d3a445921953f291de667cb1",
+      "scope": "Compact historical handoff reviewed by Codex"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Codex proposal manifest and CRC",
+      "passed": true,
+      "payload_files": 8
+    },
+    {
+      "check": "Embedded historical TS03 compact handoff manifest/CRC; exact match to retained compact archive",
+      "passed": true,
+      "payload_files": 17
+    },
+    {
+      "check": "Parent architecture-ledger manifest",
+      "passed": true,
+      "payload_files": 21
+    },
+    {
+      "check": "CKA01 compact CRC, exact report agreement, 22 inherited G-question rows",
+      "passed": true
+    },
+    {
+      "check": "NSS_Checkpoint_Generalization_Audit_v0.2.zip matches retained delivery size/hash",
+      "passed": true,
+      "numerical_replication_this_turn": false
+    },
+    {
+      "check": "NSS_TS03_CR01_Execution_v0.4.zip matches retained delivery size/hash",
+      "passed": true,
+      "numerical_replication_this_turn": false
+    }
+  ],
+  "source_priority": "Latest Codex CANDIDATES governs its proposed pairing; CRITIQUE is retained separately because one criticism describes a pairing issue already addressed in CANDIDATES. CKA01 is added as subsequent evidence, not attributed to Codex.",
+  "historical_missing_evidence": "Q010 full optimizer/RNG/raw main training traces and original underflow source/row remain absent. Old compact evidence omissions remain."
+}

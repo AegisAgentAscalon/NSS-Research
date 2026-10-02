@@ -1,0 +1,46 @@
+{
+  "kind": "TS01 report-level analysis and unexecuted successor proposal",
+  "evidence_tier": "two supplied Markdown attachments; no TS01 execution ZIP reviewed",
+  "members": [
+    {
+      "name": "ANALYSIS.md",
+      "bytes": 4516,
+      "sha256": "f374b358db34e8c99a8f2ffd5074da4feed46b7ec95bd18440b59d8ae88cbd8e"
+    },
+    {
+      "name": "CANDIDATES.md",
+      "bytes": 7363,
+      "sha256": "5b1593a7702e45eb583445611a9d329f818014eee6585e433a09fd75e50a2ac0"
+    },
+    {
+      "name": "CHAT_PROMPT.md",
+      "bytes": 2197,
+      "sha256": "9d2de27e10168e5ac5a621839f5e4c2b9d213f81c1114f69cd90f337fa140722"
+    },
+    {
+      "name": "CRITIQUE.md",
+      "bytes": 2341,
+      "sha256": "87d056dd059f942f38f433a06251861b5fbb1289d3c113e86af5c9c19038788a"
+    },
+    {
+      "name": "EVIDENCE_REVIEW.md",
+      "bytes": 2646,
+      "sha256": "1fc5a100b686967f3b12d60a279b6afa63f08267bef18df395a3df8ee5bccd6e"
+    },
+    {
+      "name": "original_attachments/1-REPORT-5-1-.md",
+      "bytes": 17778,
+      "sha256": "28cd94cd2b99c1eea5ac4525083c425179e1a17e1696be794a85037f2798d10d"
+    },
+    {
+      "name": "original_attachments/2-CHAT_PROMPT-3-.md",
+      "bytes": 6666,
+      "sha256": "7389a7a35138d91b983ef0e342d1515bb839f4cf632ed4119e41103631e3f826"
+    },
+    {
+      "name": "source_receipt.json",
+      "bytes": 1518,
+      "sha256": "272974f3ca5c5ea674ed387d19e41b5c833a3511b23df80d18c91ab2565e9cee"
+    }
+  ]
+}

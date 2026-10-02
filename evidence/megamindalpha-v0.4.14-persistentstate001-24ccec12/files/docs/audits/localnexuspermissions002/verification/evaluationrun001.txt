@@ -1,0 +1,76 @@
+{
+  "status": "SUCCESS",
+  "scope": "Local synthetic checker/storage results only. No neural training, judging, qualification or deployment.",
+  "upstream_status": "SUCCESS",
+  "results": [
+    {
+      "run_id": "run-A",
+      "plan_sha256": "6f68a7a74c82520e309e1f40f0908760353dfdf3018208f9e11d16f9126a2c99",
+      "material_sha256": "d25e3a31b2d1a49aeb45cf2bdc6d6d15bc24e790b17b65cd63c2375e55e04779",
+      "state": "FINALIZED",
+      "report_sha256": "4f7493e8e03f6fee9ac0fe50f326cc290d310abe2e3fa1edaa56875568334039",
+      "verdict": "PASS",
+      "authority": "NONE"
+    },
+    {
+      "run_id": "run-AB",
+      "plan_sha256": "a48d88f0d54f9e1f6416cc5ea1bf23d4a1acc0ec8a40d434b018189d329ddde4",
+      "material_sha256": "d25e3a31b2d1a49aeb45cf2bdc6d6d15bc24e790b17b65cd63c2375e55e04779",
+      "state": "FINALIZED",
+      "report_sha256": "7feb08106965a7d117822f02e4497141980b3ce6a3c31afb0e479148df64c870",
+      "verdict": "FAIL",
+      "authority": "NONE"
+    },
+    {
+      "run_id": "run-limited",
+      "plan_sha256": "b5402ebdea2776d57c835bc247d3d072b90bb17706dffe20e1c7bb9eedbdc461",
+      "material_sha256": "d25e3a31b2d1a49aeb45cf2bdc6d6d15bc24e790b17b65cd63c2375e55e04779",
+      "state": "FINALIZED",
+      "report_sha256": "d89646e2b84ca8c972e2343e219b8ee3ebe938991536fa36d8eb226065105525",
+      "verdict": "INCONCLUSIVE",
+      "authority": "NONE"
+    }
+  ],
+  "comparison": {
+    "left": {
+      "receipt": {
+        "run_id": "run-A",
+        "plan_sha256": "6f68a7a74c82520e309e1f40f0908760353dfdf3018208f9e11d16f9126a2c99",
+        "material_sha256": "d25e3a31b2d1a49aeb45cf2bdc6d6d15bc24e790b17b65cd63c2375e55e04779",
+        "state": "FINALIZED",
+        "report_sha256": "4f7493e8e03f6fee9ac0fe50f326cc290d310abe2e3fa1edaa56875568334039",
+        "verdict": "PASS",
+        "authority": "NONE"
+      },
+      "passed_checks": 6
+    },
+    "right": {
+      "receipt": {
+        "run_id": "run-AB",
+        "plan_sha256": "a48d88f0d54f9e1f6416cc5ea1bf23d4a1acc0ec8a40d434b018189d329ddde4",
+        "material_sha256": "d25e3a31b2d1a49aeb45cf2bdc6d6d15bc24e790b17b65cd63c2375e55e04779",
+        "state": "FINALIZED",
+        "report_sha256": "7feb08106965a7d117822f02e4497141980b3ce6a3c31afb0e479148df64c870",
+        "verdict": "FAIL",
+        "authority": "NONE"
+      },
+      "passed_checks": 0
+    },
+    "fully_observed": true,
+    "scope": "Historical synthetic case comparison; not model quality, current permission or release approval."
+  },
+  "repeat_reproducible": true,
+  "historical_report_unchanged": true,
+  "verify_after_revocation": "TRAINING_RESTRICTED",
+  "new_run_after_revocation": "TRAINING_RESTRICTED",
+  "exact_retry_is_historical": true,
+  "runtime_checkpoint_unchanged": true,
+  "committed_mock_effects": 1,
+  "audit": {
+    "runs": 3,
+    "finalized": 3,
+    "prepared": 0,
+    "scope": "Stored byte/semantic consistency only, not current data permissions, external authentication or an independent evaluator."
+  },
+  "authorizes_deployment": false
+}

@@ -1,0 +1,147 @@
+{
+  "energy": "NOT_MEASURED",
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789951153.3126595,
+    "torch": "2.10.0+cpu"
+  },
+  "inherited": "Five HorizonBinding002 reps plus five StateRecovery003 recurrent parents, supplied and unchanged; historical preparation not rerun and not free.",
+  "low_bit": "NOT_RUN",
+  "main_optimizer_steps": 27000,
+  "main_sequence_presentations": 3456000,
+  "main_supervised_event_presentations": 21337344,
+  "main_training_seconds": 150.2515406229998,
+  "modes": [
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 0,
+      "maintenance_and_read_seconds_median": 9.713465499999074e-05,
+      "mode": "hold",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        9.696755500044673e-05,
+        9.784205499954623e-05,
+        9.80839700002889e-05,
+        9.63816399996631e-05,
+        9.713465499999074e-05
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8512,
+      "maintenance_and_read_seconds_median": 0.0002546817049994843,
+      "mode": "historical",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.0002651832000003651,
+        0.0002538792650000232,
+        0.00025267682500043523,
+        0.0002546817049994843,
+        0.0002548651299991889
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8512,
+      "maintenance_and_read_seconds_median": 0.00025619039500043075,
+      "mode": "replay",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.000255773119999958,
+        0.0002522212049996142,
+        0.0002648199049997402,
+        0.00025619039500043075,
+        0.000260106010000527
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8512,
+      "maintenance_and_read_seconds_median": 0.0002656980849997126,
+      "mode": "contract",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.0002518336499997531,
+        0.00027835647999950195,
+        0.0002656980849997126,
+        0.00027010722999989414,
+        0.00025811557499991975
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8512,
+      "maintenance_and_read_seconds_median": 0.00027690882999991117,
+      "mode": "presence_historical",
+      "raw_state_bytes_per_stream": 260,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.00027512223000030644,
+        0.0002732323249995261,
+        0.00028624694500081207,
+        0.00027690882999991117,
+        0.0002850060299999768
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8512,
+      "maintenance_and_read_seconds_median": 0.00027390096499971153,
+      "mode": "presence_contract",
+      "raw_state_bytes_per_stream": 260,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.00027224440499935555,
+        0.00026634564999994837,
+        0.00028308164500003843,
+        0.00027390096499971153,
+        0.0002837590549995639
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 8516,
+      "maintenance_and_read_seconds_median": 0.0002910064100001364,
+      "mode": "local_empty",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.00029604284000015466,
+        0.00030136043499965124,
+        0.0002880719099994167,
+        0.0002837577000002511,
+        0.0002910064100001364
+      ]
+    },
+    {
+      "batch": 64,
+      "extra_repair_weight_bytes": 0,
+      "maintenance_and_read_seconds_median": 0.00016343730500011588,
+      "mode": "nearest",
+      "raw_state_bytes_per_stream": 256,
+      "shared_representation_bytes": 4072,
+      "trials": [
+        0.00016073995000056128,
+        0.0001658702700001413,
+        0.00016343730500011588,
+        0.00015952219500036335,
+        0.0001682203149994166
+      ]
+    }
+  ],
+  "peak_temporary_allocation": "NOT_MEASURED",
+  "sampled_training_process_peak_rss_bytes": 330932224,
+  "target_hardware": "NOT_MEASURED",
+  "timing_scope": "Descriptive CPU microbenchmark, not user-PC or end-to-end quality-matched latency; may share host CPU."
+}

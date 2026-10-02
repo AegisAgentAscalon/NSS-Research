@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "format": {
+      "const": "MegaMindAlpha.QualificationEvidence002"
+    },
+    "operators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 96,
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "PRODUCER",
+                "REVIEWER"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 2,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "roles"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 2,
+      "maxItems": 32,
+      "uniqueItems": true
+    },
+    "policy_sha256": {
+      "const": "ea039f28495130c3e9a7cab635d027a9e54a9b81ed69a2ff0038981a001fc0e3"
+    }
+  },
+  "required": [
+    "schema_version",
+    "format",
+    "operators",
+    "policy_sha256"
+  ],
+  "additionalProperties": false
+}

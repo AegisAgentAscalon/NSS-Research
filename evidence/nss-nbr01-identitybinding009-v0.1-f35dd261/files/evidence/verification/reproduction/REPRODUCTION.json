@@ -1,0 +1,11 @@
+{
+  "calibration_arrays_identical": true,
+  "checkpoint_sha256": "2181a5a3e9a9ee6c6d3375a4c407f850f6d591f4f5e3a68c81d031b0f50eb2f8",
+  "fresh_interpreter": true,
+  "identical_checkpoint_bytes": true,
+  "kind": "near",
+  "pair": 1,
+  "status": "PASS",
+  "steps": 1200,
+  "utc": "2026-09-21T19:05:28.213848+00:00"
+}

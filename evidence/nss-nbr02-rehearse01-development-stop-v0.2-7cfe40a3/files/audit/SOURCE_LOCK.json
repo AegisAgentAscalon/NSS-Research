@@ -1,0 +1,130 @@
+{
+  "execution": "v0.2",
+  "files": {
+    "protocol/BATCH_AND_AUTHORITY.md": {
+      "bytes": 7104,
+      "sha256": "bde054cdb169b54d821500ac77b2569d24f5d9388a4207b626bf4892342d41f3"
+    },
+    "protocol/CHAT_PROMPT.md": {
+      "bytes": 3712,
+      "sha256": "c64f89d0c729ecd55e978179742d73933d12aa3ae4b642cbf6074b234810881d"
+    },
+    "protocol/DATA_AND_ADMISSION.md": {
+      "bytes": 6691,
+      "sha256": "a297e517182f858dba5b3aef02faeb6dffd0319b0c6ce694dc1aa73374fb2461"
+    },
+    "protocol/EXECUTION_COMPLETIONS.md": {
+      "bytes": 3609,
+      "sha256": "c5e406db460054818f75db06393e2b05b83d8a75cb22dde5433e99d9b4de8916"
+    },
+    "protocol/FIXTURES.md": {
+      "bytes": 5300,
+      "sha256": "4e100d1c87ce5e3df0d6274b7e58b2c5e5a5de10e5c40309868aef00f3fd8153"
+    },
+    "protocol/G01_G22_REGISTER.md": {
+      "bytes": 3026,
+      "sha256": "d88db9ad87ca020d8e36ac1fd99fb52f7b9e90300a76557d4436211aba390806"
+    },
+    "protocol/MANIFEST.json": {
+      "bytes": 5799,
+      "sha256": "011ceca087ecb1ef4469f371bd4b8324caf5f187d045302399297bfd4f1622f5"
+    },
+    "protocol/PROGRAM_AND_ARCHITECTURE.md": {
+      "bytes": 3136,
+      "sha256": "42a9ea968e407bf3295116176b8182b660d2a8db3183848239deaa78426591b6"
+    },
+    "protocol/PROTOCOL.md": {
+      "bytes": 18325,
+      "sha256": "7d251c3fe911529a23372467ba1ba08161ea55b7f445294c295d1d705ff9823f"
+    },
+    "protocol/README.md": {
+      "bytes": 1796,
+      "sha256": "52027e10cf6fbbd73260114a2d6b92854f571e4bd3bfab49d3e6743c2df87835"
+    },
+    "protocol/RECORD_KIND_COUNTS.json": {
+      "bytes": 1137,
+      "sha256": "3afe3beeda6c5d41b0f10ca928a6085da2eb8bd4714a72a3dce8a02b44a81058"
+    },
+    "protocol/REVIEW.md": {
+      "bytes": 7291,
+      "sha256": "6f76436d269ec909260981d618e3872047b189c47629a4e45db6f38f719d75cf"
+    },
+    "protocol/SEEDS.json": {
+      "bytes": 3568,
+      "sha256": "2deb65e55f39bc5152f06af093262ab4fc18819619632824f867d5ccb6294c3c"
+    },
+    "protocol/SOURCE_IDENTITIES.json": {
+      "bytes": 5672,
+      "sha256": "8f5610acf959de71fccf4e56c73af620b7be735aef7d9d111a5ccd58296a8ad2"
+    },
+    "protocol/SOURCE_MAP.md": {
+      "bytes": 1546,
+      "sha256": "d93dff248d947de70b8ef3798555a5ac69ccb4ea12ed2256bb1e99891d00344c"
+    },
+    "protocol/STATUS.json": {
+      "bytes": 1076,
+      "sha256": "2c9b0aac19cac09857b57b64119746de80fc933023f470efbb33b20925c92e70"
+    },
+    "protocol/WORK_AND_STORAGE.md": {
+      "bytes": 7072,
+      "sha256": "91ba1d9bf728392233ff3b02505317f96ac853790bbcd80606b43bef16a8b6e1"
+    },
+    "protocol/WORK_LEDGER.json": {
+      "bytes": 2826,
+      "sha256": "a74d85f685baa90f494959511f08c7f6f8c739bc5e16115943129fa84d6669b3"
+    },
+    "source/base_runtime.py": {
+      "bytes": 14843,
+      "sha256": "9b522020876505110f1f7b9e2016d0531d0030a11a7ec68a5439cf71466f5f6f"
+    },
+    "source/check_lock.py": {
+      "bytes": 348,
+      "sha256": "7c51da981b6dae89ba065e4c0c82385f5de9c574aa952c0a14ce90630781b97d"
+    },
+    "source/driver.py": {
+      "bytes": 21634,
+      "sha256": "0c0104c01e5e7caf849c6543c1354c2bfba797516bd44e839a350c89f3fb75fb"
+    },
+    "source/envelope_codec.py": {
+      "bytes": 2107,
+      "sha256": "8625887beadec27347a54b9f32d03cb12709164ed0141defb51b49724ae23429"
+    },
+    "source/faults.py": {
+      "bytes": 2645,
+      "sha256": "aa1fde8bf2ba808876b84ea8cf027342a7dfbb3189282796b12b380e1e4c6a62"
+    },
+    "source/reference_numeric.py": {
+      "bytes": 17093,
+      "sha256": "ddca810c67229504e744199ea377b0c781136d732ab9f95ab50446e9a173cf53"
+    },
+    "source/rev_runtime.py": {
+      "bytes": 12691,
+      "sha256": "0cf2301154d1377430545f59b2a5cc0205bc0b8fa2303638361e93bede8946dd"
+    },
+    "source/runtime.py": {
+      "bytes": 17791,
+      "sha256": "7b8d9fb1613fba61c3b518d69495e6c83c0dd7bb5f59330cac9d1f56ae5ab758"
+    },
+    "source/scorer.py": {
+      "bytes": 30975,
+      "sha256": "0e9a2b4872e662f5a915a4dc51824afe2040ae34b70d9a2424e8059b4819ba9d"
+    },
+    "source/static_checks.py": {
+      "bytes": 3473,
+      "sha256": "c90a078f478f98e4834b1f67eb7cc0958997b3957b1bcfb0f72c4c6cc6e82478"
+    },
+    "source/supervise.py": {
+      "bytes": 2588,
+      "sha256": "dfc8898a71f5a3962c781612dc49e087bde28c59bb3ab5d9bb339a3422c0a03a"
+    },
+    "source/worker.py": {
+      "bytes": 2747,
+      "sha256": "17c81d6ace1e6ded2dbd61f331777ea19dd3f71a9a777fa290845390f167287b"
+    }
+  },
+  "locked_epoch": 1790357605.8624399,
+  "model_calls_before_lock": 0,
+  "scientific_protocol": "v0.1",
+  "study": "NSS-NBR02-REHEARSE01",
+  "task_draws_before_lock": 0
+}

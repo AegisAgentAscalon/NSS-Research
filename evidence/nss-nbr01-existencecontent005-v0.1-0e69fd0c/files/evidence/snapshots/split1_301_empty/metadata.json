@@ -1,0 +1,20 @@
+{
+  "events": 2,
+  "identity": {
+    "learned": "cacf7ac08149969293a55b6cd181186f5c8a4660ab52b64b8a3b4bec5e2324f1",
+    "mode": "split1",
+    "old": "9b22dae2b4f14d39ae55e25684d37c3c0fa1fb18d156158f0be9c8fb5b05ffc8",
+    "presence_width": 1,
+    "representation": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+    "schema": "existence-content005/state-v1",
+    "scope": "study",
+    "semantics": "codes0-7; absent=-1 presence-code; present=+1; read mean(p)>0; exact writes/reset; old states incompatible",
+    "shape": [
+      32,
+      4,
+      16
+    ]
+  },
+  "rounds": 128,
+  "sha256": "7011af4c9006b39efd6ccef3356fc51fb2250cb9e3bf11e0fe5ccf24269558fc"
+}

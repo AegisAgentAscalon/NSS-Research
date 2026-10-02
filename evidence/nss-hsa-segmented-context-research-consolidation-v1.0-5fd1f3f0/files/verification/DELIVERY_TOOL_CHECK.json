@@ -1,0 +1,15 @@
+{
+  "status": "EXTRACTED_NO_EXECUTION",
+  "study": "SH02",
+  "destination": "/mnt/data/_hsa_consolidation_work/extraction_smoke",
+  "files": 88,
+  "verification": {
+    "study": "SH02",
+    "archive": "NSS_NBR02_SH02_Execution_v0.1.zip",
+    "payloads_verified": 87,
+    "crc_pass": true,
+    "archive_sha256": "6be5f4b94d90173290f74d38427589d540473ae28f7762e1767e7af71812f04b"
+  },
+  "post_extraction_payloads_verified": 87,
+  "scientific_execution": false
+}

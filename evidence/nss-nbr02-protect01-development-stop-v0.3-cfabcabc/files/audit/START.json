@@ -1,0 +1,7 @@
+{
+  "epoch": 1790351257.3752918,
+  "execution_version": "v0.3",
+  "authorized": "User explicitly requests running PROTECT01 before last Codex pass.",
+  "preflight_shell_python": "passed",
+  "no_prior_experiment_attempts_transferred": true
+}

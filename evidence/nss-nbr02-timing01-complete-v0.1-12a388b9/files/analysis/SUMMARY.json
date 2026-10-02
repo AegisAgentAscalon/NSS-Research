@@ -1,0 +1,204 @@
+{
+  "interpretation": "Post-execution descriptive tables; no new model/gradient calls. Full-trajectory screens were frozen before data. Timing comparisons are exploratory.",
+  "G": {
+    "first_correction": {
+      "B1": {
+        "correct": 11,
+        "total": 32,
+        "loss": 1.0391573877426699
+      },
+      "U": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.04908720504760646
+      },
+      "E": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.05536515802043822
+      },
+      "LATE": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.04908720504760646
+      }
+    },
+    "retention": {
+      "B1": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": true,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 0,
+        "worst_observed_old_probability": 0.7976059423424995,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "U": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 30,
+        "worst_observed_old_probability": 0.6864498394188328,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "E": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 21,
+        "worst_observed_old_probability": 0.7195495893847179,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "LATE": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 20,
+        "worst_observed_old_probability": 0.6947589871262647,
+        "old_observations": 1536,
+        "old_correct": 1536
+      }
+    },
+    "late_final": {
+      "better_old_loss_contexts": 30,
+      "total_contexts": 32,
+      "better_bases": 8,
+      "total_bases": 8,
+      "pooled_old_loss_difference": -0.00663348714204383
+    },
+    "batches": {
+      "E": {
+        "method": "G",
+        "branch": "E",
+        "batch_updates": 32,
+        "example_gradients": 256,
+        "mean_raw_norm": 0.052050141675863415,
+        "max_raw_norm": 0.14287902414798737,
+        "mean_actual_norm": 0.052050140719869825,
+        "clipped": 0,
+        "mean_cancellation_ratio": 0.7053586442995896
+      },
+      "LATE": {
+        "method": "G",
+        "branch": "LATE",
+        "batch_updates": 32,
+        "example_gradients": 256,
+        "mean_raw_norm": 0.11534928809851408,
+        "max_raw_norm": 0.4868422746658325,
+        "mean_actual_norm": 0.11534928904807622,
+        "clipped": 0,
+        "mean_cancellation_ratio": 0.7825819558657949
+      }
+    }
+  },
+  "L": {
+    "first_correction": {
+      "B1": {
+        "correct": 12,
+        "total": 32,
+        "loss": 0.9576437255230688
+      },
+      "U": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.014687503068246177
+      },
+      "E": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.029582032142925943
+      },
+      "LATE": {
+        "correct": 32,
+        "total": 32,
+        "loss": 0.014687503068246177
+      }
+    },
+    "retention": {
+      "B1": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": true,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 0,
+        "worst_observed_old_probability": 0.7629291836859685,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "U": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 41,
+        "worst_observed_old_probability": 0.6126980052866307,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "E": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 17,
+        "worst_observed_old_probability": 0.5511046123402988,
+        "old_observations": 1536,
+        "old_correct": 1536
+      },
+      "LATE": {
+        "all_boundary_old_labels_pass": true,
+        "all_boundary_old_confidence_pass": false,
+        "full_trajectory_screen_pass": false,
+        "confidence_failing_base_boundaries": 24,
+        "worst_observed_old_probability": 0.648251024656239,
+        "old_observations": 1536,
+        "old_correct": 1536
+      }
+    },
+    "late_final": {
+      "better_old_loss_contexts": 29,
+      "total_contexts": 32,
+      "better_bases": 7,
+      "total_bases": 8,
+      "pooled_old_loss_difference": -0.004488761291688169
+    },
+    "batches": {
+      "E": {
+        "method": "L",
+        "branch": "E",
+        "batch_updates": 32,
+        "example_gradients": 256,
+        "mean_raw_norm": 0.24736465024761856,
+        "max_raw_norm": 0.5220113396644592,
+        "mean_actual_norm": 0.2473646511063191,
+        "clipped": 0,
+        "mean_cancellation_ratio": 0.8219160981074525
+      },
+      "LATE": {
+        "method": "L",
+        "branch": "LATE",
+        "batch_updates": 32,
+        "example_gradients": 256,
+        "mean_raw_norm": 0.3062843414954841,
+        "max_raw_norm": 0.5358602404594421,
+        "mean_actual_norm": 0.30628434188871684,
+        "clipped": 0,
+        "mean_cancellation_ratio": 0.829441428201951
+      }
+    }
+  },
+  "query_rows": 29540,
+  "negative_query_rows": 2757,
+  "negative_by_phase": {
+    "derivative": 2,
+    "development": 271,
+    "fixture": 1467,
+    "heldout": 519,
+    "initial": 78,
+    "probe": 394,
+    "probe_warm": 22,
+    "sandbox": 4,
+    "warm": 0
+  },
+  "new_model_calls": 0,
+  "new_optimizer_updates": 0
+}

@@ -1,0 +1,12 @@
+{
+  "study": "NBR02-EVAL01",
+  "execution": "v0.1",
+  "start_utc": "2026-09-25T21:57:19.006363+00:00",
+  "purpose": "Retrospective real-evidence budgeted evaluation and review; no neural work",
+  "first_shell_confirmation_precedes_this_record": true,
+  "preparation_prelude_approx_minutes": 12,
+  "model_calls": 0,
+  "optimizer_updates": 0,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

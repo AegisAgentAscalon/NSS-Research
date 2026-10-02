@@ -1,0 +1,13 @@
+{
+  "events": 1024,
+  "kind": "tape_reader",
+  "metadata_sha256": "58d6b80b3cc5dbb20b381854d9bbaf352039ac771a3d48cd57143a80263e0ad6",
+  "mode": "native",
+  "model_digest": "223786e4c3807384184f3502f4850c4cec7cee4286fba8ece694a2808181bc95",
+  "raw_state_bytes": 12288,
+  "schema": 1,
+  "scope": "tape_reader_short_seed304-native",
+  "state_sha256": "a833f84379863ceaf64222f8d8b14a95a319c8d6dc260911be050a556b4ac9d9",
+  "study": "NBR-01/HorizonBinding002",
+  "threshold": 0.5
+}

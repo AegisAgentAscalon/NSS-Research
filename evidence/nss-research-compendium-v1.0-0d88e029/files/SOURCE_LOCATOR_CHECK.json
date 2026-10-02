@@ -1,0 +1,1453 @@
+{
+  "scope": "Documentary locator existence only, not archive integrity or scientific validation",
+  "counts": {
+    "present_member": 186,
+    "present_member_directory": 6,
+    "present_path": 47
+  },
+  "rows": [
+    {
+      "id": "Q001",
+      "source": "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip::NSS_NBR01_StateDepth_Pilot001_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 17886
+    },
+    {
+      "id": "Q001",
+      "source": "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip::NSS_NBR01_StateDepth_Pilot001_v0.1/evidence/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 340675
+    },
+    {
+      "id": "Q001",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q002",
+      "source": "Research/NSS_NBR01_HorizonBinding002_v0.1.zip::NSS_NBR01_HorizonBinding002_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 23997
+    },
+    {
+      "id": "Q002",
+      "source": "Research/NSS_NBR01_HorizonBinding002_v0.1.zip::NSS_NBR01_HorizonBinding002_v0.1/evidence/results/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 1010757
+    },
+    {
+      "id": "Q002",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q003",
+      "source": "Research/NSS_NBR01_StateRecovery003_v0.1.zip::NSS_NBR01_StateRecovery003_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 23561
+    },
+    {
+      "id": "Q003",
+      "source": "Research/NSS_NBR01_StateRecovery003_v0.1.zip::NSS_NBR01_StateRecovery003_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 4427390
+    },
+    {
+      "id": "Q003",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q004",
+      "source": "Research/NSS_NBR01_WritableEmpty004_v0.1.zip::NSS_NBR01_WritableEmpty004_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 22610
+    },
+    {
+      "id": "Q004",
+      "source": "Research/NSS_NBR01_WritableEmpty004_v0.1.zip::NSS_NBR01_WritableEmpty004_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 115882
+    },
+    {
+      "id": "Q004",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q005",
+      "source": "Research/NSS_NBR01_ExistenceContent005_v0.1.zip::NSS_NBR01_ExistenceContent005_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 25185
+    },
+    {
+      "id": "Q005",
+      "source": "Research/NSS_NBR01_ExistenceContent005_v0.1.zip::NSS_NBR01_ExistenceContent005_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 218610
+    },
+    {
+      "id": "Q005",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q006",
+      "source": "Research/NSS_NBR01_BindingDepth006_v0.1.zip::NSS_NBR01_BindingDepth006_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 22953
+    },
+    {
+      "id": "Q006",
+      "source": "Research/NSS_NBR01_BindingDepth006_v0.1.zip::NSS_NBR01_BindingDepth006_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 887232
+    },
+    {
+      "id": "Q006",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q007",
+      "source": "Research/NSS_NBR01_RepairBinding007_v0.1.zip::NSS_NBR01_RepairBinding007_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 18879
+    },
+    {
+      "id": "Q007",
+      "source": "Research/NSS_NBR01_RepairBinding007_v0.1.zip::NSS_NBR01_RepairBinding007_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 1633255
+    },
+    {
+      "id": "Q007",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q008",
+      "source": "Research/NSS_NBR01_MembershipRepair008_v0.1.zip::NSS_NBR01_MembershipRepair008_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 21282
+    },
+    {
+      "id": "Q008",
+      "source": "Research/NSS_NBR01_MembershipRepair008_v0.1.zip::NSS_NBR01_MembershipRepair008_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 3387060
+    },
+    {
+      "id": "Q008",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q009",
+      "source": "Research/NSS_NBR01_IdentityBinding009_v0.1.zip::NSS_NBR01_IdentityBinding009_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 24052
+    },
+    {
+      "id": "Q009",
+      "source": "Research/NSS_NBR01_IdentityBinding009_v0.1.zip::NSS_NBR01_IdentityBinding009_v0.1/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 6804522
+    },
+    {
+      "id": "Q009",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md",
+      "status": "present_member",
+      "bytes": 16442
+    },
+    {
+      "id": "Q010-HIST",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/REPORT.md",
+      "status": "present_member",
+      "bytes": 23277
+    },
+    {
+      "id": "Q010-HIST",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_NBR01_Qualification010_v0.1_DELIVERY_VERIFICATION.json",
+      "status": "present_member",
+      "bytes": 6865
+    },
+    {
+      "id": "Q010-HIST",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md",
+      "status": "present_member",
+      "bytes": 11197
+    },
+    {
+      "id": "Q010-HIST",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/RECOVERY_PROGRESS.md",
+      "status": "present_member",
+      "bytes": 4713
+    },
+    {
+      "id": "Q010-RECOVERY-BASE-v0.2",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/provenance/PARENT_SUBSET.json",
+      "status": "present_member",
+      "bytes": 38883
+    },
+    {
+      "id": "Q010-RECOVERY-BASE-v0.2",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/provenance/CHECKPOINT_INVENTORY.json",
+      "status": "present_member",
+      "bytes": 45930
+    },
+    {
+      "id": "Q010-RECOVERY-BASE-v0.2",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/audit/reference_smoke/SMOKE_RESULTS.json",
+      "status": "present_member",
+      "bytes": 63847
+    },
+    {
+      "id": "Q010-RECOVERY-BASE-v0.2",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md",
+      "status": "present_member",
+      "bytes": 11197
+    },
+    {
+      "id": "Q010-INF-REC-v1.6",
+      "source": "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip::Q010_InferenceRecovery_v1.6/REPORT.md",
+      "status": "present_member",
+      "bytes": 13623
+    },
+    {
+      "id": "Q010-INF-REC-v1.6",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E00__Q010_InferenceRecovery_v1.6__REPORT.md",
+      "status": "present_member",
+      "bytes": 13623
+    },
+    {
+      "id": "Q010-INF-REC-v1.6",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/Q010_v1.6_20260924/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "Q010-INF-REC-v1.6",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md",
+      "status": "present_member",
+      "bytes": 11197
+    },
+    {
+      "id": "CM01",
+      "source": "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/REPORT.md",
+      "status": "present_member",
+      "bytes": 18676
+    },
+    {
+      "id": "CM01",
+      "source": "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/protocol/PROTOCOL.json",
+      "status": "present_member",
+      "bytes": 5951
+    },
+    {
+      "id": "CM01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E01__NSS_CM01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 18676
+    },
+    {
+      "id": "CM01",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CM01_v0.2_20260924/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "CM01",
+      "source": "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/protocol/SEEDS.json",
+      "status": "present_member",
+      "bytes": 119051
+    },
+    {
+      "id": "CM02",
+      "source": "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/REPORT.md",
+      "status": "present_member",
+      "bytes": 19583
+    },
+    {
+      "id": "CM02",
+      "source": "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/protocol/PROTOCOL_v0.6.json",
+      "status": "present_member",
+      "bytes": 10356
+    },
+    {
+      "id": "CM02",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E02__NSS_CM02_Execution_v0.6__REPORT.md",
+      "status": "present_member",
+      "bytes": 19583
+    },
+    {
+      "id": "CM02",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CM02_v0.6_20260924/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "CM02",
+      "source": "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/protocol/SEEDS.json",
+      "status": "present_member",
+      "bytes": 24997
+    },
+    {
+      "id": "TS01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E03__NSS_TS01_Execution_v0.3__REPORT.md",
+      "status": "present_member",
+      "bytes": 17778
+    },
+    {
+      "id": "TS01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::ARCHIVE_CATALOG.json",
+      "status": "present_member",
+      "bytes": 13120
+    },
+    {
+      "id": "TS01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "TS02-MW01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 23877
+    },
+    {
+      "id": "TS02-MW01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::ARCHIVE_CATALOG.json",
+      "status": "present_member",
+      "bytes": 13120
+    },
+    {
+      "id": "TS02-MW01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "TS03-CR01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md",
+      "status": "present_member",
+      "bytes": 18270
+    },
+    {
+      "id": "TS03-CR01",
+      "source": "Research/NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+      "status": "present_path"
+    },
+    {
+      "id": "TS03-CR01",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/TS03_CR01_v0.4_20260924/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "TS03-CR01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "CKA01",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 14716
+    },
+    {
+      "id": "CKA01",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CKA01_v0.2_20260924/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "CKA01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "NeuralProbe001",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 5412
+    },
+    {
+      "id": "NeuralProbe001",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/RESULTS.md",
+      "status": "present_member",
+      "bytes": 2669
+    },
+    {
+      "id": "NeuralProbe001",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/",
+      "status": "present_member_directory"
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/stagehandoff001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 6490
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/experiencearchive001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 6469
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/datasetsnapshot001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 8889
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/evaluationrun001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 8212
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/qualificationevidence002/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 7822
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/localnexuspermissions002/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 7294
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/overlaygenerationmanager001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 8162
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/overlaycatalogcontroller001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 11432
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/contextretrieval001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 8598
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/boundedlearnercoordinator001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 7236
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/candidateacceptance001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 9551
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/persistentstate001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 9317
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/tricorefoundation001/AUDIT_REPORT.md",
+      "status": "present_member",
+      "bytes": 11026
+    },
+    {
+      "id": "FND-AUDITS",
+      "source": "Research/Foundations/MegaMindAlpha_v0.4.14_PersistentState001.zip",
+      "status": "present_path"
+    },
+    {
+      "id": "E07",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md",
+      "status": "present_member",
+      "bytes": 13588
+    },
+    {
+      "id": "E07",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R07__NSS_NBR02_DC01_Preflight_Stop_v0.4_Delivery.json",
+      "status": "present_member",
+      "bytes": 4826
+    },
+    {
+      "id": "E07",
+      "source": "Research/NSS_Research_Log_NBR02_Handoff_v0.1.zip::NSS_Research_Log_NBR02_Handoff_v0.1/NBR02_DC01_REVIEW.md",
+      "status": "present_member",
+      "bytes": 9946
+    },
+    {
+      "id": "E07",
+      "source": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/RESEARCH_LOG.md",
+      "status": "present_member",
+      "bytes": 1385
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md",
+      "status": "present_member",
+      "bytes": 16838
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R08__NSS_NBR02_DC01_Complete_v0.5_Delivery.json",
+      "status": "present_member",
+      "bytes": 11311
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/REPORT.md",
+      "status": "present_member",
+      "bytes": 16838
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/DECISIONS_AND_SUMMARY.json",
+      "status": "present_member",
+      "bytes": 5098
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/PRIMARY_BY_FIT.csv",
+      "status": "present_member",
+      "bytes": 516
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/FIRST_REVERSAL_FAILURES.csv",
+      "status": "present_member",
+      "bytes": 6507
+    },
+    {
+      "id": "E08",
+      "source": "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/NBR02_DC01_v0.5_20260925/EVIDENCE_REVIEW.md",
+      "status": "present_member",
+      "bytes": 3292
+    },
+    {
+      "id": "E09",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md",
+      "status": "present_member",
+      "bytes": 18226
+    },
+    {
+      "id": "E09",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R09__NSS_NBR02_REV01_Complete_v0.4_Delivery.json",
+      "status": "present_member",
+      "bytes": 5133
+    },
+    {
+      "id": "E09",
+      "source": "Research/NSS_NBR02_REV01_Complete_v0.4.zip::NSS_NBR02_REV01_Execution_v0.4/REPORT.md",
+      "status": "present_member",
+      "bytes": 18226
+    },
+    {
+      "id": "E09",
+      "source": "Research/NSS_NBR02_REV01_Complete_v0.4.zip::NSS_NBR02_REV01_Execution_v0.4/reports/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 1450
+    },
+    {
+      "id": "E10",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md",
+      "status": "present_member",
+      "bytes": 14916
+    },
+    {
+      "id": "E10",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R10__NSS_NBR02_PROTECT01_Development_Stop_v0.3_Delivery.json",
+      "status": "present_member",
+      "bytes": 4001
+    },
+    {
+      "id": "E10",
+      "source": "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip::NSS_NBR02_PROTECT01_Execution_v0.3/REPORT.md",
+      "status": "present_member",
+      "bytes": 14916
+    },
+    {
+      "id": "E10",
+      "source": "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip::NSS_NBR02_PROTECT01_Execution_v0.3/analysis/EXPLORATORY_SUMMARY.json",
+      "status": "present_member",
+      "bytes": 1917
+    },
+    {
+      "id": "E11",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 16717
+    },
+    {
+      "id": "E11",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R11__NSS_NBR02_REHEARSE01_Development_Stop_v0.2_Delivery.json",
+      "status": "present_member",
+      "bytes": 2917
+    },
+    {
+      "id": "E11",
+      "source": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md",
+      "status": "present_member",
+      "bytes": 16717
+    },
+    {
+      "id": "E11",
+      "source": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/analysis/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 2114
+    },
+    {
+      "id": "E12",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md",
+      "status": "present_member",
+      "bytes": 19571
+    },
+    {
+      "id": "E12",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R12__NSS_NBR02_REHEARSE01_Analysis_v0.1_Delivery.json",
+      "status": "present_member",
+      "bytes": 3444
+    },
+    {
+      "id": "E12",
+      "source": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md",
+      "status": "present_member",
+      "bytes": 16717
+    },
+    {
+      "id": "E13",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md",
+      "status": "present_member",
+      "bytes": 16734
+    },
+    {
+      "id": "E13",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R13__NSS_NBR02_TIMING01_Complete_v0.1_Delivery.json",
+      "status": "present_member",
+      "bytes": 17987
+    },
+    {
+      "id": "E13",
+      "source": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::REPORT.md",
+      "status": "present_member",
+      "bytes": 16734
+    },
+    {
+      "id": "E13",
+      "source": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::analysis/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 6010
+    },
+    {
+      "id": "E14",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md",
+      "status": "present_member",
+      "bytes": 19108
+    },
+    {
+      "id": "E14",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R14__NSS_NBR02_TIMING01_Analysis_v0.1_Delivery.json",
+      "status": "present_member",
+      "bytes": 6286
+    },
+    {
+      "id": "E14",
+      "source": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::REPORT.md",
+      "status": "present_member",
+      "bytes": 16734
+    },
+    {
+      "id": "E14",
+      "source": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::analysis/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 6010
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::REPORT.md",
+      "status": "present_member",
+      "bytes": 15479
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::protocol/PROTOCOL.md",
+      "status": "present_member",
+      "bytes": 9871
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::program/STEP_00_CONTRACT.md",
+      "status": "present_member",
+      "bytes": 8032
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::results/primary/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 905
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 13603
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/WITHDRAWAL_ADDENDUM.md",
+      "status": "present_member",
+      "bytes": 440
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/results/primary/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 905
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 15479
+    },
+    {
+      "id": "E15",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R15__NSS_C00_Contract_Complete_v0.2_Delivery.json",
+      "status": "present_member",
+      "bytes": 2476
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::REPORT.md",
+      "status": "present_member",
+      "bytes": 17538
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::analysis/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 6433
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::protocol/PROTOCOL.md",
+      "status": "present_member",
+      "bytes": 10950
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::inputs/REV01/SOURCE_REPORT.md",
+      "status": "present_member",
+      "bytes": 18226
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::inputs/TIMING01/SOURCE_REPORT.md",
+      "status": "present_member",
+      "bytes": 16734
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 17538
+    },
+    {
+      "id": "E16",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R16__NSS_NBR02_EVAL01_Complete_v0.2_Delivery.json",
+      "status": "present_member",
+      "bytes": 3239
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/REPORT.md",
+      "status": "present_member",
+      "bytes": 18420
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/analysis/tables/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 644
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/protocol/PROTOCOL.md",
+      "status": "present_member",
+      "bytes": 15077
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/attempts/v0.1/audit/HISTORICAL_SUMMARY.json",
+      "status": "present_member",
+      "bytes": 21311
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 18420
+    },
+    {
+      "id": "E17",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R17__NSS_NBR02_MICROMACRO01_Complete_v0.2_Delivery.json",
+      "status": "present_member",
+      "bytes": 6395
+    },
+    {
+      "id": "E18",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md",
+      "status": "present_member",
+      "bytes": 15631
+    },
+    {
+      "id": "E18",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R18__NSS_NBR02_TEACH01_Complete_v0.1_Delivery.json",
+      "status": "present_member",
+      "bytes": 1877
+    },
+    {
+      "id": "E18",
+      "source": "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+      "status": "present_path"
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md",
+      "status": "present_member",
+      "bytes": 17823
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R19__NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2_Delivery.json",
+      "status": "present_member",
+      "bytes": 4633
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/REPORT.md",
+      "status": "present_member",
+      "bytes": 17823
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/tables/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 724
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/numerical_localization/SUMMARY.json",
+      "status": "present_member",
+      "bytes": 810
+    },
+    {
+      "id": "E19",
+      "source": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/protocol/PROTOCOL.md",
+      "status": "present_member",
+      "bytes": 10636
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 16159
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/protocol/EXECUTION_PROTOCOL.md",
+      "status": "present_member",
+      "bytes": 8836
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4101_summary.json",
+      "status": "present_member",
+      "bytes": 14181
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4102_summary.json",
+      "status": "present_member",
+      "bytes": 14184
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4103_summary.json",
+      "status": "present_member",
+      "bytes": 14195
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4104_summary.json",
+      "status": "present_member",
+      "bytes": 14185
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/failures/parent_4103_idempotent_first.npz",
+      "status": "present_member",
+      "bytes": 11699
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_NBR02_SURFACE01_Reports_and_Review_v0.1.zip::REVIEW_AND_CANDIDATES.md",
+      "status": "present_member",
+      "bytes": 14574
+    },
+    {
+      "id": "E20",
+      "source": "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+      "status": "present_path"
+    },
+    {
+      "id": "SH01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§3–5, 11, 14",
+      "status": "present_path"
+    },
+    {
+      "id": "SH01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH01/REPORT.md",
+      "status": "present_member",
+      "bytes": 19727
+    },
+    {
+      "id": "SH01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH01_Execution_v0.1.zip::NSS_NBR02_SH01_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 19727
+    },
+    {
+      "id": "SH02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§6, 11, 14",
+      "status": "present_path"
+    },
+    {
+      "id": "SH02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH02/REPORT.md",
+      "status": "present_member",
+      "bytes": 12497
+    },
+    {
+      "id": "SH02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH02_Execution_v0.1.zip::NSS_NBR02_SH02_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 12497
+    },
+    {
+      "id": "SC01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§7, 11, 14",
+      "status": "present_path"
+    },
+    {
+      "id": "SC01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC01_Execution_v0.1.zip::NSS_NBR02_SC01_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 16243
+    },
+    {
+      "id": "SC02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §8 and §§11,14",
+      "status": "present_path"
+    },
+    {
+      "id": "SC02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC02_Execution_v0.1.zip::NSS_NBR02_SC02_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 16734
+    },
+    {
+      "id": "CAP01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§9,11,14",
+      "status": "present_path"
+    },
+    {
+      "id": "CAP01",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip::NSS_NBR02_CAP01_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 14914
+    },
+    {
+      "id": "CAP02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§10–13",
+      "status": "present_path"
+    },
+    {
+      "id": "CAP02",
+      "source": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP02_Execution_v0.1.zip::NSS_NBR02_CAP02_Execution_v0.1/REPORT.md",
+      "status": "present_member",
+      "bytes": 12181
+    },
+    {
+      "id": "DARP01",
+      "source": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§06–08",
+      "status": "present_path"
+    },
+    {
+      "id": "DARP01",
+      "source": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+      "status": "present_path"
+    },
+    {
+      "id": "DARP02",
+      "source": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§09–11",
+      "status": "present_path"
+    },
+    {
+      "id": "DARP02",
+      "source": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+      "status": "present_path"
+    },
+    {
+      "id": "DARP03",
+      "source": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§12–24",
+      "status": "present_path"
+    },
+    {
+      "id": "DARP03",
+      "source": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+      "status": "present_path"
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§1–2, source register S04",
+      "status": "present_path"
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "source": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md § Evidence reconciliation",
+      "status": "present_path"
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "TRACE01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §1, source register S06",
+      "status": "present_path"
+    },
+    {
+      "id": "TRACE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "TRACE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "CYCLE01-A",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md §§1–10",
+      "status": "present_member",
+      "bytes": 19435
+    },
+    {
+      "id": "CYCLE01-A",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_NBR02_CYCLE01A_Delivery_v0.1.json",
+      "status": "present_member",
+      "bytes": 2679
+    },
+    {
+      "id": "CYCLE01-A",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/SOURCE_VERIFICATION.json",
+      "status": "present_member",
+      "bytes": 2487
+    },
+    {
+      "id": "CYCLE01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§6–7",
+      "status": "present_path"
+    },
+    {
+      "id": "CYCLE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "CYCLE01-B",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md §§6–10",
+      "status": "present_member",
+      "bytes": 19435
+    },
+    {
+      "id": "CYCLE01-B",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "CYCLE01-B",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §6",
+      "status": "present_path"
+    },
+    {
+      "id": "BRIDGE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§1–9",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "BRIDGE01",
+      "source": ".consolidation/20260929/bridge01/EVIDENCE_REVIEW.md",
+      "status": "present_path"
+    },
+    {
+      "id": "BRIDGE01",
+      "source": ".consolidation/20260929/bridge01/REPORT_TEXT.txt",
+      "status": "present_path"
+    },
+    {
+      "id": "BRIDGE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md",
+      "status": "present_path"
+    },
+    {
+      "id": "BALANCE01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§1–2, source register S05",
+      "status": "present_path"
+    },
+    {
+      "id": "BALANCE01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "DIRECT01-SPEC",
+      "source": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md §§1–7",
+      "status": "present_path"
+    },
+    {
+      "id": "DIRECT01-SPEC",
+      "source": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip::NSS_DIRECT01_Chat_Handoff_v0.1/sources/PLAN_TEXT.txt",
+      "status": "present_member",
+      "bytes": 44235
+    },
+    {
+      "id": "DIRECT01-SPEC",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LB01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§1–4",
+      "status": "present_path"
+    },
+    {
+      "id": "LB01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§8–9",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "LB02",
+      "source": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§2–4",
+      "status": "present_path"
+    },
+    {
+      "id": "LB02",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "LB03",
+      "source": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§2–4",
+      "status": "present_path"
+    },
+    {
+      "id": "LB03",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "ADAPT01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§8,10–11",
+      "status": "present_path"
+    },
+    {
+      "id": "ADAPT01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "BUDGET01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§9,11–12",
+      "status": "present_path"
+    },
+    {
+      "id": "BUDGET01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§1–4",
+      "status": "present_path"
+    },
+    {
+      "id": "INT01",
+      "source": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §10",
+      "status": "present_path"
+    },
+    {
+      "id": "INT01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§8–9",
+      "status": "present_member",
+      "bytes": 24874
+    },
+    {
+      "id": "COMP01-A",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "COMP01-A",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "COMP01-A",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "COMP01-B/SETUP",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "COMP01-B/SETUP",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "COMP01-B/SETUP",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "LAB01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "LAB01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LAB01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "LAB02-SIZE",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "LAB02-SIZE",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LAB02-SIZE",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "LAB02-BIND",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "LAB02-BIND",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LAB02-BIND",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "LAB-READER-DECISION",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "LAB-READER-DECISION",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LAB-READER-DECISION",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "LAB-SEMANTIC-REVIEW",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "LAB-SEMANTIC-REVIEW",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "LAB-SEMANTIC-REVIEW",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "MEM01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "MEM01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "MEM01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "PREP01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "PREP01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "PREP01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "status": "present_member",
+      "bytes": 79602
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "source": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "status": "present_member",
+      "bytes": 24925
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "source": "RESEARCH_INDEX.md",
+      "status": "present_path"
+    }
+  ],
+  "declared_missing_sources": [
+    {
+      "id": "DARP01",
+      "source": "NSS_NBR02_DARP01_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    },
+    {
+      "id": "DARP02",
+      "source": "NSS_NBR02_DARP02_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    },
+    {
+      "id": "DARP03",
+      "source": "NSS_NBR02_DARP03_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "source": "NSS_NBR02_RECOVER01_Report_v0.2.md (named by the plan source register; not located in the bounded workspace)"
+    },
+    {
+      "id": "TRACE01",
+      "source": "NSS_NBR02_TRACE01_Report_v0.1.md (named by the plan source register; not located in the bounded workspace)"
+    },
+    {
+      "id": "BALANCE01",
+      "source": "NSS_NBR02_BALANCE01_Proposal_v0.1.md (named by the plan source register; not located in the bounded workspace)"
+    },
+    {
+      "id": "COMP01-A",
+      "source": "Detailed exact-field and fault-check receipt values are not reproduced; the checklist only points to results/PREFLIGHT.json under source-catalog key CURRENT. No model-result archive exists for this no-model pass."
+    },
+    {
+      "id": "COMP01-B/SETUP",
+      "source": "NSS_COMP01B_Readiness_v0.1.json is named as a readiness artifact, but COMP01-B inference/evaluation data and result archive are absent because acquisition failed before inference."
+    },
+    {
+      "id": "LAB01",
+      "source": "LAB01 full data/source/checkpoint archive is referenced by source-catalog key LAB01, but v0.19 does not preserve its filename or payload in the ledger evidence supplied here."
+    },
+    {
+      "id": "LAB02-SIZE",
+      "source": "NSS_NBR02_LAB02_SIZE_Execution_v0.1.zip (source-catalog key LAB02_SIZE_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    },
+    {
+      "id": "LAB02-BIND",
+      "source": "Primary per-example execution archive and raw traces are not available in the v0.19 source packet; the source catalog points to NSS_NBR02_LAB02_BIND_Report_v0.1.md but does not name an execution-archive filename."
+    },
+    {
+      "id": "LAB-SEMANTIC-REVIEW",
+      "source": "Exact retained prompts, raw responses, and original grading references required for the broader retrospective adjudication are not supplied by CHECKLIST v0.19."
+    },
+    {
+      "id": "MEM01",
+      "source": "NSS_NBR02_MEM01_Execution_v0.1.zip (source-catalog key MEM01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    },
+    {
+      "id": "PREP01",
+      "source": "NSS_NBR02_PREP01_Execution_v0.1.zip (source-catalog key PREP01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "source": "NSS_NBR02_READER_SUPPORT01_Execution_v0.1.zip (source-catalog key READER_SUPPORT01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    }
+  ]
+}

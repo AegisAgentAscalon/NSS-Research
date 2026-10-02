@@ -1,0 +1,8 @@
+{
+  "abi": "nbr006-query-v1",
+  "array_sha256": "d4ca32c5978519ee95d1403fffbf1da7f6bbeb949201e75bf6105ce2ac3b31fb",
+  "kind": "tied_attention",
+  "round": 1,
+  "scope": "study",
+  "weight_identity": "28974aef7f20daf80f1176cb7d52324d00bc89509e1e3fc7808db63b43a5f80e"
+}

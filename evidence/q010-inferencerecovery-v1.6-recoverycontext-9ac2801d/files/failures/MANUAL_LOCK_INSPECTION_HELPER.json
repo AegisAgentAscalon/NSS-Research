@@ -1,0 +1,6 @@
+{
+  "status": "NON_SCIENTIFIC_HELPER_ERROR_PRESERVED",
+  "error": "KeyError: 'files'",
+  "context": "An ad hoc source-lock inspection assumed analysis and numerical locks shared a schema. Numerical source hashes passed; the separate one-file analysis lock needed its own schema. No numerical run or source was changed.",
+  "utc": "2026-09-24T16:18:19.159023+00:00"
+}

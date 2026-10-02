@@ -1,0 +1,671 @@
+{
+  "new_test_methods": 111,
+  "tests": [
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_all_parent_and_subordinate_flow_counts",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 13,
+      "case": "all parent and subordinate flow counts"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_new_runtime_modules_obey_explicit_dependency_allowlist",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 19,
+      "case": "new runtime modules obey explicit dependency allowlist"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_only_evaluation_store_owns_sql_and_no_dynamic_execution",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 23,
+      "case": "only evaluation store owns sql and no dynamic execution"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_no_private_archive_or_snapshot_consumption_bypass",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 32,
+      "case": "no private archive or snapshot consumption bypass"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_schema_regeneration_is_byte_identical",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 40,
+      "case": "schema regeneration is byte identical"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_logic_regeneration_is_byte_identical",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 45,
+      "case": "logic regeneration is byte identical"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_inherited_python_code_and_tests_are_preserved_exactly",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 51,
+      "case": "inherited python code and tests are preserved exactly"
+    },
+    {
+      "id": "test_evaluation_boundaries.EvaluationBoundaryTests.test_budget_and_scope_schema_match_implemented_limits",
+      "file": "tests/test_evaluation_boundaries.py",
+      "line": 59,
+      "case": "budget and scope schema match implemented limits"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_prepare_execute_inspect_current_compare_audit_and_list",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 21,
+      "case": "cli prepare execute inspect current compare audit and list"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_nonpass_verdict_is_nonzero_but_report_is_preserved",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 25,
+      "case": "cli nonpass verdict is nonzero but report is preserved"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_failed_verdict_is_not_success_exit",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 29,
+      "case": "cli failed verdict is not success exit"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_plan_preparation_does_not_run_or_approve",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 32,
+      "case": "cli plan preparation does not run or approve"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_unknown_duplicate_deep_and_nonfinite_input_rejected",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 37,
+      "case": "cli unknown duplicate deep and nonfinite input rejected"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_current_check_demands_exact_report_hash",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 41,
+      "case": "cli current check demands exact report hash"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_missing_store_does_not_initialize",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 43,
+      "case": "cli missing store does not initialize"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_existing_store_init_refused",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 47,
+      "case": "cli existing store init refused"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCLITests.test_cli_partial_development_adapter_arguments_rejected",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 49,
+      "case": "cli partial development adapter arguments rejected"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_after_prepare_resumes_without_partial_result",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 61,
+      "case": "crash after prepare resumes without partial result"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_after_computation_replays_only_pure_checks",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 64,
+      "case": "crash after computation replays only pure checks"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_between_report_and_receipt_rolls_back_both",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 67,
+      "case": "crash between report and receipt rolls back both"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_before_commit_remains_prepared",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 70,
+      "case": "crash before commit remains prepared"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_after_commit_returns_same_historical_receipt",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 73,
+      "case": "crash after commit returns same historical receipt"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_resume_after_revocation_blocks",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 76,
+      "case": "crash resume after revocation blocks"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_committed_crash_retry_after_revocation_is_history_only",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 79,
+      "case": "committed crash retry after revocation is history only"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_crash_resume_rejects_substituted_plan",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 83,
+      "case": "crash resume rejects substituted plan"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationCrashTests.test_unknown_fault_point_is_rejected_without_changes",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 86,
+      "case": "unknown fault point is rejected without changes"
+    },
+    {
+      "id": "test_evaluation_cli_crashes.EvaluationIntegrationTests.test_connected_pipeline_preserves_state_and_revocation",
+      "file": "tests/test_evaluation_cli_crashes.py",
+      "line": 91,
+      "case": "connected pipeline preserves state and revocation"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_complete_pass_and_exact_trial_matrix",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 14,
+      "case": "complete pass and exact trial matrix"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_mandatory_failure_beats_zero_average_threshold",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 20,
+      "case": "mandatory failure beats zero average threshold"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_optional_failure_allowed_only_by_frozen_threshold",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 24,
+      "case": "optional failure allowed only by frozen threshold"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_optional_failure_can_fail_overall_threshold",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 28,
+      "case": "optional failure can fail overall threshold"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_incomplete_budget_is_not_pass_or_silent_subset",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 32,
+      "case": "incomplete budget is not pass or silent subset"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_budget_exhaustion_after_full_first_repeat_is_inconclusive",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 38,
+      "case": "budget exhaustion after full first repeat is inconclusive"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_one_repeat_makes_no_repeatability_claim",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 42,
+      "case": "one repeat makes no repeatability claim"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_zero_negative_boolean_and_oversized_budgets_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 45,
+      "case": "zero negative boolean and oversized budgets rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_unknown_plan_fields_never_get_ignored",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 51,
+      "case": "unknown plan fields never get ignored"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_invalid_timestamp_is_not_accepted",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 54,
+      "case": "invalid timestamp is not accepted"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_plan_requires_local_human_attestation_not_model_claim",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 57,
+      "case": "plan requires local human attestation not model claim"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_suite_requires_explicit_evaluation_use_attestation",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 60,
+      "case": "suite requires explicit evaluation use attestation"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_development_suite_cannot_be_relabelled_hidden_release",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 64,
+      "case": "development suite cannot be relabelled hidden release"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_duplicate_test_ids_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 68,
+      "case": "duplicate test ids rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_zero_mandatory_tests_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 72,
+      "case": "zero mandatory tests rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_unknown_checker_and_executable_field_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 76,
+      "case": "unknown checker and executable field rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_unknown_profile_and_incorrect_ecid_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 82,
+      "case": "unknown profile and incorrect ecid rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_altered_candidate_bytes_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 88,
+      "case": "altered candidate bytes rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_altered_manifest_bytes_even_whitespace_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 92,
+      "case": "altered manifest bytes even whitespace rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_altered_suite_bytes_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 96,
+      "case": "altered suite bytes rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_altered_fixture_bytes_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 100,
+      "case": "altered fixture bytes rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_missing_fixture_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 104,
+      "case": "missing fixture rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_path_traversal_absolute_and_noncanonical_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 107,
+      "case": "path traversal absolute and noncanonical rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_symlink_escape_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 113,
+      "case": "symlink escape rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_duplicate_json_key_in_suite_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 118,
+      "case": "duplicate json key in suite rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_nonfinite_cyclic_deep_and_wrong_type_inputs_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 122,
+      "case": "nonfinite cyclic deep and wrong type inputs rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_file_byte_budget_enforced",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 131,
+      "case": "file byte budget enforced"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_input_vector_budget_enforced",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 135,
+      "case": "input vector budget enforced"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_implementation_identity_mismatch_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 140,
+      "case": "implementation identity mismatch rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_material_raw_bytes_and_roles_are_revalidated",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 144,
+      "case": "material raw bytes and roles are revalidated"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_material_code_digest_cannot_be_relabelled",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 151,
+      "case": "material code digest cannot be relabelled"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_trial_omission_reordering_or_fabrication_is_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 155,
+      "case": "trial omission reordering or fabrication is rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_report_digest_outcome_scope_and_counts_are_derived",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 161,
+      "case": "report digest outcome scope and counts are derived"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_duplicate_fixture_cases_do_not_artificially_reweight_score",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 168,
+      "case": "duplicate fixture cases do not artificially reweight score"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_process_identity_requires_restart_after_source_change",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 172,
+      "case": "process identity requires restart after source change"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_maximum_candidate_operation_count_is_bounded_before_reading",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 179,
+      "case": "maximum candidate operation count is bounded before reading"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_core_only_profile_can_be_evaluated_without_overlays",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 185,
+      "case": "core only profile can be evaluated without overlays"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_missing_core_only_candidate_profile_is_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 195,
+      "case": "missing core only candidate profile is rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_unqualified_union_and_missing_dependency_are_rejected",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 201,
+      "case": "unqualified union and missing dependency are rejected"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_candidate_execution_order_is_not_treated_as_a_set",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 207,
+      "case": "candidate execution order is not treated as a set"
+    },
+    {
+      "id": "test_evaluation_contracts.EvaluationContractTests.test_caller_supplied_score_is_not_a_supported_input",
+      "file": "tests/test_evaluation_contracts.py",
+      "line": 213,
+      "case": "caller supplied score is not a supported input"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_development_snapshot_is_bound_but_not_promoted_to_hidden_exam",
+      "file": "tests/test_evaluation_data.py",
+      "line": 12,
+      "case": "development snapshot is bound but not promoted to hidden exam"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_optional_snapshot_requires_all_public_adapters",
+      "file": "tests/test_evaluation_data.py",
+      "line": 19,
+      "case": "optional snapshot requires all public adapters"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_unbound_snapshot_arguments_are_rejected",
+      "file": "tests/test_evaluation_data.py",
+      "line": 23,
+      "case": "unbound snapshot arguments are rejected"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_only_declared_development_validation_split_is_supported",
+      "file": "tests/test_evaluation_data.py",
+      "line": 27,
+      "case": "only declared development validation split is supported"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_pending_review_blocks_new_evaluation",
+      "file": "tests/test_evaluation_data.py",
+      "line": 31,
+      "case": "pending review blocks new evaluation"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_revocation_blocks_new_attempt_and_current_use",
+      "file": "tests/test_evaluation_data.py",
+      "line": 36,
+      "case": "revocation blocks new attempt and current use"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_revocation_does_not_rewrite_historical_report_or_regrant_on_retry",
+      "file": "tests/test_evaluation_data.py",
+      "line": 42,
+      "case": "revocation does not rewrite historical report or regrant on retry"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_prepared_resume_rechecks_current_training_permission",
+      "file": "tests/test_evaluation_data.py",
+      "line": 48,
+      "case": "prepared resume rechecks current training permission"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_each_repeat_and_finalization_recheck_snapshot",
+      "file": "tests/test_evaluation_data.py",
+      "line": 53,
+      "case": "each repeat and finalization recheck snapshot"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_revocation_between_repeats_stops_publication",
+      "file": "tests/test_evaluation_data.py",
+      "line": 59,
+      "case": "revocation between repeats stops publication"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_revocation_before_finalization_blocks_report",
+      "file": "tests/test_evaluation_data.py",
+      "line": 70,
+      "case": "revocation before finalization blocks report"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_training_member_revocation_also_blocks_validation_read",
+      "file": "tests/test_evaluation_data.py",
+      "line": 79,
+      "case": "training member revocation also blocks validation read"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_tokenizer_substitution_is_not_ignored",
+      "file": "tests/test_evaluation_data.py",
+      "line": 83,
+      "case": "tokenizer substitution is not ignored"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_alternate_archive_cannot_be_substituted",
+      "file": "tests/test_evaluation_data.py",
+      "line": 87,
+      "case": "alternate archive cannot be substituted"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_wrong_snapshot_hash_rejected",
+      "file": "tests/test_evaluation_data.py",
+      "line": 91,
+      "case": "wrong snapshot hash rejected"
+    },
+    {
+      "id": "test_evaluation_data.EvaluationDataTests.test_evaluation_does_not_mutate_snapshot_or_experience",
+      "file": "tests/test_evaluation_data.py",
+      "line": 95,
+      "case": "evaluation does not mutate snapshot or experience"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_prepare_is_durable_but_has_no_verdict_or_receipt",
+      "file": "tests/test_evaluation_store.py",
+      "line": 14,
+      "case": "prepare is durable but has no verdict or receipt"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_incomplete_run_cannot_be_consumed_as_evidence",
+      "file": "tests/test_evaluation_store.py",
+      "line": 19,
+      "case": "incomplete run cannot be consumed as evidence"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_exact_retry_returns_immutable_historical_receipt",
+      "file": "tests/test_evaluation_store.py",
+      "line": 24,
+      "case": "exact retry returns immutable historical receipt"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_changed_plan_under_same_run_id_is_rejected",
+      "file": "tests/test_evaluation_store.py",
+      "line": 29,
+      "case": "changed plan under same run id is rejected"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_exact_historical_retry_does_not_regrant_or_require_current_files",
+      "file": "tests/test_evaluation_store.py",
+      "line": 33,
+      "case": "exact historical retry does not regrant or require current files"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_prepared_resume_rejects_modified_inputs",
+      "file": "tests/test_evaluation_store.py",
+      "line": 37,
+      "case": "prepared resume rejects modified inputs"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_prepared_resume_rejects_changed_code_identity",
+      "file": "tests/test_evaluation_store.py",
+      "line": 41,
+      "case": "prepared resume rejects changed code identity"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_repeated_new_runs_share_computation_not_run_identity",
+      "file": "tests/test_evaluation_store.py",
+      "line": 47,
+      "case": "repeated new runs share computation not run identity"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_comparison_same_suite_different_candidate_profiles",
+      "file": "tests/test_evaluation_store.py",
+      "line": 52,
+      "case": "comparison same suite different candidate profiles"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_comparison_changed_threshold_or_budget_refused",
+      "file": "tests/test_evaluation_store.py",
+      "line": 57,
+      "case": "comparison changed threshold or budget refused"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_comparison_unfinished_is_not_valid",
+      "file": "tests/test_evaluation_store.py",
+      "line": 63,
+      "case": "comparison unfinished is not valid"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_expected_report_hash_is_required_for_current_verification",
+      "file": "tests/test_evaluation_store.py",
+      "line": 66,
+      "case": "expected report hash is required for current verification"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_altered_report_body_and_digest_fail_closed",
+      "file": "tests/test_evaluation_store.py",
+      "line": 70,
+      "case": "altered report body and digest fail closed"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_recomputed_hashes_do_not_allow_fabricated_observation",
+      "file": "tests/test_evaluation_store.py",
+      "line": 75,
+      "case": "recomputed hashes do not allow fabricated observation"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_removed_completion_receipt_rejects_finalized_run",
+      "file": "tests/test_evaluation_store.py",
+      "line": 79,
+      "case": "removed completion receipt rejects finalized run"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_substituted_completion_receipt_rejected",
+      "file": "tests/test_evaluation_store.py",
+      "line": 84,
+      "case": "substituted completion receipt rejected"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_orphan_receipt_rejected",
+      "file": "tests/test_evaluation_store.py",
+      "line": 89,
+      "case": "orphan receipt rejected"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_raw_material_tamper_rejected",
+      "file": "tests/test_evaluation_store.py",
+      "line": 93,
+      "case": "raw material tamper rejected"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_unknown_database_schema_rejected_without_repair",
+      "file": "tests/test_evaluation_store.py",
+      "line": 100,
+      "case": "unknown database schema rejected without repair"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_missing_database_open_does_not_create",
+      "file": "tests/test_evaluation_store.py",
+      "line": 105,
+      "case": "missing database open does not create"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_corrupt_database_fails_without_truncating",
+      "file": "tests/test_evaluation_store.py",
+      "line": 110,
+      "case": "corrupt database fails without truncating"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_existing_store_is_not_reinitialized",
+      "file": "tests/test_evaluation_store.py",
+      "line": 115,
+      "case": "existing store is not reinitialized"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_missing_run_bad_identifier_and_bad_list_limits_are_typed",
+      "file": "tests/test_evaluation_store.py",
+      "line": 120,
+      "case": "missing run bad identifier and bad list limits are typed"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_pagination_returns_exact_historical_receipts",
+      "file": "tests/test_evaluation_store.py",
+      "line": 126,
+      "case": "pagination returns exact historical receipts"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_changed_files_before_finalization_leave_prepared",
+      "file": "tests/test_evaluation_store.py",
+      "line": 131,
+      "case": "changed files before finalization leave prepared"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_storage_failure_does_not_return_pass",
+      "file": "tests/test_evaluation_store.py",
+      "line": 139,
+      "case": "storage failure does not return pass"
+    },
+    {
+      "id": "test_evaluation_store.EvaluationStoreTests.test_all_result_envelopes_deny_deployment_authority",
+      "file": "tests/test_evaluation_store.py",
+      "line": 144,
+      "case": "all result envelopes deny deployment authority"
+    }
+  ]
+}

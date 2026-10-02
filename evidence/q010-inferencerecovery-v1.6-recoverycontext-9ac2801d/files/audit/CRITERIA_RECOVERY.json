@@ -1,0 +1,6 @@
+{
+  "byte_hash_matches_original_report": true,
+  "method": "Unchanged original build_criteria and scoring._expected_threshold with original v1.4 criteria identity; not the execution-validation protocol. No fit or seed derivation invoked.",
+  "original_reported_sha256": "037bed12ef4a342564f8004e6e41f519f69d3e026bc5dea5210f0599f317a617",
+  "recreated_sha256": "037bed12ef4a342564f8004e6e41f519f69d3e026bc5dea5210f0599f317a617"
+}

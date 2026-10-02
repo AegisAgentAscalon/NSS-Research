@@ -1,0 +1,136 @@
+{
+  "status": "PASS_RELOCATABLE_INDEPENDENT_RESCORING",
+  "byte_identical_files": 32,
+  "files": [
+    {
+      "file": "main/CONTROL_NEGATIVES.csv",
+      "sha256": "687172253461cc724a47547284a1902c4c656514232952278ff6a8d1ba4223ca"
+    },
+    {
+      "file": "main/POOLED.csv",
+      "sha256": "bcb2a1ccb94c46fd410932e543d9a41438165953d31f866e68051d7fd36fc826"
+    },
+    {
+      "file": "main/EVENT_WORK.csv",
+      "sha256": "136feeecb01ae8af4be39fd3a6d7403b46156d06762c5ca0cf9626bd4b23f129"
+    },
+    {
+      "file": "main/EXACT_CONTROLS.csv",
+      "sha256": "1ab605388d71dfc40d68a22e37b5648a9312299998f907440a7ca56a913aaa4f"
+    },
+    {
+      "file": "main/SEQUENCE_GRID.csv",
+      "sha256": "3870c25c4396815910462fe8f157183a1fade0b64244faf8ac6f0c8973b9afe9"
+    },
+    {
+      "file": "main/COST_FAMILY_GRID.csv",
+      "sha256": "8aa459a45f0626922a5767dca7733d5f789fe05301e7af32f7f30a2cbe196c47"
+    },
+    {
+      "file": "main/NO_CUE_ALTERNATE_LABELS.csv",
+      "sha256": "2b61cac287695853bcebf7ce50dd2f36b26b7520d8d284a1e606ddc8094e3c39"
+    },
+    {
+      "file": "main/DECISIONS.csv",
+      "sha256": "8fa3775726c8f709a67cbd829cba7a9e3cb271c532f184614a271e9327fda601"
+    },
+    {
+      "file": "main/CONTROL_GRID.csv",
+      "sha256": "5b8db243066e4a3f442abedba8cc1e4e3505b6ded1fdd9d56eb8d586818aa0be"
+    },
+    {
+      "file": "main/SCORE_RECEIPT.json",
+      "sha256": "e9c8d57f19e4752de66613ada6de710c76d7977b50f0cb86f55f0ef0611a31a8"
+    },
+    {
+      "file": "main/MEMORY_AND_READ_WORK.csv",
+      "sha256": "b06ed8a065287ca196faee896642391ed211e98e3e70f94347358790f51285a7"
+    },
+    {
+      "file": "main/CHECKPOINT_GRID.csv",
+      "sha256": "677afbd2190b0ee092065a47fa892f030ba66e88dbc7b8290a3af0250f5ed6e6"
+    },
+    {
+      "file": "main/NEGATIVE_OUTCOMES.csv",
+      "sha256": "0b0f6900afdf8ecf664cdcc7d3a58d33d6851bb554d29870e195808becd4c441"
+    },
+    {
+      "file": "main/NOISE_GRID.csv",
+      "sha256": "c122f568bb44ed40a45239701cc2781c77a3d454bf5f71e877e36628a109412b"
+    },
+    {
+      "file": "main/FAMILY_GRID.csv",
+      "sha256": "b2594ac8560b6cb04ccc096d483777dc6afca65131fdb9fef64cee4e12db046a"
+    },
+    {
+      "file": "main/FAMILY_PAIRED.csv",
+      "sha256": "64fda26fda92979ed81f9d3f370df712c4217808a1ceb5afa32239f002a85e50"
+    },
+    {
+      "file": "fixture/CONTROL_NEGATIVES.csv",
+      "sha256": "d981b5792cf7e65910a318877d30be3c0f7ed88a13e095990f1a331464977d6e"
+    },
+    {
+      "file": "fixture/POOLED.csv",
+      "sha256": "ac05651690feae5320a31b41a91e9aacd34de6b3ab9bc9ddff4ccee28dbd79ac"
+    },
+    {
+      "file": "fixture/EVENT_WORK.csv",
+      "sha256": "014bfdcd7d1ec8a0608ddbbf8f78125af917b8c55d74dd96ac7d014acac3448b"
+    },
+    {
+      "file": "fixture/EXACT_CONTROLS.csv",
+      "sha256": "ae33619649bbf680510eafd932bc1b0bbc539ab3832b96fb42a0cc1a2bef1908"
+    },
+    {
+      "file": "fixture/SEQUENCE_GRID.csv",
+      "sha256": "c98a34bc10840e616a72856a19a5c62ece1a6e0311148e50b6f8e502104c866b"
+    },
+    {
+      "file": "fixture/COST_FAMILY_GRID.csv",
+      "sha256": "abdbc8ae76c82d92fbfc516e85f37394e884c0819e44a22c18832816fcfe11ef"
+    },
+    {
+      "file": "fixture/NO_CUE_ALTERNATE_LABELS.csv",
+      "sha256": "cd4bb7f315d3e5d87b9bc9ee5b1736d6b28cf7ae0a185a7b081f1b14e898ab5c"
+    },
+    {
+      "file": "fixture/DECISIONS.csv",
+      "sha256": "fac1611291d5a1003a513acbce13468e53e3a4835b9d623d617c5b7acbdd1689"
+    },
+    {
+      "file": "fixture/CONTROL_GRID.csv",
+      "sha256": "d1995fdd80db520f6d258758f06fade82b7cf6d4426629f6d3ae3d618bb27ccb"
+    },
+    {
+      "file": "fixture/SCORE_RECEIPT.json",
+      "sha256": "199894b42dde636216e5786b899a9242f4307015ac4f609dfd1b56334147a255"
+    },
+    {
+      "file": "fixture/MEMORY_AND_READ_WORK.csv",
+      "sha256": "12ca26dbc3de10a691d21a54ea65c834e7a45b2c07b3007e93f512cc9de393cb"
+    },
+    {
+      "file": "fixture/CHECKPOINT_GRID.csv",
+      "sha256": "cfced841e2e35704c2d777f77ce6e64775cca20f9f5ade35c6c2b9270a15b04a"
+    },
+    {
+      "file": "fixture/NEGATIVE_OUTCOMES.csv",
+      "sha256": "38251de9adb18da830b9833d2b4f4cc95f81964cbda97b28bcc5e056fac02e27"
+    },
+    {
+      "file": "fixture/NOISE_GRID.csv",
+      "sha256": "2be458e66b908a405f9ef3dc95c5d35116769bef77096dc6bf62d8f861685137"
+    },
+    {
+      "file": "fixture/FAMILY_GRID.csv",
+      "sha256": "b4ca119153b2419820150dea6537722c2c19e691d6cd57565fb957ffd51e907e"
+    },
+    {
+      "file": "fixture/FAMILY_PAIRED.csv",
+      "sha256": "130ce327f7b76b0ac891f3d9b0365b2d9503c74a4505e6ff490fe1ad82e603c1"
+    }
+  ],
+  "new_model_forwards": 0,
+  "new_scientific_samples": 0
+}

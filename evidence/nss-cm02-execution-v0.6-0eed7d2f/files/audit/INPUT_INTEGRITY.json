@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "NSS_CM02_ProtocolReview_v0.2.zip",
+    "archive_bytes": 261729,
+    "sha256": "144f8d70d4b877ef925462ff9e22ca7b3321025cbba704b592a919f8fd175604",
+    "zip_crc": "pass",
+    "manifest_entries_hashed": 16,
+    "extracted_root": "/mnt/data/_cm02_deps/NSS_CM02_ProtocolReview_v0.2"
+  },
+  {
+    "archive": "NSS_CM01_Execution_v0.2.zip",
+    "archive_bytes": 15265242,
+    "sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+    "zip_crc": "pass",
+    "manifest_entries_hashed": 628,
+    "extracted_root": "/mnt/data/_cm02_deps/NSS_CM01_Execution_v0.2"
+  },
+  {
+    "archive": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "archive_bytes": 48654694,
+    "sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+    "zip_crc": "pass",
+    "manifest_entries_hashed": 5449,
+    "extracted_root": "/mnt/data/_cm02_deps/Q010_InferenceRecovery_v1.6"
+  }
+]

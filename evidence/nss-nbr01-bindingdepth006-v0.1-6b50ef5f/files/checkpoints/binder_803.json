@@ -1,0 +1,111 @@
+{
+  "batch": 64,
+  "changed": true,
+  "checkpoint_sha256": "cf5347be8a7d91a61f0d372248664bd9afc2a59503b4196c9d9b4416b894372e",
+  "data_checks": {
+    "1": "386c2036780d03b678c852dd1bee3b3cd75c041c7837adba7459fe2f7c2962d9",
+    "1200": "7ac99fea7c07820fba549dd73731dc33bfbf95dd24683080cad7bd7828ebf482",
+    "601": "e9fdf169c22c53c68ed0ddb65d88b712bc763fbb8012524e7e2e2989d777e8fa"
+  },
+  "development": false,
+  "end_utc": "2026-09-21T09:44:22.068869+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 1329,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T09:44:22.069016+00:00"
+  },
+  "final_weight_hash": "90801de82d07a9fafd985683d0b6bdaf13cc64af579a3b8b973373b7e027fb52",
+  "history": [
+    {
+      "loss": 3.852499008178711,
+      "seconds": 0.004656353999962448,
+      "step": 1
+    },
+    {
+      "loss": 0.14705803990364075,
+      "seconds": 0.19444118499995966,
+      "step": 100
+    },
+    {
+      "loss": 0.048925213515758514,
+      "seconds": 0.3802893669999321,
+      "step": 200
+    },
+    {
+      "loss": 0.04905553534626961,
+      "seconds": 0.5691553940000631,
+      "step": 300
+    },
+    {
+      "loss": 0.01648602820932865,
+      "seconds": 0.758817481000051,
+      "step": 400
+    },
+    {
+      "loss": 0.015339693985879421,
+      "seconds": 0.9505201960000704,
+      "step": 500
+    },
+    {
+      "loss": 0.013618488796055317,
+      "seconds": 1.1392359569999826,
+      "step": 600
+    },
+    {
+      "loss": 0.0198691226541996,
+      "seconds": 1.3314351649999026,
+      "step": 700
+    },
+    {
+      "loss": 0.005218764301389456,
+      "seconds": 1.6351480200000879,
+      "step": 800
+    },
+    {
+      "loss": 0.005844321567565203,
+      "seconds": 1.8824889479999456,
+      "step": 900
+    },
+    {
+      "loss": 0.004783945623785257,
+      "seconds": 2.079250258000002,
+      "step": 1000
+    },
+    {
+      "loss": 0.003930034581571817,
+      "seconds": 2.2740917359999457,
+      "step": 1100
+    },
+    {
+      "loss": 0.0034839443396776915,
+      "seconds": 2.4553447159998996,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "9378c5a5b2cbe04d9965b4aa7af19e5bc15d158d565dd94632fc6b77716b43ae",
+  "kind": "binder",
+  "parameters": 818,
+  "recipe": {
+    "data_seed": 100803,
+    "intermediate_targets": true,
+    "lr": 0.002,
+    "max_chain": 4,
+    "optimizer": "AdamW",
+    "training_depths": [
+      1,
+      2,
+      4
+    ],
+    "weight_decay": 0.0001
+  },
+  "rss_max_kib": 318688,
+  "seed": 803,
+  "start_utc": "2026-09-21T09:44:19.612251+00:00",
+  "steps": 1200,
+  "training_seconds": 2.4566082789999655
+}

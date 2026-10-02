@@ -1,0 +1,26 @@
+{
+  "utc": "2026-09-28T12:38:46.861728+00:00",
+  "archives": [
+    {
+      "file": "NSS_NBR02_CAP02_Execution_v0.1.zip",
+      "bytes": 20326303,
+      "sha256": "60caa0a74b63ff613c56f63d2454f1b9c508cbef2f5d5976a210fa292db2ed6d",
+      "manifest_payloads": 175,
+      "crc": "PASS",
+      "all_payload_hashes": "PASS"
+    },
+    {
+      "file": "NSS_NBR02_CAP02_Codex_Review_v0.1.zip",
+      "bytes": 55013,
+      "sha256": "e927e2ab70baa3e44b512e31c386b8ff9ca2b01079ed7452c0400b1aa04bbc7f",
+      "manifest_payloads": 23,
+      "crc": "PASS",
+      "all_payload_hashes": "PASS"
+    }
+  ],
+  "standalone_report": {
+    "file": "NSS_NBR02_CAP02_Report_v0.1.md",
+    "sha256": "4e7a5dbb5f19b6dfaea71f6d40a0c714db0e549deb4ba1b0c0aa225609e0fb2a"
+  },
+  "report_matches_package": true
+}

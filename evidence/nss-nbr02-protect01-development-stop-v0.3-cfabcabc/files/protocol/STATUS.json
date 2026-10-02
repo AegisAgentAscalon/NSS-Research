@@ -1,0 +1,20 @@
+{
+  "study": "NSS-NBR02-PROTECT01",
+  "review_version": "0.2",
+  "status": "PROPOSED_FOR_FINAL_REVIEW",
+  "user_execution_authorized": false,
+  "source_implementation_lock_exists": false,
+  "new_model_loads": 0,
+  "new_model_initializations": 0,
+  "new_task_stimulus_draws": 0,
+  "new_neural_forwards": 0,
+  "new_gradients": 0,
+  "new_qp_executions": 0,
+  "new_optimizer_applications": 0,
+  "new_adaptive_replays": 0,
+  "scope": "Review, exact documentary source copies, archive CRC/hashes, source text inspection, integer budget arithmetic and deterministic seed identifiers only.",
+  "dependent_numerical_claims": "REV01 results remain archived/source-derived; no numerical re-verification in this turn.",
+  "last_codex_use": "One bounded adversarial design/readiness review, not another candidate-generation pass.",
+  "additional_candidates": "PAIR01 optional/deferred; REHEARSE01 competing/deferred; no dream maintenance attached.",
+  "parent_architecture_modified": false
+}

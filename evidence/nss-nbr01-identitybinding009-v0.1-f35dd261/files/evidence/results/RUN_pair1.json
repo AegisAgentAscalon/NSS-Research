@@ -1,0 +1,21 @@
+{
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 933,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T19:05:49.596058+00:00"
+  },
+  "lock_sha": "405adde083395b360f420fccadc4bfc61bf11add54cd4913f5b23e7e90cba393",
+  "pair": 1,
+  "rss_max_kib": 586232,
+  "timing": {
+    "A": 88.64298037999993,
+    "B": 39.82244338999999,
+    "CUE": 2.352956696000092
+  },
+  "wall_seconds": 130.81870362200004
+}

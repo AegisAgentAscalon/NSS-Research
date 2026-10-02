@@ -1,0 +1,13 @@
+{
+  "archive_name": "MegaMindAlpha_v0.4.14_PersistentState001(1).zip",
+  "archive_bytes": 28327938,
+  "archive_sha256": "24ccec12a0513e3e60cdba49df54f25db476786b2b0770bb4a628017d9c0736a",
+  "archive_crc": "PASS",
+  "original_file_members": 903,
+  "extracted_original_files_checked": 903,
+  "all_original_files_unchanged": true,
+  "original_file_hash_inventory": "../../history/v0.4.14_SOURCE_LOCK.json",
+  "original_zip_modified": false,
+  "branch_from": "0.4.14-megamind-alpha-persistentstate001",
+  "unavailable_versions_reconstructed": false
+}

@@ -1,0 +1,266 @@
+{
+  "review_id": "NSS_CM02_ProtocolReview_v0.2",
+  "status": "AVAILABLE_INPUT_ARCHIVES_VERIFIED_STATICALLY",
+  "inputs": [
+    {
+      "id": "proposal",
+      "local_archive": "NSS_CM_Theoretical_Candidates_v0.1 (1).zip",
+      "bytes": 21396,
+      "sha256": "de4b400118bf52213935f6581d2a5e553cf16bfdc5ddf4380447c8ec1b013114",
+      "manifest_member": "NSS_CM_Theoretical_Candidates_v0.1/MANIFEST.json",
+      "manifest_sha256": "56f3c5bb6a9d4a8b06f1eaaf73923ac38c0ba5b70629cd98e74a09ca9e0fd085",
+      "manifest_files_verified": 12,
+      "uncompressed_bytes_verified": 37016,
+      "unmanifested_files": [],
+      "status": "PASS_INTEGRITY_ONLY"
+    },
+    {
+      "id": "cm01",
+      "local_archive": "NSS_CM01_Execution_v0.2.zip",
+      "bytes": 15265242,
+      "sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+      "manifest_member": "NSS_CM01_Execution_v0.2/MANIFEST.json",
+      "manifest_sha256": "fbbf8d2c517395e17ed22f6ecb51cb630686e6f192fb9d219c3aa0d5bf8246cf",
+      "manifest_files_verified": 628,
+      "uncompressed_bytes_verified": 38507744,
+      "unmanifested_files": [],
+      "status": "PASS_INTEGRITY_ONLY"
+    },
+    {
+      "id": "q010",
+      "local_archive": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+      "bytes": 48654694,
+      "sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+      "manifest_member": "Q010_InferenceRecovery_v1.6/CONTEXT_MANIFEST.json",
+      "manifest_sha256": "cb69fc2c81f25096f48be4b7cbbc39b58b8853e0cf8290bcded968038625179d",
+      "manifest_files_verified": 5449,
+      "uncompressed_bytes_verified": 316387059,
+      "unmanifested_files": [],
+      "status": "PASS_INTEGRITY_ONLY"
+    }
+  ],
+  "selected_member_identities": [
+    {
+      "archive_id": "proposal",
+      "member": "CANDIDATE_REVIEW.md",
+      "bytes": 6864,
+      "sha256": "91506d25b47c89fa0e5fbaee72e20c1982b686b89490fd2822fa4f1f2698679d"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "CHAT_PROMPT.md",
+      "bytes": 2283,
+      "sha256": "7d864d1f768ddecdd14e9940bb93862e5d912d5d92f541c785c51e159fea427d"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "CM02_PROPOSED_PROTOCOL.md",
+      "bytes": 7399,
+      "sha256": "50ca224f44227391ccf041f8da9c19df0912b5de3b9fcc66965959afbcdb795c"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "CRITIQUE.md",
+      "bytes": 3853,
+      "sha256": "4c48e25ce6cbbafd476cbbff3fd02ea589f53ee1cd9b3479a2d03a71521c5e86"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "LITERATURE_NOTES.md",
+      "bytes": 2424,
+      "sha256": "4d1ac32e5b8e24df9ea6c89b984e5e501aea1e677d524e1e606255315665ad84"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "REVIEW_DISPOSITION.md",
+      "bytes": 2263,
+      "sha256": "30ea260145b9c624cce67966d1f6b7c50fac7deeabb3e4a98416c80fc563ee01"
+    },
+    {
+      "archive_id": "proposal",
+      "member": "SOURCE_IDENTITIES.json",
+      "bytes": 936,
+      "sha256": "062faf4063acc783400e853039441f1f3c0a84d48dd55dcf2c259bf5f4b70151"
+    },
+    {
+      "archive_id": "cm01",
+      "member": "protocol/PROTOCOL.json",
+      "bytes": 5951,
+      "sha256": "11d50788ba74a97e4678938709f4fc8916022bf07a5ae98a3639cbafde7076a1"
+    },
+    {
+      "archive_id": "cm01",
+      "member": "protocol/SEEDS.json",
+      "bytes": 119051,
+      "sha256": "bd5324a6ccf9b94d956650d5c75dcc67a1cafec2166925080c5d0c5aa324bbf8"
+    },
+    {
+      "archive_id": "cm01",
+      "member": "protocol/SOURCE_LOCK.json",
+      "bytes": 29506,
+      "sha256": "7265605c0cf7f82b2025a38820e50ca8dd4d988a68d19463931bfc765d7d6a2d"
+    },
+    {
+      "archive_id": "cm01",
+      "member": "source/generate.py",
+      "bytes": 7905,
+      "sha256": "3ef94203e1122d9a2c423886795d6f41c88e9618f2c387da18156e755c86e866"
+    },
+    {
+      "archive_id": "cm01",
+      "member": "source/manager.py",
+      "bytes": 5376,
+      "sha256": "e830e83403bd28ddb245bbd4628843f28fb3cb2b849d1efc2c5fd0f60d6a9c14"
+    },
+    {
+      "archive_id": "q010",
+      "member": "protocol/ORIGINAL_FROZEN_PROTOCOL.json",
+      "bytes": 12781,
+      "sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/WEIGHTS_MANIFEST.json",
+      "bytes": 11757,
+      "sha256": "93f3eb18c0f14be2fb2de4c2e632eb1476153a0b7d7d0670cfddfbcf87bb0bbe"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/attention_1201.safetensors",
+      "bytes": 356712,
+      "sha256": "ae054d21aaedf495028bebc5fe28360ff782e2d634a681ffcdd2931f6126690d"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/attention_1202.safetensors",
+      "bytes": 356712,
+      "sha256": "8fd56fd0117fc44c9786728051d32822341c802083a9e973305d3f74e6664357"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/attention_1203.safetensors",
+      "bytes": 356712,
+      "sha256": "62fc0085b49792b5fb3b4010467e9cbea7e4e9ee34cb222bafa02c1b2cf35101"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/attention_1204.safetensors",
+      "bytes": 356712,
+      "sha256": "dc06911ff0121d77816b54e61b91524a82b11f8dfc4da73300a9de93e74d2a62"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/attention_1205.safetensors",
+      "bytes": 356712,
+      "sha256": "9a74a0dac1aaad0e11b1c04ec19f8fead34fda9ee1ecdb135ed366f4b5380728"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/near_1201.safetensors",
+      "bytes": 3920,
+      "sha256": "05ee6e46d3305ed96f8f426aea6f661f44b40c31f4142253816a3fa282682b9e"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/near_1202.safetensors",
+      "bytes": 3920,
+      "sha256": "de9437c66333bb2aabd134f23f4d217b890919e29f5dacf48a56f6e0cc61c21a"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/near_1203.safetensors",
+      "bytes": 3920,
+      "sha256": "30d754018f3ceb4f62851217de8d06142024e0e27d422b07e98ca9f9e469f5e0"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/near_1204.safetensors",
+      "bytes": 3920,
+      "sha256": "05edef111246edfee8103f50954085760418bd01364c82bcc1121f25706a9253"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/near_1205.safetensors",
+      "bytes": 3920,
+      "sha256": "11a5209e204b134959ec9e27a5f266420e5a75a3791f2a43a11397b8c35088b3"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/ordinary_1201.safetensors",
+      "bytes": 3928,
+      "sha256": "4f4990371258178b52b4b33df6b00c7cfcbfbf8e86b921d71b1a8cfde1f8821f"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/ordinary_1202.safetensors",
+      "bytes": 3928,
+      "sha256": "c237fd19eead2724c56738f6cb33219c8b66d416fa861d04333aa5a93c56133d"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/ordinary_1203.safetensors",
+      "bytes": 3928,
+      "sha256": "732bd9e7308143e87dbd77bbc012c91c555261b3e1adf027f5aeceda49fb7d18"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/ordinary_1204.safetensors",
+      "bytes": 3928,
+      "sha256": "6af4ff6b1e393238ea0815d948f06217fddede098c9572f5d59f35458a8f3063"
+    },
+    {
+      "archive_id": "q010",
+      "member": "provenance/saved_main_exports/ordinary_1205.safetensors",
+      "bytes": 3928,
+      "sha256": "2da0e3b266cf0e2da6979d0ca20e0964c63109d6bb8dfcfd0d1de9988cfd9a40"
+    },
+    {
+      "archive_id": "q010",
+      "member": "recovery/inference_loader.py",
+      "bytes": 8971,
+      "sha256": "08e0838fa08d01d578811160652fc1617abef8b7b728f553027f33d4be963e7a"
+    },
+    {
+      "archive_id": "q010",
+      "member": "source/q010v/pointer_math.py",
+      "bytes": 13840,
+      "sha256": "00a0509a3da4d8af9d47ce1d9c40da7f7391413731bd26502fb0f161dcc10746"
+    },
+    {
+      "archive_id": "q010",
+      "member": "source/q010v/pointer_math_frozen.py",
+      "bytes": 13711,
+      "sha256": "b43bfe8eae66e8ae4ebee67d4d53c9316aa2ba68f6ed595692557ab8a4a9eb10"
+    },
+    {
+      "archive_id": "q010",
+      "member": "workspace/.research_work/NSS_NBR01_Qualification010_Reconstruction_v1.0/implementation_A/q010r/data.py",
+      "bytes": 16730,
+      "sha256": "50acafa7f9dca53c780e9cd3c4e89fa4e0a4f8f0c4e387ffae3319e9f06e7547"
+    },
+    {
+      "archive_id": "q010",
+      "member": "workspace/.research_work/NSS_NBR01_Qualification010_Reconstruction_v1.0/implementation_A/q010r/models.py",
+      "bytes": 13400,
+      "sha256": "006e19bd972ad335300a8f82233910b18892037b9b649fa69ecbb086763c4bbf"
+    },
+    {
+      "archive_id": "q010",
+      "member": "source/q010c/batch_core.py",
+      "bytes": 14490,
+      "sha256": "504932aa25031e953a408d16285b62ffbee6f061e77cd4e3b0a1c926f8c69eaf"
+    }
+  ],
+  "standalone_chat_prompt_sha256": "7d864d1f768ddecdd14e9940bb93862e5d912d5d92f541c785c51e159fea427d",
+  "missing_dependencies": [],
+  "new_cm02_implementation_source_hashes": "NOT_AVAILABLE_NOT_IMPLEMENTED",
+  "future_generated_input_hashes": "NOT_AVAILABLE_NO_CASES_GENERATED",
+  "historical_limits": [
+    "full main optimizer/RNG histories absent",
+    "raw main numerical training traces absent",
+    "compact Q010 raw main capture/replay omitted",
+    "underflow amendment implementation is a reconstruction; original v2 source and historical failing row remain absent",
+    "historical verifier failures preserved",
+    "original training qualification not restored"
+  ]
+}

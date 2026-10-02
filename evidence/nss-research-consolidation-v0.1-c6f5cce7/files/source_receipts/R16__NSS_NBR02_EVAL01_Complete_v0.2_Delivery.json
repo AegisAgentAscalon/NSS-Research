@@ -1,0 +1,90 @@
+{
+  "study": "NBR02-EVAL01",
+  "execution": "v0.2",
+  "delivery_utc": "2026-09-25T22:14:39.960833+00:00",
+  "complete_archive": {
+    "path": "/mnt/data/NSS_NBR02_EVAL01_Complete_v0.2.zip",
+    "bytes": 46726962,
+    "sha256": "02641896da3553f90ebf5a0aa6b7708fcbe692bf25b67e26e8ab4c49a2f0466b"
+  },
+  "fresh_extraction_manifest_payloads": 120,
+  "manifest_payload_bytes": 135554534,
+  "relocated_rescore_and_descriptive_matches": [
+    {
+      "source_file": "results/primary/AUDIT.json",
+      "bytes": 343,
+      "sha256": "02f2498af6da6c5ca0076b3d41211157ab115bec3bdace7a89a81dad2730d09f"
+    },
+    {
+      "source_file": "results/primary/BASE_RESULTS.csv",
+      "bytes": 60342,
+      "sha256": "a60a7f705b8ccba00b9a578b8d1d76b2f035ebe5480bd058941a5f491d661717"
+    },
+    {
+      "source_file": "results/primary/CANDIDATE_DECISIONS.csv",
+      "bytes": 15519247,
+      "sha256": "e8771b97ff40e2e47a6a838a8d864ef421f18149bf5f9794d0cb307714166a05"
+    },
+    {
+      "source_file": "results/primary/FAILURES.csv",
+      "bytes": 2907511,
+      "sha256": "ee3b6046ff08325cb676fc8772fc17a4b1a3ed2dd1ccdb31a93a4140356f56d7"
+    },
+    {
+      "source_file": "results/primary/OFFER_AVAILABILITY.csv",
+      "bytes": 255679,
+      "sha256": "d5216daac421fd69538df18d7ed7205e7d70dfbba49702369ffbbd8df6ba43d3"
+    },
+    {
+      "source_file": "results/primary/PAIRED_POLICY_EFFECTS.csv",
+      "bytes": 5142,
+      "sha256": "a6c4b097699fede52bbc12af00df4dec1a663238bb81a901b9882cb1fea9f114"
+    },
+    {
+      "source_file": "results/primary/STAGE_OFFERS.csv",
+      "bytes": 2475530,
+      "sha256": "d9accc962d5147b1520c8ee273ca7a0c6e172f73c17d5c2c9203a13cebe12283"
+    },
+    {
+      "source_file": "results/primary/SUMMARY.csv",
+      "bytes": 33097,
+      "sha256": "2219b2cf46d2fb2b02c767d3886acd2839d40528b7da08891f9d04a37c86b780"
+    },
+    {
+      "source_file": "analysis/ERROR_REASONS.csv",
+      "bytes": 1762,
+      "sha256": "2fe026c2aa1dffe8c85f6f9f53870e41919eab35da4e895027b34da98e2e8329"
+    },
+    {
+      "source_file": "analysis/POLICY_SWITCHES.csv",
+      "bytes": 446,
+      "sha256": "15d305f7f913babff71982b3b694a369dc1460cbed724b2e08b283d4f0eb9400"
+    },
+    {
+      "source_file": "analysis/POOLED_DESCRIPTIVE.csv",
+      "bytes": 3491,
+      "sha256": "94aad4b875d6c5e3450f0c2b0d4537b055ba84b61a4b142128dd4b8c28d219b6"
+    },
+    {
+      "source_file": "analysis/SUMMARY.json",
+      "bytes": 6433,
+      "sha256": "83f71adbf917327b79e8a8448729a6e89715c5ab738bcf130ef76434b22f6048"
+    }
+  ],
+  "relocated_rescore_scope": "independent numeric review/scoring only; no production-policy rerun, model calls or updates",
+  "model_calls_during_entire_pass": 0,
+  "updates_during_entire_pass": 0,
+  "historical_source_archives_unchanged": true,
+  "notes": [
+    "Core source/selection/thresholds unchanged through all review outcomes.",
+    "Source parser failures and pre-review repairs preserved.",
+    "Study-local profiles are not production safety standards.",
+    "No claim of cumulative learning/adoption or transfer."
+  ],
+  "compact_handoff": {
+    "bytes": 63848,
+    "sha256": "623a5790de0277231845999e92ad5bc3c1009f00ce926bdb31b3efa65b09a56a",
+    "manifest_payloads": 27,
+    "raw_evidence": false
+  }
+}

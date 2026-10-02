@@ -1,0 +1,646 @@
+[
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md"
+  },
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md"
+  },
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip"
+  },
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx"
+  },
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip"
+  },
+  {
+    "file": "documents/ARCHITECTURE_REVIEW.md",
+    "target": "Research/NSS_NBR02_RECOVER01_Proposal_v0.1.md"
+  },
+  {
+    "file": "documents/NSS_Cognition_Architecture_and_Low_Bit_Learning_Handoff_v1.0.docx-text.md",
+    "target": "t-delay[r,s]"
+  },
+  {
+    "file": "documents/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md",
+    "target": "NSS_NBR02_BRIDGE01_Prototype_v0.1.zip"
+  },
+  {
+    "file": "documents/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md",
+    "target": "NSS_NBR02_BRIDGE01_Codex_Review_v0.1.zip"
+  },
+  {
+    "file": "documents/NSS_Research_Compendium_v1.0.md",
+    "target": "NSS_Research_Compendium_v1.0.zip"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_Research_Compendium_v1.0.html"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_Research_Compendium_v1.0.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_Research_Compendium_v1.0.zip"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "RESEARCH_STATE.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "RESEARCH_PLAN.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "OPERATIONS_LOG.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_Research_Consolidation_v0.1.zip"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": ".consolidation/20260926/EXTERNAL_DISCOVERY_NOTE.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "RELOCATION_MAP.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_NBR02_RECOVER01_Proposal_v0.1.md"
+  },
+  {
+    "file": "documents/RESEARCH_INDEX.md",
+    "target": "Research/NSS_NBR02_RECOVER01_Proposal_v0.1.zip"
+  },
+  {
+    "file": "documents/WEIGHTS_INDEX.md",
+    "target": "RELOCATION_MAP.md"
+  },
+  {
+    "file": "documents/WEIGHTS_INDEX.md",
+    "target": "Research/NSS_WorkspaceSupport_v0.1.zip"
+  },
+  {
+    "file": "documents/WEIGHTS_INDEX.md",
+    "target": "Research/NSS_WorkspaceSupport_v0.1.zip"
+  },
+  {
+    "file": "documents/WEIGHTS_INDEX.md",
+    "target": "Research/NSS_Research_Consolidation_v0.1.zip"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E00__Q010_InferenceRecovery_v1.6__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E01__NSS_CM01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E02__NSS_CM02_Execution_v0.6__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E03__NSS_TS01_Execution_v0.3__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/RESULTS_REGISTER.md",
+    "target": "source_reports/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E00__Q010_InferenceRecovery_v1.6__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E01__NSS_CM01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E02__NSS_CM02_Execution_v0.6__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E03__NSS_TS01_Execution_v0.3__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_reports/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D02__NSS_NBR01_Bounded_Closeout_Decision_v0.1.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D03__NSS_NBR02_Learning_Repair_Objective_v0.1__OBJECTIVE.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D12__NSS_Contribution_Roadmap_v0.1__CONTRIBUTIONS.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D15__NSS_NBR02_DC01_Integrated_Review_v0.3__ROADMAP_AND_RETURN_GATE.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D17__NSS_NBR02_REV01_Execution_v0.4__DREAM_MAINTENANCE.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "source_direction/D20__NSS_Progress_Evaluator_Direction_v0.1__DIRECTION.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "G01_G22_ORIGINAL.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "latest_source_reference/protocol/PROTOCOL.md"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "latest_source_reference/protocol/CONFIG.json"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "latest_source_reference/STATUS.json"
+  },
+  {
+    "file": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/SOURCE_MAP.md",
+    "target": "latest_source_reference/RETURN_TICKETS.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E01__NSS_CM01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E02__NSS_CM02_Execution_v0.6__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/registered/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_BindingDepth006_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_ExistenceContent005_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_HorizonBinding002_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_IdentityBinding009_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_MembershipRepair008_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_RepairBinding007_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_StateDepth_Pilot001_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_StateRecovery003_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR01_WritableEmpty004_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/early_and_successors/NSS_NBR02_SURFACE01_Execution_v0.1__REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/boundedlearnercoordinator001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/candidateacceptance001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/contextretrieval001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/datasetsnapshot001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/evaluationrun001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/experiencearchive001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/localnexuspermissions002/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/neuralprobe001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/neuralprobe001/RESULTS.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/overlaycatalogcontroller001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/overlaygenerationmanager001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/persistentstate001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/qualificationevidence002/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/stagehandoff001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/foundation/tricorefoundation001/AUDIT_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_CAP01_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_CAP02_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_SC01_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_SC02_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_SH01_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/hsa/NSS_NBR02_SH02_Execution_v0.1__1_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/NSS_Research_Checklist_CURRENT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/docs/ARCHITECTURE_AND_REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/provenance/CHECKLIST_v0.19.json"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/provenance/CHECKLIST_v0.19.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/bridge/provenance/REPORT.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/recent/DARP_consolidation.docx"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/recent/DARP_document_text.txt"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/recent/HSA_consolidation.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/recent/Evidence_Led_Plan_text.txt"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/directions/NSS_NBR02_RECOVER01_Proposal_v0.1.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/directions/NSS_DIRECT01_Chat_Handoff_v0.1.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/directions/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_CM02_PostResults_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_CM_Theoretical_Candidates_v0.1__CANDIDATE_REVIEW.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_NBR02_DC01_PostResults_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_NBR02_PROTECT01_PostResults_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_NBR02_REV01_PostResults_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_NBR02_Theoretical_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_TS03_CR01_PostResults_Candidates_v0.1__CANDIDATES.md"
+  },
+  {
+    "file": "evidence/nss-research-compendium-v1.0-0d88e029/files/SOURCE_REPORTS_INDEX.md",
+    "target": "source_reports/historical_proposals/NSS_NBR02_REHEARSE01_ProtocolReview_v0.1__REVIEW.md"
+  },
+  {
+    "file": "evidence/nss-nbr02-surface01-reports-and-review-v0.1-6bf2b6ee/files/archive_audit.md",
+    "target": "../../../Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/REVIEW_CORRECTIONS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "NEXT_STEPS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/BASE_CONTRACTS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/PROGRESS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/TEST_AUDIT.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/FLOWCHARTS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/PSEUDOCODE_FLOWCHART_ATLAS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/LOGIC_COMPRESSION_GUIDE.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/IMPLEMENTATION_PACKET_TEMPLATE.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/LOGIC_ATLAS_METRICS.md"
+  },
+  {
+    "file": "evidence/megamindalpha-v0.4.14-persistentstate001-24ccec12/files/docs/audits/stagehandoff001/README_0.4.1.md",
+    "target": "docs/CORRECTIONS.md"
+  },
+  {
+    "file": "documents/reviews/20260929/bridge01/EVIDENCE_REVIEW.md",
+    "target": "SELECTED_EVIDENCE.txt"
+  },
+  {
+    "file": "documents/reviews/20260927/recover01/FEASIBILITY_REVIEW.md",
+    "target": "parent_sources.json"
+  },
+  {
+    "file": "documents/reviews/20260927/recover01/FEASIBILITY_REVIEW.md",
+    "target": "../../../Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip"
+  }
+]

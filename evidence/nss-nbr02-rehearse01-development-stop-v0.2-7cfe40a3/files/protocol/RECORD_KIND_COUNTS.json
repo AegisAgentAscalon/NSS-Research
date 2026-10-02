@@ -1,0 +1,40 @@
+{
+  "counts_per_full_pass": {
+    "load": 602,
+    "management_load": 602,
+    "buffer_import": 32,
+    "cue": 3516,
+    "fillers": 3172,
+    "fork": 112,
+    "fork_match": 112,
+    "post_strong_match": 112,
+    "derivative": 8,
+    "update": 2836,
+    "frozen_receipt": 672,
+    "query": 26360,
+    "checkpoint": 1284,
+    "batch_example": 1856,
+    "batch_apply": 232
+  },
+  "count_derivation": "112fullcontexts:18real gradients,16batch gradients,180learned queries,60N prefixes. 800maininitial,20probewarm,8derivatives,64sandboxgradients,8sandboxqueries,128maininventory,16probeinventory. Checkpoint count=112*11+8*5+2*2+8=1284",
+  "schema_max_numeric_bytes": {
+    "load": 2696,
+    "management_load": 0,
+    "cue": 10648,
+    "fillers": 2112,
+    "update": 8096,
+    "frozen_receipt": 2696,
+    "query": 272,
+    "checkpoint": 12000,
+    "fork": 10704,
+    "fork_match": 2696,
+    "derivative": 2696,
+    "buffer_import": 0,
+    "batch_example": 13344,
+    "batch_apply": 50000,
+    "post_strong_match": 0
+  },
+  "header_limit_per_record": 65536,
+  "frame_raw_limit": 262144,
+  "logical_max_noalias_is_not_live_encoded_size": true
+}

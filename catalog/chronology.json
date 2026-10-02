@@ -1,0 +1,2642 @@
+[
+  {
+    "pass": 1,
+    "id": "Q001",
+    "page": "studies/01-q001/README.md",
+    "ledger_record": {
+      "id": "Q001",
+      "eli5": "Can a tiny memory keep a symbol while distractions arrive?",
+      "result": "Short tasks worked; long distraction exposed decay. Exact memory remained a strong control.",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain the persistence/distractor tests; no rerun.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q001"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip!/NSS_NBR01_StateDepth_Pilot001_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-statedepth-pilot001-v0.1-4de17a3c/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip!/NSS_NBR01_StateDepth_Pilot001_v0.1/evidence/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 2,
+    "id": "Q002",
+    "page": "studies/02-q002/README.md",
+    "ledger_record": {
+      "id": "Q002",
+      "eli5": "Can addressed memory know both a value and when nothing is known?",
+      "result": "Prepared/gated versions could retain records; short preparation and poorly calibrated admission failed.",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse UNKNOWN and event-admission distinctions.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q002"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_HorizonBinding002_v0.1.zip!/NSS_NBR01_HorizonBinding002_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-horizonbinding002-v0.1-d6d24dcc/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_HorizonBinding002_v0.1.zip!/NSS_NBR01_HorizonBinding002_v0.1/evidence/results/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 3,
+    "id": "Q003",
+    "page": "studies/03-q003/README.md",
+    "ledger_record": {
+      "id": "Q003",
+      "eli5": "Can noisy memories be repaired without inventing missing ones?",
+      "result": "Denoising improved known values but could destroy UNKNOWN. Simple exact controls were stronger.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain absence/novelty controls, not denoising as proof of truthful memory.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q003"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_StateRecovery003_v0.1.zip!/NSS_NBR01_StateRecovery003_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-existencecontent005-v0.1-0e69fd0c/files/reference/StateRecovery003_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_StateRecovery003_v0.1.zip!/NSS_NBR01_StateRecovery003_v0.1/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 4,
+    "id": "Q004",
+    "page": "studies/04-q004/README.md",
+    "ledger_record": {
+      "id": "Q004",
+      "eli5": "Can memory remain empty, then be written, corrected, cleared and rewritten?",
+      "result": "Protected presence worked narrowly; neural alternatives retained failures.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse lifecycle tests.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q004"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_WritableEmpty004_v0.1.zip!/NSS_NBR01_WritableEmpty004_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-existencecontent005-v0.1-0e69fd0c/files/reference/WritableEmpty004_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_WritableEmpty004_v0.1.zip!/NSS_NBR01_WritableEmpty004_v0.1/SUMMARY.json",
+        "public_path": "evidence/nss-nbr01-existencecontent005-v0.1-0e69fd0c/files/reference/WritableEmpty004_SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 5,
+    "id": "Q005",
+    "page": "studies/05-q005/README.md",
+    "ledger_record": {
+      "id": "Q005",
+      "eli5": "Should knowing that a memory exists be separate from its contents?",
+      "result": "Separate presence lanes worked, but did not beat simple controls.",
+      "status": "COMPLETED_NO_UNIQUE_GAIN",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the separation; no architecture win inferred.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q005"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_ExistenceContent005_v0.1.zip!/NSS_NBR01_ExistenceContent005_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-existencecontent005-v0.1-0e69fd0c/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_ExistenceContent005_v0.1.zip!/NSS_NBR01_ExistenceContent005_v0.1/SUMMARY.json",
+        "public_path": "evidence/nss-nbr01-existencecontent005-v0.1-0e69fd0c/files/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 6,
+    "id": "Q006",
+    "page": "studies/06-q006/README.md",
+    "ledger_record": {
+      "id": "Q006",
+      "eli5": "Can a reader follow links through records with more thinking steps?",
+      "result": "Structured readers followed longer clean chains with more rounds; noise broke binding.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse relation-depth fixtures; not broad reasoning qualification.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q006"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_BindingDepth006_v0.1.zip!/NSS_NBR01_BindingDepth006_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-bindingdepth006-v0.1-6b50ef5f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_BindingDepth006_v0.1.zip!/NSS_NBR01_BindingDepth006_v0.1/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 7,
+    "id": "Q007",
+    "page": "studies/07-q007/README.md",
+    "ledger_record": {
+      "id": "Q007",
+      "eli5": "Can stored reference codes repair damaged records?",
+      "result": "Registered records recovered; unfamiliar identities could be forced into false familiar answers.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep novelty tests and exact source identity.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q007"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_RepairBinding007_v0.1.zip!/NSS_NBR01_RepairBinding007_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-identitybinding009-v0.1-f35dd261/files/reference/parent008/reference/RepairBinding007_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_RepairBinding007_v0.1.zip!/NSS_NBR01_RepairBinding007_v0.1/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 8,
+    "id": "Q008",
+    "page": "studies/08-q008/README.md",
+    "ledger_record": {
+      "id": "Q008",
+      "eli5": "Can a gate reject unfamiliar identities without rejecting recoverable memories?",
+      "result": "False acceptance fell, but valid known coverage suffered; joint gates failed.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the tradeoff; no preferred gate established.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q008"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_MembershipRepair008_v0.1.zip!/NSS_NBR01_MembershipRepair008_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-identitybinding009-v0.1-f35dd261/files/reference/Study008_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_MembershipRepair008_v0.1.zip!/NSS_NBR01_MembershipRepair008_v0.1/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 9,
+    "id": "Q009",
+    "page": "studies/09-q009/README.md",
+    "ledger_record": {
+      "id": "Q009",
+      "eli5": "Can almost-identical people or records be kept from overwriting each other?",
+      "result": "Exact ownership worked; learned close-identity readers/binders remained weak.",
+      "status": "COMPLETED_BOUNDED_REFERENCE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse exact ownership; keep learned-binding gap open.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q009"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR01_IdentityBinding009_v0.1.zip!/NSS_NBR01_IdentityBinding009_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr01-identitybinding009-v0.1-f35dd261/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR01_IdentityBinding009_v0.1.zip!/NSS_NBR01_IdentityBinding009_v0.1/SUMMARY.json",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/experiment_history.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 10,
+    "id": "Q010-ORIGINAL",
+    "page": "studies/10-q010-original/README.md",
+    "ledger_record": {
+      "id": "Q010-ORIGINAL",
+      "eli5": "Was the original broader qualification reproducible from retained evidence?",
+      "result": "Original report remains historical; essential original training/code/checkpoint bytes were missing in the documented inventory.",
+      "status": "REPORT_ONLY_ORIGINAL_PAYLOAD_GAP",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not relabel reconstructed weights as originals.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q010-HIST"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/Q010_Reonstruct/REPORT.md",
+        "public_path": "evidence/nss-qualification010-recovery-base-v0.2-14e32231/files/historical_qualification010/REPORT.md",
+        "resolution": "retained equal-byte source copy"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/Q010_Reonstruct/NSS_NBR01_Qualification010_v0.1_DELIVERY_VERIFICATION.json",
+        "public_path": "evidence/nss-nbr01-q010-chat-handoff-v1.0-40b3081f/files/payload/Q010_Reonstruct/NSS_NBR01_Qualification010_v0.1_DELIVERY_VERIFICATION.json",
+        "resolution": "retained equal-byte source copy"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/recovery_audit.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/Q010_Reonstruct/RECOVERY_PROGRESS.md",
+        "public_path": "evidence/nss-qualification010-recovery-base-v0.2-14e32231/files/RECOVERY_PROGRESS.md",
+        "resolution": "retained equal-byte source copy"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 11,
+    "id": "Q010-RECOVERY-v1.6",
+    "page": "studies/11-q010-recovery-v1.6/README.md",
+    "ledger_record": {
+      "id": "Q010-RECOVERY-v1.6",
+      "eli5": "Can the recovered reference at least be evaluated at fixed weights?",
+      "result": "Bounded reconstructed inference/state evidence accepted; close-identity and novel-query limitations remained.",
+      "status": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Preserve closure scope; no restoration of missing original training.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "Q010-INF-REC-v1.6"
+    ],
+    "locators": [
+      {
+        "locator": "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip!/Q010_InferenceRecovery_v1.6/REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E00__Q010_InferenceRecovery_v1.6__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E00__Q010_InferenceRecovery_v1.6__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E00__Q010_InferenceRecovery_v1.6__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/Q010_v1.6_20260924/",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/2026-09-22/recovery_audit.md",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 12,
+    "id": "CM01",
+    "page": "studies/12-cm01/README.md",
+    "ledger_record": {
+      "id": "CM01",
+      "eli5": "Can a small explicit reference packet help the reader identify the right record?",
+      "result": "Reference assistance helped noisy cases; exact lookup stayed a strong control.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse references; bytes are not language tokens.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "CM01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_CM01_Execution_v0.2.zip!/NSS_CM01_Execution_v0.2/REPORT.md",
+        "public_path": "evidence/nss-cm01-execution-v0.2-bbbfcbe8/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_CM01_Execution_v0.2.zip!/NSS_CM01_Execution_v0.2/protocol/PROTOCOL.json",
+        "public_path": "evidence/nss-cm01-execution-v0.2-bbbfcbe8/files/protocol/PROTOCOL.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E01__NSS_CM01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-cm01-execution-v0.2-bbbfcbe8/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/CM01_v0.2_20260924/",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_CM01_Execution_v0.2.zip!/NSS_CM01_Execution_v0.2/protocol/SEEDS.json",
+        "public_path": "evidence/nss-cm01-execution-v0.2-bbbfcbe8/files/protocol/SEEDS.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 13,
+    "id": "CM02",
+    "page": "studies/13-cm02/README.md",
+    "ledger_record": {
+      "id": "CM02",
+      "eli5": "Is a little context packet better than an ordinary index with the same information?",
+      "result": "Packet and index tied; retaining selection information mattered more than its format.",
+      "status": "COMPLETED_NO_FORMAT_ADVANTAGE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep ordinary index baseline.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "CM02"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_CM02_Execution_v0.6.zip!/NSS_CM02_Execution_v0.6/REPORT.md",
+        "public_path": "evidence/nss-cm02-execution-v0.6-0eed7d2f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_CM02_Execution_v0.6.zip!/NSS_CM02_Execution_v0.6/protocol/PROTOCOL_v0.6.json",
+        "public_path": "evidence/nss-cm02-execution-v0.6-0eed7d2f/files/protocol/PROTOCOL_v0.6.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E02__NSS_CM02_Execution_v0.6__REPORT.md",
+        "public_path": "evidence/nss-cm02-execution-v0.6-0eed7d2f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/CM02_v0.6_20260924/",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_CM02_Execution_v0.6.zip!/NSS_CM02_Execution_v0.6/protocol/SEEDS.json",
+        "public_path": "evidence/nss-cm02-execution-v0.6-0eed7d2f/files/_long_paths/040048a00da2_SEEDS.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 14,
+    "id": "TS01",
+    "page": "studies/14-ts01/README.md",
+    "ledger_record": {
+      "id": "TS01",
+      "eli5": "Can a recurrent state track two checklists?",
+      "result": "Yes on a narrow fixed-weight task with supplied routing/no-op handling; exact tracking also worked.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse temporal-state baseline; not learned task routing.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "TS01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E03__NSS_TS01_Execution_v0.3__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E03__NSS_TS01_Execution_v0.3__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/ARCHIVE_CATALOG.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/ARCHIVE_CATALOG.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 15,
+    "id": "TS02-MW01",
+    "page": "studies/15-ts02-mw01/README.md",
+    "ledger_record": {
+      "id": "TS02-MW01",
+      "eli5": "Do small metadata tokens improve revision-aware progress tracking?",
+      "result": "Some pooled gains, but reliability and stale/false-completion gates failed.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain under RET-MW01-FIT-001.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "TS02-MW01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/ARCHIVE_CATALOG.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/ARCHIVE_CATALOG.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 16,
+    "id": "TS03-CR01",
+    "page": "studies/16-ts03-cr01/README.md",
+    "ledger_record": {
+      "id": "TS03-CR01",
+      "eli5": "Does a revised curriculum fix the workspace learner?",
+      "result": "Coverage, interaction, reliability and final-advantage screens failed despite correct bindings in some cases.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not mistake correct identity labels for correct procedures.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "TS03-CR01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+        "public_path": "evidence/nss-ts03-cr01-codex-handoff-v0.4-38bffa49/README.md",
+        "resolution": "retained package navigation"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/TS03_CR01_v0.4_20260924/",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 17,
+    "id": "CKA01",
+    "page": "studies/17-cka01/README.md",
+    "ledger_record": {
+      "id": "CKA01",
+      "eli5": "Did the task learner forget later, or never learn adequately?",
+      "result": "Saved-checkpoint analysis found substantial fitting/transfer weakness, not an early-stop rescue.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep as diagnostic; no new training in this audit.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "CKA01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md",
+        "public_path": "evidence/nss-research-log-nbr02-handoff-v0.1-02aa4432/files/evidence/CKA01_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/CKA01_v0.2_20260924/",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 18,
+    "id": "DC01-v0.4",
+    "page": "studies/18-dc01-v0.4/README.md",
+    "ledger_record": {
+      "id": "DC01-v0.4",
+      "eli5": "Can the delayed-feedback experiment fit its evidence budget?",
+      "result": "Storage forecast stopped main work before learning evaluation.",
+      "status": "TECHNICAL_PREFLIGHT_STOP",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Historical stop preserved; v0.5 is separately identified.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E07"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R07__NSS_NBR02_DC01_Preflight_Stop_v0.4_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R07__NSS_NBR02_DC01_Preflight_Stop_v0.4_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Log_NBR02_Handoff_v0.1.zip!/NSS_Research_Log_NBR02_Handoff_v0.1/NBR02_DC01_REVIEW.md",
+        "public_path": "evidence/nss-research-log-nbr02-handoff-v0.1-02aa4432/files/NBR02_DC01_REVIEW.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip!/NSS_NBR02_DC01_Codex_Handoff_v0.5/RESEARCH_LOG.md",
+        "public_path": "evidence/nss-nbr02-dc01-codex-handoff-v0.5-da273f6f/files/RESEARCH_LOG.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 19,
+    "id": "DC01-v0.5",
+    "page": "studies/19-dc01-v0.5/README.md",
+    "ledger_record": {
+      "id": "DC01-v0.5",
+      "eli5": "Can a correctly identified delayed signal teach a new association?",
+      "result": "Bounded identified delayed updates worked; general temporal credit and total cost remain open.",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Use as a limited mechanism reference; raw archive availability remains source-reported.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E08"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md",
+        "public_path": "evidence/nss-nbr02-dc01-codex-handoff-v0.5-da273f6f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R08__NSS_NBR02_DC01_Complete_v0.5_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R08__NSS_NBR02_DC01_Complete_v0.5_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip!/NSS_NBR02_DC01_Codex_Handoff_v0.5/REPORT.md",
+        "public_path": "evidence/nss-nbr02-dc01-codex-handoff-v0.5-da273f6f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip!/NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/DECISIONS_AND_SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-dc01-codex-handoff-v0.5-da273f6f/files/scores/DECISIONS_AND_SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip!/NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/PRIMARY_BY_FIT.csv",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip!/NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/FIRST_REVERSAL_FAILURES.csv",
+        "public_path": "evidence/nss-nbr02-dc01-codex-handoff-v0.5-da273f6f/files/scores/FIRST_REVERSAL_FAILURES.csv",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_WorkspaceSupport_v0.1.zip!/.research_review/NBR02_DC01_v0.5_20260925/EVIDENCE_REVIEW.md",
+        "public_path": "evidence/nss-nbr02-dc01-postresults-candidates-v0.1-5f6143cb/files/EVIDENCE_REVIEW.md",
+        "resolution": "retained equal-byte source copy"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 20,
+    "id": "REV01",
+    "page": "studies/20-rev01/README.md",
+    "ledger_record": {
+      "id": "REV01",
+      "eli5": "Does a stronger correction teach faster?",
+      "result": "Faster first correction, but old-confidence damage and some old-label errors prevented complete qualification.",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not adopt larger updates merely from faster acquisition.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E09"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/attempts/v0.1/inputs/REV01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R09__NSS_NBR02_REV01_Complete_v0.4_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R09__NSS_NBR02_REV01_Complete_v0.4_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_REV01_Complete_v0.4.zip!/NSS_NBR02_REV01_Execution_v0.4/REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/attempts/v0.1/inputs/REV01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_REV01_Complete_v0.4.zip!/NSS_NBR02_REV01_Execution_v0.4/reports/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-rev01-codex-handoff-v0.4-e76a4b30/files/scores/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 21,
+    "id": "PROTECT01",
+    "page": "studies/21-protect01/README.md",
+    "ledger_record": {
+      "id": "PROTECT01",
+      "eli5": "Can a projected update protect old answers while learning?",
+      "result": "Projection had a development tradeoff; acquisition admission stopped held-out work.",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Not the later activity-subspace method.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E10"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md",
+        "public_path": "evidence/nss-nbr02-protect01-codex-handoff-v0.3-0be5e35a/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R10__NSS_NBR02_PROTECT01_Development_Stop_v0.3_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R10__NSS_NBR02_PROTECT01_Development_Stop_v0.3_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip!/NSS_NBR02_PROTECT01_Execution_v0.3/REPORT.md",
+        "public_path": "evidence/nss-nbr02-protect01-codex-handoff-v0.3-0be5e35a/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip!/NSS_NBR02_PROTECT01_Execution_v0.3/analysis/EXPLORATORY_SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-protect01-codex-handoff-v0.3-0be5e35a/files/analysis/EXPLORATORY_SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 22,
+    "id": "REHEARSE01",
+    "page": "studies/22-rehearse01/README.md",
+    "ledger_record": {
+      "id": "REHEARSE01",
+      "eli5": "Can old-example practice repair damage from a strong correction?",
+      "result": "Stopped at development admission; useful old-loss effects did not qualify the whole rule.",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the old/new competition evidence.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E11"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-nbr02-rehearse01-development-stop-v0.2-7cfe40a3/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R11__NSS_NBR02_REHEARSE01_Development_Stop_v0.2_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R11__NSS_NBR02_REHEARSE01_Development_Stop_v0.2_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip!/NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md",
+        "public_path": "evidence/nss-nbr02-rehearse01-development-stop-v0.2-7cfe40a3/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip!/NSS_NBR02_REHEARSE01_Execution_v0.2/analysis/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-rehearse01-development-stop-v0.2-7cfe40a3/files/analysis/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 23,
+    "id": "ANA-REHEARSE01",
+    "page": "studies/23-ana-rehearse01/README.md",
+    "ledger_record": {
+      "id": "ANA-REHEARSE01",
+      "eli5": "What do the saved rehearsal gradients and losses explain?",
+      "result": "Retained-data analysis supported old/new competition; it did not run another repair policy.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse diagnosis rather than retrain to fill documentation.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E12"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R12__NSS_NBR02_REHEARSE01_Analysis_v0.1_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R12__NSS_NBR02_REHEARSE01_Analysis_v0.1_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip!/NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md",
+        "public_path": "evidence/nss-nbr02-rehearse01-development-stop-v0.2-7cfe40a3/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 24,
+    "id": "TIMING01",
+    "page": "studies/24-timing01/README.md",
+    "ledger_record": {
+      "id": "TIMING01",
+      "eli5": "Should replay happen early or after later feedback?",
+      "result": "Endpoints improved in many cases, but full-trajectory confidence requirements failed.",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep transient harm separate from final recovery.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E13"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/inputs/TIMING01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R13__NSS_NBR02_TIMING01_Complete_v0.1_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R13__NSS_NBR02_TIMING01_Complete_v0.1_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip!/REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/inputs/TIMING01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip!/analysis/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-timing01-complete-v0.1-12a388b9/files/analysis/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 25,
+    "id": "ANA-TIMING01",
+    "page": "studies/25-ana-timing01/README.md",
+    "ledger_record": {
+      "id": "ANA-TIMING01",
+      "eli5": "Did favorable endpoints hide damage during the update sequence?",
+      "result": "Retained analysis preserved the original failures and exposed worse peaks.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Measure both temporary candidate harm and accepted behavior.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E14"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R14__NSS_NBR02_TIMING01_Analysis_v0.1_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R14__NSS_NBR02_TIMING01_Analysis_v0.1_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip!/REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/inputs/TIMING01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip!/analysis/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-timing01-complete-v0.1-12a388b9/files/analysis/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 26,
+    "id": "MICROMACRO01",
+    "page": "studies/26-micromacro01/README.md",
+    "ledger_record": {
+      "id": "MICROMACRO01",
+      "eli5": "Can one bounded learn-and-repair cycle retain a gain through later feedback?",
+      "result": "A narrow cycle contract passed; stricter criteria failed. Not indefinite successive generations.",
+      "status": "COMPLETED_BOUNDED_CYCLE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse as a cycle ingredient, not a complete day/night system.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E17"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip!/NSS_NBR02_MICROMACRO01_Execution_v0.2/REPORT.md",
+        "public_path": "evidence/nss-nbr02-micromacro01-complete-v0.2-4f157b5a/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip!/NSS_NBR02_MICROMACRO01_Execution_v0.2/analysis/tables/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-micromacro01-complete-v0.2-4f157b5a/files/analysis/tables/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip!/NSS_NBR02_MICROMACRO01_Execution_v0.2/protocol/PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-micromacro01-complete-v0.2-4f157b5a/files/attempts/v0.1/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip!/NSS_NBR02_MICROMACRO01_Execution_v0.2/attempts/v0.1/audit/HISTORICAL_SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-micromacro01-complete-v0.2-4f157b5a/files/attempts/v0.1/audit/HISTORICAL_SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-nbr02-micromacro01-complete-v0.2-4f157b5a/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R17__NSS_NBR02_MICROMACRO01_Complete_v0.2_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R17__NSS_NBR02_MICROMACRO01_Complete_v0.2_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 27,
+    "id": "TEACH01",
+    "page": "studies/27-teach01/README.md",
+    "ledger_record": {
+      "id": "TEACH01",
+      "eli5": "Does a stable teacher help when direct replay misses old examples?",
+      "result": "Modest report-level benefit; complete old records and ordinary controls were strong.",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Does not justify a separate Tertiary; preserve source-availability limits.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E18"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md",
+        "public_path": "evidence/nss-research-compendium-v1.0-0d88e029/files/source_reports/registered/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R18__NSS_NBR02_TEACH01_Complete_v0.1_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R18__NSS_NBR02_TEACH01_Complete_v0.1_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+        "public_path": "documents/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 28,
+    "id": "C00-CONTRACT01",
+    "page": "studies/28-c00-contract01/README.md",
+    "ledger_record": {
+      "id": "C00-CONTRACT01",
+      "eli5": "Can the software safely review and record a proposed change?",
+      "result": "Authored transaction/contract checks worked after a preserved bug fix; no neural reviewer tested.",
+      "status": "COMPLETED_SOFTWARE_CONTRACT",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse receipts and interruption semantics.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E15"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/REPORT.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/protocol/PROTOCOL.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/program/STEP_00_CONTRACT.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/attempts/v0.1/program/STEP_00_CONTRACT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/results/primary/SUMMARY.json",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/results/primary/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/attempts/v0.1/REPORT.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/attempts/v0.1/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/attempts/v0.1/WITHDRAWAL_ADDENDUM.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/attempts/v0.1/WITHDRAWAL_ADDENDUM.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_C00_Contract_Complete_v0.2.zip!/attempts/v0.1/results/primary/SUMMARY.json",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/attempts/v0.1/results/primary/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-c00-contract-complete-v0.2-02b3e5a3/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R15__NSS_C00_Contract_Complete_v0.2_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R15__NSS_C00_Contract_Complete_v0.2_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 29,
+    "id": "EVAL01",
+    "page": "studies/29-eval01/README.md",
+    "ledger_record": {
+      "id": "EVAL01",
+      "eli5": "Does stricter checking reject bad changes without rejecting too many useful ones?",
+      "result": "Retrospective snapshots showed an admission/deferral tradeoff, not a universal evaluator winner.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep false accepts and false rejects separate.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E16"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip!/REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip!/analysis/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/analysis/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip!/protocol/PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/attempts/v0.1/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip!/inputs/REV01/SOURCE_REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/attempts/v0.1/inputs/REV01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip!/inputs/TIMING01/SOURCE_REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/inputs/TIMING01/SOURCE_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-nbr02-eval01-complete-v0.2-02641896/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R16__NSS_NBR02_EVAL01_Complete_v0.2_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R16__NSS_NBR02_EVAL01_Complete_v0.2_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 30,
+    "id": "STATEBRIDGE01",
+    "page": "studies/30-statebridge01/README.md",
+    "ledger_record": {
+      "id": "STATEBRIDGE01",
+      "eli5": "Can unfinished internal state continue after weights change?",
+      "result": "Initial reading could work while subsequent computation failed; numerical gate also failed.",
+      "status": "COMPLETED_DIAGNOSTIC_UNQUALIFIED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep state/weight and numerical questions open.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E19"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_reports/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md",
+        "public_path": "evidence/nss-nbr02-statebridge01-diagnostic-v0.2-8f58ecbf/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_Consolidation_v0.1.zip!/source_receipts/R19__NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2_Delivery.json",
+        "public_path": "evidence/nss-research-consolidation-v0.1-c6f5cce7/files/source_receipts/R19__NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2_Delivery.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip!/NSS_NBR02_STATEBRIDGE01_Execution_v0.2/REPORT.md",
+        "public_path": "evidence/nss-nbr02-statebridge01-diagnostic-v0.2-8f58ecbf/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip!/NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/tables/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-statebridge01-diagnostic-v0.2-8f58ecbf/files/analysis/tables/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip!/NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/numerical_localization/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-statebridge01-diagnostic-v0.2-8f58ecbf/files/analysis/numerical_localization/SUMMARY.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip!/NSS_NBR02_STATEBRIDGE01_Execution_v0.2/protocol/PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-statebridge01-diagnostic-v0.2-8f58ecbf/files/attempts/v0.1/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 31,
+    "id": "SURFACE01",
+    "page": "studies/31-surface01/README.md",
+    "ledger_record": {
+      "id": "SURFACE01",
+      "eli5": "Can we isolate which changed weights break old work?",
+      "result": "Four parents trained; one false-DONE history stopped the planned surface comparison before B corrections.",
+      "status": "STOP_BASELINE_COMPETENCE",
+      "sources": [
+        "SURFACE"
+      ],
+      "next_action": "Parent study complete; factorial remains unrun.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "E20"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/protocol/EXECUTION_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/protocol/EXECUTION_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4101_summary.json",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/evidence/admission_4101_summary.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4102_summary.json",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/evidence/admission_4102_summary.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4103_summary.json",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/evidence/admission_4103_summary.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4104_summary.json",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/evidence/admission_4104_summary.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/failures/parent_4103_idempotent_first.npz",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Reports_and_Review_v0.1.zip!/REVIEW_AND_CANDIDATES.md",
+        "public_path": "evidence/nss-nbr02-surface01-reports-and-review-v0.1-6bf2b6ee/files/REVIEW_AND_CANDIDATES.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+        "public_path": "documents/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip!/NSS_NBR02_SURFACE01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-surface01-execution-v0.1-e51efcde/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 32,
+    "id": "TRACE01",
+    "page": "studies/32-trace01/README.md",
+    "ledger_record": {
+      "id": "TRACE01",
+      "eli5": "Can observed degradation guide what to rehearse?",
+      "result": "Tracked onset; guided replay had mixed development tradeoffs. Numerical failure and storage stop left 3/32 confirmation contexts.",
+      "status": "TECHNICAL_STOP_PARTIAL_CONFIRMATION",
+      "sources": [
+        "TRACE"
+      ],
+      "next_action": "No qualified guided-replay superiority.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "TRACE01"
+    ],
+    "locators": [
+      {
+        "locator": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt \u00a71, source register S06",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 33,
+    "id": "RECOVER01-v0.2",
+    "page": "studies/33-recover01-v0.2/README.md",
+    "ledger_record": {
+      "id": "RECOVER01-v0.2",
+      "eli5": "Can ordinary replay recover old work after new learning?",
+      "result": "Very large observed repair; corrected classes survived. Residual errors and strict numerical failure remain.",
+      "status": "COMPLETED_DIAGNOSTIC_STRONG_RECOVERY",
+      "sources": [
+        "RECOVER"
+      ],
+      "next_action": "Keep replay reference; no reset-to-parent result proves long-run learning.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "RECOVER01-v0.2"
+    ],
+    "locators": [
+      {
+        "locator": ".consolidation/20260928/direct_generation/PLAN_TEXT.txt \u00a7\u00a71\u20132, source register S04",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md \u00a7 Evidence reconciliation",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 34,
+    "id": "SH01",
+    "page": "studies/34-sh01/README.md",
+    "ledger_record": {
+      "id": "SH01",
+      "eli5": "Does a hierarchy help a small maintenance reader?",
+      "result": "HSA learned the bounded rule better than paired dense models; initial sparse execution was slower. One fit incomplete.",
+      "status": "COMPLETED_PARTIAL_COHORT",
+      "sources": [
+        "SH01"
+      ],
+      "next_action": "Retain three completed pairs, not four.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "SH01"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a7\u00a73\u20135, 11, 14",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH01/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh01-execution-v0.1-25f0c450/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH01_Execution_v0.1.zip!/NSS_NBR02_SH01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh01-execution-v0.1-25f0c450/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH01_Execution_v0.1.zip!/NSS_NBR02_SH01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh01-execution-v0.1-25f0c450/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 35,
+    "id": "SH02",
+    "page": "studies/35-sh02/README.md",
+    "ledger_record": {
+      "id": "SH02",
+      "eli5": "Can we clean the same hierarchy without changing its decisions?",
+      "result": "Packed execution improved larger cases; small/batched costs and historical bitwise mismatch remain.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SH02"
+      ],
+      "next_action": "Keep three levels; no further depth campaign.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "SH02"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a7\u00a76, 11, 14",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH02/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh02-execution-v0.1-6be5f4b9/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH02_Execution_v0.1.zip!/NSS_NBR02_SH02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh02-execution-v0.1-6be5f4b9/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH02_Execution_v0.1.zip!/NSS_NBR02_SH02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sh02-execution-v0.1-6be5f4b9/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 36,
+    "id": "SC01",
+    "page": "studies/36-sc01/README.md",
+    "ledger_record": {
+      "id": "SC01",
+      "eli5": "Can bounded segments track revisions and interrupted maintenance?",
+      "result": "Exact integration worked; ordinary caching supplied most savings and some jobs were slower.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SC01"
+      ],
+      "next_action": "Reuse lifecycle; not a language-token result.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "SC01"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a7\u00a77, 11, 14",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC01_Execution_v0.1.zip!/NSS_NBR02_SC01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sc01-execution-v0.1-86dce340/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC01_Execution_v0.1.zip!/NSS_NBR02_SC01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sc01-execution-v0.1-86dce340/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 37,
+    "id": "SC02",
+    "page": "studies/37-sc02/README.md",
+    "ledger_record": {
+      "id": "SC02",
+      "eli5": "Can incremental work make the segmented implementation better?",
+      "result": "Incremental publication/plans helped; intermediate neural caching was slower in all tested cells.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SC02"
+      ],
+      "next_action": "Keep useful simple improvements; neural cache off by default.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "SC02"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a78 and \u00a7\u00a711,14",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC02_Execution_v0.1.zip!/NSS_NBR02_SC02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sc02-execution-v0.1-0bf10228/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC02_Execution_v0.1.zip!/NSS_NBR02_SC02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-sc02-execution-v0.1-0bf10228/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 38,
+    "id": "CAP01",
+    "page": "studies/38-cap01/README.md",
+    "ledger_record": {
+      "id": "CAP01",
+      "eli5": "Can the computation finish when all its evidence cannot fit at once?",
+      "result": "Exact multipass attention extended input reach; ordinary streaming matched custom grouping. Larger-layout learned errors persisted.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "CAP01"
+      ],
+      "next_action": "Capacity demonstrated narrowly; no exclusive segmentation advantage.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "CAP01"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a7\u00a79,11,14",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip!/NSS_NBR02_CAP01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-cap01-execution-v0.1-2d7cfe7f/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip!/NSS_NBR02_CAP01_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-cap01-execution-v0.1-2d7cfe7f/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 39,
+    "id": "CAP02",
+    "page": "studies/39-cap02/README.md",
+    "ledger_record": {
+      "id": "CAP02",
+      "eli5": "Can broader practice help use the expanded input reach without losing the small task?",
+      "result": "Mixed-size preparation improved larger layouts and retained small-task skill; remaining errors preserved.",
+      "status": "BOUNDED_CLOSEOUT_PARKED_FOR_INTEGRATION",
+      "sources": [
+        "CAP02"
+      ],
+      "next_action": "HSA/segmented series closed for now, not whole NSS qualification.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "CAP02"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md \u00a7\u00a710\u201313",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP02_Execution_v0.1.zip!/NSS_NBR02_CAP02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-cap02-execution-v0.1-60caa0a7/files/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip!/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP02_Execution_v0.1.zip!/NSS_NBR02_CAP02_Execution_v0.1/REPORT.md",
+        "public_path": "evidence/nss-nbr02-cap02-execution-v0.1-60caa0a7/files/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 40,
+    "id": "DARP01",
+    "page": "studies/40-darp01/README.md",
+    "ledger_record": {
+      "id": "DARP01",
+      "eli5": "Can segmented diffusion plan, check and repair maintenance output blocks?",
+      "result": "Mechanism ran; initial writers were weak. Copying and missing replanning preparation limited comparison.",
+      "status": "COMPLETED_OUTPUT_COMPETENCE_NOT_ESTABLISHED",
+      "sources": [
+        "DARP01"
+      ],
+      "next_action": "Historical first pass; do not reopen weak controls.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "DARP01"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx \u00a7\u00a706\u201308",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      }
+    ]
+  },
+  {
+    "pass": 41,
+    "id": "DARP02",
+    "page": "studies/41-darp02/README.md",
+    "ledger_record": {
+      "id": "DARP02",
+      "eli5": "Does better creation/edit/revision preparation help?",
+      "result": "Large preparation gain; richer feedback had no broad advantage; natural errors remained hard to repair.",
+      "status": "COMPLETED_PREPARATION_GAIN",
+      "sources": [
+        "DARP02"
+      ],
+      "next_action": "Retain curriculum and exact metadata support.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "DARP02"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx \u00a7\u00a709\u201311",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      }
+    ]
+  },
+  {
+    "pass": 42,
+    "id": "DARP03",
+    "page": "studies/42-darp03/README.md",
+    "ledger_record": {
+      "id": "DARP03",
+      "eli5": "Does learning from real mistakes give diffusion a clear advantage over AR?",
+      "result": "Useful supported DARP approached AR, but no clear quality/speed win; more false completion and slower sample.",
+      "status": "PARK_CURRENT_DARP_IMPLEMENTATION",
+      "sources": [
+        "DARP03"
+      ],
+      "next_action": "Keep AR reference and plan/check/edit/commit, not diffusion as a requirement.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "DARP03"
+    ],
+    "locators": [
+      {
+        "locator": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx \u00a7\u00a712\u201324",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      }
+    ]
+  },
+  {
+    "pass": 43,
+    "id": "HSA-CONSOLIDATION",
+    "page": "studies/43-hsa-consolidation/README.md",
+    "ledger_record": {
+      "id": "HSA-CONSOLIDATION",
+      "eli5": "Can we preserve the whole HSA/context record and its boundaries?",
+      "result": "Six studies consolidated and evidence indexed; result remains a bounded component.",
+      "status": "DOCUMENTATION_COMPLETE",
+      "sources": [
+        "HSA"
+      ],
+      "next_action": "Reference for integration; not another experiment.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md",
+        "public_path": "documents/NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 44,
+    "id": "DARP-CONSOLIDATION",
+    "page": "studies/44-darp-consolidation/README.md",
+    "ledger_record": {
+      "id": "DARP-CONSOLIDATION",
+      "eli5": "Can we preserve DARP findings and a clear stop decision?",
+      "result": "Three studies consolidated; viable supported alternative without established practical superiority or general equivalence.",
+      "status": "DOCUMENTATION_COMPLETE",
+      "sources": [
+        "DARP"
+      ],
+      "next_action": "Park current implementation, retain evidence.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [],
+    "locators": []
+  },
+  {
+    "pass": 45,
+    "id": "EVIDENCE-LED-PLAN",
+    "page": "studies/45-evidence-led-plan/README.md",
+    "ledger_record": {
+      "id": "EVIDENCE-LED-PLAN",
+      "eli5": "What should we do next without repeating old experiments?",
+      "result": "Stepwise main path and conditional literature queue established.",
+      "status": "PLAN_CURRENT",
+      "sources": [
+        "PLAN"
+      ],
+      "next_action": "Follow priorities, one bounded task at a time.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [],
+    "locators": []
+  },
+  {
+    "pass": 46,
+    "id": "DIRECT01-SPEC",
+    "page": "studies/46-direct01-spec/README.md",
+    "ledger_record": {
+      "id": "DIRECT01-SPEC",
+      "eli5": "Can we specify a fair direct-parallel versus AR output comparison?",
+      "result": "Conditional protocol ready; no selected model, trained heads or execution.",
+      "status": "DOCUMENTATION_COMPLETE_EXPERIMENT_NOT_RUN",
+      "sources": [
+        "DIRECT"
+      ],
+      "next_action": "Optional after competence and a live output question.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    "compendium_ids": [
+      "DIRECT01-SPEC"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md \u00a7\u00a71\u20137",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip!/NSS_DIRECT01_Chat_Handoff_v0.1/sources/PLAN_TEXT.txt",
+        "public_path": "evidence/nss-direct01-chat-handoff-v0.1-8704c0fd/files/sources/PLAN_TEXT.txt",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 47,
+    "id": "COMP01-B-SETUP",
+    "page": "studies/47-comp01-b-setup/README.md",
+    "ledger_record": {
+      "id": "COMP01-B-SETUP",
+      "eli5": "Choose a small test reader and wire it to the exam.",
+      "result": "Official135M selected with a single conditional360M fallback. Model acquisition failed before inference;18 offline runner contract tests passed.",
+      "status": "ENGINEERING_ONLY_MODEL_ACQUISITION_BLOCKED",
+      "sources": [
+        "COMP01B_SETUP"
+      ],
+      "next_action": "Run actual pinned development where public download is available; do not repeat completed architecture studies.",
+      "evidence_type": "fresh source/data engineering and failed acquisition, not a model experiment"
+    },
+    "compendium_ids": [
+      "COMP01-B/SETUP"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 48,
+    "id": "LAB01",
+    "page": "studies/48-lab01/README.md",
+    "ledger_record": {
+      "id": "LAB01",
+      "eli5": "Can our own small reader answer from simple English evidence without a pretrained download?",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_REFERENCE_NOT_READY",
+      "result": "3new92837parameterARfits;5400main+6preflightupdates. Familiar supported833/1536,withheld768/768,paraphrase251/768;nofamilypasses.21preflightgroups;5376recounts;384freshreplays;24checkpointhashes;48480sampledprecisionvaluesallpass.",
+      "carry_forward": "Keep internal code/corpus/checkpoints. Main leads are project/date binding and wording sensitivity; not a memory-system verdict or completed COMP01-B.",
+      "sources": [
+        "LAB01"
+      ]
+    },
+    "compendium_ids": [
+      "LAB01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 49,
+    "id": "LAB02-SIZE",
+    "page": "studies/49-lab02-size/README.md",
+    "ledger_record": {
+      "id": "LAB02-SIZE",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CONSISTENT_WIDTH_GAIN",
+      "eli5": "Giving the same reader about22%or47%more room did not consistently help it choose the right project/date record.",
+      "result": "Nine fresh fits: supported whole answers833/1536,825/1536,844/1536; largest+0.72pp, wording31.12%\u219235.81%with mixed seed changes. No family working point.16,218total optimizer applications;40engineering groups;no main interruptions.",
+      "next_action": "Retain width64 as economical diagnostic control. LAB02-BIND proposed separately; no further size increase authorized.",
+      "sources": [
+        "LAB02_SIZE_REPORT",
+        "LAB02_SIZE_EXECUTION"
+      ]
+    },
+    "compendium_ids": [
+      "LAB02-SIZE"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 50,
+    "id": "LAB02-BIND",
+    "page": "studies/50-lab02-bind/README.md",
+    "ledger_record": {
+      "id": "LAB02-BIND",
+      "eli5": "Give two identical readers the same exercises in different orders and check which learns to use the evidence better.",
+      "result": "Six fresh paired readers; mixed757/1536(49.28%),staged734/1536(47.79%) supported answers. Staged lower in all3pairs. No family working point. Explicit new rules and full raw test/answer traces; finite-grammar review of9984outputs and manual64items/384responses. No old scores changed.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CURRICULUM_GAIN",
+      "sources": [
+        "LAB02_BIND",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park this staged teaching order; retain all controls and test/answer records. One next decision, not another automatic study.",
+      "evidence_type": "actual current execution; same-author review and internal reproduction, not external replication"
+    },
+    "compendium_ids": [
+      "LAB02-BIND"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 51,
+    "id": "MEM01",
+    "page": "studies/51-mem01/README.md",
+    "ledger_record": {
+      "id": "MEM01",
+      "eli5": "Save unfinished work, reopen it with current records, and distinguish missing memories from a reader misunderstanding correct notes.",
+      "result": "Frozen3LAB02-BINDmixed readers;3888responseobservations,0updates. DIRECT/FULL413/864post-break completeanswers,COMPACT504/864(+10.53pp);150gain/59loss;allthreeparentsgain. Wholefour-answerresume8/216allpolicies.1944recordchecks0loss;2592packetreplaysand432snapshotrestores exact. Current-status errors remain;ordinary scoped lookup supplies benefit,not newreaderlearning.23preflightgroups;3888recounts/fullreplays;41580sample precisionvaluespass. One audit-calltimeout, maincomplete; partialauditworkunknown.",
+      "status": "COMPLETE_BOUNDED_HANDOFF_DIAGNOSTIC_READER_LIMITED",
+      "sources": [
+        "MEM01_REPORT",
+        "MEM01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Retain handoff and ordinary scoped retrieval; proceed to PREP01 specification, not further automatic reader training. No broad companion or changed-weight continuation qualification.",
+      "evidence_type": "actual frozen-model inference and software lifecycle tests; same-author semantic sample and internal replay, not external replication"
+    },
+    "compendium_ids": [
+      "MEM01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 52,
+    "id": "PREP01",
+    "page": "studies/52-prep01/README.md",
+    "ledger_record": {
+      "id": "PREP01",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_WORKSHEET_TRADEOFF_NO_ADVANCE_GAIN",
+      "eli5": "Try preparing a source-linked task sheet before questions arrive, then check whether that helps more than ordinary retrieval or making/caching the same sheet when asked.",
+      "result": "Three unchanged99674parameterreaders;5472main responses. RAW818/1368(59.80%) vsall3sheetpolicies790/1368(57.75%);all3readersdecline,163gains191losses. Falsecompletion54\u219214butdone-worksuggestions330\u2192384. Identicalsheetqualitybefore/afterquery;ADVANCEslowerthanCACHEinall9timingmedians,highreuseratio1.043. Exposedgold-supportdiagnostic41/72\u219258/72(mainlystatus22/36\u219236/36,work19/36\u219222/36);notdeployable.0updates.5472main+288diagnosticrecounts,5472freshreplays,576restores,73920sampleprecisionvaluespass.21preflightgroupsafterpreservedcopybug;postresultaudittypemismatchcorrectedseparately.",
+      "sources": [
+        "PREP01_REPORT",
+        "PREP01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park eager generic sheets as default. Next proposed bounded lead: select the supporting records for the actual question, with simple lookup and answer-only controls; no gold at inference. Then repeated learning cycles; do not require a perfect language reader.",
+      "evidence_type": "actual frozen-reader inference, exact finite-grammar preparation and CPU timing; privileged exposed diagnostic separately marked; same-author sampled semantic review"
+    },
+    "compendium_ids": [
+      "PREP01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 53,
+    "id": "READER-SUPPORT01",
+    "page": "studies/53-reader-support01/README.md",
+    "ledger_record": {
+      "id": "READER-SUPPORT01",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_PRIMARY_GAIN_OUTPUT_CONTRACT_LIMIT",
+      "eli5": "Teach one small reader which notes support its answer; compare it with answer-only practice and an ordinary question-aware index.",
+      "result": "Six fresh106615parameter readers; A answer-only vs S answer+source loss. Supported five-field A586/1536(38.15%),S521/1536(33.92%); no primary gain, parent differences\u221211.91/\u22123.91/+3.13pp. A keepsall, S exactsupport808/1536 but answers287/808ofthosecorrect. PublicLOOKUPA769/1536,S692/1536; retrospective namedstatusfactAlookup768/768 is notcompletehandoff. Positivecompletion136\u219289,done-worksuggestions235\u2192341; wholefouranswers0\u21929/384. Publicstatusancillaryfieldscopeunderspecified; rawkeyandsynonym/reviewkeptseparate.29952recounts,576freshreplays,42912sampleprecisionvaluespass,30maincheckpointsverified.9600logicalmain;9808\u20139809actualmain+12preflight afterrecorded208steptailreplay. No follow-up fitting.",
+      "sources": [
+        "READER_SUPPORT01_REPORT",
+        "READER_SUPPORT01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park automatic reader preparation. Retain ordinary lookup and explicit source/action diagnostics; CYCLE01 specification next using a declared restricted competent reference and unambiguous public fields.",
+      "evidence_type": "fresh paired training and inference; exact finite-contract scoring plus144same-author reviews; sampled numerical checks; output-scope limitation retained"
+    },
+    "compendium_ids": [
+      "READER-SUPPORT01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/CHECKLIST_v0.19.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "RESEARCH_INDEX.md",
+        "public_path": "documents/RESEARCH_INDEX.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 54,
+    "id": "CYCLE01-A",
+    "page": "studies/54-cycle01-a/README.md",
+    "ledger_record": {
+      "id": "CYCLE01-A",
+      "status": "COMPLETE_DEVELOPMENT_FEASIBILITY_PROMISING_SIGNAL",
+      "eli5": "Let a copy learn at night, check it, then use the accepted version and its unfinished work the next day.",
+      "result": "Four source parents, two nights, FIXED/LEARN/REPLAY/BALANCED.2048development+7disposableupdates;0newfits. Balanced5/8adoptions,allfourend32/32currentcueanswers,4087/4096guardanswers,2046/2048liveanswers,30/32entiretwo-dayhistories,0livefalseDONE.Only4103acceptedbothnights. ExtraBexposureconfounded;allmaterialdevelopment.232savedoutputsreplayedexact,160checkpointfilesverified;9,304,960evaluationnumericcomparisons0violationsinnewfloat64contract. Onecallerinterruption,resume32missingupdatesatprovenphasebarrier,0repeatedupdates;discardedinference/time/RSSunknown.",
+      "next_action": "Freeze one longer comparison on fresh reserved tasks; add B96-only control for extra B practice. Do not repeat tiny-reader sweeps.",
+      "sources": [
+        "CYCLE01_A",
+        "RECOVER",
+        "PLAN"
+      ],
+      "evidence_type": "new internal two-night development/engineering study, not confirmatory main or product qualification"
+    },
+    "compendium_ids": [
+      "CYCLE01-A"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md \u00a7\u00a71\u201310",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_NBR02_CYCLE01A_Delivery_v0.1.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/NSS_NBR02_CYCLE01A_Delivery_v0.1.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/SOURCE_VERIFICATION.json",
+        "public_path": "evidence/nss-nbr02-bridge01-codex-review-v0.1-bbe83ae4/files/provenance/SOURCE_VERIFICATION.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/provenance/REPORT.md",
+        "resolution": "direct retained source"
+      }
+    ]
+  },
+  {
+    "pass": 55,
+    "id": "BRIDGE01",
+    "page": "studies/55-bridge01/README.md",
+    "ledger_record": {
+      "id": "BRIDGE01",
+      "status": "COMPLETE_BOUNDED_DUMMY_PROTOTYPE_PARKED_FOR_LOW_BIT",
+      "eli5": "Connect a pretend language model to a real small checklist network, saved records and an action checker; see whether work survives interruption.",
+      "next_action": "Preserve runnable prototype, do not expand until low-bit priority is resolved or user directs otherwise.",
+      "sources": [
+        "BRIDGE01"
+      ],
+      "result": "216scripted sessions,3474simulatedeffects,558rejections,0contractviolations;4144/4144learnednext-itemobservations. Exactrulealsocompletesall.41preflightchecks;216freshreplays;302512NumPy/Torchfloat64scalars0violations.0training/downloads/realLLMinference. Main6.331score99.15MBRSS; notcompletebill. Overallcapscheckedposthoc,roundcapenforced.",
+      "evidence_type": "New executed engineering/dummy integration and independently coded internal audits; no real LLM or general orchestration qualification."
+    },
+    "compendium_ids": [
+      "BRIDGE01"
+    ],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip!/NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md \u00a7\u00a71\u20139",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": ".consolidation/20260929/bridge01/EVIDENCE_REVIEW.md",
+        "public_path": "documents/reviews/20260929/bridge01/EVIDENCE_REVIEW.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": ".consolidation/20260929/bridge01/REPORT_TEXT.txt",
+        "public_path": null,
+        "resolution": "locator only; payload not in Git candidate"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md",
+        "public_path": "documents/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/README.md",
+        "resolution": "retained package navigation"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P55_REPORT.md",
+        "public_path": "evidence/nss-nbr02-bridge01-codex-review-v0.1-bbe83ae4/files/docs/ARCHITECTURE_AND_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P55_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-bridge01-codex-review-v0.1-bbe83ae4/files/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass55_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-bridge01-prototype-v0.1-ade14d04/files/MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_BRIDGE01_Codex_Review_v0.1.zip!/NSS_NBR02_BRIDGE01_Codex_Review_v0.1/docs/ARCHITECTURE_AND_REPORT.md",
+        "public_path": "evidence/nss-nbr02-bridge01-codex-review-v0.1-bbe83ae4/files/docs/ARCHITECTURE_AND_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass55_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass55_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 56,
+    "id": "LB01-TERNARY",
+    "page": "studies/56-lb01-ternary/README.md",
+    "ledger_record": {
+      "id": "LB01-TERNARY",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_TERNARY_WORKING_POINT_NOT_ESTABLISHED",
+      "eli5": "Shrink checklist weights to minus, zero and plus, then teach the learner to work with that restriction. Compact storage works; quality and training-memory goals remain open.",
+      "next_action": "Preserve all outcomes. Plan one ternary-from-start or transition-preparation comparison with a competent acquisition control; then reduce actual learning-state cost. No automatic execution.",
+      "sources": [
+        "LB01_TERNARY"
+      ],
+      "result": "Four exact18249parameterparents; matrices17856ternary,biases393FP32. Directconversion6361/32768(19.41%),QAT51231615/32768(96.48%),610/1024whole,342falseDONE;FPparent32733/32768. Workingpoint0/4. All8oldcueclassesretained;64jointnewcuephasefailsflipinbothFLOATandTERNARY. Packednumeric6717bytesvs72996FP32;five-tritcodes~1.6bits,scales/biasesextra. ScalarpackedC~5xslower;FP32master/grad/Adam292008bytesbeforeactivations,notlowmemorytraining.4608main+6preflight=4614actualupdates,norepeats.24preflightchecks,200recounts/replays,40checkpoints,20packedexports,79907552evaluationnumericalscalarcomparisons0violations. Nootherresearchreopened.",
+      "evidence_type": "New executed bounded quantization/preparation and direct packed-weight inference; not BitNet replication or low-bit total-training qualification."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P56_REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P56_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P56_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P56_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass56_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass56_MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass56_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass56_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 57,
+    "id": "LB02-Q2-TRAIN",
+    "page": "studies/57-lb02-q2-train/README.md",
+    "ledger_record": {
+      "id": "LB02-Q2-TRAIN",
+      "priority": 0,
+      "status": "COMPLETE_LOGICAL_COMPARISON_MEMORY_GAIN_LEARNING_GATE_OPEN_OPERATIONAL_CAP_EXCEEDED",
+      "eli5": "Teach a four-setting-weight model while storing smaller optimizer notes; check whether it can keep old work and learn something new.",
+      "result": "Four exact18,249parameterparents;Q2four-codeaffinematricesandcustom8bitmomentstorage. After1024preparation:Q2M8 32766/32768answers,1022/1024whole,1falseDONE;Q2M32 32765,1022whole,1falseDONE;F32 32763,1023whole,0falseDONE. AfterB64+AB32 all12pathsretain32/32currentcueclasses/arm;Q2M8oldwork32521/32768(99.246%),952whole,11falseDONE;Q2M3232607,959whole,19falseDONE;F3232540,941whole,16falseDONE. Q2preparationworking3/4peroptimizer,fulllearningQ2M8only1/4;compressedqualityequivalencenotqualified. Master+gradient+momentarrays291984\u2192183650bytes(-37.10%),moments145992\u219237658(-74.21%);wideactivations/copiesremain. PackedQ2numeric8001bytes/file8703;scalarC2.50\u20132.64xslower,compressedtrainingdescriptively3.55%slowerthanQ2M32. 13440logicalmain,13645\u201313647actualmain+43preflight=13688\u201313690;205\u2013207replayedafter2callerinterruptions,originalactualcapNOTmet. 264outputarrays/1019904Aobservationsrecountedandfreshreplayedexact;72checkpoints,48packedexports,72Bchecks,3fixturefilesbyteexact;main166323200numericcomparisons0violations. NoBitNetTransformer,fromscratchfits,all2bittraining,deployedorwholeNSSqualification.",
+      "next_action": "RetainQ2/M8asresearchcandidate;resolvepost-correctionretentionwithoneboundedcomparisonbeforeclaimingthelearningworkingpoint. Do not rerun automatically.",
+      "sources": [
+        "LB02_Q2_TRAIN"
+      ],
+      "evidence_type": "Executed full-parameter QAT and compressed optimizer; mixed precision, not native all-low-bit training. Cost overrun explicitly preserved."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P57_REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P57_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P57_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P57_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass57_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass57_MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass57_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass57_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 58,
+    "id": "LB02-MASTER16",
+    "page": "studies/58-lb02-master16/README.md",
+    "ledger_record": {
+      "id": "LB02-MASTER16",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_SAME_TASK_CONTINUATION_MASTER_ARRAY_SAVING",
+      "eli5": "Keep the useful two-bit learner practicing the same task while halving its matrix working copies; compare ordinary and stochastic rounding.",
+      "result": "Four exact LB02 Q2_M8 preparation parents; 12x256 same-task updates, no new cue or repair. M32 final32764/32768 (1022whole,0falseDONE),M16nearest32767 (1023whole,0FD),M16stochastic32766 (1022whole,1FD). BothM16 pass NEW practical continuation/storage screen4/4; not retroactive oldgate pass. All3arms8192/8192stress and32/32originalB. Master+gradient+moment arrays183650\u2192147938bytes (-19.45%); actualbatch saved-tensor union broader2.534MB\u21922.499MB (~1.41%), not19.45%wholememory. FP16nearest rounds93.72%of proposedupdates away,SR89.84%; near-mastered startingpoint, no newskill/plasticity qualification. Descriptivecores+6.69%/+11.08%;nospeedclaim.3072main+18preflight=3090updates;12backwardmemoryprobes,noauditupdates;no interruptions.84rawarrays264192suffixscoresrecounted/all84freshreplays exact,108checkpoints,3fixturefilesexact;63912960numericcomparisons0breaches.",
+      "next_action": "Preserve useful Q2/M8/FP16 continuation candidate. If further training-precision testing is needed, test earlier same-task preparation with M32 control, not new-task repair. Wider activation costs remain separate. No follow-on run authorized.",
+      "sources": [
+        "LB02_MASTER16"
+      ],
+      "evidence_type": "Executed bounded mixed-precision continuation and array accounting; already-prepared models, no from-scratch or new-skill demonstration."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P58_REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P58_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P58_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P58_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass58_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass58_MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass58_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass58_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 59,
+    "id": "LB01-T3-TARGET",
+    "page": "studies/59-lb01-t3-target/README.md",
+    "ledger_record": {
+      "id": "LB01-T3-TARGET",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_COMPARISON_NO_TERNARY_WORKING_POINT_Q2_RETAINED",
+      "eli5": "Try switching four-setting weights to three settings immediately or gradually; see whether the small model still finishes its checklists correctly.",
+      "result": "Four exact prepared Q2_M32 parents; 12x1024 same-task QAT, all original associations unchanged. Q2 final32764/32768,1023/1024whole,0FD; immediateT3 32283/32768(98.52%),863whole,65FD; gradualT3 32108(97.99%),774whole,211FD. Ternary working0/4 each; Q2 nominal4/4, strict long-stress2/4 despite99.99%answers/253of256whole. T3 stresswhole94/256direct,53/256ramp. Ramp mixed early,513pure updates vs1024direct; not a universal comparison of all gradual methods. ActualpackedT3 body6717B/file7604B vsQ2 8001/8703;FP32scales/biases,FP64inference.12300actualupdates(12288main+12preflight),nointerruptions/repeats.168arrays522240suffixanswersfullfreshreplayexact,52exports72checkpoints,3fixturesbyteexact,106006400numericcomparisons0breaches. No training-efficiency or post-learning-repair study.",
+      "next_action": "Retain two-bit as the useful interim model. Review the residual ternary representation/quality tradeoff; no automatic further fitting or ramp tuning. Any next model-only calibration or from-start ternary test needs a separately fixed protocol. Training efficiency and post-learning repair remain deferred until the user moves phases.",
+      "sources": [
+        "LB01_T3_TARGET"
+      ],
+      "evidence_type": "Executed model-quantization comparison with fixed same-task preparation; no new cue, repair, optimized training state or BitNet Transformer replication."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P59_REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P59_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P59_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P59_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass59_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass59_MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass59_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass59_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 60,
+    "id": "LB01-Q2-PACK",
+    "page": "studies/60-lb01-q2-pack/README.md",
+    "ledger_record": {
+      "id": "LB01-Q2-PACK",
+      "priority": 0,
+      "status": "COMPLETE_LOSSLESS_STORAGE_GAIN_NO_RUNTIME_ADOPTION",
+      "eli5": "Pack the same four weight settings with shorter labels, without changing the learner. Less storage works; the simple decoder costs too much time.",
+      "result": "Four exact Q2_CONTROL1024 exports; RAW/HUF16/DEF16 fixed 16-row blocks, no learning. Huffman codes1.7890\u20131.8297bits/entry versus2; matched files8137/8088/8046/8058B versus8517B (4.46\u20135.53% saving); all12canonical models exact. HUF16 7.56\u20138.23x slower, not adopted. DEF16 saves0.31\u20130.74%, adds7168B zlib allocations. Whole legacy-file zlib12.59\u201312.92% smaller, archive-only. All36rawarrays245856scoredobservations independently recounted/replayed exact;12snapshot restores48badbindings rejected. Primary32764/32768 andlong49147/49152 retained, including old failures.11preflightgroups,37mainlock objects intact,476sourcepayloads verified. No newfit/update. Extra public-wrapper reproduction interrupted in4104; missing inference finished separately, partial outputs exact; primary main/audit uninterrupted. Eight illustrative indices allmixed despite protocolexpectation, disclosed without changingindices. Current result is code-storage compression, not ternary arithmetic, universal speed/RAM/20B scaling.",
+      "next_action": "Retain direct Q2 as the useful interim runtime. Lossless HUF16 storage works but this decoder is not adopted. One later fixed-format decoder optimization may test whether table decoding or bounded block reuse removes the measured bottleneck; it is not automatically authorized. Training efficiency and repair remain deferred.",
+      "sources": [
+        "LB01_Q2_PACK"
+      ],
+      "evidence_type": "Executed lossless coding and inference-regression study, plus separate internal audit/reproduction. No training or new generalization test."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P60_REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P60_REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/reports/P60_PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/reports/P60_PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass60_MANIFEST.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass60_MANIFEST.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/pass60_DELIVERY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/pass60_DELIVERY.json",
+        "resolution": "retained historical delivery receipt; payload availability separate"
+      }
+    ]
+  },
+  {
+    "pass": 61,
+    "id": "LB03-LEARNABILITY",
+    "page": "studies/61-lb03-learnability/README.md",
+    "ledger_record": {
+      "id": "LB03-LEARNABILITY",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_LEARNING_STOCHASTIC_SCREEN_MET_WITH_LIMITS",
+      "eli5": "Test whether smaller learning copies can actually learn, not merely keep an already-mastered skill.",
+      "result": "Reconciled55\u201360: six complete archives,2909payloads,24exactlineagechecks. Fourparents\u00d73mastermodes\u00d72regimes,all24\u00d7512 complete;12288main+24preflight+102benchmark+24audit=12438actualupdates,nointerruptions/repeats. EARLYM32/nearest/SR32732/32760/32742of32768;allmodeslearn4/4. NEWall32/32cueanswersincltwo reversals,oldA32746/32746/32740;retention3/4,2/4,3/4. SRpassesfrozen3/4separateregimesbutonly2sameparentspassboth;nearestfailsNEWcohort. Namedarrays183650\u2192147938(19.45%),broadunionabout1.41%;SR8.9\u201311.7%slower. 336rawarraysrecounted/allfreshreplayexact,120checkpoints+120exports,24auditsteps+24faultrejections;159230400recordednumericcomparisons0breaches. NaiveNumPysigmoidexp-overflowwarnings retained;stableauditagrees,largegateinputsremainrobustnesslimit. No integration/postrepair/20B/all2bittrainingclaim.",
+      "next_action": "Independent review of source/candidate and numerical saturation warning. Retain M32 and SR candidates; saved-activation compression remains a later separately frozen hypothesis, not an automatic run. Integration and post-learning repair stay excluded.",
+      "sources": [
+        "LB03_LEARNABILITY"
+      ],
+      "evidence_type": "Executed mixed-precision full-parameter learning and retained competence comparison; source archive/lineage audit; internal reproduction, no external replication."
+    },
+    "compendium_ids": [],
+    "locators": [
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/docs/REPORT.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/docs/REPORT.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/protocol/PROTOCOL.md",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/protocol/PROTOCOL.md",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/source/candidate.py",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/source/candidate.py",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/source/inherited_engine.py",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/failures/NUMERICAL_WARNING_AND_DIAGNOSIS.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/failures/NUMERICAL_WARNING_AND_DIAGNOSIS.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/CHECKPOINT_LINEAGE.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/CHECKPOINT_LINEAGE.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/provenance/SELECTED_STARTS.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/provenance/SELECTED_STARTS.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/audit/FINAL_AUDIT.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/audit/FINAL_AUDIT.json",
+        "resolution": "direct retained source"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/results/SUMMARY.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/results/SUMMARY.json",
+        "resolution": "retained primary result/protocol record"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/results/DECISION.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/results/DECISION.json",
+        "resolution": "retained primary result/protocol record"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/results/ACCOUNTING.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/results/ACCOUNTING.json",
+        "resolution": "retained primary result/protocol record"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/results/FIRST_FAILURES.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/results/FIRST_FAILURES.json",
+        "resolution": "retained primary result/protocol record"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/protocol/CONFIG.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/protocol/CONFIG.json",
+        "resolution": "retained primary result/protocol record"
+      },
+      {
+        "locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip!/NSS_LB03_LEARNABILITY_v0.1/protocol/PLAN_RECEIPT.json",
+        "public_path": "evidence/nss-nbr02-lb03-learnability-execution-v0.1-78e7617b/files/protocol/PLAN_RECEIPT.json",
+        "resolution": "retained primary result/protocol record"
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "recipe": "NSS-NBR02-TIMING01-v0.1/{label}, first8 digest bytes unsigned big-endian",
+  "allocations": [
+    {
+      "label": "init/main/0",
+      "seed_uint64": 17571707280555238715
+    },
+    {
+      "label": "init/main/1",
+      "seed_uint64": 1533967677937581703
+    },
+    {
+      "label": "init/main/2",
+      "seed_uint64": 5956406209771909959
+    },
+    {
+      "label": "init/main/3",
+      "seed_uint64": 859565827561511189
+    },
+    {
+      "label": "order/main/0",
+      "seed_uint64": 2771240696723448342
+    },
+    {
+      "label": "order/main/1",
+      "seed_uint64": 7743010407278301143
+    },
+    {
+      "label": "order/main/2",
+      "seed_uint64": 11338312576447011558
+    },
+    {
+      "label": "order/main/3",
+      "seed_uint64": 13761490011441218999
+    },
+    {
+      "label": "labels/old/scope0",
+      "seed_uint64": 15257165410545157472
+    },
+    {
+      "label": "labels/old/scope1",
+      "seed_uint64": 15238250682425032189
+    },
+    {
+      "label": "labels/development/scope0",
+      "seed_uint64": 6496047616399678477
+    },
+    {
+      "label": "labels/development/scope1",
+      "seed_uint64": 3026069332876823199
+    },
+    {
+      "label": "labels/heldout/scope0",
+      "seed_uint64": 17773807548780422558
+    },
+    {
+      "label": "labels/heldout/scope1",
+      "seed_uint64": 1708641521016117090
+    },
+    {
+      "label": "init/probe",
+      "seed_uint64": 568692426678168284
+    },
+    {
+      "label": "order/probe",
+      "seed_uint64": 2837022078900735817
+    },
+    {
+      "label": "init/fixture",
+      "seed_uint64": 892606794521048414
+    },
+    {
+      "label": "wire/main",
+      "seed_uint64": 7391103570147076404
+    },
+    {
+      "label": "wire/probe",
+      "seed_uint64": 13046580356955702522
+    },
+    {
+      "label": "wire/fixture",
+      "seed_uint64": 2179508813150045652
+    },
+    {
+      "label": "wire/faults",
+      "seed_uint64": 14375602317954671597
+    },
+    {
+      "label": "fixture/filler/case0/trial1",
+      "seed_uint64": 16113416612271521207
+    },
+    {
+      "label": "fixture/filler/case0/trial2",
+      "seed_uint64": 16106618356993067160
+    },
+    {
+      "label": "fixture/filler/case0/trial3",
+      "seed_uint64": 8226687436383804648
+    },
+    {
+      "label": "fixture/filler/case0/trial4",
+      "seed_uint64": 6583082952787297087
+    },
+    {
+      "label": "fixture/filler/case0/trial5",
+      "seed_uint64": 6465709393127395380
+    },
+    {
+      "label": "fixture/filler/case0/trial6",
+      "seed_uint64": 1155582824940654661
+    },
+    {
+      "label": "fixture/filler/case1/trial1",
+      "seed_uint64": 11690217018209869171
+    },
+    {
+      "label": "fixture/filler/case1/trial2",
+      "seed_uint64": 14281632830639199465
+    },
+    {
+      "label": "fixture/filler/case1/trial3",
+      "seed_uint64": 9267150265685418551
+    },
+    {
+      "label": "fixture/filler/case1/trial4",
+      "seed_uint64": 17313474488513607618
+    },
+    {
+      "label": "fixture/filler/case1/trial5",
+      "seed_uint64": 317863117652995423
+    },
+    {
+      "label": "fixture/filler/case1/trial6",
+      "seed_uint64": 1877891847587688883
+    }
+  ],
+  "state": "FROZEN_IDENTIFIERS_NO_STIMULUS_DRAWS"
+}

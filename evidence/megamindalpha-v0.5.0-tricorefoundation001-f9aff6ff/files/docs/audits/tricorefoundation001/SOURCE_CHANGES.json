@@ -1,0 +1,167 @@
+{
+  "parent_files": 903,
+  "removed_parent_files": [],
+  "modified_parent_files_excluding_manifest": [
+    {
+      "path": "AGENTS.md",
+      "parent_sha256": "a4dc3db4d61d5591e41973b7ae1364a0fb518c8ed86be5ca0dd9e5e4795b61a7",
+      "new_sha256": "cd2ed37b59afbb476a3e2bbb7dc9288485727a35366e9f7503d0df6f03993380"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "parent_sha256": "edf06e26e1b8c910ce289058c2678c9edbc55e83d5ed999f694edac858bcade9",
+      "new_sha256": "fc1e0449f6cb4853f69ca6f85b973b250aaff6a2792075f7cd6b75ddf757597e"
+    },
+    {
+      "path": "PROGRESS.md",
+      "parent_sha256": "a873cedd2828a1137a38023245e46a466935eed56ab6f87a1202e762e7d490d8",
+      "new_sha256": "aab8f9ae373d82eeaac2b4ea59575692719ebe269a1e3de1235b7586594244d7"
+    },
+    {
+      "path": "README.md",
+      "parent_sha256": "8e88e14fc54f89b458593cb673d8efdf05bf063df8a76e4406da2dda1d5788d7",
+      "new_sha256": "8530e6d48e639f2dde94f97299875e6d6e7d9b13e7d75b0bbe05576530380015"
+    },
+    {
+      "path": "VERSION",
+      "parent_sha256": "421b160b2adb271a8fef0870c53e8d8181ebd1739f2bea57719423ff62426da9",
+      "new_sha256": "e504f4e9e12d8e0d88eb90f29e6e1ccd6ede7db2d700ad6d646fe69e24aecc69"
+    },
+    {
+      "path": "nss_base/context_contracts.py",
+      "parent_sha256": "0d3026b32276f53f45adae93d0cb914fefbcb3ea396e1c499b78fb5b0fe51a37",
+      "new_sha256": "1d9519a9afe1f41ca99a7daf92941b84bec4b2bb8a6e94a514b2344e74a8d0bc"
+    },
+    {
+      "path": "nss_base/context_plan.py",
+      "parent_sha256": "991015dec29c88d86610f8b326b6185a5d5456f700196a74b575dde9cc69026d",
+      "new_sha256": "32361a64c681bd5a86dcc42e2ed70b390587cefb90fedabd67d5b167c8f68343"
+    },
+    {
+      "path": "nss_base/context_service.py",
+      "parent_sha256": "8edba5580406a3a65a2de32ddff89fc06961206c9388d73f5ab8522527b030ee",
+      "new_sha256": "8bf152d2478bf190019af9ed61ca135fb5a26d2fd0433aeda766de63ac21dcac"
+    },
+    {
+      "path": "nss_base/generation_state.py",
+      "parent_sha256": "6f2a9cf661f6b292a539d06a477a3c038855c2dc54bb0c2dc43a686131f8510d",
+      "new_sha256": "bb97fc484860a3d6d305823e529209dfddcc2e1408aa239d6e0848322b22e716"
+    },
+    {
+      "path": "nss_base/generation_store.py",
+      "parent_sha256": "43db4ad359b5c36f6c9d4003b2175ad41fa50fc324b45c5c6f326dd8a24dbcc1",
+      "new_sha256": "d606777558c944d0343a033c7c7f45b47c4703389d95adc3efe19a5377a5419a"
+    },
+    {
+      "path": "nss_base/state_contracts.py",
+      "parent_sha256": "776b1645e8b5939a7142f51c62b1bce13ea5b8479821005f11fcb1ee17087a75",
+      "new_sha256": "7a022a9a95a246c025a43e895da9d378e37dd1f451478c610667d3350a4043f1"
+    },
+    {
+      "path": "nss_base/state_updates.py",
+      "parent_sha256": "e817a766eb8cad2e365c5721c9d3c3fde57e8398ec831fee43d0f98faeaf74e8",
+      "new_sha256": "3309b96ce5e426d1e6ed3ccdbf799c3e348c5e2eef6deab8f2198b7d07ed2ba4"
+    },
+    {
+      "path": "spec/python_dependencies.json",
+      "parent_sha256": "37fd0dda569b7ffd1f671d20bff42580399f94328b3fcabd53763d92f2f2efb6",
+      "new_sha256": "0c5ae74e2866892f28746a1d7f4699c607f3bf7c90784f1298527537763f3037"
+    }
+  ],
+  "manifest": "Regenerated for cumulative release; exact prior manifest retained under docs/history/v0.4.14_MANIFEST.sha256.",
+  "new_source_schema_spec_test_tool_files": [
+    {
+      "path": "nss_base/__main__.py",
+      "sha256": "df3d7a8b585db32336c213796f66ac71c4d527a59167e898b9e566df6494e3a8"
+    },
+    {
+      "path": "nss_base/foundation_adapters.py",
+      "sha256": "360a96598274468d0c0b6b7990d7b8084e990646b2a71cc435973f908e6ab382"
+    },
+    {
+      "path": "nss_base/foundation_context.py",
+      "sha256": "41e11d44908922e04c47fd5d72001821d773e5eb241c8d017628179f723d67f8"
+    },
+    {
+      "path": "nss_base/foundation_contracts.py",
+      "sha256": "4b44a44daeedf4130d417d648b0afe6d75c71f479b2552fc33ada8e8ac789b74"
+    },
+    {
+      "path": "nss_base/foundation_demo.py",
+      "sha256": "a1db93fb4c4c20800d8a9946f704a993b5dca75615803f7b56099ed03faed768"
+    },
+    {
+      "path": "nss_base/foundation_events.py",
+      "sha256": "037352604c7cfa9db004fc472dd7425762d70a4f6e7847c5e3d7d4aa7aec7557"
+    },
+    {
+      "path": "nss_base/foundation_lock.py",
+      "sha256": "dd8407dc11f8cf4ba40942898a93bd8b720cfc59863a6499c2ee1b232fcd42b1"
+    },
+    {
+      "path": "nss_base/foundation_ports.py",
+      "sha256": "79281dbef0fa70dfbf7f2d00c117e18355acb0c1328d08cbe97bf6f77aaeec6f"
+    },
+    {
+      "path": "nss_base/foundation_runner.py",
+      "sha256": "83752d9a93bdb566b80f7a2c364fd13b3ee104194349bc8d52a329b04dca0558"
+    },
+    {
+      "path": "nss_base/foundation_store.py",
+      "sha256": "fa5d4e8d169062e4ea6819baa7d1b1001f44191e919dd158fceb678b4b820f70"
+    },
+    {
+      "path": "nss_base/research/__init__.py",
+      "sha256": "6ff0365aef26a574331889bda8aec85bf1502fe5aa338f5eca964d2bc301069a"
+    },
+    {
+      "path": "nss_base/research/nbr01.py",
+      "sha256": "f3ed7bb12e87575b206dbd039f6e8eaca086604fb08b59cf0f8b2fa7c6881603"
+    },
+    {
+      "path": "schemas/context_packet_v3.schema.json",
+      "sha256": "40a3e0ef16d10f4a4e6508e32f63508fae713de31c6b8b7a0a5e8637e8e83cd7"
+    },
+    {
+      "path": "schemas/context_request_v3.schema.json",
+      "sha256": "c7cfde4b7f31ee3492bfce18a50be2bcde8e54948c678671606916e42f3ca5c9"
+    },
+    {
+      "path": "schemas/state_bind_v3.schema.json",
+      "sha256": "5b37cfad1c0431adad46b221bf986108c05ec72a393dd56a4cc530e6f396ccf4"
+    },
+    {
+      "path": "schemas/state_update_v3.schema.json",
+      "sha256": "050690b5a89602d1bbbcb24bca72a974127dfd94b37e660ce048aa707aa4660c"
+    },
+    {
+      "path": "spec/nbr01_protocol.json",
+      "sha256": "f2b02684c1134f2db31611818e3b7a3524188d088fb9ffcd787903ad65e8706e"
+    },
+    {
+      "path": "spec/tricore_test_configuration.json",
+      "sha256": "ac38591d01ac1e7ae8fead04c464f4cad24a287e6a36b4e2d7a44c8eec527fb5"
+    },
+    {
+      "path": "tests/test_foundation.py",
+      "sha256": "f984a0e8213113b307bb1cf21c4876edcf50576922c138238ae225f19d61893c"
+    },
+    {
+      "path": "tests/test_foundation_archive.py",
+      "sha256": "b5590b370bc5a67c62244036476c5ccdcf5524e2f7844743e6027d096b030c07"
+    },
+    {
+      "path": "tests/test_foundation_boundaries.py",
+      "sha256": "390fa838009761c0b580a7a99a84b0b0d2a06fda4ddd74e3e0408aa2b0262827"
+    },
+    {
+      "path": "tests/test_foundation_recovery.py",
+      "sha256": "cced4d5c30aa926f452420db67e5bad5f6f29b7306e41ea03ce5a0a354c6b6ed"
+    },
+    {
+      "path": "tools/run_foundation.py",
+      "sha256": "5ac7b40324a6f1b2c7e3b3ae10998c9574a8b7cccced8dd55b0ed8149839449b"
+    }
+  ],
+  "evidence_scope": "Generated documentation and logs are covered by the root release manifest, not included as new implementation files here."
+}

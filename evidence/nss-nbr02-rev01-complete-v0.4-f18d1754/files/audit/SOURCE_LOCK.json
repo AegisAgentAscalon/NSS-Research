@@ -1,0 +1,118 @@
+{
+  "files": {
+    "protocol/ARCHITECTURE_DELTA.md": {
+      "bytes": 2320,
+      "sha256": "ac7ed15c9e0438ea093e96ee96845a97e8e3bad3378a4de6768a015ead089c57"
+    },
+    "protocol/CALL_AND_STORAGE_LEDGER.json": {
+      "bytes": 4234,
+      "sha256": "3495d807f4ef7765a5639b138a1107b404166fd262552314657c616cc38b04cd"
+    },
+    "protocol/CHAT_PROMPT.md": {
+      "bytes": 3096,
+      "sha256": "2f84eb8e20138f101f5f0d1aa081d1c117d57a822bd6ef4650b708df4e6b4613"
+    },
+    "protocol/DREAM_MAINTENANCE.md": {
+      "bytes": 8087,
+      "sha256": "3c19e3a5bfe4a2e0d00f580189c3d66d1736a2b7e0d63f99b7257dd5c5313c7d"
+    },
+    "protocol/ENGINEERING_AMENDMENT_v0.4.md": {
+      "bytes": 2107,
+      "sha256": "2e4cb8f6090dddb5f2b8654d6c48ba74ddc9a8d91d07af18bd11283e6ec2848e"
+    },
+    "protocol/ENVIRONMENT.json": {
+      "bytes": 375,
+      "sha256": "d39beba38b509a30ddef99a55f5600fd17f633228ecfd0a673a71dd724e2c567"
+    },
+    "protocol/EXECUTION_COMPLETIONS_v0.3.md": {
+      "bytes": 4923,
+      "sha256": "520a9867d0aef0ab7f2ffb79d9b4279c9e0b2b735e6a35bdd5417fcdb194b7e9"
+    },
+    "protocol/MANIFEST.json": {
+      "bytes": 2181,
+      "sha256": "0d5703e4cfce68c69a760b802700cdc067766330105d278b53de47e0c95c3173"
+    },
+    "protocol/PROGRAM_CONTEXT.md": {
+      "bytes": 4644,
+      "sha256": "2a1ebeb05e397848badf4b72c1342c53d26994d9a1646b738d9dc73a30905d01"
+    },
+    "protocol/PROPOSED_PROTOCOL_v0.2.md": {
+      "bytes": 19889,
+      "sha256": "eaba5ebbea54c9ccdb4fbef7d3f3af781956b02472a3968da7d16acc1d96696c"
+    },
+    "protocol/README.md": {
+      "bytes": 1055,
+      "sha256": "6e749022822870e89211eda2c02c7962d94cebdbf6b3650a9fc1f913808d6a5f"
+    },
+    "protocol/REVIEW.md": {
+      "bytes": 5771,
+      "sha256": "b0f941c1ec42860fe824f2c61ba6b437c4b938bd38cfb5a5813478316105736b"
+    },
+    "protocol/REVIEW_QA.json": {
+      "bytes": 9858,
+      "sha256": "a31fe255e65e5a18910410bf0a41647507b219a8cbd5a65a76ec4859e0279280"
+    },
+    "protocol/SCHEMA_ACCOUNTING.json": {
+      "bytes": 1033,
+      "sha256": "9008682aa6061374f020af491b00d631202bb72556f1b15653d5e8f0411573ec"
+    },
+    "protocol/SEEDS.json": {
+      "bytes": 2663,
+      "sha256": "2229b03679efeffe804029022fd1190bb967a7e5c6c093507842591bab6ffe72"
+    },
+    "protocol/SOURCE_IDENTITIES.json": {
+      "bytes": 7770,
+      "sha256": "9668f1047dcf81c41693e3f8407b1407f4073c7c9f35d23f21d7fbf84ff1893c"
+    },
+    "protocol/STATUS.json": {
+      "bytes": 669,
+      "sha256": "77e4932600404ab53d73f7f8d87dd46b58832daa322ce82b1a14c64ab2756d20"
+    },
+    "protocol/VERIFY_PACKAGE.py": {
+      "bytes": 1772,
+      "sha256": "b2ed28d6091efeb05ccf2ae473056e6012777891ac713af77f0ca3f296eac91c"
+    },
+    "source/base_runtime.py": {
+      "bytes": 14843,
+      "sha256": "9b522020876505110f1f7b9e2016d0531d0030a11a7ec68a5439cf71466f5f6f"
+    },
+    "source/driver.py": {
+      "bytes": 18500,
+      "sha256": "5488070ad50092c6ef4316bc231d8bb0abe0751b56bc7f1adc2f321c0f154d46"
+    },
+    "source/envelope_codec.py": {
+      "bytes": 2107,
+      "sha256": "8625887beadec27347a54b9f32d03cb12709164ed0141defb51b49724ae23429"
+    },
+    "source/faults.py": {
+      "bytes": 6712,
+      "sha256": "0696c913afabec739dfa50b3e84a8a9d8a2d12da55896207a505c720db6ed4ed"
+    },
+    "source/reference_numeric.py": {
+      "bytes": 17093,
+      "sha256": "ddca810c67229504e744199ea377b0c781136d732ab9f95ab50446e9a173cf53"
+    },
+    "source/runtime.py": {
+      "bytes": 12691,
+      "sha256": "0cf2301154d1377430545f59b2a5cc0205bc0b8fa2303638361e93bede8946dd"
+    },
+    "source/scorer.py": {
+      "bytes": 22198,
+      "sha256": "2c9d77099471c401cce9ab101ec4039c8b8dfd755c0eda9091bc0859614a5b6c"
+    },
+    "source/supervise.py": {
+      "bytes": 2588,
+      "sha256": "dfc8898a71f5a3962c781612dc49e087bde28c59bb3ab5d9bb339a3422c0a03a"
+    },
+    "source/unit_checks.py": {
+      "bytes": 3253,
+      "sha256": "dfdc9c379073f2653a3a946589414f147a8a9c09fe9eaa549d9eb35ebec7bdfd"
+    },
+    "source/worker.py": {
+      "bytes": 2495,
+      "sha256": "ae0f21c7188afaadb423491368e3f966920cf0ac6a1c64773ed9d7325a18be48"
+    }
+  },
+  "frozen_epoch": 1790338081.669141,
+  "status": "BEFORE_v0.4_FIXTURE_AND_ALL_MAIN_FITS"
+}

@@ -1,0 +1,33 @@
+{
+  "reason": "Completed primary verbose logs would make capture+replay live footprint exceed cap. Lossless post-completion encoding avoids deleting evidence; numerical source and scientific contract unchanged. Measured forecast did not fully cover duplicated metadata/score overhead. Streamed comparison/restoration required.",
+  "epoch": 1790361645.6560285,
+  "entries": [
+    {
+      "original": "raw/primary/public_responses.jsonl",
+      "bytes": 27778872,
+      "sha256": "ae1dd2a6b9e4d1869fab747564ef148290e1816723d0544223dab85786c8ce4e",
+      "encoded": "raw/primary/public_responses.jsonl.gz",
+      "encoded_bytes": 7023811,
+      "encoded_sha256": "6a11b861c7f450013b1203a9deefa84de6c7d077f508ef4abb44d6b72066b2b8",
+      "roundtrip_verified": true
+    },
+    {
+      "original": "raw/primary/worker/events.jsonl",
+      "bytes": 24789991,
+      "sha256": "132b6d3c9fb0918256ecc8cf7c580ea97fdb0325693256868c60e8f9c3bde673",
+      "encoded": "raw/primary/worker/events.jsonl.gz",
+      "encoded_bytes": 5435985,
+      "encoded_sha256": "183669f22893d7d7288e5cdb8326a74c3dbbf09cfe102db346413bbc8765768b",
+      "roundtrip_verified": true
+    },
+    {
+      "original": "raw/primary/public_messages.jsonl",
+      "bytes": 8514202,
+      "sha256": "e8fcb704703a936e477407f0f8a2dfa9274ab3b8a4d2d15f32da10e64071eb7e",
+      "encoded": "raw/primary/public_messages.jsonl.gz",
+      "encoded_bytes": 2070648,
+      "encoded_sha256": "9ec071d32712bfba3f67093ace6255b0d39fbbe1178bde072135f33b4bec11b7",
+      "roundtrip_verified": true
+    }
+  ]
+}

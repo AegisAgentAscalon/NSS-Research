@@ -1,0 +1,28 @@
+{
+  "schema": "nss-chat-handoff-member-manifest-v1",
+  "package": "NSS_Research_and_Architecture_Chat_Handoff_v1.0.zip",
+  "hash_algorithm": "SHA-256",
+  "crc_algorithm": "ZIP CRC-32",
+  "self_entry": "MANIFEST.json",
+  "self_entry_excluded_from_self_hash_list": true,
+  "members": [
+    {
+      "path": "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+      "size_bytes": 104740,
+      "sha256": "49ef49349312ff7e8be181fe6202bb5c079e13402e68427835a794181236fb20",
+      "crc32": "af974cc3"
+    },
+    {
+      "path": "NETWORK_ACCESS.json",
+      "size_bytes": 7713,
+      "sha256": "b2cfb824ce518a691d3a48b379307017616bc5e8ff68d40ae8545f6cee9961c4",
+      "crc32": "0ffdd3d4"
+    },
+    {
+      "path": "PROVENANCE_AND_SOURCE_IDENTITIES.json",
+      "size_bytes": 6063,
+      "sha256": "9c4589d39e0e89e7c7288a483cf7a4374b81df9ade4a1400b52e7bada2006651",
+      "crc32": "3930e841"
+    }
+  ]
+}

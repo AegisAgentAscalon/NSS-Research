@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-02T03:45:14.529825+00:00",
+  "scope": "Post-result independent recount/stable reference/selected update replay; no main method changes",
+  "files": [
+    {
+      "path": "tools/audit_pass.py",
+      "sha256": "9344dd113e1d10d7a85cb6953a51fe39971526305730ca29f012c467e3890bb7"
+    }
+  ]
+}

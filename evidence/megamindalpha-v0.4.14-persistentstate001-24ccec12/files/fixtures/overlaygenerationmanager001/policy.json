@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "operation": "PUBLISH_LOCAL_OVERLAY_GENERATION",
+  "scope": "TRUSTED_LOCAL_GENERATION_CATALOG",
+  "max_ttl_seconds": 900,
+  "max_uses": 1,
+  "core_only_required": true,
+  "release_boundary": "NO_OPEN_MANAGED_STAGES",
+  "state_reuse": "NONE_ACROSS_RELEASES",
+  "authentication": false,
+  "runtime_execution_permit": false,
+  "production_deployment_authorized": false
+}

@@ -1,0 +1,417 @@
+{
+  "reader_rows": [
+    {
+      "batch": 16,
+      "tasks": 128,
+      "positions": 524,
+      "backend": "old_gather",
+      "ns": [
+        237384838,
+        436449308,
+        240667445,
+        282234944,
+        240466625,
+        221863210,
+        284629953,
+        242619637,
+        227414330,
+        254648458,
+        233424967,
+        223933880,
+        300717570,
+        243332737,
+        226664530,
+        283032303,
+        256737479,
+        238607592,
+        226988427,
+        217212664,
+        218836517,
+        271169486,
+        219351571,
+        215484106,
+        291473578,
+        210262122,
+        233669187,
+        242178398,
+        209696391,
+        205554259,
+        304151099
+      ],
+      "median_ms": 238.607592,
+      "q25_ms": 222.898545,
+      "q75_ms": 263.9534825
+    },
+    {
+      "batch": 16,
+      "tasks": 128,
+      "positions": 524,
+      "backend": "packed_hsa",
+      "ns": [
+        72848431,
+        127493377,
+        63568306,
+        76849250,
+        84481175,
+        64929870,
+        83560962,
+        76925665,
+        63351907,
+        94020329,
+        67616251,
+        65668439,
+        66170333,
+        65497890,
+        61809874,
+        69543737,
+        71464024,
+        82941275,
+        106011607,
+        72834595,
+        59683278,
+        78029133,
+        69136576,
+        60665172,
+        73024553,
+        63400186,
+        60155846,
+        73506499,
+        75725920,
+        68910843,
+        66870568
+      ],
+      "median_ms": 69.543737,
+      "q25_ms": 65.21388,
+      "q75_ms": 76.8874575
+    },
+    {
+      "batch": 16,
+      "tasks": 128,
+      "positions": 524,
+      "backend": "full_dense",
+      "ns": [
+        31013093,
+        41862573,
+        32695556,
+        30655864,
+        31071447,
+        38434273,
+        36087246,
+        28890744,
+        27904374,
+        54290948,
+        29593962,
+        34041760,
+        38556367,
+        28231869,
+        27442139,
+        28093476,
+        26586586,
+        38628152,
+        30183966,
+        29737402,
+        28669898,
+        29623251,
+        27912519,
+        28858922,
+        28422493,
+        37834754,
+        27592131,
+        52473009,
+        28088543,
+        29544456,
+        31093661
+      ],
+      "median_ms": 29.737402,
+      "q25_ms": 28.327181,
+      "q75_ms": 35.064503
+    }
+  ],
+  "preparation": [
+    {
+      "batch": 16,
+      "tasks": 128,
+      "accounting": {
+        "positions": 524,
+        "batch_size": 16,
+        "valid_pairs_per_head_layer_batch": 285948,
+        "padded_pairs_per_head_layer_batch": 289408,
+        "full_dense_pairs_per_head_layer_batch": 4393216,
+        "packed_kv_payload_bytes_per_layer": 19038208,
+        "plan_index_mask_bytes": 669312,
+        "note": "Payload accounting, not whole-process peak memory; Q/result packing and backend workspace are additional.",
+        "legacy_kv_payload_bytes_per_layer": 77266944,
+        "legacy_padded_pairs_per_head_layer_batch": 301824
+      },
+      "order": [
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "full_dense",
+          "packed_hsa",
+          "old_gather"
+        ],
+        [
+          "old_gather",
+          "full_dense",
+          "packed_hsa"
+        ],
+        [
+          "full_dense",
+          "packed_hsa",
+          "old_gather"
+        ],
+        [
+          "full_dense",
+          "old_gather",
+          "packed_hsa"
+        ],
+        [
+          "old_gather",
+          "full_dense",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "full_dense",
+          "old_gather",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "full_dense",
+          "old_gather"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "old_gather",
+          "packed_hsa",
+          "full_dense"
+        ],
+        [
+          "old_gather",
+          "full_dense",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "full_dense",
+          "packed_hsa",
+          "old_gather"
+        ],
+        [
+          "old_gather",
+          "packed_hsa",
+          "full_dense"
+        ],
+        [
+          "full_dense",
+          "old_gather",
+          "packed_hsa"
+        ],
+        [
+          "old_gather",
+          "packed_hsa",
+          "full_dense"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "packed_hsa",
+          "full_dense",
+          "old_gather"
+        ],
+        [
+          "full_dense",
+          "packed_hsa",
+          "old_gather"
+        ],
+        [
+          "full_dense",
+          "old_gather",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "old_gather",
+          "packed_hsa",
+          "full_dense"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ],
+        [
+          "packed_hsa",
+          "full_dense",
+          "old_gather"
+        ],
+        [
+          "full_dense",
+          "old_gather",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "full_dense",
+          "old_gather"
+        ],
+        [
+          "full_dense",
+          "packed_hsa",
+          "old_gather"
+        ],
+        [
+          "old_gather",
+          "full_dense",
+          "packed_hsa"
+        ],
+        [
+          "packed_hsa",
+          "old_gather",
+          "full_dense"
+        ]
+      ],
+      "costs": {
+        "graph_plan": {
+          "ns": [
+            28713241,
+            14196889,
+            16912528,
+            14897240,
+            19606089,
+            15281588,
+            14247194,
+            14080445,
+            15996940,
+            18417993,
+            16021914,
+            14911256,
+            15469762,
+            24255380,
+            15221124
+          ],
+          "median_ms": 15.469762,
+          "q25_ms": 14.904248,
+          "q75_ms": 17.6652605
+        },
+        "features_and_specs": {
+          "ns": [
+            23637570,
+            13785737,
+            49401603,
+            15294077,
+            19590679,
+            15054499,
+            14006473,
+            13990735,
+            16586817,
+            20416544,
+            16010603,
+            14705715,
+            48257436,
+            17779410,
+            15132552
+          ],
+          "median_ms": 16.010603,
+          "q25_ms": 14.880107,
+          "q75_ms": 20.0036115
+        },
+        "warm_cache_lookup": {
+          "ns": [
+            84884,
+            121317,
+            91400,
+            86858,
+            347418,
+            122172,
+            92508,
+            87956,
+            90717,
+            110589,
+            90230,
+            98421,
+            90667,
+            88955,
+            90177
+          ],
+          "median_ms": 0.090717,
+          "q25_ms": 0.089566,
+          "q75_ms": 0.104505
+        },
+        "full_cold_pipeline": {
+          "ns": [
+            127366520,
+            88785214,
+            99877964,
+            140754113,
+            93391860,
+            96384325,
+            90116073,
+            90227675,
+            138920484,
+            94688833,
+            105559352,
+            89242847,
+            114875266,
+            148009086,
+            105120288
+          ],
+          "median_ms": 99.877964,
+          "q25_ms": 91.8097675,
+          "q75_ms": 121.120893
+        },
+        "checked_entry_reader": {
+          "ns": [
+            66784439,
+            59926833,
+            61419419,
+            71117440,
+            77985952,
+            61777369,
+            62500231,
+            82933258,
+            69126864,
+            77658336,
+            61135874,
+            71374172,
+            70917171,
+            68212701,
+            65996534
+          ],
+          "median_ms": 68.212701,
+          "q25_ms": 62.1388,
+          "q75_ms": 71.245806
+        }
+      }
+    }
+  ]
+}

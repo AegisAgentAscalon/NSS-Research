@@ -1,0 +1,8 @@
+{
+  "passed": 92,
+  "total": 92,
+  "scalar_comparisons": 623800,
+  "violations": 0,
+  "optimizer_applications": 0,
+  "elapsed_seconds": 0.8576365840000335
+}

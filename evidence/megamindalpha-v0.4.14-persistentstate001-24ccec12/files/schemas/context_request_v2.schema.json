@@ -1,0 +1,406 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        2
+      ]
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "MegaMindAlpha.ContextRetrieval001"
+      ]
+    },
+    "policy": {
+      "type": "string",
+      "enum": [
+        "explicit_ids_lexical_reviewed_experience_v1"
+      ]
+    },
+    "caller_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "ticket": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "store_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "ticket_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "caller_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "configuration": {
+          "type": "object",
+          "properties": {
+            "epoch": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1000000
+            },
+            "generation_sha256": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "epoch",
+            "generation_sha256"
+          ],
+          "additionalProperties": false
+        },
+        "profile": {
+          "enum": [
+            "CORE",
+            "A",
+            "B",
+            "AB",
+            "A2",
+            "A2B"
+          ],
+          "type": "string"
+        },
+        "profile_ecid": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "state_reuse": {
+          "enum": [
+            "EXACT_TICKET_ONLY"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "store_id",
+        "ticket_id",
+        "caller_id",
+        "configuration",
+        "profile",
+        "profile_ecid",
+        "state_reuse"
+      ],
+      "additionalProperties": false
+    },
+    "expected_record_sha256": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    },
+    "expected_task_state_identity": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    },
+    "archive_binding": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "format": {
+          "type": "string",
+          "enum": [
+            "MegaMindAlpha.ExperienceArchive001"
+          ]
+        },
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "[0-9a-f]{64}"
+        }
+      },
+      "required": [
+        "format",
+        "schema_version",
+        "locator",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string",
+          "enum": [
+            "CANONICAL_JSON_UTF8_BYTES"
+          ]
+        },
+        "max_context_bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 131072
+        },
+        "max_evidence_bytes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2097152
+        }
+      },
+      "required": [
+        "unit",
+        "max_context_bytes",
+        "max_evidence_bytes"
+      ],
+      "additionalProperties": false
+    },
+    "required_fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]{1,128}",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "minItems": 0,
+      "maxItems": 128,
+      "uniqueItems": true
+    },
+    "optional_fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]{1,128}",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "minItems": 0,
+      "maxItems": 128,
+      "uniqueItems": true
+    },
+    "assumption_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]{1,128}",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "minItems": 0,
+      "maxItems": 128,
+      "uniqueItems": true
+    },
+    "result_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]{1,128}",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "minItems": 0,
+      "maxItems": 128,
+      "uniqueItems": true
+    },
+    "source_fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9_.:-]{1,128}",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "field_id": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9_.:-]{1,128}",
+            "minLength": 1,
+            "maxLength": 128
+          }
+        },
+        "required": [
+          "source_id",
+          "field_id"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 128,
+      "uniqueItems": true
+    },
+    "query_terms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "maxItems": 16,
+      "uniqueItems": true
+    },
+    "experiences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "reference": {
+            "type": "object",
+            "properties": {
+              "experience_id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 128,
+                "pattern": "[A-Za-z0-9_.:-]+"
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 511
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 64,
+                "maxLength": 64,
+                "pattern": "[0-9a-f]{64}"
+              }
+            },
+            "required": [
+              "experience_id",
+              "revision",
+              "sha256"
+            ],
+            "additionalProperties": false
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "reference",
+          "required",
+          "priority"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 32,
+      "uniqueItems": true
+    },
+    "evidence_slices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "experience_id": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9_.:-]{1,128}",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9_.:-]{1,128}",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "[0-9a-f]{64}"
+          },
+          "start_byte": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1048576
+          },
+          "end_byte": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1048576
+          }
+        },
+        "required": [
+          "experience_id",
+          "source_id",
+          "source_sha256",
+          "start_byte",
+          "end_byte"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 32,
+      "uniqueItems": true
+    },
+    "state_scope": {
+      "type": "object",
+      "properties": {
+        "agent_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "project_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "session_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        }
+      },
+      "required": [
+        "agent_id",
+        "project_id",
+        "session_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "format",
+    "policy",
+    "caller_id",
+    "ticket",
+    "expected_record_sha256",
+    "expected_task_state_identity",
+    "archive_binding",
+    "budget",
+    "required_fact_ids",
+    "optional_fact_ids",
+    "assumption_ids",
+    "result_ids",
+    "source_fields",
+    "query_terms",
+    "experiences",
+    "evidence_slices",
+    "state_scope"
+  ],
+  "additionalProperties": false
+}

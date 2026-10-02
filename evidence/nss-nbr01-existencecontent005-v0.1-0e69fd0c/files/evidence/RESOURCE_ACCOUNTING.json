@@ -1,0 +1,179 @@
+{
+  "completed_main_training_cpu_seconds": 108.840407997,
+  "completed_main_training_job_wall_seconds_sum": 108.3254747420001,
+  "development_steps": 5400,
+  "development_training_cpu_seconds": 21.135894875,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789953657.3170912,
+    "torch": "2.10.0+cpu"
+  },
+  "exclusions": "Raw state excludes framework objects, RNG, scope/revision metadata, checkpoints, output archives, gradients, optimizer state and temporary arithmetic. All use float32, not low-bit traces.",
+  "inherited_preparation": "Parent content maps and representations were not trained here. Historical receipts remain in reference/.",
+  "max_sampled_single_training_process_rss_bytes": 330137600,
+  "modes": [
+    {
+      "all_timings": [
+        0.0002768512649998911,
+        0.00027923746999988455,
+        0.0002853264049997506,
+        0.0002837063049997823,
+        0.00029590066500020387
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.0002837063049997823,
+      "mode": "historical",
+      "raw_state_per_stream": 256,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0003810219950003102,
+        0.0003881177549999393,
+        0.00041733850500008885,
+        0.00028754740500005484,
+        0.0002908962600002951
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.0003810219950003102,
+      "mode": "protected",
+      "raw_state_per_stream": 260,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0001703575300001603,
+        0.0001671944050002594,
+        0.00017235198999969724,
+        0.00021110863500041434,
+        0.0002113791950000632
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.00017235198999969724,
+      "mode": "nearest",
+      "raw_state_per_stream": 256,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 0,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0005246670550002364,
+        0.00035580933500000355,
+        0.00039926067500005045,
+        0.0003801408649997029,
+        0.00039717397000003983
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.00039717397000003983,
+      "mode": "split1",
+      "raw_state_per_stream": 272,
+      "serving_new_bytes": 196,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0003695475249998026,
+        0.00037252896999973473,
+        0.0003759969599997248,
+        0.0003856936950001,
+        0.00036580497499983267
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.00037252896999973473,
+      "mode": "split4",
+      "raw_state_per_stream": 320,
+      "serving_new_bytes": 592,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0003167044649995887,
+        0.0003236416849995294,
+        0.0003563581149995798,
+        0.00031668263500023386,
+        0.00031642204000036144
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.0003167044649995887,
+      "mode": "coupled17",
+      "raw_state_per_stream": 272,
+      "serving_new_bytes": 9028,
+      "serving_parent_bytes": 0,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.00033123439500002403,
+        0.00032980178499997237,
+        0.00032987805000004753,
+        0.00034804372000053264,
+        0.00034964152999975793
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.00033123439500002403,
+      "mode": "fixed1",
+      "raw_state_per_stream": 272,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.00034395599999982097,
+        0.0003468809600002487,
+        0.0003374671500000659,
+        0.00034914087499998914,
+        0.00035124610000025313
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.0003468809600002487,
+      "mode": "fixed4",
+      "raw_state_per_stream": 320,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    },
+    {
+      "all_timings": [
+        0.0003124230000003081,
+        0.00032521215499969,
+        0.00037028243500003555,
+        0.0003269457699997247,
+        0.00032092338499978724
+      ],
+      "batch": 64,
+      "loader_parent_bytes_even_if_unused": 8512,
+      "median_maintenance_read_seconds": 0.00032521215499969,
+      "mode": "hold1",
+      "raw_state_per_stream": 272,
+      "serving_new_bytes": 0,
+      "serving_parent_bytes": 8512,
+      "serving_shared_representation_bytes": 4072
+    }
+  ],
+  "status": "MEASURED_WITH_LIMITS",
+  "timing_limit": "Descriptive sandbox CPU loop measurements, not equal-quality/compute comparison, target-device budget or energy measurement.",
+  "total_concurrent_phase_peak": "NOT_MEASURED; workers overlapped. Single-process peaks are NOT a complete phase peak."
+}

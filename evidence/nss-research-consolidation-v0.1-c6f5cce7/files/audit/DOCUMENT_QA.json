@@ -1,0 +1,509 @@
+{
+  "kind": "DOCUMENTARY_QA_ONLY",
+  "date_utc": "2026-09-26T06:35:12.220687+00:00",
+  "reports": 20,
+  "source_snapshots": 67,
+  "archive_catalog_entries": 23,
+  "source_snapshots_checked": [
+    {
+      "id": "E00",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R00",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E01",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R01",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E02",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R02",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E03",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R03",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E04",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R04",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E05",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R05",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E06",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R06",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E07",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R07",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E08",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R08",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E09",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R09",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E10",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R10",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E11",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R11",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E12",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R12",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E13",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R13",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E14",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R14",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E15",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R15",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E16",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R16",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E17",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R17",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E18",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R18",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "E19",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "R19",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D01",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D02",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D03",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D04",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D05",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D06",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D07",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D08",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D09",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D10",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D11",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D12",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D13",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D14",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D15",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D16",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D17",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D19",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "D20",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": true
+    },
+    {
+      "id": "G00",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_protocol_PROTOCOL.md",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_protocol_CONFIG.json",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_STATUS.json",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_RETURN_TICKETS.md",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_source_model.py",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "BREF_source_score.py",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    },
+    {
+      "id": "D18",
+      "snapshot_hash_matches": true,
+      "original_standalone_rechecked": false
+    }
+  ],
+  "citation_ids_resolve": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D19",
+    "D20",
+    "E00",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "G00"
+  ],
+  "root_markdown_links_resolve": true,
+  "chapter_count": 23,
+  "results_register_count": 20,
+  "docx_pages": 25,
+  "all_pages_visually_inspected": true,
+  "text_blocks_outside_pages": [],
+  "rendered_page_identities": [
+    {
+      "page": 1,
+      "sha256": "e98a3b2b55f5d661aed9d24f7cacb2be295da346e65570f6e101eec3b7c08312"
+    },
+    {
+      "page": 2,
+      "sha256": "3a25179dd4f7c6a0b432d44668d2f3dc308cb8b48cbd1d34aecb15ecf8c048d3"
+    },
+    {
+      "page": 3,
+      "sha256": "e9ed3117e03bb7fbc1fa18e831831ce0fa30dd2c05dc48d1e62a30ec5322060d"
+    },
+    {
+      "page": 4,
+      "sha256": "5b6bd117153f9d12e1defc7f6f97b10834e648939d5f4fb1587b2d29fbb4c685"
+    },
+    {
+      "page": 5,
+      "sha256": "f4f7fffa908b84d18b12b00b4f64c5dcf098a78413ce64abb63662f922401455"
+    },
+    {
+      "page": 6,
+      "sha256": "703709469adc51a77131a31da4f70cd54e24d999b46f0749d6b95292a63b07e4"
+    },
+    {
+      "page": 7,
+      "sha256": "138daa7d9a3a58a564be392a0f18ab647ddd65690638e24fb55e7d3400ab81f6"
+    },
+    {
+      "page": 8,
+      "sha256": "d3584aa2deb6d56560bdb8f18740e9a8fda8b7197ca3b8dcd0f0a424ac29f3f8"
+    },
+    {
+      "page": 9,
+      "sha256": "ed0899c88d53dfe001a36c0061f8b1aba5eda543aae6afca872cb550546e3571"
+    },
+    {
+      "page": 10,
+      "sha256": "5516de6455f3b2ba805c1cd869725cd5512cce6c3785447b10ed3850f532243b"
+    },
+    {
+      "page": 11,
+      "sha256": "c3d2ff9da42891e617e6c3bbfb5f56295aa0859dcc04c4292d8efa2c381cd2e6"
+    },
+    {
+      "page": 12,
+      "sha256": "0d88018924e5d391f4e7777483ae20dea04a134079869f2bd73d73b79dbb9e7b"
+    },
+    {
+      "page": 13,
+      "sha256": "93f6b456b8bd0a4ba5bb3591afa26d7c31cc1014aac8898e58d4109a2a5795e0"
+    },
+    {
+      "page": 14,
+      "sha256": "0c6f9c041f1401c1c6b0eae661396d6effc575ec00f67183f28795d7dde95b87"
+    },
+    {
+      "page": 15,
+      "sha256": "475b3ce499f0db88a705ec385f18600f774273d356d978674f271d7c768a0fbd"
+    },
+    {
+      "page": 16,
+      "sha256": "54641503b8ca1d0497d9a523eaa57a1cdf1297601a0ff94867cb5f48bb62b88a"
+    },
+    {
+      "page": 17,
+      "sha256": "804d4024d4748067ba8dbd41584293016593641efe4e5c15b9dee123ea38d475"
+    },
+    {
+      "page": 18,
+      "sha256": "2b3b88f34ccafc957465c76141cc9c7dc2143859b350b105bd22b49110ccd119"
+    },
+    {
+      "page": 19,
+      "sha256": "f26cdfdc61c11db33636054614db305e4690701425ef7cbc5460cd38471cd807"
+    },
+    {
+      "page": 20,
+      "sha256": "a5e8b27327bed23a18a12465cc001cc361fd30f83c9d2c2c8ec9c0266e7c7a5b"
+    },
+    {
+      "page": 21,
+      "sha256": "2385da359a067e505647460557eebab4b6eb3cc1dd98784b8455a1f2d098f833"
+    },
+    {
+      "page": 22,
+      "sha256": "18b3a91e7acf6c0ae653ee80c2fd41cf1c17c184bc7f6689b7a90995b0cfe1b2"
+    },
+    {
+      "page": 23,
+      "sha256": "da545739fded6be144d6d8855b544a5201478b664530abe548b0603e96241244"
+    },
+    {
+      "page": 24,
+      "sha256": "32036fcb5cc37131714ccb29b3532a4b4eb6494ae6f36b5296da2e32e9db7339"
+    },
+    {
+      "page": 25,
+      "sha256": "ce23fdb7e908408f2a1b1569217f47c864ba95f78b503e57a0e5c4a92673ce64"
+    }
+  ],
+  "historical_report_members_equal": true,
+  "new_historical_crc_sweep": false,
+  "raw_historical_evidence_restored": false,
+  "models_loaded": 0,
+  "forwards": 0,
+  "gradients": 0,
+  "optimizer_updates": 0,
+  "scientific_rescoring": false,
+  "new_adaptive_replay": false,
+  "source_module_imports": 0,
+  "original_source_writes": 0,
+  "minor_document_preparation_issues": [
+    "A missing shallow standalone candidate handoff was recovered as an exact member of its supplied ZIP.",
+    "Human source-map formatting initially expected source_path on every descriptor; archive-member descriptors use source_archive/source_member. Formatter corrected without source-content changes.",
+    "Two wording ambiguities in the drafted synthesis were clarified (independent offers -> separately assessed offers; intentional failure evidence -> preserved failure evidence). No source verdict or data changed."
+  ],
+  "layout_revision": "All 25 first-render pages inspected; final pages 14 and25 re-inspected after two text clarifications; other 23 page PNGs byte-identical."
+}

@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-02T04:01:20.310420+00:00",
+  "scope": "Post-result audit, reporting and reproduction assistance; not hidden pre-main code",
+  "files": [
+    {
+      "path": "tools/audit_pass.py",
+      "sha256": "9344dd113e1d10d7a85cb6953a51fe39971526305730ca29f012c467e3890bb7"
+    },
+    {
+      "path": "tools/benchmark.py",
+      "sha256": "8f5bbaf803647366c34973e63d0c99fa8f61aaf3fc3d0330871f6acd404d1e30"
+    },
+    {
+      "path": "tools/finalize_analysis.py",
+      "sha256": "4010b3aba881814fafe996bcda673386c0c2a4f6052a705e4aadeec6b1fdeb2e"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "sha256": "8496f4b07241bb09258ea1d2c1c2c965ffa11a28aab6d6fdda83eb14dec28968"
+    },
+    {
+      "path": "tools/reproduce.py",
+      "sha256": "0ad73f92d63306ab2a9da292e80b6f502f3f72778f8efc94c56365cecc579dfd"
+    },
+    {
+      "path": "provenance/documentation_build_documents.py",
+      "sha256": "10cbe66a13e9b17f86e9b9d6c08e1776858ad6707cf3aa26fffccd920dc85e5d"
+    },
+    {
+      "path": "provenance/documentation_make_docx.py",
+      "sha256": "0ce7ba4f7f1664feb1f2e1a088d68efd1f4f18f572820b32bce230065941aff3"
+    },
+    {
+      "path": "provenance/documentation_update_ledger.py",
+      "sha256": "7b004c41d55cb2e0577495bed8666514a1da4d82643342e9eaeedb3d7f64b4b9"
+    }
+  ]
+}

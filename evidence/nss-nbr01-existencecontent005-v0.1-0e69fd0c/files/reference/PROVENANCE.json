@@ -1,0 +1,37 @@
+{
+  "development_parent": "recurrent_rep141_seed441: preserved600-step StateRecovery003 development parent, not a main checkpoint.",
+  "files": {
+    "StateRecovery003_REPORT.md": "a4db56f40a4a2d02d2308e9dcdc581ef0c0540f93fb5223ac83497102c0b80cf",
+    "StateRecovery003_models.py.txt": "fc5aac95133718c4838a7cb5087ad9558b8e0d6dac2c0637911a02e0e47012af",
+    "StateRecovery003_protocol.json": "2149c201e70c81a7f18f07f6474811cd0763220fc7622a0ba6a7c87f5090b923",
+    "recurrent_rep141_seed441.json": "9fd2eb2eeee483861a3b604433cd8928e86b7965660e4c12e724c8e9d3cefe69",
+    "recurrent_rep141_seed441.safetensors": "d75b5db37767c506618fde9dff6276eb789308f8a7daa5cd3bd45ed26ef5e8a4",
+    "recurrent_rep301_seed501.json": "14b1ead0b0b262897a868cd6c5b7a12b74bc81f842bd85930ff36a4884d95e3d",
+    "recurrent_rep301_seed501.safetensors": "0e9c472144f70069a186876b8ac6f3ac1b9a78c2d2f12e47bbfe7d18a593a29a",
+    "recurrent_rep302_seed502.json": "d30a05bbe066d461e615cd051536f5d592e259d59b1ec989d1bd439e5a9caab0",
+    "recurrent_rep302_seed502.safetensors": "7e3b59c3c5ca81347d492c0457fff767048bb88ff7510d4ec76701528648f222",
+    "recurrent_rep303_seed503.json": "9073262023535afc1a1570168d8feec16bb094d6f02061f80e91266b005cf904",
+    "recurrent_rep303_seed503.safetensors": "5726e038d132f82fda216beeb52aab30b52231708c52ef7a05badb5fd413e460",
+    "recurrent_rep304_seed504.json": "8a1f324a79909069ee2393b513de0e3fcdb700fc21a349ec64cde3d5aa098c5e",
+    "recurrent_rep304_seed504.safetensors": "a0c955d5e38afa91e025e3c5c39114ecb01584354da7c21f469ae26b8eaed300",
+    "recurrent_rep305_seed505.json": "1f957a9b78f57f4960c926c9d16f64950066cb4c113aa8c2fc3c872848e23bcd",
+    "recurrent_rep305_seed505.safetensors": "f6623b76eaa7d7010167f2c77cfebead5043e4aa37e8f398d0e21e4e2c0158a6",
+    "soft_slots_wide_seed141.json": "cf4514d0203a2f0b647f7ff092eaff58fc213b61f7df8c30bf3ca9154ea142c6",
+    "soft_slots_wide_seed141.safetensors": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+    "soft_slots_wide_seed301.json": "01cc4cb10810004630455c1cb612a42b5af6e5eef3b8918c8ebbc3497fb6ca3e",
+    "soft_slots_wide_seed301.safetensors": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+    "soft_slots_wide_seed302.json": "3a95bc9eca8f11bbee8523268f530c459cb265d36761328da4b664603c1ae176",
+    "soft_slots_wide_seed302.safetensors": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+    "soft_slots_wide_seed303.json": "e009fb8e95bdef10bd16e16f1d96ab263226309c34913ea91d5ae20664d6892d",
+    "soft_slots_wide_seed303.safetensors": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+    "soft_slots_wide_seed304.json": "8c31a5ff8cd34ff79c719ec6dc8449fd309d1f1758a1e8afaa205db4de729f9a",
+    "soft_slots_wide_seed304.safetensors": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+    "soft_slots_wide_seed305.json": "cc36d77587adfd5f806a0ae0be59c3221fbf6bd382f0c74d039dc27db6f389f4",
+    "soft_slots_wide_seed305.safetensors": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77"
+  },
+  "source": "Frozen reps from HorizonBinding002; frozen prior repair checkpoints from StateRecovery003. No unavailable source reconstructed.",
+  "source_archive": {
+    "bytes": 1527576,
+    "sha256": "4f39905078916bdfc995233240b57ed50ebdae4888af68b6f3045fed6e90a679"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "nss.hsa.typed_output.v1",
+  "world_sha256": "e87541f197d2e3a4338923049f60e6590dda1bbc22724f2d80dbe235e199025e",
+  "model_sha256": "5fe41f790cfe5a91bc1a46ffa2129c6274f39617aa470624dfc5ccb44f842107",
+  "topology_sha256": "a1bfc1436377ae1ac9b8055e276aa74b2f0aad89a3a09cf974922f5df854f1b8",
+  "decisions": [
+    {
+      "task": 0,
+      "status": "BLOCKED",
+      "assigned_score": 0.99947589635849
+    },
+    {
+      "task": 1,
+      "status": "BLOCKED",
+      "assigned_score": 0.9995397329330444
+    },
+    {
+      "task": 2,
+      "status": "BLOCKED",
+      "assigned_score": 0.9993875026702881
+    },
+    {
+      "task": 3,
+      "status": "BLOCKED",
+      "assigned_score": 0.999735414981842
+    },
+    {
+      "task": 4,
+      "status": "BLOCKED",
+      "assigned_score": 0.9995136260986328
+    },
+    {
+      "task": 5,
+      "status": "COMPLETE",
+      "assigned_score": 0.9995790123939514
+    },
+    {
+      "task": 6,
+      "status": "BLOCKED",
+      "assigned_score": 0.999713122844696
+    },
+    {
+      "task": 7,
+      "status": "BLOCKED",
+      "assigned_score": 0.999370276927948
+    }
+  ],
+  "limits": [
+    "not a language reader",
+    "scores are not calibrated",
+    "advisory only; no actions executed"
+  ]
+}

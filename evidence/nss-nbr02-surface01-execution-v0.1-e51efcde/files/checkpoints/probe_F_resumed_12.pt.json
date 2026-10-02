@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "loss": 2.0710384845733643,
+      "A_loss": 0.0,
+      "B_loss": 2.0710384845733643,
+      "grad_norm": 0.6649259328842163,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.0,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.0,
+        "cell.bias_hh": 0.0,
+        "head.weight": 0.07175803929567337,
+        "head.bias": 0.008970033377408981
+      }
+    },
+    {
+      "loss": 2.056220054626465,
+      "A_loss": 0.0,
+      "B_loss": 2.056220054626465,
+      "grad_norm": 0.6620011329650879,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.0,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.0,
+        "cell.bias_hh": 0.0,
+        "head.weight": 0.07169883698225021,
+        "head.bias": 0.008962753228843212
+      }
+    },
+    {
+      "loss": 2.041484832763672,
+      "A_loss": 0.0,
+      "B_loss": 2.041484832763672,
+      "grad_norm": 0.6590526103973389,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.0,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.0,
+        "cell.bias_hh": 0.0,
+        "head.weight": 0.0716329887509346,
+        "head.bias": 0.008954674005508423
+      }
+    },
+    {
+      "loss": 2.026834011077881,
+      "A_loss": 0.0,
+      "B_loss": 2.026834011077881,
+      "grad_norm": 0.6560807824134827,
+      "clip_scale": 1.0,
+      "delta_by_tensor": {
+        "cell.weight_ih": 0.0,
+        "cell.weight_hh": 0.0,
+        "cell.bias_ih": 0.0,
+        "cell.bias_hh": 0.0,
+        "head.weight": 0.07156040519475937,
+        "head.bias": 0.00894578080624342
+      }
+    }
+  ],
+  "counters": {
+    "optimizer_applications": 4,
+    "backward_calls": 4,
+    "canonical_state_rows": 32,
+    "reference_state_rows": 0
+  },
+  "peak_rss": 330629120
+}

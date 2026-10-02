@@ -1,0 +1,28 @@
+{
+  "status": "PASS_COMPLETE_BOUNDED_CM01",
+  "checks": {
+    "main_rows": true,
+    "fixture_rows": true,
+    "main_controls": true,
+    "fixture_controls": true,
+    "all_capture_calls_under_cap": true,
+    "every_main_seed_role_arm_case_once": true,
+    "saved_models_unchanged": true,
+    "all_15_in_main": true,
+    "no_optimizers": true,
+    "replays_exact": true,
+    "all_scientific_sources_unchanged": true
+  },
+  "total_model_forward_calls_including_replay": 21186,
+  "physical_forward_batches_including_replay": 492,
+  "main_producer_calls": 10560,
+  "fixture_producer_calls": 33,
+  "producer_replay_negative_interface_rows_retained_not_counted_twice": 10604,
+  "incorrect_main_control_rows": 256,
+  "incorrect_fixture_control_rows": 4,
+  "replayed_arrays": 2228,
+  "replayed_array_elements": 1570385,
+  "only_research_candidate_executed": "CM-01",
+  "CM02_CM03_CM04_CM05_executed": false,
+  "native_tokens_or_recurrent_state_compression_tested": false
+}

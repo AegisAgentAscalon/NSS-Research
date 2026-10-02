@@ -1,0 +1,587 @@
+[
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_valid_request_roundtrip"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_extra_request_field"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_missing_request_field"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_boolean_version"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_malformed_identifiers"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_bad_timestamp"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_unknown_policy"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_deployment_purpose"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_unknown_profile"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_profile_union_is_not_a_claim"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_reverse_transition_is_not_qualified"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_reuse_mode_not_supported"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_generic_model_claim_rejected"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_missing_core_prerequisite"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_duplicate_prerequisites"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_self_dependency"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_unknown_precision"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_missing_checkpoint"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_missing_core_ecid"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_digest_malformed"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_boolean_seed"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_extra_binding_key"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_core_generation_not_silently_upgraded"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_duplicate_json_key"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_nonfinite_json"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_oversized_request"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_manifest_duplicate_operators"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_manifest_unknown_role"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_manifest_requires_reviewer"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_role_separation_even_when_both_declared"
+  },
+  {
+    "file": "tests/test_qualification_contracts.py",
+    "class": "PureQualificationContracts",
+    "method": "test_runtime_policy_mutation_detected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_actual_failed_neural_run_cannot_qualify"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_actual_inconclusive_neural_run_has_no_candidate_evidence"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_prepared_upstream_journal_is_not_evidence"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_fabricated_score_recomputed_not_trusted"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_changed_checkpoint_fails_current_use"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_revocation_after_verification_blocks_publish"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_prerequisite_revoked_while_checking_blocks_publish"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationEvidenceTests",
+    "method": "test_changed_neural_ecid_report_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_deleted_middle_event_fails_closed"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_deleted_tail_revocation_cannot_restore_use"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_repointed_head_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_changed_role_manifest_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_missing_meta_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_corrupt_json_event_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_duplicate_key_event_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_wrong_event_hash_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_new_event_without_head_update_is_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_journal_event_budget_enforced"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_journal_total_byte_budget_enforced"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_dropped_table_is_typed_recovery_failure"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_over_nested_stored_event_is_typed_failure"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_nontext_stored_event_is_typed_failure"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationJournalTests",
+    "method": "test_oversized_stored_event_is_typed_failure"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_after_prepare"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_after_verification"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_before_decision_commit"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_after_decision_commit"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_before_revocation_commit"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCrashTests",
+    "method": "test_crash_after_revocation_commit"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_inspect_json"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_audit_json"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_cli_reject_and_history"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_cli_missing_request_has_typed_failure"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_cli_duplicate_json_rejected"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_cli_check_exact_scope"
+  },
+  {
+    "file": "tests/test_qualification_evidence_crashes.py",
+    "class": "QualificationCLITests",
+    "method": "test_non_neural_inspection_needs_no_torch"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_all_exact_claims_are_usable_but_not_permits"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_evaluation_alone_creates_no_qualification"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_prepared_is_not_accepted"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_unprepared_decision_is_denied"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_same_producer_reviewer_rejected"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_unknown_reviewer_rejected"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_unknown_producer_rejected"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_wrong_request_digest_rejected"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_manual_rejection_has_no_certificate"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_manual_inconclusive_has_no_certificate"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_rejected_cannot_be_promoted_by_retry"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_acceptance_requires_real_checker"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_changed_plan_binding_blocked_at_prepare"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_scope_cannot_be_widened_to_subset"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_profile_is_not_transition_evidence"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_reverse_transition_cannot_be_inferred"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_other_trial_binding_cannot_be_substituted"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_other_precision_cannot_be_substituted"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_certificate_hash_must_be_exact"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_missing_prerequisite"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_ab_cannot_substitute_for_core_prerequisite"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_prepared_prerequisite_not_usable"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_core_revocation_invalidates_profile"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_core_revocation_invalidates_transition_transitively"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_endpoint_revocation_invalidates_only_dependents"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_revocation_preserves_original_decision"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_old_decision_retry_after_revocation_is_history_only"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_revocation_retry_no_duplicate_event"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_revocation_operation_collision"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_revocation_wrong_certificate"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_unknown_revoker_denied"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_permission_withdrawal_blocks_new_issuance"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_permission_withdrawal_blocks_current_use"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_old_decision_history_does_not_need_live_data"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_changed_test_fixture_blocks_use"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_missing_source_journal_fails_closed"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_changed_code_identity_fails_closed"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_changed_backend_identity_blocks_use"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_source_report_unchanged_and_effect_not_repeated"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_reopen_all_owners_and_consume"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_prepare_idempotent"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_prepare_id_collision"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_decision_operation_cannot_revoke"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_decision_timestamp_cannot_predate_request"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_no_implicit_store_creation"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_no_overwriting_existing_store"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_unknown_crash_hook_rejected"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_store_is_structural_audit_not_live_permissions"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_invalid_source_path_types_are_typed_failures"
+  },
+  {
+    "file": "tests/test_qualification_store.py",
+    "class": "QualificationStoreTests",
+    "method": "test_invalid_store_path_type_is_typed_failure"
+  }
+]

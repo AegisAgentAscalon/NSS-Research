@@ -1,0 +1,160 @@
+{
+  "changed_parameter_elements": 2681,
+  "checkpoint_bytes": 11540,
+  "checkpoint_sha256": "a718d144653c96f16a7f0225ffc05a01daa3557bef713627d5c83a81008a533e",
+  "curriculum": "short",
+  "environment": {
+    "cuda": false,
+    "energy": "NOT_MEASURED",
+    "forge": "NOT_CONNECTED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "psutil": "7.2.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "runtime": "NOT_CONNECTED",
+    "safetensors": "0.7.0",
+    "scope": "SANDBOX_CPU_NOT_USER_DEVICE",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 115200,
+  "final_parameter_digest": "d52ed23ad88f445985b008652e48ef31f92990a14c7fbddc309dbc58e34ef7eb",
+  "gradient_bytes_when_allocated": 10724,
+  "initial_parameter_digest": "20cea3d9c7daefa7231368734d035d6252487f6098b89dc29012cac24cea156d",
+  "kind": "gru_slots",
+  "logs": [
+    {
+      "accuracy": 0.0833333358168602,
+      "grad_norm": 0.9561362266540527,
+      "length": 7,
+      "loss": 2.213613748550415,
+      "step": 1
+    },
+    {
+      "accuracy": 0.890625,
+      "grad_norm": 2.055821418762207,
+      "length": 7,
+      "loss": 0.3473503291606903,
+      "step": 150
+    },
+    {
+      "accuracy": 0.8072916865348816,
+      "grad_norm": 3.2819111347198486,
+      "length": 15,
+      "loss": 0.4892112910747528,
+      "step": 300
+    },
+    {
+      "accuracy": 0.8385416865348816,
+      "grad_norm": 3.270369529724121,
+      "length": 14,
+      "loss": 0.42492032051086426,
+      "step": 450
+    },
+    {
+      "accuracy": 0.9427083134651184,
+      "grad_norm": 1.1049190759658813,
+      "length": 9,
+      "loss": 0.14009222388267517,
+      "step": 600
+    },
+    {
+      "accuracy": 0.9947916865348816,
+      "grad_norm": 0.36519187688827515,
+      "length": 3,
+      "loss": 0.013958225958049297,
+      "step": 750
+    },
+    {
+      "accuracy": 0.9322916865348816,
+      "grad_norm": 3.6623284816741943,
+      "length": 11,
+      "loss": 0.15488551557064056,
+      "step": 900
+    },
+    {
+      "accuracy": 0.96875,
+      "grad_norm": 1.8614592552185059,
+      "length": 10,
+      "loss": 0.11786359548568726,
+      "step": 1050
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.2585364878177643,
+      "length": 6,
+      "loss": 0.007113858591765165,
+      "step": 1200
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.14461404085159302,
+      "length": 1,
+      "loss": 0.001571310800500214,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.96875,
+      "grad_norm": 2.347644805908203,
+      "length": 13,
+      "loss": 0.08659368753433228,
+      "step": 1500
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.06483935564756393,
+      "length": 5,
+      "loss": 0.0013998309150338173,
+      "step": 1650
+    },
+    {
+      "accuracy": 0.9895833134651184,
+      "grad_norm": 0.8860863447189331,
+      "length": 5,
+      "loss": 0.01696770451962948,
+      "step": 1800
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.10621295124292374,
+      "length": 5,
+      "loss": 0.001963895745575428,
+      "step": 1950
+    },
+    {
+      "accuracy": 0.9739583134651184,
+      "grad_norm": 1.678594946861267,
+      "length": 16,
+      "loss": 0.060906779021024704,
+      "step": 2100
+    },
+    {
+      "accuracy": 0.9895833134651184,
+      "grad_norm": 1.2897281646728516,
+      "length": 12,
+      "loss": 0.02661059983074665,
+      "step": 2250
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.0007068706909194589,
+      "length": 1,
+      "loss": 6.039165600668639e-05,
+      "step": 2400
+    }
+  ],
+  "observed_events": 966192,
+  "optimizer_tensor_bytes": 21492,
+  "parameter_bytes": 10724,
+  "parameter_count": 2681,
+  "preparation_only": true,
+  "rss_process_peak_5ms_sample_bytes": 336097280,
+  "seed": 302,
+  "steps": 2400,
+  "supervised_key_answers": 460800,
+  "timing_excludes": "Interpreter startup, evaluation, calibration, replay, reporting, all other fits",
+  "train_batch_sha256": "d82825faf1609e7b24d742a2fd77a616f25c25c6574d3d810d12941edea90227",
+  "train_cpu_seconds": 8.347053146000007,
+  "train_wall_seconds": 8.277540059999978
+}

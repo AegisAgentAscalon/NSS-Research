@@ -1,0 +1,141 @@
+{
+  "log_records": [
+    {
+      "id": "RLOG-2026-001",
+      "status": "RECORDED",
+      "type": "RESEARCH_SCHEDULING_AND_RETURN_LOG",
+      "path": "RESEARCH_LOG.md"
+    }
+  ],
+  "return_tickets": [
+    {
+      "id": "RET-MW01-FIT-001",
+      "status": "PARKED_OPEN",
+      "path": "RETURN_TICKET_MW01.md",
+      "g_questions": [
+        "G02",
+        "G05",
+        "G06",
+        "G16",
+        "G17"
+      ],
+      "architecture_links": [
+        "ADR-008",
+        "ADR-009",
+        "ADR-010",
+        "ADR-019",
+        "ADR-022",
+        "ADR-023",
+        "ADR-026",
+        "ST-02",
+        "ST-04",
+        "ST-06",
+        "ST-09",
+        "ST-10",
+        "IF-02",
+        "IF-10",
+        "OQ-02",
+        "OQ-04",
+        "OQ-06",
+        "OQ-07",
+        "OQ-08",
+        "OQ-14"
+      ],
+      "restart_requires": "A discriminating single-factor protocol, fixed competence/transfer panels, independent review, explicit authorization."
+    }
+  ],
+  "phase_decisions": [
+    {
+      "id": "ACP-NBR-CLOSEOUT-001",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "path": "CLOSEOUT_DECISION_STATUS.md"
+    },
+    {
+      "id": "NSS-NBR02-DC01",
+      "status": "REVIEWED_DIRECTION_FREEZE_INCOMPLETE_NOT_DISPATCHED",
+      "path": "NBR02_DC01_REVIEW.md",
+      "g_questions": [
+        "G08",
+        "G09",
+        "G10"
+      ]
+    }
+  ],
+  "freeze_items": [
+    {
+      "id": "DC-F01",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F02",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F03",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F04",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F05",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F06",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F07",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F08",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F09",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    },
+    {
+      "id": "DC-F10",
+      "status": "UNRESOLVED_BEFORE_EXECUTION",
+      "path": "NBR02_DC01_REVIEW.md"
+    }
+  ],
+  "all_revived_question_ids": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+    "G15",
+    "G16",
+    "G17",
+    "G18",
+    "G19",
+    "G20",
+    "G21",
+    "G22"
+  ],
+  "revived_question_source": "PROGRAM_CLOSEOUT_AND_REVIVED_QUESTIONS.md"
+}

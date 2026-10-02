@@ -1,0 +1,68 @@
+{
+  "arrays_exact": 41755,
+  "evaluations": 10,
+  "records": [
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 1,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 1,
+      "rows": 2988
+    },
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 2,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 2,
+      "rows": 2988
+    },
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 3,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 3,
+      "rows": 2988
+    },
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 4,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 4,
+      "rows": 2988
+    },
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 5,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 5,
+      "rows": 2988
+    }
+  ],
+  "rows_exact": 16150,
+  "status": "PASS"
+}

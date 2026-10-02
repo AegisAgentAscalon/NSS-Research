@@ -1,0 +1,63 @@
+{
+  "kind": "PROTECT01 development-stop analysis and unexecuted REHEARSE01 proposal",
+  "identity_authority": "input_receipt_corrected.json",
+  "invalid_original_intake": "input_receipt.json preserved outside this delivery; intake_failure.json included as incident correction",
+  "full_execution_archive": {
+    "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\Research\\NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+    "bytes": 25494039,
+    "sha256": "cfabcabc5f0dd7ffd189b4f0b91e44e5640b6f6d9c1619eefce28bb080be3f1b",
+    "included_in_proposal_zip": false
+  },
+  "members": [
+    {
+      "name": "ANALYSIS.md",
+      "bytes": 4129,
+      "sha256": "4cfeb46900af5113877330e4957ba46a4a52889aac5e315053a6b08a9815f8df"
+    },
+    {
+      "name": "CANDIDATES.md",
+      "bytes": 7472,
+      "sha256": "515ad411b6c7a0e8851761758aae6e23c288444c24390cf4985185495bbf933b"
+    },
+    {
+      "name": "CHAT_CONTINUITY.md",
+      "bytes": 6538,
+      "sha256": "e8a69b6d5ced286e49a99e330dd825e7fd51f951994238a7aec1a1705e6324d6"
+    },
+    {
+      "name": "CHAT_PROMPT.md",
+      "bytes": 2587,
+      "sha256": "37d3a84a64fb4c50747c90beb073c61a8ab1ff6dda0dfd9a50aad504aa425856"
+    },
+    {
+      "name": "EVIDENCE_REVIEW.md",
+      "bytes": 2439,
+      "sha256": "bbb4b6f012da573a324e382046c953545175ab5528aba16045816272008f7ac5"
+    },
+    {
+      "name": "archive_receipt.json",
+      "bytes": 1594,
+      "sha256": "a00e0f88fb3ff811bb953938d0a130da14abf3bda5cbae2b69bf958dc070559f"
+    },
+    {
+      "name": "input/NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+      "bytes": 196510,
+      "sha256": "0be5e35a33497a95f5c489ad5d831366aef9f69606a71d7ddd88e3e06ef88208"
+    },
+    {
+      "name": "input_receipt_corrected.json",
+      "bytes": 1101,
+      "sha256": "f0c837534da8eeafcddee62384fb05bb03ca0991c19ba6aa8649c9a576d85152"
+    },
+    {
+      "name": "intake_failure.json",
+      "bytes": 856,
+      "sha256": "74a01f4d8a97349053687d51ed17ca0cbf731de692de4ec5967ea9b124363c66"
+    },
+    {
+      "name": "metrics_summary.json",
+      "bytes": 3456,
+      "sha256": "612b927b76e35683b1b7514ad82b9f717e451569918d32f70c4bd682a0906650"
+    }
+  ]
+}

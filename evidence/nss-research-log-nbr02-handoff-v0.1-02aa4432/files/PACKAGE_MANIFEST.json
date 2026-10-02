@@ -1,0 +1,97 @@
+{
+  "package": "NSS_Research_Log_NBR02_Handoff_v0.1",
+  "version": "0.1",
+  "kind": "documentation_only",
+  "files": [
+    {
+      "path": "ARCHITECTURE_LOG_DELTA.json",
+      "bytes": 1313,
+      "sha256": "fe33b59df2035410b06eab7d098184031e5b25f4d4367bbc7b362670f45bead0"
+    },
+    {
+      "path": "CHAT_PROMPT.md",
+      "bytes": 5638,
+      "sha256": "bdbcd96d7edc5afc324191c0d685235656016360cd6e4c5bd6a9a00756a7b9c3"
+    },
+    {
+      "path": "CLOSEOUT_DECISION_STATUS.md",
+      "bytes": 2703,
+      "sha256": "79c67c80c1d1e9626d818ea4392d32a4ae93d82b1cfbd38a1cd12126cd3cc3e6"
+    },
+    {
+      "path": "NBR02_DC01_REVIEW.md",
+      "bytes": 9946,
+      "sha256": "5b9aedc38ed00a07e1614e104585dc000a9c1139d6dc94ccfd9fe9795a6ebffe"
+    },
+    {
+      "path": "PROGRAM_CLOSEOUT_AND_REVIVED_QUESTIONS.md",
+      "bytes": 9363,
+      "sha256": "24f965293d88bd60e8a4870f849191e3918fb8133c8df1c7edb4cd36595747bd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2766,
+      "sha256": "c8d80ae8463e4f50fac122ba247d2602dbdb820f589bb2f1ac0e832bb7759fe3"
+    },
+    {
+      "path": "REGISTERS.json",
+      "bytes": 2919,
+      "sha256": "c6ca99cd5ceba64cea631ddb53f9398f20d2083518fd95394ed762d1ac4944ac"
+    },
+    {
+      "path": "RESEARCH_LOG.md",
+      "bytes": 5917,
+      "sha256": "83c232375e1c53a5f60c54218fbfa425c4cec2fe763ed6f3385b546f45c62f66"
+    },
+    {
+      "path": "RETURN_TICKET_MW01.md",
+      "bytes": 6811,
+      "sha256": "e88887eb5ea2f74d6f78d97301d5e15e6e472eb417a1bba8fa8ae462503fbaf5"
+    },
+    {
+      "path": "SOURCE_IDENTITIES.json",
+      "bytes": 3284,
+      "sha256": "05f8d78e4276a245982a470c69f24866f53cf72ab959602fb05ce28be00fa6c9"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 1262,
+      "sha256": "3247186812b96705f31009453f51493e53ec98ff7026c91b8a80dd4f44beac9d"
+    },
+    {
+      "path": "VERIFY_LOG.py",
+      "bytes": 2797,
+      "sha256": "4fa893e19e74c70eb0000f27929e369b81c688ab901c2e8b9297947cbcf397f7"
+    },
+    {
+      "path": "evidence/CKA01_REPORT.md",
+      "bytes": 14716,
+      "sha256": "8f84ec10b0879f9be1e43288996efb83f3306ab5b5827e5ef58e34bfc0a3dcf4"
+    },
+    {
+      "path": "evidence/CODEX_ANALYSIS.md",
+      "bytes": 4534,
+      "sha256": "c825491cba67db7eaecaeffc9797766c224b160efa9e059c9fe222fee3eb7cd7"
+    },
+    {
+      "path": "evidence/CODEX_CANDIDATES.md",
+      "bytes": 8976,
+      "sha256": "0b0e2c8ff3b3b7a5ea36528051944ae1bd010c4f6b1f09c0e03d45b056178284"
+    },
+    {
+      "path": "evidence/CODEX_CRITIQUE.md",
+      "bytes": 1979,
+      "sha256": "7c97146a330d9858567d87d39b77ebd8fdfa333f855c1c3200570818f907856f"
+    },
+    {
+      "path": "evidence/CODEX_REVIEW_REQUEST.md",
+      "bytes": 2475,
+      "sha256": "0ca1e23b9f4f56b784c41092322320430a695704bbcca2830b2a1e70bde42958"
+    },
+    {
+      "path": "evidence/NBR01_CLOSURE_PROPOSAL.md",
+      "bytes": 8585,
+      "sha256": "4a05b22eabc9d352579551128c8f11f6a15bb05de77fa1e7c56a200a8e596dc8"
+    }
+  ]
+}

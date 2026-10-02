@@ -1,0 +1,23 @@
+{
+  "source_precedence": "Explicit user approval + supplied handoff govern intent; recovered v0.4.14 governs available implementation.",
+  "inputs": [
+    {
+      "name": "MegaMindAlpha_v0.4.14_PersistentState001(1).zip",
+      "bytes": 28327938,
+      "sha256": "24ccec12a0513e3e60cdba49df54f25db476786b2b0770bb4a628017d9c0736a"
+    },
+    {
+      "name": "NSS_Cognition_Architecture_and_Low_Bit_Learning_Handoff_v1.0(1).docx",
+      "bytes": 77904,
+      "sha256": "119e31493a00b05d6e8ca81dda5897c6b5b38a803ac8dbea47d06724d8da8ea6"
+    },
+    {
+      "name": "AUDIT_REPORT.md",
+      "bytes": 15450,
+      "sha256": "8ae701aad02f74609ab6c641bf505e5ac234dcecd9d861cea6089b8f5f6ce02a"
+    }
+  ],
+  "external_downloads": 0,
+  "repositories_merged": 0,
+  "remote_writes": 0
+}

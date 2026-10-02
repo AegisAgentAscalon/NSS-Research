@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "all_original_tested_pilot_inputs_unchanged": true,
+  "note": "Later verification, reporting and diagnostic modules are separately identified additions; original core/experiment/tests/protocol unchanged."
+}

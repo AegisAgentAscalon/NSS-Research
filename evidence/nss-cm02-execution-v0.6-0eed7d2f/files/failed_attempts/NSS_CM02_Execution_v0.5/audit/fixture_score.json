@@ -1,0 +1,29 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM02_Execution_v0.5/src/score.py",
+    "--input",
+    "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+    "--capture",
+    "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/capture",
+    "--output",
+    "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/scores"
+  ],
+  "failure": null,
+  "poll_interval_seconds": 0.05,
+  "returncode": 0,
+  "sampled_cgroup_peak_bytes": 1612902400,
+  "sampled_process_tree_peak_rss_bytes": 426795008,
+  "samples": 63,
+  "shared_wall_seconds": 1347.3764250278473,
+  "stage": "fixture_score",
+  "stage_wall_seconds": 3.257375717163086,
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "total_recorded_attempted_forwards": 1265
+}

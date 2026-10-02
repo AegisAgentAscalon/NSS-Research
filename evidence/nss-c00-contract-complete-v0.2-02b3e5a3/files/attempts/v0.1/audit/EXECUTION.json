@@ -1,0 +1,92 @@
+[
+  {
+    "stage": "build_primary",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/build_cases.py",
+      "inputs/primary"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 0.641451385000039,
+    "sampled_tree_peak_bytes": 102330368,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:21.961787+00:00"
+  },
+  {
+    "stage": "primary",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/run.py",
+      "inputs/primary",
+      "raw/primary"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 1.8813267280000332,
+    "sampled_tree_peak_bytes": 206192640,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:23.843387+00:00"
+  },
+  {
+    "stage": "score_primary",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/check.py",
+      "inputs/primary",
+      "raw/primary",
+      "results/primary"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 0.897263415999987,
+    "sampled_tree_peak_bytes": 127475712,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:24.740945+00:00"
+  },
+  {
+    "stage": "build_replay",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/build_cases.py",
+      "inputs/replay"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 0.5908053989999758,
+    "sampled_tree_peak_bytes": 102318080,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:25.332094+00:00"
+  },
+  {
+    "stage": "replay",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/run.py",
+      "inputs/replay",
+      "raw/replay"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 1.6936195619999808,
+    "sampled_tree_peak_bytes": 204075008,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:27.026012+00:00"
+  },
+  {
+    "stage": "score_replay",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "source/check.py",
+      "inputs/replay",
+      "raw/replay",
+      "results/replay"
+    ],
+    "returncode": 0,
+    "status": "COMPLETED",
+    "wall_seconds": 0.8232698459999597,
+    "sampled_tree_peak_bytes": 127291392,
+    "sample_interval_seconds": 0.025,
+    "utc": "2026-09-25T21:11:27.849591+00:00"
+  }
+]

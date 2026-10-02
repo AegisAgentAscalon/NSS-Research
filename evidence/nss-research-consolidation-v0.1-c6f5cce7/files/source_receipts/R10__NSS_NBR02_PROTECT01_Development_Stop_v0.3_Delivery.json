@@ -1,0 +1,119 @@
+{
+  "status": "DELIVERY_VERIFIED_FOR_COMPLETED_PREFIX_ONLY",
+  "full_archive": {
+    "filename": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+    "bytes": 25494039,
+    "sha256": "cfabcabc5f0dd7ffd189b4f0b91e44e5640b6f6d9c1619eefce28bb080be3f1b",
+    "manifest_payloads": 185,
+    "scientific_status": "STOPPED_AT_A0_RELATIVE_GAIN",
+    "heldout_generated": false
+  },
+  "compact_archive": {
+    "filename": "NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+    "bytes": 196510,
+    "sha256": "0be5e35a33497a95f5c489ad5d831366aef9f69606a71d7ddd88e3e06ef88208",
+    "manifest_payloads": 44
+  },
+  "full_zip_crc": "PASS",
+  "full_fresh_extraction_path": "/mnt/data/protect_delivery_check/NSS_NBR02_PROTECT01_Execution_v0.3",
+  "full_restore": {
+    "status": "RESTORED",
+    "encoded_records": 1,
+    "exact_aliases": 1,
+    "model_calls": 0
+  },
+  "full_manifest_and_source_verification": {
+    "status": "PASS",
+    "manifest_files": 185,
+    "frozen_source_entries": 35,
+    "failures": [],
+    "numerical_reproduction_performed": false
+  },
+  "full_relocated_independent_rescore": {
+    "status": "PASS",
+    "byte_equal_result_files": [
+      "A0.csv",
+      "DECISIONS.json",
+      "DERIVATIVES.csv",
+      "EXACT_ROWS.csv",
+      "FIRST_CORRECTION_PAIRS.csv",
+      "NEGATIVE_QUERY_ROWS.csv",
+      "NONLINEAR_MARGIN_RESIDUALS.csv",
+      "PROJECTIONS.csv",
+      "QUERY_ROWS.csv",
+      "RETENTION_BASE_CHECKPOINT.csv",
+      "RETENTION_INDIVIDUAL.csv",
+      "UPDATES.csv"
+    ],
+    "count": 12,
+    "independent_numerical_audit": "PASS",
+    "single_postscore_worker_finish_verified": true,
+    "model_forwards": 0,
+    "optimizer_updates": 0
+  },
+  "compact_fresh_extraction_integrity": {
+    "status": "PASS",
+    "manifest_files": 44,
+    "failures": [],
+    "numerical_reproduction": false
+  },
+  "adaptive_replay": {
+    "status": "PASS",
+    "full_adaptive_replay_of_completed_prefix": true,
+    "heldout_generated": false,
+    "frames": 17660,
+    "arrays": 55118,
+    "elements": 13484996,
+    "all_attempt_counts": {
+      "cell": 86472,
+      "head": 26584,
+      "backward": 3260,
+      "update_attempt": 3400,
+      "update_commit": 3400,
+      "old_backward": 1552,
+      "local": 1708,
+      "qp": 224,
+      "support": 56832,
+      "svd": 56834
+    },
+    "no_unknown_completion": true
+  },
+  "scientific_status": {
+    "execution_version": "v0.3",
+    "protocol": "v0.2",
+    "status": "STOPPED_AT_A0_RELATIVE_GAIN",
+    "protocol_machine_status": "BASELINE_INCOMPETENT",
+    "engineering_prefix": "PASSED",
+    "G_A0_passing_fits": 2,
+    "L_A0_passing_fits": 4,
+    "required_per_arm": 3,
+    "all_absolute_accuracy_and_old_inventory_floors_passed": true,
+    "heldout_generated": false,
+    "heldout_scientific_screen": "NOT_ASSESSED",
+    "projection_qualification": "NOT_QUALIFIED",
+    "development_analysis": "POST_RESULT_EXPLORATORY",
+    "full_adaptive_replay_completed_prefix": "PASS",
+    "all_attempt_counts": {
+      "cell": 86472,
+      "head": 26584,
+      "backward": 3260,
+      "update_attempt": 3400,
+      "update_commit": 3400,
+      "old_backward": 1552,
+      "local": 1708,
+      "qp": 224,
+      "support": 56832,
+      "svd": 56834
+    },
+    "prior_models_loaded_or_changed": false,
+    "source_lock_sha256": "3b0018c298beb255330ebe85af23498b18d94c176ec319ed984773822fb749d0",
+    "code_or_gate_changes_after_results": false
+  },
+  "receipt_generated_utc": "2026-09-25T16:06:43Z",
+  "shared_wall_seconds_including_implementation_and_delivery_QA": 1145.860332250595,
+  "clock_cap_seconds": 7200,
+  "no_additional_model_forwards_during_delivery_QA": true,
+  "parent_architecture_ledger_and_historical_models_unchanged": true,
+  "cost_limit_note": "OBS-DC01-COST-001 remains open; no whole-system memory superiority claim.",
+  "scope_note": "Held-out PROTECT01 scientific qualification was not assessed. No source, gate or sample was tuned in response to results. Exact replay covers every operation actually executed, not unadmitted held-out work."
+}

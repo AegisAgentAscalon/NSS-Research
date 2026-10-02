@@ -1,0 +1,31 @@
+{
+  "abi": "nbr008-membership-v1",
+  "binder": "0870d3c59e9aade92ccfa976a986172423c9dc1ce8b3b665a8c60a56ff18ab67",
+  "contract": {
+    "abi": "nbr008-membership-v1",
+    "calibration": {},
+    "capacity": 16,
+    "head": "cb905b90e2b49da50fed4894abae121a9d415df8bc074ac7511eaf0d130c8bec",
+    "method": "nearest",
+    "parents": {
+      "binder": "0870d3c59e9aade92ccfa976a986172423c9dc1ce8b3b665a8c60a56ff18ab67",
+      "dictionary": "beb065fae6fe9418cabba3eaafb08b3757d6ad875235e638f829bef910c04080",
+      "gated_hop": "a13caec58426254fb6b49e30003599c17c0cc280663489fb8a266c6891059104",
+      "record_hop": "f73b510fe0b20f3156999941049be7d2c551711fbe93ea66eaf7c5bdca43d9b5"
+    },
+    "unreadable_policy": "sticky_until_qualified_write_or_clear"
+  },
+  "events": 13,
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 58787192058635701034007782203611322551,
+      "state": 234409081153923303456792474912786441833
+    },
+    "uinteger": 0
+  },
+  "scope": "study",
+  "sha256": "83c495b74d81c49d1466ca7abb84352d21c7557272508fc1a26bd8ea3fec45c9",
+  "tick": 0
+}

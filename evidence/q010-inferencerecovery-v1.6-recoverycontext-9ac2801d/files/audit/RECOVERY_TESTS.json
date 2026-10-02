@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checks": 18,
+  "rows": [
+    {
+      "test": "all15_plus_inherited_readers_loaded_frozen",
+      "status": "PASS"
+    },
+    {
+      "test": "unknown_main_seed",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "unknown main paired seed"
+    },
+    {
+      "test": "optimizer_construction_forbidden",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "INFERENCE_ONLY: optimizer/backpropagation forbidden"
+    },
+    {
+      "test": "backpropagation_forbidden",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "INFERENCE_ONLY: optimizer/backpropagation forbidden"
+    },
+    {
+      "test": "missing_export",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "absent or escaping artifact"
+    },
+    {
+      "test": "duplicate_export",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "incomplete/duplicate exports"
+    },
+    {
+      "test": "swapped_weights",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "raw export hash mismatch"
+    },
+    {
+      "test": "public_as_strict",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "strict dtype-inclusive hash mismatch"
+    },
+    {
+      "test": "recorded_cursor",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "incomplete recorded cursor"
+    },
+    {
+      "test": "symlink_export",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "symlink artifact path"
+    },
+    {
+      "test": "development_as_main",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "development/reproduction substitution"
+    },
+    {
+      "test": "changed_protocol",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "original protocol mismatch"
+    },
+    {
+      "test": "frozen_rejects_amended_accepts_same_exact_arithmetic",
+      "status": "PASS",
+      "frozen_rejection": "Torch softmax component 2 exceeds the declared float64 bound",
+      "scope": "fresh synthetic reproduction, not the missing original captured row"
+    },
+    {
+      "test": "underflow_4_layouts_4_value_scales",
+      "status": "PASS",
+      "cases": 16
+    },
+    {
+      "test": "underflow_logit_grid",
+      "status": "PASS",
+      "cases": 129
+    },
+    {
+      "test": "corrupt_weights",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "captured pointer weights are not byte-identical to exact CPU Torch replay"
+    },
+    {
+      "test": "corrupt_weighted_values",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "captured pre_norm is not byte-identical to exact CPU Torch replay"
+    },
+    {
+      "test": "corrupt_normalized_output",
+      "status": "PASS_EXPECTED_REJECTION",
+      "error": "captured read_code is not byte-identical to exact CPU Torch replay"
+    }
+  ],
+  "original_raw_rejected_row_available": false,
+  "original_v2_verifier_source_available": false,
+  "prior_rationale_preserved_sha256": "d77ee917f0b5e81cac3f5e23ee5b0fbeb366f614d9a2c44b370375e3fe6ab234",
+  "frozen_verifier_sha256": "b43bfe8eae66e8ae4ebee67d4d53c9316aa2ba68f6ed595692557ab8a4a9eb10",
+  "reconstructed_amended_verifier_sha256": "00a0509a3da4d8af9d47ce1d9c40da7f7391413731bd26502fb0f161dcc10746",
+  "new_optimizer_updates": 0
+}

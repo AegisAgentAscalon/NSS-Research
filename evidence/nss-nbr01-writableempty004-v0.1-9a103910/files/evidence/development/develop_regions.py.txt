@@ -1,0 +1,23 @@
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from nbr01_empty.train import train
+from nbr01_empty.models import *
+from nbr01_empty.util import *
+from safetensors.torch import load_file
+setup()
+for kind in ('replay','contract'):
+ train(ROOT,ROOT/'evidence/development/continuation_regions',kind,141,443,1800,development=True)
+ rep=Representation(ROOT/'reference/soft_slots_wide_seed141.safetensors');m=Repair()
+ m.load_state_dict(load_file(str(ROOT/'evidence/development/continuation_regions'/f'{kind}_rep141_seed443.safetensors')));m.eval()
+ out=[]
+ for sig in [0.,.15,.3]:
+  mem=Memory(rep,kind,m,batch=64)
+  y=torch.arange(64).remainder(8);mem.event('write',1,y);mem.event('write',2,(y+3)%8)
+  g=torch.Generator().manual_seed(91823)
+  with torch.no_grad():
+   for i in range(1024):mem.maintain(sig*torch.randn(mem.z.shape,generator=g))
+   p=mem.read();empty=float((p[:,[0,3]]==8).float().mean());known=float((p[:,1]==y).float().mean())
+   mem.event('write',0,(y+1)%8,score=.5001);mem.maintain();write=float((mem.read()[:,0]==(y+1)%8).float().mean())
+  out.append(dict(sigma=sig,empty=empty,known=known,first_write=write))
+ write_json(ROOT/'evidence/development/continuation_regions'/f'{kind}_quickcheck.json',out);print(kind,out,flush=True)

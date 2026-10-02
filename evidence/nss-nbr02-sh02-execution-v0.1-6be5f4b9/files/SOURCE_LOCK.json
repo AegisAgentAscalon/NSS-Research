@@ -1,0 +1,56 @@
+{
+  "utc": "2026-09-28T01:52:55Z",
+  "files": {
+    "nss_hsa/records.py": {
+      "bytes": 2013,
+      "sha256": "6f2274307ba2f69c81be3a5de8d9aa504fe0d5504c0ffae8142e7e6307c8f938"
+    },
+    "nss_hsa/reader.py": {
+      "bytes": 1646,
+      "sha256": "af8d96c1fd8310ab38b50386dc327908c4f375b10235dd7dcb2d07d89809377d"
+    },
+    "nss_hsa/hierarchy.py": {
+      "bytes": 9541,
+      "sha256": "751c7d8de46b2834b00232f3a2174bf52f6f097211f1f9329e12e881933a3e45"
+    },
+    "nss_hsa/__init__.py": {
+      "bytes": 417,
+      "sha256": "c0ca251fa69d2601b614542facf3b8055bd0e583d21e3f00d1899ae26a8851e6"
+    },
+    "nss_hsa/attention.py": {
+      "bytes": 2815,
+      "sha256": "b66fa2fd45b9ac2eaa51ea2d5540039ace35e0f94a5cf1141e653a92bc9ba830"
+    },
+    "scripts/benchmark.py": {
+      "bytes": 5297,
+      "sha256": "e0eee9ce6531de4c1000930a6c156641c0f6392c002c04d3c5df87ac80127fb1"
+    },
+    "scripts/support.py": {
+      "bytes": 1669,
+      "sha256": "6d6eba90de0bb7c3571be6f9a3338dd96f51a1a8d6e03f43050045489eef7b8a"
+    },
+    "scripts/regression.py": {
+      "bytes": 3890,
+      "sha256": "e7d43eb07a4e37a48b8d6138d6a5b5c41b26367226d4b5252629799bfd5b5c74"
+    },
+    "scripts/demo.py": {
+      "bytes": 1643,
+      "sha256": "6e7bec667be7621e23cdeb19063abf5eed5b0e17f706f5acd8514ca179c251ca"
+    },
+    "tests/validate.py": {
+      "bytes": 9710,
+      "sha256": "e114459d3797db8e1ccd4eba2fb4fbb3b692614d6e7275c5e2a2b82651695fcd"
+    },
+    "PROTOCOL.md": {
+      "bytes": 4118,
+      "sha256": "d0187d55497720e34c906a90908555296221982035f5337083252444a18a81e8"
+    },
+    "reference/sh01_common.py": {
+      "bytes": 6730,
+      "sha256": "e43608978cc32c6fe837c54c6b17135981bb9a0cd8c29dec5645c61bb157161a"
+    }
+  },
+  "purpose": "before saved-model regression and final benchmarks; zero training",
+  "prelock_validation_passed": 92,
+  "prelock_validation_failed": 0
+}

@@ -1,0 +1,204 @@
+{
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "is_user_target_device": false
+  },
+  "checks": [
+    {
+      "name": "capabilities",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-m",
+        "nss_base",
+        "capabilities"
+      ],
+      "returncode": 0,
+      "seconds": 0.064,
+      "log": "docs/audits/tricorefoundation001/logs/final_capabilities.txt",
+      "log_sha256": "44a80bc63ed1322984680935eafc1eece838cb0828eb422f6d0d63a648cd7e83"
+    },
+    {
+      "name": "compile",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "nss_base",
+        "tests",
+        "tools"
+      ],
+      "returncode": 0,
+      "seconds": 0.77,
+      "log": "docs/audits/tricorefoundation001/logs/final_compile.txt",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "dependencies",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/check_dependencies.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.827,
+      "log": "docs/audits/tricorefoundation001/logs/final_dependencies.txt",
+      "log_sha256": "f00185f453cbb01a520d2a84793f7ae7c52be7f4727726683e7b7d4e979a421e"
+    },
+    {
+      "name": "foundation",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_foundation*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 10.677,
+      "log": "docs/audits/tricorefoundation001/logs/final_foundation.txt",
+      "log_sha256": "a479e49299248202a04da23b5aa95c7e9db7ccc040840febb06df1e9c2a297ad"
+    },
+    {
+      "name": "foundation_demo",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-O",
+        "-m",
+        "nss_base",
+        "demo",
+        "--output",
+        "/mnt/data/_nss_work/final-foundation-demo"
+      ],
+      "returncode": 0,
+      "seconds": 0.966,
+      "log": "docs/audits/tricorefoundation001/logs/final_foundation_demo.txt",
+      "log_sha256": "ff20d1e93b0bd7d0ca6bbe2f47abd05a0ff19fad13ae34f40e2b421350cb7ca4"
+    },
+    {
+      "name": "legacy_context",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_context*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 111.893,
+      "log": "docs/audits/tricorefoundation001/logs/final_legacy_context.txt",
+      "log_sha256": "6d435b71224c11ca036b3992f7292ca9b9ab34a61c8198b0d7ec6856f0fdac9f"
+    },
+    {
+      "name": "legacy_experience",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_experience*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 19.033,
+      "log": "docs/audits/tricorefoundation001/logs/final_legacy_experience.txt",
+      "log_sha256": "b692f4e83063a04d9891185d360aeb4933e3d7fbfd2475c1a45d464aa316dc7e"
+    },
+    {
+      "name": "legacy_neural_backend",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_neural_backend.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 2.986,
+      "log": "docs/audits/tricorefoundation001/logs/final_legacy_neural_backend.txt",
+      "log_sha256": "ad9b4efcd5fc4da227aab29d045cbcb683389cd929f65dac6044d7ac71043e21"
+    },
+    {
+      "name": "legacy_persistent_state",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_persistent_state*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 109.905,
+      "log": "docs/audits/tricorefoundation001/logs/final_legacy_persistent_state.txt",
+      "log_sha256": "e0cc7ead5b4c8b1a7f78ae55e6669e3eb51b7634a7fe6e78ee1db42c1ab2bd0a"
+    },
+    {
+      "name": "legacy_runtime",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_runtime.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 0.718,
+      "log": "docs/audits/tricorefoundation001/logs/final_legacy_runtime.txt",
+      "log_sha256": "d51a334a3388978d38d334b997dc29fcdb2810cdbbb2c68ebc04925f397307d7"
+    },
+    {
+      "name": "nbr01_harness",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-O",
+        "-m",
+        "nss_base.research.nbr01",
+        "--harness-smoke"
+      ],
+      "returncode": 0,
+      "seconds": 0.064,
+      "log": "docs/audits/tricorefoundation001/logs/final_nbr01_harness.txt",
+      "log_sha256": "c3070741b60f918e04ad91f4312b77ca68e6bb5f58c900726a4b7abe6ae37c18"
+    },
+    {
+      "name": "nbr01_preflight",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-m",
+        "nss_base.research.nbr01",
+        "--preflight"
+      ],
+      "returncode": 0,
+      "seconds": 0.064,
+      "log": "docs/audits/tricorefoundation001/logs/final_nbr01_preflight.txt",
+      "log_sha256": "0fdc288c80b36e30f7a9bd34c6d017bcfb0cf59885a5c9a5693fb188ba925222"
+    }
+  ]
+}

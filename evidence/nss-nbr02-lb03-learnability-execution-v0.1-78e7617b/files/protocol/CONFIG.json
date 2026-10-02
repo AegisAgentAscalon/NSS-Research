@@ -1,0 +1,131 @@
+{
+  "study": "LB03-LEARNABILITY",
+  "version": "0.1",
+  "pass_number": 61,
+  "parents": [
+    4101,
+    4102,
+    4103,
+    4104
+  ],
+  "modes": [
+    "M32",
+    "M16_NEAREST",
+    "M16_STOCHASTIC"
+  ],
+  "regimes": [
+    "EARLY",
+    "NEW"
+  ],
+  "updates_per_branch": 512,
+  "total_main_updates": 12288,
+  "main_extra_update_allowance": 0,
+  "preflight_update_cap": 96,
+  "benchmark_update_cap": 144,
+  "audit_update_cap": 48,
+  "total_actual_update_cap": 12576,
+  "branch_wall_limit_seconds": 90,
+  "total_training_core_limit_seconds": 900,
+  "max_rss_bytes": 2147483648,
+  "evidence_bytes": 268435456,
+  "branch_checkpoint_steps": [
+    0,
+    64,
+    128,
+    256,
+    512
+  ],
+  "dev_steps": [
+    0,
+    64,
+    128,
+    256,
+    512
+  ],
+  "confirmation_steps": [
+    0,
+    512
+  ],
+  "lr_start": 0.003,
+  "lr_end": 0.0003,
+  "clip_norm": 1.0,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "epsilon": 1e-08,
+  "optimizer": "inherited_M8_custom_SQ8_reset_for_every_branch",
+  "new_cue_indices": [
+    2,
+    5
+  ],
+  "old_B": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "new_B": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "selection": "Both candidate modes mandatory; no winner or endpoint selection from development or confirmation.",
+  "fixture_seed": 161202610,
+  "round_seed_base": 61002026,
+  "benchmark_seed": 161991,
+  "fixture_counts": {
+    "development": 16,
+    "confirmation": 256,
+    "stress": 32
+  },
+  "prefix": {
+    "development": 24,
+    "confirmation": 24,
+    "stress": 64
+  },
+  "length": {
+    "development": 56,
+    "confirmation": 56,
+    "stress": 192
+  },
+  "numerical": {
+    "fp64_atol": 1e-09,
+    "fp64_rtol": 1e-08,
+    "fp32_grad_atol": 2e-06,
+    "fp32_grad_rtol": 0.0002
+  },
+  "gates": {
+    "same_task_event_floor": 0.98,
+    "same_task_whole_floor": 0.9,
+    "early_net_error_reduction_floor": 0.9,
+    "new_B_probability_floor": 0.8,
+    "event_loss_vs_control_max": 0.005,
+    "whole_loss_vs_control_max": 0.02,
+    "extra_false_done_vs_control_max": 1,
+    "retained_event_loss_vs_start_max": 0.01,
+    "retained_whole_loss_vs_start_max": 0.02,
+    "new_false_done_vs_start_max": 1,
+    "learning_array_saving_min": 0.15,
+    "training_time_ratio_max": 1.25,
+    "required_parent_count": 3
+  },
+  "semantic_review_indices": [
+    0,
+    64,
+    128,
+    192
+  ],
+  "no_post_learning_repair": true,
+  "no_model_adoption": true,
+  "no_pretrained_download": true
+}

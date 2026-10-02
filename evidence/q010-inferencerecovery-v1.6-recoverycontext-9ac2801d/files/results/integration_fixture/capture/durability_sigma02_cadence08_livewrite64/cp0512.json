@@ -1,0 +1,951 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-feb681afa73a89961f87",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-feb681afa73a89961f87",
+        "close_identity_transform": null,
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+        "graph_seed": 17308822053425216417,
+        "graph_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 10092858452699289960,
+        "treatment_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 3,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        3,
+        5,
+        0,
+        15,
+        12,
+        1,
+        8,
+        10,
+        2,
+        6,
+        14,
+        13,
+        9,
+        4,
+        7,
+        11
+      ],
+      "query_slot": 5,
+      "query_symbol_id": 5,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e000",
+        "graph_seed": 17308822053425216417,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 10092858452699289960,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "aac0aa2b1b5e2cf6bd4a158a139853fd3e4efe2d8d13c93773cddd5bd22e3de4",
+      "split": "development",
+      "stage_next_ids": [
+        14,
+        9,
+        2,
+        1,
+        13,
+        3,
+        10,
+        6
+      ],
+      "stage_row_targets": [
+        1,
+        10,
+        12,
+        8,
+        5,
+        11,
+        0,
+        7
+      ],
+      "stage_source_ids": [
+        5,
+        14,
+        9,
+        2,
+        1,
+        13,
+        3,
+        10
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        5,
+        14,
+        9,
+        2,
+        1,
+        13,
+        3,
+        10,
+        6
+      ],
+      "task_truth_hash": "cdc2b3770490b2c5a35758adbc9780c26be29e2e2af4334a9bba6cd336882397",
+      "terminal_id": 6,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "2f21f23d3d0e2a84436ac5bc723d99da1fa857a868e9b1a4b6080ba0177f9682"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-adaa1f69000b4676dff1",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-adaa1f69000b4676dff1",
+        "close_identity_transform": null,
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+        "graph_seed": 17056032878924929128,
+        "graph_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 9986770014808902790,
+        "treatment_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 3,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        7,
+        14,
+        1,
+        15,
+        2,
+        0,
+        8,
+        10,
+        13,
+        11,
+        9,
+        6,
+        5,
+        12,
+        4,
+        3
+      ],
+      "query_slot": 8,
+      "query_symbol_id": 8,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e001",
+        "graph_seed": 17056032878924929128,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 9986770014808902790,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "7f1312bdb162899e01e4b3fdfcdeb968332bbeb027ed2a3ce482628589578af4",
+      "split": "development",
+      "stage_next_ids": [
+        14,
+        10,
+        4,
+        7,
+        6,
+        13,
+        3,
+        0
+      ],
+      "stage_row_targets": [
+        6,
+        1,
+        7,
+        14,
+        0,
+        11,
+        8,
+        15
+      ],
+      "stage_source_ids": [
+        8,
+        14,
+        10,
+        4,
+        7,
+        6,
+        13,
+        3
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        8,
+        14,
+        10,
+        4,
+        7,
+        6,
+        13,
+        3,
+        0
+      ],
+      "task_truth_hash": "f7f856d2f1a8d2dd2ac5d41767322bca57817d1866fa4e0917dcdada3dda77cc",
+      "terminal_id": 0,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "truth_graph_hash": "e66ff5d788ded4b55e963397d0cba344bea2910ad4b6b665919ad6cbaab0eaed"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-9cbf6f7f84b253e51519",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-9cbf6f7f84b253e51519",
+        "close_identity_transform": null,
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+        "graph_seed": 15299700695663851864,
+        "graph_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 1,
+        "near_treatment": false,
+        "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 8789454309191795539,
+        "treatment_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 9,
+      "displaced_decoy_id": 15,
+      "missing": true,
+      "missing_at": 1,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        0,
+        5,
+        12,
+        13,
+        6,
+        11,
+        14,
+        2,
+        3,
+        15,
+        10,
+        1,
+        9,
+        4,
+        8,
+        7
+      ],
+      "query_slot": 12,
+      "query_symbol_id": 12,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e064",
+        "graph_seed": 15299700695663851864,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 8789454309191795539,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "f4cda0568a318914810a5f9365d97241de365f75337b0b24f12288f394919e76",
+      "split": "development",
+      "stage_next_ids": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        12,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        12,
+        10,
+        9,
+        11,
+        7,
+        5,
+        1,
+        8,
+        2
+      ],
+      "task_truth_hash": "ea6c6d98fad40962c00e32fb17219fa0961f96bf51691ec4e07f575ce20f88d0",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "d54c3566e217aff0cd5f3892927457786b706d6fb953c5e48d3cdaf88a9642f9"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-4927408159b4e603f01e",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-4927408159b4e603f01e",
+        "close_identity_transform": null,
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+        "graph_seed": 4201913380357050476,
+        "graph_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 2,
+        "near_treatment": false,
+        "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 15105687763069597492,
+        "treatment_seed_context": {
+          "condition_id": "durability_sigma02_cadence08_livewrite64",
+          "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 3,
+      "displaced_decoy_id": 13,
+      "missing": true,
+      "missing_at": 2,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        4,
+        1,
+        15,
+        13,
+        3,
+        0,
+        14,
+        2,
+        10,
+        12,
+        9,
+        6,
+        11,
+        8,
+        7,
+        5
+      ],
+      "query_slot": 0,
+      "query_symbol_id": 0,
+      "replacement_decoy_id": 13,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "durability_sigma02_cadence08_livewrite64",
+        "episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+        "graph_pair_condition_id": "durability_sigma02_cadence08_livewrite64",
+        "graph_pair_episode_id": "durability_sigma02_cadence08_livewrite64-s1201-e065",
+        "graph_seed": 4201913380357050476,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 15105687763069597492,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "6f03dcda540ec2a4ece55f5bde015aa34034ce922a1206dbc432071cdf9ccbfa",
+      "split": "development",
+      "stage_next_ids": [
+        12,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        5,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        0,
+        12,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        0,
+        12,
+        8,
+        14,
+        3,
+        2,
+        15,
+        10,
+        6
+      ],
+      "task_truth_hash": "10b6f62758d5c40b3f93c29d4fe855bec625e2d402072db0923f81c76e53bf00",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          15,
+          10
+        ]
+      ],
+      "truth_graph_hash": "f192a4c70b55e5407ac813c50b14e22999cc41cfd5acc2bf919630aa1ce9fe25"
+    }
+  ],
+  "checkpoint": 512,
+  "condition_id": "durability_sigma02_cadence08_livewrite64",
+  "depth": 8,
+  "episode_ids": [
+    "c-feb681afa73a89961f87-cp0512",
+    "c-adaa1f69000b4676dff1-cp0512",
+    "c-9cbf6f7f84b253e51519-cp0512",
+    "c-4927408159b4e603f01e-cp0512"
+  ],
+  "event_count": 512,
+  "faults": {},
+  "feedback_mode": "assisted",
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 5,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "205cd9edde0b1a7de57393aefa0a46c597577ce0729459f6dc030fbf40d4b0db"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 8,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "6ca75c1209a06045df363c39f121d9a8ffb5461357c0b8866de58034a5f0bfb6"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 12,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "c762360c5beb887e8d07ec4553fd9cb3fee13f51c6d812e288eb71d1ea646d62"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 0,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "6efb2466347063032d0cfdeb2cd538b450e7086b63e85d07c1168962bfa8da1e"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 512
+}

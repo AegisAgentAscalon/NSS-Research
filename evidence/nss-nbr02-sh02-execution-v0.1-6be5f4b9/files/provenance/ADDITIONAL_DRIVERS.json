@@ -1,0 +1,5 @@
+{
+  "scripts/post_audit.py": "76e0e5cb4f3605fcc9927596d7b8e0008028ac6ef7dc1dd4a9df743a60006522",
+  "scripts/verify_package.py": "1d1a82d89ea9d4997ed10fbf2db2bcaa31fec839f6f2a41ff738e1a74016008f",
+  "scripts/complete_costs.py": "484c3c07afbea0ee079eca8e260a52531cd2f03a5fc63d238ac0735af84bfcf7"
+}

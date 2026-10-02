@@ -1,0 +1,17 @@
+{
+  "events": 2,
+  "identity": {
+    "mode": "nearest",
+    "repair": null,
+    "representation": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+    "schema": "writable-empty004/state-v1",
+    "scope": "resume-test",
+    "shape": [
+      4,
+      4,
+      16
+    ]
+  },
+  "rounds": 25,
+  "sha256": "da6ecfa41c89623935ee97291b8171a0feada2f916fcf1ebe3f648ab7dc7e787"
+}

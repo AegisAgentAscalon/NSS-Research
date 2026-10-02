@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "main_result_count_unchanged": 216,
+  "additional_engineering_session_count": 1,
+  "additional_neural_observations": 18,
+  "optimizer_applications": 0,
+  "seconds": 0.024873167000009744,
+  "helper_sha256": "c6039d226a3ff486c250e772a22c2d5ff02dd7a0ab95c91b95ae278c988b7303",
+  "note": "Convenience entrypoint tested separately after main/audit; not added to main denominators."
+}

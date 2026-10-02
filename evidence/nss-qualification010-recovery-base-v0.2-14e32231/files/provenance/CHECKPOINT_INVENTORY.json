@@ -1,0 +1,1772 @@
+{
+  "status": "PARSED_FROM_REAL_SAFETENSORS_BYTES",
+  "checkpoints": [
+    {
+      "path": "reference/parent009/checkpoints/binder_near_1101.safetensors",
+      "filename": "binder_near_1101.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "2181a5a3e9a9ee6c6d3375a4c407f850f6d591f4f5e3a68c81d031b0f50eb2f8",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_near_1102.safetensors",
+      "filename": "binder_near_1102.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "b3a6c57b26f8a3d666d031296ea333a1cda87f9f0e5f7396746638ab9da45210",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_near_1103.safetensors",
+      "filename": "binder_near_1103.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "90ef16dd527287de8fe82a562deada62195618162b46e9e7b3eca2c525cd0ff7",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_near_1104.safetensors",
+      "filename": "binder_near_1104.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "8bb4203b4fe94151f6567408a9428df2c46055c2e1d6205c62bff0a81278ae22",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_near_1105.safetensors",
+      "filename": "binder_near_1105.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "e0389add4f81e6aa9ab0ea993d5e706db1f3bbcb85999ca271dc5480aaeecfac",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_ordinary_1101.safetensors",
+      "filename": "binder_ordinary_1101.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "f8e508e355257ea08aba3721c849185d1aa5682bbce4ef125b38b26647a0a4a3",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_ordinary_1102.safetensors",
+      "filename": "binder_ordinary_1102.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "0742c1334d33c126d159c5d3b502fdbc1409247699a28113df8a1adb4bd5dd9f",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_ordinary_1103.safetensors",
+      "filename": "binder_ordinary_1103.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "0f1ba6ecf0663f02091151cd535d1bc32360f861071b265032230b61a05623e0",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_ordinary_1104.safetensors",
+      "filename": "binder_ordinary_1104.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "4fd3a080f85f36cfd6ad2351c60c6ddf581a74eb7de4472b668fb1722ca5f7cb",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/checkpoints/binder_ordinary_1105.safetensors",
+      "filename": "binder_ordinary_1105.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "009 binder continuation, NOT a missing 010 reader continuation",
+      "file_sha256": "5fb8310c400c65ba5b900934f1b2d4f0d7ab43c83bc9ea16db2cda56edba8956",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/checkpoints/match_head_1001.safetensors",
+      "filename": "match_head_1001.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier match/reject head and its paired calibration",
+      "file_sha256": "c59cf06827d6fd4fa8fd894c813c16f2949fd52d4f1b0f074b6e53ddb0cd6a5d",
+      "file_bytes": 2956,
+      "parameter_values": 633,
+      "raw_tensor_bytes": 2532,
+      "tensors": {
+        "net.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            24
+          ],
+          "elements": 24,
+          "raw_bytes": 96
+        },
+        "net.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            8
+          ],
+          "elements": 192,
+          "raw_bytes": 768
+        },
+        "net.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        },
+        "net.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            16,
+            24
+          ],
+          "elements": 384,
+          "raw_bytes": 1536
+        },
+        "net.4.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "net.4.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/checkpoints/match_head_1002.safetensors",
+      "filename": "match_head_1002.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier match/reject head and its paired calibration",
+      "file_sha256": "1e94b46d4a5bf5958ff130d384b0addca0ca5359387fc070ab27eff841c8c0b9",
+      "file_bytes": 2956,
+      "parameter_values": 633,
+      "raw_tensor_bytes": 2532,
+      "tensors": {
+        "net.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            24
+          ],
+          "elements": 24,
+          "raw_bytes": 96
+        },
+        "net.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            8
+          ],
+          "elements": 192,
+          "raw_bytes": 768
+        },
+        "net.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        },
+        "net.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            16,
+            24
+          ],
+          "elements": 384,
+          "raw_bytes": 1536
+        },
+        "net.4.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "net.4.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/checkpoints/match_head_1003.safetensors",
+      "filename": "match_head_1003.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier match/reject head and its paired calibration",
+      "file_sha256": "185076b89159a42ffff816c1b0ea7d73a54e0779860ab38072e13b68304e1a45",
+      "file_bytes": 2956,
+      "parameter_values": 633,
+      "raw_tensor_bytes": 2532,
+      "tensors": {
+        "net.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            24
+          ],
+          "elements": 24,
+          "raw_bytes": 96
+        },
+        "net.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            8
+          ],
+          "elements": 192,
+          "raw_bytes": 768
+        },
+        "net.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        },
+        "net.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            16,
+            24
+          ],
+          "elements": 384,
+          "raw_bytes": 1536
+        },
+        "net.4.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "net.4.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/checkpoints/match_head_1004.safetensors",
+      "filename": "match_head_1004.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier match/reject head and its paired calibration",
+      "file_sha256": "fcbbfc8d9360944199428789e6adb77582d11d93b2dca8cce8fdf748e3091e51",
+      "file_bytes": 2956,
+      "parameter_values": 633,
+      "raw_tensor_bytes": 2532,
+      "tensors": {
+        "net.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            24
+          ],
+          "elements": 24,
+          "raw_bytes": 96
+        },
+        "net.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            8
+          ],
+          "elements": 192,
+          "raw_bytes": 768
+        },
+        "net.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        },
+        "net.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            16,
+            24
+          ],
+          "elements": 384,
+          "raw_bytes": 1536
+        },
+        "net.4.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "net.4.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/checkpoints/match_head_1005.safetensors",
+      "filename": "match_head_1005.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier match/reject head and its paired calibration",
+      "file_sha256": "9b8531ae2b081cb0cfcf59b5f7a18e83ed10d6089845e6887d3802760826fcb1",
+      "file_bytes": 2956,
+      "parameter_values": 633,
+      "raw_tensor_bytes": 2532,
+      "tensors": {
+        "net.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            24
+          ],
+          "elements": 24,
+          "raw_bytes": 96
+        },
+        "net.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            8
+          ],
+          "elements": 192,
+          "raw_bytes": 768
+        },
+        "net.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        },
+        "net.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            16,
+            24
+          ],
+          "elements": 384,
+          "raw_bytes": 1536
+        },
+        "net.4.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "net.4.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            16
+          ],
+          "elements": 16,
+          "raw_bytes": 64
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/binder_801.safetensors",
+      "filename": "binder_801.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier binder; supports parent experiments; not required by exact owner write selection",
+      "file_sha256": "35851ec168fba34210a3a86c7709b46e71adc1b0c875b2c0d6cbe22faa3e65a9",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/binder_802.safetensors",
+      "filename": "binder_802.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier binder; supports parent experiments; not required by exact owner write selection",
+      "file_sha256": "1996820572d57a3022d9463e186a05dc88d376ae36e41f6bb14f5a8c60fffeb3",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/binder_803.safetensors",
+      "filename": "binder_803.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier binder; supports parent experiments; not required by exact owner write selection",
+      "file_sha256": "cf5347be8a7d91a61f0d372248664bd9afc2a59503b4196c9d9b4416b894372e",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/binder_804.safetensors",
+      "filename": "binder_804.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier binder; supports parent experiments; not required by exact owner write selection",
+      "file_sha256": "775573855c68f5bc95d7f3c90a67c5375bf2daad2d50a19f10008d7ec5c632be",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/binder_805.safetensors",
+      "filename": "binder_805.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier binder; supports parent experiments; not required by exact owner write selection",
+      "file_sha256": "9307875e5f4d7eb56f9a827326f8e8b300c3e6a8cd4eb8fc27a8c354dfdcc60a",
+      "file_bytes": 3552,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/gated_hop_801.safetensors",
+      "filename": "gated_hop_801.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier gated reader control, NOT the missing 010 untied attention stack",
+      "file_sha256": "6fbd2d147f720af2eba20bbb1d8696c9a4fee58610a39fe96954ece1125bbe44",
+      "file_bytes": 11208,
+      "parameter_values": 2654,
+      "raw_tensor_bytes": 10616,
+      "tensors": {
+        "gru.bias_hh": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.bias_ih": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.weight_hh": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "gru.weight_ih": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/gated_hop_802.safetensors",
+      "filename": "gated_hop_802.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier gated reader control, NOT the missing 010 untied attention stack",
+      "file_sha256": "a1337bedf5ea879bdc72de5c2f6ee52a50be68db453cdb440871a13e4fac2496",
+      "file_bytes": 11208,
+      "parameter_values": 2654,
+      "raw_tensor_bytes": 10616,
+      "tensors": {
+        "gru.bias_hh": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.bias_ih": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.weight_hh": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "gru.weight_ih": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/gated_hop_803.safetensors",
+      "filename": "gated_hop_803.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier gated reader control, NOT the missing 010 untied attention stack",
+      "file_sha256": "5a8ce83b06be4b8982b004123cfdb487676f5a8efb919c496b74d579f2f1c709",
+      "file_bytes": 11208,
+      "parameter_values": 2654,
+      "raw_tensor_bytes": 10616,
+      "tensors": {
+        "gru.bias_hh": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.bias_ih": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.weight_hh": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "gru.weight_ih": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/gated_hop_804.safetensors",
+      "filename": "gated_hop_804.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier gated reader control, NOT the missing 010 untied attention stack",
+      "file_sha256": "7d81c70ed080841a6a9914e771b6507336b0c66d965c46a7b2fe556b78f0685e",
+      "file_bytes": 11208,
+      "parameter_values": 2654,
+      "raw_tensor_bytes": 10616,
+      "tensors": {
+        "gru.bias_hh": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.bias_ih": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.weight_hh": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "gru.weight_ih": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/gated_hop_805.safetensors",
+      "filename": "gated_hop_805.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier gated reader control, NOT the missing 010 untied attention stack",
+      "file_sha256": "631989eeade04ffb5dac94270ec1a1dbdfb06e94feecd6a67c12478572c0a55f",
+      "file_bytes": 11208,
+      "parameter_values": 2654,
+      "raw_tensor_bytes": 10616,
+      "tensors": {
+        "gru.bias_hh": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.bias_ih": {
+          "dtype": "F32",
+          "shape": [
+            51
+          ],
+          "elements": 51,
+          "raw_bytes": 204
+        },
+        "gru.weight_hh": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "gru.weight_ih": {
+          "dtype": "F32",
+          "shape": [
+            51,
+            17
+          ],
+          "elements": 867,
+          "raw_bytes": 3468
+        },
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/learned_dictionary_901.safetensors",
+      "filename": "learned_dictionary_901.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier learned repair control; 010 selected exact nearest-code maintenance instead",
+      "file_sha256": "5243028d1a3125c34770589e12bc31a828025e9d24c73b05781c29ac53ec0bff",
+      "file_bytes": 1196,
+      "parameter_values": 225,
+      "raw_tensor_bytes": 900,
+      "tensors": {
+        "score.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        },
+        "score.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            32,
+            5
+          ],
+          "elements": 160,
+          "raw_bytes": 640
+        },
+        "score.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "score.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/learned_dictionary_902.safetensors",
+      "filename": "learned_dictionary_902.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier learned repair control; 010 selected exact nearest-code maintenance instead",
+      "file_sha256": "396298be4e7dbc781c689445c23f32d0f9ba587352d5f8158238503cacc57591",
+      "file_bytes": 1196,
+      "parameter_values": 225,
+      "raw_tensor_bytes": 900,
+      "tensors": {
+        "score.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        },
+        "score.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            32,
+            5
+          ],
+          "elements": 160,
+          "raw_bytes": 640
+        },
+        "score.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "score.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/learned_dictionary_903.safetensors",
+      "filename": "learned_dictionary_903.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier learned repair control; 010 selected exact nearest-code maintenance instead",
+      "file_sha256": "ee0823684288587b8ed85123dccee26639cb3f0d24fd1b2d7a4f344fd667cb62",
+      "file_bytes": 1196,
+      "parameter_values": 225,
+      "raw_tensor_bytes": 900,
+      "tensors": {
+        "score.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        },
+        "score.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            32,
+            5
+          ],
+          "elements": 160,
+          "raw_bytes": 640
+        },
+        "score.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "score.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/learned_dictionary_904.safetensors",
+      "filename": "learned_dictionary_904.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier learned repair control; 010 selected exact nearest-code maintenance instead",
+      "file_sha256": "3359a893607e667e4e83c6299296625955555879e9c42d2b99721368c8d57b29",
+      "file_bytes": 1196,
+      "parameter_values": 225,
+      "raw_tensor_bytes": 900,
+      "tensors": {
+        "score.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        },
+        "score.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            32,
+            5
+          ],
+          "elements": 160,
+          "raw_bytes": 640
+        },
+        "score.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "score.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/learned_dictionary_905.safetensors",
+      "filename": "learned_dictionary_905.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "earlier learned repair control; 010 selected exact nearest-code maintenance instead",
+      "file_sha256": "97b1e07a96145903557b7bc6fb7785482c2ae7d6fa8cb5682677d9b24017a4f0",
+      "file_bytes": 1196,
+      "parameter_values": 225,
+      "raw_tensor_bytes": 900,
+      "tensors": {
+        "score.0.bias": {
+          "dtype": "F32",
+          "shape": [
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        },
+        "score.0.weight": {
+          "dtype": "F32",
+          "shape": [
+            32,
+            5
+          ],
+          "elements": 160,
+          "raw_bytes": 640
+        },
+        "score.2.bias": {
+          "dtype": "F32",
+          "shape": [
+            1
+          ],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "score.2.weight": {
+          "dtype": "F32",
+          "shape": [
+            1,
+            32
+          ],
+          "elements": 32,
+          "raw_bytes": 128
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_801.safetensors",
+      "filename": "record_hop_801.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "010 selected inherited compact reader (original weights survive)",
+      "file_sha256": "bbac41517c64a205d37aa742df4eef97e7fe08c40c2499ac0ca8bc9cbfb00628",
+      "file_bytes": 3576,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_802.safetensors",
+      "filename": "record_hop_802.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "010 selected inherited compact reader (original weights survive)",
+      "file_sha256": "e68293b59be10dee76c8066747f4dd5b7ba049dd22db15742ad14165870caac4",
+      "file_bytes": 3576,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_803.safetensors",
+      "filename": "record_hop_803.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "010 selected inherited compact reader (original weights survive)",
+      "file_sha256": "5fce5b8d85da665487ef9bcf55d8af54c97ce649154f00efe8546a7225b648b5",
+      "file_bytes": 3576,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_804.safetensors",
+      "filename": "record_hop_804.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "010 selected inherited compact reader (original weights survive)",
+      "file_sha256": "5cc2a1636a4bde269bbce69501a14ba2dac3a547e5106f6fbebb287209bbaa20",
+      "file_bytes": 3576,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    },
+    {
+      "path": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_805.safetensors",
+      "filename": "record_hop_805.safetensors",
+      "status": "RECOVERED_EXACT_PARENT_CHECKPOINT",
+      "role": "010 selected inherited compact reader (original weights survive)",
+      "file_sha256": "b2b07fce31cc9c7a15b13f37f48890f88d578db3ca0144f45ab7693723f90e51",
+      "file_bytes": 3576,
+      "parameter_values": 818,
+      "raw_tensor_bytes": 3272,
+      "tensors": {
+        "match.k.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.log_scale": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        },
+        "match.q.weight": {
+          "dtype": "F32",
+          "shape": [
+            24,
+            17
+          ],
+          "elements": 408,
+          "raw_bytes": 1632
+        },
+        "match.threshold": {
+          "dtype": "F32",
+          "shape": [],
+          "elements": 1,
+          "raw_bytes": 4
+        }
+      }
+    }
+  ],
+  "count": 35,
+  "warning": "No Study010 1201-1205 continuation or attention checkpoint is present; do not rename a parent checkpoint as one."
+}

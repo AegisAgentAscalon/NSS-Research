@@ -1,0 +1,8 @@
+{
+  "new_optimizer_updates": 0,
+  "producer_modules_imported": false,
+  "scope_note": "Inherited verifier status text says DEVELOPMENT; exact actual main/development scope is bound in CAPTURE START and external recovery receipts.",
+  "source_lock_sha256": "930d3fb476962ff3d51a40d2add84e0c109ada09a5339c54471d6abeda53bf8c",
+  "status": "PASS",
+  "underflow_amendment_sha256": "00a0509a3da4d8af9d47ce1d9c40da7f7391413731bd26502fb0f161dcc10746"
+}

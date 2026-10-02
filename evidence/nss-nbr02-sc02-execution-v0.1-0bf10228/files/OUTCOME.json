@@ -1,0 +1,241 @@
+{
+  "status": "COMPLETE_BOUNDED_INCREMENTAL_ENGINEERING",
+  "main_conditions": 720,
+  "unique_fixtures": 48,
+  "answers": 61620,
+  "numeric_scalars": 246480,
+  "numeric_violations": 0,
+  "changed_classes": 0,
+  "duplicates": 0,
+  "max_abs": 4.0531158447265625e-06,
+  "max_normalized": 0.13416047394275665,
+  "optimizer_applications": 0,
+  "model_fits": 0,
+  "main_reference_forwards": 2160,
+  "main_sliced_forwards": 4803,
+  "main_core_seconds": 13.11808026500205,
+  "record_caps": {
+    "8": 40,
+    "32": 128,
+    "128": 384
+  },
+  "max_active_rows": {
+    "8": 36,
+    "32": 126,
+    "128": 383
+  },
+  "timed_episode_samples": 940,
+  "benchmark_cells": 20,
+  "max_recorded_main_process_rss": 333176832,
+  "branch_counts": {
+    "C": {
+      "answers": 12324,
+      "correct": 12199,
+      "false_complete": 0,
+      "deferred_attempts": 1728,
+      "unresolved_observations": 1884,
+      "reader_calls": 987,
+      "reader_input_rows": 182871,
+      "first_block_computed": 0,
+      "intermediate_hits": 0,
+      "ingest_encoded_bytes": 17280480,
+      "max_payloads": {
+        "archive_encoded_bytes": 77552,
+        "archive_raw_json_bytes": 33363,
+        "closure_index_json_bytes": 90063,
+        "graph_index_json_bytes": 70065,
+        "plan_index_bytes": 222645,
+        "progress_and_receipts_json_bytes": 26631,
+        "result_cache_json_bytes": 38572,
+        "revision_log_json_bytes": 3365,
+        "row_cache_payload_bytes": 56832
+      }
+    },
+    "S": {
+      "answers": 12324,
+      "correct": 12199,
+      "false_complete": 0,
+      "deferred_attempts": 1728,
+      "unresolved_observations": 1884,
+      "reader_calls": 945,
+      "reader_input_rows": 175080,
+      "first_block_computed": 0,
+      "intermediate_hits": 0,
+      "ingest_encoded_bytes": 17280480,
+      "max_payloads": {
+        "archive_encoded_bytes": 77552,
+        "archive_raw_json_bytes": 33363,
+        "closure_index_json_bytes": 90063,
+        "graph_index_json_bytes": 70065,
+        "plan_index_bytes": 222645,
+        "progress_and_receipts_json_bytes": 26679,
+        "result_cache_json_bytes": 38572,
+        "revision_log_json_bytes": 3365,
+        "row_cache_payload_bytes": 56832
+      }
+    },
+    "F": {
+      "answers": 12324,
+      "correct": 12199,
+      "false_complete": 0,
+      "deferred_attempts": 1728,
+      "unresolved_observations": 1884,
+      "reader_calls": 987,
+      "reader_input_rows": 182871,
+      "first_block_computed": 0,
+      "intermediate_hits": 0,
+      "ingest_encoded_bytes": 5605056,
+      "max_payloads": {
+        "archive_encoded_bytes": 77552,
+        "archive_raw_json_bytes": 33363,
+        "closure_index_json_bytes": 90063,
+        "graph_index_json_bytes": 70065,
+        "intermediate_tensor_bytes": 0,
+        "intermediate_version_json_bytes": 2,
+        "partial_plan_index_bytes": 0,
+        "plan_index_bytes": 222645,
+        "progress_and_receipts_json_bytes": 26631,
+        "result_cache_json_bytes": 38572,
+        "revision_log_json_bytes": 3365,
+        "row_cache_payload_bytes": 56832,
+        "signature_cache_json_bytes": 50864
+      }
+    },
+    "P": {
+      "answers": 12324,
+      "correct": 12199,
+      "false_complete": 0,
+      "deferred_attempts": 1728,
+      "unresolved_observations": 1884,
+      "reader_calls": 942,
+      "reader_input_rows": 174588,
+      "first_block_computed": 0,
+      "intermediate_hits": 0,
+      "ingest_encoded_bytes": 5605056,
+      "max_payloads": {
+        "archive_encoded_bytes": 77552,
+        "archive_raw_json_bytes": 33363,
+        "closure_index_json_bytes": 90063,
+        "graph_index_json_bytes": 70065,
+        "intermediate_tensor_bytes": 0,
+        "intermediate_version_json_bytes": 2,
+        "partial_plan_index_bytes": 0,
+        "plan_index_bytes": 222645,
+        "progress_and_receipts_json_bytes": 26679,
+        "result_cache_json_bytes": 38572,
+        "revision_log_json_bytes": 3365,
+        "row_cache_payload_bytes": 56832,
+        "signature_cache_json_bytes": 50864
+      }
+    },
+    "I": {
+      "answers": 12324,
+      "correct": 12199,
+      "false_complete": 0,
+      "deferred_attempts": 1728,
+      "unresolved_observations": 1884,
+      "reader_calls": 942,
+      "reader_input_rows": 174588,
+      "first_block_computed": 32544,
+      "intermediate_hits": 28800,
+      "ingest_encoded_bytes": 5605056,
+      "max_payloads": {
+        "archive_encoded_bytes": 77552,
+        "archive_raw_json_bytes": 33363,
+        "closure_index_json_bytes": 90063,
+        "graph_index_json_bytes": 70065,
+        "intermediate_tensor_bytes": 49152,
+        "intermediate_version_json_bytes": 55717,
+        "partial_plan_index_bytes": 75036,
+        "plan_index_bytes": 222645,
+        "progress_and_receipts_json_bytes": 26703,
+        "result_cache_json_bytes": 38580,
+        "revision_log_json_bytes": 3365,
+        "row_cache_payload_bytes": 56832,
+        "signature_cache_json_bytes": 50864
+      }
+    }
+  },
+  "timing_comparisons": [
+    {
+      "scope": "retained",
+      "candidate": "P",
+      "base": "S",
+      "wins": 9,
+      "cells": 12,
+      "equal_cell_geomean_time_ratio": 0.8858504961011342
+    },
+    {
+      "scope": "retained",
+      "candidate": "P",
+      "base": "C",
+      "wins": 11,
+      "cells": 12,
+      "equal_cell_geomean_time_ratio": 0.7573451079078176
+    },
+    {
+      "scope": "retained",
+      "candidate": "F",
+      "base": "C",
+      "wins": 11,
+      "cells": 12,
+      "equal_cell_geomean_time_ratio": 0.7605290623610783
+    },
+    {
+      "scope": "retained",
+      "candidate": "P",
+      "base": "F",
+      "wins": 8,
+      "cells": 12,
+      "equal_cell_geomean_time_ratio": 0.9958135006131441
+    },
+    {
+      "scope": "retained",
+      "candidate": "I",
+      "base": "P",
+      "wins": 0,
+      "cells": 12,
+      "equal_cell_geomean_time_ratio": 1.1466859448484032
+    },
+    {
+      "scope": "fresh",
+      "candidate": "P",
+      "base": "S",
+      "wins": 6,
+      "cells": 8,
+      "equal_cell_geomean_time_ratio": 0.8444979809810087
+    },
+    {
+      "scope": "fresh",
+      "candidate": "P",
+      "base": "C",
+      "wins": 8,
+      "cells": 8,
+      "equal_cell_geomean_time_ratio": 0.7054336142322146
+    },
+    {
+      "scope": "fresh",
+      "candidate": "F",
+      "base": "C",
+      "wins": 8,
+      "cells": 8,
+      "equal_cell_geomean_time_ratio": 0.746801662332012
+    },
+    {
+      "scope": "fresh",
+      "candidate": "P",
+      "base": "F",
+      "wins": 5,
+      "cells": 8,
+      "equal_cell_geomean_time_ratio": 0.9446063791949542
+    },
+    {
+      "scope": "fresh",
+      "candidate": "I",
+      "base": "P",
+      "wins": 0,
+      "cells": 8,
+      "equal_cell_geomean_time_ratio": 1.149696389923972
+    }
+  ]
+}

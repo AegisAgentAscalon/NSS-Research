@@ -1,0 +1,55 @@
+{
+  "schema": "nss.sc01.demo.v1",
+  "policy": "segment",
+  "advisory_only": true,
+  "tasks": [
+    {
+      "task": 0,
+      "status": "BLOCKED",
+      "evidence_fingerprint": "d479b2b68deb1f202862d113a1f66c39993de9c8fe89698ff4ab541d389b8f94"
+    },
+    {
+      "task": 1,
+      "status": "BLOCKED",
+      "evidence_fingerprint": "3032f7ec33864a05d84b595e55da1f944ecc5dc560b17df1eddac484b889f5de"
+    },
+    {
+      "task": 2,
+      "status": "READY",
+      "evidence_fingerprint": "f4d44455102e00507394188e84bf1daa3cbed4c38b57d0ca3db115457e6bb0fe"
+    },
+    {
+      "task": 3,
+      "status": "COMPLETE",
+      "evidence_fingerprint": "0228fc2fcfef02c7aa4ded8d89438a9cbdc7b5f149d5d162f12994deb585a80e"
+    }
+  ],
+  "stats": {
+    "plans_built": 1,
+    "peak_plan_index_bytes": 5928,
+    "source_metadata_checks": 96,
+    "archive_rows_read": 96,
+    "archive_bytes_read": 14208,
+    "peak_active_rows": 96,
+    "peak_row_cache_rows": 96,
+    "reader_calls": 1,
+    "reader_input_rows": 96,
+    "block_query_rows": 52,
+    "logical_attention_edges": 1103,
+    "revision_fields_checked": 333,
+    "peak_result_entries": 4,
+    "emitted_receipts": 4
+  },
+  "accounting": {
+    "row_cache_payload_bytes": 14208,
+    "result_cache_json_bytes": 2071,
+    "progress_and_receipts_json_bytes": 1002,
+    "plan_index_bytes": 5928,
+    "archive_encoded_bytes": 19980,
+    "archive_raw_json_bytes": 8376,
+    "revision_log_json_bytes": 533,
+    "closure_index_json_bytes": 1058,
+    "graph_index_json_bytes": 10551
+  },
+  "optimizer_applications": 0
+}

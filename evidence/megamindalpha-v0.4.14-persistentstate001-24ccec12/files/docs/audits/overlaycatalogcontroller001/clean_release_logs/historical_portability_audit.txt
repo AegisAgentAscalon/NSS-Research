@@ -1,0 +1,17 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "stored_report_sha256": "e6815a42a88ba18dc7f6c08048c48d3cb567e5e18c0f7573a3a3106fef792478",
+  "metric_groups": 60,
+  "accuracies_and_counts_exact": true,
+  "mse_bit_exact": true,
+  "mse_within_posthoc_diagnostic_tolerance": true,
+  "mse_atol": 1e-08,
+  "mse_rtol": 1e-05,
+  "nominal_environment_equal": false,
+  "maximum_mse_difference": 0,
+  "differences": [],
+  "authority": "NONE",
+  "deployment_authorized": false,
+  "qualification_eligible": false,
+  "limitation": "Historical-only diagnostic. Strict current verifier unchanged. Lower-level cause of drift not established."
+}

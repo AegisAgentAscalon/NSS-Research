@@ -1,0 +1,132 @@
+{
+  "changed_parameter_elements": 1050,
+  "checkpoint_bytes": 4984,
+  "checkpoint_sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+  "curriculum": "wide",
+  "environment": {
+    "cuda": false,
+    "energy": "NOT_MEASURED",
+    "forge": "NOT_CONNECTED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "psutil": "7.2.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "runtime": "NOT_CONNECTED",
+    "safetensors": "0.7.0",
+    "scope": "SANDBOX_CPU_NOT_USER_DEVICE",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 86400,
+  "final_parameter_digest": "1831823729abbf78055507854a2545b3af4b8868b4b456c41bf5b4577011466e",
+  "gradient_bytes_when_allocated": 4200,
+  "initial_parameter_digest": "8864f594754c842cd4f94b7e4b5abcb66e971b310fe7adb641326bc63234b4e7",
+  "kind": "soft_slots",
+  "logs": [
+    {
+      "accuracy": 0.0833333358168602,
+      "grad_norm": 0.8610004186630249,
+      "length": 16,
+      "loss": 2.2072982788085938,
+      "step": 1
+    },
+    {
+      "accuracy": 0.71875,
+      "grad_norm": 1.3169174194335938,
+      "length": 34,
+      "loss": 0.7020208835601807,
+      "step": 150
+    },
+    {
+      "accuracy": 0.8229166865348816,
+      "grad_norm": 0.3041786551475525,
+      "length": 38,
+      "loss": 0.40884411334991455,
+      "step": 300
+    },
+    {
+      "accuracy": 0.8072916865348816,
+      "grad_norm": 0.5122867226600647,
+      "length": 24,
+      "loss": 0.44904813170433044,
+      "step": 450
+    },
+    {
+      "accuracy": 0.8489583134651184,
+      "grad_norm": 1.9479531049728394,
+      "length": 53,
+      "loss": 0.39083388447761536,
+      "step": 600
+    },
+    {
+      "accuracy": 0.8958333134651184,
+      "grad_norm": 1.5145220756530762,
+      "length": 58,
+      "loss": 0.3043372333049774,
+      "step": 750
+    },
+    {
+      "accuracy": 0.8125,
+      "grad_norm": 0.6479328870773315,
+      "length": 22,
+      "loss": 0.4113878905773163,
+      "step": 900
+    },
+    {
+      "accuracy": 0.921875,
+      "grad_norm": 1.2404602766036987,
+      "length": 62,
+      "loss": 0.23777024447917938,
+      "step": 1050
+    },
+    {
+      "accuracy": 0.8958333134651184,
+      "grad_norm": 0.7029342651367188,
+      "length": 37,
+      "loss": 0.3164549469947815,
+      "step": 1200
+    },
+    {
+      "accuracy": 0.8229166865348816,
+      "grad_norm": 1.0988363027572632,
+      "length": 6,
+      "loss": 0.33614087104797363,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.9166666865348816,
+      "grad_norm": 0.2885581851005554,
+      "length": 19,
+      "loss": 0.23921449482440948,
+      "step": 1500
+    },
+    {
+      "accuracy": 0.9375,
+      "grad_norm": 1.0116829872131348,
+      "length": 46,
+      "loss": 0.1440557986497879,
+      "step": 1650
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.32283738255500793,
+      "length": 51,
+      "loss": 0.02648979239165783,
+      "step": 1800
+    }
+  ],
+  "observed_events": 2821200,
+  "optimizer_tensor_bytes": 8444,
+  "parameter_bytes": 4200,
+  "parameter_count": 1050,
+  "preparation_only": true,
+  "rss_process_peak_5ms_sample_bytes": 329646080,
+  "seed": 141,
+  "steps": 1800,
+  "supervised_key_answers": 345600,
+  "timing_excludes": "Interpreter startup, evaluation, calibration, replay, reporting, all other fits",
+  "train_batch_sha256": "11057f19d948c0ddd5aab4adc4d23746769abc2565a08afee6a42b433d9e65c7",
+  "train_cpu_seconds": 7.553615371999999,
+  "train_wall_seconds": 7.490816805999998
+}

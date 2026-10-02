@@ -1,0 +1,19 @@
+{
+  "NBR01_full": "OPEN",
+  "NBR02_07": "NOT_RUN",
+  "Windows_execution": "NOT_RUN",
+  "code_targets_and_explicit_addresses_supplied": true,
+  "foundation_tests": 68,
+  "fresh_interpreter_lifecycle_configurations": 60,
+  "fresh_interpreter_prediction_replay": true,
+  "full_historical_release_suite": "NOT_RUN",
+  "full_one_training_trajectory_reproduced": true,
+  "main_metric_cells": 11090,
+  "posthoc_diagnostic_reproduced": true,
+  "publication_or_production_qualification": false,
+  "scored_main_results_not_replaced_by_posthoc": true,
+  "source_framework_unchanged": true,
+  "status": "PASS_SCOPED_RESEARCH_RELEASE",
+  "trained_main_checkpoints": 15,
+  "unit_tests": 38
+}

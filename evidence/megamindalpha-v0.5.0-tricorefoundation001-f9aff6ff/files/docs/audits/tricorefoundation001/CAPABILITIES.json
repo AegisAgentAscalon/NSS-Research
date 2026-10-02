@@ -1,0 +1,30 @@
+{
+  "version": "0.5.0-tricore-foundation001",
+  "scope": "TEST_ADAPTERS_ONLY",
+  "current_roles": [
+    "PRIMARY",
+    "SECONDARY",
+    "TERTIARY",
+    "VALIDATOR"
+  ],
+  "overlays_required": false,
+  "primary_only": true,
+  "scoped_context": "v3",
+  "durable_owner": "Generations",
+  "native_neural_refinement": false,
+  "trained_language_components": [],
+  "low_bit_learning": false,
+  "forge": {
+    "status": "NOT_CONNECTED",
+    "training": false,
+    "exact_resume": false,
+    "source_identity": null
+  },
+  "runtime": {
+    "status": "NOT_CONNECTED",
+    "execution_permit": false,
+    "hard_preemption": false,
+    "hardware_budget_measured": false,
+    "source_identity": null
+  }
+}

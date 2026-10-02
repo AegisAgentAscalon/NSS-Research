@@ -1,0 +1,61 @@
+{
+  "source_zip": "NSS_NBR02_CYCLE01A_Feasibility_v0.1.zip",
+  "source_sha256": "b954f19e4e4971ec4a5966b8852fc3cd25258c716d75f4f3ddef587587eaf223",
+  "source_payloads_checked": 803,
+  "source_CRC_SHA_membership": "PASS",
+  "models": [
+    {
+      "seed": 4101,
+      "original_file": "parent_4101.pt",
+      "original_file_sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978",
+      "original_tensor_hash": "702c64459a0e1193ba6ce5f9b800175c0b2494a6dbc6c3b8e97675e0a4912022",
+      "export_file": "parent_4101.npz",
+      "export_sha256": "f871320bcb8047c8bbcac6ad3e764c8b03a868e44fe1f4956326974f6d6ce14f",
+      "parameters": 18249,
+      "stored_dtype": "float32",
+      "runtime_dtype": "float64",
+      "cast_exact": true
+    },
+    {
+      "seed": 4102,
+      "original_file": "parent_4102.pt",
+      "original_file_sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb",
+      "original_tensor_hash": "e25dd708748ae9ef65a541c55a0cb7ad3083b5c3275a227a4df6b3cc18fc22b6",
+      "export_file": "parent_4102.npz",
+      "export_sha256": "1e0cb2bf453ce26c934f0c3a524e86f3617f1f97f855fbdf5d217c6ecfb1e2a2",
+      "parameters": 18249,
+      "stored_dtype": "float32",
+      "runtime_dtype": "float64",
+      "cast_exact": true
+    },
+    {
+      "seed": 4103,
+      "original_file": "parent_4103.pt",
+      "original_file_sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda",
+      "original_tensor_hash": "84b5629c29de44a02ee690553939ddda59904a8723fd21cfc6c126976c65e4e3",
+      "export_file": "parent_4103.npz",
+      "export_sha256": "51bc66662090507b8a3003bfe7efc7267d7220ad6dd03e4bb8222ab43414512f",
+      "parameters": 18249,
+      "stored_dtype": "float32",
+      "runtime_dtype": "float64",
+      "cast_exact": true
+    },
+    {
+      "seed": 4104,
+      "original_file": "parent_4104.pt",
+      "original_file_sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571",
+      "original_tensor_hash": "9ebd9331bf2fdf5bdb6175b67e3c9a9b63c92e89d92d67ccf959362ff541836b",
+      "export_file": "parent_4104.npz",
+      "export_sha256": "071261d50e3aba895f6801efe8080f3c1b7b31fbf57b4b040a1a835cd4cad1e2",
+      "parameters": 18249,
+      "stored_dtype": "float32",
+      "runtime_dtype": "float64",
+      "cast_exact": true
+    }
+  ],
+  "torch": "2.10.0+cpu",
+  "numpy": "2.3.5",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "seconds": 0.3332738389999861,
+  "no_optimizer": true
+}

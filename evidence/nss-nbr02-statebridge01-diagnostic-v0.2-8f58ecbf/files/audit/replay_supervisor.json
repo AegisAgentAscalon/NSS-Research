@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "source/run.py",
+    "--output",
+    "replay"
+  ],
+  "returncode": 0,
+  "stop": null,
+  "peak_sampled_process_rss": 334331904,
+  "peak_sampled_container": 2349039616,
+  "elapsed_since_origin": 994.6880178451538,
+  "sampling_seconds": 0.2
+}

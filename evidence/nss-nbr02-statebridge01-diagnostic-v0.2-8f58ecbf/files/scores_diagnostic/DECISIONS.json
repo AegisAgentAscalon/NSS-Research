@@ -1,0 +1,26 @@
+[
+  {
+    "cycles_pass": 9,
+    "cycles_total": 32,
+    "mode": "carry",
+    "per_fit": [
+      2,
+      3,
+      2,
+      2
+    ],
+    "screen_pass": false
+  },
+  {
+    "cycles_pass": 1,
+    "cycles_total": 32,
+    "mode": "rebuild",
+    "per_fit": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "screen_pass": false
+  }
+]

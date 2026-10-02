@@ -1,0 +1,21 @@
+test_stagehandoff001 (unittest.loader._FailedTest.test_stagehandoff001) ... ERROR
+
+======================================================================
+ERROR: test_stagehandoff001 (unittest.loader._FailedTest.test_stagehandoff001)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_stagehandoff001
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.13/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/mnt/data/MegaMindAlpha_v0.4.2_StageHandoff001/tests/test_stagehandoff001.py", line 19, in <module>
+    from nss_base.task_records import validate_task_record, attach_task_record, validate_checkpoint
+ModuleNotFoundError: No module named 'nss_base.task_records'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

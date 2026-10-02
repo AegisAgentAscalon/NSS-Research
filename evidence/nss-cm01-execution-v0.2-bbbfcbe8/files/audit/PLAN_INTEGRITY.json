@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files_hash_verified": 10,
+  "proposal_arithmetic_checked": true,
+  "sample_control_bytes": 56,
+  "model_forwards_executed": 0,
+  "training_updates_executed": 0,
+  "scope": "documentation_integrity_only_not_scientific_validation"
+}

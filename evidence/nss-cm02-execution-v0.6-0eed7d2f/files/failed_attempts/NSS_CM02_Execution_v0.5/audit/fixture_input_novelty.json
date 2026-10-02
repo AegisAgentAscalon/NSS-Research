@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM02_Execution_v0.5/src/novelty.py",
+    "--input",
+    "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+    "--output",
+    "/mnt/data/NSS_CM02_Execution_v0.5/audit/FIXTURE_INPUT_IDENTITY.json"
+  ],
+  "failure": null,
+  "poll_interval_seconds": 0.05,
+  "returncode": 0,
+  "sampled_cgroup_peak_bytes": 1435521024,
+  "sampled_process_tree_peak_rss_bytes": 212692992,
+  "samples": 24,
+  "shared_wall_seconds": 1328.2008380889893,
+  "stage": "fixture_input_novelty",
+  "stage_wall_seconds": 1.238844871520996,
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "total_recorded_attempted_forwards": 1220
+}

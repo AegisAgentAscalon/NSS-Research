@@ -1,0 +1,70 @@
+{
+  "C1_RW_designated_wrong_DONE": 6,
+  "C1_RW_invalid_use_claims_out_of_640": 96,
+  "C1_RW_joint_by_fit_out_of_80": {
+    "0": 34,
+    "1": 36,
+    "2": 34,
+    "3": 35
+  },
+  "C1_level_success_differences": {
+    "R": {
+      "binding_all": 16,
+      "joint": 2
+    },
+    "Rplus": {
+      "binding_all": 31,
+      "joint": 16
+    }
+  },
+  "D1_coverage_effect": false,
+  "D2_configuration_interaction": false,
+  "D3_absolute_reliability": false,
+  "P_readouts_per_cell": 144,
+  "P_unique_occasions": 36,
+  "RW_positive_families_J_and_B": 0,
+  "RW_positive_paired_fits_J_and_B": 0,
+  "additional_final_level_advantage": false,
+  "delta_success_counts": {
+    "R": {
+      "binding_all": 46,
+      "joint": 12
+    },
+    "RW": {
+      "binding_all": 0,
+      "joint": -7
+    },
+    "Rplus": {
+      "binding_all": 60,
+      "joint": 15
+    }
+  },
+  "designated_wrong_DONE_by_cell": {
+    "C0_R": 23,
+    "C0_RW": 16,
+    "C0_Rplus": 13,
+    "C1_R": 7,
+    "C1_RW": 6,
+    "C1_Rplus": 9
+  },
+  "interaction_success_counts": {
+    "R": {
+      "binding_all": -46,
+      "joint": -19
+    },
+    "Rplus": {
+      "binding_all": -60,
+      "joint": -22
+    }
+  },
+  "no_omnibus_pass": true,
+  "positive_interaction_families": {
+    "R": 0,
+    "Rplus": 0
+  },
+  "positive_interaction_paired_fits": {
+    "R": 0,
+    "Rplus": 0
+  },
+  "split": "main"
+}

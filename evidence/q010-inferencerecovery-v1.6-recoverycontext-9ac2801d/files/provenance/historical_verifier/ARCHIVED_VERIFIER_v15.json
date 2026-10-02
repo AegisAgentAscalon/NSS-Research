@@ -1,0 +1,25 @@
+{
+  "id": "ARCHIVED_VERIFIER_v15",
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/mnt/data/_q010_validate_20260924/prepared_v15/workspace/.research_work/NSS_NBR01_Qualification010_Reconstruction_v1.0/verification_B/tests",
+    "-v"
+  ],
+  "pid": 1652,
+  "start_utc": "2026-09-24T09:47:52.497610+00:00",
+  "end_utc": "2026-09-24T09:47:55.218213+00:00",
+  "wall_seconds": 2.7206328760000815,
+  "maximum_sampled_tree_rss_bytes": 284078080,
+  "returncode": 1,
+  "stop_reason": null,
+  "expected_returncodes": [
+    0,
+    1
+  ],
+  "expectation_met": true,
+  "log": "/mnt/data/Q010_ExecutionValidation_v1.5/logs/ARCHIVED_VERIFIER_v15.log"
+}

@@ -1,0 +1,120 @@
+{
+  "changed_parameter_elements": 148,
+  "checkpoint_sha256": "12b7b23a68b3aafca87a86b19a2989a1e5c3e8ad4a69d8ee835d7beb29f40b8f",
+  "development": true,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789953007.476932,
+    "torch": "2.10.0+cpu"
+  },
+  "final_digest": "ee10ec4b81713deecfb8b26e8758c455fdb791b0109ed8297c65360c297940cf",
+  "frozen_sources_unchanged": true,
+  "gradient_bytes": 592,
+  "initial_digest": "0fd8e9a562d86e85c9d67c02fddf53b8c395567a2e3cefd7103fa22b6697d415",
+  "kind": "split4",
+  "learn_seed": 641,
+  "logs": [
+    {
+      "anchor": 1.0342533588409424,
+      "content_mse": 0.0,
+      "depth": 8,
+      "grad": 5.06819486618042,
+      "loss": 3.059385299682617,
+      "presence_mse": 0.99220871925354,
+      "step": 1,
+      "task": 0.9908784627914429
+    },
+    {
+      "anchor": 1.6002688425942324e-05,
+      "content_mse": 0.0,
+      "depth": 16,
+      "grad": 0.03143748641014099,
+      "loss": 0.0019563378300517797,
+      "presence_mse": 0.0007774545811116695,
+      "step": 300,
+      "task": 0.0019243324641138315
+    },
+    {
+      "anchor": 4.085336513526272e-06,
+      "content_mse": 0.0,
+      "depth": 4,
+      "grad": 0.01534215733408928,
+      "loss": 0.00383752235211432,
+      "presence_mse": 0.0008957870304584503,
+      "step": 600,
+      "task": 0.0038293516263365746
+    },
+    {
+      "anchor": 2.5568949695298215e-06,
+      "content_mse": 0.0,
+      "depth": 1,
+      "grad": 0.028609350323677063,
+      "loss": 0.009042865596711636,
+      "presence_mse": 0.009037751704454422,
+      "step": 900,
+      "task": 0.009037751704454422
+    },
+    {
+      "anchor": 1.5941582205414306e-06,
+      "content_mse": 0.0,
+      "depth": 4,
+      "grad": 0.007094215601682663,
+      "loss": 0.0013210646575316787,
+      "presence_mse": 0.00029845937388017774,
+      "step": 1200,
+      "task": 0.0013178763911128044
+    },
+    {
+      "anchor": 1.0236883554171072e-06,
+      "content_mse": 0.0,
+      "depth": 2,
+      "grad": 0.021669020876288414,
+      "loss": 0.006545413751155138,
+      "presence_mse": 0.00047787727089598775,
+      "step": 1500,
+      "task": 0.006543366238474846
+    },
+    {
+      "anchor": 2.398256242486241e-07,
+      "content_mse": 0.0,
+      "depth": 16,
+      "grad": 0.0024616883601993322,
+      "loss": 0.00022501259809359908,
+      "presence_mse": 8.168159547494724e-05,
+      "step": 1800,
+      "task": 0.00022453295241575688
+    }
+  ],
+  "matching": "same generated episodes, labels, steps and optimizer settings; selected coordinates/objectives/trainable weights differ, NOT compute matched",
+  "optimizer_tensor_bytes": 1200,
+  "parameter_bytes": 592,
+  "parent_sha256": "d75b5db37767c506618fde9dff6276eb789308f8a7daa5cd3bd45ed26ef5e8a4",
+  "protocol_sha256": "ddd433cf19994640800661ea94afc55a076f8c3ba5cc5ff0afb86862d7e17f46",
+  "reference_sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+  "rep_seed": 141,
+  "sampled_process_peak_rss_bytes": 326463488,
+  "scope": "supervised maintenance of an explicitly encoded existence state; not learned admission or entity binding",
+  "sequence_presentations": 230400,
+  "source_identity": {
+    "nbr01_exist/__init__.py": "486d4a3aff07880662e523fc5047629a154757a666fed2c0e807bb1ea191802a",
+    "nbr01_exist/models.py": "5b171f5327c459125a1e02021c2c4f0863ab044038f483da578e63ebcbcba1cf",
+    "nbr01_exist/train.py": "8e168eb3fb3d6238f153f6335fdda8d517762dfebb03d5a64d78b121c54ce13c",
+    "nbr01_exist/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "tools/train_worker.py": "4d2b02380d3dd302602d402b8f22a421dcabf3f5c523ccc677c5f7b30dd4beae"
+  },
+  "status": "RUN",
+  "steps": 1800,
+  "supervised_event_presentations": 1406464,
+  "train_cpu_seconds": 5.043496814,
+  "train_wall_seconds": 5.034344199000003,
+  "trainable_parameters": 148,
+  "training_data_digest": "eb0467c1fa8b66bc8205582d26b99d273ecb69ad6b4efdebb22e7b69153c8093",
+  "training_maintenance_rounds": 10988
+}

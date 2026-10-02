@@ -1,0 +1,43 @@
+test_bad_ids_types_and_splits_fail_typed (test_dataset_boundaries.BoundaryTests.test_bad_ids_types_and_splits_fail_typed) ... ok
+test_batch_checks_are_one_consistent_archive_transaction (test_dataset_boundaries.BoundaryTests.test_batch_checks_are_one_consistent_archive_transaction) ... ok
+test_batch_invalid_requests_fail_typed (test_dataset_boundaries.BoundaryTests.test_batch_invalid_requests_fail_typed) ... ok
+test_batch_reads_exact_revisions_without_admin_inspection (test_dataset_boundaries.BoundaryTests.test_batch_reads_exact_revisions_without_admin_inspection) ... ok
+test_consumption_is_rechecked_every_time (test_dataset_boundaries.BoundaryTests.test_consumption_is_rechecked_every_time) ... ok
+test_corrupted_revocation_event_blocks_consumption (test_dataset_boundaries.BoundaryTests.test_corrupted_revocation_event_blocks_consumption) ... ok
+test_deep_nonfinite_and_cyclic_request_rejected (test_dataset_boundaries.BoundaryTests.test_deep_nonfinite_and_cyclic_request_rejected) ... ok
+test_malformed_db_file_open_is_typed (test_dataset_boundaries.BoundaryTests.test_malformed_db_file_open_is_typed) ... ok
+test_missing_revocation_index_row_must_not_restore_permission (test_dataset_boundaries.BoundaryTests.test_missing_revocation_index_row_must_not_restore_permission) ... FAIL
+test_missing_snapshot_db_not_recreated_on_read (test_dataset_boundaries.BoundaryTests.test_missing_snapshot_db_not_recreated_on_read) ... ok
+test_operation_identity_corruption_rejected (test_dataset_boundaries.BoundaryTests.test_operation_identity_corruption_rejected) ... ok
+test_orphan_operation_detected_by_audit (test_dataset_boundaries.BoundaryTests.test_orphan_operation_detected_by_audit) ... ok
+test_oversized_input_rejected_without_publication (test_dataset_boundaries.BoundaryTests.test_oversized_input_rejected_without_publication) ... ok
+test_request_does_not_allow_executable_transform_or_implicit_latest (test_dataset_boundaries.BoundaryTests.test_request_does_not_allow_executable_transform_or_implicit_latest) ... ok
+test_revocation_between_observation_and_publication_yields_nonusable_snapshot (test_dataset_boundaries.BoundaryTests.test_revocation_between_observation_and_publication_yields_nonusable_snapshot) ... ok
+test_revocation_index_cannot_be_repointed_away_from_affected_source (test_dataset_boundaries.BoundaryTests.test_revocation_index_cannot_be_repointed_away_from_affected_source) ... FAIL
+test_shared_ancestor_source_cannot_leak_across_splits (test_dataset_boundaries.BoundaryTests.test_shared_ancestor_source_cannot_leak_across_splits) ... ok
+test_unknown_or_future_store_schema_fails_closed (test_dataset_boundaries.BoundaryTests.test_unknown_or_future_store_schema_fails_closed) ... ok
+test_unrecognized_fault_point_is_not_accepted (test_dataset_boundaries.BoundaryTests.test_unrecognized_fault_point_is_not_accepted) ... ok
+test_whitespace_example_rejected (test_dataset_boundaries.BoundaryTests.test_whitespace_example_rejected) ... ok
+
+======================================================================
+FAIL: test_missing_revocation_index_row_must_not_restore_permission (test_dataset_boundaries.BoundaryTests.test_missing_revocation_index_row_must_not_restore_permission)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/MegaMindAlpha_v0.4.4_DatasetSnapshot001/tests/test_dataset_boundaries.py", line 31, in test_missing_revocation_index_row_must_not_restore_permission
+    self.assertNotEqual(self.read(receipt)['status'],'SUCCESS')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'SUCCESS' == 'SUCCESS'
+
+======================================================================
+FAIL: test_revocation_index_cannot_be_repointed_away_from_affected_source (test_dataset_boundaries.BoundaryTests.test_revocation_index_cannot_be_repointed_away_from_affected_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/MegaMindAlpha_v0.4.4_DatasetSnapshot001/tests/test_dataset_boundaries.py", line 37, in test_revocation_index_cannot_be_repointed_away_from_affected_source
+    self.assertNotEqual(self.read(receipt)['status'],'SUCCESS')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'SUCCESS' == 'SUCCESS'
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.636s
+
+FAILED (failures=2)

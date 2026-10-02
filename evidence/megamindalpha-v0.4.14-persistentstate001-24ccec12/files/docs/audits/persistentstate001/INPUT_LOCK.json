@@ -1,0 +1,22 @@
+{
+  "format": "PersistentState001.InputLock.v1",
+  "inputs": {
+    "MegaMindAlpha_v0.4.13_CandidateAcceptance001.zip": {
+      "bytes": 27826906,
+      "sha256": "5bf65a94f85e3c70ac53757d61754f63358389c8d8629c2aede5c270815e5dcf"
+    },
+    "NSS_Fruit_Fly_Inspired_Persistent_State_and_Learning_Addendum_v0.2(1).docx": {
+      "bytes": 87344,
+      "sha256": "3bade7b45cd0845a7d926f77a7e6f85107a0a1b181a6d4e161f53089f0cfe2c7"
+    },
+    "NSS_Persistent_State_Learning_Reconciliation_v0.1.md": {
+      "bytes": 22085,
+      "sha256": "9220ca3476ca48602d2a2db085a80268bad83a848b0f7d8a04a5ea48e06dfafa"
+    },
+    "NSS_Persistent_State_Acceptance_Cases_v0.1.json": {
+      "bytes": 10291,
+      "sha256": "d1e14684dd02fadbb894a284c61289b87d74c6995fa6cfaf5de6abd99ac0facf"
+    }
+  },
+  "scope": "source-bound implementation, original files unchanged"
+}

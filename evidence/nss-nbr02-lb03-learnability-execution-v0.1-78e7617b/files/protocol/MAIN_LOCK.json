@@ -1,0 +1,232 @@
+{
+  "frozen_utc": "2026-10-02T03:33:44.699072+00:00",
+  "purpose": "Before first main optimizer application or main model evaluation",
+  "preflight_actual_updates": 24,
+  "files": [
+    {
+      "path": "bin/kernels.so",
+      "bytes": 15600,
+      "sha256": "a02c8c42b6d1d99288f902ea51f64243f4ff4af52c1852a5943daadfb0b447b6"
+    },
+    {
+      "path": "bin/master16.so",
+      "bytes": 19880,
+      "sha256": "3b05211a1330ca21ccbbc6959d5329ba051e9204c592a0f3d242ec995f363c66"
+    },
+    {
+      "path": "docs/CANDIDATES.md",
+      "bytes": 4338,
+      "sha256": "e122022e950feef10689e0f145f22ea508772e0ee6c6dc5fbbb6c11e70ac586e"
+    },
+    {
+      "path": "fixtures/GENERATION.json",
+      "bytes": 4190,
+      "sha256": "147b61984422ad46643f9bf3106f0132f20d1aaa4f88c7f70f9d1046d770ee31"
+    },
+    {
+      "path": "fixtures/confirmation.npz",
+      "bytes": 20521,
+      "sha256": "3b58a119a1df7370b4c387df02c59228392ec4890fe675e0eb6118532362e212"
+    },
+    {
+      "path": "fixtures/development.npz",
+      "bytes": 2401,
+      "sha256": "8e987dad8cf4cb9fff110e9b2e27b12dedfcb57078efa83839edcc3cf59c7b0e"
+    },
+    {
+      "path": "fixtures/stress.npz",
+      "bytes": 9422,
+      "sha256": "436459914903588c18dde6a05892a5c47133a8e531b1c26c23420e54f2e9d31b"
+    },
+    {
+      "path": "inputs/parents/4101_s0000.pt",
+      "bytes": 125035,
+      "sha256": "feea4b02dabca0e9143ae6ae7a11b611aab3ef4f0a52b647745ed444f64d1846"
+    },
+    {
+      "path": "inputs/parents/4101_s1024.pt",
+      "bytes": 125035,
+      "sha256": "1619eef9bb3d769c4283c8e9a05c2dc7ca5b5a5ca4e92fa3d21dbc8afcfc5065"
+    },
+    {
+      "path": "inputs/parents/4102_s0000.pt",
+      "bytes": 125035,
+      "sha256": "7e0643518524421c5420031545d7601eae84aaaae3ca47af9f96ba20c6252eff"
+    },
+    {
+      "path": "inputs/parents/4102_s1024.pt",
+      "bytes": 125035,
+      "sha256": "b8dac8b11390052718a6dca0b2603ea1a387fe8718c4f7b0c62827b8eb557af0"
+    },
+    {
+      "path": "inputs/parents/4103_s0000.pt",
+      "bytes": 125035,
+      "sha256": "4ce4bd82ca4855734ce490af183a0eb9b03857579b1caac963448082a34ccef2"
+    },
+    {
+      "path": "inputs/parents/4103_s1024.pt",
+      "bytes": 125035,
+      "sha256": "544a7942730102eaffbd4699b796ad34fb39279a879dce191c2c8fd04cc40fc7"
+    },
+    {
+      "path": "inputs/parents/4104_s0000.pt",
+      "bytes": 125035,
+      "sha256": "40ce116e4ec732f6c85fc27c4aabd24b76dda0f2c14a754492c8ac8b86210d2a"
+    },
+    {
+      "path": "inputs/parents/4104_s1024.pt",
+      "bytes": 125035,
+      "sha256": "6683f98ff9b018d61baa3a6d8b8b7c1353adf9ad2c93ef2eaf3e5052cd492f50"
+    },
+    {
+      "path": "inputs/prior_fixtures/p56_confirmation.npz",
+      "bytes": 20849,
+      "sha256": "d46a5530edc7515d89293dec353b7022a00a4c56560dd965a3bdf12f4cfb938c"
+    },
+    {
+      "path": "inputs/prior_fixtures/p56_development.npz",
+      "bytes": 2376,
+      "sha256": "dec8e0dd742c1a8cb39703dc729999e02eaefecd9f6b32e06c385c4a770fa6a3"
+    },
+    {
+      "path": "inputs/prior_fixtures/p56_stress.npz",
+      "bytes": 12255,
+      "sha256": "358afac8c2f507c9937c92c7baa715ee2bed4e539359a10d082db4e291019b46"
+    },
+    {
+      "path": "inputs/prior_fixtures/p57_confirmation.npz",
+      "bytes": 20578,
+      "sha256": "d5c0a89410723e05ccb93d78634bef781e303e20accdc4e614da321ca83aaac3"
+    },
+    {
+      "path": "inputs/prior_fixtures/p57_development.npz",
+      "bytes": 2396,
+      "sha256": "8a150df6839841a6339e9800bf210d467a60f2ba298ef103d4fb9911c81adc0b"
+    },
+    {
+      "path": "inputs/prior_fixtures/p57_stress.npz",
+      "bytes": 4738,
+      "sha256": "783cce159871f5beada65eb03126fb4d7d6b16c1f6e50d4498a719c89e40398f"
+    },
+    {
+      "path": "inputs/prior_fixtures/p58_confirmation.npz",
+      "bytes": 20867,
+      "sha256": "706dc0aeb8d242b4f9d55daa4d60d6598dfdd8eea627bd0be5d65a3f845bbe8a"
+    },
+    {
+      "path": "inputs/prior_fixtures/p58_development.npz",
+      "bytes": 2624,
+      "sha256": "657734b505ab178815988568f997c05b8c2a98683d20e5f8a1fd8a1cedeb8173"
+    },
+    {
+      "path": "inputs/prior_fixtures/p58_stress.npz",
+      "bytes": 4890,
+      "sha256": "548f31515e848533daf2e2db330f2e0c43d8129240a4af104b99227b1b5c8b16"
+    },
+    {
+      "path": "inputs/prior_fixtures/p59_confirmation.npz",
+      "bytes": 20836,
+      "sha256": "50bb281831de2bc5c36a4e044ccfc66d2898d1df0ab136f126e51ff44e2b576d"
+    },
+    {
+      "path": "inputs/prior_fixtures/p59_development.npz",
+      "bytes": 2404,
+      "sha256": "f71f93332a7a1d71663bd372ccd784f4bf8d92fc613620bc4d72e8ba1dde7327"
+    },
+    {
+      "path": "inputs/prior_fixtures/p59_stress.npz",
+      "bytes": 23049,
+      "sha256": "3c9181641b07b1012c42f8f3bf2a76f3799a0b22134d8303adc5a97539990289"
+    },
+    {
+      "path": "inputs/replay/4101.npz",
+      "bytes": 53900,
+      "sha256": "0bd086b64745cd5732ba38a079f517d99ed44e28b31e20190bb29453ce2d34f0"
+    },
+    {
+      "path": "inputs/replay/4102.npz",
+      "bytes": 53854,
+      "sha256": "87893ff99a8636b157664f7cfa4daa1e5c505d49993060cb192670d6eea52642"
+    },
+    {
+      "path": "inputs/replay/4103.npz",
+      "bytes": 54079,
+      "sha256": "65d459848b3769dc6972e703cd1aee0b1a6ef227be0cc62f57d101362aa31c9d"
+    },
+    {
+      "path": "inputs/replay/4104.npz",
+      "bytes": 53881,
+      "sha256": "96952a55b0aa96941c836332111674efa4bef8464a1940cb71d1b92c9b335bac"
+    },
+    {
+      "path": "protocol/CONFIG.json",
+      "bytes": 2445,
+      "sha256": "1a2cfea6a272f6de8e453cca08d6e30855a70743bef3d1fb931585bc11e4b6b6"
+    },
+    {
+      "path": "protocol/ENVIRONMENT.json",
+      "bytes": 412,
+      "sha256": "4a0b205f5909ee8c4e40c3f1c0cc6654416ce3385222e490ff359695240a86c5"
+    },
+    {
+      "path": "protocol/PROTOCOL.md",
+      "bytes": 11849,
+      "sha256": "0af32bb5002e957fa00abc28322c1a0af542c612cc8fb5714106fb80273dbbd5"
+    },
+    {
+      "path": "source/candidate.py",
+      "bytes": 7171,
+      "sha256": "edf4e58a6952f60cb40356c5470f385f1ee25d3f2425df07d8e7bbd413994545"
+    },
+    {
+      "path": "source/inherited_engine.py",
+      "bytes": 12016,
+      "sha256": "03332bc9ffe796d3b1f772820007db30e17458bfb64b9eca3c3cbe96a2e28633"
+    },
+    {
+      "path": "source/kernels.c",
+      "bytes": 2708,
+      "sha256": "df58ecb0eb61c886186875902ee54fa07fa625f17e5da55589b43535363f674d"
+    },
+    {
+      "path": "source/master16.c",
+      "bytes": 3886,
+      "sha256": "8b33682729175357c8dfd51add0d334c601910329eec76bb7cdc7efe61a5e977"
+    },
+    {
+      "path": "source/task.py",
+      "bytes": 2730,
+      "sha256": "2488c11fb8813cc5d077cd589bc09395b710c00782807cdf098c7f9e1717a48c"
+    },
+    {
+      "path": "tools/analyze.py",
+      "bytes": 4773,
+      "sha256": "e20156dda36e95a2e29f1f64db8a55b9f5b68c8612fe59da05e0418eb4c30d9c"
+    },
+    {
+      "path": "tools/evaluate_one.py",
+      "bytes": 4585,
+      "sha256": "ab52b45f40ed9b64ac93cc5273b7c71d4480e4ecaed6c757d5fcd1e27d6ff912"
+    },
+    {
+      "path": "tools/freeze.py",
+      "bytes": 1662,
+      "sha256": "082e02da0b0f27a026d71183f88d3768d9935bd1fb7b355f2a44ae0a135b61e1"
+    },
+    {
+      "path": "tools/preflight.py",
+      "bytes": 8208,
+      "sha256": "1d077003bdfcb43818d9a2054129116bc394d9499664342e11ea69779efab33a"
+    },
+    {
+      "path": "tools/prepare.py",
+      "bytes": 2123,
+      "sha256": "2e1e26c0d08754fcdca9c5b8f695b16274b47258482756ce1fb0d30e3095929e"
+    },
+    {
+      "path": "tools/run_one.py",
+      "bytes": 3449,
+      "sha256": "f050905913a294bd4080f9b8f81c761a2fa458dd2d5c3187051f472e95f0c319"
+    }
+  ]
+}

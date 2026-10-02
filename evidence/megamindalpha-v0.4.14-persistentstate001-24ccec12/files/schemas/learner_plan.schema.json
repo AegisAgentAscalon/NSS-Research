@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "format": {
+      "const": "MegaMindAlpha.BoundedLearnerCoordinator001"
+    },
+    "cycle_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "producer_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "at": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 253402300799
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "parent": {
+      "$ref": "qualification_binding.schema.json"
+    },
+    "parent_core_certificate": {
+      "type": "object",
+      "properties": {
+        "request_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+        },
+        "certificate_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "request_id",
+        "certificate_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "archive_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "snapshot_request": {
+      "$ref": "dataset_build.schema.json"
+    },
+    "recipe": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "const": "frozen_core_A2_replacement_v1"
+        },
+        "seed": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2147483647
+        },
+        "steps": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "learning_rate": {
+          "type": "number",
+          "minimum": 1e-05,
+          "maximum": 0.1
+        }
+      },
+      "required": [
+        "id",
+        "seed",
+        "steps",
+        "learning_rate"
+      ],
+      "additionalProperties": false
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "optimizer_updates": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "evaluation_passes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "training_attempts": {
+          "type": "integer",
+          "const": 1
+        }
+      },
+      "required": [
+        "optimizer_updates",
+        "evaluation_passes",
+        "training_attempts"
+      ],
+      "additionalProperties": false
+    },
+    "criteria": {
+      "const": {
+        "minimum_accuracy": 0.95,
+        "minimum_retained_accuracy": 0.95,
+        "minimum_gain": 0.01,
+        "repeats": 2,
+        "suite": "A2B_with_parent_and_retention_v1"
+      }
+    },
+    "code_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "environment_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "origin": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "task_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+            },
+            "record_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "context_packet_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "task_id",
+            "record_sha256",
+            "context_packet_sha256"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "authority": {
+      "const": "NONE"
+    }
+  },
+  "required": [
+    "schema_version",
+    "format",
+    "cycle_id",
+    "producer_id",
+    "at",
+    "reason",
+    "parent",
+    "parent_core_certificate",
+    "archive_sha256",
+    "snapshot_request",
+    "recipe",
+    "budget",
+    "criteria",
+    "code_sha256",
+    "environment_sha256",
+    "origin",
+    "authority"
+  ],
+  "additionalProperties": false
+}

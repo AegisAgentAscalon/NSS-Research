@@ -1,0 +1,110 @@
+{
+  "study": "NSS NBR02 LB01-TERNARY",
+  "version": "0.1",
+  "created_at_utc": "2026-09-29T13:02:57.628339+00:00",
+  "disposition": "COMPLETE_BOUNDED_DIAGNOSTIC / TERNARY_WORKING_POINT_NOT_ESTABLISHED",
+  "archives": [
+    {
+      "file": "NSS_NBR02_LB01_TERNARY_Execution_v0.1.zip",
+      "bytes": 106822000,
+      "sha256": "b373ac8af17f430af4d8b6475ed3582191631acc5065d9d0ea270fa8fa73dd0b",
+      "manifest_sha256": "86bcced3a12f050a8dfd82a26a0ef76f111d38b61dabb99e013f5dacc6824f20",
+      "declared_payloads": 531,
+      "payload_bytes": 111837355,
+      "CRC": "PASS",
+      "exact_membership": "PASS",
+      "all_payload_hashes": "PASS"
+    },
+    {
+      "file": "NSS_NBR02_LB01_TERNARY_Codex_Review_v0.1.zip",
+      "bytes": 186725,
+      "sha256": "a25902693bbeef853d76432321fe8668d1356085ff43e5b8f254f09cd1a28864",
+      "manifest_sha256": "5431aab272579659341096162a64e2e537588a88b5c16be7d93b96fb06ca2b87",
+      "declared_payloads": 36,
+      "payload_bytes": 1116852,
+      "CRC": "PASS",
+      "exact_membership": "PASS",
+      "all_payload_hashes": "PASS"
+    }
+  ],
+  "standalone_files": [
+    {
+      "file": "NSS_NBR02_LB01_TERNARY_Report_v0.1.md",
+      "bytes": 24195,
+      "sha256": "b8cbb4f182391ccc28ae551e17433a35834a369e40040a212634472dfc0bad6c"
+    },
+    {
+      "file": "NSS_NBR02_LB01_TERNARY_Architecture_v0.1.md",
+      "bytes": 2910,
+      "sha256": "f6e603955f616200ffaa728cbc25695137f48815757c7d2146a6b3385ff55727"
+    },
+    {
+      "file": "NSS_LB01_TERNARY_Tests_and_Answers_v0.1.md",
+      "bytes": 33736,
+      "sha256": "82fc89084100daa0e250f866f13ffb9f5baf6793bb270a516264a9245aed020e"
+    },
+    {
+      "file": "NSS_NBR02_LB01_TERNARY_Codex_Handoff_v0.1.md",
+      "bytes": 3241,
+      "sha256": "c45809819c81e160b2a0aaac0707f72deaa111bff7ef9e15555261b0bc1859ac"
+    },
+    {
+      "file": "NSS_Research_Checklist_CURRENT.md",
+      "bytes": 28711,
+      "sha256": "7be5e0b52af8397f7b3914050e3d239a1c5b7b450579951d452941ed9b380a50"
+    },
+    {
+      "file": "NSS_Research_Checklist_CURRENT.json",
+      "bytes": 92618,
+      "sha256": "5d954bc7c64b83d298e56ac0664886412cc80a78dc2c537b5d1674b1346ff46a"
+    }
+  ],
+  "original_source_verification": [
+    {
+      "archive": "NSS_NBR02_BRIDGE01_Prototype_v0.1.zip",
+      "sha256": "ade14d04d64dd5fb074bff38e109d2715c24c0104b2008a5e033f22bd789ea5f",
+      "bytes": 7732985,
+      "crc": "PASS",
+      "verified_payloads": 719,
+      "exact_membership": "PASS"
+    },
+    {
+      "archive": "NSS_NBR02_CYCLE01A_Feasibility_v0.1.zip",
+      "sha256": "b954f19e4e4971ec4a5966b8852fc3cd25258c716d75f4f3ddef587587eaf223",
+      "bytes": 42881327,
+      "crc": "PASS",
+      "verified_payloads": 803,
+      "exact_membership": "PASS"
+    }
+  ],
+  "source_locks": [
+    {
+      "lock": "LOCK.json",
+      "count": 20,
+      "pass": true
+    },
+    {
+      "lock": "FIXTURE_LOCK.json",
+      "count": 4,
+      "pass": true
+    },
+    {
+      "lock": "AUDIT_LOCK.json",
+      "count": 1,
+      "pass": true
+    }
+  ],
+  "actual_optimizer_applications": 4614,
+  "checklist_version": "0.21",
+  "historical_entries": 56,
+  "unrelated_studies_on_hold": true,
+  "not_claimed": [
+    "1.58bit total model or total training state",
+    "native integer recurrent arithmetic",
+    "fast optimized ternary kernels",
+    "complete companion",
+    "new-association acquisition",
+    "accepted ternary working point"
+  ],
+  "verification_scope": "All delivered archive bytes and original selected source bytes; scientific audit is separately retained and internally reproduced, not external replication."
+}

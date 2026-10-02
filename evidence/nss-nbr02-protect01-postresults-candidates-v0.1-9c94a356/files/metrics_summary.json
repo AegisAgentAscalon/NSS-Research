@@ -1,0 +1,145 @@
+{
+  "schema": "NBR02_PROTECT01_METRICS_SUMMARY_v1",
+  "source_archive": "Research/NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+  "source_members": [
+    "STATUS.json",
+    "analysis/EXPLORATORY_SUMMARY.json",
+    "receipts/A0_AND_GUARDS_LOCK.json"
+  ],
+  "status": "STOPPED_AT_A0_RELATIVE_GAIN",
+  "machine_status": "BASELINE_INCOMPETENT",
+  "heldout_generated": false,
+  "heldout_screen": "NOT_ASSESSED",
+  "A0": {
+    "required_passing_fits_per_arm": 3,
+    "passing_fits": {
+      "G": 2,
+      "L": 4
+    },
+    "fits": [
+      {
+        "arm": "G",
+        "development_correct": 17,
+        "fit": 0,
+        "frozen_correct": 11,
+        "gain": 6,
+        "initial_correct": 8,
+        "pass": 1
+      },
+      {
+        "arm": "G",
+        "development_correct": 18,
+        "fit": 1,
+        "frozen_correct": 17,
+        "gain": 1,
+        "initial_correct": 8,
+        "pass": 0
+      },
+      {
+        "arm": "G",
+        "development_correct": 19,
+        "fit": 2,
+        "frozen_correct": 14,
+        "gain": 5,
+        "initial_correct": 8,
+        "pass": 1
+      },
+      {
+        "arm": "G",
+        "development_correct": 17,
+        "fit": 3,
+        "frozen_correct": 14,
+        "gain": 3,
+        "initial_correct": 8,
+        "pass": 0
+      },
+      {
+        "arm": "L",
+        "development_correct": 18,
+        "fit": 0,
+        "frozen_correct": 14,
+        "gain": 4,
+        "initial_correct": 8,
+        "pass": 1
+      },
+      {
+        "arm": "L",
+        "development_correct": 18,
+        "fit": 1,
+        "frozen_correct": 14,
+        "gain": 4,
+        "initial_correct": 8,
+        "pass": 1
+      },
+      {
+        "arm": "L",
+        "development_correct": 19,
+        "fit": 2,
+        "frozen_correct": 14,
+        "gain": 5,
+        "initial_correct": 8,
+        "pass": 1
+      },
+      {
+        "arm": "L",
+        "development_correct": 18,
+        "fit": 3,
+        "frozen_correct": 14,
+        "gain": 4,
+        "initial_correct": 8,
+        "pass": 1
+      }
+    ],
+    "all_absolute_floors_passed": true
+  },
+  "development": {
+    "bases": 4,
+    "fits_per_arm": 4,
+    "first_correction": {
+      "G": {
+        "first_correct": {
+          "B1": 7,
+          "B2": 16,
+          "P": 13,
+          "S": 15
+        },
+        "out_of": 16,
+        "P_lost_relative_to_B2": 3,
+        "P_old_margin_drop_first_readouts": 28,
+        "old_first_readouts": 128,
+        "P_lost_old_label_in_any_tail": 0,
+        "max_relative_P_S_norm_mismatch": 1.6079182154006184e-08
+      },
+      "L": {
+        "first_correct": {
+          "B1": 9,
+          "B2": 16,
+          "P": 10,
+          "S": 16
+        },
+        "out_of": 16,
+        "P_lost_relative_to_B2": 6,
+        "P_old_margin_drop_first_readouts": 59,
+        "old_first_readouts": 128,
+        "P_lost_old_label_in_any_tail": 0,
+        "max_relative_P_S_norm_mismatch": 1.2005749353280038e-08
+      }
+    },
+    "P_old_class_tail_observations_per_method": 512,
+    "P_old_class_tail_errors_per_method": 0
+  },
+  "reported_all_attempt_counts": {
+    "cell": 86472,
+    "head": 26584,
+    "backward": 3260,
+    "update_attempt": 3400,
+    "update_commit": 3400,
+    "old_backward": 1552,
+    "local": 1708,
+    "qp": 224,
+    "support": 56832,
+    "svd": 56834
+  },
+  "source_of_counts": "Retained compact JSON; selected arithmetic cross-checked in ANALYSIS.md; no archived model/scorer/replay run",
+  "scientific_execution": false
+}

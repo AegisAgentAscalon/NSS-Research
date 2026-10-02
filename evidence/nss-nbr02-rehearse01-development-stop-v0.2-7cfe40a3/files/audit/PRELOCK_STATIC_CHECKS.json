@@ -1,0 +1,26 @@
+{
+  "syntax_files": 12,
+  "application_count": 6136,
+  "cells": 197112,
+  "heads": 63464,
+  "G_backwards": 4700,
+  "L_examples": 4700,
+  "source_imported_for_static_check": false,
+  "record_counts": {
+    "load": 602,
+    "management_load": 602,
+    "buffer_import": 32,
+    "cue": 3516,
+    "fillers": 3172,
+    "fork": 112,
+    "fork_match": 112,
+    "post_strong_match": 112,
+    "derivative": 8,
+    "update": 2836,
+    "frozen_receipt": 672,
+    "query": 26360,
+    "checkpoint": 1284,
+    "batch_example": 1856,
+    "batch_apply": 232
+  }
+}

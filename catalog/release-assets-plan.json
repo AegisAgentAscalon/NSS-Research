@@ -1,0 +1,652 @@
+[
+  {
+    "name": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip",
+    "source_locator": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip",
+    "original_bytes": 51690328,
+    "original_sha256": "5fd1f3f0ab29e9c397fa979935bc0c3f1fb65f6038bcdc57f6e399aa7d92669e",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "MegaMindAlpha_v0.4.14_PersistentState001.zip",
+    "source_locator": "Research/Foundations/MegaMindAlpha_v0.4.14_PersistentState001.zip",
+    "original_bytes": 28327938,
+    "original_sha256": "24ccec12a0513e3e60cdba49df54f25db476786b2b0770bb4a628017d9c0736a",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip",
+    "source_locator": "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip",
+    "original_bytes": 28558869,
+    "original_sha256": "f9aff6ff4509a1d797ca378122b3bda1e97d20bd50cf136a283739c51f7504e8",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_C00_Contract_Complete_v0.2.zip",
+    "source_locator": "Research/NSS_C00_Contract_Complete_v0.2.zip",
+    "original_bytes": 7447771,
+    "original_sha256": "02b3e5a3fa93ba1010a6186807bd570e98ed7c6120f1d57bb59b932fe32dbe2b",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_CM01_Execution_v0.2.zip",
+    "source_locator": "Research/NSS_CM01_Execution_v0.2.zip",
+    "original_bytes": 15265242,
+    "original_sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_CM02_Execution_v0.6.zip",
+    "source_locator": "Research/NSS_CM02_Execution_v0.6.zip",
+    "original_bytes": 13701695,
+    "original_sha256": "0eed7d2f86f53a20e207ce8a915e8be9345e3368c5ae27d61975334bfa84cd56",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_CM02_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_CM02_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 28040,
+    "original_sha256": "8113972eaa26958ca3385bbcbfc8374fb3cbabbb5bb253bb955eb7e7e0ab62cc",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_CM_Theoretical_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_CM_Theoretical_Candidates_v0.1.zip",
+    "original_bytes": 21396,
+    "original_sha256": "de4b400118bf52213935f6581d2a5e553cf16bfdc5ddf4380447c8ec1b013114",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_DIRECT01_Chat_Handoff_v0.1.zip",
+    "source_locator": "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip",
+    "original_bytes": 173526,
+    "original_sha256": "8704c0fdcc615cc9318ae23229cb19a5911493f648cfaab5748ee15374edd071",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_BindingDepth006_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_BindingDepth006_v0.1.zip",
+    "original_bytes": 15610434,
+    "original_sha256": "6b50ef5f48a89ea2bc9264d1006805d80a9589d1600f276f55733773077d9d87",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_ExistenceContent005_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_ExistenceContent005_v0.1.zip",
+    "original_bytes": 6869840,
+    "original_sha256": "0e69fd0c06c7c381442b84b443f88426c6394a8701b2eca37c4d36f79a1dec34",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_HorizonBinding002_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_HorizonBinding002_v0.1.zip",
+    "original_bytes": 1253062,
+    "original_sha256": "d6d24dcc6f7f14a9e2939c77b8b89647bb5f85ec6635dfd6646bbfacb5971d21",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_IdentityBinding009_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_IdentityBinding009_v0.1.zip",
+    "original_bytes": 242997220,
+    "original_sha256": "f35dd261c2af96058f9d3647c6345fa83d4176b426f92f3aa093861759f7632a",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_MembershipRepair008_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_MembershipRepair008_v0.1.zip",
+    "original_bytes": 67089372,
+    "original_sha256": "680ed855b084f356f5de4d059fbc29323d5fa1b56e511b20956a91e25de8bae3",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_Q010_Chat_Handoff_v1.0.zip",
+    "source_locator": "Research/NSS_NBR01_Q010_Chat_Handoff_v1.0.zip",
+    "original_bytes": 28207060,
+    "original_sha256": "40b3081fc63153c84e758cae950c5756a89b323d85cf3a9b28cc0dd3d18a9aaa",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_RepairBinding007_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_RepairBinding007_v0.1.zip",
+    "original_bytes": 3821479,
+    "original_sha256": "7f904c3fea2f724c980119a5c4adafc1c7a4da3ee96a4fd264d048a6e5028f80",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_StateDepth_Pilot001_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip",
+    "original_bytes": 1334154,
+    "original_sha256": "4de17a3c47a61516475e966400b3968d1afff75ad1e99b5dc772bc42a8f8399a",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_StateRecovery003_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_StateRecovery003_v0.1.zip",
+    "original_bytes": 1527576,
+    "original_sha256": "4f39905078916bdfc995233240b57ed50ebdae4888af68b6f3045fed6e90a679",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR01_WritableEmpty004_v0.1.zip",
+    "source_locator": "Research/NSS_NBR01_WritableEmpty004_v0.1.zip",
+    "original_bytes": 1797875,
+    "original_sha256": "9a10391073a27764c3aa5f9e6f9981e0acb7fc6bae4315c8fb2c4aa2a183ea0b",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_BRIDGE01_Codex_Review_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_BRIDGE01_Codex_Review_v0.1.zip",
+    "original_bytes": 150152,
+    "original_sha256": "bbe83ae41f521b49b5208d9fbfea4f8cbd20abea66afd0c1fc1f90c4f6dfdef8",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_BRIDGE01_Prototype_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip",
+    "original_bytes": 7732985,
+    "original_sha256": "ade14d04d64dd5fb074bff38e109d2715c24c0104b2008a5e033f22bd789ea5f",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_DC01_Codex_Handoff_v0.5.zip",
+    "source_locator": "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip",
+    "original_bytes": 52630,
+    "original_sha256": "da273f6fb74d0e35c409914331d4f4d9198e8fa2d767578a8f95f2fb824cbcb2",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_DC01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_DC01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 65341,
+    "original_sha256": "5f6143cbcaaba1ad12fd4e6d3e66cef061466e88586a7f8b1610d572e18a02dc",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_EVAL01_Complete_v0.2.zip",
+    "source_locator": "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip",
+    "original_bytes": 46726962,
+    "original_sha256": "02641896da3553f90ebf5a0aa6b7708fcbe692bf25b67e26e8ab4c49a2f0466b",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip",
+    "original_bytes": 101813985,
+    "original_sha256": "78e7617b2f6f76a31b01a1e3e9c637f922467f3e247b11557e7c1bb6b868a2c1",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_MICROMACRO01_Complete_v0.2.zip",
+    "source_locator": "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip",
+    "original_bytes": 70437319,
+    "original_sha256": "4f157b5af60174958f8f3c436eba6c067d6b0d6ce8e5f1d33c3df9560bbeb9cd",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+    "source_locator": "Research/NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+    "original_bytes": 196510,
+    "original_sha256": "0be5e35a33497a95f5c489ad5d831366aef9f69606a71d7ddd88e3e06ef88208",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+    "source_locator": "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+    "original_bytes": 25494039,
+    "original_sha256": "cfabcabc5f0dd7ffd189b4f0b91e44e5640b6f6d9c1619eefce28bb080be3f1b",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_PROTECT01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_PROTECT01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 204554,
+    "original_sha256": "9c94a3569f703b1f6e6284378d8e6e848828b6def8214f409673e4cab3cc9fef",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_RECOVER01_Proposal_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_RECOVER01_Proposal_v0.1.zip",
+    "original_bytes": 12680,
+    "original_sha256": "30322deb4aff561e05cfe22d4845573a398c00ca6d50c9d37c6c849c6ba2b386",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip",
+    "source_locator": "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip",
+    "original_bytes": 25131512,
+    "original_sha256": "7cfe40a31d34ae5371340c600850bbbe0587316e11f6e4f98320f62dba37aca3",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_REHEARSE01_ProtocolReview_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_REHEARSE01_ProtocolReview_v0.1.zip",
+    "original_bytes": 92746,
+    "original_sha256": "2ef9d78b87dc76ffd9a05288a788e1be6fc4173e8342f95eafedb780bd729aa2",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_REV01_Codex_Handoff_v0.4.zip",
+    "source_locator": "Research/NSS_NBR02_REV01_Codex_Handoff_v0.4.zip",
+    "original_bytes": 177099,
+    "original_sha256": "e76a4b30e17413baaa26b3431b0b18cdf61a318e9ff6b06bef1881320c19ff19",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_REV01_Complete_v0.4.zip",
+    "source_locator": "Research/NSS_NBR02_REV01_Complete_v0.4.zip",
+    "original_bytes": 20961112,
+    "original_sha256": "f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 205148,
+    "original_sha256": "2e68ee3b9d0c6f4d21f52d02e8cf6943fbfb391f6d886c68b498073d3a9e007e",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip",
+    "source_locator": "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip",
+    "original_bytes": 121534068,
+    "original_sha256": "8f58ecbfc69018f7d8867b7ab8029ce6d944aac4ea400c7630f814c7e0ebcd66",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_SURFACE01_Execution_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip",
+    "original_bytes": 32141227,
+    "original_sha256": "e51efcdeef95839d6bda5749116f72bccbf9ce1446ba1bdf9875d45fc043ea61",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_SURFACE01_Reports_and_Review_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_SURFACE01_Reports_and_Review_v0.1.zip",
+    "original_bytes": 27000,
+    "original_sha256": "6bf2b6eebf2abbbbac49e6ac21f6b141822b460ad106896d03d4e008ced27278",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_Theoretical_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_Theoretical_Candidates_v0.1.zip",
+    "original_bytes": 65414,
+    "original_sha256": "78bafe220ad74d01cd268e2f5ad347c49dbdf9a40df1ababc5cf99ace398fc9c",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_NBR02_TIMING01_Complete_v0.1.zip",
+    "source_locator": "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip",
+    "original_bytes": 37195996,
+    "original_sha256": "12a388b99a479384c601ef553b859624f29eb2c62f55a5bd7264a2308ae9256e",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_Research_and_Architecture_Chat_Handoff_v1.0.zip",
+    "source_locator": "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.0.zip",
+    "original_bytes": 42458,
+    "original_sha256": "07bd3a7f550cd037580ab7e82cc493ece9af51715ba9f9e6659d0f1b28b9c056",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_Research_Compendium_v1.0.zip",
+    "source_locator": "Research/NSS_Research_Compendium_v1.0.zip",
+    "original_bytes": 1013266,
+    "original_sha256": "0d88e02909548bdc61a7f9120ff64b8b0bf66bb2e21a8829e1b6b59f02a20bae",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_Research_Consolidation_v0.1.zip",
+    "source_locator": "Research/NSS_Research_Consolidation_v0.1.zip",
+    "original_bytes": 502007,
+    "original_sha256": "c6f5cce7819d3787661b758dfb7d28e413dba3e8ce4702df9aa9385453521671",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_TS01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_TS01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 22475,
+    "original_sha256": "a240c449a0d82a7e8cbb18b11cfbf560c18e8f0cfd6b68592af054e045674543",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_TS01_PostResults_Candidates_v0.2.zip",
+    "source_locator": "Research/NSS_TS01_PostResults_Candidates_v0.2.zip",
+    "original_bytes": 22690,
+    "original_sha256": "aca09020be62aefc55e452f53c988f2eaaaf56e13af315502774671bd77ee860",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_TS02_MW01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_TS02_MW01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 28219,
+    "original_sha256": "2998a32275355602e26382b4240f84c4635f005110a589493225c77194ec7625",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+    "source_locator": "Research/NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+    "original_bytes": 47114,
+    "original_sha256": "38bffa49b2eb8aa621396bdd338c3068db5ca6f4d3a445921953f291de667cb1",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "NSS_TS03_CR01_PostResults_Candidates_v0.1.zip",
+    "source_locator": "Research/NSS_TS03_CR01_PostResults_Candidates_v0.1.zip",
+    "original_bytes": 60785,
+    "original_sha256": "9c3a089eabf8769051cbb17c4bfaa5e3fddeeb24ba2695328bfc21ae9d5b35a7",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "source_locator": "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "original_bytes": 48654694,
+    "original_sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  },
+  {
+    "name": "Q010_PostRecovery_Candidates_v1.0.zip",
+    "source_locator": "Research/Q010_PostRecovery_Candidates_v1.0.zip",
+    "original_bytes": 21657,
+    "original_sha256": "f259b9ebc49ed3db757a561c6c295255bc82fa20edb154d48385a04fcd505bba",
+    "disposition": "HOLD_NOT_UPLOADED",
+    "blockers": [
+      "privacy/rights review of entire ZIP including nested members",
+      "owner release-scope approval"
+    ],
+    "proposed_transport": "GitHub Release asset after clearance",
+    "nested_assets_separately_uploaded": false
+  }
+]

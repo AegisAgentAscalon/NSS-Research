@@ -1,0 +1,1 @@
+PASS: recorded connected-demo history matches exact owner artifacts and declared scope. This inspection gives no new permission or Runtime execution authority.

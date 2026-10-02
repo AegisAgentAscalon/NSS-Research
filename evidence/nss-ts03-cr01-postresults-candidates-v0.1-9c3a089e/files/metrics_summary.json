@@ -1,0 +1,179 @@
+{
+  "study": "NSS-TS03-CR01",
+  "execution_version": "0.4",
+  "scientific_protocol": "0.2",
+  "handoff_archive": {
+    "bytes": 47114,
+    "sha256": "38bffa49b2eb8aa621396bdd338c3068db5ca6f4d3a445921953f291de667cb1",
+    "members": 18,
+    "manifest_payloads_verified": 17
+  },
+  "reported_disposition": {
+    "D1_coverage_effect": "FAILED",
+    "D2_configuration_interaction": "FAILED",
+    "D3_absolute_reliability": "FAILED",
+    "additional_final_level_advantage": "FAILED",
+    "engineering_and_replay_passed": true
+  },
+  "recomputed_primary_repair": {
+    "R": {
+      "n_per_curriculum": 144,
+      "C0": {
+        "joint": 37,
+        "joint_pct": 25.694444,
+        "both_bindings": 82,
+        "binding_pct": 56.944444
+      },
+      "C1": {
+        "joint": 49,
+        "joint_pct": 34.027778,
+        "both_bindings": 128,
+        "binding_pct": 88.888889
+      },
+      "C1_minus_C0": {
+        "joint_successes": 12,
+        "joint_pp": 8.333333,
+        "binding_successes": 46,
+        "binding_pp": 31.944444
+      }
+    },
+    "Rplus": {
+      "n_per_curriculum": 144,
+      "C0": {
+        "joint": 20,
+        "joint_pct": 13.888889,
+        "both_bindings": 53,
+        "binding_pct": 36.805556
+      },
+      "C1": {
+        "joint": 35,
+        "joint_pct": 24.305556,
+        "both_bindings": 113,
+        "binding_pct": 78.472222
+      },
+      "C1_minus_C0": {
+        "joint_successes": 15,
+        "joint_pp": 10.416667,
+        "binding_successes": 60,
+        "binding_pp": 41.666667
+      }
+    },
+    "RW": {
+      "n_per_curriculum": 144,
+      "C0": {
+        "joint": 58,
+        "joint_pct": 40.277778,
+        "both_bindings": 144,
+        "binding_pct": 100.0
+      },
+      "C1": {
+        "joint": 51,
+        "joint_pct": 35.416667,
+        "both_bindings": 144,
+        "binding_pct": 100.0
+      },
+      "C1_minus_C0": {
+        "joint_successes": -7,
+        "joint_pp": -4.861111,
+        "binding_successes": 0,
+        "binding_pp": 0.0
+      }
+    }
+  },
+  "recomputed_heldout_carry": {
+    "R": {
+      "n_per_curriculum": 320,
+      "C0": {
+        "joint": 124,
+        "both_bindings": 152
+      },
+      "C1": {
+        "joint": 139,
+        "both_bindings": 194
+      },
+      "C1_minus_C0": {
+        "joint_successes": 15,
+        "joint_pp": 4.6875,
+        "binding_successes": 42,
+        "binding_pp": 13.125
+      }
+    },
+    "Rplus": {
+      "n_per_curriculum": 320,
+      "C0": {
+        "joint": 95,
+        "both_bindings": 137
+      },
+      "C1": {
+        "joint": 119,
+        "both_bindings": 193
+      },
+      "C1_minus_C0": {
+        "joint_successes": 24,
+        "joint_pp": 7.5,
+        "binding_successes": 56,
+        "binding_pp": 17.5
+      }
+    },
+    "RW": {
+      "n_per_curriculum": 320,
+      "C0": {
+        "joint": 144,
+        "both_bindings": 236
+      },
+      "C1": {
+        "joint": 139,
+        "both_bindings": 224
+      },
+      "C1_minus_C0": {
+        "joint_successes": -5,
+        "joint_pp": -1.5625,
+        "binding_successes": -12,
+        "binding_pp": -3.75
+      }
+    }
+  },
+  "decision_crosschecks": {
+    "C1_RW_joint_by_fit_out_of_80": {
+      "0": 34,
+      "1": 36,
+      "2": 34,
+      "3": 35
+    },
+    "fits_at_72_of_80_floor": 0,
+    "C1_RW_invalid_USE_claims_out_of_640": 96,
+    "C1_RW_designated_wrong_DONE_out_of_128": 6,
+    "C1_RW_joint_repair": "51/144",
+    "C1_RW_bindings_repair": "144/144",
+    "C1_RW_asymmetric_repair": {
+      "joint": "16/48",
+      "both_bindings": "0/48"
+    },
+    "final_P_advantage_joint_vs_R": 2,
+    "final_P_advantage_joint_vs_Rplus": 16
+  },
+  "reported_training_and_negative_totals": {
+    "new_main_models": 24,
+    "cost_probe_models": 6,
+    "main_updates": 19200,
+    "probe_updates": 300,
+    "optimizer_updates_reported": 19500,
+    "heldout_unique_occasions": 80,
+    "heldout_sequences": 16,
+    "main_joint_negative_rows": 7155,
+    "main_all_head_negative_rows": 7543,
+    "actual_cells": 4080964
+  },
+  "recomputed_from": [
+    "analysis/PRIMARY_REPAIR.csv",
+    "analysis/COVERAGE_CONTRASTS.csv",
+    "analysis/HELDOUT_CARRY.csv",
+    "analysis/ASYMMETRIC_REPAIR.csv",
+    "scores/main/capture/DECISIONS.json"
+  ],
+  "limits": [
+    "These are compact retained aggregates and decision metadata, not raw per-query score outputs.",
+    "No source tree, full checkpoints, full execution archive, or original capture rows were available for independent replay.",
+    "COMPLETE_STUDY_IDENTITY.json is preserved as metadata; it does not verify the claimed full execution ZIP."
+  ]
+}

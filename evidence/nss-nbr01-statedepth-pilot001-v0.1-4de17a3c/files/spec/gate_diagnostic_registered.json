@@ -1,0 +1,11 @@
+{
+  "study": "NBR-01/Pilot001/GateDiagnostic",
+  "status_at_registration": "NOT_RUN",
+  "phase": "POST_PILOT_DIAGNOSTIC_NOT_CONFIRMATORY",
+  "basis": "All five soft-gated runs learned gate probabilities above0.5 for WRITE and below0.5 for DISTRACTOR, yet failed long-delay recall. Direct hard-gate training failed baseline competence in four of five seeds.",
+  "question": "Does the already learned soft gate's residual distractor updating explain the long-delay failure, rather than failure to separate WRITE from DISTRACTOR?",
+  "intervention": "Load each soft-gated checkpoint into the existing hard_gated forward rule with exactly the same numerical weights. Use threshold0.5 (already specified in the earlier hard-gate arm), no tuning or retraining. Replay the observations from an empty state.",
+  "seeds": [201,202,203,204,205],
+  "evaluation": "Identical delays0/4/16/64/128, stateoff/on, depths1/2/4/8, earlycue/overwrite/nocue cases. Count fixed weights before/after and hash the source checkpoint.",
+  "limits": "This changes the state transition algorithm, NOT the weights. It is not a silently compatible serving revision. It diagnoses this discrete token task; it does not establish robust gating for ambiguous observations, language or noisy sensors. Reuses inspected pilot data, so cannot be reported as a fresh confirmatory test. Earlier failures remain in the report."
+}

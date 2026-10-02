@@ -1,0 +1,9 @@
+{
+  "parent_script_sha256": "e0eee9ce6531de4c1000930a6c156641c0f6392c002c04d3c5df87ac80127fb1",
+  "continuation_script_sha256": "484c3c07afbea0ee079eca8e260a52531cd2f03a5fc63d238ac0735af84bfcf7",
+  "modifications": [
+    "one originally planned remaining condition",
+    "advance ordering RNG through six completed conditions"
+  ],
+  "no_backend_or_gate_change": true
+}

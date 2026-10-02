@@ -1,0 +1,35 @@
+test_accept_valid_state (test_neural_backend.NeuralBackendTests.test_accept_valid_state) ... ok
+test_blank_overlay_noop (test_neural_backend.NeuralBackendTests.test_blank_overlay_noop) ... ok
+test_cache_mutation_rejected (test_neural_backend.NeuralBackendTests.test_cache_mutation_rejected) ... ok
+test_candidate_gradient_flows_through_frozen_core (test_neural_backend.NeuralBackendTests.test_candidate_gradient_flows_through_frozen_core) ... ok
+test_checkpoint_roundtrip (test_neural_backend.NeuralBackendTests.test_checkpoint_roundtrip) ... ok
+test_core_actually_trained (test_neural_backend.NeuralBackendTests.test_core_actually_trained) ... ok
+test_core_frozen_after_fit (test_neural_backend.NeuralBackendTests.test_core_frozen_after_fit) ... ok
+test_core_mutation_detected (test_neural_backend.NeuralBackendTests.test_core_mutation_detected) ... ok
+test_cross_task_rejected (test_neural_backend.NeuralBackendTests.test_cross_task_rejected) ... ok
+test_denial_preserves_state (test_neural_backend.NeuralBackendTests.test_denial_preserves_state) ... ok
+test_equal_parameter_control (test_neural_backend.NeuralBackendTests.test_equal_parameter_control) ... ok
+test_equal_token_presentations (test_neural_backend.NeuralBackendTests.test_equal_token_presentations) ... ok
+test_failed_load_preserves_state (test_neural_backend.NeuralBackendTests.test_failed_load_preserves_state) ... ok
+test_float64_unrepresentable_value (test_neural_backend.NeuralBackendTests.test_float64_unrepresentable_value) ... ok
+test_gate_failure_stops_training (test_neural_backend.NeuralBackendTests.test_gate_failure_stops_training) ... ok
+test_input_replacement_even_with_recomputed_hash_rejected (test_neural_backend.NeuralBackendTests.test_input_replacement_even_with_recomputed_hash_rejected) ... ok
+test_joint_steps_accounted (test_neural_backend.NeuralBackendTests.test_joint_steps_accounted) ... ok
+test_nonfinite_tensor (test_neural_backend.NeuralBackendTests.test_nonfinite_tensor) ... ok
+test_overlays_not_claimed_ternary (test_neural_backend.NeuralBackendTests.test_overlays_not_claimed_ternary) ... ok
+test_pickle_like_checkpoint_rejected (test_neural_backend.NeuralBackendTests.test_pickle_like_checkpoint_rejected) ... ok
+test_random_state_restored (test_neural_backend.NeuralBackendTests.test_random_state_restored) ... ok
+test_recovery_and_no_duplicate_mock_effect (test_neural_backend.NeuralBackendTests.test_recovery_and_no_duplicate_mock_effect) ... ok
+test_repeat_training_is_deterministic (test_neural_backend.NeuralBackendTests.test_repeat_training_is_deterministic) ... ok
+test_role_substitution (test_neural_backend.NeuralBackendTests.test_role_substitution) ... ok
+test_same_task_second_inputs_rejected (test_neural_backend.NeuralBackendTests.test_same_task_second_inputs_rejected) ... ok
+test_stale_state_rejected (test_neural_backend.NeuralBackendTests.test_stale_state_rejected) ... ok
+test_ternary_forward_values (test_neural_backend.NeuralBackendTests.test_ternary_forward_values) ... ok
+test_unknown_profile (test_neural_backend.NeuralBackendTests.test_unknown_profile) ... ok
+test_wrong_checkpoint_hash (test_neural_backend.NeuralBackendTests.test_wrong_checkpoint_hash) ... ok
+test_wrong_tensor_shape (test_neural_backend.NeuralBackendTests.test_wrong_tensor_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.054s
+
+OK

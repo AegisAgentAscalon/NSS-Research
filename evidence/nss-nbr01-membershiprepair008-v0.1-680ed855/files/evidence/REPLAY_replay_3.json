@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "arrays_exact": 1022,
+      "module": "membership_eval",
+      "pair": 3,
+      "rows": 242
+    },
+    {
+      "arrays_exact": 7329,
+      "module": "evaluate",
+      "pair": 3,
+      "rows": 2988
+    }
+  ],
+  "seconds": 125.95234524500006,
+  "status": "PASS",
+  "utc": "2026-09-21T17:45:08.333750+00:00"
+}

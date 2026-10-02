@@ -1,0 +1,20 @@
+# PROTECT01 v0.3 — development stop
+
+**Disposition:** `STOPPED_AT_A0_RELATIVE_GAIN` under scientific protocol v0.2 and execution v0.3. This was an authorized admission stop, not a completed held-out test of projection. The machine status `BASELINE_INCOMPETENT` must be retained, alongside its narrower observed cause: the G arm met every old-inventory and absolute B1-accuracy floor but only **2/4** fits met the required **+4/20 versus their own frozen model** (L met 4/4; each arm required 3/4). No held-out mapping or condition was generated. The corrected machine receipt identifies the supplied compact and full ZIPs; the earlier `input_receipt.json` is invalid incident evidence and must not be used for identity.
+
+| G fit | Old inventory | B1 /20 | Frozen /20 | Gain | A0 |
+|---:|---:|---:|---:|---:|---|
+| 0 | 8/8 | 17 | 11 | +6 | Pass |
+| 1 | 8/8 | 18 | 17 | +1 | Fail |
+| 2 | 8/8 | 19 | 14 | +5 | Pass |
+| 3 | 8/8 | 17 | 14 | +3 | Fail |
+
+Fit 1 had only three possible improvement opportunities because its frozen control already scored 17/20; +4 was mathematically impossible even for a perfect B1. Fit 3 had six opportunities and improved by three: that failure is a real shortfall under the declared rule, not a ceiling artifact. This is a **gate-design and competence-interpretation problem**, not authority to waive A0, remove either fit, choose easier seeds, or claim G generally cannot learn. The original stop and locked development confidence tolerances remain historical facts.
+
+The executed prefix was substantial: eight new 100-update initial fits, clean/fault and derivative/solver fixtures, cost probes, all four development bases for all method/fit/branch combinations, and fresh adaptive replay of precisely that prefix. The retained report gives **3,400 attempted and committed updates** against a 7,000 cap, including replay; the unused 2,304 planned capture/replay held-out updates were correctly not spent. Replay is a reproducibility check of the same cases, not another sample. No historical checkpoint was loaded. The archive **reports** numerical checks supporting the projection, float32 step and public-receipt/fork contract within declared tolerances; this local review did not execute those checks, and they cannot turn development scores into held-out qualification. Separate evidence review records which archive members and tables were freshly checked here.
+
+The development observations are informative but exploratory. First corrections out of 16 model/base cases were G **B1 7, B2 16, P 13, S 15** and L **9, 16, 10, 16**. P preserved all eight old classes at four tail checkpoints in each case (512/512 repeated old-class observations per method), yet surrendered three G and six L immediate successes relative to B2. P and S used virtually identical actual step norms (largest relative mismatch about 1.61e-8); P had much lower final old loss than S (G .001822 vs .044457; L .009799 vs .064592). That supports a **development focal-versus-old-quality trade-off** at the matched norm, not a combined pass or proof that projection is categorically ineffective. The old buffer spans all eight toy old cues; L+P/S use exact old derivatives and remain hybrid.
+
+Valid first-order row constraints also did not ensure actual old margins stayed level: P's real old logit margin fell in 28/128 G and 59/128 L first-correction old readouts, despite no P old class flip. These finite-step departures are much larger than the reported tiny linear-rounding residuals. They motivate inspecting the correction objective, not automatically blaming the QP implementation or claiming permanent forgetting. G/L have different trained prestates, so their contrast does not isolate the diagonal approximation.
+
+NBR02 remains active; `RET-PROTECT01-A0-001` and `RET-REV01-RETENTION-001` remain open. NBR01's bounded closeout, parked workspace fitting, deferred dream maintenance, incomplete total-memory accounting, and frozen NSS role boundaries are unchanged. A follow-up must use fresh development/held-out material and a versioned rule; these exposed development cases can serve as diagnostics only.

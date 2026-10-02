@@ -1,0 +1,1 @@
+{"actual_registry_checks":{"foreign_version":true,"independent_scratch":true,"missing_version":true},"numeric_faults":[{"detected":true,"fault":0},{"detected":true,"fault":1},{"detected":true,"fault":2},{"detected":true,"fault":3}],"scope":"Local version/state routing only. No credentials, serving-atomicity, or full receipt-security claim."}

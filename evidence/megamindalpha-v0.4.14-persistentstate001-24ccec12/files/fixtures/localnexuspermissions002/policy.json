@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "operation": "NEURAL_PROBE_REPLAY",
+  "max_ttl_seconds": 900,
+  "max_uses": 1,
+  "input_scope": "EXACT_FIRST_FOUR_NEURAL_PROBE_TEST_PAIRS",
+  "transitions": [
+    [
+      "AB",
+      "A"
+    ],
+    [
+      "A",
+      "CORE"
+    ]
+  ],
+  "issuer_must_differ_from_caller": true,
+  "delegation": false,
+  "deployment_authorized": false,
+  "runtime_execution_permit": false
+}

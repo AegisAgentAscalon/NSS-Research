@@ -1,0 +1,9 @@
+family,split,sum_resident_graph_observations_bytes_W_minus_I,peak_resident_graph_bytes_W_minus_I,sum_canonical_metadata_bytes_W_minus_I,task_semantic_bytes_rewritten_W_minus_I,packet_ascii_bytes_rewritten_W_minus_I,selection_object_bytes_reallocated_W_minus_I,packet_encodes_W_minus_I,packet_decodes_W_minus_I,index_reads_W_minus_I,lookup_returned_bytes_W_minus_I,event_record_bytes_rewritten_W_minus_I,event_binding_bytes_rewritten_W_minus_I
+CM02DEV-01,development,-786,-24,78,0,1904,306,34,50,0,1500,0,0
+CM02DEV-02,development,-786,-24,73,0,1904,306,34,50,0,1500,0,0
+CM02DEV-03,development,-786,-24,97,0,1904,306,34,50,0,1500,0,0
+CM02EVAL-01,heldout,-786,-24,77,0,1904,306,34,50,0,1500,0,0
+CM02EVAL-02,heldout,-786,-24,76,0,1904,306,34,50,0,1500,0,0
+CM02EVAL-03,heldout,-786,-24,70,0,1904,306,34,50,0,1500,0,0
+CM02EVAL-04,heldout,-786,-24,88,0,1904,306,34,50,0,1500,0,0
+CM02EVAL-05,heldout,-786,-24,96,0,1904,306,34,50,0,1500,0,0

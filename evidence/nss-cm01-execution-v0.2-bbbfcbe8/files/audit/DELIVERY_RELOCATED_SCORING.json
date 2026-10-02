@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RELOCATED_INDEPENDENT_SCORER",
+  "score_files_byte_identical": [
+    "SCORE_RECEIPT.json",
+    "FULL_GRID.csv",
+    "CONTROLS.csv",
+    "DECISIONS.csv",
+    "INFORMATION_LIMITS.json",
+    "NEGATIVE_OUTCOMES.csv",
+    "POOLED.csv",
+    "HELDOUT_PAIRED.csv"
+  ],
+  "new_model_forward_calls": 0,
+  "additional_arithmetic_audit_rows": 10560,
+  "no_new_scientific_samples": true
+}

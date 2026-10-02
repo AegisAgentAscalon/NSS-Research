@@ -1,0 +1,121 @@
+{
+  "status": "PROPOSED_ONLY_NOT_EXECUTED",
+  "passes": [
+    "primary",
+    "full_adaptive_replay"
+  ],
+  "per_pass_updates": {
+    "initial_fitting": 800,
+    "condition_adaptation": 3456,
+    "receipt_diagnostic": 48,
+    "cost_probes": 100,
+    "clean_fixture": 12,
+    "sandbox_faults": 8
+  },
+  "per_pass_update_total": 4424,
+  "all_pass_update_total": 8848,
+  "global_update_cap": 9800,
+  "per_pass_update_cap": 4900,
+  "unallocated_update_reserve": 952,
+  "per_pass_forwards": {
+    "initial_updates": {
+      "cell_examples": 2400,
+      "head_vectors": 800
+    },
+    "warm_inventories": {
+      "cell_examples": 384,
+      "head_vectors": 128
+    },
+    "condition_transactions": {
+      "cell_examples": 112896,
+      "head_vectors": 6912
+    },
+    "condition_post_receipt_probes": {
+      "cell_examples": 17280,
+      "head_vectors": 5760
+    },
+    "condition_final_inventories": {
+      "cell_examples": 31104,
+      "head_vectors": 10368
+    },
+    "shuffled_diagnostic_transactions": {
+      "cell_examples": 528,
+      "head_vectors": 48
+    },
+    "shuffled_post_receipt_probes": {
+      "cell_examples": 120,
+      "head_vectors": 40
+    },
+    "cost_probes": {
+      "cell_examples": 300,
+      "head_vectors": 100
+    },
+    "clean_fixture_transactions": {
+      "cell_examples": 196,
+      "head_vectors": 12
+    },
+    "clean_fixture_probes": {
+      "cell_examples": 36,
+      "head_vectors": 12
+    },
+    "sandbox_fault_updates": {
+      "cell_examples": 24,
+      "head_vectors": 8
+    },
+    "derivative_diagnostics": {
+      "cell_examples": 24,
+      "head_vectors": 8
+    }
+  },
+  "per_pass_cell_total": 165292,
+  "per_pass_head_total": 24196,
+  "all_pass_cell_total": 330584,
+  "all_pass_head_total": 48392,
+  "cell_cap": 400000,
+  "head_cap": 60000,
+  "G_sgd_backward_total": 4424,
+  "G_derivative_only_backward_total": 8,
+  "backward_cap": 5000,
+  "L_autograd_backward_total": 0,
+  "other_work": "Independent NumPy forward/exact/local arithmetic, X operations, seed/data audits, filesystem fault fixtures, recorder overhead, package restore/rescore are metered in time/storage; they are not neural optimizer opportunities.",
+  "main_units": {
+    "fits_per_arm": 4,
+    "learned_arms": 2,
+    "frozen_arms": 2,
+    "development_bases": 4,
+    "heldout_bases": 8,
+    "delays": [
+      0,
+      8,
+      32
+    ],
+    "policies": 2,
+    "trials_per_stream": 6,
+    "primary_probes_per_stream": 5,
+    "inventory_cues_per_stream": 9,
+    "all_condition_streams": 72,
+    "heldout_condition_streams": 48,
+    "heldout_unique_primary_occasions": 240,
+    "heldout_zero_delay_primary_occasions": 80
+  },
+  "maximum_limits": {
+    "wall_seconds": 7200,
+    "process_tree_rss_bytes": 3221225472,
+    "container_current_bytes": 3758096384,
+    "raw_bytes": 268435456,
+    "single_zip_bytes": 67108864
+  },
+  "uncompressed_component_allowances_MiB": {
+    "update_parameter_gradient_evidence": 80,
+    "local_trace_evidence": 16,
+    "event_cell_state_tables": 64,
+    "logits_probabilities_scores": 4,
+    "cursors_rng_update_metadata": 16,
+    "source_manifests_reports": 12,
+    "recorder_fault_and_resource_logs": 16,
+    "emergency_status": 1
+  },
+  "component_sum_MiB": 209,
+  "unallocated_raw_MiB": 47,
+  "storage_note": "These are proposed per-component admission limits, not observed sizes. Must prove real dtype/shape/codec bound and project lossless ZIP size before main fit. All failed attempts remain within same totals."
+}

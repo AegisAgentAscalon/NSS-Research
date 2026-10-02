@@ -1,0 +1,757 @@
+{
+  "schema_version": 2,
+  "title": "PersistentState001 subordinate implementation logic",
+  "purpose": "Reviewed symbolic state deltas in the existing Generations journal; no learned update or new learning authority.",
+  "global_outcomes": [
+    "ABI_MISMATCH",
+    "ACTION_FAILED",
+    "ACTION_RECONCILIATION_REQUIRED",
+    "ACTION_UNCERTAIN",
+    "ARTIFACT_MISSING",
+    "ATOMIC_PUBLISH_FAILED",
+    "AUTHORIZATION_DENIED",
+    "BUDGET_EXHAUSTED",
+    "CAPABILITY_UNAVAILABLE",
+    "CHECKPOINT_INVALID",
+    "CHECKSUM_MISMATCH",
+    "COMPATIBILITY_UNKNOWN",
+    "CONFLICT_REQUIRES_REVIEW",
+    "CONFLICT_UNRESOLVED",
+    "CONSTRAINT_CONFLICT",
+    "CONTEXT_ABI_MISMATCH",
+    "CONTEXT_REQUIRED",
+    "CONTINUITY_VALIDATION_FAILED",
+    "CORE_MUTATION_DETECTED",
+    "DATASET_INVALID",
+    "DATA_RESTRICTED",
+    "DEPENDENCY_CONFLICT",
+    "DEPTH_STALLED",
+    "ENCODE_FAILED",
+    "EVIDENCE_INCOMPLETE",
+    "IDENTITY_INVALID",
+    "INCOMPATIBLE_CONFIGURATION",
+    "INSUFFICIENT_EVIDENCE",
+    "INTERNAL_FAILURE",
+    "MANDATORY_CONTEXT_OVERFLOW",
+    "MIGRATION_REQUIRED",
+    "MIGRATION_UNSAFE",
+    "MODALITY_UNSUPPORTED",
+    "NEEDS_CLARIFICATION",
+    "NONDETERMINISTIC_RESULT",
+    "NO_VALID_OVERLAY",
+    "POLICY_CONFLICT",
+    "POLICY_DENIED",
+    "PROVENANCE_INCOMPLETE",
+    "QUALIFICATION_EVIDENCE_MISSING",
+    "QUALIFICATION_FAILED",
+    "RECOVERY_REQUIRED",
+    "REHYDRATION_FAILED",
+    "RESOURCE_FAILURE",
+    "RESOURCE_UNAVAILABLE",
+    "RETENTION_RESTRICTED",
+    "RETRIEVAL_FAILED",
+    "SOURCE_INVALID",
+    "SOURCE_UNKNOWN",
+    "SOURCE_VALIDATION_FAILED",
+    "STAGING_FAILED",
+    "STALE_OR_CONFLICTED",
+    "STALE_STATE",
+    "SUCCESS",
+    "THRESHOLD_NOT_MET",
+    "TOKENIZER_MISMATCH",
+    "TRAINING_DIVERGED",
+    "TRAINING_NOT_JUSTIFIED",
+    "TRAINING_RESTRICTED",
+    "TRANSITION_UNQUALIFIED",
+    "UNQUALIFIED_CONFIGURATION",
+    "VALIDATION_FAILED"
+  ],
+  "shared_primitives": {
+    "REQUIRE": "Abort the current flow immediately with the supplied typed non-success outcome unless the predicate is true.",
+    "VALIDATE": "Validate schema plus semantic invariants.",
+    "RESOLVE": "Resolve an exact immutable reference; never guess a missing artifact.",
+    "HASH": "Content-address identity material.",
+    "QUALIFIED": "Check claim/profile/transition against bound qualification evidence.",
+    "AUTHORIZE": "Request scoped authorization from Nexus; no implicit authority carry-forward.",
+    "PIN": "Bind state to an exact ECID/configuration identity.",
+    "BUDGET": "Reserve/release bounded compute, context, or refinement budget.",
+    "ATOMIC_PUBLISH": "Stage fully, then atomically publish or preserve prior valid state.",
+    "REPLAY_SAFE": "Check durable action evidence; unresolved effects block replay. Reconciliation is explicit, never a hidden automatic retry.",
+    "REHYDRATE": "Load only the externally referenced context required for the current step.",
+    "COMPACT": "Produce minimal carry-forward state while preserving required dependencies.",
+    "RESULT": "Return typed success or typed non-success outcome.",
+    "AUDIT": "Append immutable/auditable decision or lifecycle evidence.",
+    "IDEMPOTENT_EXECUTE": "Execute side effect under idempotency key and durable commit semantics.",
+    "TRY": "Unwrap a typed result only on SUCCESS; propagate its non-success code unchanged. Helper failures are implicit exits from every process node."
+  },
+  "global_rules": [
+    "Compress implementation, not contract meaning: factor repeated guards into shared primitives only after behavior is test-covered.",
+    "Every terminal path returns a typed outcome.",
+    "Every production mutation is staged and atomically published or leaves the prior valid state intact.",
+    "Every side effect is separated from replayable computation and has idempotency/reconciliation semantics.",
+    "No subsystem reaches into another subsystem internals; use versioned typed public contracts.",
+    "Research mechanisms (HSA/MSA, recurrent depth, DARP, directional-guidance implementations) are independently qualified and are not prerequisites for proving overlay composition.",
+    "Core-only execution remains mandatory for each Core generation.",
+    "Terminal maps contain allowed outcome sets. Grouped failure exits preserve the actual error code; they do not translate every failure into one generic status.",
+    "Every helper failure implicitly exits through the declared failure envelope. Graphs are summaries, not exhaustive executable programs. TRY and REQUIRE are fail-fast.",
+    "All loops consume finite budgets and have stalled/no-progress exits. Graph reachability alone does not prove termination.",
+    "Canonical describes design authority, not implementation. The implementation field states the available simulator coverage.",
+    "Forbidden-edge statements are reviewed architectural constraints; the graph validator does not inspect runtime imports/calls or enforce these prose rules."
+  ],
+  "flows": [
+    {
+      "id": "state_admission",
+      "title": "Explicit legacy-to-scoped state admission",
+      "owner": "Generations via pure state contracts/reducer and existing evidence readers",
+      "purpose": "Explicit legacy-to-scoped state admission",
+      "status": "canonical",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact task ticket, scoped schema-v2 command or read",
+        "Pinned sources/archive, current configuration, declared local reviewer"
+      ],
+      "outputs": [
+        "Atomic new TaskRecord+receipt, unchanged history, or typed failure without mutation"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "kind": "start",
+          "label": "Exact request, no authority by itself"
+        },
+        {
+          "id": "valid",
+          "kind": "process",
+          "label": "Validate version, bounds, role and exact command"
+        },
+        {
+          "id": "duplicate",
+          "kind": "decision",
+          "label": "Exact event already committed?"
+        },
+        {
+          "id": "current",
+          "kind": "process",
+          "label": "Require unscoped v1, running stage; compare exact revision and ECID"
+        },
+        {
+          "id": "review",
+          "kind": "process",
+          "label": "Verify separate exact unexpired local review"
+        },
+        {
+          "id": "apply",
+          "kind": "process",
+          "label": "Reduce allowed changes into a new immutable revision"
+        },
+        {
+          "id": "sources",
+          "kind": "process",
+          "label": "Check source rights, expiry, receipts and mandatory byte budget"
+        },
+        {
+          "id": "commit",
+          "kind": "process",
+          "label": "Recheck sources; commit event, revision and task head together"
+        },
+        {
+          "id": "done",
+          "kind": "success",
+          "label": "New receipt or unchanged historical receipt"
+        },
+        {
+          "id": "fail",
+          "kind": "failure",
+          "label": "Precise error; prior valid revision remains"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "valid",
+          "when": "always"
+        },
+        {
+          "from": "valid",
+          "to": "duplicate",
+          "when": "valid"
+        },
+        {
+          "from": "valid",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "duplicate",
+          "to": "done",
+          "when": "yes: same command, historical only"
+        },
+        {
+          "from": "duplicate",
+          "to": "current",
+          "when": "no"
+        },
+        {
+          "from": "duplicate",
+          "to": "fail",
+          "when": "ID reused for a different command"
+        },
+        {
+          "from": "current",
+          "to": "review",
+          "when": "valid"
+        },
+        {
+          "from": "current",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "review",
+          "to": "apply",
+          "when": "valid"
+        },
+        {
+          "from": "review",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "apply",
+          "to": "sources",
+          "when": "valid"
+        },
+        {
+          "from": "apply",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "sources",
+          "to": "commit",
+          "when": "valid"
+        },
+        {
+          "from": "sources",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "commit",
+          "to": "done",
+          "when": "committed"
+        },
+        {
+          "from": "commit",
+          "to": "fail",
+          "when": "typed_error or interrupted transaction"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "NEEDS_CLARIFICATION",
+          "RECOVERY_REQUIRED",
+          "RETENTION_RESTRICTED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "NEEDS_CLARIFICATION",
+        "RECOVERY_REQUIRED",
+        "RETENTION_RESTRICTED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "State proposal -> root instruction or permission mutation",
+        "State update -> neural training / tool dispatch",
+        "History read -> fresh retrieval/training/serving permission",
+        "Unreviewed or disputed note -> authoritative current claim",
+        "Legacy record -> invented agent/project/session attribution"
+      ],
+      "invariants": [
+        "One existing state owner/journal; no second current-state store.",
+        "Scope and instruction-policy reference cannot change through generated deltas.",
+        "Every initial-policy state write requires exact separate declared human review.",
+        "Current-use reads recheck source permissions, scope, ECID and expiry; history does not renew use.",
+        "Core/overlay artifacts and external effects are not modified by state operations.",
+        "Mandatory state/context overflow fails explicitly; notes expire only through reviewed receipt-backed removal."
+      ],
+      "pseudocode": [
+        "function BIND_STATE(command):",
+        "  TRY(VALIDATE_BIND_SCHEMA(command)); TRY(CHECK_LOCAL_OPERATOR())",
+        "  if SAME_EVENT_EXISTS: REQUIRE(EXACT_COMMAND_MATCH, CONSTRAINT_CONFLICT); return HISTORICAL_RECEIPT",
+        "  old = TRY(READ_CURRENT_UNSCOPED_RUNNING_TASK())",
+        "  TRY(CHECK_EXPECTED_REVISION_HASH_ECID(old, command))",
+        "  TRY(CHECK_EXACT_REVIEWER_ROLE_SCOPE_EXPIRY(command))",
+        "  next = COPY(old) + PINNED_SCOPE_POLICY_ARCHIVE_AND_EMPTY_STATE",
+        "  TRY(CHECK_ADMITTED_SOURCES_RECEIPTS_AND_BYTES(next))",
+        "  TRY(RECHECK_CURRENT_RIGHTS())",
+        "  return ATOMIC_PUBLISH(event, next_revision, task_head, receipt)",
+        "  # Original v1 record remains in journal; no implicit migration of historical closed sessions."
+      ],
+      "uses_primitives": [
+        "TRY",
+        "REQUIRE",
+        "VALIDATE",
+        "REPLAY_SAFE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Reuse existing Generations transaction and source readers; no persistent permission cache.",
+        "Pure structural reducer supports replay at original event time, not renewed authority.",
+        "Canonical JSON byte accounting is not a tokenizer/energy benchmark."
+      ]
+    },
+    {
+      "id": "state_delta",
+      "title": "Reviewed allowlisted symbolic state update",
+      "owner": "Generations via pure state contracts/reducer and existing evidence readers",
+      "purpose": "Reviewed allowlisted symbolic state update",
+      "status": "canonical",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact task ticket, scoped schema-v2 command or read",
+        "Pinned sources/archive, current configuration, declared local reviewer"
+      ],
+      "outputs": [
+        "Atomic new TaskRecord+receipt, unchanged history, or typed failure without mutation"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "kind": "start",
+          "label": "Exact request, no authority by itself"
+        },
+        {
+          "id": "valid",
+          "kind": "process",
+          "label": "Validate version, bounds, role and exact command"
+        },
+        {
+          "id": "duplicate",
+          "kind": "decision",
+          "label": "Exact event already committed?"
+        },
+        {
+          "id": "current",
+          "kind": "process",
+          "label": "Verify current ticket, scope, ECID and expected revision"
+        },
+        {
+          "id": "review",
+          "kind": "process",
+          "label": "Verify separate exact unexpired local review"
+        },
+        {
+          "id": "apply",
+          "kind": "process",
+          "label": "Reduce allowed changes into a new immutable revision"
+        },
+        {
+          "id": "sources",
+          "kind": "process",
+          "label": "Check source rights, expiry, receipts and mandatory byte budget"
+        },
+        {
+          "id": "commit",
+          "kind": "process",
+          "label": "Recheck sources; commit event, revision and task head together"
+        },
+        {
+          "id": "done",
+          "kind": "success",
+          "label": "New receipt or unchanged historical receipt"
+        },
+        {
+          "id": "fail",
+          "kind": "failure",
+          "label": "Precise error; prior valid revision remains"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "valid",
+          "when": "always"
+        },
+        {
+          "from": "valid",
+          "to": "duplicate",
+          "when": "valid"
+        },
+        {
+          "from": "valid",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "duplicate",
+          "to": "done",
+          "when": "yes: same command, historical only"
+        },
+        {
+          "from": "duplicate",
+          "to": "current",
+          "when": "no"
+        },
+        {
+          "from": "duplicate",
+          "to": "fail",
+          "when": "ID reused for a different command"
+        },
+        {
+          "from": "current",
+          "to": "review",
+          "when": "valid"
+        },
+        {
+          "from": "current",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "review",
+          "to": "apply",
+          "when": "valid"
+        },
+        {
+          "from": "review",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "apply",
+          "to": "sources",
+          "when": "valid"
+        },
+        {
+          "from": "apply",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "sources",
+          "to": "commit",
+          "when": "valid"
+        },
+        {
+          "from": "sources",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "commit",
+          "to": "done",
+          "when": "committed"
+        },
+        {
+          "from": "commit",
+          "to": "fail",
+          "when": "typed_error or interrupted transaction"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "NEEDS_CLARIFICATION",
+          "RECOVERY_REQUIRED",
+          "RETENTION_RESTRICTED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "NEEDS_CLARIFICATION",
+        "RECOVERY_REQUIRED",
+        "RETENTION_RESTRICTED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "State proposal -> root instruction or permission mutation",
+        "State update -> neural training / tool dispatch",
+        "History read -> fresh retrieval/training/serving permission",
+        "Unreviewed or disputed note -> authoritative current claim",
+        "Legacy record -> invented agent/project/session attribution"
+      ],
+      "invariants": [
+        "One existing state owner/journal; no second current-state store.",
+        "Scope and instruction-policy reference cannot change through generated deltas.",
+        "Every initial-policy state write requires exact separate declared human review.",
+        "Current-use reads recheck source permissions, scope, ECID and expiry; history does not renew use.",
+        "Core/overlay artifacts and external effects are not modified by state operations.",
+        "Mandatory state/context overflow fails explicitly; notes expire only through reviewed receipt-backed removal."
+      ],
+      "pseudocode": [
+        "function UPDATE_STATE(command):",
+        "  TRY(VALIDATE_EXACT_DELTA_SCHEMA(command)); TRY(CHECK_LOCAL_OPERATOR())",
+        "  if SAME_EVENT_EXISTS: REQUIRE(EXACT_COMMAND_MATCH, CONSTRAINT_CONFLICT); return HISTORICAL_RECEIPT",
+        "  old = TRY(READ_CURRENT_SCOPED_UNSEALED_TASK())",
+        "  TRY(CHECK_EXPECTED_REVISION_HASH_ECID(old, command))",
+        "  TRY(CHECK_SEPARATE_EXACT_UNEXPIRED_REVIEW(command))",
+        "  next = TRY(PURE_ALLOWLISTED_REDUCTION(old, command))",
+        "  TRY(CHECK_EXACT_SOURCES_ARCHIVE_RETRIEVAL_IDENTITY_REVIEW(next))",
+        "  TRY(CHECK_NOTE_EXPIRY_MANDATORY_BUDGET_AND_ACTION_RECEIPTS(next))",
+        "  TRY(RECHECK_DELTA_AND_REMAINING_STATE_SOURCES())",
+        "  return ATOMIC_PUBLISH(event, next_revision, task_head, receipt)",
+        "  # SET_GOAL, ADD/RESOLVE/DEFER_QUESTION, ADD/RETIRE/EXPIRE_NOTE only.",
+        "  # Retirement can remove a blocked/expired note; original bytes stay in revision history.",
+        "  # A received user clarification must equal the exact admitted user source, not a generated answer."
+      ],
+      "uses_primitives": [
+        "TRY",
+        "REQUIRE",
+        "VALIDATE",
+        "REPLAY_SAFE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Reuse existing Generations transaction and source readers; no persistent permission cache.",
+        "Pure structural reducer supports replay at original event time, not renewed authority.",
+        "Canonical JSON byte accounting is not a tokenizer/energy benchmark."
+      ]
+    },
+    {
+      "id": "state_reuse",
+      "title": "Scoped restart, current context use and historical inspection",
+      "owner": "Generations via pure state contracts/reducer and existing evidence readers",
+      "purpose": "Scoped restart, current context use and historical inspection",
+      "status": "canonical",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact task ticket, scoped schema-v2 command or read",
+        "Pinned sources/archive, current configuration, declared local reviewer"
+      ],
+      "outputs": [
+        "Atomic new TaskRecord+receipt, unchanged history, or typed failure without mutation"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "kind": "start",
+          "label": "Open existing Generations journal"
+        },
+        {
+          "id": "journal",
+          "kind": "process",
+          "label": "Verify journal, schema and original-time structural replay"
+        },
+        {
+          "id": "scope",
+          "kind": "process",
+          "label": "Check exact task-holder and agent/project/session scope"
+        },
+        {
+          "id": "mode",
+          "kind": "decision",
+          "label": "Historical inspection only?"
+        },
+        {
+          "id": "current",
+          "kind": "process",
+          "label": "Check current running ticket, generation, profile and record identity"
+        },
+        {
+          "id": "source",
+          "kind": "process",
+          "label": "Recheck source hashes, archive retrieval rights, disputes and note expiry"
+        },
+        {
+          "id": "packet",
+          "kind": "process",
+          "label": "Compile data-only context; preserve questions and state within byte budget"
+        },
+        {
+          "id": "done",
+          "kind": "success",
+          "label": "Historical data or currently checked context; no new effect authority"
+        },
+        {
+          "id": "fail",
+          "kind": "failure",
+          "label": "Wrong scope, stale state, revoked evidence or overflow; do not guess"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "journal",
+          "when": "always"
+        },
+        {
+          "from": "journal",
+          "to": "scope",
+          "when": "valid"
+        },
+        {
+          "from": "journal",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "scope",
+          "to": "mode",
+          "when": "valid"
+        },
+        {
+          "from": "scope",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "mode",
+          "to": "done",
+          "when": "yes: history is not renewed current use"
+        },
+        {
+          "from": "mode",
+          "to": "current",
+          "when": "no: current use requested"
+        },
+        {
+          "from": "current",
+          "to": "source",
+          "when": "valid"
+        },
+        {
+          "from": "current",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "source",
+          "to": "packet",
+          "when": "valid"
+        },
+        {
+          "from": "source",
+          "to": "fail",
+          "when": "typed_error"
+        },
+        {
+          "from": "packet",
+          "to": "done",
+          "when": "valid"
+        },
+        {
+          "from": "packet",
+          "to": "fail",
+          "when": "typed_error or mandatory overflow"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "NEEDS_CLARIFICATION",
+          "RECOVERY_REQUIRED",
+          "RETENTION_RESTRICTED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "NEEDS_CLARIFICATION",
+        "RECOVERY_REQUIRED",
+        "RETENTION_RESTRICTED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "State proposal -> root instruction or permission mutation",
+        "State update -> neural training / tool dispatch",
+        "History read -> fresh retrieval/training/serving permission",
+        "Unreviewed or disputed note -> authoritative current claim",
+        "Legacy record -> invented agent/project/session attribution"
+      ],
+      "invariants": [
+        "One existing state owner/journal; no second current-state store.",
+        "Scope and instruction-policy reference cannot change through generated deltas.",
+        "Every initial-policy state write requires exact separate declared human review.",
+        "Current-use reads recheck source permissions, scope, ECID and expiry; history does not renew use.",
+        "Core/overlay artifacts and external effects are not modified by state operations.",
+        "Mandatory state/context overflow fails explicitly; notes expire only through reviewed receipt-backed removal."
+      ],
+      "pseudocode": [
+        "function READ_STATE_OR_CONTEXT(task, scope, caller, mode):",
+        "  TRY(VERIFY_EXISTING_JOURNAL_AND_REVISIONS())",
+        "  TRY(CHECK_EXACT_LOCAL_HOLDER_AND_SCOPE())",
+        "  if mode == HISTORY: return ORIGINAL_RECORDS_WITH_REVIEW_LINEAGE_AND_NO_NEW_PERMISSION",
+        "  view = TRY(READ_CURRENT_RUNNING_TASK_AND_ARTIFACTS())",
+        "  TRY(CHECK_SOURCE_HASHES_CURRENT_RETRIEVAL_RIGHTS_AND_EXPIRY())",
+        "  packet = TRY(CONTEXT_SERVICE.BUILD_WITH_FULL_STATE_DATA(view))",
+        "  REQUIRE(MANDATORY_PACKET_FITS, BUDGET_EXHAUSTED)",
+        "  TRY(RECHECK_AT_CONSUMPTION())",
+        "  return packet",
+        "  # Blocking questions remain in v2 packets so clarification can be requested.",
+        "  # They still block downstream MOVE unless explicitly resolved or deferred.",
+        "  # No implicit session migration, no neural-state reconstruction, no effect replay."
+      ],
+      "uses_primitives": [
+        "TRY",
+        "REQUIRE",
+        "VALIDATE",
+        "REPLAY_SAFE",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Reuse existing Generations transaction and source readers; no persistent permission cache.",
+        "Pure structural reducer supports replay at original event time, not renewed authority.",
+        "Canonical JSON byte accounting is not a tokenizer/energy benchmark."
+      ]
+    }
+  ]
+}

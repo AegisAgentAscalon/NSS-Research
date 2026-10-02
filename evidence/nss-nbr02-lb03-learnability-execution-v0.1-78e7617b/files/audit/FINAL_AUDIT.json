@@ -1,0 +1,40 @@
+{
+  "status": "PASS_DECLARED_CHECKS_WITH_NUMERICAL_WARNING",
+  "source_archives_verified": 6,
+  "source_payloads_verified": 2909,
+  "main_lock_files": 45,
+  "endpoint_lock_files": 192,
+  "checkpoint_files": 120,
+  "packed_exports": 120,
+  "raw_arrays": 336,
+  "scored_observations": 652224,
+  "all_observations": 1091520,
+  "all_replays_bit_exact": true,
+  "update_suffixes": 6,
+  "update_replay_applications": 24,
+  "snapshot_faults_rejected": 24,
+  "recorded_numerical_scalars": 159230400,
+  "recorded_numerical_violations": 0,
+  "recorded_max_abs": 6.706635247155646e-12,
+  "stable_audit_scalars": 79680960,
+  "stable_audit_violations": 0,
+  "fixture_regeneration": [
+    {
+      "file": "fixtures/development.npz",
+      "sha256": "8e987dad8cf4cb9fff110e9b2e27b12dedfcb57078efa83839edcc3cf59c7b0e",
+      "byte_exact": true
+    },
+    {
+      "file": "fixtures/confirmation.npz",
+      "sha256": "3b58a119a1df7370b4c387df02c59228392ec4890fe675e0eb6118532362e212",
+      "byte_exact": true
+    },
+    {
+      "file": "fixtures/stress.npz",
+      "sha256": "436459914903588c18dde6a05892a5c47133a8e531b1c26c23420e54f2e9d31b",
+      "byte_exact": true
+    }
+  ],
+  "budget_compliant": true,
+  "independent_external_review": false
+}

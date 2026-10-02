@@ -1,0 +1,42 @@
+{
+  "B_C_comparisons_equal": 24,
+  "all_heldout_invalid_reference_rules_pass": null,
+  "array_elements_audited": 3465,
+  "bound_public_exact_prediction_agreement": {
+    "attention": {
+      "comparisons": 0,
+      "identical_predictions": 0
+    },
+    "near": {
+      "comparisons": 0,
+      "identical_predictions": 0
+    },
+    "ordinary": {
+      "comparisons": 0,
+      "identical_predictions": 0
+    }
+  },
+  "control_rows": 16,
+  "decision_rows": 72,
+  "incorrect_decision_rows": 33,
+  "independent_management_replays": 8,
+  "independently_reconstructed_cases": 8,
+  "kind": "fixture",
+  "matched_opposite_truth_pairs": 1,
+  "neural_calls_audited": 33,
+  "no_cue_counterfactuals": 0,
+  "primary_near_heldout_families_meeting_gain_control": 0,
+  "primary_useful_reference_signal": null,
+  "producer_modules_imported": [],
+  "records": 8,
+  "source_lock_sha256": "7265605c0cf7f82b2025a38820e50ca8dd4d988a68d19463931bfc765d7d6a2d",
+  "status": "PASS_INDEPENDENT_SCORING",
+  "training_updates": 0,
+  "underflow_check": {
+    "amendment_absolute_probability_allowance": 1.1754943508222875e-38,
+    "fixture_source": "v1.6 retained fresh-main rejection, not the lost historical raw row",
+    "frozen_message": "Torch softmax component 12 exceeds the declared float64 bound",
+    "sha256": "fffc59aa08ac1a4ad2b10575903c64439ff92b23aeb87e6221fe2fd95f64ae39",
+    "status": "PASS_FROZEN_REJECTION_AND_EXISTING_AMENDMENT"
+  }
+}

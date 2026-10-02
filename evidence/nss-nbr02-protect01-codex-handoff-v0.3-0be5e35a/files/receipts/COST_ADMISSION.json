@@ -1,0 +1,151 @@
+{
+  "by_record_kind": [
+    {
+      "kind": "load",
+      "sample_records": 106,
+      "planned_per_pass": 610,
+      "sample_xz_bytes": 7608,
+      "projected_two_pass_bytes_with_1_5_margin": 131345.66037735846,
+      "max_observed_numeric": 2696,
+      "max_observed_header": 409
+    },
+    {
+      "kind": "management_load",
+      "sample_records": 106,
+      "planned_per_pass": 610,
+      "sample_xz_bytes": 4508,
+      "projected_two_pass_bytes_with_1_5_margin": 77826.79245283018,
+      "max_observed_numeric": 0,
+      "max_observed_header": 3927
+    },
+    {
+      "kind": "buffer_import",
+      "sample_records": 24,
+      "planned_per_pass": 24,
+      "sample_xz_bytes": 1452,
+      "projected_two_pass_bytes_with_1_5_margin": 4356.0,
+      "max_observed_numeric": 0,
+      "max_observed_header": 3405
+    },
+    {
+      "kind": "cue",
+      "sample_records": 428,
+      "planned_per_pass": 3532,
+      "sample_xz_bytes": 247304,
+      "projected_two_pass_bytes_with_1_5_margin": 6122507.4392523365,
+      "max_observed_numeric": 10648,
+      "max_observed_header": 8124
+    },
+    {
+      "kind": "fillers",
+      "sample_records": 372,
+      "planned_per_pass": 3188,
+      "sample_xz_bytes": 147204,
+      "projected_two_pass_bytes_with_1_5_margin": 3784567.35483871,
+      "max_observed_numeric": 2112,
+      "max_observed_header": 595
+    },
+    {
+      "kind": "fork",
+      "sample_records": 16,
+      "planned_per_pass": 112,
+      "sample_xz_bytes": 8296,
+      "projected_two_pass_bytes_with_1_5_margin": 174216.0,
+      "max_observed_numeric": 10704,
+      "max_observed_header": 5414
+    },
+    {
+      "kind": "fork_match",
+      "sample_records": 16,
+      "planned_per_pass": 112,
+      "sample_xz_bytes": 11712,
+      "projected_two_pass_bytes_with_1_5_margin": 245952.0,
+      "max_observed_numeric": 2696,
+      "max_observed_header": 512
+    },
+    {
+      "kind": "protection",
+      "sample_records": 32,
+      "planned_per_pass": 224,
+      "sample_xz_bytes": 564608,
+      "projected_two_pass_bytes_with_1_5_margin": 11856768.0,
+      "max_observed_numeric": 154000,
+      "max_observed_header": 10627
+    },
+    {
+      "kind": "solver_fixture",
+      "sample_records": 16,
+      "planned_per_pass": 16,
+      "sample_xz_bytes": 11932,
+      "projected_two_pass_bytes_with_1_5_margin": 35796.0,
+      "max_observed_numeric": 135528,
+      "max_observed_header": 3163
+    },
+    {
+      "kind": "old_derivative",
+      "sample_records": 8,
+      "planned_per_pass": 8,
+      "sample_xz_bytes": 2092,
+      "projected_two_pass_bytes_with_1_5_margin": 6276.0,
+      "max_observed_numeric": 5656,
+      "max_observed_header": 1221
+    },
+    {
+      "kind": "derivative",
+      "sample_records": 8,
+      "planned_per_pass": 8,
+      "sample_xz_bytes": 1492,
+      "projected_two_pass_bytes_with_1_5_margin": 4476.0,
+      "max_observed_numeric": 2696,
+      "max_observed_header": 557
+    },
+    {
+      "kind": "update",
+      "sample_records": 324,
+      "planned_per_pass": 2852,
+      "sample_xz_bytes": 506592,
+      "projected_two_pass_bytes_with_1_5_margin": 13377781.333333336,
+      "max_observed_numeric": 8096,
+      "max_observed_header": 9303
+    },
+    {
+      "kind": "frozen_receipt",
+      "sample_records": 96,
+      "planned_per_pass": 672,
+      "sample_xz_bytes": 9884,
+      "projected_two_pass_bytes_with_1_5_margin": 207564.0,
+      "max_observed_numeric": 2696,
+      "max_observed_header": 8339
+    },
+    {
+      "kind": "query",
+      "sample_records": 3480,
+      "planned_per_pass": 24344,
+      "sample_xz_bytes": 432200,
+      "projected_two_pass_bytes_with_1_5_margin": 9070238.620689655,
+      "max_observed_numeric": 272,
+      "max_observed_header": 1130
+    },
+    {
+      "kind": "checkpoint",
+      "sample_records": 156,
+      "planned_per_pass": 1060,
+      "sample_xz_bytes": 24672,
+      "projected_two_pass_bytes_with_1_5_margin": 502929.2307692308,
+      "max_observed_numeric": 10248,
+      "max_observed_header": 11848
+    }
+  ],
+  "zip_projection_bytes": 64476968.431713454,
+  "zip_cap": 67108864,
+  "empirical_live_projection_bytes": 177399955.29908264,
+  "raw_cap": 268435456,
+  "maximum_observed_logical_numeric_noalias_projection": 253208736,
+  "probe_seconds_including_audit": 4.118618488311768,
+  "projected_shared_seconds": 695.5729752826691,
+  "projection_not_worst_case_proof": true,
+  "nonnumeric_zip_reserve": 18874368,
+  "live_nonnumeric_reserve": 33554432,
+  "actual_caps_enforced": true,
+  "passed": true
+}

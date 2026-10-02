@@ -1,0 +1,9 @@
+{
+  "filename": "NSS_NBR02_REV01_Complete_v0.4.zip",
+  "bytes": 20961112,
+  "sha256": "f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e",
+  "study": "NSS-NBR02-REV01",
+  "execution_version": "v0.4",
+  "protocol": "reviewed v0.2",
+  "evidence_scope": "This compact packet contains summaries and selected scored rows; full raw observations, weights, code, checkpoint/gradient/update evidence and adaptive replay are in the complete ZIP identified here."
+}

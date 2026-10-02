@@ -1,0 +1,73 @@
+HISTORICAL PRE-REPAIR RUN, NOT CURRENT RELEASE STATUS
+ERROR: test_cli_failed_verdict_is_not_success_exit (test_evaluation_cli_crashes.EvaluationCLITests.test_cli_failed_verdict_is_not_success_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_evaluation_cli_crashes.py", line 31, in test_cli_failed_verdict_is_not_success_exit
+    self.assertEqual(self.cli('execute',self.file(),expected=2)['data']['verdict'],'FAIL')
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_connected_pipeline_preserves_state_and_revocation (test_evaluation_cli_crashes.EvaluationIntegrationTests.test_connected_pipeline_preserves_state_and_revocation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_evaluation_cli_crashes.py", line 93, in test_connected_pipeline_preserves_state_and_revocation
+    r=run(root)
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluationrun001.py", line 71, in run
+    results=[_ok(store.execute(p,**kw)) for p in (a,ab,low)]
+             ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluationrun001.py", line 26, in _ok
+    if result['status']!='SUCCESS':raise RuntimeError('EvaluationRun001: '+str(result))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: EvaluationRun001: {'status': 'VALIDATION_FAILED', 'data': None, 'detail': '$.implementation.files: array size out of bounds', 'historical': False, 'replayed': False, 'authorizes_deployment': False}
+
+======================================================================
+ERROR: test_material_code_digest_cannot_be_relabelled (test_evaluation_contracts.EvaluationContractTests.test_material_code_digest_cannot_be_relabelled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_evaluation_contracts.py", line 152, in test_material_code_digest_cannot_be_relabelled
+    m=capture_inputs(self.plan,self.inputs);m['implementation']['environment']['python']='forged'
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluation_inputs.py", line 105, in capture_inputs
+    return validate_material(plan,material)[0]
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluation_contracts.py", line 83, in validate_material
+    validate(material,'evaluation_material.schema.json')
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 37, in validate
+    _validate(value, read_json(SCHEMAS / name), "$")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 59, in _validate
+    _validate(item, props[key], path + "." + key)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 59, in _validate
+    _validate(item, props[key], path + "." + key)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 62, in _validate
+    fail("VALIDATION_FAILED", f"{path}: array size out of bounds")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/runtime.py", line 12, in fail
+    raise ContractError(code, message)
+nss_base.runtime.ContractError: $.implementation.files: array size out of bounds
+
+======================================================================
+ERROR: test_material_raw_bytes_and_roles_are_revalidated (test_evaluation_contracts.EvaluationContractTests.test_material_raw_bytes_and_roles_are_revalidated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/tests/test_evaluation_contracts.py", line 145, in test_material_raw_bytes_and_roles_are_revalidated
+    m=capture_inputs(self.plan,self.inputs)
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluation_inputs.py", line 105, in capture_inputs
+    return validate_material(plan,material)[0]
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/evaluation_contracts.py", line 83, in validate_material
+    validate(material,'evaluation_material.schema.json')
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 37, in validate
+    _validate(value, read_json(SCHEMAS / name), "$")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/learner_pass_qa/clean_candidate/MegaMindAlpha_v0.4.12_BoundedLearnerCoordinator001/nss_base/serialization.py", line 59, 
+replayed': False, 'authorizes_deployment': False}
+
+----------------------------------------------------------------------
+Ran 986 tests in 516.661s
+
+FAILED (failures=49, errors=7)

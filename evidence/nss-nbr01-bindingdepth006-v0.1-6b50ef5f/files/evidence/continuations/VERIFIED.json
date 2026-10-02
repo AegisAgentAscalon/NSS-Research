@@ -1,0 +1,7 @@
+{
+  "fresh_interpreter": true,
+  "kind": "internal reproduction, not external replication",
+  "query_cases": 100,
+  "status": "PASS",
+  "store_cases": 20
+}

@@ -1,0 +1,8 @@
+{
+  "driver": "scripts/regression.py",
+  "exit_code": 1,
+  "condition": "old_replay_bit_exact false in9/9 files",
+  "numeric_violations": 0,
+  "class_changes": 0,
+  "resolution": "Not resolved. Current clean replay bit-exact in9/9; archived legacy differences within frozen tolerance. Both recorded."
+}

@@ -1,0 +1,27 @@
+{
+  "archive": "NSS_CM01_Execution_v0.2.zip",
+  "bytes": 15265242,
+  "sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+  "zip_crc": "PASS",
+  "manifest_files": 628,
+  "contents": "complete new bounded CM01 raw inputs/captures/replays/results/source; old model archive required separately",
+  "baseline_dependency": {
+    "filename": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e"
+  },
+  "new_optimizer_updates": 0,
+  "logical_model_calls": 21186,
+  "primary_near_heldout_close": {
+    "before_correct": 88,
+    "after_correct": 142,
+    "denominator": 200,
+    "unique_records": 40
+  },
+  "frozen_source_lock_sha256": "7265605c0cf7f82b2025a38820e50ca8dd4d988a68d19463931bfc765d7d6a2d",
+  "fresh_extraction_path": "/mnt/data/cm01_final_extraction_qa/NSS_CM01_Execution_v0.2",
+  "fresh_extraction_manifest_verification": {
+    "status": "PASS",
+    "files": 628,
+    "new_model_calls": 0
+  }
+}

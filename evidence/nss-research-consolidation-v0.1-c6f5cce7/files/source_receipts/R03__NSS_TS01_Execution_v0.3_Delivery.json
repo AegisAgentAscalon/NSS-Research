@@ -1,0 +1,33 @@
+{
+  "additional_neural_forwards": 0,
+  "additional_optimizer_updates": 0,
+  "all_relocated_scores_byte_identical": true,
+  "archive": "NSS_TS01_Execution_v0.3.zip",
+  "byte_identical_aliases": 245,
+  "bytes": 65400460,
+  "created_utc": "2026-09-24T22:44:35.193120+00:00",
+  "logical_manifest_files": 757,
+  "logical_payload_bytes": 151423233,
+  "losslessly_reconstructed_duplicate_tables": 2,
+  "management_token_workspace_tested": false,
+  "packaging_attempts": 2,
+  "physical_zip_entries": 511,
+  "previous_packaging_failure": "Nested raw manifests omitted; corrected inclusion only, scientific data and source unchanged; receipts retained in audit/.",
+  "raw_output_cap_bytes": 268435456,
+  "relocation_rescored_files": 44,
+  "rescore_seconds": 20.15866963899998,
+  "restoration_and_full_manifest_verification": "passed after fresh extraction",
+  "scientific_screen_pass": true,
+  "sha256": "58ca0f45d00f3cf7fb4c1b0093e5f5b15e12fb1c6f6dc4172d0d929434259cb3",
+  "shared_clock_through_delivery_qa_seconds": 1565.191390991211,
+  "single_zip_cap_bytes": 67108864,
+  "status": "PASS",
+  "study_attempts": {
+    "backward": 10000,
+    "cells": 4099712,
+    "heads": 8089216,
+    "optimizer": 10000
+  },
+  "temporary_QA_copies": "Repeated verification copies of the same retained payload, not additional generated scientific data; logical payload counted once.",
+  "zip_integrity": true
+}

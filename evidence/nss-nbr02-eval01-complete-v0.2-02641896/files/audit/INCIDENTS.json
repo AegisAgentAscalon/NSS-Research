@@ -1,0 +1,27 @@
+[
+  {
+    "id": "INSPECT-001",
+    "phase": "source layout inspection before source lock",
+    "observed": "An inspection helper assumed REV01 delivery-map keys for TIMING01 and raised KeyError encoded_records.",
+    "resolution": "Inspected the two actual delivery schemas and explicitly handle each.",
+    "scientific_effect": "None: no policy calculation, data selection by outcome, or model work."
+  },
+  {
+    "id": "EXTRACT-002",
+    "phase": "pre-review source extraction",
+    "failure": "REV01 frame5173 branch B1 version differed from the latest global B2 update",
+    "cause": "Extractor incorrectly used one global parameter/table slot despite interleaved candidate branches.",
+    "repair": "Track recorded parameter and receipt-table state by (session,branch); bind load/cue/checkpoint/update hashes separately.",
+    "source_learner_defect": false,
+    "completed_candidate_reviews": 0,
+    "source_or_policy_or_threshold_changes": false
+  },
+  {
+    "id": "EXTRACT-003",
+    "observed": "TIMING01 manifest files is a dict; initial extractor expected REV01 list schema",
+    "stage": "after REV01 extraction, before candidate-policy evaluation",
+    "repair": "Explicit normalization of list vs dict manifest forms before identical byte checks",
+    "changed_source_measurements": false,
+    "policy_reviews_before_repair": 0
+  }
+]

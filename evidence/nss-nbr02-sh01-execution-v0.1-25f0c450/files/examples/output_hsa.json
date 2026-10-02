@@ -1,0 +1,104 @@
+{
+  "schema": "nss.maintenance.output.v1",
+  "packet_sha256": "5630a51f9d58e0ba377a54075aa2dba861a72ce48dfa9ab13b78878053eee371",
+  "model_sha256": "5fe41f790cfe5a91bc1a46ffa2129c6274f39617aa470624dfc5ccb44f842107",
+  "reader": "hsa",
+  "scope": "P",
+  "training_updates": 600,
+  "dispositions": [
+    {
+      "task": 0,
+      "revision": 1,
+      "source": "771002:0/0/1",
+      "status": "DEFER",
+      "score": 0.9993404746055603,
+      "dependencies": [
+        4,
+        3
+      ]
+    },
+    {
+      "task": 1,
+      "revision": 1,
+      "source": "771002:0/1/1",
+      "status": "DEFER",
+      "score": 0.9992241859436035,
+      "dependencies": [
+        4,
+        3
+      ]
+    },
+    {
+      "task": 2,
+      "revision": 1,
+      "source": "771002:0/2/1",
+      "status": "DEFER",
+      "score": 0.9989663362503052,
+      "dependencies": [
+        0,
+        7
+      ]
+    },
+    {
+      "task": 3,
+      "revision": 1,
+      "source": "771002:0/3/1",
+      "status": "DEFER",
+      "score": 0.999358594417572,
+      "dependencies": [
+        7,
+        6
+      ]
+    },
+    {
+      "task": 4,
+      "revision": 1,
+      "source": "771002:0/4/1",
+      "status": "DEFER",
+      "score": 0.9993984699249268,
+      "dependencies": [
+        3,
+        0
+      ]
+    },
+    {
+      "task": 5,
+      "revision": 1,
+      "source": "771002:0/5/1",
+      "status": "DEFER",
+      "score": 0.9995895028114319,
+      "dependencies": [
+        1,
+        6
+      ]
+    },
+    {
+      "task": 6,
+      "revision": 1,
+      "source": "771002:0/6/1",
+      "status": "DEFER",
+      "score": 0.9987782835960388,
+      "dependencies": [
+        2,
+        3
+      ]
+    },
+    {
+      "task": 7,
+      "revision": 1,
+      "source": "771002:0/7/1",
+      "status": "DEFER",
+      "score": 0.9994494318962097,
+      "dependencies": [
+        5,
+        3
+      ]
+    }
+  ],
+  "limitations": [
+    "typed synthetic records, not language comprehension",
+    "scores are not calibrated probabilities",
+    "record selection/version authority supplied by software",
+    "advisory output; no action executed"
+  ]
+}

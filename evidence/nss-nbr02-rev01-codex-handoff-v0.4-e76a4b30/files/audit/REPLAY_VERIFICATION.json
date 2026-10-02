@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "comparison": {
+    "frames": 24720,
+    "arrays": 71400,
+    "elements": 11946576
+  },
+  "deterministic_files": {
+    "worker/records.bin": {
+      "bytes": 35266374,
+      "sha256": "9ab8b40762ad26c5967afaa9ba88b343df0b0f3daca6b24171ed214d3360bea9",
+      "same": true
+    },
+    "worker/events.jsonl": {
+      "bytes": 15334336,
+      "sha256": "4c6e9a6c144b195f82ad7acc2ff4ff0c26b2d9c0130b667752ecace7d88bd354",
+      "same": true
+    },
+    "public_messages.jsonl": {
+      "bytes": 6037660,
+      "sha256": "8a54de5ef713c7c8661b40ffcd3a7d7a6ad1286fd3f798e7b4019c9005f55f99",
+      "same": true
+    },
+    "public_responses.jsonl": {
+      "bytes": 12098813,
+      "sha256": "0057918c736bb805d3f0375a66ff595e143b589bb667367fefe11505596de405",
+      "same": true
+    },
+    "private/PLAN.json": {
+      "bytes": 626486,
+      "sha256": "e8c0b25a9bab18a8d17a11c47189065d361e647421c65224c4d94d9586d68f32",
+      "same": true
+    },
+    "A0_AND_GUARDS_LOCK.json": {
+      "bytes": 2644,
+      "sha256": "8b7e7190dbdca98b9e15ea20b9fa8982949fd6811ad550b9ad2e0407456e2a9e",
+      "same": true
+    },
+    "EXACT.json": {
+      "bytes": 157875,
+      "sha256": "405c3eede47883b341992e65c79537e7a2eac9e7d3cea0f7c313087cda641078",
+      "same": true
+    },
+    "COUNTERS.json": {
+      "bytes": 152,
+      "sha256": "e419b20a843d65399981c552b6f8e95ac16535841c68343791086091e87a8a86",
+      "same": true
+    },
+    "NOVELTY.json": {
+      "bytes": 3780,
+      "sha256": "fb2d74598a407a77e250435562d44953f08cb0545c15e38ce6fa33ee923cc236",
+      "same": true
+    }
+  },
+  "final_score_files": [
+    "DERIVATIVES.csv",
+    "RETENTION_INDIVIDUAL.csv",
+    "DECISIONS.json",
+    "A0.csv",
+    "UPDATES.csv",
+    "NEGATIVE_QUERY_ROWS.csv",
+    "RETENTION_BASE_CHECKPOINT.csv",
+    "AUDIT.json",
+    "QUERY_ROWS.csv",
+    "EXACT_ROWS.csv",
+    "FIRST_CORRECTION_PAIRS.csv"
+  ],
+  "actual_schema": {
+    "record_counts": {
+      "load": 348,
+      "management_load": 348,
+      "cue": 2548,
+      "derivative": 8,
+      "fillers": 2438,
+      "update": 1928,
+      "query": 15724,
+      "fork": 102,
+      "fork_match": 102,
+      "checkpoint": 562,
+      "frozen_receipt": 612
+    },
+    "maximum_numeric_bytes": {
+      "load": 2696,
+      "management_load": 0,
+      "cue": 10648,
+      "derivative": 2696,
+      "fillers": 2112,
+      "update": 5400,
+      "query": 272,
+      "fork": 10704,
+      "fork_match": 2696,
+      "checkpoint": 10248,
+      "frozen_receipt": 2696
+    },
+    "max_header": 12314,
+    "max_decoded_frame": 15930,
+    "total_decoded_envelope_bytes_one_pass": 66841505
+  },
+  "fresh_adaptive_replay_not_new_scientific_samples": true,
+  "timing_and_heartbeat_volatile_files_excluded": true
+}

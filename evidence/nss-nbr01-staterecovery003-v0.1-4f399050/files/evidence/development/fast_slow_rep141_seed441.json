@@ -1,0 +1,87 @@
+{
+  "answer_labels": 76800,
+  "changed_parameter_elements": 3,
+  "checkpoint_sha256": "465fa3effcef869375410d7e4579dd281ed9a8ed588ccd73bc4f27498aaec84d",
+  "direct_state_target_supervision": true,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789946456.2399523,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 76800,
+  "fast_slow_rates": [
+    0.9567570686340332,
+    0.6163849234580994,
+    0.1590643674135208
+  ],
+  "final_digest": "6bc603d2b82015bdf5ab4c3ede23566f26da1e9b5b577180ded39dff8bb495a4",
+  "frozen_reference_unchanged": true,
+  "gradient_bytes": 12,
+  "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+  "kind": "fast_slow",
+  "learn_seed": 441,
+  "logs": [
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.007288051303476095,
+      "loss": 0.03432251513004303,
+      "mse": 0.03382009267807007,
+      "rounds": 4,
+      "step": 1
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.003920378163456917,
+      "loss": 0.038164444267749786,
+      "mse": 0.03065788559615612,
+      "rounds": 4,
+      "step": 150
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.0053243013098835945,
+      "loss": 0.03188481554389,
+      "mse": 0.024366499856114388,
+      "rounds": 1,
+      "step": 300
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.004901316482573748,
+      "loss": 0.029592378064990044,
+      "mse": 0.025463979691267014,
+      "rounds": 1,
+      "step": 450
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.002651421120390296,
+      "loss": 0.039718084037303925,
+      "mse": 0.035144563764333725,
+      "rounds": 1,
+      "step": 600
+    }
+  ],
+  "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+  "optimizer_tensor_bytes": 28,
+  "parameter_bytes": 12,
+  "reference_sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+  "rep_seed": 141,
+  "rss_process_peak_5ms_sample_bytes": 328114176,
+  "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+  "status": "RUN",
+  "steps": 600,
+  "target_code_scalars": 1228800,
+  "train_cpu_seconds": 1.0130486029999997,
+  "train_wall_seconds": 1.003229126000008,
+  "trainable_parameters": 3,
+  "training_data_digest": "a3985b9b98d1d258f0301dc78b2afc57edd80fe30a297d9ee34297db1b9c0094"
+}

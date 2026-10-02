@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "key": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "string",
+          "enum": [
+            "append_marker"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "operation",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "COMMITTED",
+        "UNCERTAIN"
+      ]
+    },
+    "receipt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "key",
+    "task_id",
+    "payload",
+    "status",
+    "receipt"
+  ],
+  "additionalProperties": false
+}

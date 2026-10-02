@@ -1,0 +1,14 @@
+{
+  "archive_bytes": 45297572,
+  "archive_sha256": "78b1225c2621b807dca14ec28d9599ae5551f40fdce263311df03b9de47656f4",
+  "decoded_bytes": 54437518,
+  "decoded_container_sha256": "2030717008fe68b71661c6e4e52f72df605764a1c9a85d8ecae0ab5ea90ba857",
+  "entries_digest": "76b337e8747d5d48f0db8220d29fdbf35529e303dad1869e617e1fcf70980af2",
+  "format": "Unchanged NPY entries in ZIP_STORED NPZ, losslessly XZ-compressed",
+  "original_bytes": 49830527,
+  "original_container_sha256": "dfa1fdcf4b5c9899cb9da821d9479cd68fa4f87db7eca3aaf50c6a729df7c0b3",
+  "schema": "nbr009-evidence-archive-v1",
+  "seconds": 26.940915638999968,
+  "source": "CUE_pair1.npz",
+  "utc": "2026-09-21T19:16:52.064544+00:00"
+}

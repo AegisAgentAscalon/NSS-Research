@@ -1,0 +1,37 @@
+{
+  "baseline_zip_sha256": "be86703852ca3a72373ed7d2c96f71b91999cb6e21eed9e2f159a9e6e98de74a",
+  "version": "0.4.4-megamind-alpha-datasetsnapshot001",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "sqlite": "3.46.1",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "baseline_tests": 210,
+  "new_test_methods": 83,
+  "full_tests": 293,
+  "full_exit": 0,
+  "new_process_crash_scenarios": 6,
+  "unique_publication_fault_points": 4,
+  "changed_parent_flows": [
+    "experience",
+    "builder"
+  ],
+  "parent_flow_count": 25,
+  "helper_flow_count": 2,
+  "preserved_inherited_test_files": 14,
+  "inherited_runtime_source_files": 19,
+  "modified_inherited_runtime_files": [
+    "nss_base/experience_store.py"
+  ],
+  "checks": {
+    "imports": 0,
+    "compile": 0,
+    "atlas": 0
+  },
+  "schemas_reproducible": true,
+  "logic_docs_reproducible": true,
+  "evidence_limit": "Local synthetic software tests. No learned curation, training, authenticated authority or whole-store rollback defense.",
+  "experiment001a_exit": 0,
+  "experiment001b_exit": 0,
+  "stagehandoff001_exit": 0,
+  "experiencearchive001_exit": 0,
+  "datasetsnapshot001_exit": 0
+}

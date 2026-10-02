@@ -1,0 +1,19 @@
+{
+  "development": true,
+  "initial_digest": "0fd8e9a562d86e85c9d67c02fddf53b8c395567a2e3cefd7103fa22b6697d415",
+  "kind": "split4",
+  "learn_seed": 641,
+  "parent_sha256": "d75b5db37767c506618fde9dff6276eb789308f8a7daa5cd3bd45ed26ef5e8a4",
+  "protocol_sha256": "ddd433cf19994640800661ea94afc55a076f8c3ba5cc5ff0afb86862d7e17f46",
+  "rep_seed": 141,
+  "source_identity": {
+    "nbr01_exist/__init__.py": "486d4a3aff07880662e523fc5047629a154757a666fed2c0e807bb1ea191802a",
+    "nbr01_exist/models.py": "5b171f5327c459125a1e02021c2c4f0863ab044038f483da578e63ebcbcba1cf",
+    "nbr01_exist/train.py": "8e168eb3fb3d6238f153f6335fdda8d517762dfebb03d5a64d78b121c54ce13c",
+    "nbr01_exist/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "tools/train_worker.py": "4d2b02380d3dd302602d402b8f22a421dcabf3f5c523ccc677c5f7b30dd4beae"
+  },
+  "status": "NOT_RUN",
+  "steps": 1800,
+  "time_unix": 1789953002.4324145
+}

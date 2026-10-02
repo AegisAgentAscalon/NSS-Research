@@ -1,0 +1,66 @@
+{
+  "schema": "nss-theoretical-proposal-v1",
+  "status": "PROPOSED_NOT_RUN",
+  "files": [
+    {
+      "path": "CANDIDATE_REVIEW.md",
+      "bytes": 6864,
+      "sha256": "91506d25b47c89fa0e5fbaee72e20c1982b686b89490fd2822fa4f1f2698679d"
+    },
+    {
+      "path": "CHAT_PROMPT.md",
+      "bytes": 2283,
+      "sha256": "7d864d1f768ddecdd14e9940bb93862e5d912d5d92f541c785c51e159fea427d"
+    },
+    {
+      "path": "CM02_PROPOSED_PROTOCOL.md",
+      "bytes": 7399,
+      "sha256": "50ca224f44227391ccf041f8da9c19df0912b5de3b9fcc66965959afbcdb795c"
+    },
+    {
+      "path": "CRITIQUE.md",
+      "bytes": 3853,
+      "sha256": "4c48e25ce6cbbafd476cbbff3fd02ea589f53ee1cd9b3479a2d03a71521c5e86"
+    },
+    {
+      "path": "LITERATURE_NOTES.md",
+      "bytes": 2424,
+      "sha256": "4d1ac32e5b8e24df9ea6c89b984e5e501aea1e677d524e1e606255315665ad84"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 2263,
+      "sha256": "30ea260145b9c624cce67966d1f6b7c50fac7deeabb3e4a98416c80fc563ee01"
+    },
+    {
+      "path": "SOURCE_IDENTITIES.json",
+      "bytes": 936,
+      "sha256": "062faf4063acc783400e853039441f1f3c0a84d48dd55dcf2c259bf5f4b70151"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1709,
+      "sha256": "95bee163c57cbd12f456ca07cc4efb0f5c614512fa1c785b97a63130d270d3e1"
+    },
+    {
+      "path": "evidence/CM01_INTERPRETATION.md",
+      "bytes": 4558,
+      "sha256": "d01d0f31138a4424984238be67db62c07cda6d3a3587c5f7629a811b0b33791b"
+    },
+    {
+      "path": "evidence/CM01_PRIMARY_CHECK.json",
+      "bytes": 1960,
+      "sha256": "670a5b63f38f445882b539bc98685a8667b8c00cb5f36528522d95b48bd6d7cd"
+    },
+    {
+      "path": "provenance/CM01_ARCHIVE_INTEGRITY.json",
+      "bytes": 849,
+      "sha256": "3073af3498eb795fe09982c09dabc98a3a568e63825b14ff836f85136e3414fb"
+    },
+    {
+      "path": "provenance/Q010_ARCHIVE_INTEGRITY.json",
+      "bytes": 1918,
+      "sha256": "4221a392b8c9428eca879e1cfe21a898ec078c8a2c3c949cb23db6f1cb9c13c8"
+    }
+  ]
+}

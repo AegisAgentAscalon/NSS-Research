@@ -1,0 +1,27 @@
+{
+  "status": "PASS_IDENTICAL_SCIENTIFIC_IMPLEMENTATION_WITH_RETAINED_PASSED_FIXTURE",
+  "inherited_fixture": "failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture",
+  "rescored_files_identical": 16,
+  "replay": {
+    "arrays": 360,
+    "byte_identical_independently_scored_files": 16,
+    "byte_identical_npz_containers": 45,
+    "deterministic_metadata_files": 11,
+    "distinct_outputs": 45,
+    "elements": 4680,
+    "excluded": [
+      "timing.jsonl",
+      "worker stderr logs",
+      "external supervisor elapsed/RSS/cgroup receipts"
+    ],
+    "no_new_scientific_samples": true,
+    "status": "PASS_EXACT_FRESH_PROCESS_REPLAY"
+  },
+  "source_identity_check": "INHERITED_FIXTURE_SOURCE_IDENTITY.json",
+  "new_fixture_model_calls": 0,
+  "prior_attempts": 2395,
+  "remaining_model_call_bound": 3600,
+  "total_max": 5995,
+  "main_scored_before_recovery": false,
+  "time_unix": 1790281511.6584349
+}

@@ -1,0 +1,7 @@
+{
+  "nbr01_pilot/__init__.py": "ccfd5d464c523e0de41ed7ce511deaebc25f7281d7bc782a85544e48a4aa30d9",
+  "nbr01_pilot/experiment.py": "0f533170976bd833c228e73453bae9af831e0afb0f88c8503c0fc4511322bb49",
+  "nbr01_pilot/core.py": "73e91367db1ea4c5b9e06c36c430f9c5fbb02ded91d75ece3158675b02f6a33f",
+  "tests/test_core.py": "360e87e6dccb3cf1be7fb6043c4f68b738cd4d528054e48ae91c13cc8e186eff",
+  "spec/protocol.json": "7a281f9d7422840b4f1667a31b39601ab966a955a775eef71f5ce921db705651"
+}

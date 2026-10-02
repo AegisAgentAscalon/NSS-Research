@@ -1,0 +1,174 @@
+{
+  "array_sha256": "d61531565cce7d55754d7f85768a493c157dd25d1b559ed561524a1f028066c6",
+  "no_main_scores_replaced": true,
+  "no_training": true,
+  "reason": "Main neural/exact traversal discrepancy on nearly identical registered sources",
+  "rows": [
+    {
+      "existing_slot_used": 55,
+      "method": "nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 9,
+      "old_answer_changed": 53,
+      "old_record_content_modified": 46,
+      "pair": 1,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 0,
+      "method": "A_nearest",
+      "n": 64,
+      "new_answer_correct": 0,
+      "new_record_exists": 0,
+      "old_answer_changed": 43,
+      "old_record_content_modified": 0,
+      "pair": 1,
+      "write_accepted": 0
+    },
+    {
+      "existing_slot_used": 55,
+      "method": "B_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 9,
+      "old_answer_changed": 53,
+      "old_record_content_modified": 46,
+      "pair": 1,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 60,
+      "method": "nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 4,
+      "old_answer_changed": 56,
+      "old_record_content_modified": 54,
+      "pair": 2,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 0,
+      "method": "A_nearest",
+      "n": 64,
+      "new_answer_correct": 0,
+      "new_record_exists": 0,
+      "old_answer_changed": 52,
+      "old_record_content_modified": 0,
+      "pair": 2,
+      "write_accepted": 0
+    },
+    {
+      "existing_slot_used": 60,
+      "method": "B_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 4,
+      "old_answer_changed": 56,
+      "old_record_content_modified": 54,
+      "pair": 2,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 57,
+      "method": "nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 7,
+      "old_answer_changed": 54,
+      "old_record_content_modified": 48,
+      "pair": 3,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 0,
+      "method": "A_nearest",
+      "n": 64,
+      "new_answer_correct": 0,
+      "new_record_exists": 0,
+      "old_answer_changed": 45,
+      "old_record_content_modified": 0,
+      "pair": 3,
+      "write_accepted": 0
+    },
+    {
+      "existing_slot_used": 57,
+      "method": "B_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 7,
+      "old_answer_changed": 54,
+      "old_record_content_modified": 48,
+      "pair": 3,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 59,
+      "method": "nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 5,
+      "old_answer_changed": 56,
+      "old_record_content_modified": 53,
+      "pair": 4,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 0,
+      "method": "A_nearest",
+      "n": 64,
+      "new_answer_correct": 0,
+      "new_record_exists": 0,
+      "old_answer_changed": 46,
+      "old_record_content_modified": 0,
+      "pair": 4,
+      "write_accepted": 0
+    },
+    {
+      "existing_slot_used": 59,
+      "method": "B_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 5,
+      "old_answer_changed": 56,
+      "old_record_content_modified": 53,
+      "pair": 4,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 51,
+      "method": "nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 13,
+      "old_answer_changed": 57,
+      "old_record_content_modified": 45,
+      "pair": 5,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 51,
+      "method": "A_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 13,
+      "old_answer_changed": 57,
+      "old_record_content_modified": 45,
+      "pair": 5,
+      "write_accepted": 64
+    },
+    {
+      "existing_slot_used": 51,
+      "method": "B_nearest",
+      "n": 64,
+      "new_answer_correct": 64,
+      "new_record_exists": 13,
+      "old_answer_changed": 57,
+      "old_record_content_modified": 45,
+      "pair": 5,
+      "write_accepted": 64
+    }
+  ],
+  "status": "RUN_POST_HOC"
+}

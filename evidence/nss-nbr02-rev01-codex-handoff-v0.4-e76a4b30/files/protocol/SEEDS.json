@@ -1,0 +1,117 @@
+{
+  "status": "ALLOCATED_NOT_DRAWN",
+  "namespace": "NSS-NBR02-REV01-REVIEW-v0.2",
+  "derivation": "first 8 SHA256 bytes of ASCII(namespace+\"|\"+label), unsigned big-endian",
+  "allocations": [
+    {
+      "label": "init/main/0",
+      "uint64": 11268017251637481231
+    },
+    {
+      "label": "init/main/1",
+      "uint64": 226659209940668404
+    },
+    {
+      "label": "init/main/2",
+      "uint64": 5031545064358293011
+    },
+    {
+      "label": "init/main/3",
+      "uint64": 15289063901241131516
+    },
+    {
+      "label": "init/probe",
+      "uint64": 17525462729198608696
+    },
+    {
+      "label": "init/fixture",
+      "uint64": 4167063598372304202
+    },
+    {
+      "label": "order/main/0",
+      "uint64": 4506062387652959836
+    },
+    {
+      "label": "order/main/1",
+      "uint64": 13950095409190113421
+    },
+    {
+      "label": "order/main/2",
+      "uint64": 14140987624547876783
+    },
+    {
+      "label": "order/main/3",
+      "uint64": 5954106872304771220
+    },
+    {
+      "label": "order/probe",
+      "uint64": 8069388494394008727
+    },
+    {
+      "label": "labels/old/scope0",
+      "uint64": 16893894799133442407
+    },
+    {
+      "label": "labels/old/scope1",
+      "uint64": 10200808995966622178
+    },
+    {
+      "label": "labels/development/scope0",
+      "uint64": 8589705445807961181
+    },
+    {
+      "label": "labels/development/scope1",
+      "uint64": 10264913335434320463
+    },
+    {
+      "label": "labels/heldout/scope0",
+      "uint64": 445285119298980982
+    },
+    {
+      "label": "labels/heldout/scope1",
+      "uint64": 10498551582199339334
+    },
+    {
+      "label": "wire/main",
+      "uint64": 11396037483485573471
+    },
+    {
+      "label": "wire/probe",
+      "uint64": 17628463138121018767
+    },
+    {
+      "label": "wire/fixture",
+      "uint64": 4183601384261349183
+    },
+    {
+      "label": "wire/faults",
+      "uint64": 16531652744912577721
+    },
+    {
+      "label": "fixture/filler/trial1",
+      "uint64": 8203946295691492861
+    },
+    {
+      "label": "fixture/filler/trial2",
+      "uint64": 2168201471034046814
+    },
+    {
+      "label": "fixture/filler/trial3",
+      "uint64": 2953823485079850960
+    },
+    {
+      "label": "fixture/filler/trial4",
+      "uint64": 18289135755441306250
+    },
+    {
+      "label": "fixture/filler/trial5",
+      "uint64": 15883964791166112721
+    },
+    {
+      "label": "fixture/filler/trial6",
+      "uint64": 2620302637775498271
+    }
+  ],
+  "future_generator": "NumPy PCG64 under execution-pinned version",
+  "historical_collision_and_generated_novelty_audit": "PENDING_EXECUTION_PREFLIGHT; names alone do not establish independence"
+}

@@ -1,0 +1,29 @@
+{
+  "abi": "nbr009-owner-state-v1",
+  "array_sha256": "82f38a6912b332e97605b6e7923a532a12cc61ec258393b5a1eb17a4311281b1",
+  "binder_hash": "75c9a81c92d1385c84eeb38def2f15a419e3bfe58132c196eb6459bf6f1a8eeb",
+  "contract": {
+    "case": "precommit",
+    "kind": "parent",
+    "models": {
+      "binder": "75c9a81c92d1385c84eeb38def2f15a419e3bfe58132c196eb6459bf6f1a8eeb",
+      "dictionary": "818b4493cb203b2d52c22493338cfea93281ef97abcb997e02adaa343caaf2a4",
+      "gated_hop": "2491d88fec5f3b6e65c4442b486794c67bd963190f3d60f6a445c01c9419c776",
+      "record_hop": "dad9369c4a4b2848e234170196a532612a52e81f7a8a7d8bc90d090319a7eb4e"
+    },
+    "scope": "study",
+    "source_abi": "nbr009-owner-state-v1"
+  },
+  "mode": "learned",
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 74094546458826373984829502576308453391,
+      "state": 226666911034740766543210505548519537342
+    },
+    "uinteger": 0
+  },
+  "scope": "study",
+  "tick": 0
+}

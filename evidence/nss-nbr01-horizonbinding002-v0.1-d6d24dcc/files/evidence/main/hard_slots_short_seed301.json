@@ -1,0 +1,160 @@
+{
+  "changed_parameter_elements": 1050,
+  "checkpoint_bytes": 4984,
+  "checkpoint_sha256": "980482532ee6a54d210c500a872a9eb6d353d2a77bd637ac3edfb400713a7618",
+  "curriculum": "short",
+  "environment": {
+    "cuda": false,
+    "energy": "NOT_MEASURED",
+    "forge": "NOT_CONNECTED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "psutil": "7.2.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "runtime": "NOT_CONNECTED",
+    "safetensors": "0.7.0",
+    "scope": "SANDBOX_CPU_NOT_USER_DEVICE",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 115200,
+  "final_parameter_digest": "21850d725fdee3dd820e07d9b387b810787ff6be9529249b40af884ef5e33412",
+  "gradient_bytes_when_allocated": 4200,
+  "initial_parameter_digest": "d64f154d225cf248b8822a32fdf6bee5d797c18b76e76435537dd033c04c6d5b",
+  "kind": "hard_slots",
+  "logs": [
+    {
+      "accuracy": 0.0520833320915699,
+      "grad_norm": 0.730149507522583,
+      "length": 16,
+      "loss": 2.2692320346832275,
+      "step": 1
+    },
+    {
+      "accuracy": 0.4739583432674408,
+      "grad_norm": 1.3335806131362915,
+      "length": 14,
+      "loss": 1.7087788581848145,
+      "step": 150
+    },
+    {
+      "accuracy": 0.9947916865348816,
+      "grad_norm": 27.48830795288086,
+      "length": 16,
+      "loss": 0.2284868210554123,
+      "step": 300
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 3.2315094470977783,
+      "length": 12,
+      "loss": 0.02823619358241558,
+      "step": 450
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.12964226305484772,
+      "length": 2,
+      "loss": 0.0033443744760006666,
+      "step": 600
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.12406448274850845,
+      "length": 5,
+      "loss": 0.0012698575155809522,
+      "step": 750
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.09226185828447342,
+      "length": 8,
+      "loss": 0.0008391577866859734,
+      "step": 900
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.07274962216615677,
+      "length": 16,
+      "loss": 0.0007563332910649478,
+      "step": 1050
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.05383319407701492,
+      "length": 14,
+      "loss": 0.0005234911222942173,
+      "step": 1200
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.04492655396461487,
+      "length": 11,
+      "loss": 0.0002859179803635925,
+      "step": 1350
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.003622955409809947,
+      "length": 1,
+      "loss": 0.00013128509453963488,
+      "step": 1500
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.007558911573141813,
+      "length": 4,
+      "loss": 0.00013165241398382932,
+      "step": 1650
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.0100193340331316,
+      "length": 6,
+      "loss": 0.00011108740727650002,
+      "step": 1800
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.018085069954395294,
+      "length": 14,
+      "loss": 0.00014323891082312912,
+      "step": 1950
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.010001778602600098,
+      "length": 7,
+      "loss": 8.267348312074319e-05,
+      "step": 2100
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.009263342246413231,
+      "length": 16,
+      "loss": 0.00010902839858317748,
+      "step": 2250
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.00698330020532012,
+      "length": 12,
+      "loss": 7.090187864378095e-05,
+      "step": 2400
+    }
+  ],
+  "observed_events": 988080,
+  "optimizer_tensor_bytes": 8444,
+  "parameter_bytes": 4200,
+  "parameter_count": 1050,
+  "preparation_only": true,
+  "rss_process_peak_5ms_sample_bytes": 329310208,
+  "seed": 301,
+  "steps": 2400,
+  "supervised_key_answers": 460800,
+  "timing_excludes": "Interpreter startup, evaluation, calibration, replay, reporting, all other fits",
+  "train_batch_sha256": "6183f612e9484167b7c2c15c5e632dc506a82f2cba3f40e4248b1cec44b4c202",
+  "train_cpu_seconds": 6.367149611,
+  "train_wall_seconds": 6.3171842080000715
+}

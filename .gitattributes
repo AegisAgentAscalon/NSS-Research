@@ -1,0 +1,2 @@
+# Preserve original source byte identities, including historical line endings.
+* -text

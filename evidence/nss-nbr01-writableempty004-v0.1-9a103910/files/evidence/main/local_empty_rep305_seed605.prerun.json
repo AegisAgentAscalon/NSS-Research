@@ -1,0 +1,28 @@
+{
+  "development": false,
+  "initial_digest": "24f3270c9d1bf9c0acd8c076cd00f5ae434560637a7d4d5d1cbe96fd686fd73e",
+  "kind": "local_empty",
+  "learning_seed": 605,
+  "parent_sha256": "f6623b76eaa7d7010167f2c77cfebead5043e4aa37e8f398d0e21e4e2c0158a6",
+  "protocol_sha256": "1736b786b9391a89f6d7898490a5336a6a916df19cf9bea56556e5e3c585b31f",
+  "representation": 305,
+  "source_identity": {
+    "nbr01_empty/__init__.py": "5e5aef3bef18fc8b52c47627e07a0ac7bc761bb50f4e80c2b7cfd584473b68de",
+    "nbr01_empty/evaluate.py": "5e39b74c98953eeda72cdc079a0870daf28a4ccac8208285da7bd0a5a3dcb657",
+    "nbr01_empty/models.py": "8cf87613ca8ee0e55c59c98abed7d235c65fdc83e7c2d929565096466e877fd4",
+    "nbr01_empty/snapshot.py": "b3350bf1a7fa1495311244f4d15048e2b83b0c44d988180540c459f657bd6709",
+    "nbr01_empty/train.py": "6af74a59af5091e80fc0e9465b2584cf9cff45ee64fe25a9669cfe19cd9aa8fc",
+    "nbr01_empty/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "tests/test_empty.py": "0ff8895c0a253975c0f5c4c558b675fcac93a1d889be9e969829faf1f5244654",
+    "tools/check_foundation.py": "ab77dd19a94d2cc9f448f508d0c677a7995eaabfa605c5233441c79bd229dba2",
+    "tools/continue_training.py": "f5b0bd738efaec7dc16ef6277545d26ff09c4b29d707851b8c1008f90af55432",
+    "tools/develop.py": "5fab98f7b742789886b3637a891fd96728e5a359e2f300fe88f80add1463ce0c",
+    "tools/develop_anchored.py": "4443e7453a4abaede525952a54cf7a7022a3f518f34d952b7f048b6e74c4b925",
+    "tools/develop_local.py": "a4edd0566573e7b74f3d610bbb1f26c04ab08467c99b692fa98e6a61d77023d6",
+    "tools/develop_regions.py": "44cd16ecb39103f2e265263b86ee3fff2435b04b8dfa5d6780b692c51d7ec5a3",
+    "tools/main_worker.py": "18d1b4156bea6fee1738f72379d5f982a0081a4d5f822d31ba6fb2213359588f"
+  },
+  "status": "NOT_RUN",
+  "steps": 1800,
+  "time_unix": 1789950776.3612192
+}

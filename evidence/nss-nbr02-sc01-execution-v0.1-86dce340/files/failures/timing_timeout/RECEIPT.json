@@ -1,0 +1,14 @@
+{
+  "kind": "caller_timeout_20s",
+  "utc": "2026-09-28T02:27:43Z",
+  "main_status": "all324 main conditions complete before interruption",
+  "saved_timing_families": [
+    "reuse",
+    "sweep",
+    "churn"
+  ],
+  "incomplete_family": "resume",
+  "unknown_work": "Any warmup/measurement attempts in unsaved resume family are unknown and excluded, not treated as zero. No optimizer applications.",
+  "policy": "retain all existing samples; separately identified inference-only completion of missing family, advance RNG past27 permutations; no source/protocol/tolerance change",
+  "first_process_terminal_elapsed_or_rss": "unavailable"
+}

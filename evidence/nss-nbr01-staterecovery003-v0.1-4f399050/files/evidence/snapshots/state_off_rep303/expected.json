@@ -1,0 +1,13 @@
+{
+  "events": 6,
+  "prediction": [
+    [
+      8,
+      8,
+      8,
+      8
+    ]
+  ],
+  "rounds": 14,
+  "tensor_digest": "43816315d41df572bbde0b2431adf45a31949c2d4c7cf761e850ba0a4ab506e5"
+}

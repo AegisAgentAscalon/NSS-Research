@@ -1,0 +1,21 @@
+{
+  "encoded_targets": [
+    {
+      "target": "raw/primary/worker/records.bin",
+      "bytes": 34384142,
+      "sha256": "f57565520a07a9992be3d2d6a5482569889e47173b7f0d8b8c7d4f71a5e94a8c",
+      "encoded": "delivery/records.envelopes.xz",
+      "encoded_sha256": "6170aaba355c6ba8baf4917eb147ee002d51e8823f94233a2db10f0de8c44118",
+      "codec": "REVEC001 envelope grouping, zlib6 restoration; exact hashes"
+    }
+  ],
+  "aliases": [
+    {
+      "source": "raw/primary/worker/records.bin",
+      "target": "raw/replay/worker/records.bin",
+      "bytes": 34384142,
+      "sha256": "f57565520a07a9992be3d2d6a5482569889e47173b7f0d8b8c7d4f71a5e94a8c",
+      "condition": "fresh adaptive replay actually executed and byte equality checked before aliasing"
+    }
+  ]
+}

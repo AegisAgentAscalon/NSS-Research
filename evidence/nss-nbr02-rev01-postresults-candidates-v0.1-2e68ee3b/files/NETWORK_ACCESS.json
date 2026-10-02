@@ -1,0 +1,31 @@
+{
+  "purpose": "Bounded primary-source comparison for the review of PROTECT01's per-record signed-logit-margin projection.",
+  "recorded_date": "2026-09-25",
+  "searches": [
+    {
+      "query": "arXiv Gradient Episodic Memory for Continual Learning Lopez-Paz Ranzato 2017",
+      "used_sources": ["https://arxiv.org/abs/1706.08840"]
+    },
+    {
+      "query": "arXiv Efficient Lifelong Learning with A-GEM Chaudhry Ranzato 2018",
+      "used_sources": ["https://arxiv.org/abs/1812.00420"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gradient Episodic Memory for Continual Learning",
+      "authors": ["David Lopez-Paz", "Marc'Aurelio Ranzato"],
+      "url": "https://arxiv.org/abs/1706.08840",
+      "accessed": "arXiv abstract/full-text HTML",
+      "review_use": "Checked GEM's stated loss-based first-order constraints and closest-gradient projection formulation. Supports describing PROTECT01 as related projection precedent while distinguishing its per-record signed-logit-margin rows from GEM's prior-task episodic-loss constraints."
+    },
+    {
+      "title": "Efficient Lifelong Learning with A-GEM",
+      "authors": ["Arslan Chaudhry", "Marc'Aurelio Ranzato", "Marcus Rohrbach", "Mohamed Elhoseiny"],
+      "url": "https://arxiv.org/abs/1812.00420",
+      "accessed": "arXiv abstract/full-text HTML",
+      "review_use": "Checked A-GEM's single averaged reference-gradient constraint and its stated distinction from GEM's multiple individual loss constraints; used to keep the source comparison precise."
+    }
+  ],
+  "limits": "Two primary papers were consulted. Search-result excerpts from other pages were not relied on. No files were downloaded and no code, model, scorer, gradient, derivative, QP solver, or experiment was run."
+}

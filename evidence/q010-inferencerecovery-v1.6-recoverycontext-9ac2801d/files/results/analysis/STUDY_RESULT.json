@@ -1,0 +1,198 @@
+{
+  "all_negative_queries_retained": 133658,
+  "candidates": [
+    {
+      "per_seed": [
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1201
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1202
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1203
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1204
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1205
+        }
+      ],
+      "pooled_failures": [],
+      "pooled_gate_checks": 83,
+      "pooled_gate_pass": true,
+      "role": "ordinary",
+      "strict_all_seed_gate_pass": true
+    },
+    {
+      "per_seed": [
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1201
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1202
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1203
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1204
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1205
+        }
+      ],
+      "pooled_failures": [],
+      "pooled_gate_checks": 83,
+      "pooled_gate_pass": true,
+      "role": "near",
+      "strict_all_seed_gate_pass": true
+    },
+    {
+      "per_seed": [
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1201
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1202
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1203
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1204
+        },
+        {
+          "checks": 83,
+          "failures": [],
+          "passed": true,
+          "seed": 1205
+        }
+      ],
+      "pooled_failures": [],
+      "pooled_gate_checks": 83,
+      "pooled_gate_pass": true,
+      "role": "attention",
+      "strict_all_seed_gate_pass": true
+    }
+  ],
+  "checkpoint_class_checks": 12600,
+  "condition_seed_pairs": 320,
+  "conditions_per_seed": 64,
+  "coverage_class_checks": 11520,
+  "criteria_sha256": "037bed12ef4a342564f8004e6e41f519f69d3e026bc5dea5210f0599f317a617",
+  "frames": 645,
+  "fresh_training_reproduction_performed": false,
+  "frozen_gate_checks": 1494,
+  "full_optimizer_rng_checkpoints_available": 0,
+  "historical_score_digests_all_match": true,
+  "input_scores": [
+    {
+      "capture_sha256": "50798db4d284fd682d2977c3422c9f8aed6e5ab4433814687131c8eaeeef1414",
+      "replay_sha256": "ba76739def4c8e2a0617c595873c076aea711937042890c2cedf3f653d1851ea",
+      "scores_sha256": "ed1570c450d05a79c426c0c399b0effaab08b2142356599873052533c0d00f8e",
+      "seed": 1201,
+      "verification_sha256": "575a5bd1850f4f71feabc0becd858d055cba1b7febacc046639217484b03d87a"
+    },
+    {
+      "capture_sha256": "4908d8f56852ad60d8532eeac70c2e3442b921ad30a64b94396c6e17994499aa",
+      "replay_sha256": "05a5c8228d17b91e88a3c6766d5e35e499c71863de062304faa7f024bae109e5",
+      "scores_sha256": "91425488b2b95479dcfd133b258a19604ffcb70d17297123d9fdf7517cc2012a",
+      "seed": 1202,
+      "verification_sha256": "e250114d30d0be406c2839ccebb38e0ceea32fc611cd2fe06594e26673b04144"
+    },
+    {
+      "capture_sha256": "976c7d715e86e5ae1e1f2932d760458555d888ef09bd3d2df469c7abd92feb25",
+      "replay_sha256": "e6fc5f31e9962dca90a4c64bc6ebf80ecad2e49ad3884205e60a6f9befc5e354",
+      "scores_sha256": "4d42c7e83876824dd0f920c9b170e09401229d90d99ab93154b582eedca8db20",
+      "seed": 1203,
+      "verification_sha256": "60141df71277829c9b0be0b06ef7ca5dacaa1dba077c0d0f0760ef8b0a946bef"
+    },
+    {
+      "capture_sha256": "f9b4eb446603e8e705da707d0a933499ab030d60711737ee0c6dd8bf9ad9d73b",
+      "replay_sha256": "d626ad41a84d292c09f498b98508641ddb0b95e7f5bdd08b36b704af412e7e1c",
+      "scores_sha256": "a72a53b43682fce324911fd324a01ea9f55ab7b9c8bbf67de83c015ddfc74254",
+      "seed": 1204,
+      "verification_sha256": "c640116e84f0d7a7d2ef2c15d9a2c7f860a0d37cddf839d37d20cae65d928df1"
+    },
+    {
+      "capture_sha256": "b88ade8a1e02b47473ed6d2306af2845ccce6e51fc4c496064fcdfce7c221f50",
+      "replay_sha256": "0343c6cc03d73530b96516e54678c3bbd2a7e107617a9d1e92844f42a8e97401",
+      "scores_sha256": "eb8e3731e9b603dce12a0e1471189bdb821ae4818a1913dc439be8488601175e",
+      "seed": 1205,
+      "verification_sha256": "9ad97f6dfe7c8a1ec6892a40c31d211f39a05629c0f3ccc2ec998ca516768a9c"
+    }
+  ],
+  "limits": [
+    "New v1.4 reconstruction, not the lost original Qualification010 study.",
+    "Exact local CPU replay; no Windows/GPU/third-party replication.",
+    "Raw original underflow row and original v2 implementation unavailable; fresh same-regime reproduction retained.",
+    "Three archived verifier errors preserved, not converted to passes.",
+    "No integrated NSS, online learning, language competence or low-bit claims."
+  ],
+  "logical_stage_audits": 3045480,
+  "main_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "new_optimizer_updates": 0,
+  "nonzero_metric_rows": 9360,
+  "original_protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+  "original_training_protocol_fully_requalified": false,
+  "partial_rng_metadata_retained": true,
+  "query_chains": 449640,
+  "raw_main_training_numeric_traces_available": 0,
+  "reader_condition_seed_cells": 1920,
+  "replay_arrays_exact": 50835,
+  "replay_elements_exact": 419453820,
+  "status": "COMPLETE_INFERENCE_EVALUATION_RECOVERY_WITH_DECLARED_HISTORICAL_GAPS",
+  "underflow_amendment_implementation": "v2 reconstructed from retained rationale; separately pinned before all-case verification",
+  "underflow_original_contract_passed_unchanged": false,
+  "utc": "2026-09-24T16:19:01.218118+00:00"
+}

@@ -1,0 +1,3 @@
+# Optional ONLY for NeuralProbe001; existing deterministic services use the standard library.
+# Install a CPU build appropriate to your Python/platform; no install/download occurs in demos.
+torch==2.10.0

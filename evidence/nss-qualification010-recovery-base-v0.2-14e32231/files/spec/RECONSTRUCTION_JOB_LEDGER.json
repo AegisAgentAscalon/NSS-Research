@@ -1,0 +1,181 @@
+{
+  "status": "DESCRIPTIVE_NOT_EXECUTABLE_TRAINING_PLAN",
+  "main_jobs": [
+    {
+      "pair": 1,
+      "reported_seed": 1201,
+      "candidate": "ordinary",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 801",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_801.safetensors"
+    },
+    {
+      "pair": 1,
+      "reported_seed": 1201,
+      "candidate": "near",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 801",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_801.safetensors"
+    },
+    {
+      "pair": 1,
+      "reported_seed": 1201,
+      "candidate": "transformer",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "random; final attention architecture unresolved",
+      "expected_result": null,
+      "output_checkpoint": null
+    },
+    {
+      "pair": 2,
+      "reported_seed": 1202,
+      "candidate": "ordinary",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 802",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_802.safetensors"
+    },
+    {
+      "pair": 2,
+      "reported_seed": 1202,
+      "candidate": "near",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 802",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_802.safetensors"
+    },
+    {
+      "pair": 2,
+      "reported_seed": 1202,
+      "candidate": "transformer",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "random; final attention architecture unresolved",
+      "expected_result": null,
+      "output_checkpoint": null
+    },
+    {
+      "pair": 3,
+      "reported_seed": 1203,
+      "candidate": "ordinary",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 803",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_803.safetensors"
+    },
+    {
+      "pair": 3,
+      "reported_seed": 1203,
+      "candidate": "near",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 803",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_803.safetensors"
+    },
+    {
+      "pair": 3,
+      "reported_seed": 1203,
+      "candidate": "transformer",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "random; final attention architecture unresolved",
+      "expected_result": null,
+      "output_checkpoint": null
+    },
+    {
+      "pair": 4,
+      "reported_seed": 1204,
+      "candidate": "ordinary",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 804",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_804.safetensors"
+    },
+    {
+      "pair": 4,
+      "reported_seed": 1204,
+      "candidate": "near",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 804",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_804.safetensors"
+    },
+    {
+      "pair": 4,
+      "reported_seed": 1204,
+      "candidate": "transformer",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "random; final attention architecture unresolved",
+      "expected_result": null,
+      "output_checkpoint": null
+    },
+    {
+      "pair": 5,
+      "reported_seed": 1205,
+      "candidate": "ordinary",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 805",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_805.safetensors"
+    },
+    {
+      "pair": 5,
+      "reported_seed": 1205,
+      "candidate": "near",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "recovered inherited RecordHop 805",
+      "expected_result": null,
+      "output_checkpoint": null,
+      "original_parent_checkpoint": "reference/parent009/reference/parent008/reference/parent_checkpoints/record_hop_805.safetensors"
+    },
+    {
+      "pair": 5,
+      "reported_seed": 1205,
+      "candidate": "transformer",
+      "status": "NOT_RUN_MISSING_ORIGINAL_CHECKPOINT",
+      "reported_steps": 6000,
+      "reported_batch_size": 64,
+      "initialization": "random; final attention architecture unresolved",
+      "expected_result": null,
+      "output_checkpoint": null
+    }
+  ],
+  "execute_authorized_here": false
+}

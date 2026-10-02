@@ -1,0 +1,1 @@
+{"counts":{"answers":61620,"changed_classes":0,"correct":60995,"false_complete":0,"numeric_scalars":246480,"numeric_violations":0,"unresolved_positions":9420},"files":720,"fixtures_verified":48,"max_abs":4.0531158447265625e-06,"policy_matches":576,"source_files_verified":23,"status":"PASS","zero_optimizer_applications":true}

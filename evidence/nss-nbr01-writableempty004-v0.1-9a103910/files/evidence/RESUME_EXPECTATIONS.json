@@ -1,0 +1,2805 @@
+{
+  "count": 80,
+  "records": [
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "cf82c36c1e05167b97579a5f7769fdab8231f3c87ed4a3e963cf9b5c9ef077d6",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep301_before_first_write",
+      "prediction": [
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          2,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "62fd0ffc8c652533fa29b7720e7fd020d20f2abbb09fe89d67efbef75d01b5ad",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep301_after_clear",
+      "prediction": [
+        [
+          8,
+          8,
+          4,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          1,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "e06cf8b13532302d96dd888d669d6da88c4981aae334fe351ad0578c68ea4875",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "637cb435ac5bb1d3406c044189dbe23e8b6c9daba41c5b22e2fdc3bf36c2b971",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "48c70c285f3745a0eefc84bbc9d4807c5be64241c5d29e1d0b2c2f2b9da26bd3",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "90411048a99b4fecb8570183b68c716c4954f34a20d2eea7ca02768a51711c41",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "53a4ce1bc5607df479778cdf04d6039748a8f57a3394e0c04308f93e270b27ea",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "9b4d2654d2060209c29406600479ada7f468a6fa366f793d5b18708c77655c04",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "7834a23c4943510fe9a1c6baec3039a8509b48f591290b964f776a7649523e78",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "4c0154fed7b23d5112dc2189e17c9fd43d5baaa0b03d6e25142b6e2dbcfd4fb1",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "a12ec15c4357e218f61638025ee4948f5314151b6408674f45637820f787722f",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "d9ac10ea0a280f0c7ac839e186c120927932a3875b7a9608ac3e67067a6c717a",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "c0d4a847b0b786890c3fcedb9be495b7ff563d12727b5885fb1744554a112cb4",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "dd61de1c82a4b6fd4e1d17c7c4dda4545f56fd6ca1e7532a02e2442a90901415",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep301_after_clear",
+      "prediction": [
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "8ac96fd186dbcee4d26d5c41369982d26cff28c164d2927dbcb401874ab6fb66",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep301_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 301
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "793c9f32f7fcaed2d1bfe24da27d9b1f7c033efa5edcc14cf35c117f9ebdbaf6",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep301_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 301
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "38a081b258979b25876a97e263e22b97caeefa6c23d3bde128bd67545df8aa5e",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          8,
+          8,
+          6
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          4,
+          8,
+          8,
+          5
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "26ac77fa8cf9ff908e31ca51509fbeb9c865a0e1055a549648a75aa04802edb4",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep302_after_clear",
+      "prediction": [
+        [
+          8,
+          8,
+          8,
+          6
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          5
+        ],
+        [
+          8,
+          8,
+          8,
+          5
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "1ae39e6ee900bde742b4cd9e6fd8e6ba53b9cda7e8bfa6d04442d5385718e704",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "9df7f12f79b0a1af085e4d250e67dce906d3ff83fb68e8e9a259b36a73061beb",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "576ad081cbd90e5b90a981edfe5c43a2c02e35d31b86023245ed037a308e691f",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "e10ba85d8c73d1ef82dc2d5c6515af805bc2ec279d6995328b2bd92cafa724cb",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "5d393fb322927b2223b26a3e827f4ca7595a16dd3ddea8f29850bc78ab5c2d00",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "e170af6366b414b8167bd3bf78eb63a01ce4a8dc0d9cdbcc42586ca005064a55",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "e9b5933e7f7b8a893d9ad3e61e6f77cb8046fa7f18f59051872c4a88d299103a",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "c4689b99c18a468a71124fc30fdf26de003422092e2b28ff9e59a61bfbb5d2cb",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "af8a4e01a0e0528ac4b398d79e78a02f27a2f32f663a78a5c3a0456b74ca97f7",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "fe0af640037cafb9d13fbca570126b1de3814d3f1930401015cf8601b402e0b2",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "4a2340dba5c598a86815fab1ef11b022740cfefa3f642ab498ebe8e96278e015",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep302_before_first_write",
+      "prediction": [
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "ed44c95fca874cbee92609ae22bf8c0cb310874fe53717f32bfdfee7247780a6",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep302_after_clear",
+      "prediction": [
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "03028a510b445df6b3e23151cba5d5b1fb798a9d86413701d52121b7500d92aa",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep302_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 302
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "0f8969a328dda16704dce5e73714961d43b8e898a4232a6f4c64531386a4c4e0",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep302_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 302
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "2e2276671da8b9186a222c67369293265a43ffede16dab3bda06adf72616e67e",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          8,
+          6,
+          8
+        ],
+        [
+          7,
+          8,
+          8,
+          5
+        ],
+        [
+          8,
+          2,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "4e38ef954e7b63d64c40428649585080047aa4512dcef104e1eefb9e06525190",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          1
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          3
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "3835748350a69b4d8d4222ef519392c9744d8b72d5c13611bd13acd06c266de8",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "8dd3c6789ab4aa3db07eb2d59fe39bbaa734790bb72f605d51889c63085a9464",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "c6ef632e70313c53d19f52cb1c97504ded37aa6710cfaa0bdda201af2a4f7a59",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "7af0a52d98d59a5df86eee1d6836bbd342e7fd0bd10a4e2f067eb3828cbfcaa2",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "489923693820aeddc13e594293f8b28a24df0bafdfa6c64240850d46856d9b6a",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "f8f13a108e295d3d85a7af3a7e916d879ab2b362b179365a897fea3298213dde",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "12ffea00ecd7d0f8808f7ada5b80c7fb238c772e852c9142ad1dec9079b0fcfc",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "3661bc3cfa0f471c1c756eadbc50e27a99188438dfedb5262a890c8e1899f43b",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "ad429ba50b9325227bf0ef5e71a9cf5673616bf0fa1057f83fa1a70014cff48d",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "46cc24a89c3f877f3e4818b8ccc6797358702fd6c8b58df12b58a0ca96b115a3",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "7eb43ce75aabf0e9e386becdf29872840d40b0e206fc5808fbd29c07115e9197",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "400a27aae69d86cebe0f9a8c987a1f2472bdf4649cf42c1f83c7653c0510f3e5",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "065beab5a83a9b62c4e760b5603d9adb63bf12413ef04733a183262c6d56196b",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep303_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 303
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "681035f45dcb382cfacfd27bf1a41c3d2fc50e07710460dae624b8cfa47c6781",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep303_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 303
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "4cb558ae9c77d918e48e68a1c56fad3d41a9650fbefd76a526fb4f6af46c96dd",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          2,
+          8,
+          0
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "8825d1c63bccd1c9e8a367ac4357306daf31d6c37b6a6854dbcc96fcca3e8f9a",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          7
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "aaa93d4d140817ce68ce2a3428832620b23bdc2ef72b801818b4bd91d097b4dd",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "53dab3b6263506eb1c5ad11475fa367cbe063c4684368e0b5ab85e35cafc8d63",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "a92ad40c2069a74ce226041a656df23fbe6d5c3e783d7a300d144d7d80be559f",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "8bf51871130959753012baa3c07871278ea2a937fde0ac18e8390b27f4a7c5ec",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "e274c632448523b4f57f4a7c5126e94b6f5c68d0212b6c67f29656c762f2aaa1",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "74ac2e2dad22062ca6931ac4ce90a24f73eea817cda75ebe3347ea774bd09719",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "942222cb31e138052783fefb2b9b9148957a5c38606c29f6ee2fe452729dab8c",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "a5adab1d999b8e8172234deca8b75c28e7a85a3dcdaa2ab6321e2c94ccd9d884",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "731d1082d66474cfb9dacd19bfc6d80a062e60ea0c1a8bda323e34cc07c22582",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "1075f699f70ab28ff250900e8d0ff11c03ee92e5b259f2a76437518d826374b0",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "a47cd8f98a13fb2878755da7f2fe0015e8f39c9e3899da02b6a56a10c4d04b66",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "cc027845620f5bd10bc0af084da271f79d044459ae792aea7b4a358d31e15f8f",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "7c5b15c261a6be875a0f629f35033c3c409670e59a24bfee789ad92c6df74b34",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep304_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 304
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "e8d80e016f8e68b35b0c78f4a664c19c079f81611169e15bb568b37b7fecccb5",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep304_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 304
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "4edf0e6f67852b5cba1d2d310d5efe18b8ad912ad82bc917ee67ef2edbf7cc88",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep305_before_first_write",
+      "prediction": [
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          6,
+          8
+        ],
+        [
+          1,
+          8,
+          4,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "45e790799fc53bbbf12a3126ac858ee31066fdb07793c127888ee443995879bd",
+      "mode": "hold",
+      "path": "evidence/snapshots/hold_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          3
+        ],
+        [
+          1,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          4,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "73bb5a8fa7758a074e9ba2e4a7fb62f36d3e8da8df853d2d5cf30ae1fa4fe01a",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "d88ddd9b3321b4aa972e966049c9c4a031d641217d60a26c4335fd7f39b7bad4",
+      "mode": "historical",
+      "path": "evidence/snapshots/historical_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "0c2fbfab1a4eee77228d21cac3151f60a9c7d5baac2f129aad1289183768c7f9",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "aa124cdf55cad5a23814216f835b0aea1a408d65b34e2033eb6f32d708ea0718",
+      "mode": "replay",
+      "path": "evidence/snapshots/replay_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "6c99e874fdfb81b3fce414fa72952839edabb1fe402ad7b8e3e7feb2ef98cc6b",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "6b73b3ef91544c5328a54ea094873df982fea20dee0084a64e3f9400de0d5285",
+      "mode": "contract",
+      "path": "evidence/snapshots/contract_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "03a5fac14a0fb2b3f91c34ad58adf1972fcd3c2b63c138f92db064f8fda158ca",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "7c722999da071944ef4bec6fe1a68b83ff5def38adf8d8c7f2421a059e2cabdf",
+      "mode": "presence_historical",
+      "path": "evidence/snapshots/presence_historical_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "f2d1a1ce6281ed0fe790f7c37c3d0fa71e94560c13bbb2c327a70fa569c93b42",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "0ef9591708db99615ba3cdadc92220212513355975261b79f40e1ff4a297285c",
+      "mode": "presence_contract",
+      "path": "evidence/snapshots/presence_contract_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "59564c1c9b9592db8d616787668d1826df77943759bddd2fd2e91cb2b0fa58f7",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "dfd7a92541f5823db7167fcf70e2714aa0c77695ddf2eeacd33fa766399f8532",
+      "mode": "local_empty",
+      "path": "evidence/snapshots/local_empty_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ],
+        [
+          1,
+          8,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    },
+    {
+      "cut": "before_first_write",
+      "events": 6,
+      "final_digest": "5989b13e500a69aa1bea541af343020d7eb4d7e88b35a3e7fe69b879d816fe8c",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep305_before_first_write",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 260,
+      "seed": 305
+    },
+    {
+      "cut": "after_clear",
+      "events": 8,
+      "final_digest": "14cfe4f18f192bacecde012c30b7dc73291767d5401ba70d95b23422bdf740e2",
+      "mode": "nearest",
+      "path": "evidence/snapshots/nearest_rep305_after_clear",
+      "prediction": [
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          8
+        ]
+      ],
+      "rounds": 356,
+      "seed": 305
+    }
+  ]
+}

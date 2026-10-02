@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "primary": "raw/primary/COUNTS.json",
+      "replay": "raw/replay/COUNTS.json",
+      "bytes_per_side": 826,
+      "sha256": "b7f429cb6eb4b61f5de7ed7ca961146681ec03439be38f483dcdef59acc40e0a"
+    },
+    {
+      "primary": "raw/primary/DECISIONS.jsonl.gz",
+      "replay": "raw/replay/DECISIONS.jsonl.gz",
+      "bytes_per_side": 1421068,
+      "sha256": "964951b95c01b1502185fc42a5b5944bf92844a82b9c32ce02fcb4b35dc8bcea"
+    },
+    {
+      "primary": "raw/primary/EVIDENCE.jsonl.gz",
+      "replay": "raw/replay/EVIDENCE.jsonl.gz",
+      "bytes_per_side": 2075232,
+      "sha256": "314612ceac5cba460aca38cb5c96ba0975fe086bdb3165a8a2c94613239eae24"
+    },
+    {
+      "primary": "raw/primary/JOURNAL.jsonl.gz",
+      "replay": "raw/replay/JOURNAL.jsonl.gz",
+      "bytes_per_side": 6683481,
+      "sha256": "d5d053f912439051e23f360d4ced50be991ea95188e46b13528ed5caea189997"
+    },
+    {
+      "primary": "results/primary/AUDIT.json",
+      "replay": "results/replay/AUDIT.json",
+      "bytes_per_side": 343,
+      "sha256": "02f2498af6da6c5ca0076b3d41211157ab115bec3bdace7a89a81dad2730d09f"
+    },
+    {
+      "primary": "results/primary/BASE_RESULTS.csv",
+      "replay": "results/replay/BASE_RESULTS.csv",
+      "bytes_per_side": 60342,
+      "sha256": "a60a7f705b8ccba00b9a578b8d1d76b2f035ebe5480bd058941a5f491d661717"
+    },
+    {
+      "primary": "results/primary/CANDIDATE_DECISIONS.csv",
+      "replay": "results/replay/CANDIDATE_DECISIONS.csv",
+      "bytes_per_side": 15519247,
+      "sha256": "e8771b97ff40e2e47a6a838a8d864ef421f18149bf5f9794d0cb307714166a05"
+    },
+    {
+      "primary": "results/primary/FAILURES.csv",
+      "replay": "results/replay/FAILURES.csv",
+      "bytes_per_side": 2907511,
+      "sha256": "ee3b6046ff08325cb676fc8772fc17a4b1a3ed2dd1ccdb31a93a4140356f56d7"
+    },
+    {
+      "primary": "results/primary/OFFER_AVAILABILITY.csv",
+      "replay": "results/replay/OFFER_AVAILABILITY.csv",
+      "bytes_per_side": 255679,
+      "sha256": "d5216daac421fd69538df18d7ed7205e7d70dfbba49702369ffbbd8df6ba43d3"
+    },
+    {
+      "primary": "results/primary/PAIRED_POLICY_EFFECTS.csv",
+      "replay": "results/replay/PAIRED_POLICY_EFFECTS.csv",
+      "bytes_per_side": 5142,
+      "sha256": "a6c4b097699fede52bbc12af00df4dec1a663238bb81a901b9882cb1fea9f114"
+    },
+    {
+      "primary": "results/primary/STAGE_OFFERS.csv",
+      "replay": "results/replay/STAGE_OFFERS.csv",
+      "bytes_per_side": 2475530,
+      "sha256": "d9accc962d5147b1520c8ee273ca7a0c6e172f73c17d5c2c9203a13cebe12283"
+    },
+    {
+      "primary": "results/primary/SUMMARY.csv",
+      "replay": "results/replay/SUMMARY.csv",
+      "bytes_per_side": 33097,
+      "sha256": "2219b2cf46d2fb2b02c767d3886acd2839d40528b7da08891f9d04a37c86b780"
+    }
+  ],
+  "scope": "fresh-process review replay; not new model or adaptive learning replay"
+}

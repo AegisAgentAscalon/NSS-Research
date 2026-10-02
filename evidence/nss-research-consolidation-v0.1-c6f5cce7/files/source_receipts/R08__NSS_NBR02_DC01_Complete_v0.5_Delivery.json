@@ -1,0 +1,359 @@
+{
+  "status": "DELIVERED_COMPLETE_GATED_DC01",
+  "execution": "v0.5",
+  "scientific_protocol": "integrated_v0.3",
+  "full_archive": {
+    "zip": "NSS_NBR02_DC01_Complete_v0.5.zip",
+    "bytes": 28920440,
+    "sha256": "89408f120363c37788abd0198cdcf980a6d98f661f2cb2999e47bf472d43a421",
+    "manifest_files": 207,
+    "logical_restored_bytes": 219183670,
+    "aliases": 68,
+    "envelopes": [
+      {
+        "path": "raw/primary/worker/records.bin",
+        "payload": ".payload/records-ee2864b0986de2dd08f0.envelopes.xz",
+        "payload_bytes": 13602172,
+        "payload_sha256": "7d7094d7470b8de0b19702a5db5e11592975646f456b8e5d222553df94921a1a",
+        "restored_sha256": "ee2864b0986de2dd08f0828e8ff5de7b7daf49e7261ee2609cfc2a28e54085fe"
+      }
+    ],
+    "packaging_epoch": 1790333401.1094425
+  },
+  "compact_handoff": {
+    "name": "NSS_NBR02_DC01_Codex_Handoff_v0.5.zip",
+    "bytes": 52630,
+    "sha256": "da273f6fb74d0e35c409914331d4f4d9198e8fa2d767578a8f95f2fb824cbcb2",
+    "payload_files": 24,
+    "verification": "ZIP CRC and all member hashes",
+    "raw_evidence": false
+  },
+  "original_failure_preserved": "v0.4 STOPPED_AT_STORAGE_ADMISSION",
+  "new_science_changed": false,
+  "engineering_changes": "lossless delivery/storage admission and explicit carry-forward budgets",
+  "scientific_gates": {
+    "A0": "PASS",
+    "D1": "PASS",
+    "D2_G": "PASS",
+    "D2_L": "PASS",
+    "D3": "PASS",
+    "overall_efficiency": "NOT_ESTABLISHED"
+  },
+  "replay": {
+    "status": "PASS",
+    "scope": "complete scientific plan, both full adaptive passes; prior prefix separately preserved",
+    "counts": {
+      "frames": 42402,
+      "arrays": 117866,
+      "elements": 29728572
+    },
+    "exact_files": [
+      {
+        "path": "worker/records.bin",
+        "sha256": "ee2864b0986de2dd08f0828e8ff5de7b7daf49e7261ee2609cfc2a28e54085fe",
+        "exact": true
+      },
+      {
+        "path": "worker/events.jsonl",
+        "sha256": "bf5355eef9e9ef096d1cdfbdc2d79e41a0ba981164b1e3d82a41f7835f0f6408",
+        "exact": true
+      },
+      {
+        "path": "public_messages.jsonl",
+        "sha256": "28222fe91d3223ad3cac49f9359de1d31db7f7d9900ee8d1cf5244b77c9d81dc",
+        "exact": true
+      },
+      {
+        "path": "private/PLAN.json",
+        "sha256": "3fb085ff202efe290324df03f93c294ecd738624841debd7ac147f06b36620e4",
+        "exact": true
+      },
+      {
+        "path": "A0_DECISION.json",
+        "sha256": "0b9ee0316e3d409db9f73c4e89f80dcdef2ee93f5bd28eb9585dacf42727f564",
+        "exact": true
+      },
+      {
+        "path": "DELAY_INVARIANCE.json",
+        "sha256": "82af272ddeccef640489893109b9429df5d5e9f8f02c1f5902a96e1e7e16294d",
+        "exact": true
+      },
+      {
+        "path": "EXACT_CONTROL.json",
+        "sha256": "b18fb34d3a189ccae3e3da04bacda435b089de327faa04a00daf4c8c158b7f03",
+        "exact": true
+      },
+      {
+        "path": "COUNTERS.json",
+        "sha256": "55b5eb2ba99825bb9084bc28944aaa84906324e6e14d78d3a31ce54cb1a4d581",
+        "exact": true
+      },
+      {
+        "path": "faults/FAULT_RESULTS.json",
+        "sha256": "b56b82fbe39275a6f34ad6306487b2bb5840c93d5073459359623ddfeaa8254a",
+        "exact": true
+      }
+    ],
+    "exact_csv_files": [
+      {
+        "path": "fixture_audit/A0_FIT_GATE.csv",
+        "exact": true,
+        "sha256": "24526432f951ea86e61db71a2c7df058d690643d1792c6525c784823544d3c03"
+      },
+      {
+        "path": "fixture_audit/GRADIENT_COMPARISON.csv",
+        "exact": true,
+        "sha256": "5b26061b7b7767519fba233bcb60a7fef4bc4f3e1a535c28990f374bd33ebfad"
+      },
+      {
+        "path": "fixture_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "f69ff19450aaf18c50f3839f56f5b33761d65705d0956dda1c11017a13fee425"
+      },
+      {
+        "path": "fixture_audit/QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "66f4e229e3c935c06fe410a8bc127e5cb298cd12e66116accd699e7fcdb10a5f"
+      },
+      {
+        "path": "fixture_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true,
+        "sha256": "31cca06627f96696360683ddbc1284297762a59df0e2eb21a83fe30e628283d3"
+      },
+      {
+        "path": "cost_audit/A0_FIT_GATE.csv",
+        "exact": true,
+        "sha256": "24526432f951ea86e61db71a2c7df058d690643d1792c6525c784823544d3c03"
+      },
+      {
+        "path": "cost_audit/GRADIENT_COMPARISON.csv",
+        "exact": true,
+        "sha256": "4c1838e7277a5d99a5e573fe4ee6af2665c3378a37a23aec2f0d25f3ee0fe331"
+      },
+      {
+        "path": "cost_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "fffc6c37a702021f50bcf9c4f86338adac28ae86e195fc1517f2a9972ad853be"
+      },
+      {
+        "path": "cost_audit/QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "af3b7624c46bf9e0c73a7159bd75349eb91088100f854769a82c99d9e12f8afe"
+      },
+      {
+        "path": "cost_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true,
+        "sha256": "918efece45d335965ba8f94834feb423dab9bf759149a9a15558652e7dbc870b"
+      },
+      {
+        "path": "initial_audit/A0_FIT_GATE.csv",
+        "exact": true,
+        "sha256": "24526432f951ea86e61db71a2c7df058d690643d1792c6525c784823544d3c03"
+      },
+      {
+        "path": "initial_audit/GRADIENT_COMPARISON.csv",
+        "exact": true,
+        "sha256": "d273ed438c9db39232a5cba2e5789e0d5c8ce97ffa8d6a173ea6a356a6aaf1ab"
+      },
+      {
+        "path": "initial_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "6b5654cb3b5017384087dddae8e9b43caa1cd9d35b059274157f5483ad3ea991"
+      },
+      {
+        "path": "initial_audit/QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "0017bd606100c3f0a2333c22dd35f153031c72291635d931ec40800e832dce4b"
+      },
+      {
+        "path": "initial_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true,
+        "sha256": "5893370dbb6c6be2a0d0bbc4ca2ac67aca1b23537ed980e81dcc650e5ad655bc"
+      },
+      {
+        "path": "development_audit/A0_FIT_GATE.csv",
+        "exact": true,
+        "sha256": "fdec9f942c130a11e176c9fce8929f89d7bc15d2f5ba571b4c9a1121ed3bf602"
+      },
+      {
+        "path": "development_audit/EXACT_ROWS.csv",
+        "exact": true,
+        "sha256": "10a769ab085aacef15a935674e3b63fda3f48db38c3aa5572094f889de45a644"
+      },
+      {
+        "path": "development_audit/GRADIENT_COMPARISON.csv",
+        "exact": true,
+        "sha256": "f964b20ff7cadb894c8ac89879860b228b146e5c99e31b2d783cda250d8a18bc"
+      },
+      {
+        "path": "development_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "8d2c56b4085ead742d5890019e8af41c7d1c06394a7e099336d9ec6c0f219dd5"
+      },
+      {
+        "path": "development_audit/QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "f5e785be1dac964b4132e06ca07f38005624dd40b54476f634fe67dc5cd9169a"
+      },
+      {
+        "path": "development_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true,
+        "sha256": "31ff766fb9059498c16ea9e70460c993d7881de69d3b162ba22a2972418e6cf6"
+      },
+      {
+        "path": "final_audit/A0_FIT_GATE.csv",
+        "exact": true,
+        "sha256": "fdec9f942c130a11e176c9fce8929f89d7bc15d2f5ba571b4c9a1121ed3bf602"
+      },
+      {
+        "path": "final_audit/EXACT_ROWS.csv",
+        "exact": true,
+        "sha256": "c85c0a50048b9c16251848b1a7cee6dd8fd897e542ec0246f6187185bfb66d62"
+      },
+      {
+        "path": "final_audit/GRADIENT_COMPARISON.csv",
+        "exact": true,
+        "sha256": "49f02253874aec2ade86f4ee8499acbe2d31c61f61095e42525f50ddfcd29262"
+      },
+      {
+        "path": "final_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "d877df09e5137f68e803927a5d9ec0f2b5ef4c1dfc27f3685985eb665e408e46"
+      },
+      {
+        "path": "final_audit/QUERY_ROWS.csv",
+        "exact": true,
+        "sha256": "61d1fa4e848b29281828a9cfce62901b7a2f250df1325e705896b6f42766c709"
+      },
+      {
+        "path": "final_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true,
+        "sha256": "c2c75d9d79d14174914ef0127685155b62355794d29124a89443d8ef238f5e16"
+      }
+    ],
+    "source_lock_members_verified": 32,
+    "old_prefix_bytes_reproduced": 1050202,
+    "old_prefix_exact": true,
+    "new_optimizer_updates_during_comparison": 0,
+    "compared_at_epoch": 1790332789.0643163
+  },
+  "all_attempts": {
+    "prior_v0.4": {
+      "cell": 1160,
+      "head": 280,
+      "backward": 128,
+      "update_attempt": 240,
+      "update_commit": 240
+    },
+    "new_v0.5": {
+      "primary": {
+        "cell": 165292,
+        "head": 24196,
+        "backward": 2216,
+        "update_attempt": 4424,
+        "update_commit": 4424
+      },
+      "replay": {
+        "cell": 165292,
+        "head": 24196,
+        "backward": 2216,
+        "update_attempt": 4424,
+        "update_commit": 4424
+      }
+    },
+    "total_all_authorized_attempts": {
+      "cell": 331744,
+      "head": 48672,
+      "backward": 4560,
+      "update_attempt": 9088,
+      "update_commit": 9088
+    },
+    "caps": {
+      "cell": 400000,
+      "head": 60000,
+      "backward": 5000,
+      "update_attempt": 9800
+    },
+    "unknown_completion_updates": 0,
+    "historical_science_ledgers_unchanged": true
+  },
+  "final_extraction_verification": {
+    "status": "PASS",
+    "manifest_files": 207,
+    "source_lock_files": 32,
+    "bad": [],
+    "update_attempts": 9088,
+    "main_study_completed": true,
+    "numerical_calls": 0
+  },
+  "final_relocation_rescore": {
+    "status": "PASS",
+    "files": [
+      {
+        "file": "primary/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/EXACT_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/EXACT_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      }
+    ],
+    "compared_score_files": 12,
+    "model_forwards": 0,
+    "optimizer_updates": 0
+  },
+  "aggregate_active_seconds_through_QA": 2403.2235169410706,
+  "prior_active_seconds_charged": 864.2086682319641,
+  "interturn_inactive_pause_excluded_explicitly": true,
+  "sampled_qa_process_tree_peak": 689922048,
+  "new_calls_during_packaging_and_QA": 0,
+  "parent_architecture_changed": false,
+  "candidates_executed": false,
+  "limitations": [
+    "internal independent implementation checks, not third-party/cross-device replication",
+    "one receipt, frozen pending weights, short causal prefix",
+    "end-inventory classification perfect does not establish all intermediate confidence retention",
+    "Python memory walker backing-array/native-graph coverage incomplete: OBS-DC01-COST-001",
+    "NBR02 not automatically closed; NBR03/04 not dispatched"
+  ]
+}

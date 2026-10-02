@@ -1,0 +1,52 @@
+{
+  "study": "NBR02-TEACH01",
+  "version": "v0.1",
+  "completed_utc": "2026-09-26T02:46:41.680419+00:00",
+  "full_archive": {
+    "name": "NSS_NBR02_TEACH01_Complete_v0.1.zip",
+    "bytes": 79969138,
+    "sha256": "a76c33cb345370d75c795fd212a2792fb35e3782f6afb670e18ed49e6a84693e"
+  },
+  "compact_archive": {
+    "name": "NSS_NBR02_TEACH01_Codex_Handoff_v0.1.zip",
+    "bytes": 114868,
+    "sha256": "d8d648c00a399971b049670849b7b05592554ffd30efda1f6b7c5bab97412e78"
+  },
+  "fresh_extraction_and_restoration": {
+    "all_files_verified": true,
+    "logical_files": 72,
+    "logical_bytes": 643772379,
+    "note": "Logical byte sum includes hard-linked replay aliases; it is not physical concurrent usage."
+  },
+  "relocated_numerical_rescore": {
+    "all_equal": true,
+    "score_files": 6,
+    "analysis_files": 4,
+    "files": [
+      "scores/primary/NEGATIVE_ROWS.csv",
+      "scores/primary/SUMMARY.csv",
+      "scores/primary/UPDATE_ROWS.csv",
+      "scores/primary/AUDIT.json",
+      "scores/primary/QUERY_ROWS.csv",
+      "scores/primary/CYCLE_RESULTS.csv",
+      "analysis/DECISIONS.json",
+      "analysis/TRAJECTORIES.csv",
+      "analysis/FACTORIAL_INTERACTION.csv",
+      "analysis/PAIRED_CONTRASTS.csv"
+    ],
+    "new_torch_models_forwards_gradients_updates": 0,
+    "scope": "NumPy recomputation from captured arrays; not a third adaptive execution"
+  },
+  "source_lock_and_input_documents_unchanged": true,
+  "unique_physical_study_and_QA_bytes_at_check": 471236090,
+  "neural_attempts_all": {
+    "cells": 538956,
+    "example_gradients": 68132,
+    "heads": 179652,
+    "record_fetches": 57600,
+    "teacher_cache_reads": 6144,
+    "updates_attempted": 12528,
+    "updates_committed": 12528
+  },
+  "limits": "Small finite-panel teacher/student laboratory pilot; no true Tertiary, deployment, general identity, permanent source removal or memory superiority."
+}

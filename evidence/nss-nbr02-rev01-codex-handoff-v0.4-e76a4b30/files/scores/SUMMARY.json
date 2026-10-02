@@ -1,0 +1,68 @@
+{
+  "status": "EXPLORATORY_POST_RESULT_DESCRIPTION",
+  "query_rows": 18170,
+  "negative_rows": 1431,
+  "negative_categories": {
+    "DIAGNOSTIC_OR_COST_NOT_MAIN": 579,
+    "BEFORE_FEEDBACK_PREDICTION": 281,
+    "FIRST_CORRECTION_LAG": 56,
+    "FROZEN_CONTROL": 492,
+    "OLD_KNOWLEDGE_WRONG_CLASS": 23
+  },
+  "heldout_adaptive_old_errors": [
+    {
+      "arm": "L",
+      "fit": 0,
+      "base": 10,
+      "cue": 7,
+      "wrong_checkpoints": "3;4;5;6",
+      "wrong_observations": 4
+    },
+    {
+      "arm": "L",
+      "fit": 0,
+      "base": 8,
+      "cue": 7,
+      "wrong_checkpoints": "3;4;5;6",
+      "wrong_observations": 4
+    },
+    {
+      "arm": "L",
+      "fit": 2,
+      "base": 11,
+      "cue": 4,
+      "wrong_checkpoints": "3;4;5;6",
+      "wrong_observations": 4
+    },
+    {
+      "arm": "L",
+      "fit": 2,
+      "base": 9,
+      "cue": 2,
+      "wrong_checkpoints": "3;4;5;6",
+      "wrong_observations": 4
+    },
+    {
+      "arm": "L",
+      "fit": 2,
+      "base": 9,
+      "cue": 4,
+      "wrong_checkpoints": "3;4;5;6",
+      "wrong_observations": 4
+    }
+  ],
+  "unique_error_case_count": 5,
+  "all_attempt_counts": {
+    "updates": 4024,
+    "cell": 119184,
+    "head": 38528,
+    "backward": 2024
+  },
+  "exact_control_counts": {
+    "per_pass_rows": 780,
+    "initial_old_table_writes": 1200,
+    "online_receipt_writes": 78,
+    "lookup_reads": 780
+  },
+  "old_cases_not_unique_memories_or_independent_samples": true
+}

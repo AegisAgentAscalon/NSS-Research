@@ -1,0 +1,279 @@
+{
+  "version": "0.4.9-megamind-alpha-overlaygenerationmanager001",
+  "started_utc": "2026-09-11T15:09:44.185303+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "root": "/mnt/data/_ogm_clean/MegaMindAlpha_v0.4.9_OverlayGenerationManager001",
+  "command_timeout_seconds": 1200,
+  "gates": [
+    {
+      "name": "unittest",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 377.472,
+      "log_sha256": "09ba9760c3df17670cb2b0752b73721930b84953bf700a05d1412813372a4ee5",
+      "required": true
+    },
+    {
+      "name": "experiment001a",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.experiment001a"
+      ],
+      "exit_code": 0,
+      "seconds": 0.835,
+      "log_sha256": "f8d1c52f226ce8e56c3ef551423d81d7f63dfb0c63c8a340e76510b7291ac303",
+      "required": true
+    },
+    {
+      "name": "experiment001b",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.experiment001b"
+      ],
+      "exit_code": 0,
+      "seconds": 0.848,
+      "log_sha256": "a900a4a63b76235c8b270404911ab22276350fb7584dd99243cb5bee19485532",
+      "required": true
+    },
+    {
+      "name": "stagehandoff001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.stagehandoff001"
+      ],
+      "exit_code": 0,
+      "seconds": 1.188,
+      "log_sha256": "a7eb55ab6aec6e7afcc0fe24ccbfdd40e5af879c7b89b88d7d2399d187969fce",
+      "required": true
+    },
+    {
+      "name": "experiencearchive001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.experiencearchive001"
+      ],
+      "exit_code": 0,
+      "seconds": 1.549,
+      "log_sha256": "5b0ef7ae19410d578321b11e4bafc4c938c608ae7c06c0f4663b8215ef8f4560",
+      "required": true
+    },
+    {
+      "name": "datasetsnapshot001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.datasetsnapshot001"
+      ],
+      "exit_code": 0,
+      "seconds": 2.207,
+      "log_sha256": "b7e264b358c9fd5ed03dd39bba08430442ccdbca66d0455d1036374583645ff0",
+      "required": true
+    },
+    {
+      "name": "evaluationrun001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.evaluationrun001"
+      ],
+      "exit_code": 0,
+      "seconds": 3.416,
+      "log_sha256": "4d110b737b52d67aa73c235c15c2b3ed88c7d8893a0aac6c6c3e4827705576ef",
+      "required": true
+    },
+    {
+      "name": "neuralprobe001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.neuralprobe001",
+        "--directory",
+        "/mnt/data/_ogm_clean_gates/neuralprobe-run"
+      ],
+      "exit_code": 0,
+      "seconds": 44.469,
+      "log_sha256": "42b55644c5e55fafac828d030a8c7f3202d41955134f4fa18c4a8321842617d1",
+      "required": true
+    },
+    {
+      "name": "qualificationevidence002",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.qualificationevidence002",
+        "--directory",
+        "/mnt/data/_ogm_clean_gates/qualification-run"
+      ],
+      "exit_code": 0,
+      "seconds": 15.469,
+      "log_sha256": "67ac8c62467768e9b9bba546e2f5c792a929fc8167763bbc051495b26a91be63",
+      "required": true
+    },
+    {
+      "name": "localnexuspermissions002",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.localnexuspermissions002",
+        "--directory",
+        "/mnt/data/_ogm_clean_gates/permission-run"
+      ],
+      "exit_code": 0,
+      "seconds": 15.48,
+      "log_sha256": "01f29a2bde6c163e8869f64b93ff5d95ab24a775d1d9f72d34c33c170e9a16ad",
+      "required": true
+    },
+    {
+      "name": "overlaygenerationmanager001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.overlaygenerationmanager001",
+        "--directory",
+        "/mnt/data/_ogm_clean_gates/generation-run"
+      ],
+      "exit_code": 0,
+      "seconds": 18.845,
+      "log_sha256": "46b13edf0daccc1815df7a1baa86a0ac7bc0a43577781de53abc88369c06277a",
+      "required": true
+    },
+    {
+      "name": "maintenance",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/audit_maintenance.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.148,
+      "log_sha256": "1331ee192d0f9cd673ff2e2de70310bd5a5f8f84249da72665f23a283fae83f9",
+      "required": true
+    },
+    {
+      "name": "fresh_exact_neural_evidence",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/verify_fresh_neural_evidence.py",
+        "--report",
+        "/mnt/data/_ogm_clean_gates/neuralprobe-run/report.json"
+      ],
+      "exit_code": 0,
+      "seconds": 3.497,
+      "log_sha256": "d0bd1d556b7259359c422fd0aa36b77674961f8d672262cc8ec31a9e8fb673d1",
+      "required": true
+    },
+    {
+      "name": "historical_portability_audit",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/audit_historical_neural_metrics.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.753,
+      "log_sha256": "99d0ba72abddb6c9f8cc2b671acc3f218b18c72a9da19bcdbdabe5ca3627bc28",
+      "required": true
+    },
+    {
+      "name": "reference_neural_evidence",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/verify_neural_evidence.py"
+      ],
+      "exit_code": 0,
+      "seconds": 4.056,
+      "log_sha256": "b3f49d0ad9fe61d04fb4a8153e0d27a357b781c09cc945db06f53cdb48b27a64",
+      "required": false
+    },
+    {
+      "name": "atlas",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "nss_base.logic_atlas"
+      ],
+      "exit_code": 0,
+      "seconds": 1.002,
+      "log_sha256": "6c696a96d9d598123f19d2d532d9b7cdb4e7339da78d1f707e4f314d933981d1",
+      "required": true
+    },
+    {
+      "name": "helper_graphs",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-c",
+        "from nss_base.logic_atlas import load_atlas\nfor path,count in [('spec/dataset_snapshot_flows.json',2),('spec/evaluation_run_flows.json',3),('spec/neural_probe_flows.json',3),('spec/qualification_evidence_flows.json',3),('spec/local_nexus_permissions_flows.json',3),('spec/overlay_generation_flows.json',3)]:\n a=load_atlas(path);assert len(a['flows'])==count;print(path,':',count,'valid subordinate flows')\n"
+      ],
+      "exit_code": 0,
+      "seconds": 1.005,
+      "log_sha256": "e5327ac22652a5e3a49feecae00345d6a93a7a7a2fa027e04ae3186547570868",
+      "required": true
+    },
+    {
+      "name": "dependencies",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/check_dependencies.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.175,
+      "log_sha256": "f00185f453cbb01a520d2a84793f7ae7c52be7f4727726683e7b7d4e979a421e",
+      "required": true
+    },
+    {
+      "name": "compile",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "nss_base",
+        "tests",
+        "tools"
+      ],
+      "exit_code": 0,
+      "seconds": 1.059,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "required": true
+    },
+    {
+      "name": "regeneration",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-c",
+        "from pathlib import Path\nimport subprocess,sys\nroot=Path('.')\npaths=list(root.glob('schemas/*.json'))+[root/'docs/PSEUDOCODE_FLOWCHART_ATLAS.md',root/'docs/DATASET_SNAPSHOT_LOGIC.md',root/'docs/EVALUATION_RUN_LOGIC.md',root/'docs/NEURAL_PROBE_LOGIC.md',root/'docs/QUALIFICATION_EVIDENCE_LOGIC.md',root/'fixtures/qualificationevidence002/policy.json',root/'fixtures/localnexuspermissions002/policy.json',root/'docs/LOCAL_NEXUS_PERMISSIONS_LOGIC.md',root/'docs/OVERLAY_GENERATION_LOGIC.md',root/'fixtures/overlaygenerationmanager001/policy.json']+list(root.glob('docs/logic_flowcharts/*.dot'))\nbefore={str(p):p.read_bytes() for p in paths}\nfor script in ['tools/generate_experience_schemas.py', 'tools/generate_dataset_schemas.py', 'tools/generate_evaluation_schemas.py', 'tools/generate_subsystem_logic.py', 'tools/generate_qualification_schemas.py', 'tools/generate_permission_schemas.py', 'tools/generate_generation_schemas.py']:subprocess.run([sys.executable,script],check=True)\nchanged=[p for p,b in before.items() if Path(p).read_bytes()!=b]\nprint('REGEN_CHANGED',changed)\nraise SystemExit(bool(changed))\n"
+      ],
+      "exit_code": 0,
+      "seconds": 9.384,
+      "log_sha256": "a04c5fa24fd243430b135537e78cbd258108c9d5c848779672435394eadabd48",
+      "required": true
+    },
+    {
+      "name": "manifest",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "tools/verify_manifest.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.299,
+      "log_sha256": "b38aa3f7923578d67c6bafcab9a3cfe9762d858cb5148b383a400902a46152cc",
+      "required": true
+    }
+  ],
+  "passed": true,
+  "all_gates_passed": true,
+  "advisories": [],
+  "advisory_policy": "Legacy schema-v1 archive remains historical and raw strict-MSE disagreement remains visible. New schema-v2 evidence binds CPU/build/backend policy and requires exact replay through the same sealed-checkpoint path. Historical diagnosis is NOT qualification or permission.",
+  "completed_utc": "2026-09-11T15:18:13.345045+00:00"
+}

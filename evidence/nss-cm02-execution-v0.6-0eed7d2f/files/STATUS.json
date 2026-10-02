@@ -1,0 +1,89 @@
+{
+  "id": "NSS_CM02_Execution_v0.6",
+  "status": "COMPLETED_MAIN_AND_EXACT_REPLAY_WITH_DECLARED_EXECUTION_RECOVERY",
+  "scientific_protocol": "NSS_CM02_ProtocolReview_v0.2",
+  "scientific_arms_events_seeds_thresholds_changed": false,
+  "source_lock_sha256": "57aacd34c1573faab7e4e01479914506daf13141346d0c862c9054659cff6601",
+  "main_sequences": 32,
+  "main_query_occasions": 192,
+  "heldout_sequences": 20,
+  "heldout_query_occasions": 120,
+  "participating_frozen_near_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "all_15_Q010_exports_unchanged": true,
+  "new_optimizer_updates": 0,
+  "main_decision_rows": 2880,
+  "main_control_rows": 768,
+  "main_incorrect_decisions_retained": 1165,
+  "main_incorrect_control_rows_retained": 120,
+  "main_exact_replay": {
+    "arrays": 14400,
+    "byte_identical_independently_scored_files": 16,
+    "byte_identical_npz_containers": 1800,
+    "deterministic_metadata_files": 39,
+    "distinct_outputs": 1800,
+    "elements": 187200,
+    "excluded": [
+      "timing.jsonl",
+      "worker stderr logs",
+      "external supervisor elapsed/RSS/cgroup receipts"
+    ],
+    "no_new_scientific_samples": true,
+    "status": "PASS_EXACT_FRESH_PROCESS_REPLAY"
+  },
+  "fixture_source": "failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture",
+  "fixture_status": "COMPLETED_IN_V0_5_AND_CARRIED_AFTER_BYTE_IDENTICAL_SCIENTIFIC_SOURCE_CHECK_AND_RESCORING",
+  "fixture_decision_rows": 72,
+  "fixture_control_rows": 96,
+  "fixture_incorrect_decisions": 14,
+  "fixture_incorrect_controls": 15,
+  "prior_attempts": [
+    {
+      "version": "v0.3",
+      "status": "incomplete_scorer_bug",
+      "attempted": 45
+    },
+    {
+      "version": "v0.4",
+      "status": "incomplete_tool_interruption",
+      "attempted": 1175
+    },
+    {
+      "version": "v0.5",
+      "status": "incomplete_tool_interruption_with_passed_fixture",
+      "attempted": 1175
+    }
+  ],
+  "all_versions_attempted_forwards": 5995,
+  "hard_forward_cap": 6000,
+  "acknowledged_completions": 5993,
+  "underflow_amendment_preserved": true,
+  "full_original_training_qualification": false,
+  "claims_not_established": [
+    "native learned recurrent memory",
+    "learned always-on context tokens",
+    "autonomous learned storage writing",
+    "net information compression",
+    "general long-horizon cognition",
+    "integrated NSS core qualification"
+  ],
+  "delivery_dependency": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip (not duplicated)",
+  "sha256_dependency": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+  "delivery_qa": {
+    "status": "PASS_BEFORE_FINAL_PACKAGING",
+    "relocated_integrity_manifest_files": 6661,
+    "local_frozen_files_verified": 29,
+    "baseline_files_verified": 164,
+    "independent_scores_byte_identical": 32,
+    "main_and_fixture_scoring_repeated_without_model_forward": true,
+    "new_neural_forwards": 0,
+    "total_study_attempts_unchanged": 5995,
+    "shared_seconds_through_relocated_qa": 2145.57283949852,
+    "note": "Relocated candidate copy. Final delivered ZIP identity/integrity is recorded in separate external delivery receipt."
+  }
+}

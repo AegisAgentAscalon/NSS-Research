@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "Q001",
+    "title": "State, Depth and Learned Write Admission (Pilot001)",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G04 recurrent depth",
+      "G02 baseline competence"
+    ],
+    "type": "five-seed synthetic feasibility pilot with separately registered post-pilot interventions",
+    "status": "completed; NBR-01 remains open; no architecture accepted",
+    "sources": [
+      "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip::NSS_NBR01_StateDepth_Pilot001_v0.1/REPORT.md",
+      "Research/NSS_NBR01_StateDepth_Pilot001_v0.1.zip::NSS_NBR01_StateDepth_Pilot001_v0.1/evidence/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q001-state-depth-and-learned-write-admission-pilot001",
+    "title_heading": "Q001 — State, Depth and Learned Write Admission (Pilot001)",
+    "lane": "early",
+    "anchor": "pass-q001",
+    "group": 2
+  },
+  {
+    "id": "Q002",
+    "title": "Longer Horizons, Addressed Memory and Write-Admission Uncertainty (HorizonBinding002)",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G06 representation and binding",
+      "G07 exact, approximate and rehydrated memory",
+      "G02 baseline competence"
+    ],
+    "type": "registered bounded numerical-memory comparison; supplementary controls and post-hoc interface diagnostic",
+    "status": "completed; NBR-01 remains open; no architecture accepted",
+    "sources": [
+      "Research/NSS_NBR01_HorizonBinding002_v0.1.zip::NSS_NBR01_HorizonBinding002_v0.1/REPORT.md",
+      "Research/NSS_NBR01_HorizonBinding002_v0.1.zip::NSS_NBR01_HorizonBinding002_v0.1/evidence/results/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q002-longer-horizons-addressed-memory-and-write-admission-uncertainty-horizonbinding002",
+    "title_heading": "Q002 — Longer Horizons, Addressed Memory and Write-Admission Uncertainty (HorizonBinding002)",
+    "lane": "early",
+    "anchor": "pass-q002",
+    "group": 2
+  },
+  {
+    "id": "Q003",
+    "title": "Native State Recovery (StateRecovery003)",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G05 recurrent stability",
+      "G07 exact, approximate and rehydrated memory"
+    ],
+    "type": "registered synthetic state-maintenance study using frozen learned representations, with separately labelled post-hoc diagnosis",
+    "status": "completed; NBR-01 remains open; no architecture accepted",
+    "sources": [
+      "Research/NSS_NBR01_StateRecovery003_v0.1.zip::NSS_NBR01_StateRecovery003_v0.1/REPORT.md",
+      "Research/NSS_NBR01_StateRecovery003_v0.1.zip::NSS_NBR01_StateRecovery003_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q003-native-state-recovery-staterecovery003",
+    "title_heading": "Q003 — Native State Recovery (StateRecovery003)",
+    "lane": "early",
+    "anchor": "pass-q003",
+    "group": 2
+  },
+  {
+    "id": "Q004",
+    "title": "Stable Absence, Writable Lifecycle and Recurrent Empty-State Protection (WritableEmpty004)",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G05 recurrent stability",
+      "G07 exact, approximate and rehydrated memory"
+    ],
+    "type": "paired five-seed synthetic lifecycle study with post-hoc local-dynamics, delivery and fault diagnostics",
+    "status": "completed; dynamic presence retained as an engineering control; revised neural maps not adopted",
+    "sources": [
+      "Research/NSS_NBR01_WritableEmpty004_v0.1.zip::NSS_NBR01_WritableEmpty004_v0.1/REPORT.md",
+      "Research/NSS_NBR01_WritableEmpty004_v0.1.zip::NSS_NBR01_WritableEmpty004_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q004-stable-absence-writable-lifecycle-and-recurrent-empty-state-protection-writableempty004",
+    "title_heading": "Q004 — Stable Absence, Writable Lifecycle and Recurrent Empty-State Protection (WritableEmpty004)",
+    "lane": "early",
+    "anchor": "pass-q004",
+    "group": 2
+  },
+  {
+    "id": "Q005",
+    "title": "Learned Existence with Frozen Content (ExistenceContent005)",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G06 representation and binding",
+      "G07 exact, approximate and rehydrated memory"
+    ],
+    "type": "registered five-pair synthetic writable-lifecycle study using frozen learned value codes",
+    "status": "completed; learned split-state candidates passed nominal criteria but showed no quality/cost advantage over fixed rules",
+    "sources": [
+      "Research/NSS_NBR01_ExistenceContent005_v0.1.zip::NSS_NBR01_ExistenceContent005_v0.1/REPORT.md",
+      "Research/NSS_NBR01_ExistenceContent005_v0.1.zip::NSS_NBR01_ExistenceContent005_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q005-learned-existence-with-frozen-content-existencecontent005",
+    "title_heading": "Q005 — Learned Existence with Frozen Content (ExistenceContent005)",
+    "lane": "early",
+    "anchor": "pass-q005",
+    "group": 2
+  },
+  {
+    "id": "Q006",
+    "title": "Content-Based Binding and Useful Processing Depth (BindingDepth006)",
+    "broad_question": [
+      "G04 recurrent depth",
+      "G06 representation and binding",
+      "G03 persistent temporal state"
+    ],
+    "type": "registered five-seed fixed-weight synthetic relational retrieval study with post-main diagnostics",
+    "status": "completed; structured readers remain research references, not qualified serving cores",
+    "sources": [
+      "Research/NSS_NBR01_BindingDepth006_v0.1.zip::NSS_NBR01_BindingDepth006_v0.1/REPORT.md",
+      "Research/NSS_NBR01_BindingDepth006_v0.1.zip::NSS_NBR01_BindingDepth006_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q006-content-based-binding-and-useful-processing-depth-bindingdepth006",
+    "title_heading": "Q006 — Content-Based Binding and Useful Processing Depth (BindingDepth006)",
+    "lane": "early",
+    "anchor": "pass-q006",
+    "group": 3
+  },
+  {
+    "id": "Q007",
+    "title": "Compatible Restoration, Relationship Traversal and Failure Isolation (RepairBinding007)",
+    "broad_question": [
+      "G06 representation and binding",
+      "G07 exact, approximate and rehydrated memory",
+      "G03 persistent temporal state"
+    ],
+    "type": "five-pair fixed-reader synthetic restoration study with post-main diagnostics",
+    "status": "completed; bounded building block; no general-memory qualification",
+    "sources": [
+      "Research/NSS_NBR01_RepairBinding007_v0.1.zip::NSS_NBR01_RepairBinding007_v0.1/REPORT.md",
+      "Research/NSS_NBR01_RepairBinding007_v0.1.zip::NSS_NBR01_RepairBinding007_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q007-compatible-restoration-relationship-traversal-and-failure-isolation-repairbinding007",
+    "title_heading": "Q007 — Compatible Restoration, Relationship Traversal and Failure Isolation (RepairBinding007)",
+    "lane": "early",
+    "anchor": "pass-q007",
+    "group": 3
+  },
+  {
+    "id": "Q008",
+    "title": "Familiarity-Aware Repair and Writable Novelty (MembershipRepair008)",
+    "broad_question": [
+      "G06 representation and binding",
+      "G07 exact, approximate and rehydrated memory"
+    ],
+    "type": "registered five-pair membership and repair comparison with post-hoc near-duplicate binder diagnostic",
+    "status": "main comparison completed; full joint target not met; NBR-01 remains open",
+    "sources": [
+      "Research/NSS_NBR01_MembershipRepair008_v0.1.zip::NSS_NBR01_MembershipRepair008_v0.1/REPORT.md",
+      "Research/NSS_NBR01_MembershipRepair008_v0.1.zip::NSS_NBR01_MembershipRepair008_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q008-familiarity-aware-repair-and-writable-novelty-membershiprepair008",
+    "title_heading": "Q008 — Familiarity-Aware Repair and Writable Novelty (MembershipRepair008)",
+    "lane": "early",
+    "anchor": "pass-q008",
+    "group": 3
+  },
+  {
+    "id": "Q009",
+    "title": "Distinct Records and Provenance-Aware Recovery (IdentityBinding009)",
+    "broad_question": [
+      "G06 representation and binding",
+      "G07 exact, approximate and rehydrated memory",
+      "G03 persistent temporal state"
+    ],
+    "type": "completed bounded five-pair NBR-01 study with paired binder preparation and separate rule-based cue diagnostic",
+    "status": "exact owner-keyed storage retained as engineering reference; no learned pipeline passed the full joint identity target; NBR-01 remains open",
+    "sources": [
+      "Research/NSS_NBR01_IdentityBinding009_v0.1.zip::NSS_NBR01_IdentityBinding009_v0.1/REPORT.md",
+      "Research/NSS_NBR01_IdentityBinding009_v0.1.zip::NSS_NBR01_IdentityBinding009_v0.1/SUMMARY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/experiment_history.md"
+    ],
+    "section_anchor": "q009-distinct-records-and-provenance-aware-recovery-identitybinding009",
+    "title_heading": "Q009 — Distinct Records and Provenance-Aware Recovery (IdentityBinding009)",
+    "lane": "early",
+    "anchor": "pass-q009",
+    "group": 3
+  },
+  {
+    "id": "Q010-HIST",
+    "title": "Qualification010 v0.1 historical result (original study bytes missing)",
+    "broad_question": [
+      "G03 persistent state",
+      "G04 recurrent depth",
+      "G06 binding",
+      "G07 exact versus approximate recovery",
+      "G02 baseline competence"
+    ],
+    "type": "historical scientific report and receipt; unavailable original execution archive",
+    "status": "historical report claims bounded nominal qualification; original implementation, checkpoints, raw outcomes and source lock missing, not independently recomputable",
+    "sources": [
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/REPORT.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_NBR01_Qualification010_v0.1_DELIVERY_VERIFICATION.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/RECOVERY_PROGRESS.md"
+    ],
+    "section_anchor": "q010-hist-qualification010-v0-1-historical-result-original-study-bytes-missing",
+    "title_heading": "Q010-HIST — Qualification010 v0.1 historical result (original study bytes missing)",
+    "lane": "early",
+    "anchor": "pass-q010-hist",
+    "group": 4
+  },
+  {
+    "id": "Q010-RECOVERY-BASE-v0.2",
+    "title": "Partial inherited-reader recovery and smoke",
+    "broad_question": [
+      "G03 persistent state",
+      "G06 binding",
+      "G07 provenance and recovery"
+    ],
+    "type": "read-only recovery package audit with retained bounded smoke receipt",
+    "status": "recovery base package verified; smoke is explicitly not original Q010 qualification",
+    "sources": [
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/provenance/PARENT_SUBSET.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/provenance/CHECKPOINT_INVENTORY.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::Q010_Reonstruct/NSS_Qualification010_Recovery_Base_v0.2.zip::NSS_Qualification010_Recovery_Base_v0.2/audit/reference_smoke/SMOKE_RESULTS.json",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md"
+    ],
+    "section_anchor": "q010-recovery-base-v0-2-partial-inherited-reader-recovery-and-smoke",
+    "title_heading": "Q010-RECOVERY-BASE-v0.2 — Partial inherited-reader recovery and smoke",
+    "lane": "early",
+    "anchor": "pass-q010-recovery-base-v0-2",
+    "group": 4
+  },
+  {
+    "id": "Q010-INF-REC-v1.6",
+    "title": "Reconstructed fixed-weight inference recovery",
+    "broad_question": [
+      "G03 persistent state",
+      "G06 binding",
+      "G07 exact versus approximate recovery",
+      "G02 baseline competence"
+    ],
+    "type": "report-based inference re-evaluation and local exact replay; no retraining",
+    "status": "bounded inference recovery complete; original training protocol explicitly not fully requalified",
+    "sources": [
+      "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip::Q010_InferenceRecovery_v1.6/REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E00__Q010_InferenceRecovery_v1.6__REPORT.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/Q010_v1.6_20260924/",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/2026-09-22/recovery_audit.md"
+    ],
+    "section_anchor": "q010-inf-rec-v1-6-reconstructed-fixed-weight-inference-recovery",
+    "title_heading": "Q010-INF-REC-v1.6 — Reconstructed fixed-weight inference recovery",
+    "lane": "early",
+    "anchor": "pass-q010-inf-rec-v1-6",
+    "group": 4
+  },
+  {
+    "id": "CM01",
+    "title": "Grounded reference packet for fixed-weight retrieval",
+    "broad_question": [
+      "G03 state continuity",
+      "G06 record identity",
+      "G07 exact lookup versus approximate learned reading"
+    ],
+    "type": "completed bounded fixed-weight interface pilot",
+    "status": "completed; positive high-noise reference reconstruction with no general close-identity or net-efficiency claim",
+    "sources": [
+      "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/REPORT.md",
+      "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/protocol/PROTOCOL.json",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E01__NSS_CM01_Execution_v0.2__REPORT.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CM01_v0.2_20260924/",
+      "Research/NSS_CM01_Execution_v0.2.zip::NSS_CM01_Execution_v0.2/protocol/SEEDS.json"
+    ],
+    "section_anchor": "cm01-grounded-reference-packet-for-fixed-weight-retrieval",
+    "title_heading": "CM01 — Grounded reference packet for fixed-weight retrieval",
+    "lane": "early",
+    "anchor": "pass-cm01",
+    "group": 2
+  },
+  {
+    "id": "CM02",
+    "title": "Reference continuity, revisions, and freshness policy",
+    "broad_question": [
+      "G03 persistent state",
+      "G07 exact versus approximate retrieval",
+      "G06 binding"
+    ],
+    "type": "completed deterministic information-management study with fixed reader exports",
+    "status": "completed; workspace ties ordinary index; pooled gain over no selection varies with query noise; exact retrieval/revision policy stronger",
+    "sources": [
+      "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/REPORT.md",
+      "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/protocol/PROTOCOL_v0.6.json",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E02__NSS_CM02_Execution_v0.6__REPORT.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CM02_v0.6_20260924/",
+      "Research/NSS_CM02_Execution_v0.6.zip::NSS_CM02_Execution_v0.6/protocol/SEEDS.json"
+    ],
+    "section_anchor": "cm02-reference-continuity-revisions-and-freshness-policy",
+    "title_heading": "CM02 — Reference continuity, revisions, and freshness policy",
+    "lane": "early",
+    "anchor": "pass-cm02",
+    "group": 2
+  },
+  {
+    "id": "TS01",
+    "title": "Learned task-progress state",
+    "broad_question": [
+      "G03 persistent temporal state",
+      "G04 recurrent depth",
+      "G02 narrow baseline competence",
+      "G17 interface correctness"
+    ],
+    "type": "completed supervised five-fit finite-state feasibility screen",
+    "status": "bounded screen passed; no maintained workspace, memory compression or broad competence claim",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E03__NSS_TS01_Execution_v0.3__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::ARCHIVE_CATALOG.json",
+      "RESEARCH_INDEX.md"
+    ],
+    "section_anchor": "ts01-learned-task-progress-state",
+    "title_heading": "TS01 — Learned task-progress state",
+    "lane": "early",
+    "anchor": "pass-ts01",
+    "group": 5
+  },
+  {
+    "id": "TS02-MW01",
+    "title": "Maintained workspace plus learned derived progress",
+    "broad_question": [
+      "G03 persistent state",
+      "G06 binding and composition",
+      "G07 explicit metadata versus derived memory",
+      "G02 competence",
+      "G17 interface correctness"
+    ],
+    "type": "completed 15-fit training study with recurrent-only, larger recurrent and native workspace configurations",
+    "status": "predeclared scientific screen failed; modest pooled gain did not meet fit/family/safety criteria",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E04__NSS_TS02_MW01_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::ARCHIVE_CATALOG.json",
+      "RESEARCH_INDEX.md"
+    ],
+    "section_anchor": "ts02-mw01-maintained-workspace-plus-learned-derived-progress",
+    "title_heading": "TS02-MW01 — Maintained workspace plus learned derived progress",
+    "lane": "early",
+    "anchor": "pass-ts02-mw01",
+    "group": 5
+  },
+  {
+    "id": "TS03-CR01",
+    "title": "Controlled revision-composition exposure",
+    "broad_question": [
+      "G02 baseline competence",
+      "G03 temporal state",
+      "G06 compositional binding",
+      "G07 evidence provenance",
+      "G17 interface correctness"
+    ],
+    "type": "completed v0.4 24-fit crossed-curriculum study under reviewed protocol v0.2",
+    "status": "D1 coverage, D2 workspace interaction, D3 reliability and final advantage all failed",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E05__NSS_TS03_CR01_Execution_v0.4__REPORT.md",
+      "Research/NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/TS03_CR01_v0.4_20260924/",
+      "RESEARCH_INDEX.md"
+    ],
+    "section_anchor": "ts03-cr01-controlled-revision-composition-exposure",
+    "title_heading": "TS03-CR01 — Controlled revision-composition exposure",
+    "lane": "early",
+    "anchor": "pass-ts03-cr01",
+    "group": 5
+  },
+  {
+    "id": "CKA01",
+    "title": "Retrospective checkpoint learning/generalization audit",
+    "broad_question": [
+      "G02 baseline competence",
+      "G03 persistent task state",
+      "G06 compositional generalization"
+    ],
+    "type": "completed exploratory post-result scoring audit of retained checkpoints; no training",
+    "status": "TS01 saturates without observed late damage on sampled panels; TS03 had no earlier competent checkpoint and failed sampled familiar material",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E06__NSS_Checkpoint_Generalization_Audit_v0.2__REPORT.md",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/CKA01_v0.2_20260924/",
+      "RESEARCH_INDEX.md"
+    ],
+    "section_anchor": "cka01-retrospective-checkpoint-learning-generalization-audit",
+    "title_heading": "CKA01 — Retrospective checkpoint learning/generalization audit",
+    "lane": "early",
+    "anchor": "pass-cka01",
+    "group": 5
+  },
+  {
+    "id": "NeuralProbe001",
+    "title": "Fixed small-model composition and recovery confirmation",
+    "broad_question": [
+      "G02 narrow competence",
+      "G17 exchanged information and revision, weakly related"
+    ],
+    "type": "completed six-trial empirical neural confirmation within a software implementation audit",
+    "status": "positive prescribed linear composition/recovery smoke test; no demonstrated modular accuracy advantage or broad NSS claim",
+    "sources": [
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/RESULTS.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/neuralprobe001/"
+    ],
+    "section_anchor": "neuralprobe001-fixed-small-model-composition-and-recovery-confirmation",
+    "title_heading": "NeuralProbe001 — Fixed small-model composition and recovery confirmation",
+    "lane": "early",
+    "anchor": "pass-neuralprobe001",
+    "group": 1
+  },
+  {
+    "id": "FND-AUDITS",
+    "title": "Foundation engineering validation passes",
+    "broad_question": [
+      "Foundation engineering and evidence governance; no single Gxx assignment"
+    ],
+    "type": "compact matrix of thirteen deduplicated trusted-local engineering audits",
+    "status": "bounded software gates reported per source; self-audits, not independent review or production qualification",
+    "sources": [
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/stagehandoff001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/experiencearchive001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/datasetsnapshot001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/evaluationrun001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/qualificationevidence002/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/localnexuspermissions002/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/overlaygenerationmanager001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/overlaycatalogcontroller001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/contextretrieval001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/boundedlearnercoordinator001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/candidateacceptance001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/persistentstate001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.5.0_TriCoreFoundation001.zip::MegaMindAlpha_v0.5.0_TriCoreFoundation001/docs/audits/tricorefoundation001/AUDIT_REPORT.md",
+      "Research/Foundations/MegaMindAlpha_v0.4.14_PersistentState001.zip"
+    ],
+    "section_anchor": "fnd-audits-foundation-engineering-validation-passes",
+    "title_heading": "FND-AUDITS — Foundation engineering validation passes",
+    "lane": "early",
+    "anchor": "pass-fnd-audits",
+    "group": 1
+  },
+  {
+    "id": "E07",
+    "title": "DC01 v0.4 preflight: delivery-size admission stop",
+    "broad_question": "G08/G09 context; delayed-credit/adaptation question not reached. Engineering delivery-admission question.",
+    "type": "engineering_preflight",
+    "status": "STOPPED_AT_STORAGE_ADMISSION; no main learning fit",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E07__NSS_NBR02_DC01_Execution_v0.4__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R07__NSS_NBR02_DC01_Preflight_Stop_v0.4_Delivery.json",
+      "Research/NSS_Research_Log_NBR02_Handoff_v0.1.zip::NSS_Research_Log_NBR02_Handoff_v0.1/NBR02_DC01_REVIEW.md",
+      "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/RESEARCH_LOG.md"
+    ],
+    "section_anchor": "#e07-dc01-v04-preflight-delivery-size-admission-stop",
+    "title_heading": "E07 — DC01 v0.4 preflight: delivery-size admission stop",
+    "lane": "learning",
+    "anchor": "pass-e07",
+    "group": 6
+  },
+  {
+    "id": "E08",
+    "title": "DC01 v0.5: identified delayed feedback and bounded adaptation",
+    "broad_question": "G08 (identified delayed feedback subcase), G09 (adaptation with retention); bounded G10 timing context only.",
+    "type": "completed_synthetic_learning_study",
+    "status": "A0/D1/D2-G/D2-L/D3 passed within task; reversal misses and resource-superiority gap remain",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E08__NSS_NBR02_DC01_Execution_v0.5__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R08__NSS_NBR02_DC01_Complete_v0.5_Delivery.json",
+      "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/REPORT.md",
+      "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/DECISIONS_AND_SUMMARY.json",
+      "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/PRIMARY_BY_FIT.csv",
+      "Research/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip::NSS_NBR02_DC01_Codex_Handoff_v0.5/scores/FIRST_REVERSAL_FAILURES.csv",
+      "Research/NSS_WorkspaceSupport_v0.1.zip::.research_review/NBR02_DC01_v0.5_20260925/EVIDENCE_REVIEW.md"
+    ],
+    "section_anchor": "#e08-dc01-v05-identified-delayed-feedback-and-bounded-adaptation",
+    "title_heading": "E08 — DC01 v0.5: identified delayed feedback and bounded adaptation",
+    "lane": "learning",
+    "anchor": "pass-e08",
+    "group": 6
+  },
+  {
+    "id": "E09",
+    "title": "REV01 v0.4: a one-time larger correction step",
+    "broad_question": "G09 (adaptation with retention); identified receipt is narrower than G08 ambiguity; G10 timing only at the correction event.",
+    "type": "completed_heldout_intervention_with_retention_failure",
+    "status": "first-correction efficacy passed for G and L; complete screen failed for both on old confidence, and L also lost old labels",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E09__NSS_NBR02_REV01_Execution_v0.4__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R09__NSS_NBR02_REV01_Complete_v0.4_Delivery.json",
+      "Research/NSS_NBR02_REV01_Complete_v0.4.zip::NSS_NBR02_REV01_Execution_v0.4/REPORT.md",
+      "Research/NSS_NBR02_REV01_Complete_v0.4.zip::NSS_NBR02_REV01_Execution_v0.4/reports/SUMMARY.json"
+    ],
+    "section_anchor": "#e09-rev01-v04-a-one-time-larger-correction-step",
+    "title_heading": "E09 — REV01 v0.4: a one-time larger correction step",
+    "lane": "learning",
+    "anchor": "pass-e09",
+    "group": 6
+  },
+  {
+    "id": "E10",
+    "title": "PROTECT01 v0.3: projected updates trade correction for old confidence",
+    "broad_question": "G09 (selective plasticity and old-skill protection).",
+    "type": "development_experiment_stopped_at_admission",
+    "status": "A0 failed for G (2/4 vs 3/4 required), L passed 4/4; held-out mappings not generated",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E10__NSS_NBR02_PROTECT01_Execution_v0.3__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R10__NSS_NBR02_PROTECT01_Development_Stop_v0.3_Delivery.json",
+      "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip::NSS_NBR02_PROTECT01_Execution_v0.3/REPORT.md",
+      "Research/NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip::NSS_NBR02_PROTECT01_Execution_v0.3/analysis/EXPLORATORY_SUMMARY.json"
+    ],
+    "section_anchor": "#e10-protect01-v03-projected-updates-trade-correction-for-old-confidence",
+    "title_heading": "E10 — PROTECT01 v0.3: projected updates trade correction for old confidence",
+    "lane": "learning",
+    "anchor": "pass-e10",
+    "group": 6
+  },
+  {
+    "id": "E11",
+    "title": "REHEARSE01 v0.2: strong correction followed by rehearsal (development stop)",
+    "broad_question": "G09 (adaptation with retention), G14 (replay as additional training work).",
+    "type": "development_experiment_stopped_at_admission",
+    "status": "STOPPED_AT_A0; G passed 2/4 and L 4/4; held-out labels and conditions not generated",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E11__NSS_NBR02_REHEARSE01_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R11__NSS_NBR02_REHEARSE01_Development_Stop_v0.2_Delivery.json",
+      "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md",
+      "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/analysis/SUMMARY.json"
+    ],
+    "section_anchor": "#e11-rehearse01-v02-strong-correction-followed-by-rehearsal-development-stop",
+    "title_heading": "E11 — REHEARSE01 v0.2: strong correction followed by rehearsal (development stop)",
+    "lane": "learning",
+    "anchor": "pass-e11",
+    "group": 6
+  },
+  {
+    "id": "E12",
+    "title": "REHEARSE01 retrospective analysis: temporary rehearsal gain under continued focal updates",
+    "broad_question": "G09 (old/new interference), G14 (rehearsal and replay); retrospective, no new learning.",
+    "type": "retrospective_retained_data_audit",
+    "status": "completed data-only analysis; E11 A0 stop and missing held-out assessment remain",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E12__NSS_NBR02_REHEARSE01_Analysis_v0.1__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R12__NSS_NBR02_REHEARSE01_Analysis_v0.1_Delivery.json",
+      "Research/NSS_NBR02_REHEARSE01_Development_Stop_v0.2.zip::NSS_NBR02_REHEARSE01_Execution_v0.2/REPORT.md"
+    ],
+    "section_anchor": "#e12-rehearse01-v01-analysis-the-same-rehearsal-gain-was-temporary-under-continued-focal-updates",
+    "title_heading": "E12 — REHEARSE01 v0.1 analysis: the same rehearsal gain was temporary under continued focal updates",
+    "lane": "learning",
+    "anchor": "pass-e12",
+    "group": 6
+  },
+  {
+    "id": "E13",
+    "title": "TIMING01 v0.1: early versus delayed old-record rehearsal",
+    "broad_question": "G09 (adaptation with retention), G10 (update/maintenance timing), G14 (rehearsal).",
+    "type": "completed_heldout_timing_study_all_arms_failed_full_trajectory_gate",
+    "status": "baseline passed; E/LATE passed focal/old-class screens but failed confidence; all complete gates failed",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E13__NSS_NBR02_TIMING01_Execution_v0.1__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R13__NSS_NBR02_TIMING01_Complete_v0.1_Delivery.json",
+      "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::REPORT.md",
+      "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::analysis/SUMMARY.json"
+    ],
+    "section_anchor": "#e13-timing01-v01-early-versus-delayed-old-record-rehearsal",
+    "title_heading": "E13 — TIMING01 v0.1: early versus delayed old-record rehearsal",
+    "lane": "learning",
+    "anchor": "pass-e13",
+    "group": 7
+  },
+  {
+    "id": "E14",
+    "title": "TIMING01 retrospective audit: later repair improves the ending but not the peak",
+    "broad_question": "G09/G10/G14 (selective retention, timing, rehearsal); retrospective only.",
+    "type": "retrospective_retained_data_audit",
+    "status": "completed data-only analysis; original all-boundary failure unchanged",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E14__NSS_NBR02_TIMING01_Analysis_v0.1__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R14__NSS_NBR02_TIMING01_Analysis_v0.1_Delivery.json",
+      "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::REPORT.md",
+      "Research/NSS_NBR02_TIMING01_Complete_v0.1.zip::analysis/SUMMARY.json"
+    ],
+    "section_anchor": "#e14-timing01-v01-retrospective-audit-later-repair-improves-the-ending-but-not-the-peak",
+    "title_heading": "E14 — TIMING01 v0.1 retrospective audit: later repair improves the ending but not the peak",
+    "lane": "learning",
+    "anchor": "pass-e14",
+    "group": 7
+  },
+  {
+    "id": "E15",
+    "title": "C00-CONTRACT01: a synthetic change-and-review/adoption contract",
+    "broad_question": "G16 asks whether a critic/evaluator can detect unsupported or harmful changes while retaining useful supported changes; G10 is touched only as a simulated candidate-adoption boundary.",
+    "type": "synthetic_engineering_conformance_test",
+    "status": "completed_finite_fixture_suite; v0.1 withdrawn after schema bug; corrected v0.2 passes declared contract fixtures",
+    "sources": [
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::REPORT.md",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::protocol/PROTOCOL.md",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::program/STEP_00_CONTRACT.md",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::results/primary/SUMMARY.json",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/REPORT.md",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/WITHDRAWAL_ADDENDUM.md",
+      "Research/NSS_C00_Contract_Complete_v0.2.zip::attempts/v0.1/results/primary/SUMMARY.json",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E15__NSS_C00_Contract_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R15__NSS_C00_Contract_Complete_v0.2_Delivery.json"
+    ],
+    "section_anchor": "#e15-c00-contract01-a-synthetic-change-and-reviewadoption-contract",
+    "title_heading": "E15 — C00-CONTRACT01: a synthetic change-and-review/adoption contract",
+    "lane": "learning",
+    "anchor": "pass-e15",
+    "group": 8
+  },
+  {
+    "id": "E16",
+    "title": "EVAL01 v0.2: targeted review reduces harmful approvals but defers more useful changes",
+    "broad_question": "G16 asks about useful, fallible evaluation/review; G10 is touched by simulated keep/defer candidate decision.",
+    "type": "retrospective_finite_panel_policy_evaluation",
+    "status": "completed_source-data_reanalysis; no new model execution or adoption",
+    "sources": [
+      "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::REPORT.md",
+      "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::analysis/SUMMARY.json",
+      "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::protocol/PROTOCOL.md",
+      "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::inputs/REV01/SOURCE_REPORT.md",
+      "Research/NSS_NBR02_EVAL01_Complete_v0.2.zip::inputs/TIMING01/SOURCE_REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E16__NSS_NBR02_EVAL01_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R16__NSS_NBR02_EVAL01_Complete_v0.2_Delivery.json"
+    ],
+    "section_anchor": "#e16-eval01-v02-targeted-review-reduces-harmful-approvals-but-defers-more-useful-changes",
+    "title_heading": "E16 — EVAL01 v0.2: targeted review reduces harmful approvals but defers more useful changes",
+    "lane": "learning",
+    "anchor": "pass-e16",
+    "group": 8
+  },
+  {
+    "id": "E17",
+    "title": "MICROMACRO01 v0.2: a bounded complete distributed repair cycle",
+    "broad_question": "G09 asks whether new learning can preserve older associations; G14 asks whether replay/maintenance contributes more than spending equal work on focal practice.",
+    "type": "completed_heldout_mechanism_study_and_historical_adaptive_replay",
+    "status": "D and B4 pass primary G/L screens with L exactly at 29/32; U and F4 fail; stricter mean-recovery sensitivity fails all old-repair schedules",
+    "sources": [
+      "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/REPORT.md",
+      "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/analysis/tables/SUMMARY.json",
+      "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/protocol/PROTOCOL.md",
+      "Research/NSS_NBR02_MICROMACRO01_Complete_v0.2.zip::NSS_NBR02_MICROMACRO01_Execution_v0.2/attempts/v0.1/audit/HISTORICAL_SUMMARY.json",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E17__NSS_NBR02_MICROMACRO01_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R17__NSS_NBR02_MICROMACRO01_Complete_v0.2_Delivery.json"
+    ],
+    "section_anchor": "#e17-micromacro01-v02-a-bounded-complete-distributed-repair-cycle",
+    "title_heading": "E17 — MICROMACRO01 v0.2: a bounded complete distributed repair cycle",
+    "lane": "learning",
+    "anchor": "pass-e17",
+    "group": 7
+  },
+  {
+    "id": "E18",
+    "title": "TEACH01 v0.1: a fixed Primary surrogate teaches a Secondary surrogate",
+    "broad_question": "G14 asks whether structured replay/idle learning adds value beyond recent examples; G18 concerns Primary/auxiliary scheduling costs but is only contextual here; G09 concerns retaining old behavior while teaching recent experience.",
+    "type": "completed_bounded_teacher_student_synthetic_study_source_reported",
+    "status": "source report and delivery receipt document completed pilot; full named execution archive missing, raw fits/replay arrays not independently re-opened",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E18__NSS_NBR02_TEACH01_Execution_v0.1__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R18__NSS_NBR02_TEACH01_Complete_v0.1_Delivery.json",
+      "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md"
+    ],
+    "section_anchor": "#e18-teach01-v01-a-fixed-primary-surrogate-teaches-a-secondary-surrogate",
+    "title_heading": "E18 — TEACH01 v0.1: a fixed Primary surrogate teaches a Secondary surrogate",
+    "lane": "learning",
+    "anchor": "pass-e18",
+    "group": 7
+  },
+  {
+    "id": "E19",
+    "title": "STATEBRIDGE01 v0.2: retained task state under changed weights",
+    "broad_question": "G03 asks what survives events and weight revisions; G05 asks whether recurrence/feedback produces instability; G10 concerns candidate revisions and task use.",
+    "type": "completed_diagnostic_execution_with_historical_adaptive_replay",
+    "status": "NOT_QUALIFIED: original whole-trajectory numerical gate failed 11 comparisons; changed-weight continuation and rebuild adequacy screens both fail after repair",
+    "sources": [
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_reports/E19__NSS_NBR02_STATEBRIDGE01_Execution_v0.2__REPORT.md",
+      "Research/NSS_Research_Consolidation_v0.1.zip::source_receipts/R19__NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2_Delivery.json",
+      "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/REPORT.md",
+      "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/tables/SUMMARY.json",
+      "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/analysis/numerical_localization/SUMMARY.json",
+      "Research/NSS_NBR02_STATEBRIDGE01_Diagnostic_v0.2.zip::NSS_NBR02_STATEBRIDGE01_Execution_v0.2/protocol/PROTOCOL.md"
+    ],
+    "section_anchor": "#e19-statebridge01-v02-retained-task-state-under-changed-weights",
+    "title_heading": "E19 — STATEBRIDGE01 v0.2: retained task state under changed weights",
+    "lane": "learning",
+    "anchor": "pass-e19",
+    "group": 8
+  },
+  {
+    "id": "E20",
+    "title": "SURFACE01 v0.1: fixed-weight baseline failed zero false-DONE admission",
+    "broad_question": "G02 asks whether a task failure reflects architecture, training, data or interface; G03 concerns meaning across events; G05 concerns recurrent instability.",
+    "type": "completed_fixed_weight_baseline_execution_admission_stop",
+    "status": "three of four parents pass; parent 4103 fails zero false-DONE gate with one connected six-prediction episode; correction/adaptation and confirmation histories not run",
+    "sources": [
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/REPORT.md",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/protocol/EXECUTION_PROTOCOL.md",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4101_summary.json",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4102_summary.json",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4103_summary.json",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4104_summary.json",
+      "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip::NSS_NBR02_SURFACE01_Execution_v0.1/failures/parent_4103_idempotent_first.npz",
+      "Research/NSS_NBR02_SURFACE01_Reports_and_Review_v0.1.zip::REVIEW_AND_CANDIDATES.md",
+      "Research/NSS_Research_and_Architecture_Chat_Handoff_v1.1.md"
+    ],
+    "section_anchor": "#e20-surface01-v01-fixed-weight-baseline-failed-zero-false-done-admission",
+    "title_heading": "E20 — SURFACE01 v0.1: fixed-weight baseline failed zero false-DONE admission",
+    "lane": "learning",
+    "anchor": "pass-e20",
+    "group": 8
+  },
+  {
+    "id": "SH01",
+    "title": "First shared typed-record / HSA maintenance reader",
+    "broad_question": "Can supplied hierarchical attention help a small maintenance reader while exact versioned context preserves provenance? HSC-Q01–Q04; no workspace Gxx mapping is stated.",
+    "type": "completed learning and integration study",
+    "status": "three complete paired seeds; fourth HSA fit stopped at step 200",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§3–5, 11, 14",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH01/REPORT.md",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH01_Execution_v0.1.zip::NSS_NBR02_SH01_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "SH01",
+    "title_heading": "SH01 — First shared typed-record / HSA maintenance reader",
+    "lane": "recent",
+    "anchor": "pass-sh01",
+    "group": 9
+  },
+  {
+    "id": "SH02",
+    "title": "Clean graph, plan, and packed HSA execution",
+    "broad_question": "Can saved hierarchical-reader behavior be preserved while reducing redundant gather cost? HSC-Q01,Q03,Q04; no workspace Gxx mapping is stated.",
+    "type": "engineering refactor and saved-model regression",
+    "status": "completed; tolerance/class parity passed; historical bitwise replay failed and is retained; no training",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§6, 11, 14",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/sources/SH02/REPORT.md",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SH02_Execution_v0.1.zip::NSS_NBR02_SH02_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "SH02",
+    "title_heading": "SH02 — Clean graph, plan, and packed HSA execution",
+    "lane": "recent",
+    "anchor": "pass-sh02",
+    "group": 9
+  },
+  {
+    "id": "SC01",
+    "title": "Exact backward-closure segmented workspace",
+    "broad_question": "Can bounded typed-record execution preserve a two-layer model's exact input closure and resume safely, compared with ordinary indexing and caching? HSC-Q01,Q05–Q08; no workspace Gxx mapping is stated.",
+    "type": "completed bounded component study",
+    "status": "all 324 main conditions complete; same-class and numerical parity; efficiency gain modest/workload dependent",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§7, 11, 14",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC01_Execution_v0.1.zip::NSS_NBR02_SC01_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "SC01",
+    "title_heading": "SC01 — Exact backward-closure segmented workspace",
+    "lane": "recent",
+    "anchor": "pass-sc01",
+    "group": 9
+  },
+  {
+    "id": "SC02",
+    "title": "Incremental publication, scheduling, and neural-cache ablation",
+    "broad_question": "Can incremental publication and a changed scheduler improve the segmented implementation while neural-result caching reduces work? HSC-Q05–Q08; no workspace Gxx mapping is stated.",
+    "type": "completed engineering and workload comparison",
+    "status": "completed; publication/scheduling gains with workload-dependent costs; intermediate neural cache slower in all tested cells",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §8 and §§11,14",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_SC02_Execution_v0.1.zip::NSS_NBR02_SC02_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "SC02",
+    "title_heading": "SC02 — Incremental publication, scheduling, and neural-cache ablation",
+    "lane": "recent",
+    "anchor": "pass-sc02",
+    "group": 9
+  },
+  {
+    "id": "CAP01",
+    "title": "Exact computation across active record tiles",
+    "broad_question": "Can exact tiled execution preserve full attention over bounded active records and when does it lower cost? HSC-Q01,Q05–Q08; no workspace Gxx mapping is stated.",
+    "type": "completed computation and engineering study",
+    "status": "completed; exact outputs under declared checks; tile-size/cost tradeoffs retained",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§9,11,14",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP01_Execution_v0.1.zip::NSS_NBR02_CAP01_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "CAP01",
+    "title_heading": "CAP01 — Exact computation across active record tiles",
+    "lane": "recent",
+    "anchor": "pass-cap01",
+    "group": 9
+  },
+  {
+    "id": "CAP02",
+    "title": "Mixed-size preparation with small-task retention",
+    "broad_question": "Can mixed-size preparation improve larger-task competence without damaging small-task retention? HSC-Q02,Q09; no workspace Gxx mapping is stated.",
+    "type": "completed preparation and retention study",
+    "status": "completed; larger-task results and small-task retention/cost limits documented",
+    "sources": [
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md §§10–13",
+      "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.zip::NSS_HSA_Segmented_Context_Research_Consolidation_v1.0/original_archives/NSS_NBR02_CAP02_Execution_v0.1.zip::NSS_NBR02_CAP02_Execution_v0.1/REPORT.md"
+    ],
+    "section_anchor": "CAP02",
+    "title_heading": "CAP02 — Mixed-size preparation with small-task retention",
+    "lane": "recent",
+    "anchor": "pass-cap02",
+    "group": 9
+  },
+  {
+    "id": "DARP01",
+    "title": "First token-level plan / check / edit writer",
+    "broad_question": "Can a bounded learned writer produce checked maintenance plans and repair/revise wrong structured output? DARP editorial map; no workspace Gxx mapping stated.",
+    "type": "completed bounded generation study; consolidated-report evidence",
+    "status": "completed; substantial writer errors and no working point",
+    "sources": [
+      "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§06–08",
+      ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt"
+    ],
+    "section_anchor": "DARP01",
+    "missing_sources": [
+      "NSS_NBR02_DARP01_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    ],
+    "title_heading": "DARP01 — First token-level plan / check / edit writer",
+    "lane": "recent",
+    "anchor": "pass-darp01",
+    "group": 10
+  },
+  {
+    "id": "DARP02",
+    "title": "Common metadata wrapper and repair/revision preparation",
+    "broad_question": "Can a common wrapper and preparation improve plan/edit/revision handoffs, including changed plans? DARP editorial map; no workspace Gxx mapping stated.",
+    "type": "completed continuation/preparation study; consolidated-report evidence",
+    "status": "completed; completion improved but two-of-three working point and broad typed-feedback advantage not established",
+    "sources": [
+      "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§09–11",
+      ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt"
+    ],
+    "section_anchor": "DARP02",
+    "missing_sources": [
+      "NSS_NBR02_DARP02_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    ],
+    "title_heading": "DARP02 — Common metadata wrapper and repair/revision preparation",
+    "lane": "recent",
+    "anchor": "pass-darp02",
+    "group": 10
+  },
+  {
+    "id": "DARP03",
+    "title": "Actual writer-error rehearsal and prospective keep-or-park comparison",
+    "broad_question": "Does rehearsal on actual writer errors help, and does the supported diffusion writer beat equivalently supported AR on practical quality or cost? DARP editorial map; no workspace Gxx mapping stated.",
+    "type": "completed bounded comparison; consolidated-report evidence",
+    "status": "both prospective quality and efficiency routes failed; park current DARP implementation",
+    "sources": [
+      "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx §§12–24",
+      ".consolidation/20260928/darp_review/DOCUMENT_TEXT.txt"
+    ],
+    "section_anchor": "DARP03",
+    "missing_sources": [
+      "NSS_NBR02_DARP03_Execution_v0.1.zip (named in the consolidated register; absent from the bounded source set)"
+    ],
+    "title_heading": "DARP03 — Actual writer-error rehearsal and prospective keep-or-park comparison",
+    "lane": "recent",
+    "anchor": "pass-darp03",
+    "group": 10
+  },
+  {
+    "id": "RECOVER01-v0.2",
+    "title": "Ordinary replay recovery after new association learning",
+    "broad_question": "Can ordinary replay recover old behavior after learning new associations?",
+    "type": "report/plan-reported completed diagnostic",
+    "status": "strong reported recovery; residual false-DONE and strict numerical failure; original report absent from bounded source set",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§1–2, source register S04",
+      "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md § Evidence reconciliation",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json"
+    ],
+    "section_anchor": "RECOVER01-v0.2",
+    "missing_sources": [
+      "NSS_NBR02_RECOVER01_Report_v0.2.md (named by the plan source register; not located in the bounded workspace)"
+    ],
+    "title_heading": "RECOVER01-v0.2 — Ordinary replay recovery after new association learning",
+    "lane": "recent",
+    "anchor": "pass-recover01-v0-2",
+    "group": 7
+  },
+  {
+    "id": "TRACE01",
+    "title": "Guided replay from observed degradation",
+    "broad_question": "Can observed degradation guide which old examples or behaviors to rehearse?",
+    "type": "source-reported historical diagnostic",
+    "status": "technical stop with partial confirmation after numerical failure/storage stop; no qualified guided-replay superiority",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §1, source register S06",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json"
+    ],
+    "section_anchor": "TRACE01",
+    "missing_sources": [
+      "NSS_NBR02_TRACE01_Report_v0.1.md (named by the plan source register; not located in the bounded workspace)"
+    ],
+    "title_heading": "TRACE01 — Guided replay from observed degradation",
+    "lane": "recent",
+    "anchor": "pass-trace01",
+    "group": 8
+  },
+  {
+    "id": "CYCLE01-A",
+    "title": "Two-night maintenance feasibility",
+    "broad_question": "Can a fixed serving model learn at night, pass a gate, and carry unfinished work with accepted weights into the next day?",
+    "type": "completed development-feasibility study; embedded report source",
+    "status": "balanced replay signal promising; 5/8 candidate nights accepted; all results development; reserved main not run",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md §§1–10",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/NSS_NBR02_CYCLE01A_Delivery_v0.1.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/SOURCE_VERIFICATION.json"
+    ],
+    "section_anchor": "CYCLE01-A",
+    "title_heading": "CYCLE01-A — Two-night maintenance feasibility",
+    "lane": "recent",
+    "anchor": "pass-cycle01-a",
+    "group": 7
+  },
+  {
+    "id": "CYCLE01",
+    "title": "Repeated day/night learning roadmap",
+    "broad_question": "Can useful gains accumulate over successive accepted model generations without unacceptable collateral loss, reduced learnability or unbounded backlog?",
+    "type": "roadmap proposal",
+    "status": "general repeated-cycle question remains open; CYCLE01-A was only a two-night development branch; CYCLE01-B not started",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§6–7",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md"
+    ],
+    "section_anchor": "CYCLE01",
+    "title_heading": "CYCLE01 — Repeated day/night learning roadmap",
+    "lane": "recent",
+    "anchor": "pass-cycle01",
+    "group": 12
+  },
+  {
+    "id": "CYCLE01-B",
+    "title": "Longer fresh-confirmation comparison",
+    "broad_question": "Does learning keep accumulating over several nights with equal extra-B exposure and untouched reserved evaluation?",
+    "type": "next-pass proposal",
+    "status": "protocol and reserved run not started",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/REPORT.md §§6–10",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §6"
+    ],
+    "section_anchor": "CYCLE01-B",
+    "title_heading": "CYCLE01-B — Longer fresh-confirmation comparison (proposal)",
+    "lane": "recent",
+    "anchor": "pass-cycle01-b",
+    "group": 12
+  },
+  {
+    "id": "BRIDGE01",
+    "title": "Dummy orchestrator bridge and simulated action journal",
+    "broad_question": "Can scripted proposals, exact records, frozen recurrent advice and an action gate preserve task scope and unfinished work through interruption?",
+    "type": "completed bounded integration prototype; report evidence",
+    "status": "216/216 authored sessions complete; 4,144/4,144 recurrent event matches; no language model or low-bit execution",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§1–9",
+      ".consolidation/20260929/bridge01/EVIDENCE_REVIEW.md",
+      ".consolidation/20260929/bridge01/REPORT_TEXT.txt",
+      "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md"
+    ],
+    "section_anchor": "BRIDGE01",
+    "title_heading": "BRIDGE01 — Dummy orchestrator bridge and simulated action journal",
+    "lane": "recent",
+    "anchor": "pass-bridge01",
+    "group": 1
+  },
+  {
+    "id": "BALANCE01",
+    "title": "Current-evidence rehearsal crossed with update size",
+    "broad_question": "Can replay include current evidence while protecting old behavior, and does a gentler update size improve the tradeoff?",
+    "type": "proposal only",
+    "status": "not run; do not infer evidence from CYCLE01-A BALANCED arm",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§1–2, source register S05",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md"
+    ],
+    "section_anchor": "BALANCE01",
+    "missing_sources": [
+      "NSS_NBR02_BALANCE01_Proposal_v0.1.md (named by the plan source register; not located in the bounded workspace)"
+    ],
+    "title_heading": "BALANCE01 — Current-evidence rehearsal crossed with update size (proposal)",
+    "lane": "recent",
+    "anchor": "pass-balance01",
+    "group": 12
+  },
+  {
+    "id": "DIRECT01-SPEC",
+    "title": "Parallel structured output versus autoregressive readout",
+    "broad_question": "Can a newly trained parallel output readout meet AR quality at lower measured cost or improve quality at acceptable added cost on one capable shared trunk?",
+    "type": "conditional protocol proposal",
+    "status": "documentation complete; no model/readouts/experiment selected or run",
+    "sources": [
+      "Research/NSS_DIRECT01_Chat_Handoff_v0.1.md §§1–7",
+      "Research/NSS_DIRECT01_Chat_Handoff_v0.1.zip::NSS_DIRECT01_Chat_Handoff_v0.1/sources/PLAN_TEXT.txt",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md"
+    ],
+    "section_anchor": "DIRECT01-SPEC",
+    "title_heading": "DIRECT01-SPEC — Parallel structured output versus autoregressive readout (proposal)",
+    "lane": "recent",
+    "anchor": "pass-direct01-spec",
+    "group": 12
+  },
+  {
+    "id": "LB01",
+    "title": "Low-bit inference weights and recurrent state",
+    "broad_question": "Can lower-precision weights or recurrent state preserve required decisions and continuity while reducing measured cost?",
+    "type": "low-bit protocol proposal",
+    "status": "not run; first low-bit protocol preparation priority",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§1–4",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§8–9"
+    ],
+    "section_anchor": "LB01",
+    "title_heading": "LB01 — Low-bit inference weights and recurrent state (protocol proposal)",
+    "lane": "recent",
+    "anchor": "pass-lb01",
+    "group": 12
+  },
+  {
+    "id": "LB02",
+    "title": "Compressed learning-state memory",
+    "broad_question": "Can full-parameter adaptation use less optimizer/training-state memory while retaining useful learning, old behavior and exact resume?",
+    "type": "conditional low-bit training proposal",
+    "status": "not run; exact method and fixture unselected",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§2–4",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8"
+    ],
+    "section_anchor": "LB02",
+    "title_heading": "LB02 — Compressed learning-state memory (proposal)",
+    "lane": "recent",
+    "anchor": "pass-lb02",
+    "group": 12
+  },
+  {
+    "id": "LB03",
+    "title": "More aggressive precision and low-bit update paths",
+    "broad_question": "Can more aggressive precision work without hiding a dominant full-precision parameter or trace representation?",
+    "type": "conditional later proposal",
+    "status": "not run; gated on informative LB01/LB02 results",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§2–4",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8"
+    ],
+    "section_anchor": "LB03",
+    "title_heading": "LB03 — More aggressive precision and low-bit update paths (conditional proposal)",
+    "lane": "recent",
+    "anchor": "pass-lb03",
+    "group": 12
+  },
+  {
+    "id": "ADAPT01",
+    "title": "One computation-preserving update mechanism",
+    "broad_question": "Can a distinct update/representation method reduce interference while still acquiring genuinely new procedures?",
+    "type": "conditional roadmap proposal",
+    "status": "not run; on hold behind current low-bit priority",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§8,10–11",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §8"
+    ],
+    "section_anchor": "ADAPT01",
+    "title_heading": "ADAPT01 — One computation-preserving update mechanism (conditional proposal)",
+    "lane": "recent",
+    "anchor": "pass-adapt01",
+    "group": 12
+  },
+  {
+    "id": "BUDGET01",
+    "title": "Measure and reduce a demonstrated resource bottleneck",
+    "broad_question": "Which measured resource cost blocks an otherwise useful mechanism, and can that cost be reduced without unacceptable capability loss?",
+    "type": "conditional roadmap proposal",
+    "status": "not run; may move earlier only if measured resource constraint blocks feasibility",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §§9,11–12",
+      "Research/NSS_NBR02_BRIDGE01_Low_Bit_Review_v0.1.md §§1–4"
+    ],
+    "section_anchor": "BUDGET01",
+    "title_heading": "BUDGET01 — Measure and reduce a demonstrated resource bottleneck (proposal)",
+    "lane": "recent",
+    "anchor": "pass-budget01",
+    "group": 12
+  },
+  {
+    "id": "INT01",
+    "title": "Integrate only components that earned a place",
+    "broad_question": "Does adding selected components improve a competent local companion across repeated interaction versus the simplest capable reference?",
+    "type": "conditional integration proposal",
+    "status": "not run; broader integration on hold",
+    "sources": [
+      ".consolidation/20260928/direct_generation/PLAN_TEXT.txt §10",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/docs/ARCHITECTURE_AND_REPORT.md §§8–9"
+    ],
+    "section_anchor": "INT01",
+    "title_heading": "INT01 — Integrate only components that earned a place (proposal)",
+    "lane": "recent",
+    "anchor": "pass-int01",
+    "group": 12
+  },
+  {
+    "id": "COMP01-A",
+    "title": "exam and exact-field scorer engineering only",
+    "broad_question": "reader-path measurement and contract preparation; G02 is context only; no G question is answered",
+    "type": "engineering_only_test_preparation",
+    "status": "COMPLETE_ENGINEERING_ONLY",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "Detailed exact-field and fault-check receipt values are not reproduced; the checklist only points to results/PREFLIGHT.json under source-catalog key CURRENT. No model-result archive exists for this no-model pass."
+    ],
+    "section_anchor": "#comp01-a-exam-and-exact-field-scorer-engineering-only",
+    "title_heading": "COMP01-A — exam and exact-field scorer engineering only",
+    "lane": "reader_ledger",
+    "anchor": "pass-comp01-a",
+    "group": 11
+  },
+  {
+    "id": "COMP01-B/SETUP",
+    "title": "pinned language-reader route selected, acquisition blocked",
+    "broad_question": "actual language-reader competence/evaluation; G02 context only; no model was tested",
+    "type": "engineering_setup_model_acquisition_blocked",
+    "status": "ENGINEERING_ONLY_MODEL_ACQUISITION_BLOCKED",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "NSS_COMP01B_Readiness_v0.1.json is named as a readiness artifact, but COMP01-B inference/evaluation data and result archive are absent because acquisition failed before inference."
+    ],
+    "section_anchor": "#comp01-bsetup-pinned-language-reader-route-selected-acquisition-blocked",
+    "title_heading": "COMP01-B/SETUP — pinned language-reader route selected, acquisition blocked",
+    "lane": "reader_ledger",
+    "anchor": "pass-comp01-b-setup",
+    "group": 11
+  },
+  {
+    "id": "LAB01",
+    "title": "first three fresh autoregressive reader fits",
+    "broad_question": "internal reader evidence-use; G02 diagnostic context, not causal isolation",
+    "type": "completed_bounded_training_inference_diagnostic",
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC_REFERENCE_NOT_READY",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "LAB01 full data/source/checkpoint archive is referenced by source-catalog key LAB01, but v0.19 does not preserve its filename or payload in the ledger evidence supplied here."
+    ],
+    "section_anchor": "#lab01-first-three-fresh-autoregressive-reader-fits",
+    "title_heading": "LAB01 — first three fresh autoregressive reader fits",
+    "lane": "reader_ledger",
+    "anchor": "pass-lab01",
+    "group": 11
+  },
+  {
+    "id": "LAB02-SIZE",
+    "title": "three widths, no consistent width gain",
+    "broad_question": "reader capacity versus competence; G02 context only",
+    "type": "completed_bounded_size_diagnostic",
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CONSISTENT_WIDTH_GAIN",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "NSS_NBR02_LAB02_SIZE_Execution_v0.1.zip (source-catalog key LAB02_SIZE_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    ],
+    "section_anchor": "#lab02-size-three-widths-no-consistent-width-gain",
+    "title_heading": "LAB02-SIZE — three widths, no consistent width gain",
+    "lane": "reader_ledger",
+    "anchor": "pass-lab02-size",
+    "group": 11
+  },
+  {
+    "id": "LAB02-BIND",
+    "title": "mixed versus staged binding curriculum",
+    "broad_question": "project/date record binding is adjacent to G06; G02 remains diagnostic context",
+    "type": "completed_paired_curriculum_diagnostic",
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CURRICULUM_GAIN",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "Primary per-example execution archive and raw traces are not available in the v0.19 source packet; the source catalog points to NSS_NBR02_LAB02_BIND_Report_v0.1.md but does not name an execution-archive filename."
+    ],
+    "section_anchor": "#lab02-bind-mixed-versus-staged-binding-curriculum",
+    "title_heading": "LAB02-BIND — mixed versus staged binding curriculum",
+    "lane": "reader_ledger",
+    "anchor": "pass-lab02-bind",
+    "group": 11
+  },
+  {
+    "id": "LAB-READER-DECISION",
+    "title": "park reader preparation and route to handoff diagnosis",
+    "broad_question": "documentary route decision after reader failures; G02 context only, no new G evidence",
+    "type": "documentary_route_selection",
+    "status": "ROUTE_SELECTED_READER_PREPARATION_PARKED",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [],
+    "section_anchor": "#lab-reader-decision-park-reader-preparation-and-route-to-handoff-diagnosis",
+    "title_heading": "LAB-READER-DECISION — park reader preparation and route to handoff diagnosis",
+    "lane": "reader_ledger",
+    "anchor": "pass-lab-reader-decision",
+    "group": 11
+  },
+  {
+    "id": "LAB-SEMANTIC-REVIEW",
+    "title": "corpus review recorded, retrospective adjudication pending",
+    "broad_question": "review/test-validity method adjacent to G16; no critic experiment",
+    "type": "documentary_review_and_prospective_policy",
+    "status": "NEW_CORPUS_REVIEW_COMPLETE_RETROSPECTIVE_REVIEW_PENDING",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "Exact retained prompts, raw responses, and original grading references required for the broader retrospective adjudication are not supplied by CHECKLIST v0.19."
+    ],
+    "section_anchor": "#lab-semantic-review-corpus-review-recorded-retrospective-adjudication-pending",
+    "title_heading": "LAB-SEMANTIC-REVIEW — corpus review recorded, retrospective adjudication pending",
+    "lane": "reader_ledger",
+    "anchor": "pass-lab-semantic-review",
+    "group": 11
+  },
+  {
+    "id": "MEM01",
+    "title": "bounded handoff and compact-scope retrieval diagnostic",
+    "broad_question": "G03 interruption/restart continuity and G07 exact versus compact retrieval; narrow bounded diagnostic",
+    "type": "completed_bounded_frozen_reader_handoff_diagnostic",
+    "status": "COMPLETE_BOUNDED_HANDOFF_DIAGNOSTIC_READER_LIMITED",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "NSS_NBR02_MEM01_Execution_v0.1.zip (source-catalog key MEM01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    ],
+    "section_anchor": "#mem01-bounded-handoff-and-compact-scope-retrieval-diagnostic",
+    "title_heading": "MEM01 — bounded handoff and compact-scope retrieval diagnostic",
+    "lane": "reader_ledger",
+    "anchor": "pass-mem01",
+    "group": 11
+  },
+  {
+    "id": "PREP01",
+    "title": "query-independent source sheet versus retrieval/cache controls",
+    "broad_question": "G14-adjacent preparation-versus-search question; G07 contextual retrieval/storage question, not neural idle-computation evidence",
+    "type": "completed_bounded_frozen_reader_preparation_diagnostic",
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC_WORKSHEET_TRADEOFF_NO_ADVANCE_GAIN",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "NSS_NBR02_PREP01_Execution_v0.1.zip (source-catalog key PREP01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    ],
+    "section_anchor": "#prep01-query-independent-source-sheet-versus-retrievalcache-controls",
+    "title_heading": "PREP01 — query-independent source sheet versus retrieval/cache controls",
+    "lane": "reader_ledger",
+    "anchor": "pass-prep01",
+    "group": 11
+  },
+  {
+    "id": "READER-SUPPORT01",
+    "title": "answer-only versus answer-plus-source supervision",
+    "broad_question": "reader evidence-use; G16 adjacent only, not a critic test; G02 context due output-contract limit",
+    "type": "completed_paired_reader_training_and_inference_diagnostic",
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_PRIMARY_GAIN_OUTPUT_CONTRACT_LIMIT",
+    "sources": [
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.json",
+      "Research/NSS_NBR02_BRIDGE01_Prototype_v0.1.zip::NSS_NBR02_BRIDGE01_Prototype_v0.1/provenance/CHECKLIST_v0.19.md",
+      "RESEARCH_INDEX.md"
+    ],
+    "missing_sources": [
+      "NSS_NBR02_READER_SUPPORT01_Execution_v0.1.zip (source-catalog key READER_SUPPORT01_EXECUTION; primary execution payload unavailable to this ledger-only analysis)."
+    ],
+    "section_anchor": "#reader-support01-answer-only-versus-answer-plus-source-supervision",
+    "title_heading": "READER-SUPPORT01 — answer-only versus answer-plus-source supervision",
+    "lane": "reader_ledger",
+    "anchor": "pass-reader-support01",
+    "group": 11
+  }
+]

@@ -1,0 +1,3 @@
+family,split,arm,query_occasions,events,sum_resident_graph_observations_bytes,peak_resident_graph_bytes,sum_canonical_metadata_bytes,task_semantic_bytes_rewritten,packet_ascii_bytes_rewritten,selection_object_bytes_reallocated,packet_encodes,packet_decodes,index_reads,lookup_returned_bytes,event_record_bytes_rewritten,event_binding_bytes_rewritten
+CM02FIX-00,fixture,W,24,328,2823442,183752,1173281,884,1904,3298,34,50,560,193018,217795,7653
+CM02FIX-00,fixture,I,24,328,2824228,183776,1173203,884,0,2992,0,0,560,191518,217795,7653

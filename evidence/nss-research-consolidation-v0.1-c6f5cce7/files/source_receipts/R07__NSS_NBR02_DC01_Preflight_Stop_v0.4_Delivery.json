@@ -1,0 +1,204 @@
+{
+  "status": "DELIVERED_STOPPED_PREFLIGHT_EVIDENCE",
+  "main_study_completed": false,
+  "full_zip": {
+    "name": "NSS_NBR02_DC01_Preflight_Stop_v0.4.zip",
+    "bytes": 2542532,
+    "sha256": "4d45ee43effcb8abc434a3a998c6dbee5750b2c474dfe33ac267e06fe4ba39d2"
+  },
+  "compact_review": {
+    "name": "NSS_NBR02_DC01_Preflight_Handoff_v0.4.zip",
+    "bytes": 38944,
+    "sha256": "79d796abad69e039ad30b6925cb1ad02c343341196cf8600d834ed78f5830332",
+    "payloads_verified": 20,
+    "full_raw_evidence": false
+  },
+  "fresh_extraction_verification": {
+    "status": "PASS",
+    "manifest_files": 133,
+    "bad": []
+  },
+  "final_relocation_rescore": {
+    "status": "PASS",
+    "score_files": [
+      {
+        "file": "primary/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "primary/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "file": "replay/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      }
+    ],
+    "new_model_forwards": 0,
+    "new_optimizer_updates": 0
+  },
+  "executed_prefix_replay": {
+    "status": "EXACT_PREFIX_REPLAY_PASS",
+    "frames": 442,
+    "array_comparisons": 1266,
+    "numerical_elements": 563260,
+    "exact_files": [
+      {
+        "path": "private/PLAN.json",
+        "exact": true
+      },
+      {
+        "path": "worker/records.bin",
+        "exact": true
+      },
+      {
+        "path": "worker/events.jsonl",
+        "exact": true
+      },
+      {
+        "path": "public_messages.jsonl",
+        "exact": true
+      },
+      {
+        "path": "DELAY_INVARIANCE.json",
+        "exact": true
+      },
+      {
+        "path": "faults/FAULT_RESULTS.json",
+        "exact": true
+      },
+      {
+        "path": "fixture_audit/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "path": "fixture_audit/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "path": "fixture_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "path": "fixture_audit/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "path": "fixture_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      },
+      {
+        "path": "cost_audit/A0_FIT_GATE.csv",
+        "exact": true
+      },
+      {
+        "path": "cost_audit/GRADIENT_COMPARISON.csv",
+        "exact": true
+      },
+      {
+        "path": "cost_audit/NEGATIVE_QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "path": "cost_audit/QUERY_ROWS.csv",
+        "exact": true
+      },
+      {
+        "path": "cost_audit/UPDATE_DIAGNOSTICS.csv",
+        "exact": true
+      }
+    ],
+    "counters": {
+      "primary": {
+        "cell": 580,
+        "head": 140,
+        "backward": 64,
+        "update_attempt": 120,
+        "update_commit": 120
+      },
+      "replay": {
+        "cell": 580,
+        "head": 140,
+        "backward": 64,
+        "update_attempt": 120,
+        "update_commit": 120
+      }
+    },
+    "all_attempts": {
+      "cell": 1160,
+      "head": 280,
+      "backward": 128,
+      "update_attempt": 240,
+      "update_commit": 240
+    },
+    "full_study_replayed": false,
+    "scope": "completed derivative/clean/fault fixture and cost-probe prefix only",
+    "main_fits": 0,
+    "initial_main_updates": 0,
+    "development_updates": 0,
+    "heldout_generated": false
+  },
+  "all_attempts": {
+    "planned_full_updates": 8848,
+    "original_cap_updates": 9800,
+    "actual": {
+      "cell": 1160,
+      "head": 280,
+      "backward": 128,
+      "update_attempt": 240,
+      "update_commit": 240
+    },
+    "per_pass": {
+      "primary": {
+        "cell": 580,
+        "head": 140,
+        "backward": 64,
+        "update_attempt": 120,
+        "update_commit": 120
+      },
+      "replay": {
+        "cell": 580,
+        "head": 140,
+        "backward": 64,
+        "update_attempt": 120,
+        "update_commit": 120
+      }
+    },
+    "no_main_update_dispatched": true,
+    "all_real_intents_committed": true,
+    "synthetic_lost_commit_processes": 2,
+    "synthetic_process_neural_updates": 0,
+    "fresh_replay_repeats_prefix_not_full_plan": true
+  },
+  "shared_elapsed_through_delivery": 864.2086682319641,
+  "new_numerical_calls_during_packaging": 0,
+  "parent_architecture_unchanged": true
+}

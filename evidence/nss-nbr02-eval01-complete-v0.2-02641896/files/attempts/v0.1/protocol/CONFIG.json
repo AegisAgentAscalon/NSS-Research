@@ -1,0 +1,14 @@
+{
+  "study": "NBR02-EVAL01", "version": "0.1", "primary_profile": "MODERATE",
+  "policies": ["FIXED_LOW", "TARGETED", "FIXED_HIGH", "FULL_PANEL", "ACCEPT_ALL", "NEVER_ADOPT"],
+  "profiles": {
+    "CAUTIOUS": {"focal_floor":0.60,"focal_gain":0.10,"old_mean_drop":0.01,"old_worst_drop":0.10,"old_floor":0.50,"old_error_rate":0.0},
+    "MODERATE": {"focal_floor":0.60,"focal_gain":0.10,"old_mean_drop":0.03,"old_worst_drop":0.25,"old_floor":0.40,"old_error_rate":0.125},
+    "PERMISSIVE": {"focal_floor":0.60,"focal_gain":0.10,"old_mean_drop":0.05,"old_worst_drop":0.40,"old_floor":0.35,"old_error_rate":0.125}
+  },
+  "sources": {
+    "REV01": {"archive":"NSS_NBR02_REV01_Complete_v0.4.zip","bytes":20961112,"sha256":"f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e","root":"NSS_NBR02_REV01_Execution_v0.4/"},
+    "TIMING01": {"archive":"NSS_NBR02_TIMING01_Complete_v0.1.zip","bytes":37195996,"sha256":"12a388b99a479384c601ef553b859624f29eb2c62f55a5bd7264a2308ae9256e","root":""}
+  },
+  "caps":{"candidates":3000,"review_evaluations":200000,"measurement_lookups":2000000,"model_calls":0,"gradients":0,"updates":0,"elapsed_seconds":7200,"output_bytes":268435456,"zip_bytes":67108864}
+}

@@ -1,0 +1,55 @@
+{
+  "array_digest": "6b1e7c7480475548e47b3c902be103a827cf47103141b5b15fe88df87d1f9168",
+  "array_sha256": "f8aa56a6a0739708a404ca0d8fb266b7d05d3aa205499c3d239851f5182cd4b2",
+  "cuts": {
+    "duplicate32": {
+      "distance": 0.48,
+      "margin": 0.0
+    },
+    "independent32": {
+      "distance": 0.6,
+      "margin": 0.0
+    },
+    "single16": {
+      "distance": 0.48,
+      "margin": 0.0
+    },
+    "single32": {
+      "distance": 0.8399999999999999,
+      "margin": 0.0
+    }
+  },
+  "development_results": {
+    "duplicate32": {
+      "false_accept": 0.0048828125,
+      "known_correct": 0.8805338541666666
+    },
+    "independent32": {
+      "false_accept": 0.0,
+      "known_correct": 1.0
+    },
+    "single16": {
+      "false_accept": 0.0048828125,
+      "known_correct": 0.8805338541666666
+    },
+    "single32": {
+      "false_accept": 0.0048828125,
+      "known_correct": 0.9977213541666666
+    }
+  },
+  "disjoint_from_main": true,
+  "feature_evaluations": 16384,
+  "grid": {
+    "distance": "linspace .1..1.4,66",
+    "margin": [
+      0,
+      0.01,
+      0.04,
+      0.08,
+      0.16
+    ]
+  },
+  "labelled_examples_unique": 4096,
+  "n_arrays": 64,
+  "pair": 4
+}

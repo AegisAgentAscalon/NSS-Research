@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "fresh_interpreter_per_configuration": true,
+  "configurations": 45,
+  "metric_rows": 9210,
+  "answer_evaluations": 308317440,
+  "checks": [
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "coupled17_rep301.json",
+      "npz_sha256": "8943f13f61286e9aa1ced2e903159ca63c19c0dbc94fb2cabec6ecfda57d496f",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "coupled17_rep302.json",
+      "npz_sha256": "033421f8f89be2acbd2f82804d86da2779ac4f6f1b000c76be1830fdf6e26258",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "coupled17_rep303.json",
+      "npz_sha256": "a057b9aa1aad7442f9db8b996df15da5e325fae6fd8f6d8d4627db5e8676becb",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "coupled17_rep304.json",
+      "npz_sha256": "a629a992a27845421f3e42b3d61e4749c0952b957a6fa5f3b6535bd57b3346e7",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "coupled17_rep305.json",
+      "npz_sha256": "4bdec165d781b2ab619b2001b5abbc83a0265cc41bb011b9aa3872811b228880",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed1_rep301.json",
+      "npz_sha256": "a4a6f16f1bdc0d2fbe92e91413b2b7e3675c9c7bc26671edff161b557b1edb7f",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed1_rep302.json",
+      "npz_sha256": "2e64a7ed564b74ab62f4f9fccfa514ec8e0475c97b8546b8b2348e1dfd188e21",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed1_rep303.json",
+      "npz_sha256": "a2980ef2d6782dd172b0b694bf7e299bdf396e7971b5a196cf238a74c4f07149",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed1_rep304.json",
+      "npz_sha256": "0d34a6136ad31612433303f42daf0b49a462598c18141d0743558061b8e8b284",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed1_rep305.json",
+      "npz_sha256": "59c7bbee9f7c3f43043319857b5296acbecd2eb4a42edf0e1d67bc841a3a8389",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed4_rep301.json",
+      "npz_sha256": "3dd6b6088f39e767c13cd0c4d31f9ed583a65370d195233d28aeb6993cb89176",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed4_rep302.json",
+      "npz_sha256": "997a164b22be68c56f932bf4a8573cf6ec56e314905ab733ec18d6088112fe11",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed4_rep303.json",
+      "npz_sha256": "43f98104b14f2107eb1c9eef81f4aa38d758dc83205d4c88527765650c2673d8",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed4_rep304.json",
+      "npz_sha256": "7924c6c758528a1ba677b0352897968c2fc687794295d9e5c904302fe2131859",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "fixed4_rep305.json",
+      "npz_sha256": "d15aba56e317b3186019931cc8d9ad3b0be05c069cb93436c46095ae58a811eb",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "historical_rep301.json",
+      "npz_sha256": "161604ac906463f755ff594d56f4d490c0d3173c3ac9bf3774e9f98892947009",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "historical_rep302.json",
+      "npz_sha256": "fc4442486dc7bbedfc7dfd58224a654cc8eeb5517a2b384b2fed9fc4b23b3597",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "historical_rep303.json",
+      "npz_sha256": "ddcbfc4d225cd78b192d1bfcf0de300c805871a7ed0d3028ab356a186a40428d",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "historical_rep304.json",
+      "npz_sha256": "5639f1b6e4de9e84cf42787144e17f72ffdceee9d2b9dc25d04cb6dbad8c4c2c",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "historical_rep305.json",
+      "npz_sha256": "c4a707a295e090025fa7dfab233355fda1f7efa28442721e50d5946b652a7ef6",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "hold1_rep301.json",
+      "npz_sha256": "26ed1e3a145595a14d2384f0c3795fbe085a0693cdab3d25698f261ab48ebd21",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "hold1_rep302.json",
+      "npz_sha256": "8968418bdceb3319ad1647298cfe0afb1fc562beca99794aaae975e54a81c509",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "hold1_rep303.json",
+      "npz_sha256": "e134978afccb4e82970bf27883453a3e556086fcb5457bdbe652d709892bd8e8",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "hold1_rep304.json",
+      "npz_sha256": "7921a46e0b16deb709865d5cba02799404eef67d00968d6dc9202670bcc3a58f",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "hold1_rep305.json",
+      "npz_sha256": "5a15dec0dc267fb07421dbf3ae4610d1db5cf76cd56c8268514e0505b7ef5c65",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "nearest_rep301.json",
+      "npz_sha256": "dafcea10439ec5eb72203bbbc3303adf9ddcdbb8f10ebfd642f46dabcca66b36",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "nearest_rep302.json",
+      "npz_sha256": "36cf473c3ac54be5b1178f6223a8b531f518bcfe3165655c730c1f48298b016f",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "nearest_rep303.json",
+      "npz_sha256": "6325fb5145e6fab3bc55a23f860ad70c84c6e8310cd7f51f1df626d8bbc8202b",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "nearest_rep304.json",
+      "npz_sha256": "ee52f5deac223fff4bda543d1bf7384452adf661080fee30f518f69b17242da4",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "nearest_rep305.json",
+      "npz_sha256": "0f7401dcc6bcb9da046f7fcf2aab772f0b6edec21f21dd730710e83b618a1d93",
+      "rows": 173,
+      "snapshot_answers": 44288,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "protected_rep301.json",
+      "npz_sha256": "29210b3cdc2981d931449d8d4b32e5b9a32bec39f259b91d02edf56147afa685",
+      "rows": 188,
+      "snapshot_answers": 48128,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "protected_rep302.json",
+      "npz_sha256": "94a57d7a677ae4b55cd169ba4f187f09c7c33e061901a08a48f6d14ce2b96d64",
+      "rows": 188,
+      "snapshot_answers": 48128,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "protected_rep303.json",
+      "npz_sha256": "1965b27497e624218d094280c153babac647b0d056b5be63746761f51ee2f479",
+      "rows": 188,
+      "snapshot_answers": 48128,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "protected_rep304.json",
+      "npz_sha256": "be885ee70218779a916247c8d58e69e020a57dde90d77a4ca4219c9471946974",
+      "rows": 188,
+      "snapshot_answers": 48128,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "protected_rep305.json",
+      "npz_sha256": "b61fad3c5c7cd5c8821040b8b9be78325a672f7686cc61dc688466407455cbd8",
+      "rows": 188,
+      "snapshot_answers": 48128,
+      "trace_answers": 5050624
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split1_rep301.json",
+      "npz_sha256": "524e51ec237df6c798e4e9826106ccef74031215b43954ba0c6bd18d987c8780",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split1_rep302.json",
+      "npz_sha256": "d1bd175ca21bf4eb1bedf940fdac0d9805d252715ab0023dfc11a9d067a50b09",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split1_rep303.json",
+      "npz_sha256": "4cb51f30eb377a3dbcf0c246a27cac9148c5c697047ac4245e0edb87037e7143",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split1_rep304.json",
+      "npz_sha256": "3ca89de45fcf7b5709a7cefb63da37d8acee64baefdecd24ea7946755988f898",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split1_rep305.json",
+      "npz_sha256": "c68b60a0623028251dd13169860f04dd24edbfcea5d9452682403bdfa82b5b52",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split4_rep301.json",
+      "npz_sha256": "1568630e3439f82acf44acd9076ccb4e7ccce1860ef133223a4879ac24a09538",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split4_rep302.json",
+      "npz_sha256": "26a70f9f9420d84c29a35dfd63cec436b73a99a411921efe88e67ed0dce8ffd5",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split4_rep303.json",
+      "npz_sha256": "02f836dda59065973417bbcb3cd9bc84395bf9192acd8f5f6119a1b06ae4bf31",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split4_rep304.json",
+      "npz_sha256": "21cdc8f4211cd7bcc4a0f58a6463b9fc654c10d299b08e216a620d106da0459a",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    },
+    {
+      "all_targets_rebuilt_from_events": true,
+      "file": "split4_rep305.json",
+      "npz_sha256": "00c1d47f5151bebfe805111153deb7f50b21d95b7a9c1831ab62d359ed5dd405",
+      "rows": 218,
+      "snapshot_answers": 55808,
+      "trace_answers": 7673344
+    }
+  ],
+  "all_complete_prediction_and_existence_arrays_replayed": true,
+  "ground_truth_reconstructed_from_source_events": true,
+  "scope": "Internal reproduction, not external independent replication"
+}

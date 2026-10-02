@@ -1,0 +1,59 @@
+{
+  "batch_fingerprints": [
+    "0bbb603c0877b33882c34badd54c56e506fe4af82679c6b29c3cfa2a7315701c",
+    "f64811707198bca5f9921a733f9205ff4144f736e21921f8c0cbf051273b1d8b",
+    "59e4d200eb9eee5c16f980800f09be579ba1b4fbdce5febd70f921d902669e97"
+  ],
+  "batch_size": 96,
+  "checkpoint_sha256": "396298be4e7dbc781c689445c23f32d0f9ba587352d5f8158238503cacc57591",
+  "clean_consistency_updates": 1,
+  "environment": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 815,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T11:03:26.789227+00:00"
+  },
+  "final_hash": "818b4493cb203b2d52c22493338cfea93281ef97abcb997e02adaa343caaf2a4",
+  "history": [
+    {
+      "loss": 11.637502670288086,
+      "step": 1
+    },
+    {
+      "loss": 0.14963409304618835,
+      "step": 301
+    },
+    {
+      "loss": 0.03913714364171028,
+      "step": 601
+    },
+    {
+      "loss": 0.2107153832912445,
+      "step": 901
+    },
+    {
+      "loss": 0.08905673772096634,
+      "step": 1201
+    },
+    {
+      "loss": 0.06520548462867737,
+      "step": 1501
+    },
+    {
+      "loss": 0.3718116879463196,
+      "step": 1800
+    }
+  ],
+  "initial_hash": "d5efe2de132004167e2b5c2c2dd9e8b47b477e7784c3dc7c1aac41bdb1fcfd58",
+  "kind": "learned_dictionary",
+  "noisy_updates_per_sequence": 3,
+  "parameters": 225,
+  "seconds": 11.780703880999909,
+  "seed": 902,
+  "sequence_presentations": 172800,
+  "steps": 1800
+}

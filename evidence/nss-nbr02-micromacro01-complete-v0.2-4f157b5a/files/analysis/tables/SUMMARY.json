@@ -1,0 +1,26 @@
+{
+  "exact_columns": [
+    "phase",
+    "base",
+    "delay",
+    "trial",
+    "kind",
+    "cue",
+    "target",
+    "predicted",
+    "correct",
+    "indexed_reads",
+    "indexed_writes"
+  ],
+  "exact_heldout_rows": 640,
+  "heldout_b1_first_errors": 34,
+  "heldout_incorrect_rows": 557,
+  "heldout_learned_postfeedback_incorrect": 35,
+  "heldout_primary_cycle_failures": 88,
+  "heldout_query_rows": 32256,
+  "incorrect_query_rows": 4247,
+  "query_rows": 57428,
+  "raw_update_negative_rows_retained": true,
+  "repeated_observations_not_independent": true,
+  "scope": "post-result descriptive audit, no new model computations or altered criteria"
+}

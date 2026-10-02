@@ -1,0 +1,16 @@
+[
+  {
+    "pair_id": "INVISIBLE-CAPABILITY",
+    "case_id": "CORRECT_LAWFUL_REVISION",
+    "public_hash": "1dc4cef523a17d24686e6d172551fcf3f1abb3647d5d6911ff2ec91274e46675",
+    "hidden_extra_capability": "unchanged",
+    "full_scope_acceptable": true
+  },
+  {
+    "pair_id": "INVISIBLE-CAPABILITY",
+    "case_id": "CORRECT_LAWFUL_REVISION",
+    "public_hash": "1dc4cef523a17d24686e6d172551fcf3f1abb3647d5d6911ff2ec91274e46675",
+    "hidden_extra_capability": "broken",
+    "full_scope_acceptable": false
+  }
+]

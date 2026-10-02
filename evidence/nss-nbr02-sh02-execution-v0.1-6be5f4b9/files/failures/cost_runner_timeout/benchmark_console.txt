@@ -1,0 +1,8 @@
+BENCH 1 8 {'old_gather': 0.6226, 'packed_hsa': 0.7934, 'full_dense': 0.2663}
+BENCH 1 32 {'old_gather': 1.7751, 'packed_hsa': 1.2772, 'full_dense': 0.5324}
+BENCH 1 128 {'old_gather': 9.5426, 'packed_hsa': 2.5691, 'full_dense': 1.9619}
+/opt/pyvenv/lib/python3.13/site-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.
+  _warn_once(
+BENCH 1 512 {'old_gather': 71.2465, 'packed_hsa': 12.6545, 'full_dense': 19.564}
+BENCH 16 8 {'old_gather': 4.5942, 'packed_hsa': 2.6222, 'full_dense': 1.0156}
+BENCH 16 32 {'old_gather': 20.4133, 'packed_hsa': 9.5186, 'full_dense': 4.6354}

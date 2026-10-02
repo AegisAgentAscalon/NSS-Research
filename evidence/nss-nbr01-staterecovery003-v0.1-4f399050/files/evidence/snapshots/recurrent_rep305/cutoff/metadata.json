@@ -1,0 +1,14 @@
+{
+  "events": 3,
+  "identity": {
+    "fastslow": "ca95911991974daf9a974b6eb5e4ad643e81d5ee992d0831a98914bf55650cce",
+    "mode": "recurrent",
+    "reference_sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+    "repair": "f19680c6b86f50e86d0911c0cfec1f858d9d085745a3f9e820ed1a85b05e583e",
+    "revision": "qualified-v1",
+    "schema": "state-recovery003/qualified-maintenance-v1",
+    "scope": "StateRecovery003-test"
+  },
+  "rounds": 4,
+  "tensor_sha256": "3eef2343801f0d8dbc0f0924bcc5b3d03e1de354e5ae3be60fe0c3fa4a02b67a"
+}

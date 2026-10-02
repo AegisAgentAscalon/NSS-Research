@@ -1,0 +1,12 @@
+# Per-task frozen versions and later evidence curation — user proposal, not a tested token mechanism
+User asks whether weights can stay fixed throughout a task, while compact context remembers the task and organizes clean examples for later learning; multiple concurrent tasks are a concern.
+
+Working design: each task state binds to a read-only parameter revision. Many tasks can share that revision; no full model copy per task is logically required. A separately trained candidate can be offered to new tasks or adopted at an existing task's safe boundary. At most a bounded number of revisions should be resident; long-lived tasks create a storage/adoption-freshness problem. Possible responses are finishing a stage, costed history reconstruction at a newer version, or an explicitly tested state migration—not mutating the old object beneath the task. Global waiting for every task to finish could starve learning in a continuously busy system; versioned operation avoids that requirement while adding model/version residency and scheduling costs.
+
+STATEBRIDGE01 includes a numerical pinned-old-version control and counts its extra parameter tensor plus per-task states. This does not establish production memory residency, simultaneous execution, model-reader atomicity, or a scheduling policy at scale.
+
+A compact management record could reference task ID, parameter revision, public history cutoff, feedback/receipt status, unresolved evidence, and completion status. Those fields manage retrieval and ownership; they do not contain the full experience or prove that an answer was correct. Detailed observations remain in exact scoped records.
+
+Curating clean learning data requires actual outcome/feedback provenance, scope and version handling, legitimate corrections, deduplication and validity checks. A completed task or a confident model answer is not automatically a trustworthy label. Do not treat unverified self-generated thoughts as observed facts. Before later learning, reconstruct features/examples under the chosen current training version; do not apply an old captured gradient to unrelated weights. Retain raw errors as evidence rather than selecting only successful stories.
+
+This remains a separately specified future contribution. STATEBRIDGE01 does not train a token writer, curator, evaluator, teacher or Tertiary. User's broad role architecture remains a possible target, not an assumption the experiment must support.

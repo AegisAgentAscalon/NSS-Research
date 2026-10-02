@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM01_Execution_v0.2/source/generate.py",
+    "--kind",
+    "main",
+    "--output",
+    "/mnt/data/NSS_CM01_Execution_v0.2/raw/main/capture_run/inputs"
+  ],
+  "ended_epoch": 1790275036.8982358,
+  "name": "main_generate",
+  "optimizer_updates": 0,
+  "peak_sampled_process_tree_rss_bytes": 438996992,
+  "returncode": 0,
+  "sampling_interval_seconds": 0.1,
+  "shared_elapsed_seconds": 747.298948764801,
+  "stage_seconds": 3.5268144607543945,
+  "started_epoch": 1790275033.3714225,
+  "status": "PASS",
+  "stop_reason": null
+}

@@ -1,0 +1,2 @@
+$ /opt/pyvenv/bin/python tools/check_dependencies.py
+PASS: reviewed local Python import edges; no cycles detected.

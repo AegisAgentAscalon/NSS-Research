@@ -1,0 +1,59 @@
+{
+  "concurrency_limit": 2,
+  "phase": "capture",
+  "status": "PASS",
+  "utc": "2026-09-24T16:05:05.991540+00:00",
+  "wall_seconds": 227.20352936799998,
+  "workers": [
+    {
+      "end_utc": "2026-09-24T16:02:36.860650+00:00",
+      "exit_code": 0,
+      "name": "capture_1201",
+      "new_optimizer_updates": 0,
+      "pid": 747,
+      "sampled_peak_process_tree_rss_bytes": 347648000,
+      "start_utc": "2026-09-24T16:01:18.790533+00:00",
+      "wall_seconds": 78.07015185499995
+    },
+    {
+      "end_utc": "2026-09-24T16:02:36.862885+00:00",
+      "exit_code": 0,
+      "name": "capture_1202",
+      "new_optimizer_updates": 0,
+      "pid": 748,
+      "sampled_peak_process_tree_rss_bytes": 347652096,
+      "start_utc": "2026-09-24T16:01:18.790928+00:00",
+      "wall_seconds": 78.0719676839999
+    },
+    {
+      "end_utc": "2026-09-24T16:03:52.922013+00:00",
+      "exit_code": 0,
+      "name": "capture_1203",
+      "new_optimizer_updates": 0,
+      "pid": 769,
+      "sampled_peak_process_tree_rss_bytes": 347652096,
+      "start_utc": "2026-09-24T16:02:36.861517+00:00",
+      "wall_seconds": 76.06052612799999
+    },
+    {
+      "end_utc": "2026-09-24T16:03:52.982380+00:00",
+      "exit_code": 0,
+      "name": "capture_1204",
+      "new_optimizer_updates": 0,
+      "pid": 770,
+      "sampled_peak_process_tree_rss_bytes": 347353088,
+      "start_utc": "2026-09-24T16:02:36.863386+00:00",
+      "wall_seconds": 76.1190191789999
+    },
+    {
+      "end_utc": "2026-09-24T16:05:05.990274+00:00",
+      "exit_code": 0,
+      "name": "capture_1205",
+      "new_optimizer_updates": 0,
+      "pid": 816,
+      "sampled_peak_process_tree_rss_bytes": 348192768,
+      "start_utc": "2026-09-24T16:03:52.923179+00:00",
+      "wall_seconds": 73.0671272300001
+    }
+  ]
+}

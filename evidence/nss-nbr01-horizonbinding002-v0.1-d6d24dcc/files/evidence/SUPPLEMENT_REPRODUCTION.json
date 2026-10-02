@@ -1,0 +1,9 @@
+{
+  "censored_observation_configurations_reproduced": 80,
+  "exact_control_cells_reproduced": 240,
+  "lifecycle_configurations_reproduced": 70,
+  "noise_belief_cells_reproduced": 30,
+  "note": "Supplementary controls, snapshots and posthoc diagnostic replay; not extra independent training seeds.",
+  "posthoc_interface_cells_reproduced": 120,
+  "status": "PASS"
+}

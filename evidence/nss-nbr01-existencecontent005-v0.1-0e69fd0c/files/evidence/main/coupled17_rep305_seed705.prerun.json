@@ -1,0 +1,24 @@
+{
+  "development": false,
+  "initial_digest": "48fb4c2a1bfa17d2fcf056032438505fdf950d50dcb3b3d4fc4a7316992a2a5a",
+  "kind": "coupled17",
+  "learn_seed": 705,
+  "parent_sha256": "f6623b76eaa7d7010167f2c77cfebead5043e4aa37e8f398d0e21e4e2c0158a6",
+  "protocol_sha256": "af24196d2b4261d1fd7b068d2ac332f5fb070efb61621522eb25193c8ed2c3f0",
+  "rep_seed": 305,
+  "source_identity": {
+    "nbr01_exist/__init__.py": "486d4a3aff07880662e523fc5047629a154757a666fed2c0e807bb1ea191802a",
+    "nbr01_exist/evaluate.py": "21a30dcd7d69838fa7880c5ba51fa8003de82c811ccaf85e7441cfb4fe17d017",
+    "nbr01_exist/models.py": "5a5b25d8354bc185b1eee665dbb0d289f8b2077c95821bba0e0a0aa991d3f5be",
+    "nbr01_exist/snapshot.py": "7ff0e895001dedef52ae69d00fdd4e2922ced78c484772d33950f432048dabc8",
+    "nbr01_exist/train.py": "8e168eb3fb3d6238f153f6335fdda8d517762dfebb03d5a64d78b121c54ce13c",
+    "nbr01_exist/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "tests/test_exist.py": "49cb5cbe8069195c2e5596d6fe08e9dfb4acab924729ab89b7071e4c6d79cab3",
+    "tools/eval_worker.py": "d98d06b69d766ace32c4e5f8eb5fe7d771d022e33a732dfea466ed2442b5c02e",
+    "tools/main_batch.py": "483eb78a8cdf52b6f05a5502c01a00977b9f0deecf5e6c9d811d5e321462c48d",
+    "tools/train_worker.py": "4d2b02380d3dd302602d402b8f22a421dcabf3f5c523ccc677c5f7b30dd4beae"
+  },
+  "status": "NOT_RUN",
+  "steps": 1800,
+  "time_unix": 1789953315.7219281
+}

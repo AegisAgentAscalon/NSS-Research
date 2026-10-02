@@ -1,0 +1,24 @@
+{
+  "status": "PROPOSED_NOT_RUN",
+  "created_utc": "2026-09-24T19:20:58.779413+00:00",
+  "sources": [
+    {
+      "path": "Research/NSS_CM01_Execution_v0.2.zip",
+      "bytes": 15265242,
+      "sha256": "bbbfcbe8a35bb590d8280f05951ade46a11bfd9ee082e4520f533cceaf853f89",
+      "integrity_receipt": "provenance/CM01_ARCHIVE_INTEGRITY.json",
+      "whole_archive_bytes_rechecked": true
+    },
+    {
+      "path": "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+      "bytes": 48654694,
+      "sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+      "integrity_receipt": "provenance/Q010_ARCHIVE_INTEGRITY.json",
+      "whole_archive_bytes_rechecked": true
+    }
+  ],
+  "dependencies_embedded": false,
+  "evidence_scope": "Accepted retained-result summaries, not fresh experimental replication",
+  "scientific_execution_performed": false,
+  "protocol_freeze_required_before_future_execution": true
+}

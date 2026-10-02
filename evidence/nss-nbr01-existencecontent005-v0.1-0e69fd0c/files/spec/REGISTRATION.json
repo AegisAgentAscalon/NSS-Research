@@ -1,0 +1,20 @@
+{
+  "status": "LOCKED_BEFORE_MAIN_TRAINING_AND_EVALUATION",
+  "time_unix": 1789953268.1383748,
+  "protocol_sha256": "af24196d2b4261d1fd7b068d2ac332f5fb070efb61621522eb25193c8ed2c3f0",
+  "scientific_core_sha256": {
+    "nbr01_exist/__init__.py": "486d4a3aff07880662e523fc5047629a154757a666fed2c0e807bb1ea191802a",
+    "nbr01_exist/evaluate.py": "21a30dcd7d69838fa7880c5ba51fa8003de82c811ccaf85e7441cfb4fe17d017",
+    "nbr01_exist/models.py": "5a5b25d8354bc185b1eee665dbb0d289f8b2077c95821bba0e0a0aa991d3f5be",
+    "nbr01_exist/snapshot.py": "7ff0e895001dedef52ae69d00fdd4e2922ced78c484772d33950f432048dabc8",
+    "nbr01_exist/train.py": "8e168eb3fb3d6238f153f6335fdda8d517762dfebb03d5a64d78b121c54ce13c",
+    "nbr01_exist/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "spec/DEVELOPMENT_FINDINGS.md": "b17798ed6af9316b0d713d001625ca89f37325fd9a42b1450a57bdb68d3a388f",
+    "spec/protocol.json": "af24196d2b4261d1fd7b068d2ac332f5fb070efb61621522eb25193c8ed2c3f0",
+    "tests/test_exist.py": "49cb5cbe8069195c2e5596d6fe08e9dfb4acab924729ab89b7071e4c6d79cab3"
+  },
+  "main_checkpoints_present": [],
+  "main_results_present": [],
+  "development_fits": 3,
+  "development_steps": 5400
+}

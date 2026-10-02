@@ -1,0 +1,11 @@
+schemas 13
+Generated 4 DatasetSnapshot/batch-use schemas.
+Generated 4 EvaluationRun001 schemas.
+Updated builder/experience Atlas text and 2 DatasetSnapshot helper diagrams.
+Updated qualification note and 3 subordinate evaluation diagrams.
+Generated 3 numerical-probe logic views.
+Generated seven structural qualification schemas and the exact frozen policy.
+Generated exact qualification parent section and three subordinate logic views.
+Generated four permission schemas; sorted keys, lifetimes, identity inequality, grant/current evidence and receipts also require owner semantic validation.
+Generated exact Nexus parent section and three subordinate logic views.
+REGEN_CHANGED []

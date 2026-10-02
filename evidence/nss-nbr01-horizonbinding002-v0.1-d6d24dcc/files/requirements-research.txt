@@ -1,0 +1,5 @@
+# Observed research environment; no automatic installation. Windows NOT_RUN.
+torch==2.10.0
+numpy==2.3.5
+safetensors==0.7.0
+psutil==7.2.2

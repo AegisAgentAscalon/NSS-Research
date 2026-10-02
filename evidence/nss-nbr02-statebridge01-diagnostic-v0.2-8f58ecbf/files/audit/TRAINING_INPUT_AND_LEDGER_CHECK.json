@@ -1,0 +1,16 @@
+{
+  "training_updates_hash_oracle_checked": 8020,
+  "A_prefix_targets_independently_rebuilt": 3208000,
+  "durable_intents": 9896,
+  "durable_commits": 9896,
+  "unknown_completion_current_pass": 0,
+  "counts": {
+    "updates": 8512,
+    "backwards": 8508,
+    "cells": 3696828,
+    "heads": 3712572
+  },
+  "initial_optimization_independently_recomputed": false,
+  "full_learning_replay_checked_separately": true,
+  "archived_initial_raw_gradients": "Hash/norm recorded every update; raw values not captured for all initial steps. Full Adam/RNG/cursor checkpoints every250 and exact second training retained."
+}

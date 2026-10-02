@@ -1,0 +1,246 @@
+{
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 1236,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T19:14:49.185363+00:00"
+  },
+  "notes": [
+    "Single process one PyTorch thread; old and new learned weights frozen.",
+    "Write/sweep timings explicitly include state clone. Query includes signature checks and decoding.",
+    "Not a best-tuned architecture comparison; interpreter RSS includes framework and fixture.",
+    "Original fitting peak was not separately instrumented."
+  ],
+  "rows": [
+    {
+      "batch": 1,
+      "label": "clone_plus_write_identity",
+      "mean_ms": 0.803792860019712,
+      "median_ms": 0.70401150003363,
+      "p95_ms": 1.0938493500020738,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "clone_plus_write_learned",
+      "mean_ms": 0.982207699976243,
+      "median_ms": 0.9047614998962672,
+      "p95_ms": 1.528966749822302,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "clone_plus_write_guarded",
+      "mean_ms": 0.9493373199939015,
+      "median_ms": 0.9188325000195618,
+      "p95_ms": 1.1573067999165687,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "clone_plus_sweep_shared_A",
+      "mean_ms": 1.6240541600109282,
+      "median_ms": 1.2839800000392643,
+      "p95_ms": 3.0080472000236096,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "clone_plus_sweep_internal_A",
+      "mean_ms": 0.7736956000053397,
+      "median_ms": 0.7478159999436684,
+      "p95_ms": 0.9096213500242811,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "clone_plus_sweep_nearest",
+      "mean_ms": 1.1485463800090656,
+      "median_ms": 1.1059930000101303,
+      "p95_ms": 1.3499173999434788,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "query_d1",
+      "mean_ms": 1.3019800199754172,
+      "median_ms": 1.1640230000011798,
+      "p95_ms": 2.0059536500298227,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "query_d2",
+      "mean_ms": 2.215721279990248,
+      "median_ms": 2.2031684999319623,
+      "p95_ms": 2.4942636000105267,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "query_d4",
+      "mean_ms": 4.36518642001829,
+      "median_ms": 4.349658000023737,
+      "p95_ms": 5.002614200134303,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "label": "query_d8",
+      "mean_ms": 8.577088459996958,
+      "median_ms": 8.347032500068963,
+      "p95_ms": 10.014903349986069,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 1,
+      "bytes": 3864,
+      "bytes_per_stream": 3864.0,
+      "fields": {
+        "active": 16.0,
+        "allocation": 128.0,
+        "book": 1088.0,
+        "catalogue_revision": 8.0,
+        "epoch": 8.0,
+        "keys": 1088.0,
+        "kr": 16.0,
+        "owner": 128.0,
+        "owner_epoch": 128.0,
+        "present": 16.0,
+        "row_revision": 128.0,
+        "state_revision": 8.0,
+        "vals": 1088.0,
+        "vr": 16.0
+      },
+      "label": "raw_state"
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_write_identity",
+      "mean_ms": 0.9253912799704267,
+      "median_ms": 0.8576374999620384,
+      "p95_ms": 1.2749790500151903,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_write_learned",
+      "mean_ms": 1.0821135200103527,
+      "median_ms": 1.029810999966685,
+      "p95_ms": 1.2957719500832354,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_write_guarded",
+      "mean_ms": 1.1682273799897303,
+      "median_ms": 1.106714499996997,
+      "p95_ms": 1.5756606999275387,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_sweep_shared_A",
+      "mean_ms": 3.114427199966485,
+      "median_ms": 3.027150999969308,
+      "p95_ms": 3.773982599886949,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_sweep_internal_A",
+      "mean_ms": 2.0159879800121416,
+      "median_ms": 1.7893045001073915,
+      "p95_ms": 3.234569100084171,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "clone_plus_sweep_nearest",
+      "mean_ms": 2.8941118399916377,
+      "median_ms": 2.872388499895351,
+      "p95_ms": 3.2292759500137436,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "query_d1",
+      "mean_ms": 2.2073605199921076,
+      "median_ms": 2.084863999925801,
+      "p95_ms": 3.1309156000588674,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "query_d2",
+      "mean_ms": 3.582017559979249,
+      "median_ms": 3.4551464999594828,
+      "p95_ms": 4.416328749891818,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "query_d4",
+      "mean_ms": 6.146901920014898,
+      "median_ms": 6.102498500013098,
+      "p95_ms": 6.869923350132012,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "label": "query_d8",
+      "mean_ms": 11.220271360020888,
+      "median_ms": 11.126829499858104,
+      "p95_ms": 12.077158050055914,
+      "repetitions": 50,
+      "warmups": 5
+    },
+    {
+      "batch": 64,
+      "bytes": 247296,
+      "bytes_per_stream": 3864.0,
+      "fields": {
+        "active": 16.0,
+        "allocation": 128.0,
+        "book": 1088.0,
+        "catalogue_revision": 8.0,
+        "epoch": 8.0,
+        "keys": 1088.0,
+        "kr": 16.0,
+        "owner": 128.0,
+        "owner_epoch": 128.0,
+        "present": 16.0,
+        "row_revision": 128.0,
+        "state_revision": 8.0,
+        "vals": 1088.0,
+        "vr": 16.0
+      },
+      "label": "raw_state"
+    }
+  ],
+  "rss_max_kib": 318972,
+  "status": "RUN"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SCOPED_FOUNDATION_CHECKS",
+  "test_counts": {
+    "foundation": 68,
+    "legacy_persistent_state": 48,
+    "legacy_context": 58,
+    "legacy_experience": 82,
+    "legacy_neural_backend": 30,
+    "legacy_runtime": 13
+  },
+  "total_distinct_tests": 299,
+  "commands": 12,
+  "full_historical_1111_test_suite": "NOT_RUN",
+  "all_27_historical_required_gates": "NOT_RUN",
+  "new_neural_role_training": "NOT_RUN",
+  "new_parameter_updates": 0,
+  "full_NBR01": "NOT_RUN",
+  "NBR02_through_NBR07": "NOT_RUN",
+  "production_qualification": false,
+  "windows_execution": "NOT_RUN",
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "is_user_target_device": false
+  }
+}

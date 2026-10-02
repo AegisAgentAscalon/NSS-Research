@@ -1,0 +1,211 @@
+{
+  "rows": [
+    {
+      "seed": 8801,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.430511474609375e-06,
+        "max_normalized": 0.014666353352367878,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8801,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 2.384185791015625e-06,
+        "max_normalized": 0.017145829275250435,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8801,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.016720585525035858,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.01565326191484928,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.01597546599805355,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.019379548728466034,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.016215553507208824,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.02267444133758545,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 2.384185791015625e-06,
+        "max_normalized": 0.017959434539079666,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    }
+  ],
+  "locked_source_checks": [
+    {
+      "file": "nss_hsa/records.py",
+      "match": true
+    },
+    {
+      "file": "nss_hsa/reader.py",
+      "match": true
+    },
+    {
+      "file": "nss_hsa/hierarchy.py",
+      "match": true
+    },
+    {
+      "file": "nss_hsa/__init__.py",
+      "match": true
+    },
+    {
+      "file": "nss_hsa/attention.py",
+      "match": true
+    },
+    {
+      "file": "scripts/benchmark.py",
+      "match": true
+    },
+    {
+      "file": "scripts/support.py",
+      "match": true
+    },
+    {
+      "file": "scripts/regression.py",
+      "match": true
+    },
+    {
+      "file": "scripts/demo.py",
+      "match": true
+    },
+    {
+      "file": "tests/validate.py",
+      "match": true
+    },
+    {
+      "file": "PROTOCOL.md",
+      "match": true
+    },
+    {
+      "file": "reference/sh01_common.py",
+      "match": true
+    }
+  ],
+  "runtime": {
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "threads": 1,
+    "cuda_available": false,
+    "utc": "2026-09-28T01:56:15Z"
+  },
+  "optimizer_updates": 0,
+  "elapsed_seconds": 1.2694545069999776,
+  "peak_process_rss_bytes": 343830528,
+  "scope": "Post-result engineering replay. Old-source original-archive bitwise failures retained; tolerance never changed."
+}

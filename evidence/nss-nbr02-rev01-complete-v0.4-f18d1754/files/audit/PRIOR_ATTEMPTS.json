@@ -1,0 +1,10 @@
+{
+  "v0.3": {
+    "updates": 168,
+    "cells": 7152,
+    "heads": 1984,
+    "backwards": 88,
+    "status": "STOPPED_AT_STORAGE_ADMISSION"
+  },
+  "global_caps_unchanged": true
+}

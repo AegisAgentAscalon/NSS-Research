@@ -1,0 +1,8 @@
+{
+  "incidents": [
+    {
+      "kind": "unsupported_interactive_session",
+      "effect": "container rejected the invocation before command execution; no model work or source files produced; ordinary synchronous execution used instead"
+    }
+  ]
+}

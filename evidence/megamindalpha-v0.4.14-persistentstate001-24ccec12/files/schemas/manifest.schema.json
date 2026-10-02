@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "generation": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "tokenizer": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "context_abi": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "overlay_abi": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "runtime_version": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "core": {
+      "$ref": "artifact.schema.json"
+    },
+    "overlays": {
+      "type": "array",
+      "items": {
+        "$ref": "overlay.schema.json"
+      }
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "$ref": "profile.schema.json"
+      },
+      "minItems": 1
+    },
+    "transitions": {
+      "type": "array",
+      "items": {
+        "$ref": "transition.schema.json"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "generation",
+    "tokenizer",
+    "context_abi",
+    "overlay_abi",
+    "runtime_version",
+    "core",
+    "overlays",
+    "profiles",
+    "transitions"
+  ],
+  "additionalProperties": false
+}

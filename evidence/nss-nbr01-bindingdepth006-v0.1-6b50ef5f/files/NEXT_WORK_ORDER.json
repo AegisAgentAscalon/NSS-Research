@@ -1,0 +1,25 @@
+{
+  "status": "PROPOSED_NOT_RUN_NOT_APPROVED",
+  "program": "NBR-01",
+  "target": "Robust identity/query matching and record representation with missing-relation preservation",
+  "preserve": [
+    "frozen evaluation weights",
+    "state/depth factorial",
+    "exact and unshared controls",
+    "prior negative results",
+    "separate study directory",
+    "no change to tri-core role framework"
+  ],
+  "not_next": [
+    "online parameter adaptation",
+    "reinforcement learning",
+    "low-bit learning states",
+    "production architecture replacement"
+  ],
+  "specific_missing_measurements": [
+    "key-only versus value-only corruption",
+    "same-noise known and missing query qualification",
+    "competent generic-attention missing-evidence behavior",
+    "quality versus memory and complete compute with a more capable conventional control"
+  ]
+}

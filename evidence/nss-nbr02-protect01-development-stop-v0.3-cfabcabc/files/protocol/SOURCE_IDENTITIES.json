@@ -1,0 +1,109 @@
+{
+  "scope": "Input archive byte identities/CRC and selected exact text copies; no restored numerical evidence, model load, gradient or scoring replay",
+  "archives": {
+    "NSS_NBR02_Post_REV01_Candidates_v0.1.zip": {
+      "bytes": 31364,
+      "sha256": "b40cf7481d4204061808adde6b03c26759c572b3ec1eeb1aef7c0cd0a846c133",
+      "physical_members": 11,
+      "crc_bad_member": null
+    },
+    "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip": {
+      "bytes": 205148,
+      "sha256": "2e68ee3b9d0c6f4d21f52d02e8cf6943fbfb391f6d886c68b498073d3a9e007e",
+      "physical_members": 13,
+      "crc_bad_member": null
+    },
+    "NSS_NBR02_REV01_Complete_v0.4.zip": {
+      "bytes": 20961112,
+      "sha256": "f18d1754bb55833a60be195db7ac4506936b4eccfc1a595b2dbeb064e132260e",
+      "physical_members": 180,
+      "crc_bad_member": null
+    },
+    "NSS_NBR02_REV01_Codex_Handoff_v0.4.zip": {
+      "bytes": 177099,
+      "sha256": "e76a4b30e17413baaa26b3431b0b18cdf61a318e9ff6b06bef1881320c19ff19",
+      "physical_members": 29,
+      "crc_bad_member": null
+    }
+  },
+  "included_members": [
+    {
+      "archive": "NSS_NBR02_Post_REV01_Candidates_v0.1.zip",
+      "member": "NSS_NBR02_Post_REV01_Candidates_v0.1/PROTECT01_TECHNICAL.md",
+      "included_as": "sources/ORIGINAL_PROTECT01_TECHNICAL.md",
+      "bytes": 11250,
+      "sha256": "f91fe0d83f644b22b1339c6fa905bc226ec0e41343fa820e45e595ccfdcf6191",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_Post_REV01_Candidates_v0.1.zip",
+      "member": "NSS_NBR02_Post_REV01_Candidates_v0.1/BUDGETS_AND_FREEZE.md",
+      "included_as": "sources/ORIGINAL_BUDGETS_AND_FREEZE.md",
+      "bytes": 7309,
+      "sha256": "add1d62c1192d976095b5e8a3fdb9db5bda88c689971a69bbdc2876e71fc7b32",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_Post_REV01_Candidates_v0.1.zip",
+      "member": "NSS_NBR02_Post_REV01_Candidates_v0.1/G01_G22_REGISTER.md",
+      "included_as": "program/G01_G22_REGISTER.md",
+      "bytes": 3026,
+      "sha256": "d88db9ad87ca020d8e36ac1fd99fb52f7b9e90300a76557d4436211aba390806",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_Post_REV01_Candidates_v0.1.zip",
+      "member": "NSS_NBR02_Post_REV01_Candidates_v0.1/PROGRAM_AND_ARCHITECTURE.md",
+      "included_as": "program/PRIOR_PROGRAM_AND_ARCHITECTURE.md",
+      "bytes": 5221,
+      "sha256": "63240ce5e0ccdb1ab26da4949e44ea7a6672ca3c1cbdcef5a396157c182e2b42",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+      "member": "CANDIDATES.md",
+      "included_as": "sources/CODEX_CANDIDATES.md",
+      "bytes": 10756,
+      "sha256": "86ba65dae005dbb06db2da169f365a0be8ff55b8ae624a7f9825b3a539688eab",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+      "member": "TECHNICAL_REVIEW.md",
+      "included_as": "sources/CODEX_TECHNICAL_REVIEW.md",
+      "bytes": 3695,
+      "sha256": "909047cfcb9aaa9fa9811076aca1020aa6df65fc356af1a1bc16787a869c3cc5",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+      "member": "EVIDENCE_REVIEW.md",
+      "included_as": "sources/CODEX_EVIDENCE_REVIEW.md",
+      "bytes": 2816,
+      "sha256": "0993b6649e8c76772e94dd7b7a1e64a7c2bbf9375997fc5d59e7fa8edc7fd727",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+      "member": "CHAT_PROMPT.md",
+      "included_as": "sources/CODEX_CHAT_PROMPT.md",
+      "bytes": 2492,
+      "sha256": "73dc15d5045c1b5714aeb24b8e179cee8e36e8d7fc87ead341ef78c8ab5301d4",
+      "copy": "verbatim"
+    },
+    {
+      "archive": "NSS_NBR02_REV01_PostResults_Candidates_v0.1.zip",
+      "member": "ANALYSIS.md",
+      "included_as": "sources/CODEX_ANALYSIS.md",
+      "bytes": 5350,
+      "sha256": "53390f8b86616e2d360b746ecb4873ccd3c2ae3fc0137f13c0026c29a78907b8",
+      "copy": "verbatim"
+    }
+  ],
+  "source_precedence": [
+    "This v0.2 is reviewer-proposed completion of PROTECT01, not already executed source.",
+    "Codex sources are preserved verbatim, including their scoped statement that the original technical companion was not supplied.",
+    "Recovered ORIGINAL_PROTECT01_TECHNICAL.md is the actual companion in the earlier Chat proposal ZIP, not a reconstructed replacement.",
+    "REV01 scientific model, gradient rules, initialization, receipt law, B1/B2 arithmetic and calibration formula stay historical references; changes here are explicit new-study proposals."
+  ]
+}

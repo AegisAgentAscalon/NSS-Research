@@ -1,0 +1,16 @@
+usage: reproduce.py [-h] (--audit | --train) destination
+
+Explicit fresh-directory replay/training. Never overwrite original research.
+--audit-inference reruns saved outputs and verification. audit_pass.py also
+replays 24 optimizer updates on disposable copies; they are charged and noted.
+--train is a new 12,288-update experiment plus 24 preflight updates. This
+entry point itself was smoke-tested for construction/help; whole training
+rerun is not claimed as part of the original evidence.
+
+positional arguments:
+  destination
+
+options:
+  -h, --help   show this help message and exit
+  --audit
+  --train

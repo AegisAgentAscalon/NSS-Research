@@ -1,0 +1,16 @@
+query_id,episode_id,family,split,template,checkpoint,sigma,control,policy,expected,predicted,correct,known,accepted_reference,hidden_intent_wrong_binding,known_refusal,correct_unknown,reason
+47339c1fd16aad138dabcb18a0fb81d6-16,47339c1fd16aad138dabcb18a0fb81d6,CM02FIX-00,fixture,F,16,0.2,X_I,pinned_revision,2,-1,0,1,0,0,1,0,stale_revision
+47339c1fd16aad138dabcb18a0fb81d6-16,47339c1fd16aad138dabcb18a0fb81d6,CM02FIX-00,fixture,F,16,0.2,X_S,pinned_revision,2,-1,0,1,0,0,1,0,stale_revision
+47339c1fd16aad138dabcb18a0fb81d6-16,47339c1fd16aad138dabcb18a0fb81d6,CM02FIX-00,fixture,F,16,0.2,X_W,pinned_revision,2,-1,0,1,0,0,1,0,stale_revision
+b944929a0d625a697e7368a8052faf8d-32,b944929a0d625a697e7368a8052faf8d,CM02FIX-00,fixture,C,32,0.2,X_I,pinned_revision,0,-1,0,1,0,0,1,0,conflict
+b944929a0d625a697e7368a8052faf8d-32,b944929a0d625a697e7368a8052faf8d,CM02FIX-00,fixture,C,32,0.2,X_S,pinned_revision,0,-1,0,1,0,0,1,0,conflict
+b944929a0d625a697e7368a8052faf8d-32,b944929a0d625a697e7368a8052faf8d,CM02FIX-00,fixture,C,32,0.2,X_W,pinned_revision,0,-1,0,1,0,0,1,0,conflict
+b944929a0d625a697e7368a8052faf8d-32,b944929a0d625a697e7368a8052faf8d,CM02FIX-00,fixture,C,32,0.2,X_latest,current_entity,0,-1,0,1,0,0,1,0,conflict
+448d30e207970d14087655ccdd016a1d-16,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,16,0.2,X_I,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-16,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,16,0.2,X_S,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-16,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,16,0.2,X_W,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-16,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,16,0.2,X_latest,current_entity,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-32,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,32,0.01,X_I,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-32,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,32,0.01,X_S,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-32,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,32,0.01,X_W,pinned_revision,6,0,0,1,1,1,0,0,validated_pinned_revision
+448d30e207970d14087655ccdd016a1d-32,448d30e207970d14087655ccdd016a1d,CM02FIX-00,fixture,N,32,0.01,X_latest,current_entity,6,0,0,1,1,1,0,0,validated_pinned_revision

@@ -1,0 +1,935 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 1,
+      "arm": "paired_eval",
+      "case_id": "c-9ad42636314b3fa903b9",
+      "case_spec": {
+        "allowed_depth": 1,
+        "arm": "paired_eval",
+        "case_id": "c-9ad42636314b3fa903b9",
+        "close_identity_transform": null,
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e000",
+        "graph_seed": 4889920412097869698,
+        "graph_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "core_l04-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 4,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 16095756528302203277,
+        "treatment_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 2,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "core_l04-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 4,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        9,
+        1,
+        15,
+        4,
+        11,
+        8,
+        14,
+        7,
+        13,
+        0,
+        12,
+        5,
+        2,
+        6,
+        10,
+        3
+      ],
+      "query_slot": 13,
+      "query_symbol_id": 13,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e000",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e000",
+        "graph_seed": 4889920412097869698,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 16095756528302203277,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "4f20455e431f4865d6da3a6d70c1682318930ee09c8f50d730ff803772cdb044",
+      "split": "development",
+      "stage_next_ids": [
+        1,
+        8,
+        6,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "stage_row_targets": [
+        8,
+        1,
+        5,
+        13,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stage_source_ids": [
+        13,
+        1,
+        8,
+        6,
+        9,
+        9,
+        9,
+        9
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        13,
+        1,
+        8,
+        6,
+        9
+      ],
+      "task_truth_hash": "b53fd4c2098663b626421592a79b9e7a4b114f73e0491c940b2fcd3c756bbba5",
+      "terminal_id": 9,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "416acb838c1736673c2a0f02186b6110ba6bfdccdb02ae4c924ad0f5ee7d5082"
+    },
+    {
+      "allowed_depth": 1,
+      "arm": "paired_eval",
+      "case_id": "c-0c12707eb75c4de1ec3f",
+      "case_spec": {
+        "allowed_depth": 1,
+        "arm": "paired_eval",
+        "case_id": "c-0c12707eb75c4de1ec3f",
+        "close_identity_transform": null,
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e001",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e001",
+        "graph_seed": 14908857180319933071,
+        "graph_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "core_l04-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 4,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 100200061700814648,
+        "treatment_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 0,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "core_l04-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 4,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        15,
+        3,
+        7,
+        0,
+        13,
+        6,
+        4,
+        14,
+        11,
+        12,
+        9,
+        8,
+        1,
+        2,
+        5,
+        10
+      ],
+      "query_slot": 12,
+      "query_symbol_id": 12,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e001",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e001",
+        "graph_seed": 14908857180319933071,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 100200061700814648,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "2e15490901aad3373154c378b1db7e7307de4647b0153ae3bcdd1a25721fd541",
+      "split": "development",
+      "stage_next_ids": [
+        7,
+        1,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "stage_row_targets": [
+        9,
+        2,
+        12,
+        1,
+        14,
+        14,
+        14,
+        14
+      ],
+      "stage_source_ids": [
+        12,
+        7,
+        1,
+        3,
+        5,
+        5,
+        5,
+        5
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        12,
+        7,
+        1,
+        3,
+        5
+      ],
+      "task_truth_hash": "1b2271bfcea8cc3819c17c3541efb083752c9b6673a2ff0e79bcd492a28a8881",
+      "terminal_id": 5,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "0031fef9c8548274b7f051042ec6b11e6868f51c595cfa10b2266fa284c6d11a"
+    },
+    {
+      "allowed_depth": 1,
+      "arm": "paired_eval",
+      "case_id": "c-e51f1548836322451635",
+      "case_spec": {
+        "allowed_depth": 1,
+        "arm": "paired_eval",
+        "case_id": "c-e51f1548836322451635",
+        "close_identity_transform": null,
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e064",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e000",
+        "graph_seed": 4889920412097869698,
+        "graph_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 1,
+        "near_treatment": false,
+        "pair_id": "core_l04-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 4,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 16095756528302203277,
+        "treatment_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 2,
+      "displaced_decoy_id": 15,
+      "missing": true,
+      "missing_at": 1,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "core_l04-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 4,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        9,
+        1,
+        15,
+        4,
+        11,
+        8,
+        14,
+        7,
+        13,
+        0,
+        12,
+        5,
+        2,
+        6,
+        10,
+        3
+      ],
+      "query_slot": 13,
+      "query_symbol_id": 13,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e064",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e000",
+        "graph_seed": 4889920412097869698,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 16095756528302203277,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "121d6575e159705365e85c0fae52c157dad6f2c8a57a1c6e7d2de361f6d5d38a",
+      "split": "development",
+      "stage_next_ids": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        13,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        13,
+        1,
+        8,
+        6,
+        9
+      ],
+      "task_truth_hash": "5f258cd457d49922302b033c489aac81540843038114aff1a16b830ee9f56e96",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "ce5769e99f72fc0ac34214d47f22738f49793b89e20728f2f3a4c706117fc6cd"
+    },
+    {
+      "allowed_depth": 1,
+      "arm": "paired_eval",
+      "case_id": "c-78a3b5bb9fa3b339287e",
+      "case_spec": {
+        "allowed_depth": 1,
+        "arm": "paired_eval",
+        "case_id": "c-78a3b5bb9fa3b339287e",
+        "close_identity_transform": null,
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e065",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e001",
+        "graph_seed": 14908857180319933071,
+        "graph_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 2,
+        "near_treatment": false,
+        "pair_id": "core_l04-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 4,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 100200061700814648,
+        "treatment_seed_context": {
+          "condition_id": "core_assisted_l04",
+          "episode_id": "core_l04-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 0,
+      "displaced_decoy_id": 15,
+      "missing": true,
+      "missing_at": 2,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "core_l04-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 4,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        15,
+        3,
+        7,
+        0,
+        13,
+        6,
+        4,
+        14,
+        11,
+        12,
+        9,
+        8,
+        1,
+        2,
+        5,
+        10
+      ],
+      "query_slot": 12,
+      "query_symbol_id": 12,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "core_assisted_l04_d01",
+        "episode_id": "core_assisted_l04_d01-s1201-e065",
+        "graph_pair_condition_id": "core_assisted_l04",
+        "graph_pair_episode_id": "core_l04-s1201-e001",
+        "graph_seed": 14908857180319933071,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 100200061700814648,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "dd0213808e0765a4b70922244562d71be9e566329db54a37584383e561049ce8",
+      "split": "development",
+      "stage_next_ids": [
+        7,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        9,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        12,
+        7,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        12,
+        7,
+        1,
+        3,
+        5
+      ],
+      "task_truth_hash": "b84218c726fc1d72ba6fcfb31881eb61165e709226d5756b18ace5da1628e39a",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "36466dd967e8b447cec9a336078bfd752c0980e027859107150b3c2c448e8cf7"
+    }
+  ],
+  "checkpoint": null,
+  "condition_id": "core_assisted_l04_d01",
+  "depth": 1,
+  "episode_ids": [
+    "core_assisted_l04_d01-s1201-e000",
+    "core_assisted_l04_d01-s1201-e001",
+    "core_assisted_l04_d01-s1201-e064",
+    "core_assisted_l04_d01-s1201-e065"
+  ],
+  "event_count": 0,
+  "faults": {},
+  "feedback_mode": "assisted",
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 13,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "259cd482d526c961f51fb830acc401d04f539382691a267f37cf11a46c7e8d3c"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 12,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "7c02d29e05e67f2d077a78158448cffee3b98f81f4d3411276990b7d6ddadd0a"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 13,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "259cd482d526c961f51fb830acc401d04f539382691a267f37cf11a46c7e8d3c"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 12,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "7c02d29e05e67f2d077a78158448cffee3b98f81f4d3411276990b7d6ddadd0a"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 0
+}

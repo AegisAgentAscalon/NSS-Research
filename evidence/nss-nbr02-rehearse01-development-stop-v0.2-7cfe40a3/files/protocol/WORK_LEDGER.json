@@ -1,0 +1,86 @@
+{
+  "schema": "REHEARSE01_PROPOSED_LEDGER_v1",
+  "state": "SYMBOLIC_COUNTS_NOT_EXECUTED",
+  "study_instances_per_pass": {
+    "main_method_fit_base_contexts": 96,
+    "probe_contexts": 4,
+    "clean_contexts": 12
+  },
+  "context": {
+    "online_applications": 18,
+    "extra_batch_applications": 2,
+    "online_prefix_exposures_including_reconstructions": 18,
+    "rehearsal_example_prefixes": 16,
+    "learned_inventory_prefixes": 180,
+    "frozen_cue_and_inventory_prefixes": 60,
+    "all_prefixes": 274,
+    "actual_public_waiting_episodes": 21,
+    "reconstructed_cues_without_extra_waits": 3
+  },
+  "one_pass": {
+    "contexts": 112,
+    "parameter_applications": 3068,
+    "regular_online_applications": 2836,
+    "batch_applications": 232,
+    "gradient_examples_including_derivative_fixtures": 4700,
+    "rehearsal_example_retrievals": 1856,
+    "g_backwards": 2350,
+    "l_gradient_examples": 2350,
+    "three_event_prefixes": 31732,
+    "heads": 31732,
+    "detached_filler_cells": 3360,
+    "cells": 98556,
+    "exact_control_query_rows": 1200
+  },
+  "capture_plus_full_adaptive_replay": {
+    "contexts": 224,
+    "parameter_applications": 6136,
+    "regular_online_applications": 5672,
+    "batch_applications": 464,
+    "gradient_examples_including_derivative_fixtures": 9400,
+    "rehearsal_example_retrievals": 3712,
+    "g_backwards": 4700,
+    "l_gradient_examples": 4700,
+    "three_event_prefixes": 63464,
+    "heads": 63464,
+    "detached_filler_cells": 6720,
+    "cells": 197112,
+    "exact_control_query_rows": 2400
+  },
+  "applications_by_phase_per_pass": {
+    "initial": 800,
+    "main": 1920,
+    "cost_including_20_warmups": 100,
+    "clean_fixture": 240,
+    "sandbox": 8
+  },
+  "caps_global": {
+    "parameter_applications": 7000,
+    "cells": 260000,
+    "heads": 80000,
+    "g_backwards": 6000,
+    "l_gradient_examples": 6000,
+    "active_wall_seconds": 7200,
+    "process_tree_rss_bytes": 3221225472,
+    "container_current_bytes": 3758096384,
+    "retained_evidence_bytes": 268435456,
+    "delivery_zip_bytes": 67108864
+  },
+  "per_pass_application_cap": 3500,
+  "zero_step_is_application": true,
+  "no_auto_use_of_reserve": true,
+  "initial_inventory_prefixes_per_pass": 128,
+  "probe_inventory_prefixes_per_pass": 16,
+  "derivative_fixture_prefixes_per_pass": 8,
+  "sandbox_prefixes_per_pass": 72,
+  "not_neural_counts": [
+    "independent NumPy scalar reconstruction",
+    "exact lookup work",
+    "codec and manifests",
+    "authority/parser and recorder checks",
+    "OS monitoring",
+    "branch-memory inventories"
+  ],
+  "old_closed_ledger": "PROTECT01 retains 3400 attempted/committed applications; none is relabelled or rolled into a pass here.",
+  "pending": "Implementation must enumerate record kinds/headers/native costs and measured whole-run admission before main fitting."
+}

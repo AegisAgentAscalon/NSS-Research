@@ -1,0 +1,53 @@
+{
+  "discovery": "During main NEW evaluation, before post-result stable-reference audit",
+  "kind": "Overflow in inherited NumPy naive sigmoid exp(-x)",
+  "preserved_logs": [
+    {
+      "path": "logs/eval_4101_NEW_M16_NEAREST.log",
+      "sha256": "66b06f07b7d89fa17ad82ed0f6836af7b9dc15243efeb8dec0ad96cec4ee78e2",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4101 NEW M16_NEAREST evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4101_NEW_M16_STOCHASTIC.log",
+      "sha256": "b53cfcd3219024a5c95555117aa5ad6974c2a4b73f63c360844d86229c2abadc",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4101 NEW M16_STOCHASTIC evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4101_NEW_M32.log",
+      "sha256": "8933e15fe7a06c4fca4115bd2bcc653bbbc7379689db1dced3b1ccfa27ccebc8",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4101 NEW M32 evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4102_NEW_M16_NEAREST.log",
+      "sha256": "eb2816c22456b1295fa82f449cdffbbe0d0cd806deea1561a7859895f440fe10",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4102 NEW M16_NEAREST evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4102_NEW_M32.log",
+      "sha256": "be4ba61ecc316f3962f37ef8aa26419cd9f802b5964ae61aa9607c889439e281",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4102 NEW M32 evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4103_NEW_M16_NEAREST.log",
+      "sha256": "95effb999bbdf553e48d37329c10f13dca50e195c0550330be6f6a619f67f9cc",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4103 NEW M16_NEAREST evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4104_NEW_M16_NEAREST.log",
+      "sha256": "3095bd5a4fac5f0cc500869795fc011c91beda0a265ce0ce95cfda2c78767fe0",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4104 NEW M16_NEAREST evaluated 14 outputs\n"
+    },
+    {
+      "path": "logs/eval_4104_NEW_M32.log",
+      "sha256": "349fdc4929ad7b59d3c898c4412859f3884082b6e6746de478adba4121c13dad",
+      "text": "/mnt/data/NSS_LB03_LEARNABILITY_v0.1/source/inherited_engine.py:59: RuntimeWarning: overflow encountered in exp\n  r=1/(1+np.exp(-ar-br));z=1/(1+np.exp(-az-bz));n=np.tanh(an+r*bn);h=(1-z)*n+z*h;hs.append(h.copy());zs.append(h@w[MATS[2]].T+w[BIASES[2]])\n4104 NEW M32 evaluated 14 outputs\n"
+    }
+  ],
+  "occurrences_counted_retroactively": 10587,
+  "gate_min": -1210.6624791356421,
+  "gate_max": 1481.690468052927,
+  "saturated_sigmoid_count": 309861,
+  "stable_reference_max_logit_diff": 3.036237927744878e-12,
+  "stable_reference_violations": 0,
+  "scope": "Repeated evaluation points including prefixes. exp can overflow to inf while 1/(1+inf) is finite zero. A separately implemented sign-stable sigmoid reproduces declared output agreement without overflow. Frozen code and outputs were not changed. Large saturated preactivations remain a robustness concern; this is not proof of stability for every intermediate, training path, precision or future input."
+}

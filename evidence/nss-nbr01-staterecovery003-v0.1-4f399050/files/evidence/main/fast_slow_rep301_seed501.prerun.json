@@ -1,0 +1,23 @@
+{
+  "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+  "kind": "fast_slow",
+  "learn_seed": 501,
+  "protocol_sha256": "2149c201e70c81a7f18f07f6474811cd0763220fc7622a0ba6a7c87f5090b923",
+  "reference_sha256": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+  "rep_seed": 301,
+  "source_identity": {
+    "nbr01_recovery/__init__.py": "2974786bb77462bc5704d2c9bb30b92ff1f0047252fd0704176e2b5420a7042f",
+    "nbr01_recovery/data.py": "72b2403bef1bc03c4a19ff0e1b37e9a08514cc0619ee0d4ca86a8925e96c8487",
+    "nbr01_recovery/evaluate.py": "75107d60a8da005c76f7e8133fa760d8ae9d7212bd99836b5ff1845fa514acda",
+    "nbr01_recovery/models.py": "fc5aac95133718c4838a7cb5087ad9558b8e0d6dac2c0637911a02e0e47012af",
+    "nbr01_recovery/state.py": "2e90bd5920b34635f9a6606a729b3173d6eb19880869734c60c480c3b71ec23c",
+    "nbr01_recovery/train.py": "004f4ab42eeae453ea026be3ed54708ac4d9a543514c0769159ba207c7b45310",
+    "nbr01_recovery/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "run.py": "262650ceb95e460c78686818bd1a41fb7ba4685c1a49351c14080013f2e92ce4",
+    "tests/test_recovery.py": "93ae791bb3533e68e3c425f8d855de4cbdfc4af4f98a2c9ee79135f4d964803b",
+    "tools/main_training_worker.py": "87edd528831e6cf157b9f03b1d1e24bea8536512509fa11678376fa43430a07e"
+  },
+  "status": "NOT_RUN",
+  "steps": 1800,
+  "time_unix": 1789946711.4467773
+}

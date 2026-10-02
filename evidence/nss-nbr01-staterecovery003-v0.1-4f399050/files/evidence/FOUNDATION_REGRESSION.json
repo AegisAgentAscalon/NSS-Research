@@ -1,0 +1,78 @@
+{
+  "archive_sha256": "f9aff6ff4509a1d797ca378122b3bda1e97d20bd50cf136a283739c51f7504e8",
+  "source": "fresh extraction; no change to supplied foundation",
+  "checks": [
+    {
+      "name": "manifest_before",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "tools/verify_manifest.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.14199135699993803,
+      "log_sha256": "cc2786c507aa7d0c70b778bbdde864663dbcaa5dd22d28e963442f791d3776d5",
+      "tail": [
+        "PASS: 974 release files match SHA-256 manifest."
+      ]
+    },
+    {
+      "name": "foundation_tests",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_foundation*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 9.866669750000028,
+      "log_sha256": "8d094e18df240e7a1adef61ad8962269d4074be3204071702fa97d0a487552d5",
+      "tail": [
+        "test_exit_before_atomic_complete_commit (test_foundation_recovery.FoundationRecoveryTests.test_exit_before_atomic_complete_commit) ... ok",
+        "test_recovery_cannot_be_claimed_by_another_operator (test_foundation_recovery.FoundationRecoveryTests.test_recovery_cannot_be_claimed_by_another_operator) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 68 tests in 9.686s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "name": "dependencies",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "tools/check_dependencies.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.25153769499991085,
+      "log_sha256": "f00185f453cbb01a520d2a84793f7ae7c52be7f4727726683e7b7d4e979a421e",
+      "tail": [
+        "PASS: reviewed local Python import edges; no cycles detected."
+      ]
+    },
+    {
+      "name": "manifest_after",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "tools/verify_manifest.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.10602740199999516,
+      "log_sha256": "cc2786c507aa7d0c70b778bbdde864663dbcaa5dd22d28e963442f791d3776d5",
+      "tail": [
+        "PASS: 974 release files match SHA-256 manifest."
+      ]
+    }
+  ],
+  "distinct_tests": 68,
+  "full_historical_1111_suite": "NOT_RUN",
+  "Windows_execution": "NOT_RUN"
+}

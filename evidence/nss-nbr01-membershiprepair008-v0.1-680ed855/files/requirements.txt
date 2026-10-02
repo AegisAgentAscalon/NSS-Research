@@ -1,0 +1,4 @@
+# Versions used for the actual Linux CPU experiments. No auto-installation.
+numpy==2.3.5
+safetensors==0.7.0
+torch==2.10.0

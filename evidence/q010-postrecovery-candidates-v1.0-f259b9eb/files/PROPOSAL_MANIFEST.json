@@ -1,0 +1,47 @@
+{
+  "schema": "q010-theoretical-candidates-v1",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "baseline_archive": {
+    "archive_path": "Research/Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "archive_bytes": 48654694,
+    "archive_sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e"
+  },
+  "files": {
+    "ANALYSIS.md": {
+      "bytes": 5352,
+      "sha256": "aeb616b09229370cd5b025274a3ed51eb39340248d45c0726d04bba32f36323b"
+    },
+    "archive_integrity.json": {
+      "bytes": 1918,
+      "sha256": "4221a392b8c9428eca879e1cfe21a898ec078c8a2c3c949cb23db6f1cb9c13c8"
+    },
+    "CANDIDATES_v1.0.md": {
+      "bytes": 7678,
+      "sha256": "22d54fad9b27f2b5a2d93d7a112d541d16de3b8f75345f04728b719b2858c891"
+    },
+    "CHAT_PROMPT.md": {
+      "bytes": 1125,
+      "sha256": "d7335eaa56364838964014b5a278a927a6b719254398bf332c9c68073cf16995"
+    },
+    "evidence_scope_review.md": {
+      "bytes": 6413,
+      "sha256": "c01bb51de9dc06b08578c6d70cce64adca50caeaefcc9457eff8af55ddd7dcbf"
+    },
+    "metrics_analysis.md": {
+      "bytes": 3515,
+      "sha256": "e22e28eb43b86b6650424fe11b47c3863c42ba9ff5e5e6b4093d7433a39517dd"
+    },
+    "metrics_analysis.py": {
+      "bytes": 15193,
+      "sha256": "b93f3e417595339e441ac854dac748e1bf76fa31bc9046901c2705477fe54238"
+    },
+    "metrics_summary.json": {
+      "bytes": 29403,
+      "sha256": "37ece36ce0d069cf7fff82f0825fa262e0a20a7d5cbd132c35fcf0a1c7b1488d"
+    },
+    "README.md": {
+      "bytes": 1454,
+      "sha256": "fc05316e5682292a0a48f31826e427b75045d100dd24fc62ef199d5a7bf5626b"
+    }
+  }
+}

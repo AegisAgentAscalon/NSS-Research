@@ -1,0 +1,6 @@
+# Tested execution environment. No launcher installs anything automatically.
+# CPU PyTorch was used; choose an appropriate official package for the target OS.
+torch==2.10.0
+numpy==2.3.5
+safetensors==0.7.0
+psutil==7.2.2

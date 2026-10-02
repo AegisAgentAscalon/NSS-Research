@@ -1,0 +1,30 @@
+{
+  "binder_classification_presentations": 384000,
+  "development_completed_fits": 12,
+  "development_steps": 33600,
+  "development_training_loop_seconds": 170.38491027499998,
+  "main_batch_size": 64,
+  "main_completed_fits": 30,
+  "main_hop_target_presentations": 22400000,
+  "main_reader_examples_shared_across_models": true,
+  "main_rss_max_kib_range": [
+    318476,
+    325072
+  ],
+  "main_steps": 156000,
+  "main_training_loop_seconds": 654.4162584210003,
+  "no_deployment": true,
+  "no_downloads": true,
+  "not_matched": [
+    "FLOPs",
+    "wall time",
+    "parameter count",
+    "total lifecycle cost"
+  ],
+  "precision": "float32 working codes, model weights and AdamW state; Boolean presence is one BYTE per record. Not low-bit learning.",
+  "query_timing_isolated_after_main": true,
+  "reproduction_seconds": 19.52736855100011,
+  "reproduction_steps": 6000,
+  "torch_cpu_threads_per_worker": 1,
+  "training_and_evaluation_concurrent_processes": true
+}

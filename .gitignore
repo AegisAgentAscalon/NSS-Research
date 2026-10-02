@@ -1,0 +1,14 @@
+# Large evidence belongs in reviewed release assets, never in Git history.
+*.zip
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.bin
+__pycache__/
+*.pyc
+.env
+.env.*
+private-review/
+release-assets/

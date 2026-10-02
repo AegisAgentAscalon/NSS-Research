@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-09-25T16:24:47.5554182Z",
+  "status": "INPUTS_UNAVAILABLE",
+  "supersedes_identity_claims_in": "input_receipt.json",
+  "invalid_receipt_preserved": true,
+  "cause": "Supplied Desktop paths missing; PowerShell nonterminating errors allowed invalid null hash comparisons",
+  "input_bytes_read_or_copied": false,
+  "scientific_execution": false,
+  "supplied_paths": [
+    "<PRIVATE_HOME>\\Desktop\\NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+    "<PRIVATE_HOME>\\Desktop\\NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip"
+  ],
+  "recovery_search": {
+    "desktop_root_matching_filenames": 0,
+    "workspace_matching_filenames": 0
+  },
+  "next_step": "User supplies current input location; future intake must validate existence, nonempty hashes and exact byte identities before publishing a new corrected receipt"
+}

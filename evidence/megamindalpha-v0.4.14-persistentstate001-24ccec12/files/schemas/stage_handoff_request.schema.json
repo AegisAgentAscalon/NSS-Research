@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "source_checkpoint_hash": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    },
+    "next_stage": {
+      "$ref": "task_stage.schema.json"
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_checkpoint_hash",
+    "next_stage"
+  ],
+  "additionalProperties": false
+}

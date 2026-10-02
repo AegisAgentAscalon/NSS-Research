@@ -1,0 +1,82 @@
+[
+  {
+    "name": "legacy_persistent_state",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_persistent_state*.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 104.54
+  },
+  {
+    "name": "legacy_neural_backend",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_neural_backend.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 3.38
+  },
+  {
+    "name": "legacy_runtime",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_runtime.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 0.673
+  },
+  {
+    "name": "legacy_context",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_context*.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 105.837
+  },
+  {
+    "name": "legacy_experience",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_experience*.py",
+      "-v"
+    ],
+    "returncode": 1,
+    "seconds": 18.981
+  }
+]

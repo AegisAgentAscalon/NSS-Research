@@ -1,0 +1,386 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NSS proposed failure-evidence record v0.1",
+  "description": "Proposed schema only; not an implemented recorder or a claim of complete causal diagnosis.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "failure_id",
+    "run_id",
+    "attempt_id",
+    "operation_id",
+    "failure_class",
+    "expected_contract",
+    "observed_symptom",
+    "first_observable_divergence",
+    "evidence_refs",
+    "evidence_status",
+    "cause_status",
+    "hypotheses",
+    "mechanism_test_refs",
+    "action",
+    "attempt_accounting",
+    "limits"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "record_kind": {
+      "enum": [
+        "OBSERVED",
+        "EXPECTED_INJECTION",
+        "HYPOTHETICAL_TEMPLATE"
+      ]
+    },
+    "failure_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "attempt_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "operation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_failure_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "failure_class": {
+      "enum": [
+        "SCIENTIFIC",
+        "ADMISSION",
+        "ENGINEERING",
+        "RESOURCE",
+        "OBSERVABILITY",
+        "EXPECTED_CONTROL",
+        "UNCLASSIFIED"
+      ]
+    },
+    "expected_contract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_symptom": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "first_observable_divergence": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "stage",
+        "event_sequence",
+        "statement"
+      ],
+      "properties": {
+        "stage": {
+          "type": "string"
+        },
+        "event_sequence": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "statement": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "artifact",
+          "availability",
+          "purpose"
+        ],
+        "properties": {
+          "artifact": {
+            "type": "string"
+          },
+          "member_or_range": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "availability": {
+            "enum": [
+              "RETAINED",
+              "MISSING",
+              "PARTIAL",
+              "IDENTITY_ONLY",
+              "NOT_CHECKED"
+            ]
+          },
+          "purpose": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence_status": {
+      "enum": [
+        "AVAILABLE",
+        "PARTIAL",
+        "LOST",
+        "NOT_COLLECTED"
+      ]
+    },
+    "cause_status": {
+      "enum": [
+        "NOT_ASSESSED",
+        "UNRESOLVED",
+        "HYPOTHESES_ONLY",
+        "TESTED_LOCAL_MECHANISM",
+        "EVIDENCE_UNAVAILABLE"
+      ]
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "support",
+          "alternatives",
+          "next_discriminating_test",
+          "test_status"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "support": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "next_discriminating_test": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "test_status": {
+            "enum": [
+              "PROPOSED_NOT_RUN",
+              "EXECUTED_REPORTED",
+              "EXECUTED_CHECKED",
+              "NOT_IDENTIFIABLE_UNDER_INTERFACE"
+            ]
+          }
+        }
+      }
+    },
+    "mechanism_test_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "disposition",
+        "reason"
+      ],
+      "properties": {
+        "disposition": {
+          "enum": [
+            "CONTINUE_DECLARED_SCIENTIFIC_TEST",
+            "STOP_ADMISSION",
+            "STOP_INVALID_RUN",
+            "STOP_RESOURCE",
+            "STOP_EVIDENCE_FAILURE",
+            "RECORD_EXPECTED_CONTROL",
+            "PROPOSED_ONLY"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "attempt_accounting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reserved",
+        "acknowledged",
+        "completion_state"
+      ],
+      "properties": {
+        "reserved": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "acknowledged": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "completion_state": {
+          "enum": [
+            "COMPLETED",
+            "FAILED_BEFORE_MUTATION",
+            "UNKNOWN",
+            "NOT_EXECUTED"
+          ]
+        },
+        "last_durable_event": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_output_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reported_at_utc": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "cause_status": {
+            "const": "TESTED_LOCAL_MECHANISM"
+          }
+        },
+        "required": [
+          "cause_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "mechanism_test_refs": {
+            "minItems": 1
+          },
+          "evidence_refs": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "record_kind": {
+            "enum": [
+              "OBSERVED",
+              "EXPECTED_INJECTION"
+            ]
+          }
+        },
+        "required": [
+          "record_kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "observed_symptom": {
+            "type": "string",
+            "minLength": 1
+          },
+          "run_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "attempt_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "record_kind": {
+            "const": "HYPOTHETICAL_TEMPLATE"
+          }
+        },
+        "required": [
+          "record_kind"
+        ]
+      },
+      "then": {
+        "properties": {
+          "attempt_accounting": {
+            "properties": {
+              "completion_state": {
+                "const": "NOT_EXECUTED"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

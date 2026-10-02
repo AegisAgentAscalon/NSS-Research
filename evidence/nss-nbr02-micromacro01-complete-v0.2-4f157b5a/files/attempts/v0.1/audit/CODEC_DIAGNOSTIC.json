@@ -1,0 +1,146 @@
+{
+  "codec": "exact same decoded storage bytes; XZ preset7 extreme",
+  "stratified_filler": true,
+  "forecast": 67985768.76050526,
+  "cap": 67108864,
+  "seconds": 24.19001317024231,
+  "records": [
+    {
+      "kind": "load",
+      "sample_records": 114,
+      "planned_records": 714,
+      "preset6_bytes": 7504,
+      "preset7extreme_bytes": 7440,
+      "projection": 69896.84210526316
+    },
+    {
+      "kind": "management_load",
+      "sample_records": 114,
+      "planned_records": 714,
+      "preset6_bytes": 4440,
+      "preset7extreme_bytes": 4316,
+      "projection": 40547.68421052631
+    },
+    {
+      "kind": "cue",
+      "sample_records": 668,
+      "planned_records": 5308,
+      "preset6_bytes": 354284,
+      "preset7extreme_bytes": 349296,
+      "projection": 4163315.497005988
+    },
+    {
+      "kind": "derivative",
+      "sample_records": 8,
+      "planned_records": 8,
+      "preset6_bytes": 1508,
+      "preset7extreme_bytes": 1500,
+      "projection": 2250.0
+    },
+    {
+      "kind": "buffer_import",
+      "sample_records": 32,
+      "planned_records": 32,
+      "preset6_bytes": 1604,
+      "preset7extreme_bytes": 1600,
+      "projection": 2400.0
+    },
+    {
+      "kind": "fillers/0",
+      "sample_records": 308,
+      "planned_records": 4564,
+      "preset6_bytes": 37240,
+      "preset7extreme_bytes": 36528,
+      "projection": 811917.8181818181
+    },
+    {
+      "kind": "update",
+      "sample_records": 532,
+      "planned_records": 4404,
+      "preset6_bytes": 686068,
+      "preset7extreme_bytes": 679792,
+      "projection": 8441176.60150376
+    },
+    {
+      "kind": "query",
+      "sample_records": 7512,
+      "planned_records": 52568,
+      "preset6_bytes": 900672,
+      "preset7extreme_bytes": 873736,
+      "projection": 9171436.511182109
+    },
+    {
+      "kind": "fork",
+      "sample_records": 16,
+      "planned_records": 112,
+      "preset6_bytes": 8344,
+      "preset7extreme_bytes": 8296,
+      "projection": 87108.0
+    },
+    {
+      "kind": "fork_match",
+      "sample_records": 16,
+      "planned_records": 112,
+      "preset6_bytes": 11616,
+      "preset7extreme_bytes": 11588,
+      "projection": 121674.0
+    },
+    {
+      "kind": "post_strong_match",
+      "sample_records": 16,
+      "planned_records": 112,
+      "preset6_bytes": 864,
+      "preset7extreme_bytes": 860,
+      "projection": 9030.0
+    },
+    {
+      "kind": "checkpoint",
+      "sample_records": 380,
+      "planned_records": 2628,
+      "preset6_bytes": 38532,
+      "preset7extreme_bytes": 37904,
+      "projection": 393204.1263157895
+    },
+    {
+      "kind": "batch_example",
+      "sample_records": 1600,
+      "planned_records": 10816,
+      "preset6_bytes": 1220220,
+      "preset7extreme_bytes": 1222888,
+      "projection": 12400084.32
+    },
+    {
+      "kind": "batch_apply",
+      "sample_records": 200,
+      "planned_records": 1352,
+      "preset6_bytes": 1477984,
+      "preset7extreme_bytes": 1478224,
+      "projection": 14989191.36
+    },
+    {
+      "kind": "frozen_receipt",
+      "sample_records": 128,
+      "planned_records": 896,
+      "preset6_bytes": 12384,
+      "preset7extreme_bytes": 11880,
+      "projection": 124740.0
+    },
+    {
+      "kind": "fillers/8",
+      "sample_records": 144,
+      "planned_records": 144,
+      "preset6_bytes": 62260,
+      "preset7extreme_bytes": 62112,
+      "projection": 93168.0
+    },
+    {
+      "kind": "fillers/32",
+      "sample_records": 144,
+      "planned_records": 144,
+      "preset6_bytes": 191576,
+      "preset7extreme_bytes": 191608,
+      "projection": 287412.0
+    }
+  ],
+  "model_calls": 0
+}

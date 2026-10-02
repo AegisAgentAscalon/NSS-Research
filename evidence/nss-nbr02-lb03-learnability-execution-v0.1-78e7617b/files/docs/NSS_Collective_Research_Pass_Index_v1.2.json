@@ -1,0 +1,1316 @@
+{
+  "schema": "nss.collective-research-pass-index.v1",
+  "generated": "2026-10-02T03:59:54.553782+00:00",
+  "checklist_version": "0.29",
+  "goal": "A competent local companion; stable serving during use, useful bounded maintenance; not RSI/frontier or mandatory tri-core.",
+  "current_task": "LOW-BIT-TRAINING",
+  "current_task_status": "BOUNDED_COMPARISON_COMPLETE_REVIEW_PENDING",
+  "categories": {
+    "MEMORY_STATE": [
+      "Persistent state, memory, binding, and compact context",
+      "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?"
+    ],
+    "LEARNING": [
+      "Learning, interference, repair, and model revision",
+      "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?"
+    ],
+    "HSA_CONTEXT": [
+      "Hierarchical sparse attention and segmented context",
+      "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?"
+    ],
+    "OUTPUT": [
+      "Output construction, planning, checking, and editing",
+      "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?"
+    ],
+    "READER": [
+      "Language/evidence reader, handoffs, and quiet-time preparation",
+      "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?"
+    ],
+    "BRIDGE": [
+      "Bridge/orchestration integration",
+      "Can the positive NSS mechanisms be wired around a conventional language-model interface with explicit state, exact records, permissions, receipts, and recoverable task continuity?"
+    ],
+    "LOWBIT": [
+      "Low-bit model quantization",
+      "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?"
+    ],
+    "PROGRAM": [
+      "Program controls, evaluation, and documentation",
+      "How do we preserve evidence boundaries, fair tests, source identity, roadmap decisions, and drop-in reproducibility for the larger research program?"
+    ]
+  },
+  "passes": [
+    {
+      "order": 1,
+      "id": "Q001",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can a tiny memory keep a symbol while distractions arrive?",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "result_summary": "Short tasks worked; long distraction exposed decay. Exact memory remained a strong control.",
+      "system": "Five-seed synthetic memory pilot: GRU, soft-gate, hard-gate, full-tape Transformer, and exact-memory control.",
+      "methodology": "WRITE/DISTRACTOR/QUERY streams tested short competence and long-delay recall, including 128 distractors and a post-pilot low-gate intervention.",
+      "key_metrics": "GRU/soft-gate/Transformer passed short task in 5/5 seeds; at 128 distractors early-cue recall fell to 0.39% GRU and 0% soft-gate; exact memory stayed perfect.",
+      "limitations": "Initial feasibility only; exact memory is a strong non-neural control; post-pilot intervention is not a general architecture result.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain the persistence/distractor tests; no rerun.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a tiny memory keep a symbol while distractions arrive?"
+    },
+    {
+      "order": 2,
+      "id": "Q002",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can addressed memory know both a value and when nothing is known?",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "result_summary": "Prepared/gated versions could retain records; short preparation and poorly calibrated admission failed.",
+      "system": "Addressed writable state with 4 addresses, 8 values + UNKNOWN; soft-state, hard-gate, full-history attention, and exact/belief controls.",
+      "methodology": "Evaluated clean and corrupted admission/retention through up to 4,096 distractors; separated write admission from read semantics and missing-value behavior.",
+      "key_metrics": "Wider-prepared soft state, calibrated hard gate, and exact controls retained clean records at 100%; short-prepared soft state failed UNKNOWN at longest gap; full-history cross-attention failed competence in all 5 seeds.",
+      "limitations": "Threshold calibration used labeled admission examples; does not establish a universal hard-gate advantage.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse UNKNOWN and event-admission distinctions.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can addressed memory know both a value and when nothing is known?"
+    },
+    {
+      "order": 3,
+      "id": "Q003",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can noisy memories be repaired without inventing missing ones?",
+      "status": "COMPLETED_MIXED",
+      "result_summary": "Denoising improved known values but could destroy UNKNOWN. Simple exact controls were stronger.",
+      "system": "Nine-code numerical memory states; learned recurrent repair versus nearest-prototype and redundancy controls.",
+      "methodology": "Applied Gaussian shocks and repeated noise, then measured known-code recovery and preservation of UNKNOWN.",
+      "key_metrics": "After one sigma-1 shock recurrence improved known accuracy 65.01%→94.64% but UNKNOWN 71.33%→47.43%; long repeated noise drove recurrence to 100% known / 0% UNKNOWN while nearest-code was 100%/100%.",
+      "limitations": "Shows denoising can erase missingness; explicit presence metadata became necessary.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain absence/novelty controls, not denoising as proof of truthful memory.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can noisy memories be repaired without inventing missing ones?"
+    },
+    {
+      "order": 4,
+      "id": "Q004",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can memory remain empty, then be written, corrected, cleared and rewritten?",
+      "status": "COMPLETED_MIXED",
+      "result_summary": "Protected presence worked narrowly; neural alternatives retained failures.",
+      "system": "Four-address writable-record lifecycle with learned content recurrence, protected presence, neural empty-contraction variants, and exact nearest-prototype maintenance.",
+      "methodology": "Tested absence under a 4,096-round empty interval, first write, correction, clear, and rewrite across five paired seeds.",
+      "key_metrics": "Original content recurrence + protected presence and nearest-prototype maintenance passed nominal screens 5/5; protected presence achieved 319/320 every-read correctness; revised neural empty variants were inconsistent.",
+      "limitations": "Local state stability did not guarantee lifecycle correctness.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse lifecycle tests.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can memory remain empty, then be written, corrected, cleared and rewritten?"
+    },
+    {
+      "order": 5,
+      "id": "Q005",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Should knowing that a memory exists be separate from its contents?",
+      "status": "COMPLETED_NO_UNIQUE_GAIN",
+      "result_summary": "Separate presence lanes worked, but did not beat simple controls.",
+      "system": "Frozen content representation plus learned one- or four-coordinate existence lane; fixed sign/mean and protected-presence controls.",
+      "methodology": "Isolated existence learning from content learning through the same writable lifecycle and extended empty-then-write cases.",
+      "key_metrics": "Both learned split-lane candidates passed nominal screens 5/5 and matched fixed/protected controls at 99.69% every-read; jointly refitted content/existence map failed 5/5.",
+      "limitations": "No learned quality or cost advantage over simpler controls.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep the separation; no architecture win inferred.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Should knowing that a memory exists be separate from its contents?"
+    },
+    {
+      "order": 6,
+      "id": "Q006",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can a reader follow links through records with more thinking steps?",
+      "status": "COMPLETED_BOUNDED",
+      "result_summary": "Structured readers followed longer clean chains with more rounds; noise broke binding.",
+      "system": "Structured record-hop and gated-hop readers, four-stage unshared reader, generic attention controls; 16 generated identities and relational records.",
+      "methodology": "Trained on four-link relations, evaluated up to eight-link depth with repeated computation and later with key/value noise.",
+      "key_metrics": "Shared and gated structured readers reached 100% visible known/missing at eight rounds; four rounds were insufficient; cycling unshared stages also worked. Under sigma-0.02 key/value noise, structured readers scored 0% on four-link known cases.",
+      "limitations": "Supports extra execution of a learned procedure, not a unique recurrent architecture; binding noise remains central.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse relation-depth fixtures; not broad reasoning qualification.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a reader follow links through records with more thinking steps?"
+    },
+    {
+      "order": 7,
+      "id": "Q007",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can stored reference codes repair damaged records?",
+      "status": "COMPLETED_MIXED",
+      "result_summary": "Registered records recovered; unfamiliar identities could be forced into false familiar answers.",
+      "system": "Frozen relation readers with dictionary-conditioned repair, exact-nearest restoration, and intrinsic MLP repair.",
+      "methodology": "Tested clean/noisy keys and values, query noise, registered identities, missing links, and unregistered novel identities.",
+      "key_metrics": "Dictionary/exact-nearest restored nominal known/missing to 100%; at query noise 0.2 one missing case became a false room answer. On unregistered identities learned repair produced unsupported room answers 47.81%, nearest 62.81%, no repair 0%.",
+      "limitations": "Repair assumes identity membership is already known; novelty can be hallucinated as familiarity.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep novelty tests and exact source identity.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can stored reference codes repair damaged records?"
+    },
+    {
+      "order": 8,
+      "id": "Q008",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can a gate reject unfamiliar identities without rejecting recoverable memories?",
+      "status": "COMPLETED_GATE_FAILED",
+      "result_summary": "False acceptance fell, but valid known coverage suffered; joint gates failed.",
+      "system": "Geometric gate A and learned membership gate B paired with nearest repair.",
+      "methodology": "Measured unfamiliar-identity rejection versus recovery of damaged known identities, registration lifecycle, altered-known stress, and maintenance cadence.",
+      "key_metrics": "Unregistered false acceptance fell to 0.43%/0.55%, but altered-known identity accuracy dropped to 70.16%/66.93% versus 98.85% without gates; full joint criterion passed 0/5 seeds.",
+      "limitations": "Selectivity reduced one failure surface while damaging coverage; no qualified gate.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep the tradeoff; no preferred gate established.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a gate reject unfamiliar identities without rejecting recoverable memories?"
+    },
+    {
+      "order": 9,
+      "id": "Q009",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can almost-identical people or records be kept from overwriting each other?",
+      "status": "COMPLETED_BOUNDED_REFERENCE",
+      "result_summary": "Exact ownership worked; learned close-identity readers/binders remained weak.",
+      "system": "Explicit owner/scope/epoch/revision state; exact identity-keyed writes and traversal; frozen learned binders/readers; near-negative training; owner-keyed rehydration.",
+      "methodology": "Stress-tested 0.01-close identities, conflict guards, noisy maintenance, exact versus learned traversal, and targeted transaction validity.",
+      "key_metrics": "Exact writes preserved complete map and 7,680/7,680 targeted transactions; learned binder failed at 0.01 separation and learned readers were ~20% joint on very close cases; exact owner traversal 100%.",
+      "limitations": "Strong bounded exact ownership reference; learned close-identity reading remains weak.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse exact ownership; keep learned-binding gap open.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can almost-identical people or records be kept from overwriting each other?"
+    },
+    {
+      "order": 10,
+      "id": "Q010-ORIGINAL",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Was the original broader qualification reproducible from retained evidence?",
+      "status": "REPORT_ONLY_ORIGINAL_PAYLOAD_GAP",
+      "result_summary": "Original report remains historical; essential original training/code/checkpoint bytes were missing in the documented inventory.",
+      "system": "Historical owned-record qualification: inherited reader, ordinary continuation, close-identity continuation, task-adapted attention/pointer reader, exact traversal.",
+      "methodology": "Report describes 15 new fits across three recipes/five seed pairs, six development fits, 90,000 main optimizer steps and an eight-link task.",
+      "key_metrics": "Report says ordinary continuation and task-adapted attention passed nominal screens 5/5; close-identity continuation failed complete nominal screen; exact traversal remained 100% on cited close-source measures.",
+      "limitations": "Original 302.8 MB archive, source lock, checkpoints, optimizer/RNG history and raw main evidence are missing; claims remain report-level only.",
+      "evidence_class": "Historical report only; essential original payload missing",
+      "decision_next": "Do not relabel reconstructed weights as originals.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Was the original broader qualification reproducible from retained evidence?"
+    },
+    {
+      "order": 11,
+      "id": "Q010-RECOVERY-v1.6",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can the recovered reference at least be evaluated at fixed weights?",
+      "status": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+      "result_summary": "Bounded reconstructed inference/state evidence accepted; close-identity and novel-query limitations remained.",
+      "system": "Reconstructed fixed-weight evaluation of 15 saved exports mapped to ordinary, close, and attention roles across five seed pairs.",
+      "methodology": "Inference-only reconstruction over 64 declared conditions; zero optimizer updates; source and evaluation were reconstructed and independently checked within the recovery package.",
+      "key_metrics": "Frozen nominal screens passed 5/5 for all three reconstructed arms, but close-source supported answers were only 52.50–71.56%; novel near-collision queries were UNKNOWN 0/640 in every learned arm.",
+      "limitations": "Does not restore original training history or qualify the original Q010 claim; bounded reconstruction only.",
+      "evidence_class": "Executed inference-only reconstruction; no original training history",
+      "decision_next": "Preserve closure scope; no restoration of missing original training.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can the recovered reference at least be evaluated at fixed weights?"
+    },
+    {
+      "order": 12,
+      "id": "CM01",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can a small explicit reference packet help the reader identify the right record?",
+      "status": "COMPLETED_BOUNDED",
+      "result_summary": "Reference assistance helped noisy cases; exact lookup stayed a strong control.",
+      "system": "Five frozen reconstructed near-readers plus bounded explicit reference workspace; packet variants and exact lookup controls.",
+      "methodology": "Compared numerical query alone, 56-byte ASCII/UTF8 reference packet, public exact lookup, and privileged owner result across held-out noisy records.",
+      "key_metrics": "Close-identity recall improved 88/200→142/200; ordinary-known 157/200→200/200; ASCII and UTF8 packet paths matched on 7,680 comparisons; exact public lookup remained 40/40.",
+      "limitations": "Wrapper/reference assistance, not native learned-token memory; 56 bytes are not 56 model tokens.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse references; bytes are not language tokens.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a small explicit reference packet help the reader identify the right record?"
+    },
+    {
+      "order": 13,
+      "id": "CM02",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Is a little context packet better than an ordinary index with the same information?",
+      "status": "COMPLETED_NO_FORMAT_ADVANTAGE",
+      "result_summary": "Packet and index tied; retaining selection information mattered more than its format.",
+      "system": "Chronological context manager with two-entry workspace packet, ordinary two-entry index, and selection-history ablation.",
+      "methodology": "Five held-out episode families × five reader seeds × 120 query occasions; tested revisions, freshness, stale references, deletion, parsing/traffic/storage.",
+      "key_metrics": "Workspace and ordinary index tied 391/600; ablation 307/600. Benefit varied with noise. Exact pinned retrieval 100/120; valid revision chain 105/120.",
+      "limitations": "Format itself had no advantage; selection information mattered. Workspace added parsing/transient/traffic cost.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep ordinary index baseline.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Is a little context packet better than an ordinary index with the same information?"
+    },
+    {
+      "order": 14,
+      "id": "TS01",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Can a recurrent state track two checklists?",
+      "status": "COMPLETED_BOUNDED",
+      "result_summary": "Yes on a narrow fixed-weight task with supplied routing/no-op handling; exact tracking also worked.",
+      "system": "Five new GRUCell(9,64)+Linear(64,9) readers, 14,985 parameters each, with two 64-float task banks; exact packed tracker control.",
+      "methodology": "2,000 updates per fit; supplied task routing and no-op filtering; compared CARRY, PREFIX_REPLAY and ZERO_EVERY_EVENT on held-out checklist streams.",
+      "key_metrics": "CARRY and PREFIX_REPLAY 600/600 joint answers; ZERO_EVERY_EVENT 200/600; exact tracker 120/120 unique occasions. All five fits 120/120 held-out.",
+      "limitations": "Strong narrow temporal-state feasibility; routing/no-op handling supplied; exact progress fits in one byte before metadata.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse temporal-state baseline; not learned task routing.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a recurrent state track two checklists?"
+    },
+    {
+      "order": 15,
+      "id": "TS02-MW01",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Do small metadata tokens improve revision-aware progress tracking?",
+      "status": "COMPLETED_GATE_FAILED",
+      "result_summary": "Some pooled gains, but reliability and stale/false-completion gates failed.",
+      "system": "15 new fits: recurrent-only R, larger R+, and recurrent+workspace RW across five seeds; metadata tokens supplied by deterministic manager.",
+      "methodology": "1,000 updates per main fit plus cost probes; evaluated revision-aware progress/action, stale claims, and designated wrong-DONE cases.",
+      "key_metrics": "Held-out joint: R 507/600, R+ 496/600, RW 526/600; only 3/5 RW fits met 90% floor; RW made 75 stale/unsupported revision claims and 17 wrong-DONE assertions.",
+      "limitations": "Pooled improvement but failed reliability/safety screen; does not isolate representation from capacity.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain under RET-MW01-FIT-001.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Do small metadata tokens improve revision-aware progress tracking?"
+    },
+    {
+      "order": 16,
+      "id": "TS03-CR01",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Does a revised curriculum fix the workspace learner?",
+      "status": "COMPLETED_GATE_FAILED",
+      "result_summary": "Coverage, interaction, reliability and final-advantage screens failed despite correct bindings in some cases.",
+      "system": "24 fits crossing curricula C0/C1 with R/R+/RW, four paired fits per cell.",
+      "methodology": "800 updates per fit; C1 altered joint revision exposure while preserving marginal histories; primary repair, reliability, asymmetric-combination and advantage screens.",
+      "key_metrics": "Primary joint scores improved some R/R+ cells but C1-RW fell 58/144→51/144; C1-RW only 34–36/80 per fit, 96 invalid revision claims, 6 wrong-DONE; all primary gates failed.",
+      "limitations": "Correct binding in some cases did not yield correct derived progress; no single fault isolated.",
+      "evidence_class": "Executed study",
+      "decision_next": "Do not mistake correct identity labels for correct procedures.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Does a revised curriculum fix the workspace learner?"
+    },
+    {
+      "order": 17,
+      "id": "CKA01",
+      "category_id": "MEMORY_STATE",
+      "category": "Persistent state, memory, binding, and compact context",
+      "broad_question": "How can NSS preserve, bind, recover, and use the right state/evidence across long event streams without confusing identity, absence, revision, or scope?",
+      "specific_question": "Did the task learner forget later, or never learn adequately?",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "result_summary": "Saved-checkpoint analysis found substantial fitting/transfer weakness, not an early-stop rescue.",
+      "system": "Inference-only audit across 165 saved snapshots from TS01 and TS03.",
+      "methodology": "Rescored fixed checkpoints over training time and new same-recipe/stress streams; no new fit, optimizer update, or backward pass.",
+      "key_metrics": "TS01 reached/stayed 600/600; TS03 C1-RW improved then remained weak, with no fit exceeding 39/80 on stress and only 65/256 on newly seeded same-recipe endpoints at update 800.",
+      "limitations": "Failure is not explained by simple overtraining/early stopping; familiar-task fitting and transfer remained weak.",
+      "evidence_class": "Retained-data analysis only",
+      "decision_next": "Keep as diagnostic; no new training in this audit.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Did the task learner forget later, or never learn adequately?"
+    },
+    {
+      "order": 18,
+      "id": "DC01-v0.4",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can the delayed-feedback experiment fit its evidence budget?",
+      "status": "TECHNICAL_PREFLIGHT_STOP",
+      "result_summary": "Storage forecast stopped main work before learning evaluation.",
+      "system": "Failure-first delayed-feedback learning study with derivative/fault/integration probes and evidence-budget accounting.",
+      "methodology": "Ran preflight and cost probes only; forecasted evidence size under fixed 64 MiB cap before main fitting.",
+      "key_metrics": "240 applications preserved; conservative storage forecast exceeded cap, so main learning did not run. Later lossless encoding reduced forecast enough for v0.5.",
+      "limitations": "Engineering admission stop, not a negative learning result.",
+      "evidence_class": "Technical preflight stop",
+      "decision_next": "Historical stop preserved; v0.5 is separately identified.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can the delayed-feedback experiment fit its evidence budget?"
+    },
+    {
+      "order": 19,
+      "id": "DC01-v0.5",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can a correctly identified delayed signal teach a new association?",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "result_summary": "Bounded identified delayed updates worked; general temporal credit and total cost remain open.",
+      "system": "Bounded G/L delayed-feedback learners with an identified cue-time trace; unrelated-old controls.",
+      "methodology": "After storage repair, tested whether a known feedback event could drive updates while preserving unrelated old answers.",
+      "key_metrics": "G 302/320 and L 301/320 versus 224/320 frozen controls; 512/512 unrelated-old endpoint labels retained. First reversal correction missed 18/32 G and 19/32 L, both corrected at next receipt.",
+      "limitations": "Specific identified feedback mechanism only; general credit assignment and total memory efficiency remain open.",
+      "evidence_class": "Executed study; full execution ZIP missing in current legacy inventory, report/receipt retained",
+      "decision_next": "Use as a limited mechanism reference; raw archive availability remains source-reported.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a correctly identified delayed signal teach a new association?"
+    },
+    {
+      "order": 20,
+      "id": "REV01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Does a stronger correction teach faster?",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "result_summary": "Faster first correction, but old-confidence damage and some old-label errors prevented complete qualification.",
+      "system": "Four paired G/L fits comparing normal clip 1 against one-time clip 2 at first lawful reversal.",
+      "methodology": "Development admission followed by eight held-out bases × four fits; measured correction speed, old labels and old confidence.",
+      "key_metrics": "First-correction accuracy rose 17/32→32/32 G and 16/32→32/32 L; later both 32/32. Complete qualification failed due old-confidence damage and five persistent old-label errors in L.",
+      "limitations": "Stronger correction speeds acquisition but harms old behavior.",
+      "evidence_class": "Executed study",
+      "decision_next": "Do not adopt larger updates merely from faster acquisition.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Does a stronger correction teach faster?"
+    },
+    {
+      "order": 21,
+      "id": "PROTECT01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can a projected update protect old answers while learning?",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "result_summary": "Projection had a development tradeoff; acquisition admission stopped held-out work.",
+      "system": "Projected-gradient protection P versus same-norm unprojected S, alongside G/L.",
+      "methodology": "Development-only first-order old-margin constraints with a fixed acquisition admission rule; held-out mappings gated behind A0.",
+      "key_metrics": "Stopped at A0: G passed relative-gain in 2/4 (<3 required), L 4/4. Projection improved old-confidence relative to S but reduced focal corrections; finite steps still lowered margins.",
+      "limitations": "Development tradeoff only; no held-out protection qualification.",
+      "evidence_class": "Development admission stop",
+      "decision_next": "Not the later activity-subspace method.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can a projected update protect old answers while learning?"
+    },
+    {
+      "order": 22,
+      "id": "REHEARSE01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can old-example practice repair damage from a strong correction?",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "result_summary": "Stopped at development admission; useful old-loss effects did not qualify the whole rule.",
+      "system": "Strong correction followed by replay of old examples in G/L development fits.",
+      "methodology": "Fixed development admission; replay old examples after correction; test fast flips, old answers, confidence.",
+      "key_metrics": "Stopped at A0: G 2/4, L 4/4. Rehearsal improved old loss but confidence limits still failed.",
+      "limitations": "Useful local repair effect, not qualified maintenance policy.",
+      "evidence_class": "Development admission stop",
+      "decision_next": "Keep the old/new competition evidence.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can old-example practice repair damage from a strong correction?"
+    },
+    {
+      "order": 23,
+      "id": "ANA-REHEARSE01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "What do the saved rehearsal gradients and losses explain?",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "result_summary": "Retained-data analysis supported old/new competition; it did not run another repair policy.",
+      "system": "Retained gradients/losses from REHEARSE01.",
+      "methodology": "Recomputed 13,220 saved scores and inspected old/new gradient competition; no forwards/updates beyond retained-data analysis.",
+      "key_metrics": "Rehearsal reduced old loss, then next focal update worsened old loss in every context; supports old/new competition rather than arithmetic malfunction.",
+      "limitations": "Analysis only; does not validate a new repair policy.",
+      "evidence_class": "Retained-data analysis only",
+      "decision_next": "Reuse diagnosis rather than retrain to fill documentation.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "What do the saved rehearsal gradients and losses explain?"
+    },
+    {
+      "order": 24,
+      "id": "TIMING01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Should replay happen early or after later feedback?",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "result_summary": "Endpoints improved in many cases, but full-trajectory confidence requirements failed.",
+      "system": "Equal rehearsal budget placed early versus later after another lawful receipt; G/L schedules.",
+      "methodology": "Full held-out trajectory study with common event-boundary scoring, transient harm and endpoint behavior.",
+      "key_metrics": "All G/L 4/4 passed old-label/acquisition/recovery/final endpoint screens under new A0, but original full-trajectory confidence rules still failed; later repair often improved final loss.",
+      "limitations": "Endpoint repair can hide transient damage; both trajectories must be reported.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep transient harm separate from final recovery.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Should replay happen early or after later feedback?"
+    },
+    {
+      "order": 25,
+      "id": "ANA-TIMING01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Did favorable endpoints hide damage during the update sequence?",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "result_summary": "Retained analysis preserved the original failures and exposed worse peaks.",
+      "system": "Retained TIMING01 trajectory arrays.",
+      "methodology": "Inference-free analysis of full-trajectory loss/accuracy peaks and retained file integrity.",
+      "key_metrics": "Original confidence failures unchanged; peak old loss worse in many contexts despite favorable final endpoints.",
+      "limitations": "Retained-data analysis only; no new schedule.",
+      "evidence_class": "Retained-data analysis only",
+      "decision_next": "Measure both temporary candidate harm and accepted behavior.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Did favorable endpoints hide damage during the update sequence?"
+    },
+    {
+      "order": 26,
+      "id": "MICROMACRO01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can one bounded learn-and-repair cycle retain a gain through later feedback?",
+      "status": "COMPLETED_BOUNDED_CYCLE",
+      "result_summary": "A narrow cycle contract passed; stricter criteria failed. Not indefinite successive generations.",
+      "system": "Eight fresh association fits with G/L repair/no-repair controls.",
+      "methodology": "Prospective bounded learn-and-repair cycle; tested new gain, old classes and survival through two later receipts.",
+      "key_metrics": "Prospective three-point mean-recovery contract passed 32/32 G and 29/32 L; stricter recovery requirements failed.",
+      "limitations": "Supports one narrow lifecycle cycle, not indefinite successive generations or state migration.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse as a cycle ingredient, not a complete day/night system.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can one bounded learn-and-repair cycle retain a gain through later feedback?"
+    },
+    {
+      "order": 27,
+      "id": "TEACH01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Does a stable teacher help when direct replay misses old examples?",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "result_summary": "Modest report-level benefit; complete old records and ordinary controls were strong.",
+      "system": "Four small frozen teacher-surrogate fits paired with learner branches; current evidence and programmed curriculum coordinator.",
+      "methodology": "Compared teacher+recent, recent-only, hard-record and deeper/replay alternatives when direct replay omits old examples.",
+      "key_metrics": "Teacher+recent met 32/32 G and 32/32 L; omitted-old mean loss reduced ~13.8% G / 15.3% L versus RECENT. Complete hard records slightly better.",
+      "limitations": "Modest complementary benefit when direct records incomplete; no evidence that a trained Tertiary/tri-core is necessary.",
+      "evidence_class": "Report/receipt-level; full execution archive missing in legacy inventory",
+      "decision_next": "Does not justify a separate Tertiary; preserve source-availability limits.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Does a stable teacher help when direct replay misses old examples?"
+    },
+    {
+      "order": 28,
+      "id": "C00-CONTRACT01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can the software safely review and record a proposed change?",
+      "status": "COMPLETED_SOFTWARE_CONTRACT",
+      "result_summary": "Authored transaction/contract checks worked after a preserved bug fix; no neural reviewer tested.",
+      "system": "Deterministic software review/adoption contract suite.",
+      "methodology": "1,494 authored transaction cases including cumulative anchors, stale adoption and interrupted operations; no neural reviewer.",
+      "key_metrics": "Contract checks worked after preserving/fixing a false-permission schema bug.",
+      "limitations": "Software conformance only; no model competence or deployment result.",
+      "evidence_class": "Software-contract execution",
+      "decision_next": "Reuse receipts and interruption semantics.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can the software safely review and record a proposed change?"
+    },
+    {
+      "order": 29,
+      "id": "EVAL01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Does stricter checking reject bad changes without rejecting too many useful ones?",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "result_summary": "Retrospective snapshots showed an admission/deferral tradeoff, not a universal evaluator winner.",
+      "system": "Retrospective policy analysis over 1,472 retained snapshots.",
+      "methodology": "Compared targeted versus fixed admission policies; counted accepted, deferred, and out-of-envelope offers. No learner run.",
+      "key_metrics": "Targeted retained 1,074, deferred 84, admitted 2 out-of-envelope; fixed retained 1,112, deferred 46, admitted 14.",
+      "limitations": "Admission/availability tradeoff; no universal evaluator winner.",
+      "evidence_class": "Retained-data analysis only",
+      "decision_next": "Keep false accepts and false rejects separate.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Does stricter checking reject bad changes without rejecting too many useful ones?"
+    },
+    {
+      "order": 30,
+      "id": "STATEBRIDGE01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can unfinished internal state continue after weights change?",
+      "status": "COMPLETED_DIAGNOSTIC_UNQUALIFIED",
+      "result_summary": "Initial reading could work while subsequent computation failed; numerical gate also failed.",
+      "system": "Four new GRUCell(16,64)+Linear(64,9) fits, 16,329 params; task A carried state, task B association learning; CARRY/REBUILD/PINNED.",
+      "methodology": "Saved unfinished A state before B learning, then continued under changed weights; compared carrying old state, rebuilding from history, and old-version pinning.",
+      "key_metrics": "Initial changed-stage read 1,024/1,024; after eight transitions CARRY 610/1,024, repair 670/1,024; post-repair adequacy 9/32 CARRY and 1/32 REBUILD. PINNED preserved A 5,120/5,120 but kept obsolete B. Numerical gate failed.",
+      "limitations": "Shows state/weight compatibility matters; does not qualify migration/repair.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep state/weight and numerical questions open.",
+      "source_files": [
+        "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md"
+      ],
+      "eli5": "Can unfinished internal state continue after weights change?"
+    },
+    {
+      "order": 31,
+      "id": "SURFACE01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can we isolate which changed weights break old work?",
+      "status": "STOP_BASELINE_COMPETENCE",
+      "result_summary": "Four parents trained; one false-DONE history stopped the planned surface comparison before B corrections.",
+      "system": "Four inherited GRU+head parents; planned readout/recurrent update-surface discrimination.",
+      "methodology": "First re-established baseline checklist competence before B corrections; prospectively stop if any parent violated zero-false-DONE family gate.",
+      "key_metrics": "Parent 4103 produced six false-DONE events on one idempotent history; study stopped before planned surface comparison. Other parents retained.",
+      "limitations": "Baseline competence stop is preserved; no surface verdict.",
+      "evidence_class": "Executed admission study; planned main comparison stopped",
+      "decision_next": "Parent study complete; factorial remains unrun.",
+      "source_files": [
+        "NSS_NBR02_SURFACE01_Report_v0.1.md"
+      ],
+      "eli5": "Can we isolate which changed weights break old work?"
+    },
+    {
+      "order": 32,
+      "id": "TRACE01",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can observed degradation guide what to rehearse?",
+      "status": "TECHNICAL_STOP_PARTIAL_CONFIRMATION",
+      "result_summary": "Tracked onset; guided replay had mixed development tradeoffs. Numerical failure and storage stop left 3/32 confirmation contexts.",
+      "system": "Four SURFACE parents; U/L/R/LR plus degradation-guided LG and shuffled-guidance LS branches.",
+      "methodology": "64 B-only correction updates; 32 A-only repair; every-update monitoring localized first new A errors; guided selector ranked a retained history pool.",
+      "key_metrics": "All 32 B corrections acquired; development CARRY errors L 18,481, LR 113, LG 91, LS 103. Guided had fewer event errors but more failed histories/false-DONE; numerical qualification failed and storage guard left only 3/32 confirmation contexts.",
+      "limitations": "Diagnostic only; no validated guided-replay superiority.",
+      "evidence_class": "Executed study",
+      "decision_next": "No qualified guided-replay superiority.",
+      "source_files": [
+        "NSS_NBR02_TRACE01_Report_v0.1.md"
+      ],
+      "eli5": "Can observed degradation guide what to rehearse?"
+    },
+    {
+      "order": 33,
+      "id": "RECOVER01-v0.2",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Can ordinary replay recover old work after new learning?",
+      "status": "COMPLETED_DIAGNOSTIC_STRONG_RECOVERY",
+      "result_summary": "Very large observed repair; corrected classes survived. Residual errors and strict numerical failure remain.",
+      "system": "Four SURFACE parents × eight correction contexts; U/L/R/LR; all GRU/head weights trainable.",
+      "methodology": "64 B-only updates, 32 ordinary A-only replay, CARRY/REBUILD evaluation on fresh 256-history confirmation; error-set accounting and B retention.",
+      "key_metrics": "CARRY L 152,606 errors → LR 1,055 (99.31% reduction); 151,660/152,526 induced errors repaired; all 32 corrected B classes retained. U only 88 errors; LR still 85 false-DONE, 310 failed histories. Strict numerical contract failed.",
+      "limitations": "Strong observed replay mechanism, not full recovery or qualified learner.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep replay reference; no reset-to-parent result proves long-run learning.",
+      "source_files": [
+        "NSS_NBR02_RECOVER01_Report_v0.2.md"
+      ],
+      "eli5": "Can ordinary replay recover old work after new learning?"
+    },
+    {
+      "order": 34,
+      "id": "SH01",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Does a hierarchy help a small maintenance reader?",
+      "status": "COMPLETED_PARTIAL_COHORT",
+      "result_summary": "HSA learned the bounded rule better than paired dense models; initial sparse execution was slower. One fit incomplete.",
+      "system": "Versioned typed records + shared 18,500-parameter reader; paired dense attention and native hierarchical sparse attention; simple/persistent managers.",
+      "methodology": "Three-level task/region/global hierarchy; same training budget and paired initial weights; four-way dense/HSA × simple/persistent management; cost probes.",
+      "key_metrics": "Across 3 complete pairs HSA 6,133/6,144 (99.821%) vs dense 5,553/6,144 (90.381%); persistent manager cut packet builds 96→32 with 64 cache hits. Initial HSA runtime slower.",
+      "limitations": "Hierarchy was helpful on the bounded rule; supplied dependency identities; one HSA fit incomplete.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain three completed pairs, not four.",
+      "source_files": [
+        "NSS_NBR02_SH01_Report_v0.1.md"
+      ],
+      "eli5": "Does a hierarchy help a small maintenance reader?"
+    },
+    {
+      "order": 35,
+      "id": "SH02",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can we clean the same hierarchy without changing its decisions?",
+      "status": "WORKING_COMPONENT_PARKED",
+      "result_summary": "Packed execution improved larger cases; small/batched costs and historical bitwise mismatch remain.",
+      "system": "Standalone nss_hsa package preserving SH01 topology/weights, with plan compiler and packed shared-neighborhood attention.",
+      "methodology": "Reimplemented same graph without retraining; grouped task queries sharing neighborhoods; compared old HSA, packed HSA, and dense cost probes.",
+      "key_metrics": "All 9,984 retained decisions unchanged; packed path ~3.7× faster than old HSA at 128 tasks and ~5.6× at 512, but slower at smallest case; historical bitwise replay mismatch remained within numeric/class tolerances.",
+      "limitations": "Clean working three-level hierarchy; not a depth-optimum proof.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep three levels; no further depth campaign.",
+      "source_files": [
+        "NSS_NBR02_SH02_Report_v0.1.md"
+      ],
+      "eli5": "Can we clean the same hierarchy without changing its decisions?"
+    },
+    {
+      "order": 36,
+      "id": "SC01",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can bounded segments track revisions and interrupted maintenance?",
+      "status": "WORKING_COMPONENT_PARKED",
+      "result_summary": "Exact integration worked; ordinary caching supplied most savings and some jobs were slower.",
+      "system": "Versioned archive + bounded segmented maintenance workspace feeding fixed SH02 reader; INDEX/CACHE/SEGMENT policies.",
+      "methodology": "Two-layer backward-closure planner; active row caps; revision/invalidation, interruption/resume, exact receipts; strong conventional cache comparator.",
+      "key_metrics": "324 conditions: 0 class differences vs full reader; SEG lower timing median in 11/12 cells but 7.3% slower in 32-task resume; most gains came from ordinary caching. Single-task closure still needs broad metadata.",
+      "limitations": "Working segmented execution; custom policy not universally superior.",
+      "evidence_class": "Executed study",
+      "decision_next": "Reuse lifecycle; not a language-token result.",
+      "source_files": [
+        "NSS_NBR02_SC01_Report_v0.1.md"
+      ],
+      "eli5": "Can bounded segments track revisions and interrupted maintenance?"
+    },
+    {
+      "order": 37,
+      "id": "SC02",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can incremental work make the segmented implementation better?",
+      "status": "WORKING_COMPONENT_PARKED",
+      "result_summary": "Incremental publication/plans helped; intermediate neural caching was slower in all tested cells.",
+      "system": "Same SC01/SH02 system with incremental record publication, reusable graph plans/signatures, scheduling fallback, and optional neural intermediate cache.",
+      "methodology": "Optimized execution while preserving exact computations; tested original cache, SC01, improved scheduled path, and neural-cache ablation.",
+      "key_metrics": "32-task churn 20.94→16.37 ms versus SC01; 128-task churn 49.49→28.93 ms. Neural intermediate cache avoided ~47% first-layer demands but was slower in all 20 timing cells.",
+      "limitations": "Keep incremental engineering; leave neural cache disabled.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep useful simple improvements; neural cache off by default.",
+      "source_files": [
+        "NSS_NBR02_SC02_Report_v0.1.md"
+      ],
+      "eli5": "Can incremental work make the segmented implementation better?"
+    },
+    {
+      "order": 38,
+      "id": "CAP01",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can the computation finish when all its evidence cannot fit at once?",
+      "status": "WORKING_COMPONENT_PARKED",
+      "result_summary": "Exact multipass attention extended input reach; ordinary streaming matched custom grouping. Larger-layout learned errors persisted.",
+      "system": "Exact multipass attention executor over SH02 graph with 32-position active query/key tiles and external layer storage.",
+      "methodology": "Carried running softmax max/denominator/weighted numerator across tiles; ordinary tiled retrieval and hierarchy-grouped segmented policy both allowed; no retraining.",
+      "key_metrics": "Completed tasks whose resident closure needed 69–755 positions using 32-position tiles with 0 class differences vs full reference. HSA accuracy remained high on 8/32/128 layouts, weaker on limited 512 stress. Ordinary streaming matched custom grouping.",
+      "limitations": "Demonstrates executable input reach beyond resident packet; not unique segmented-policy advantage or new reasoning skill.",
+      "evidence_class": "Executed study",
+      "decision_next": "Capacity demonstrated narrowly; no exclusive segmentation advantage.",
+      "source_files": [
+        "NSS_NBR02_CAP01_Report_v0.1.md"
+      ],
+      "eli5": "Can the computation finish when all its evidence cannot fit at once?"
+    },
+    {
+      "order": 39,
+      "id": "CAP02",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can broader practice help use the expanded input reach without losing the small task?",
+      "status": "BOUNDED_CLOSEOUT_PARKED_FOR_INTEGRATION",
+      "result_summary": "Mixed-size preparation improved larger layouts and retained small-task skill; remaining errors preserved.",
+      "system": "Six exact CAP01 dense/HSA parents; untouched, small-only, and mixed-size preparation continuations.",
+      "methodology": "96 further updates per branch; mixed arm cycles 8/32/128-task worlds; fresh 8/32/128/512 evaluation; cross-segment cap32 checks.",
+      "key_metrics": "HSA mixed: 768/768 at 8 tasks, 767/768 at 32, 766/768 at 128, 189/192 at 512 stress; whole jobs 95/96 at 32, 94/96 at 128, 21/24 at 512. Small-only was weaker on larger layouts.",
+      "limitations": "Broader preparation improves larger-layout use while retaining small skill; component parked for integration.",
+      "evidence_class": "Executed study",
+      "decision_next": "HSA/segmented series closed for now, not whole NSS qualification.",
+      "source_files": [
+        "NSS_NBR02_CAP02_Report_v0.1.md"
+      ],
+      "eli5": "Can broader practice help use the expanded input reach without losing the small task?"
+    },
+    {
+      "order": 40,
+      "id": "DARP01",
+      "category_id": "OUTPUT",
+      "category": "Output construction, planning, checking, and editing",
+      "broad_question": "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?",
+      "specific_question": "Can segmented diffusion plan, check and repair maintenance output blocks?",
+      "status": "COMPLETED_OUTPUT_COMPETENCE_NOT_ESTABLISHED",
+      "result_summary": "Mechanism ran; initial writers were weak. Copying and missing replanning preparation limited comparison.",
+      "system": "Nine new 58,354-parameter two-layer prefix-Transformer writers; 82-token vocabulary; AR, blockwise DARP, whole-output diffusion.",
+      "methodology": "Three 17-token JSON records (plan/state/next); four-step absorbing-mask denoising; exact external checker flags wrong positions but never supplies replacements; 3 paired seeds × 900 updates.",
+      "key_metrics": "Guided static complete handoffs AR 5/144, DARP 21/144, WHOLE 0/144; DARP successes concentrated in one seed; all changed-action replans 0/66. Some individual corrections worked.",
+      "limitations": "Executable mechanism, output competence not established; preparation/interface gaps identified.",
+      "evidence_class": "Executed study",
+      "decision_next": "Historical first pass; do not reopen weak controls.",
+      "source_files": [
+        "NSS_NBR02_DARP01_Report_v0.1.md"
+      ],
+      "eli5": "Can segmented diffusion plan, check and repair maintenance output blocks?"
+    },
+    {
+      "order": 41,
+      "id": "DARP02",
+      "category_id": "OUTPUT",
+      "category": "Output construction, planning, checking, and editing",
+      "broad_question": "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?",
+      "specific_question": "Does better creation/edit/revision preparation help?",
+      "status": "COMPLETED_PREPARATION_GAIN",
+      "result_summary": "Large preparation gain; richer feedback had no broad advantage; natural errors remained hard to repair.",
+      "system": "Six DARP01 AR/DARP parents continued into location-feedback P and typed-feedback R branches; exact metadata wrapper.",
+      "methodology": "600 updates each; explicit create/repair/revise curriculum including old-plan+new-evidence; authored coherent corruptions; same 58,354-param writers.",
+      "key_metrics": "Prepared AR 129/144 static, 46/54 changed-plan; prepared DARP 116/144 static, 48/54 changed-plan. Typed categories produced no broad benefit. DARP repaired 187/216 authored faulty blocks but only 4/66 naturally wrong static blocks.",
+      "limitations": "Preparation materially helped; reliable natural-error correction and overall DARP superiority not established.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain curriculum and exact metadata support.",
+      "source_files": [
+        "NSS_NBR02_DARP02_Report_v0.1.md"
+      ],
+      "eli5": "Does better creation/edit/revision preparation help?"
+    },
+    {
+      "order": 42,
+      "id": "DARP03",
+      "category_id": "OUTPUT",
+      "category": "Output construction, planning, checking, and editing",
+      "broad_question": "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?",
+      "specific_question": "Does learning from real mistakes give diffusion a clear advantage over AR?",
+      "status": "PARK_CURRENT_DARP_IMPLEMENTATION",
+      "result_summary": "Useful supported DARP approached AR, but no clear quality/speed win; more false completion and slower sample.",
+      "system": "Six exact DARP02 P parents; AR/DARP branches with matched authored-error control C and actual-error replay N.",
+      "methodology": "Collect frozen parents' real erroneous drafts; 400 continuation updates; same target locations/budgets; prospective keep-or-park rule; fixed shared error probe and timing subset.",
+      "key_metrics": "N-AR static 361/384, changed 128/150, macro 89.67%; N-DARP 359/384, 128/150, 89.41%. DARP repaired 391/431 fixed wrong blocks vs AR 386/431, but had 6 vs 1 false-COMPLETE and was ~6.6% slower.",
+      "limitations": "No clear DARP advantage; park diffusion-specific implementation, retain plan/check/edit/commit workflow.",
+      "evidence_class": "Executed study",
+      "decision_next": "Keep AR reference and plan/check/edit/commit, not diffusion as a requirement.",
+      "source_files": [
+        "NSS_NBR02_DARP03_Report_v0.1.md"
+      ],
+      "eli5": "Does learning from real mistakes give diffusion a clear advantage over AR?"
+    },
+    {
+      "order": 43,
+      "id": "HSA-CONSOLIDATION",
+      "category_id": "HSA_CONTEXT",
+      "category": "Hierarchical sparse attention and segmented context",
+      "broad_question": "Can NSS use a bounded active working set and selective hierarchical computation to reach more information or reduce redundant work while preserving exact evidence?",
+      "specific_question": "Can we preserve the whole HSA/context record and its boundaries?",
+      "status": "DOCUMENTATION_COMPLETE",
+      "result_summary": "Six studies consolidated and evidence indexed; result remains a bounded component.",
+      "system": "Documentary consolidation of SH01, SH02, SC01, SC02, CAP01, CAP02.",
+      "methodology": "Indexed protocols, reports, source/test entry points, lineage, results, failure ledger, and maintenance-token implications; no model execution.",
+      "key_metrics": "Produced 27-page DOCX/MD and verified original six execution archives/payloads; disposition remains working bounded component, parked for integration.",
+      "limitations": "Documentation, not new scientific evidence.",
+      "evidence_class": "Documentation/integrity consolidation",
+      "decision_next": "Reference for integration; not another experiment.",
+      "source_files": [
+        "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md"
+      ],
+      "eli5": "Can we preserve the whole HSA/context record and its boundaries?"
+    },
+    {
+      "order": 44,
+      "id": "DARP-CONSOLIDATION",
+      "category_id": "OUTPUT",
+      "category": "Output construction, planning, checking, and editing",
+      "broad_question": "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?",
+      "specific_question": "Can we preserve DARP findings and a clear stop decision?",
+      "status": "DOCUMENTATION_COMPLETE",
+      "result_summary": "Three studies consolidated; viable supported alternative without established practical superiority or general equivalence.",
+      "system": "Documentary consolidation of DARP01–03.",
+      "methodology": "Combined research questions, implementation/control details, quality/repair results, decision criteria, costs, failure ledger and source index; no model execution.",
+      "key_metrics": "26-page DOCX/MD; final decision preserved: viable supported alternative, no practical advantage/general equivalence; park current DARP.",
+      "limitations": "Documentation only.",
+      "evidence_class": "Documentation/integrity consolidation",
+      "decision_next": "Park current implementation, retain evidence.",
+      "source_files": [
+        "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.md"
+      ],
+      "eli5": "Can we preserve DARP findings and a clear stop decision?"
+    },
+    {
+      "order": 45,
+      "id": "EVIDENCE-LED-PLAN",
+      "category_id": "PROGRAM",
+      "category": "Program controls, evaluation, and documentation",
+      "broad_question": "How do we preserve evidence boundaries, fair tests, source identity, roadmap decisions, and drop-in reproducibility for the larger research program?",
+      "specific_question": "What should we do next without repeating old experiments?",
+      "status": "PLAN_CURRENT",
+      "result_summary": "Stepwise main path and conditional literature queue established.",
+      "system": "Program-level roadmap built from the retained research record.",
+      "methodology": "Mapped completed evidence versus open gaps; proposed COMP01→MEM01→PREP01→CYCLE01→one ADAPT candidate→BUDGET→integration; one bounded decision at a time.",
+      "key_metrics": "Established a reuse-first roadmap and conditional literature queue; no model work.",
+      "limitations": "Superseded in priority by later user decision to focus on bridge then low-bit; remains historical planning context.",
+      "evidence_class": "Planning/documentation only",
+      "decision_next": "Follow priorities, one bounded task at a time.",
+      "source_files": [
+        "NSS_Evidence_Led_Research_Plan_v0.1.md"
+      ],
+      "eli5": "What should we do next without repeating old experiments?"
+    },
+    {
+      "order": 46,
+      "id": "DIRECT01-SPEC",
+      "category_id": "OUTPUT",
+      "category": "Output construction, planning, checking, and editing",
+      "broad_question": "Can NSS construct maintenance artifacts incrementally and reliably, and do alternative output mechanisms offer a practical advantage over supported autoregression?",
+      "specific_question": "Can we specify a fair direct-parallel versus AR output comparison?",
+      "status": "DOCUMENTATION_COMPLETE_EXPERIMENT_NOT_RUN",
+      "result_summary": "Conditional protocol ready; no selected model, trained heads or execution.",
+      "system": "Prospective one-pass parallel structured-output probe versus conventional AR readout.",
+      "methodology": "Specifies shared frozen competent trunk, matched new AR and factorized parallel heads, same fields/serializer, no primary repair feedback, paired task families and full cost accounting.",
+      "key_metrics": "Protocol ready; no model, tokenizer, budget, head training, or execution selected.",
+      "limitations": "Optional future mechanism test only; DARP remains parked.",
+      "evidence_class": "Protocol/design only; not run",
+      "decision_next": "Optional after competence and a live output question.",
+      "source_files": [
+        "NSS_DIRECT01_Protocol_and_Fixture_Specification_v0.1.md",
+        "NSS_DIRECT01_Chat_Handoff_v0.1.md"
+      ],
+      "eli5": "Can we specify a fair direct-parallel versus AR output comparison?"
+    },
+    {
+      "order": 47,
+      "id": "COMP01-B-SETUP",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Choose a small test reader and wire it to the exam.",
+      "status": "ENGINEERING_ONLY_MODEL_ACQUISITION_BLOCKED",
+      "result_summary": "Official135M selected with a single conditional360M fallback. Model acquisition failed before inference;18 offline runner contract tests passed.",
+      "system": "Planned local pretrained reader route using SmolLM2-135M-Instruct with 360M fallback; CPU Transformers adapter around COMP01 fictional evidence packets.",
+      "methodology": "Pinned public revisions, wrote runner and fixed development screen; attempted acquisition in current host; 18 offline engineering tests.",
+      "key_metrics": "Model download failed due environment DNS/file-transfer limitations; 0 model bytes, loads, inference calls or updates. Setup contracts passed.",
+      "limitations": "Acquisition stop, not model incompetence. External route deferred.",
+      "evidence_class": "Engineering setup only; model acquisition blocked",
+      "decision_next": "Run actual pinned development where public download is available; do not repeat completed architecture studies.",
+      "source_files": [
+        "NSS_COMP01B_Small_Reader_Setup_Report_v0.1.md"
+      ],
+      "eli5": "Choose a small test reader and wire it to the exam."
+    },
+    {
+      "order": 48,
+      "id": "LAB01",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Can our own small reader answer from simple English evidence without a pretrained download?",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_REFERENCE_NOT_READY",
+      "result_summary": "3new92837parameterARfits;5400main+6preflightupdates. Familiar supported833/1536,withheld768/768,paraphrase251/768;nofamilypasses.21preflightgroups;5376recounts;384freshreplays;24checkpointhashes;48480sampledprecisionvaluesallpass.",
+      "system": "Three new 92,837-parameter, two-layer prefix-AR readers; 101-token local vocabulary; structured five-field output.",
+      "methodology": "4,096 training semantic groups / 12,288 examples; 1,800 updates per fit; direct short-English evidence; familiar, withheld, and unseen-word-order confirmation.",
+      "key_metrics": "Familiar supported 833/1,536; withheld 768/768; paraphrase 251/768. No family met working point; training-probe whole answers 523/768. Most fact errors selected a displayed but wrong-date/project value.",
+      "limitations": "Internal language research route executes, but reference competence not established.",
+      "evidence_class": "Executed study",
+      "decision_next": "",
+      "source_files": [
+        "NSS_NBR02_LAB01_Report_v0.1.md"
+      ],
+      "eli5": "Can our own small reader answer from simple English evidence without a pretrained download?"
+    },
+    {
+      "order": 49,
+      "id": "LAB02-SIZE",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Giving the same reader about22%or47%more room did not consistently help it choose the right project/date record.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CONSISTENT_WIDTH_GAIN",
+      "result_summary": "Nine fresh fits: supported whole answers833/1536,825/1536,844/1536; largest+0.72pp, wording31.12%→35.81%with mixed seed changes. No family working point.16,218total optimizer applications;40engineering groups;no main interruptions.",
+      "system": "Nine new ordinary AR readers: widths 64/72/80 = 92,837 / 113,645 / 136,501 params.",
+      "methodology": "Same LAB01 corpus, ordered batches, 1,800 updates, optimizer and task; only width changed; fresh 256-history confirmation.",
+      "key_metrics": "Supported familiar 54.23% / 53.71% / 54.95%; paraphrase 31.12% / 28.52% / 35.81%. Gains mixed across seeds; no family working point.",
+      "limitations": "Moderate width increases did not provide consistent benefit under fixed preparation.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain width64 as economical diagnostic control. LAB02-BIND proposed separately; no further size increase authorized.",
+      "source_files": [
+        "NSS_NBR02_LAB02_SIZE_Report_v0.1.md"
+      ],
+      "eli5": "Giving the same reader about22%or47%more room did not consistently help it choose the right project/date record."
+    },
+    {
+      "order": 50,
+      "id": "LAB02-BIND",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Give two identical readers the same exercises in different orders and check which learns to use the evidence better.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CURRICULUM_GAIN",
+      "result_summary": "Six fresh paired readers; mixed757/1536(49.28%),staged734/1536(47.79%) supported answers. Staged lower in all3pairs. No family working point. Explicit new rules and full raw test/answer traces; finite-grammar review of9984outputs and manual64items/384responses. No old scores changed.",
+      "system": "Six fresh 99,674-parameter readers: matched ordinary mixed practice versus staged binding-focused practice.",
+      "methodology": "Same total examples/target exposure; staged order teaches simpler project/time/scope relations before combined tasks; explicit temporal contracts added; 1,800 updates per fit.",
+      "key_metrics": "Supported familiar mixed 757/1,536 (49.28%) vs staged 734/1,536 (47.79%); staged lower in all three pairs; paraphrase 34.38% vs 27.34%.",
+      "limitations": "Teaching order did not solve evidence binding; output-contract/test validity review added.",
+      "evidence_class": "Executed study",
+      "decision_next": "Park this staged teaching order; retain all controls and test/answer records. One next decision, not another automatic study.",
+      "source_files": [
+        "NSS_NBR02_LAB02_BIND_Report_v0.1.md"
+      ],
+      "eli5": "Give two identical readers the same exercises in different orders and check which learns to use the evidence better."
+    },
+    {
+      "order": 51,
+      "id": "MEM01",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Save unfinished work, reopen it with current records, and distinguish missing memories from a reader misunderstanding correct notes.",
+      "status": "COMPLETE_BOUNDED_HANDOFF_DIAGNOSTIC_READER_LIMITED",
+      "result_summary": "Frozen3LAB02-BINDmixed readers;3888responseobservations,0updates. DIRECT/FULL413/864post-break completeanswers,COMPACT504/864(+10.53pp);150gain/59loss;allthreeparentsgain. Wholefour-answerresume8/216allpolicies.1944recordchecks0loss;2592packetreplaysand432snapshotrestores exact. Current-status errors remain;ordinary scoped lookup supplies benefit,not newreaderlearning.23preflightgroups;3888recounts/fullreplays;41580sample precisionvaluespass. One audit-calltimeout, maincomplete; partialauditworkunknown.",
+      "system": "Three exact LAB02-BIND mixed readers; exact task/event archive, full handoff, compact handoff + scoped retrieval.",
+      "methodology": "72 episodes across six interruption/change families; DIRECT, FULL reconstructed, and COMPACT retrieval routes; 3 phases × 2 questions × 3 readers; no weight updates.",
+      "key_metrics": "Post-break DIRECT/FULL 413/864; COMPACT 504/864 (+10.53 pp), with 150 gains / 59 losses. Whole four-answer resume remained 8/216 for every route. Record/version/scope checks passed.",
+      "limitations": "Handoff preservation worked; scoped retrieval helped individual answers; reader interpretation remained limiting.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain handoff and ordinary scoped retrieval; proceed to PREP01 specification, not further automatic reader training. No broad companion or changed-weight continuation qualification.",
+      "source_files": [
+        "NSS_NBR02_MEM01_Report_v0.1.md"
+      ],
+      "eli5": "Save unfinished work, reopen it with current records, and distinguish missing memories from a reader misunderstanding correct notes."
+    },
+    {
+      "order": 52,
+      "id": "PREP01",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Try preparing a source-linked task sheet before questions arrive, then check whether that helps more than ordinary retrieval or making/caching the same sheet when asked.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_WORKSHEET_TRADEOFF_NO_ADVANCE_GAIN",
+      "result_summary": "Three unchanged99674parameterreaders;5472main responses. RAW818/1368(59.80%) vsall3sheetpolicies790/1368(57.75%);all3readersdecline,163gains191losses. Falsecompletion54→14butdone-worksuggestions330→384. Identicalsheetqualitybefore/afterquery;ADVANCEslowerthanCACHEinall9timingmedians,highreuseratio1.043. Exposedgold-supportdiagnostic41/72→58/72(mainlystatus22/36→36/36,work19/36→22/36);notdeployable.0updates.5472main+288diagnosticrecounts,5472freshreplays,576restores,73920sampleprecisionvaluespass.21preflightgroupsafterpreservedcopybug;postresultaudittypemismatchcorrectedseparately.",
+      "system": "Same three frozen readers; RAW records versus DEMAND sheet, cached sheet, and ADVANCE-prepared source-linked task sheet.",
+      "methodology": "72 episodes / 5,472 main responses; source compiler uses public text only; measures answer quality, updates, latency and wasted advance prep; plus small gold-support diagnostic.",
+      "key_metrics": "RAW 818/1,368 (59.80%) versus every sheet route 790/1,368 (57.75%); false completion improved 54→14 but done-work suggestions worsened 330→384. Advance slower than cache in all 9 medians. Gold support diagnostic 41/72→58/72.",
+      "limitations": "General prebuilt worksheet did not improve quality or total cost; question-specific evidence remains promising diagnostic.",
+      "evidence_class": "Executed study",
+      "decision_next": "Park eager generic sheets as default. Next proposed bounded lead: select the supporting records for the actual question, with simple lookup and answer-only controls; no gold at inference. Then repeated learning cycles; do not require a perfect language reader.",
+      "source_files": [
+        "NSS_NBR02_PREP01_Report_v0.1.md"
+      ],
+      "eli5": "Try preparing a source-linked task sheet before questions arrive, then check whether that helps more than ordinary retrieval or making/caching the same sheet when asked."
+    },
+    {
+      "order": 53,
+      "id": "READER-SUPPORT01",
+      "category_id": "READER",
+      "category": "Language/evidence reader, handoffs, and quiet-time preparation",
+      "broad_question": "Can a small reader understand supplied records, resume work from handoffs, select relevant evidence, and benefit from preparation without confusing retrieval failure with interpretation failure?",
+      "specific_question": "Teach one small reader which notes support its answer; compare it with answer-only practice and an ordinary question-aware index.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_PRIMARY_GAIN_OUTPUT_CONTRACT_LIMIT",
+      "result_summary": "Six fresh106615parameter readers; A answer-only vs S answer+source loss. Supported five-field A586/1536(38.15%),S521/1536(33.92%); no primary gain, parent differences−11.91/−3.91/+3.13pp. A keepsall, S exactsupport808/1536 but answers287/808ofthosecorrect. PublicLOOKUPA769/1536,S692/1536; retrospective namedstatusfactAlookup768/768 is notcompletehandoff. Positivecompletion136→89,done-worksuggestions235→341; wholefouranswers0→9/384. Publicstatusancillaryfieldscopeunderspecified; rawkeyandsynonym/reviewkeptseparate.29952recounts,576freshreplays,42912sampleprecisionvaluespass,30maincheckpointsverified.9600logicalmain;9808–9809actualmain+12preflight afterrecorded208steptailreplay. No follow-up fitting.",
+      "system": "Six new 106,615-parameter readers, paired answer-only A versus answer+support-loss S; shared record encoder and hard binary selection gate.",
+      "methodology": "1,600 updates per fit; source-support labels only in S; no HSA/DARP. Tested model-selected evidence, ALL, and simple public question-aware LOOKUP controls.",
+      "key_metrics": "Primary supported A 586/1,536 (38.15%) vs S 521/1,536 (33.92%). S selected exact annotated support 808/1,536 but only 287/808 complete answers correct. LOOKUP raised A to 769/1,536.",
+      "limitations": "Support supervision did not improve primary quality; selection and answer construction remain separate bottlenecks. Reader-preparation campaign parked.",
+      "evidence_class": "Executed study",
+      "decision_next": "Park automatic reader preparation. Retain ordinary lookup and explicit source/action diagnostics; CYCLE01 specification next using a declared restricted competent reference and unambiguous public fields.",
+      "source_files": [
+        "NSS_NBR02_READER_SUPPORT01_Report_v0.1.md"
+      ],
+      "eli5": "Teach one small reader which notes support its answer; compare it with answer-only practice and an ordinary question-aware index."
+    },
+    {
+      "order": 54,
+      "id": "CYCLE01-A",
+      "category_id": "LEARNING",
+      "category": "Learning, interference, repair, and model revision",
+      "broad_question": "How can NSS acquire useful changes while measuring collateral damage, repairing old competence, preserving unfinished work, and deciding whether a candidate model should be accepted?",
+      "specific_question": "Let a copy learn at night, check it, then use the accepted version and its unfinished work the next day.",
+      "status": "COMPLETE_DEVELOPMENT_FEASIBILITY_PROMISING_SIGNAL",
+      "result_summary": "Four source parents, two nights, FIXED/LEARN/REPLAY/BALANCED.2048development+7disposableupdates;0newfits. Balanced5/8adoptions,allfourend32/32currentcueanswers,4087/4096guardanswers,2046/2048liveanswers,30/32entiretwo-dayhistories,0livefalseDONE.Only4103acceptedbothnights. ExtraBexposureconfounded;allmaterialdevelopment.232savedoutputsreplayedexact,160checkpointfilesverified;9,304,960evaluationnumericcomparisons0violationsinnewfloat64contract. Onecallerinterruption,resume32missingupdatesatprovenphasebarrier,0repeatedupdates;discardedinference/time/RSSunknown.",
+      "system": "Four original SURFACE/RECOVER parents; FIXED, LEARN, REPLAY, BALANCED nighttime candidate branches over two simulated nights.",
+      "methodology": "Stable daytime serving weights; cue0 change night1, cue1 change night2 while retaining cue0; candidates evaluated/adopted or rejected; unfinished checklist state carried into next day.",
+      "key_metrics": "Balanced adopted 5/8 candidates; all four ended with 32/32 current B answers, 4,087/4,096 guard answers, 2,046/2,048 live old-work answers, 30/32 whole histories, 0 live false-DONE. Only parent4103 accepted both nights.",
+      "limitations": "Promising development feasibility; extra B exposure confounds; all cases development, not long-run lifecycle qualification.",
+      "evidence_class": "Executed study",
+      "decision_next": "Freeze one longer comparison on fresh reserved tasks; add B96-only control for extra B practice. Do not repeat tiny-reader sweeps.",
+      "source_files": [
+        "NSS_NBR02_CYCLE01A_Feasibility_Report_v0.1.md"
+      ],
+      "eli5": "Let a copy learn at night, check it, then use the accepted version and its unfinished work the next day."
+    },
+    {
+      "order": 55,
+      "id": "BRIDGE01",
+      "category_id": "BRIDGE",
+      "category": "Bridge/orchestration integration",
+      "broad_question": "Can the positive NSS mechanisms be wired around a conventional language-model interface with explicit state, exact records, permissions, receipts, and recoverable task continuity?",
+      "specific_question": "Connect a pretend language model to a real small checklist network, saved records and an action checker; see whether work survives interruption.",
+      "status": "COMPLETE_BOUNDED_DUMMY_PROTOTYPE_PARKED_FOR_LOW_BIT",
+      "result_summary": "216scripted sessions,3474simulatedeffects,558rejections,0contractviolations;4144/4144learnednext-itemobservations. Exactrulealsocompletesall.41preflightchecks;216freshreplays;302512NumPy/Torchfloat64scalars0violations.0training/downloads/realLLMinference. Main6.331score99.15MBRSS; notcompletebill. Overallcapscheckedposthoc,roundcapenforced.",
+      "system": "Offline dummy harness: scripted chat-proposal stand-in + exact SQLite event journal/permissions/receipts + real frozen GRU checklist advisor using four original parents.",
+      "methodology": "24 authored setups × rule/shadow/recurrent modes; interruption/resume, stale/wrong-scope/malformed/false-finish proposals, approval gates, action receipts; local HTTP chat adapter tested only against scripted loopback stub.",
+      "key_metrics": "216 sessions completed; 3,474 simulated durable effects, 558 rejections, 0 duplicate/wrong-order/unapproved-effect violations; 4,144/4,144 recurrent next-item predictions matched exact rule; rule baseline also perfect.",
+      "limitations": "Integrated wiring/containment prototype, not learned general orchestration or real LLM deployment. Parked for low-bit priority.",
+      "evidence_class": "Executed study",
+      "decision_next": "Preserve runnable prototype, do not expand until low-bit priority is resolved or user directs otherwise.",
+      "source_files": [
+        "NSS_NBR02_BRIDGE01_Architecture_Report_and_Low_Bit_Handoff_v0.1.md"
+      ],
+      "eli5": "Connect a pretend language model to a real small checklist network, saved records and an action checker; see whether work survives interruption."
+    },
+    {
+      "order": 56,
+      "id": "LB01-TERNARY",
+      "category_id": "LOWBIT",
+      "category": "Low-bit model quantization",
+      "broad_question": "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?",
+      "specific_question": "Shrink checklist weights to minus, zero and plus, then teach the learner to work with that restriction. Compact storage works; quality and training-memory goals remain open.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_TERNARY_WORKING_POINT_NOT_ESTABLISHED",
+      "result_summary": "Four exact18249parameterparents; matrices17856ternary,biases393FP32. Directconversion6361/32768(19.41%),QAT51231615/32768(96.48%),610/1024whole,342falseDONE;FPparent32733/32768. Workingpoint0/4. All8oldcueclassesretained;64jointnewcuephasefailsflipinbothFLOATandTERNARY. Packednumeric6717bytesvs72996FP32;five-tritcodes~1.6bits,scales/biasesextra. ScalarpackedC~5xslower;FP32master/grad/Adam292008bytesbeforeactivations,notlowmemorytraining.4608main+6preflight=4614actualupdates,norepeats.24preflightchecks,200recounts/replays,40checkpoints,20packedexports,79907552evaluationnumericalscalarcomparisons0violations. Nootherresearchreopened.",
+      "system": "Four exact 18,249-parameter GRU+head parents; 17,856 matrix entries ternarized per row to {-1,0,+1}, FP32 scales/biases; true packed five-trits/byte C inference.",
+      "methodology": "Compared unchanged FP, INT8 decoded control, direct ternary conversion, then 512 ternary-aware A+B preparation updates; later shared new-cue phase used only diagnostically.",
+      "key_metrics": "Direct ternary 6,361/32,768 (19.41%); after 512 updates 31,615/32,768 (96.48%), 610/1,024 whole, 342 false-DONE; working point 0/4. Packed numerical body 6,717 B vs 72,996 FP32 (90.8% smaller).",
+      "limitations": "Compact representation executable, but reliability inadequate and training still wide; scalar packed kernel slower.",
+      "evidence_class": "Executed study",
+      "decision_next": "Preserve all outcomes. Plan one ternary-from-start or transition-preparation comparison with a competent acquisition control; then reduce actual learning-state cost. No automatic execution.",
+      "source_files": [
+        "NSS_NBR02_LB01_TERNARY_Report_v0.1.md"
+      ],
+      "eli5": "Shrink checklist weights to minus, zero and plus, then teach the learner to work with that restriction. Compact storage works; quality and training-memory goals remain open."
+    },
+    {
+      "order": 57,
+      "id": "LB02-Q2-TRAIN",
+      "category_id": "LOWBIT",
+      "category": "Low-bit model quantization",
+      "broad_question": "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?",
+      "specific_question": "Teach a four-setting-weight model while storing smaller optimizer notes; check whether it can keep old work and learn something new.",
+      "status": "COMPLETE_LOGICAL_COMPARISON_MEMORY_GAIN_LEARNING_GATE_OPEN_OPERATIONAL_CAP_EXCEEDED",
+      "result_summary": "Four exact18,249parameterparents;Q2four-codeaffinematricesandcustom8bitmomentstorage. After1024preparation:Q2M8 32766/32768answers,1022/1024whole,1falseDONE;Q2M32 32765,1022whole,1falseDONE;F32 32763,1023whole,0falseDONE. AfterB64+AB32 all12pathsretain32/32currentcueclasses/arm;Q2M8oldwork32521/32768(99.246%),952whole,11falseDONE;Q2M3232607,959whole,19falseDONE;F3232540,941whole,16falseDONE. Q2preparationworking3/4peroptimizer,fulllearningQ2M8only1/4;compressedqualityequivalencenotqualified. Master+gradient+momentarrays291984→183650bytes(-37.10%),moments145992→37658(-74.21%);wideactivations/copiesremain. PackedQ2numeric8001bytes/file8703;scalarC2.50–2.64xslower,compressedtrainingdescriptively3.55%slowerthanQ2M32. 13440logicalmain,13645–13647actualmain+43preflight=13688–13690;205–207replayedafter2callerinterruptions,originalactualcapNOTmet. 264outputarrays/1019904Aobservationsrecountedandfreshreplayedexact;72checkpoints,48packedexports,72Bchecks,3fixturefilesbyteexact;main166323200numericcomparisons0violations. NoBitNetTransformer,fromscratchfits,all2bittraining,deployedorwholeNSSqualification.",
+      "system": "Four exact 18,249-parameter parents; Q2 per-row four-code affine matrix weights; FP32 biases; Q2_M32 versus custom Q2_M8 optimizer-state storage plus F32 control.",
+      "methodology": "1,024 A+old-B preparation, then 64 B-only cue correction and 32 balanced A+current-B repair; all parameters trainable; packed C inference and exact cost accounting.",
+      "key_metrics": "After preparation Q2_M8 32,766/32,768, 1,022/1,024 whole, 1 false-DONE; Q2_M32 similar. Both Q2 preparations 3/4 working parents. M8 moments shrank 145,992→37,658 B; master+grad+moments -37.10%.",
+      "limitations": "Strong two-bit interim model and genuine optimizer-array saving, but full learning/retention gate not met and actual-update cap exceeded during recovery.",
+      "evidence_class": "Executed study",
+      "decision_next": "RetainQ2/M8asresearchcandidate;resolvepost-correctionretentionwithoneboundedcomparisonbeforeclaimingthelearningworkingpoint. Do not rerun automatically.",
+      "source_files": [
+        "NSS_NBR02_LB02_Q2_TRAIN_Report_v0.1.md"
+      ],
+      "eli5": "Teach a four-setting-weight model while storing smaller optimizer notes; check whether it can keep old work and learn something new."
+    },
+    {
+      "order": 58,
+      "id": "LB02-MASTER16",
+      "category_id": "LOWBIT",
+      "category": "Low-bit model quantization",
+      "broad_question": "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?",
+      "specific_question": "Keep the useful two-bit learner practicing the same task while halving its matrix working copies; compare ordinary and stochastic rounding.",
+      "status": "COMPLETE_BOUNDED_SAME_TASK_CONTINUATION_MASTER_ARRAY_SAVING",
+      "result_summary": "Four exact LB02 Q2_M8 preparation parents; 12x256 same-task updates, no new cue or repair. M32 final32764/32768 (1022whole,0falseDONE),M16nearest32767 (1023whole,0FD),M16stochastic32766 (1022whole,1FD). BothM16 pass NEW practical continuation/storage screen4/4; not retroactive oldgate pass. All3arms8192/8192stress and32/32originalB. Master+gradient+moment arrays183650→147938bytes (-19.45%); actualbatch saved-tensor union broader2.534MB→2.499MB (~1.41%), not19.45%wholememory. FP16nearest rounds93.72%of proposedupdates away,SR89.84%; near-mastered startingpoint, no newskill/plasticity qualification. Descriptivecores+6.69%/+11.08%;nospeedclaim.3072main+18preflight=3090updates;12backwardmemoryprobes,noauditupdates;no interruptions.84rawarrays264192suffixscoresrecounted/all84freshreplays exact,108checkpoints,3fixturefilesexact;63912960numericcomparisons0breaches.",
+      "system": "Four exact prepared Q2_M8 parents; FP32 versus FP16-nearest versus FP16-stochastic matrix master copies, same Q2 forward weights and M8 optimizer.",
+      "methodology": "256 same-task A+original-B updates; no new cue/repair. Tested whether narrower stored masters preserve current skill; measured update rounding and saved-tensor memory.",
+      "key_metrics": "M32 32,764/32,768; M16-nearest 32,767; M16-stochastic 32,766. Both M16 passed new continuation/storage screen 4/4. Counted arrays 183,650→147,938 B (-19.45%), but broader saved tensor union only ~1.41% smaller.",
+      "limitations": "Ancillary training-state result, not further serving-weight quantization or new-learning qualification. Future training optimization deferred.",
+      "evidence_class": "Executed study",
+      "decision_next": "Preserve useful Q2/M8/FP16 continuation candidate. If further training-precision testing is needed, test earlier same-task preparation with M32 control, not new-task repair. Wider activation costs remain separate. No follow-on run authorized.",
+      "source_files": [
+        "NSS_NBR02_LB02_MASTER16_Report_v0.1.md"
+      ],
+      "eli5": "Keep the useful two-bit learner practicing the same task while halving its matrix working copies; compare ordinary and stochastic rounding."
+    },
+    {
+      "order": 59,
+      "id": "LB01-T3-TARGET",
+      "category_id": "LOWBIT",
+      "category": "Low-bit model quantization",
+      "broad_question": "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?",
+      "specific_question": "Try switching four-setting weights to three settings immediately or gradually; see whether the small model still finishes its checklists correctly.",
+      "status": "COMPLETE_BOUNDED_COMPARISON_NO_TERNARY_WORKING_POINT_Q2_RETAINED",
+      "result_summary": "Four exact prepared Q2_M32 parents; 12x1024 same-task QAT, all original associations unchanged. Q2 final32764/32768,1023/1024whole,0FD; immediateT3 32283/32768(98.52%),863whole,65FD; gradualT3 32108(97.99%),774whole,211FD. Ternary working0/4 each; Q2 nominal4/4, strict long-stress2/4 despite99.99%answers/253of256whole. T3 stresswhole94/256direct,53/256ramp. Ramp mixed early,513pure updates vs1024direct; not a universal comparison of all gradual methods. ActualpackedT3 body6717B/file7604B vsQ2 8001/8703;FP32scales/biases,FP64inference.12300actualupdates(12288main+12preflight),nointerruptions/repeats.168arrays522240suffixanswersfullfreshreplayexact,52exports72checkpoints,3fixturesbyteexact,106006400numericcomparisons0breaches. No training-efficiency or post-learning-repair study.",
+      "system": "Four exact prepared Q2_M32 parents; Q2 control, immediate ternary, and gradual Q2→T3 mixture ending in pure ternary.",
+      "methodology": "1,024 same-task A+original-B preparation updates each; FP32 training machinery fixed; fresh confirmation and long stress; no new skill, repair, or training-efficiency intervention.",
+      "key_metrics": "Q2 final 32,764/32,768 and 1,023/1,024 whole; immediate T3 32,283 (98.52%) / 863 whole / 65 false-DONE; ramp 32,108 (97.99%) / 774 whole / 211 false-DONE. T3 working 0/4. T3 body 6,717 B vs Q2 8,001 B.",
+      "limitations": "Q2 retained as working interim; this ternary conversion/ramp did not reach whole-task quality target. Ternary remains open future target.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain two-bit as the useful interim model. Review the residual ternary representation/quality tradeoff; no automatic further fitting or ramp tuning. Any next model-only calibration or from-start ternary test needs a separately fixed protocol. Training efficiency and post-learning repair remain deferred until the user moves phases.",
+      "source_files": [
+        "NSS_NBR02_LB01_T3_TARGET_Report_v0.1.md"
+      ],
+      "eli5": "Try switching four-setting weights to three settings immediately or gradually; see whether the small model still finishes its checklists correctly."
+    },
+    {
+      "order": 60,
+      "id": "LB01-Q2-PACK",
+      "category_id": "LOWBIT",
+      "category": "Low-bit model quantization",
+      "broad_question": "How far can NSS reduce model-weight precision while retaining useful behavior and exact executable representation, before later optimizing training and post-learning repair?",
+      "specific_question": "Can lossless coding of the working Q2 model reduce actual stored/resident bytes without changing its coefficients, predictions or existing failures?",
+      "status": "COMPLETE_LOSSLESS_STORAGE_GAIN_NO_RUNTIME_ADOPTION",
+      "result_summary": "Four exact Q2_CONTROL1024 exports; RAW/HUF16/DEF16 fixed 16-row blocks, no learning. Huffman codes1.7890–1.8297bits/entry versus2; matched files8137/8088/8046/8058B versus8517B (4.46–5.53% saving); all12canonical models exact. HUF16 7.56–8.23x slower, not adopted. DEF16 saves0.31–0.74%, adds7168B zlib allocations. Whole legacy-file zlib12.59–12.92% smaller, archive-only. All36rawarrays245856scoredobservations independently recounted/replayed exact;12snapshot restores48badbindings rejected. Primary32764/32768 andlong49147/49152 retained, including old failures.11preflightgroups,37mainlock objects intact,476sourcepayloads verified. No newfit/update. Extra public-wrapper reproduction interrupted in4104; missing inference finished separately, partial outputs exact; primary main/audit uninterrupted. Eight illustrative indices allmixed despite protocolexpectation, disclosed without changingindices. Current result is code-storage compression, not ternary arithmetic, universal speed/RAM/20B scaling.",
+      "system": "Four exact 18,249-coefficient Q2 GRUs. New C block reader, per-matrix canonical Huffman, fixed16-row raw-DEFLATE and shared RAW layout. FP64 recurrence unchanged.",
+      "methodology": "Frozen codec comparison, byte-exact canonical body, originalC/NumPy numeric checks, reused primary andstress panels,9interleavedtiming repetitions, explicit decoderallocation accounting, wholefile/shuffle controls. Independentinternal recount/replay.",
+      "key_metrics": "HUF16codes1.7890–1.8297bits;4.46–5.53%matchedfile reduction;7.56–8.23xtime.36outputsreplayexact,0newerrors,0updates.",
+      "limitations": "Small inheritedmodels, exposedregressioncases, naïvedecoder, fulltransientloaderdecode, same-layoutmemoryreference; no20B/generalLLM,trainingefficiencyorpeer-reviewclaim. Mainuninterrupted; additionalreproductionwrapperinterrupted andfinishedseparately. Example sheetallmixed, notfourfamily.",
+      "evidence_class": "Executed study",
+      "decision_next": "Retain direct Q2 as the useful interim runtime. Lossless HUF16 storage works but this decoder is not adopted. One later fixed-format decoder optimization may test whether table decoding or bounded block reuse removes the measured bottleneck; it is not automatically authorized. Training efficiency and repair remain deferred.",
+      "source_files": [
+        "NSS_NBR02_LB01_Q2_PACK_Report_v0.1.md"
+      ],
+      "eli5": "Pack the same four weight settings with shorter labels, without changing the learner. Less storage works; the simple decoder costs too much time."
+    },
+    {
+      "id": "LB03-LEARNABILITY",
+      "pass_number": 61,
+      "category": "LOW_BIT",
+      "broader_question": "Can low-bit forward models genuinely learn with smaller training state and acceptable retention/cost?",
+      "specific_question": "Do FP16 matrix masters, with nearest or stochastic writes, learn early Q2 adaptation and two changed associations versus sameM32/M8control?",
+      "system": "GRUCell26x64+Linear64x9,18249parameters;Q2forward,M8optimizer,FP32orFP16masters;widegradients/activations",
+      "methodology": "4exactparents×3modes×2regimes,512updates;newlockedpanels;no post-learning repair;exactsource58codeand57states.",
+      "result": "Reconciled55–60: six complete archives,2909payloads,24exactlineagechecks. Fourparents×3mastermodes×2regimes,all24×512 complete;12288main+24preflight+102benchmark+24audit=12438actualupdates,nointerruptions/repeats. EARLYM32/nearest/SR32732/32760/32742of32768;allmodeslearn4/4. NEWall32/32cueanswersincltwo reversals,oldA32746/32746/32740;retention3/4,2/4,3/4. SRpassesfrozen3/4separateregimesbutonly2sameparentspassboth;nearestfailsNEWcohort. Namedarrays183650→147938(19.45%),broadunionabout1.41%;SR8.9–11.7%slower. 336rawarraysrecounted/allfreshreplayexact,120checkpoints+120exports,24auditsteps+24faultrejections;159230400recordednumericcomparisons0breaches. NaiveNumPysigmoidexp-overflowwarnings retained;stableauditagrees,largegateinputsremainrobustnesslimit. No integration/postrepair/20B/all2bittrainingclaim.",
+      "status": "COMPLETE_BOUNDED_LEARNING_STOCHASTIC_SCREEN_MET_WITH_LIMITS",
+      "evidence_class": "Executed mixed-precision full-parameter learning and retained competence comparison; source archive/lineage audit; internal reproduction, no external replication.",
+      "decision": "Independent review of source/candidate and numerical saturation warning. Retain M32 and SR candidates; saved-activation compression remains a later separately frozen hypothesis, not an automatic run. Integration and post-learning repair stay excluded.",
+      "source_files": [
+        "NSS_NBR02_LB03_LEARNABILITY_Report_v0.1.md",
+        "NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip",
+        "NSS_Passes55_59_with60_Reconciliation_v0.1.md"
+      ]
+    }
+  ],
+  "support_artifacts": [
+    {
+      "id": "COMP01-A",
+      "category": "Program controls, evaluation, and documentation",
+      "status": "ENGINEERING_COMPLETE",
+      "question": "Can we build a fair companion-oriented evidence-use test kit before running a language model?",
+      "system": "28 fictional development histories; exact-field scorer; three evidence conditions; semantic-review rubric.",
+      "methodology": "56 question occasions × GOLD/RETRIEVED/WITHHELD = 168 packets; 20 engineering groups and authored positive/fault controls.",
+      "result": "Runnable fixture/scorer kit; engineering controls passed. No model result.",
+      "source_files": [
+        "NSS_COMP01_Protocol_and_Fixture_Specification_v0.1.md",
+        "NSS_COMP01_Fixture_Preflight_Report_v0.1.md"
+      ]
+    },
+    {
+      "id": "LAB-TEMPORAL-REVIEW",
+      "category": "Program controls, evaluation, and documentation",
+      "status": "SOURCE_REVIEW_COMPLETE",
+      "question": "Do temporal English prompts actually entail the hidden answer key?",
+      "system": "LAB01/LAB02 fixture renderer and target/interpreter source review.",
+      "methodology": "Compared actual public wording with target-generation persistence assumptions; no model run or rescoring.",
+      "result": "Found that “on day d uses x” and “from day d uses x” were treated alike while public rules did not always state persistence/completeness; limits interpretation of old temporal errors.",
+      "source_files": [
+        "NSS_LAB_Temporal_Wording_Review_v0.1.md"
+      ]
+    },
+    {
+      "id": "DUAL-REVIEW-STANDARD",
+      "category": "Program controls, evaluation, and documentation",
+      "status": "POLICY_DOCUMENTED",
+      "question": "Can we grade the test itself as well as the model?",
+      "system": "Versioned item/response review contract and JSON record template.",
+      "methodology": "Require exact administered prompt/evidence/raw answer, original key score, item validity assessment, response appropriateness, review coverage and consistent adjudication across models.",
+      "result": "Standing prospective evaluation policy; no automatic semantic scorer or historical regrade.",
+      "source_files": [
+        "NSS_Test_and_Response_Review_Standard_v0.1.md",
+        "NSS_Test_and_Response_Review_Record_Template_v0.1.json"
+      ]
+    },
+    {
+      "id": "LOW-BIT-TARGET-UPDATE",
+      "category": "Program controls, evaluation, and documentation",
+      "status": "PLANNING_COMPLETE",
+      "question": "How should low-bit model quantization, training efficiency, and post-learning repair be sequenced?",
+      "system": "Program scope update only.",
+      "methodology": "Separated model-quantization milestone from later training-state optimization and later repair; retained ternary long-term target and Q2 interim.",
+      "result": "Current focus set to model quantization first; training acceleration/repair deferred.",
+      "source_files": [
+        "NSS_Low_Bit_Plasticity_Target_Update_v0.1.md"
+      ]
+    }
+  ],
+  "document_version": "1.2"
+}

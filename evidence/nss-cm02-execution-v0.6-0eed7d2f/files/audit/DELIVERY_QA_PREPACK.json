@@ -1,0 +1,12 @@
+{
+  "status": "PASS_BEFORE_FINAL_PACKAGING",
+  "relocated_integrity_manifest_files": 6661,
+  "local_frozen_files_verified": 29,
+  "baseline_files_verified": 164,
+  "independent_scores_byte_identical": 32,
+  "main_and_fixture_scoring_repeated_without_model_forward": true,
+  "new_neural_forwards": 0,
+  "total_study_attempts_unchanged": 5995,
+  "shared_seconds_through_relocated_qa": 2145.57283949852,
+  "note": "Relocated candidate copy. Final delivered ZIP identity/integrity is recorded in separate external delivery receipt."
+}

@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "start_utc": "2026-09-22T00:49:48.771317+00:00",
+  "steps": [
+    {
+      "step": "source_manifest_create",
+      "returncode": 0,
+      "seconds": 1.1272559130002264,
+      "log": "/mnt/data/_nbr010_work/delivery/source_manifest_create.log"
+    },
+    {
+      "step": "source_manifest_verify",
+      "returncode": 0,
+      "seconds": 1.2054670309998983,
+      "log": "/mnt/data/_nbr010_work/delivery/source_manifest_verify.log"
+    },
+    {
+      "step": "fresh_manifest_before",
+      "returncode": 0,
+      "seconds": 1.657636532000197,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_manifest_before.log"
+    },
+    {
+      "step": "fresh_research_tests",
+      "returncode": 0,
+      "seconds": 7.080484310999964,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_research_tests.log"
+    },
+    {
+      "step": "fresh_parent_tests",
+      "returncode": 0,
+      "seconds": 6.255309710999882,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_parent_tests.log"
+    },
+    {
+      "step": "fresh_all_results_rescore",
+      "returncode": 0,
+      "seconds": 15.784308871000121,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_all_results_rescore.log"
+    },
+    {
+      "step": "fresh_pair1_full_replay",
+      "returncode": 0,
+      "seconds": 52.16282501299975,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_pair1_full_replay.log"
+    },
+    {
+      "step": "fresh_pair1_compare",
+      "returncode": 0,
+      "seconds": 8.709128322999732,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_pair1_compare.log"
+    },
+    {
+      "step": "fresh_90_continuations",
+      "returncode": 0,
+      "seconds": 29.475779760000023,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_90_continuations.log"
+    },
+    {
+      "step": "fresh_manifest_after",
+      "returncode": 0,
+      "seconds": 1.615157699000065,
+      "log": "/mnt/data/_nbr010_work/delivery/fresh_manifest_after.log"
+    },
+    {
+      "step": "original_input_audit_after",
+      "returncode": 0,
+      "seconds": 1.3459452510001029,
+      "log": "/mnt/data/_nbr010_work/delivery/original_input_audit_after.log"
+    },
+    {
+      "step": "source_manifest_after",
+      "returncode": 0,
+      "seconds": 1.3325921079999716,
+      "log": "/mnt/data/_nbr010_work/delivery/source_manifest_after.log"
+    }
+  ],
+  "zip": {
+    "path": "/mnt/data/NSS_NBR01_Qualification010_v0.1.zip",
+    "bytes": 302820867,
+    "sha256": "0d8a0e01cc89e9b221a16939a7ebaacd58fd3ed02cbf3fe0e8e64b7429f2d5fe",
+    "packaged_files": 324,
+    "manifest_covered_files": 323
+  },
+  "fresh_extraction_path": "/mnt/data/_nbr010_work/delivery/fresh/NSS_NBR01_Qualification010_v0.1",
+  "full_rescore": {
+    "status": "PASS",
+    "rows": 19960,
+    "answer_evaluations": 2554880,
+    "byte_identical_csv": true,
+    "sha256": "f648ddde04be03f07d654802608ce13a34d20379858163230a56e3f43c826dfb"
+  },
+  "fresh_replay": {
+    "actual": "/mnt/data/_nbr010_work/delivery/fresh_replay/pair1.npz",
+    "actual_digest": "751cad7b8f40229d70bcafa0aaa912ffba0a3147ac6e58b714e138fd13613256",
+    "actual_sha": "610f4a3f91e33eaa5a4de5c1e18ff425f97cef91177e7f8a4655c144205a6ef7",
+    "arrays": 6721,
+    "expected": "/mnt/data/_nbr010_work/delivery/fresh/NSS_NBR01_Qualification010_v0.1/evidence/main/pair1.npz",
+    "expected_digest": "751cad7b8f40229d70bcafa0aaa912ffba0a3147ac6e58b714e138fd13613256",
+    "expected_sha": "610f4a3f91e33eaa5a4de5c1e18ff425f97cef91177e7f8a4655c144205a6ef7",
+    "identical_arrays": true,
+    "status": "PASS",
+    "utc": "2026-09-22T00:51:32.968718+00:00"
+  },
+  "fresh_continuation": {
+    "status": "PASS",
+    "cases": 90,
+    "receipt": "/mnt/data/_nbr010_work/delivery/FRESH_CONTINUATION.json"
+  },
+  "end_utc": "2026-09-22T00:52:10.790676+00:00",
+  "scope": "Complete standalone research package; fixed evaluation weights; no deployment or integration",
+  "prepack_verification": {
+    "status": "PASS",
+    "utc": "2026-09-22T00:48:26.046216+00:00",
+    "scope": "Pre-packaging completed computation and internal verification. Delivery extraction is recorded separately.",
+    "main_completed_fits": 15,
+    "main_optimizer_steps": 90000,
+    "main_sequence_presentations": 5760000,
+    "main_training_seeds": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205
+    ],
+    "readers_prepared": [
+      "ordinary",
+      "near",
+      "transformer"
+    ],
+    "development_completed_fits": 6,
+    "development_steps": 27000,
+    "training_reproduction_steps": 6000,
+    "distinct_tests": 151,
+    "new_tests": 38,
+    "unchanged_parent009_tests": 45,
+    "foundation_tests": 68,
+    "full_main_replays": 5,
+    "all_replayed_arrays": 33605,
+    "metric_rows": 19960,
+    "answer_evaluations": 2554880,
+    "continuation_checks": 90,
+    "inputs_checked": 54,
+    "input_archives_checked": 13,
+    "locally_locked_core_files": 140,
+    "byte_identical_parent_reference_files": 128,
+    "qualification_scope": "Declared generated 16-record owned-memory, nominal state/depth lifecycle with protected references and fixed evaluation parameters; wider close-identity claim still failed.",
+    "not_run": [
+      "Windows execution",
+      "external replication",
+      "longitudinal user-device trial",
+      "full historical 1111-test suite",
+      "integrated companion",
+      "online/delayed learning",
+      "low-bit learning state"
+    ],
+    "evidence_paths": [
+      "NEW_TESTS.log",
+      "PARENT009_TESTS.log",
+      "FOUNDATION_CHECKS.log",
+      "SOURCE_AUDIT.json",
+      "TRAIN_REPRODUCTION.json",
+      "CONTINUATION.json",
+      "REPLAY_PAIR1.json",
+      "REPLAY_PAIR2.json",
+      "REPLAY_PAIR3.json",
+      "REPLAY_PAIR4.json",
+      "REPLAY_PAIR5.json",
+      "REPORT_CROSSCHECK.json"
+    ]
+  },
+  "platform": {
+    "cpu_quota": "400000 100000",
+    "cuda": false,
+    "logical_cpu_count": 5,
+    "memory_limit_bytes": 4294967296,
+    "numpy": "2.3.5",
+    "packages": {
+      "numpy": "2.3.5",
+      "safetensors": "0.7.0",
+      "torch": "2.10.0+cpu"
+    },
+    "pid": 1632,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 5,
+    "torch": "2.10.0+cpu"
+  },
+  "limitations": [
+    "internal reproducibility, not external replication",
+    "hosted Linux CPU, not user-device or Windows validation",
+    "bounded numerical 16-record task, not language companion qualification",
+    "task-adapted attention/pointer control, not universal Transformer comparison",
+    "close identity and unfamiliar origin remain failed stress cases",
+    "no online learning or learning-state precision experiment"
+  ],
+  "download_paths": {
+    "archive": "/mnt/data/NSS_NBR01_Qualification010_v0.1.zip",
+    "report": "/mnt/data/NSS_NBR01_Qualification010_v0.1/REPORT.md",
+    "status_review": "/mnt/data/NSS_NBR01_Qualification010_v0.1/NBR01_STATUS_REVIEW.md"
+  }
+}

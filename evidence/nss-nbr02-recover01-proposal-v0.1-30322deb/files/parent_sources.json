@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "purpose": "Machine-readable source and fixed-parent identities for RECOVER01 planning review; this receipt does not dispatch or execute an experiment.",
+  "source_archive": {
+    "path": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip",
+    "bytes": 32141227,
+    "sha256": "e51efcdeef95839d6bda5749116f72bccbf9ce1446ba1bdf9875d45fc043ea61",
+    "prior_audit_manifest_sidecar_sha256": "11367f30519c56487f0ef01cdf0d435ba390e7104f2383a0bb7120a0b3dbf5ac",
+    "prior_audit_verified_manifest_payload_count": 113
+  },
+  "source_members": [
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/protocol/EXECUTION_LOCK.json",
+      "role": "locked source/protocol identity map",
+      "bytes": 964,
+      "sha256": "f41b5c4d565765e4c95c95afaeb684a87a79f66034c236a038c3e4104ebdc2bb",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/protocol/EXECUTION_PROTOCOL.md",
+      "role": "frozen v0.1 recipe and gates",
+      "bytes": 8836,
+      "sha256": "e6ff84c99952baae175e01b0fb4e0788f4857057dedc1ca0bd2b456f9e4a30f4",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/source/common.py",
+      "role": "optimizer/update implementation; relevant lines 181-204",
+      "bytes": 16154,
+      "sha256": "29ca7788fdc1768784cc8f29a5559bfa65a10336f86a2740086c20b13b3186fd",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/source/study.py",
+      "role": "parent update and baseline admission stop; relevant lines 178-255",
+      "bytes": 22971,
+      "sha256": "8bdf65f98ded9c976c0bdfd45beb3a7979841222cb129df2ce66e82820c0f99f",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/source/adapt.py",
+      "role": "adaptation arms, contexts, and fresh optimizer; relevant lines 61-103",
+      "bytes": 9907,
+      "sha256": "fa1545691ed8677bdba1b55d772df1bbb3a90fd0f561de6646b881190583ae4d",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/analysis/parent_family_results.csv",
+      "role": "retained baseline parent-by-family admissions",
+      "bytes": 917,
+      "sha256": "bc59977658cfe8d0082db685169c30044129545279d1056e9c357ae3d620a671",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/evidence/outcome.json",
+      "role": "retained STOP_BASELINE_COMPETENCE result",
+      "bytes": 70668,
+      "sha256": "908106f9179f4aa2a93b27b1d9afbb338b21f99e82707f3c7ed0347cac0207d6",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4101.npz",
+      "role": "retained parent 4101 admission arrays",
+      "bytes": 3161092,
+      "sha256": "bc6a3301bd294e6ba0f4cd29d837526433753e2d55961f0867ad2bbb3c86e1bc",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4102.npz",
+      "role": "retained parent 4102 admission arrays",
+      "bytes": 3161077,
+      "sha256": "bf1a6c187aea59e9728de93f7770d6796346b1d603e67d68fdb517af080c6611",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4103.npz",
+      "role": "retained parent 4103 admission arrays",
+      "bytes": 3159490,
+      "sha256": "98bba76154c792095faeebc3d8f56d512e452446108cf75d1f07f9545d5678d3",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/evidence/admission_4104.npz",
+      "role": "retained parent 4104 admission arrays",
+      "bytes": 3156302,
+      "sha256": "86f396ad3a93dbc0937397496631a9283cbd3b01665285724a4d704c0c4cc140",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/failures/parent_4103_idempotent_first.npz",
+      "role": "retained 4103 idempotent failure trace",
+      "bytes": 11699,
+      "sha256": "0c427ea83fb8c021208330a7bb2425fed3f0d6f11237ecf51cdedd33a89481a2",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4101_2000.pt",
+      "role": "final fixed parent checkpoint 4101; outer container only",
+      "bytes": 232367,
+      "sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4102_2000.pt",
+      "role": "final fixed parent checkpoint 4102; outer container only",
+      "bytes": 232367,
+      "sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4103_2000.pt",
+      "role": "final fixed parent checkpoint 4103; outer container only",
+      "bytes": 232367,
+      "sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4104_2000.pt",
+      "role": "final fixed parent checkpoint 4104; outer container only",
+      "bytes": 232367,
+      "sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/fixtures/training_4101.npz",
+      "role": "parent 4101 retained A repair corpus",
+      "bytes": 2690105,
+      "sha256": "3f73913d9920888b185a7e9ef532a2a974daee978d6dc0748a47887c718e0c79",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/fixtures/training_4102.npz",
+      "role": "parent 4102 retained A repair corpus",
+      "bytes": 2690394,
+      "sha256": "59b3e9f71dc036b803ee822202381cc9262af02181814a7723713fc94d6eb5f2",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/fixtures/training_4103.npz",
+      "role": "parent 4103 retained A repair corpus",
+      "bytes": 2689984,
+      "sha256": "0a7bc9bc8e10e01354152d65ac3d4b4fa45b882380073a74fa96c8d068c8ba65",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/fixtures/training_4104.npz",
+      "role": "parent 4104 retained A repair corpus",
+      "bytes": 2689670,
+      "sha256": "a0eebc53b618c91f70c0a83ffd4408b0bc618cb4f833b6b48d42f7147f2672a7",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads"
+    }
+  ],
+  "parent_checkpoint_members": [
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4101_2000.pt",
+      "role": "final fixed parent checkpoint 4101; outer container only",
+      "bytes": 232367,
+      "sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4102_2000.pt",
+      "role": "final fixed parent checkpoint 4102; outer container only",
+      "bytes": 232367,
+      "sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4103_2000.pt",
+      "role": "final fixed parent checkpoint 4103; outer container only",
+      "bytes": 232367,
+      "sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    },
+    {
+      "member": "NSS_NBR02_SURFACE01_Execution_v0.1/checkpoints/parent_4104_2000.pt",
+      "role": "final fixed parent checkpoint 4104; outer container only",
+      "bytes": 232367,
+      "sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571",
+      "identity_source": "existing manifest row; prior audit verified all manifest payloads",
+      "prior_audit_outer_identity_match": true,
+      "deserialized_or_tensor_hash_checked": false
+    }
+  ],
+  "limitations": [
+    "Identities are inherited from the existing SURFACE01 archive audit and MANIFEST.json.",
+    "Checkpoint files are identified as outer containers only; no checkpoint was deserialized or tensor-hash checked.",
+    "Source definitions were read as text for feasibility review and were not executed."
+  ]
+}

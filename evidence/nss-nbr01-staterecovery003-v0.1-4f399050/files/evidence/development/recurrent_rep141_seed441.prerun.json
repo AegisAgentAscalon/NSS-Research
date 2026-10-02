@@ -1,0 +1,19 @@
+{
+  "initial_digest": "6ebb5b92844793777c4da6450fc29349231cd1ad2ef0ad30fb86e306e8b283d1",
+  "kind": "recurrent",
+  "learn_seed": 441,
+  "protocol_sha256": "DEVELOPMENT",
+  "reference_sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+  "rep_seed": 141,
+  "source_identity": {
+    "nbr01_recovery/__init__.py": "2974786bb77462bc5704d2c9bb30b92ff1f0047252fd0704176e2b5420a7042f",
+    "nbr01_recovery/data.py": "72b2403bef1bc03c4a19ff0e1b37e9a08514cc0619ee0d4ca86a8925e96c8487",
+    "nbr01_recovery/models.py": "6e3e0adddfeb33a2680ad0f1fac949988ed3eacba38066b666e68da0280cb4b2",
+    "nbr01_recovery/train.py": "c6cc7d780e4f80f12ca28fb530816381398d34afaaa0c109f7b4be761b7ba31f",
+    "nbr01_recovery/util.py": "ea429e462e494f7f7137e1ef8e863935971f25a68a55351c0b5e0d09f580d8a1",
+    "run.py": "262650ceb95e460c78686818bd1a41fb7ba4685c1a49351c14080013f2e92ce4"
+  },
+  "status": "NOT_RUN",
+  "steps": 600,
+  "time_unix": 1789946454.0518167
+}

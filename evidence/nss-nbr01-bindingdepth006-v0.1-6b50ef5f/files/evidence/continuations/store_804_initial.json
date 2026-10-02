@@ -1,0 +1,21 @@
+{
+  "abi": "nbr006-record-v1",
+  "array_sha256": "0c18d041354d2f974c108c1ba14b1f9e28568a1568aabdb3907ebb3c9262583a",
+  "events": 80,
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 244164944357023229725473825249612284383,
+      "state": 338499569365171673740899934652716656023
+    },
+    "uinteger": 0
+  },
+  "scope": "study",
+  "shape": [
+    32,
+    16,
+    17
+  ],
+  "weight_identity": "b8ef067d211bac4ec5f0e49c5f49508e3e81590382092bc35dd134fbe43a1a7b"
+}

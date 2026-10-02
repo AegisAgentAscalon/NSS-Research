@@ -1,0 +1,264 @@
+{
+  "arms": {
+    "attention": "task_adapted_attention",
+    "near": "close_identity_continuation",
+    "ordinary": "ordinary_continuation"
+  },
+  "batch_size": 64,
+  "changes_since_repair": [
+    "Versioned main run and held-out scope unchanged. Training seeds explicitly derived for v1.4; graph-stream domain remains original q010r-main-stream-v1.0.",
+    "Monitored shared update core; exact joint resume to new output; cooperative resource stop preserves checkpoints.",
+    "Whole capture resumes at immutable complete-cell checkpoints; uncommitted cell retained then explicitly replayed from deterministic start. Six finer scalar operation checks separately verified.",
+    "Three historical verifier failures are retained platform/fixture limitations, covered for new local artifacts by independent source/ledger/arithmetic/decoder checks and fresh-process whole-run replay.",
+    "No historical percentages are targets; inherited reconstruction criteria .90 core, .95 direct, .90 every cadence8 checkpoint are preserved; pooled and stricter all-pair outcomes both published."
+  ],
+  "criteria": "same approved0.90 core,0.95 direct,0.90 each cadence08checkpoint, pooled5seeds per candidate/class with all per-seed results; all stress and scientific negatives retained",
+  "data": "unchanged graph stream and main_data_recipe; fresh per-update, domain-separated development/training/heldout; near changes32/64 reserved decoys only",
+  "development_costs": [
+    {
+      "arm": "ordinary_continuation",
+      "linear6000step_reference_seconds": 336.09085949999553,
+      "public_sha256": "47ba9612bb4ee2802cc08d0820b42827ff6b34da8f1828149f0fcf399249aee2",
+      "scope": "development-only40step-cost-profile; same execution loop as main",
+      "seconds": 2.24060572999997,
+      "source_sha256": "004b7e1d0f7b969ded5dc16feec536ff9971642b18e3f93802b3468277102faf",
+      "status": "PASS",
+      "steps": 40,
+      "strict_sha256": "29b3c95a81d7f883cdf2de6259dfc60651560ac7b621915466f8616ce4727f9f"
+    },
+    {
+      "arm": "close_identity_continuation",
+      "linear6000step_reference_seconds": 346.5296002499997,
+      "public_sha256": "ccbabb8f1892fd0e13e79c3e73bdd674856f3f4f94f3a2116f5e5575088d89ec",
+      "scope": "development-only40step-cost-profile; same execution loop as main",
+      "seconds": 2.310197334999998,
+      "source_sha256": "da8c042980365e2e1506af361e1b8f12a5dd319953bc60c03343bd3a0320b1af",
+      "status": "PASS",
+      "steps": 40,
+      "strict_sha256": "a8a32ae973657a8c4b15aaf336f2fcce960fc89cd687005538d1e366a0ef9831"
+    },
+    {
+      "arm": "task_adapted_attention",
+      "linear6000step_reference_seconds": 500.59072889999925,
+      "public_sha256": "835c6a885da09c947b2472b4a8fe3025cf67246cfb3a815ff1d64eed32738b75",
+      "scope": "development-only40step-cost-profile; same execution loop as main",
+      "seconds": 3.337271525999995,
+      "source_sha256": "2411c6f9e4a2311b113fc37e9ca89199ceda676d2fb9d65376b8e97f30fcb380",
+      "status": "PASS",
+      "steps": 40,
+      "strict_sha256": "4005258bfcf8fbd8f2182314b3c57e57faa820ef0ce0c5a41bd8ddd1a3fa0b73"
+    }
+  ],
+  "evaluation": {
+    "batching": "independent cases batched128, lifecyclebatch1; saved full stage arrays, typed reference states, immutable source cases and noise seeds. Lossless columnar storage replaces duplicated scalar NPZ files. Same scientific case/seed/scope, not a reduced study.",
+    "conditions_provenance": "original source conditions and graph/query recipes unchanged; raw original inputs included",
+    "durability_checkpoints": [
+      0,
+      64,
+      128,
+      192,
+      256,
+      320,
+      384,
+      448,
+      512,
+      576,
+      640,
+      704,
+      768,
+      832,
+      896,
+      960,
+      1024
+    ],
+    "local_arithmetic": "CPUfloat32 same-batch eager PyTorch exact replay plus independently implemented float64 error-bound audit; cross-host historical bit equality not assumed.",
+    "logical_query_chains": 449640,
+    "logical_stage_evaluations": 3045480,
+    "matrix_cells": 64,
+    "novel_queries": "source UNKNOWN stays scorer truth; nearest identity resolution is an observed decision, not proof of registration",
+    "parameters_fixed": true,
+    "readers_per_seed": 6,
+    "stage_count": "full allowed depth including UNKNOWN; direct exactly1",
+    "streams_per_durability_checkpoint": 128
+  },
+  "frozen_utc": "2026-09-24T02:08:35.709203+00:00",
+  "hypotheses": {
+    "H1": "Fixed-parameter iterative readers combine retained relationships when permitted sufficient stages; state removal and insufficient depth should reduce supported answers.",
+    "H2": "Ordinary continuation and task-adapted attention can be judged against fixed core/direct/durability criteria; no candidate is required to pass for an otherwise complete experiment.",
+    "H3": "Close-identity preparation may trade supported retrieval against missing-information performance. Report the tradeoff and every seed; no historical outcome is a target.",
+    "H4": "Whole-map degradation can occur without a queried answer failure. Count source/map/operation invariants separately from answer accuracy."
+  },
+  "id": "NSS_NBR01_Q010_Reconstruction_v1.4",
+  "input_archive_sha256": "b58e46031e7321d21c2e8a805ef8bc62d414525cfdbdbbc19db3f9f125e4baa5",
+  "limitations": [
+    "New reconstruction, not recovered original Q010 numerical experiment.",
+    "Known supplied identity catalogue, exact owner metadata, qualified write decisions.",
+    "No target-device Windows/GPU validation, integrated tri-core deployment, online/delayed learning or low-bit study.",
+    "Agent-independent scoring/reimplementation and fresh execution are internal verification, not third-party replication."
+  ],
+  "loss": "mean of 8 stage cross-entropy +0.5 mean squared code sum",
+  "main_fit_count": 15,
+  "main_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "main_steps_per_fit": 6000,
+  "main_updates": 90000,
+  "nominal_not_extended_claim": "One structured16record/eightstage task. No language, online learning, deployment, universal architecture or unlimited memory claim.",
+  "optimizer": "unchanged q010r.training AdamW/cosine settings",
+  "qualification_classes": "Full task truth; unknown before factual registration only; clearing a recorded fact differs from loss of readable representation. Under-depth missing and supported reported separately.",
+  "reconstruction_not_original": true,
+  "resources": {
+    "aggregate_cgroup_soft_bytes": 3650722201,
+    "checkpoint_every_updates": 1000,
+    "checkpoint_serialization_exclusive_lock": true,
+    "device": "cpu",
+    "evaluation_and_verification_wall_seconds_each": 3600,
+    "external_monitor_period_seconds": 1,
+    "main_fits_phase_wall_hard_seconds": 10800,
+    "maximum_concurrent_fits": 2,
+    "maximum_new_output_bytes": 17179869184,
+    "maximum_worker_rss_bytes": 1879048192,
+    "minimum_free_disk_bytes": 2147483648,
+    "per_fit_wall_hard_seconds": 1800,
+    "resource_sample_every_updates": 50,
+    "torch_interop_threads": 1,
+    "torch_threads_per_worker": 1,
+    "total_study_hard_seconds": 25200,
+    "verification_retraining_phase_wall_seconds": 5400
+  },
+  "resume_contract": {
+    "evaluation": "cell-atomic commits including all durability prefixes; deterministic replay of failed partial cell under a new retained attempt; previous completed cells hash-verified and not rerun",
+    "fine_grained_tests": "six separate real scalar operation boundaries plus actual full-run sharded pause/resume test; not every instruction kill safety",
+    "training": "joint optimizer/parameters/RNG/stream/trace checkpoint every1000 updates, cooperative stop saves earlier if safe; new output attempt only"
+  },
+  "retention": {
+    "compression": "lossless XZ/ZIP, not neural-state quantization",
+    "development": "all current reports, checkpoints and partial/failure evidence retained",
+    "failed_or_partial": "retain every actual partial checkpoint and failure receipt",
+    "original_archive": "byte unchanged, included",
+    "successful_main": "final full optimizer/stream/RNG checkpoint with complete trace retained losslessly, plus independent manifest and logs; intermediate successful checkpoints may be removed only after final reload and hash checks and recorded in retention ledger"
+  },
+  "rng": {
+    "1201": {
+      "attention": {
+        "global_torch_seed": 6471966536466833444,
+        "model_init_seed": 2279489574611204697,
+        "sampler_seed": 7168150721352056205,
+        "training_torch_seed": 5891993190311823595
+      },
+      "near": {
+        "global_torch_seed": 8807585753393881490,
+        "model_init_seed": null,
+        "sampler_seed": 7168150721352056205,
+        "training_torch_seed": 2504794325885436596
+      },
+      "ordinary": {
+        "global_torch_seed": 1069060293361483915,
+        "model_init_seed": null,
+        "sampler_seed": 7168150721352056205,
+        "training_torch_seed": 1777063484793103800
+      }
+    },
+    "1202": {
+      "attention": {
+        "global_torch_seed": 3274922531539039495,
+        "model_init_seed": 1807664030912521615,
+        "sampler_seed": 7787767223364906929,
+        "training_torch_seed": 6706747875456692393
+      },
+      "near": {
+        "global_torch_seed": 6508403404653776323,
+        "model_init_seed": null,
+        "sampler_seed": 7787767223364906929,
+        "training_torch_seed": 4715055718386368593
+      },
+      "ordinary": {
+        "global_torch_seed": 7734692276499890287,
+        "model_init_seed": null,
+        "sampler_seed": 7787767223364906929,
+        "training_torch_seed": 2652298577489916028
+      }
+    },
+    "1203": {
+      "attention": {
+        "global_torch_seed": 4972027759637138271,
+        "model_init_seed": 253671343797582349,
+        "sampler_seed": 3941413513912634907,
+        "training_torch_seed": 1183931624847891763
+      },
+      "near": {
+        "global_torch_seed": 2816076429927095879,
+        "model_init_seed": null,
+        "sampler_seed": 3941413513912634907,
+        "training_torch_seed": 5578236055083141311
+      },
+      "ordinary": {
+        "global_torch_seed": 3007810896367734191,
+        "model_init_seed": null,
+        "sampler_seed": 3941413513912634907,
+        "training_torch_seed": 3010763399934530041
+      }
+    },
+    "1204": {
+      "attention": {
+        "global_torch_seed": 5120890051349420679,
+        "model_init_seed": 5741190196776796033,
+        "sampler_seed": 2965692797817129882,
+        "training_torch_seed": 8391129248170404355
+      },
+      "near": {
+        "global_torch_seed": 8782899110942092632,
+        "model_init_seed": null,
+        "sampler_seed": 2965692797817129882,
+        "training_torch_seed": 3120604292814561393
+      },
+      "ordinary": {
+        "global_torch_seed": 2170689447219202456,
+        "model_init_seed": null,
+        "sampler_seed": 2965692797817129882,
+        "training_torch_seed": 2691677114139573951
+      }
+    },
+    "1205": {
+      "attention": {
+        "global_torch_seed": 8835495617365661995,
+        "model_init_seed": 5613205718365439586,
+        "sampler_seed": 2009011905844255615,
+        "training_torch_seed": 5195349421386571700
+      },
+      "near": {
+        "global_torch_seed": 7705087648154059411,
+        "model_init_seed": null,
+        "sampler_seed": 2009011905844255615,
+        "training_torch_seed": 8402772731343522998
+      },
+      "ordinary": {
+        "global_torch_seed": 1780019986198140860,
+        "model_init_seed": null,
+        "sampler_seed": 2009011905844255615,
+        "training_torch_seed": 428947688885488177
+      }
+    }
+  },
+  "stages_training": 8,
+  "status": "FROZEN_BEFORE_MAIN",
+  "stop_rules": [
+    "Stop a fit on nonfinite loss/gradient/state, source identity drift, unexpected data/seed/checkpoint binding, or measured resource ceiling. Preserve failure and last joint checkpoint.",
+    "No silent restarts, seed exclusions, fewer updates, omitted conditions, or replacing new weights with pilot weights. Any repaired rerun uses a new attempt ID and retains the failed attempt.",
+    "A complete negative scientific result is allowed; failed coverage/scoring/verifier or missing checkpoints prevent complete-study status.",
+    "Do not change numerical thresholds based on heldout outcomes. Development corrections and deviations have dated source diffs."
+  ],
+  "teacher_forcing": "updates1..1000 plus every fourth one-based update thereafter",
+  "verification_retraining": {
+    "artifact_names_distinct": true,
+    "compare": "Exact final tensors, optimizer arrays, per-update losses/gradients/input digests/RNG; wall times and attempt identifiers excluded from numerical equality, raw files retained.",
+    "fits": 3,
+    "paired_seed": 1201,
+    "same_start_data_rng": true,
+    "steps_each": 6000
+  }
+}

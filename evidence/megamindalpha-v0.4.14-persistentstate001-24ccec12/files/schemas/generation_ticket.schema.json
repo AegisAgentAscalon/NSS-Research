@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "store_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "ticket_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "caller_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "epoch": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "generation_sha256": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "epoch",
+        "generation_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "profile": {
+      "enum": [
+        "CORE",
+        "A",
+        "B",
+        "AB",
+        "A2",
+        "A2B"
+      ]
+    },
+    "profile_ecid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "state_reuse": {
+      "const": "EXACT_TICKET_ONLY"
+    }
+  },
+  "required": [
+    "schema_version",
+    "store_id",
+    "ticket_id",
+    "caller_id",
+    "configuration",
+    "profile",
+    "profile_ecid",
+    "state_reuse"
+  ],
+  "additionalProperties": false
+}

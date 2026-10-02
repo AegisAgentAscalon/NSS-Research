@@ -1,0 +1,112 @@
+{
+  "accounting": "All attempted logical forwards and physical batches, producer/replay separately, independent arithmetic replays not model forwards; every error and negative retained. Explicit byte/traffic costs, journal and reference index overhead counted.",
+  "authorization": "Current user request: Let us run our tests. Numerical execution of first bounded pilot; no authorization inferred for training or auto-launch of CM02-CM05.",
+  "baseline_limits": [
+    "no full main optimizer/RNG checkpoints",
+    "raw main numeric training traces absent",
+    "compact baseline excludes bulk original capture/replay",
+    "underflow v2 is retained reconstruction, not lost original source/row",
+    "historical verifier errors remain",
+    "no global NSS or native recurrence qualification"
+  ],
+  "codec": {
+    "H": "all zero or complete untrusted positive proposal; always fall back",
+    "R": "all numeric fields positive",
+    "U": "all numeric fields zero",
+    "cap_symbols": 64,
+    "grammar": "01|8hex_scope|16hex_handle|8hex_revision|16hex_binding_event|R/U/H",
+    "meaning": "one ASCII byte is one experimental control symbol, not a language-model token",
+    "name": "UTF8_BYTE_V1",
+    "packed_semantic_fields_bytes": 26,
+    "serialized_bytes": 56
+  },
+  "completion_of_open_design_details": {
+    "always_on_interpretation": "bounded resident workspace, available at each relevant operation and rewritten on selected events; this pilot has one learned read per case, not native recurrent token-state coupling",
+    "controller": "fixed streaming event manager creates workspace from observed selection/correction, retains across ordinary events; injected faulty checkpoints explicitly labelled. Separate retained indexes are counted.",
+    "controls": "public exact lookup reads observed payload when same binding validates; otherwise UNKNOWN with no fuzzy fallback. Privileged exact-owner reads actual source row using isolated ownership/source ledger and original independent decoder.",
+    "correction_conflict": "j0-3 explicit binding correction; j4-7 unresolved competing bindings. Two per sigma in each subgroup; correction rewrites workspace; conflict emits H then original-Q fallback.",
+    "cross_scope": "restore a workspace from a genuinely observed foreign-task/namespace selection; current numerical query remains for known current-store source",
+    "public_api": "current scope/task, observed journal and retained workspace only; producer cannot open protected ledger; model receives original sanitized K/V/valid and either original or canonical Q",
+    "resolver": "original Q010 catalogue-assisted resolve_code unchanged; not a pure raw-vector answer decoder",
+    "route": "R validates scope; indexed binding lookup then indexed current record lookup (max2). Missing or conflict => original; observable mismatch/revision/delete => management abstention; valid => canonical journal query code",
+    "stale_revision": "j0-3 revision payload update; j4-7 delete source record; each subgroup sigma-balanced 2+2. Workspace stays at earlier revision. Revision has known new-content truth; deletion expects UNKNOWN.",
+    "wrong_reference": "j0-3 handle replacement preserving true selection-event ID (detectable); j4-7 consistent public selection of near decoy but hidden intent remains original source (no-cue). No-cue alternate label diagnostic reuses evidence and creates no extra forwards."
+  },
+  "decision_rules": {
+    "B_C_exact_required": true,
+    "bound_close_gain_pp": 10,
+    "bound_known_loss_pp_max": 1,
+    "heldout_families": 5,
+    "near_families_required": 4,
+    "no_cue_and_matched_pairs": "report-only information limits; no fitted gate",
+    "no_tuning": true,
+    "observable_invalid_false_acceptance_max": 0.05,
+    "protected_input_leakage": 0
+  },
+  "dependencies": {
+    "baseline_zip": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "baseline_zip_sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+    "planning_zip_sha256": "f0cc80edada8b145f151c5032362385359e56bbf77b6b61910deab3c211094f8"
+  },
+  "family_recipe": {
+    "close": "reserved unrelated decoy moved to normalized source+.01 Gaussian; change book/keys/values consistently, not graph truth",
+    "graph_and_id_seeds_separate": true,
+    "known_absent": "s3/s4 same history,K,V,valid,Q,catalogue,scope,workspace; opposite protected origin labels",
+    "query": "normalize known anchor first16 + PCG64 Gaussian, then append 0; sigma .01 for j%4<2 else .2",
+    "row_order": "original independently shuffled physical rows",
+    "source_generator": "Q010 make_case, path length 1, depth 1, initially 16 valid records, all active catalogue codes"
+  },
+  "fixture": {
+    "family": "CMFIX-00",
+    "forwards_cap": 48,
+    "interface_rows": 72,
+    "model_seed": 1201,
+    "nonneural_control_rows": 16,
+    "one_per_stratum_with_j0": true,
+    "records": 8,
+    "roles": 3
+  },
+  "frozen_epoch": 1790274985.0454712,
+  "id": "NSS_CM01_Execution_v0.2",
+  "main": {
+    "development": 3,
+    "families": [
+      "CMDEV-01",
+      "CMDEV-02",
+      "CMDEV-03",
+      "CMEVAL-01",
+      "CMEVAL-02",
+      "CMEVAL-03",
+      "CMEVAL-04",
+      "CMEVAL-05"
+    ],
+    "forward_variants_per_case_max": 2,
+    "forwards_cap": 15360,
+    "heldout": 5,
+    "interface_rows": 23040,
+    "nonneural_control_rows": 1024,
+    "records": 512,
+    "records_per_stratum": 8,
+    "strata": 8
+  },
+  "main_exports_frozen": 15,
+  "max_process_tree_rss_bytes": 4294967296,
+  "max_seconds_from_preflight": 7200,
+  "model_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "parent_plan": "NSS_Context_Management_v0.1 / CM-01 (512 records), not the earlier MC draft",
+  "primary_role": "near",
+  "roles": [
+    "ordinary",
+    "near",
+    "attention"
+  ],
+  "seed_file_sha256": "bd5324a6ccf9b94d956650d5c75dcc67a1cafec2166925080c5d0c5aa324bbf8",
+  "total_capture_replay_forward_cap": 30816,
+  "training": false
+}

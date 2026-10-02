@@ -1,0 +1,75 @@
+{
+  "scope": "Reviewer-proposed full schedule; source-level implementation must reproduce counts before generated scientific data. No numerical work executed.",
+  "contexts_per_pass": {
+    "main": 96,
+    "probe": 4,
+    "clean_fixture": 12
+  },
+  "updates_per_pass": 2852,
+  "update_components": {
+    "initial": 800,
+    "main": 1728,
+    "cost_probes": 100,
+    "clean_fixture": 216,
+    "sandbox_fault": 8
+  },
+  "heads_per_pass_components": {
+    "application_cue_forwards": 2852,
+    "initial_and_frozen_inventories": 128,
+    "branch_post_update_nine_cue_queries": 18144,
+    "frozen_six_transactions_and_queries": 6720,
+    "sandbox_postqueries": 8,
+    "focal_gradient_only_fixtures": 8,
+    "margin_derivative_fixtures": 8,
+    "old_margin_forwards_P_and_S": 1792,
+    "probe_warm_inventories": 16
+  },
+  "heads_per_pass": 29676,
+  "three_event_cells_per_pass": 89028,
+  "filler_only_cells_per_pass": 3360,
+  "cells_per_pass": 92388,
+  "old_margin_reverse_calls_per_pass": 1800,
+  "G_update_reverse_calls_per_pass": 1426,
+  "G_diagnostic_reverse_calls_per_pass": 4,
+  "all_reverse_calls_per_pass": 3230,
+  "L_focal_gradient_evaluations_per_pass": 1430,
+  "qp_calls_per_pass": 240,
+  "qp_learning_and_protection_calls_per_pass": 224,
+  "qp_algebraic_fixture_calls_per_pass": 16,
+  "max_support_candidates_per_qp": 256,
+  "max_support_candidates_per_pass": 61440,
+  "maximum_svd_calls_per_pass_including_full_row_rank": 61440,
+  "planned_capture_plus_adaptive_replay": {
+    "updates": 5704,
+    "cells": 184776,
+    "heads": 59352,
+    "reverse_calls": 6460,
+    "old_margin_reverse_calls": 3600,
+    "L_focal_gradients": 2860,
+    "qp_calls": 480,
+    "support_candidates_max": 122880,
+    "svd_calls_max": 122880
+  },
+  "proposed_global_hard_caps": {
+    "updates": 7000,
+    "cells": 240000,
+    "heads": 75000,
+    "reverse_calls": 8000,
+    "old_margin_reverse_calls": 4500,
+    "L_focal_gradients": 4000,
+    "qp_calls": 600,
+    "support_candidates": 153600,
+    "svd_calls": 153600,
+    "wall_seconds": 7200,
+    "process_tree_bytes": 3221225472,
+    "container_current_bytes": 3758096384,
+    "new_stored_evidence_bytes": 268435456,
+    "single_delivery_zip_bytes": 67108864
+  },
+  "not_in_neural_counts": [
+    "Independent NumPy mathematics is separately metered, not zero-cost.",
+    "Authority checks, journal traffic, exact controls, QP calculations, checkpoint/codec/manifest work, metadata and failed attempts consume time/storage.",
+    "All16 algebraic literal plans require binding to the conversion and solver source; none has been executed.",
+    "No budget from old closed runs transfers."
+  ]
+}

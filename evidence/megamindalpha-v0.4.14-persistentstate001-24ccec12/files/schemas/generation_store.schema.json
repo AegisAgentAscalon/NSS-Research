@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "format": {
+      "const": "MegaMindAlpha.OverlayGenerationManager001"
+    },
+    "store_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "policy_sha256": {
+      "const": "1ec86e755db7560cdb4a1391be72a432613983b3e5429109cb03bf3e5dbf107b"
+    },
+    "operators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "PRODUCER",
+                "REVIEWER",
+                "ISSUER",
+                "OPERATOR"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 4,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "roles"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 3,
+      "maxItems": 32,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "format",
+    "store_id",
+    "policy_sha256",
+    "operators"
+  ],
+  "additionalProperties": false
+}

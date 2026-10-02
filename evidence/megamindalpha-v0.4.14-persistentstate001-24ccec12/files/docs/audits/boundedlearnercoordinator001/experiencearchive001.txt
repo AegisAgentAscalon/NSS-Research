@@ -1,0 +1,28 @@
+{
+  "status": "SUCCESS",
+  "scope": "Deterministic local software and scripted review fixtures. No neural learning or authenticated reviewer.",
+  "handoff_profiles": [
+    "core",
+    "AB",
+    "A",
+    "core"
+  ],
+  "initial_review": "PENDING_REVIEW",
+  "current_statement": "The source says speed = 10 m/s; do not reinterpret it as km/h.",
+  "raw_source_preserved": true,
+  "initial_interpretation_preserved": true,
+  "retrieval_after_explicit_review_and_permission": "SUCCESS",
+  "training_without_permission": "TRAINING_RESTRICTED",
+  "retrieval_after_source_revocation": "TRAINING_RESTRICTED",
+  "reopen_kept_exact_revision": true,
+  "runtime_checkpoint_unchanged": true,
+  "committed_mock_effects": 1,
+  "archive_audit": {
+    "records": 1,
+    "revisions": 6,
+    "operations": 7,
+    "evidence_blobs": 2,
+    "source_revocations": 1,
+    "scope": "Local structural/hash/lineage checks; not semantic correctness, authenticity, or hostile-tamper resistance."
+  }
+}

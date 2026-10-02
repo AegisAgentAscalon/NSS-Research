@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "PROFILE"
+        },
+        "profile": {
+          "enum": [
+            "CORE",
+            "A",
+            "B",
+            "AB",
+            "A2",
+            "A2B"
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "profile"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "TRANSITION"
+        },
+        "source": {
+          "const": "AB"
+        },
+        "destination": {
+          "const": "A"
+        },
+        "mode": {
+          "const": "replay"
+        }
+      },
+      "required": [
+        "kind",
+        "source",
+        "destination",
+        "mode"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "TRANSITION"
+        },
+        "source": {
+          "const": "A"
+        },
+        "destination": {
+          "const": "CORE"
+        },
+        "mode": {
+          "const": "replay"
+        }
+      },
+      "required": [
+        "kind",
+        "source",
+        "destination",
+        "mode"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "TRANSITION"
+        },
+        "source": {
+          "const": "A2B"
+        },
+        "destination": {
+          "const": "A2"
+        },
+        "mode": {
+          "const": "replay"
+        }
+      },
+      "required": [
+        "kind",
+        "source",
+        "destination",
+        "mode"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "TRANSITION"
+        },
+        "source": {
+          "const": "A2"
+        },
+        "destination": {
+          "const": "CORE"
+        },
+        "mode": {
+          "const": "replay"
+        }
+      },
+      "required": [
+        "kind",
+        "source",
+        "destination",
+        "mode"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

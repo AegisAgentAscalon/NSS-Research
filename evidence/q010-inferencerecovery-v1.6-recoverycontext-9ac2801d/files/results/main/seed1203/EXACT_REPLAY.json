@@ -1,0 +1,11 @@
+{
+  "all_metadata_exact": true,
+  "arrays_exact": 10167,
+  "capture_sha256": "976c7d715e86e5ae1e1f2932d760458555d888ef09bd3d2df469c7abd92feb25",
+  "elements_exact": 83890764,
+  "frames": 129,
+  "replay_sha256": "c2322a34acebd53188c71f36a529db9b6cab05d8119f3267536d4716afcbe691",
+  "scope": "Fresh regeneration of every model/state/query/event array; not independent new samples or cross-host replication.",
+  "seed": 1203,
+  "status": "PASS_EXACT_LOCAL_FRESH_PROCESS_REPLAY"
+}

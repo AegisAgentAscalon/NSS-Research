@@ -1,0 +1,83 @@
+{
+  "answer_labels": 76800,
+  "changed_parameter_elements": 2128,
+  "checkpoint_sha256": "d75b5db37767c506618fde9dff6276eb789308f8a7daa5cd3bd45ed26ef5e8a4",
+  "direct_state_target_supervision": true,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789946455.2341917,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 76800,
+  "fast_slow_rates": null,
+  "final_digest": "2e8e873a0e009966af86aa0b636f01c542fba71199b744cc2bc30536d7d8df06",
+  "frozen_reference_unchanged": true,
+  "gradient_bytes": 8512,
+  "initial_digest": "6ebb5b92844793777c4da6450fc29349231cd1ad2ef0ad30fb86e306e8b283d1",
+  "kind": "recurrent",
+  "learn_seed": 441,
+  "logs": [
+    {
+      "accuracy": 0.5859375,
+      "grad_norm": 0.8741515278816223,
+      "loss": 0.6635962128639221,
+      "mse": 0.7847610712051392,
+      "rounds": 4,
+      "step": 1
+    },
+    {
+      "accuracy": 0.9453125,
+      "grad_norm": 0.11209796369075775,
+      "loss": 0.055852897465229034,
+      "mse": 0.03384438529610634,
+      "rounds": 4,
+      "step": 150
+    },
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.04399101063609123,
+      "loss": 0.037274233996868134,
+      "mse": 0.02635098434984684,
+      "rounds": 1,
+      "step": 300
+    },
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.04591155797243118,
+      "loss": 0.04468783736228943,
+      "mse": 0.030736258253455162,
+      "rounds": 1,
+      "step": 450
+    },
+    {
+      "accuracy": 0.96875,
+      "grad_norm": 0.048247065395116806,
+      "loss": 0.04381711035966873,
+      "mse": 0.03243618831038475,
+      "rounds": 1,
+      "step": 600
+    }
+  ],
+  "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+  "optimizer_tensor_bytes": 17040,
+  "parameter_bytes": 8512,
+  "reference_sha256": "12844d2ebdbcca91f7642a1ad81d0e337f7cddb26f0da259e77a6a3611b31105",
+  "rep_seed": 141,
+  "rss_process_peak_5ms_sample_bytes": 327962624,
+  "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+  "status": "RUN",
+  "steps": 600,
+  "target_code_scalars": 1228800,
+  "train_cpu_seconds": 1.1904585219999997,
+  "train_wall_seconds": 1.1815310619999764,
+  "trainable_parameters": 2128,
+  "training_data_digest": "a3985b9b98d1d258f0301dc78b2afc57edd80fe30a297d9ee34297db1b9c0094"
+}

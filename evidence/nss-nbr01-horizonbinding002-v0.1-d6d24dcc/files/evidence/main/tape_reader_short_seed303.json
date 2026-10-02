@@ -1,0 +1,160 @@
+{
+  "changed_parameter_elements": 5771,
+  "checkpoint_bytes": 26036,
+  "checkpoint_sha256": "9762b63f345a625c1040dc0d40436a1b1b30c7015c761c2bcbc3fd047a082b1f",
+  "curriculum": "short",
+  "environment": {
+    "cuda": false,
+    "energy": "NOT_MEASURED",
+    "forge": "NOT_CONNECTED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "psutil": "7.2.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "runtime": "NOT_CONNECTED",
+    "safetensors": "0.7.0",
+    "scope": "SANDBOX_CPU_NOT_USER_DEVICE",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 115200,
+  "final_parameter_digest": "004b61914e2d26d79614113986ab0f457740d438cce0fbfeca5e90252a326495",
+  "gradient_bytes_when_allocated": 23084,
+  "initial_parameter_digest": "7424f02fb5aa032e727292aae58da8fe37dc5bb91756740cb281b83127326109",
+  "kind": "tape_reader",
+  "logs": [
+    {
+      "accuracy": 0.0364583320915699,
+      "grad_norm": 1.7879970073699951,
+      "length": 7,
+      "loss": 2.264042854309082,
+      "step": 1
+    },
+    {
+      "accuracy": 0.9375,
+      "grad_norm": 3.735330581665039,
+      "length": 11,
+      "loss": 0.2451687455177307,
+      "step": 150
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 7.488592624664307,
+      "length": 4,
+      "loss": 0.038833774626255035,
+      "step": 300
+    },
+    {
+      "accuracy": 0.9739583134651184,
+      "grad_norm": 2.2435524463653564,
+      "length": 9,
+      "loss": 0.1152782216668129,
+      "step": 450
+    },
+    {
+      "accuracy": 0.9635416865348816,
+      "grad_norm": 2.9554736614227295,
+      "length": 14,
+      "loss": 0.11656571179628372,
+      "step": 600
+    },
+    {
+      "accuracy": 0.9947916865348816,
+      "grad_norm": 0.4295615553855896,
+      "length": 5,
+      "loss": 0.025577710941433907,
+      "step": 750
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.9054367542266846,
+      "length": 12,
+      "loss": 0.0617186576128006,
+      "step": 900
+    },
+    {
+      "accuracy": 0.9895833134651184,
+      "grad_norm": 3.4195592403411865,
+      "length": 2,
+      "loss": 0.09684545546770096,
+      "step": 1050
+    },
+    {
+      "accuracy": 0.9739583134651184,
+      "grad_norm": 1.6884565353393555,
+      "length": 9,
+      "loss": 0.09072638303041458,
+      "step": 1200
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.07616184651851654,
+      "length": 6,
+      "loss": 0.0025327764451503754,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.9583333134651184,
+      "grad_norm": 0.8252018690109253,
+      "length": 16,
+      "loss": 0.10859490185976028,
+      "step": 1500
+    },
+    {
+      "accuracy": 0.9947916865348816,
+      "grad_norm": 1.427130103111267,
+      "length": 9,
+      "loss": 0.024260619655251503,
+      "step": 1650
+    },
+    {
+      "accuracy": 0.9895833134651184,
+      "grad_norm": 0.48845553398132324,
+      "length": 11,
+      "loss": 0.03294849395751953,
+      "step": 1800
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.19403253495693207,
+      "length": 5,
+      "loss": 0.004481170326471329,
+      "step": 1950
+    },
+    {
+      "accuracy": 0.96875,
+      "grad_norm": 0.6482580304145813,
+      "length": 11,
+      "loss": 0.07115813344717026,
+      "step": 2100
+    },
+    {
+      "accuracy": 0.9427083134651184,
+      "grad_norm": 1.129299283027649,
+      "length": 14,
+      "loss": 0.1419678032398224,
+      "step": 2250
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.07586564868688583,
+      "length": 3,
+      "loss": 0.0023760402109473944,
+      "step": 2400
+    }
+  ],
+  "observed_events": 990096,
+  "optimizer_tensor_bytes": 46316,
+  "parameter_bytes": 23084,
+  "parameter_count": 5771,
+  "preparation_only": true,
+  "rss_process_peak_5ms_sample_bytes": 336138240,
+  "seed": 303,
+  "steps": 2400,
+  "supervised_key_answers": 460800,
+  "timing_excludes": "Interpreter startup, evaluation, calibration, replay, reporting, all other fits",
+  "train_batch_sha256": "21287240766412efa9e56f79e959f01c2aeb478fe1e8575585b341169bcfb26f",
+  "train_cpu_seconds": 13.34154603899998,
+  "train_wall_seconds": 13.233572256000002
+}

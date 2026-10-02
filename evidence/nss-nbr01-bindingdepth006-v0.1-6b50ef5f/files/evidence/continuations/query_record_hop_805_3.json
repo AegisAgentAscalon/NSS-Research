@@ -1,0 +1,8 @@
+{
+  "abi": "nbr006-query-v1",
+  "array_sha256": "21f7cd41201612de9068d42c4ca83624608d0ed9d4560023e20154519f07488e",
+  "kind": "record_hop",
+  "round": 3,
+  "scope": "study",
+  "weight_identity": "ded722da30c2b1901043d63324a7d85e29724248d337b7b90ff49c883c738bb6"
+}

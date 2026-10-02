@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "START_HERE.md",
+      "bytes": 1323,
+      "sha256": "6a233133659f6ade173b02fd98b070d4766e74ab10b2dd7f9107887c316db24b"
+    },
+    {
+      "path": "PROPOSAL.md",
+      "bytes": 15231,
+      "sha256": "84b0b95bd8d80411002230d34bf1f936c0ebe439e2db9582bb7d2f5e3b6858bf"
+    },
+    {
+      "path": "CHAT_PROMPT.md",
+      "bytes": 1102,
+      "sha256": "3bcae3a7b0c5d186dece2763dc5792bd59c54e7e8736f2e0ed4f133227ede72a"
+    },
+    {
+      "path": "parent_sources.json",
+      "bytes": 10569,
+      "sha256": "ae193fa68f07b14c83bc80216f3eea53fca796b9a6808c0ddc0f1a32f37d0850"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 1550,
+      "sha256": "aef3078760f0049bb7e2c17bf667a4f7e450af609f1b8c81b0312cd390b04557"
+    }
+  ]
+}

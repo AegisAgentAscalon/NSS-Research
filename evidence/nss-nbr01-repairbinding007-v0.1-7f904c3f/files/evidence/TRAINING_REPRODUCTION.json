@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "kind": "learned_dictionary",
+  "seed": 901,
+  "steps": 1800,
+  "checkpoint_sha256": "5243028d1a3125c34770589e12bc31a828025e9d24c73b05781c29ac53ec0bff",
+  "exact_history": true,
+  "exact_batch_fingerprints": true,
+  "reproduction_loop_seconds": 12.328839501999937
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "store_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "request_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "request_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "caller_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "issuer_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.:-]{1,96}$"
+    },
+    "issued_at": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 253402300799
+    },
+    "expires_at": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 253402300799
+    },
+    "policy_sha256": {
+      "const": "11a2e3c1d26e9d7b12d098d853135da88f40c68efcc00054e564fca0a79d7e7a"
+    },
+    "max_uses": {
+      "type": "integer",
+      "const": 1
+    },
+    "authority": {
+      "const": "TRUSTED_LOCAL_DEVELOPMENT_OPERATION_GRANT"
+    },
+    "deployment_authorized": {
+      "const": false
+    },
+    "runtime_execution_permit": {
+      "const": false
+    },
+    "delegable": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "store_id",
+    "request_id",
+    "request_sha256",
+    "caller_id",
+    "issuer_id",
+    "issued_at",
+    "expires_at",
+    "policy_sha256",
+    "max_uses",
+    "authority",
+    "deployment_authorized",
+    "runtime_execution_permit",
+    "delegable"
+  ],
+  "additionalProperties": false
+}

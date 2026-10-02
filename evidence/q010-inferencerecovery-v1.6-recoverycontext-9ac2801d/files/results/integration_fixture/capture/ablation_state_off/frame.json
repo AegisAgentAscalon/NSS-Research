@@ -1,0 +1,951 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-dff9eeed5365d36d7cea",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-dff9eeed5365d36d7cea",
+        "close_identity_transform": null,
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e000",
+        "graph_seed": 16356403128893000843,
+        "graph_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "ablation_state_off-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 6687497527893510669,
+        "treatment_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 7,
+      "displaced_decoy_id": 11,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "ablation_state_off-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        15,
+        13,
+        6,
+        12,
+        3,
+        1,
+        14,
+        11,
+        0,
+        7,
+        8,
+        4,
+        2,
+        5,
+        9,
+        10
+      ],
+      "query_slot": 14,
+      "query_symbol_id": 14,
+      "replacement_decoy_id": 11,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e000",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e000",
+        "graph_seed": 16356403128893000843,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 6687497527893510669,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "93b3c2df22d3ac262495970af1ca87213103f139bd33e4db45ec0a4cba99bc08",
+      "split": "development",
+      "stage_next_ids": [
+        8,
+        13,
+        15,
+        12,
+        0,
+        9,
+        10,
+        5
+      ],
+      "stage_row_targets": [
+        6,
+        10,
+        1,
+        0,
+        3,
+        8,
+        14,
+        15
+      ],
+      "stage_source_ids": [
+        14,
+        8,
+        13,
+        15,
+        12,
+        0,
+        9,
+        10
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        14,
+        8,
+        13,
+        15,
+        12,
+        0,
+        9,
+        10,
+        5
+      ],
+      "task_truth_hash": "fa5a2bc6004dc7e7c07097740b1891049c4a4d27206e79d90d5011fa997508f9",
+      "terminal_id": 5,
+      "truth_edges": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          15,
+          12
+        ]
+      ],
+      "truth_graph_hash": "2a9af6933224c251dc9877b18fb86073ee62593a2c7b486032680883120677ec"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-1dd96e7c6e915e41e324",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-1dd96e7c6e915e41e324",
+        "close_identity_transform": null,
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e001",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e001",
+        "graph_seed": 2120653771346196153,
+        "graph_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "ablation_state_off-s1201-e001",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 17390439246883168782,
+        "treatment_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e001",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 13,
+      "displaced_decoy_id": 9,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "ablation_state_off-s1201-e001",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        12,
+        11,
+        4,
+        8,
+        14,
+        0,
+        13,
+        15,
+        7,
+        5,
+        2,
+        10,
+        3,
+        9,
+        1,
+        6
+      ],
+      "query_slot": 12,
+      "query_symbol_id": 12,
+      "replacement_decoy_id": 9,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e001",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e001",
+        "graph_seed": 2120653771346196153,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 17390439246883168782,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "ebb8500a6b8aa56f4dc10f2a535f853dec8b38df1d751c454a9341cc81fde11f",
+      "split": "development",
+      "stage_next_ids": [
+        5,
+        15,
+        10,
+        11,
+        0,
+        14,
+        8,
+        13
+      ],
+      "stage_row_targets": [
+        0,
+        9,
+        7,
+        11,
+        1,
+        5,
+        4,
+        3
+      ],
+      "stage_source_ids": [
+        12,
+        5,
+        15,
+        10,
+        11,
+        0,
+        14,
+        8
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        12,
+        5,
+        15,
+        10,
+        11,
+        0,
+        14,
+        8,
+        13
+      ],
+      "task_truth_hash": "ffb5ac20f964fe9d0075d070f06ef7cc42629c42acf9014e9bcd1458bb198e92",
+      "terminal_id": 13,
+      "truth_edges": [
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          15,
+          10
+        ]
+      ],
+      "truth_graph_hash": "53a2a4612d705bda177bf4cbc47e3f016172d0db2d59b2d9a660566e40bf2d05"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-f80700d0ac9c7dbdfbda",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-f80700d0ac9c7dbdfbda",
+        "close_identity_transform": null,
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e064",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e064",
+        "graph_seed": 4811689404689624588,
+        "graph_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 1,
+        "near_treatment": false,
+        "pair_id": "ablation_state_off-s1201-e064",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 14329252625118729890,
+        "treatment_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e064",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 4,
+      "displaced_decoy_id": 13,
+      "missing": true,
+      "missing_at": 1,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "ablation_state_off-s1201-e064",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        10,
+        6,
+        2,
+        8,
+        13,
+        0,
+        4,
+        5,
+        9,
+        1,
+        7,
+        3,
+        15,
+        12,
+        14,
+        11
+      ],
+      "query_slot": 3,
+      "query_symbol_id": 3,
+      "replacement_decoy_id": 13,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e064",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e064",
+        "graph_seed": 4811689404689624588,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 14329252625118729890,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "c3d3d01ebf59325e190f6f3f6727442ccb949de1bf0543106d46b4ab81e4850b",
+      "split": "development",
+      "stage_next_ids": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        3,
+        6,
+        0,
+        12,
+        9,
+        10,
+        2,
+        14,
+        15
+      ],
+      "task_truth_hash": "2bfe0c57c1bc60036cc8c5aed2bdaa9bbfdb8eab3c58403781bde1271694dcb3",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "truth_graph_hash": "7f4e3c8461502136953233207b29a7346e01402c1de0f95d59400f52bc84af8f"
+    },
+    {
+      "allowed_depth": 8,
+      "arm": "paired_eval",
+      "case_id": "c-e895c957703bca26b8ea",
+      "case_spec": {
+        "allowed_depth": 8,
+        "arm": "paired_eval",
+        "case_id": "c-e895c957703bca26b8ea",
+        "close_identity_transform": null,
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e065",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e065",
+        "graph_seed": 1324174332434973780,
+        "graph_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": true,
+        "missing_at": 2,
+        "near_treatment": false,
+        "pair_id": "ablation_state_off-s1201-e065",
+        "paired_seed": 1201,
+        "path_length": 8,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 16449733687344312514,
+        "treatment_seed_context": {
+          "condition_id": "ablation_state_off",
+          "episode_id": "ablation_state_off-s1201-e065",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 3,
+      "displaced_decoy_id": 10,
+      "missing": true,
+      "missing_at": 2,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "ablation_state_off-s1201-e065",
+      "paired_seed": 1201,
+      "path_length": 8,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        3,
+        8,
+        5,
+        10,
+        11,
+        1,
+        0,
+        15,
+        7,
+        2,
+        4,
+        12,
+        6,
+        13,
+        14,
+        9
+      ],
+      "query_slot": 13,
+      "query_symbol_id": 13,
+      "replacement_decoy_id": 10,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "ablation_state_off",
+        "episode_id": "ablation_state_off-s1201-e065",
+        "graph_pair_condition_id": "ablation_state_off",
+        "graph_pair_episode_id": "ablation_state_off-s1201-e065",
+        "graph_seed": 1324174332434973780,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 16449733687344312514,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "7c983aff234795d95aaee08cc643ad8c8ce4719bf085f6c34ea7193407d2607c",
+      "split": "development",
+      "stage_next_ids": [
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "stage_row_targets": [
+        13,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "stage_source_ids": [
+        13,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        13,
+        2,
+        11,
+        15,
+        14,
+        4,
+        6,
+        12,
+        5
+      ],
+      "task_truth_hash": "bf18496ac33a55769c8f66840b030f68595271bf0ea04604202cc494403ab458",
+      "terminal_id": -1,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          15,
+          14
+        ]
+      ],
+      "truth_graph_hash": "0b459d63c3cf31d395f532ec8e4b49be49332a83b6ee553dd1f66dbfd2336754"
+    }
+  ],
+  "checkpoint": null,
+  "condition_id": "ablation_state_off",
+  "depth": 8,
+  "episode_ids": [
+    "ablation_state_off-s1201-e000",
+    "ablation_state_off-s1201-e001",
+    "ablation_state_off-s1201-e064",
+    "ablation_state_off-s1201-e065"
+  ],
+  "event_count": 0,
+  "faults": {},
+  "feedback_mode": "assisted",
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 14,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "c02a2481e094232eae481eeb697ac7fac157a02963b783a74128aece396d1066"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 12,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "ff3681c7f687ae52c3149ac3f0f8443bff61fa50220f15e5c4d145fe1e1a451a"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 3,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "2abdd908aa7cd2d222561866d8934783114c69feeed02091aeb550ef6b68e149"
+    },
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 13,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "e19919e0ad584da5c5d6d990b2bd680c512362619d490e8ee8fdca76f33027c5"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 0
+}

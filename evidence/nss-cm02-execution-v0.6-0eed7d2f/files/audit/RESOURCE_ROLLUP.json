@@ -1,0 +1,1226 @@
+{
+  "completed_stage_wall_seconds_sum": 211.32830929756165,
+  "recorded_stage_count": 43,
+  "shared_elapsed_to_this_receipt_seconds": 1988.2150523662567,
+  "shared_wall_limit_seconds": 7200,
+  "maximum_sampled_supervised_process_tree_rss_bytes": 597893120,
+  "maximum_sampled_cgroup_bytes": 1920397312,
+  "rss_limit_bytes": 3221225472,
+  "cgroup_abort_bytes": 3758096384,
+  "sampling_interval_seconds": 0.05,
+  "scope_limits": [
+    "initial inspection/extraction not continuously RSS sampled",
+    "v0.4/v0.5 interrupted supervisors did not emit terminal resource receipts",
+    "sum stage timing omits those interrupted stages; shared elapsed clock includes them and all preparation",
+    "very short memory peaks can be missed",
+    "post-report packaging QA logged separately"
+  ],
+  "records": [
+    {
+      "path": "audit/main_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1794674688,
+      "sampled_process_tree_peak_rss_bytes": 485859328,
+      "samples": 121,
+      "shared_wall_seconds": 1620.8179268836975,
+      "stage": "main_score",
+      "stage_wall_seconds": 6.378673315048218,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 4195
+    },
+    {
+      "path": "audit/main_compare.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/compare.py",
+        "--a",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run",
+        "--b",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/audit/MAIN_REPLAY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1585082368,
+      "sampled_process_tree_peak_rss_bytes": 201871360,
+      "samples": 42,
+      "shared_wall_seconds": 1726.3960955142975,
+      "stage": "main_compare",
+      "stage_wall_seconds": 2.250689744949341,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 5995
+    },
+    {
+      "path": "audit/main_replay_capture.json",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/capture.py",
+        "--kind",
+        "main",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1920397312,
+      "sampled_process_tree_peak_rss_bytes": 597893120,
+      "samples": 1112,
+      "shared_wall_seconds": 1689.9843995571136,
+      "stage": "main_replay_capture",
+      "stage_wall_seconds": 58.86552929878235,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 5995
+    },
+    {
+      "path": "audit/main_replay_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1824587776,
+      "sampled_process_tree_peak_rss_bytes": 480931840,
+      "samples": 116,
+      "shared_wall_seconds": 1723.50883436203,
+      "stage": "main_replay_score",
+      "stage_wall_seconds": 6.134049415588379,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 5995
+    },
+    {
+      "path": "audit/inherited_fixture_rescore.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/failed_attempts/NSS_CM02_Execution_v0.5/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.6/failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/audit/inherited_fixture_rescore"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1700982784,
+      "sampled_process_tree_peak_rss_bytes": 427237376,
+      "samples": 56,
+      "shared_wall_seconds": 1525.0216836929321,
+      "stage": "inherited_fixture_rescore",
+      "stage_wall_seconds": 2.8843796253204346,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 2395
+    },
+    {
+      "path": "audit/main_capture.json",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/capture.py",
+        "--kind",
+        "main",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1895956480,
+      "sampled_process_tree_peak_rss_bytes": 597737472,
+      "samples": 1140,
+      "shared_wall_seconds": 1605.8640100955963,
+      "stage": "main_capture",
+      "stage_wall_seconds": 59.733338832855225,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 4195
+    },
+    {
+      "path": "audit/main_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input",
+        "--previous",
+        "/mnt/data/NSS_CM02_Execution_v0.6/failed_attempts/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/audit/MAIN_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1535492096,
+      "sampled_process_tree_peak_rss_bytes": 212746240,
+      "samples": 24,
+      "shared_wall_seconds": 1544.994000196457,
+      "stage": "main_input_novelty",
+      "stage_wall_seconds": 1.2414672374725342,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 2395
+    },
+    {
+      "path": "audit/main_replay_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/generate.py",
+        "--kind",
+        "main",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/replay_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1552125952,
+      "sampled_process_tree_peak_rss_bytes": 194764800,
+      "samples": 18,
+      "shared_wall_seconds": 1629.965981245041,
+      "stage": "main_replay_generate",
+      "stage_wall_seconds": 0.9177069664001465,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 4195
+    },
+    {
+      "path": "audit/descriptive_reporting.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/reporting/derive_tables.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1607237632,
+      "sampled_process_tree_peak_rss_bytes": 223928320,
+      "samples": 17,
+      "shared_wall_seconds": 1727.915058374405,
+      "stage": "descriptive_reporting",
+      "stage_wall_seconds": 0.8689954280853271,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 5995
+    },
+    {
+      "path": "audit/main_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/generate.py",
+        "--kind",
+        "main",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1516986368,
+      "sampled_process_tree_peak_rss_bytes": 194785280,
+      "samples": 18,
+      "shared_wall_seconds": 1543.1673023700714,
+      "stage": "main_generate",
+      "stage_wall_seconds": 0.9165747165679932,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 2395
+    },
+    {
+      "path": "audit/prelock_contract_tests.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/test_contract.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1508466688,
+      "sampled_process_tree_peak_rss_bytes": 195612672,
+      "samples": 12,
+      "shared_wall_seconds": 1520.2299914360046,
+      "stage": "prelock_contract_tests",
+      "stage_wall_seconds": 0.614764928817749,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 2395
+    },
+    {
+      "path": "audit/source_lock.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.6/src/freeze.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1504415744,
+      "sampled_process_tree_peak_rss_bytes": 191422464,
+      "samples": 12,
+      "shared_wall_seconds": 1521.457632780075,
+      "stage": "source_lock",
+      "stage_wall_seconds": 0.6138570308685303,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 2395
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_replay_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1615667200,
+      "sampled_process_tree_peak_rss_bytes": 427061248,
+      "samples": 58,
+      "shared_wall_seconds": 1360.001537322998,
+      "stage": "fixture_replay_score",
+      "stage_wall_seconds": 2.9768872261047363,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1310
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_replay_capture.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/capture.py",
+        "--kind",
+        "fixture",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1731383296,
+      "sampled_process_tree_peak_rss_bytes": 563478528,
+      "samples": 136,
+      "shared_wall_seconds": 1356.4282467365265,
+      "stage": "fixture_replay_capture",
+      "stage_wall_seconds": 7.01138710975647,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1310
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_capture.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/capture.py",
+        "--kind",
+        "fixture",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1728417792,
+      "sampled_process_tree_peak_rss_bytes": 563445760,
+      "samples": 140,
+      "shared_wall_seconds": 1343.5006835460663,
+      "stage": "fixture_capture",
+      "stage_wall_seconds": 7.204909086227417,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1265
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_replay_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/generate.py",
+        "--kind",
+        "fixture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1420460032,
+      "sampled_process_tree_peak_rss_bytes": 194596864,
+      "samples": 15,
+      "shared_wall_seconds": 1348.7873177528381,
+      "stage": "fixture_replay_generate",
+      "stage_wall_seconds": 0.7711937427520752,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1265
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1612902400,
+      "sampled_process_tree_peak_rss_bytes": 426795008,
+      "samples": 63,
+      "shared_wall_seconds": 1347.3764250278473,
+      "stage": "fixture_score",
+      "stage_wall_seconds": 3.257375717163086,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1265
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/audit/FIXTURE_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1435521024,
+      "sampled_process_tree_peak_rss_bytes": 212692992,
+      "samples": 24,
+      "shared_wall_seconds": 1328.2008380889893,
+      "stage": "fixture_input_novelty",
+      "stage_wall_seconds": 1.238844871520996,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1220
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/main_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/main/capture_run/input",
+        "--previous",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/audit/MAIN_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1449521152,
+      "sampled_process_tree_peak_rss_bytes": 212676608,
+      "samples": 25,
+      "shared_wall_seconds": 1375.6209902763367,
+      "stage": "main_input_novelty",
+      "stage_wall_seconds": 1.2841782569885254,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1310
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/main_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/generate.py",
+        "--kind",
+        "main",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/main/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1431461888,
+      "sampled_process_tree_peak_rss_bytes": 194744320,
+      "samples": 17,
+      "shared_wall_seconds": 1373.7838010787964,
+      "stage": "main_generate",
+      "stage_wall_seconds": 0.8680751323699951,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1310
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/generate.py",
+        "--kind",
+        "fixture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1417007104,
+      "sampled_process_tree_peak_rss_bytes": 194449408,
+      "samples": 12,
+      "shared_wall_seconds": 1326.3344895839691,
+      "stage": "fixture_generate",
+      "stage_wall_seconds": 0.6128122806549072,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1220
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/prelock_contract_tests.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/test_contract.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1416843264,
+      "sampled_process_tree_peak_rss_bytes": 195530752,
+      "samples": 13,
+      "shared_wall_seconds": 1323.8846509456635,
+      "stage": "prelock_contract_tests",
+      "stage_wall_seconds": 0.6639597415924072,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1220
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/fixture_compare.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/compare.py",
+        "--a",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/capture_run",
+        "--b",
+        "/mnt/data/NSS_CM02_Execution_v0.5/raw/fixture/replay_run",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.5/audit/FIXTURE_REPLAY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1420242944,
+      "sampled_process_tree_peak_rss_bytes": 193171456,
+      "samples": 13,
+      "shared_wall_seconds": 1361.2820098400116,
+      "stage": "fixture_compare",
+      "stage_wall_seconds": 0.6625151634216309,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1310
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/audit/source_lock.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.5/src/freeze.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1413115904,
+      "sampled_process_tree_peak_rss_bytes": 191414272,
+      "samples": 12,
+      "shared_wall_seconds": 1325.088185787201,
+      "stage": "source_lock",
+      "stage_wall_seconds": 0.6112411022186279,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 1220
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_replay_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1553113088,
+      "sampled_process_tree_peak_rss_bytes": 426663936,
+      "samples": 59,
+      "shared_wall_seconds": 1199.5276346206665,
+      "stage": "fixture_replay_score",
+      "stage_wall_seconds": 3.0165257453918457,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 135
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_replay_capture.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/capture.py",
+        "--kind",
+        "fixture",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1669169152,
+      "sampled_process_tree_peak_rss_bytes": 562790400,
+      "samples": 135,
+      "shared_wall_seconds": 1195.902661561966,
+      "stage": "fixture_replay_capture",
+      "stage_wall_seconds": 6.878997802734375,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 135
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_capture.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/capture.py",
+        "--kind",
+        "fixture",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1665396736,
+      "sampled_process_tree_peak_rss_bytes": 562831360,
+      "samples": 144,
+      "shared_wall_seconds": 1177.3140997886658,
+      "stage": "fixture_capture",
+      "stage_wall_seconds": 7.346664190292358,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 90
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_replay_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/generate.py",
+        "--kind",
+        "fixture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1358032896,
+      "sampled_process_tree_peak_rss_bytes": 194592768,
+      "samples": 13,
+      "shared_wall_seconds": 1188.430110692978,
+      "stage": "fixture_replay_generate",
+      "stage_wall_seconds": 0.6627459526062012,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 90
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1550090240,
+      "sampled_process_tree_peak_rss_bytes": 426618880,
+      "samples": 63,
+      "shared_wall_seconds": 1181.1198406219482,
+      "stage": "fixture_score",
+      "stage_wall_seconds": 3.2243847846984863,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 90
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/audit/FIXTURE_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1372938240,
+      "sampled_process_tree_peak_rss_bytes": 212230144,
+      "samples": 29,
+      "shared_wall_seconds": 1169.3142731189728,
+      "stage": "fixture_input_novelty",
+      "stage_wall_seconds": 1.475121021270752,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/main_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/main/capture_run/input",
+        "--previous",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/audit/MAIN_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1387196416,
+      "sampled_process_tree_peak_rss_bytes": 212238336,
+      "samples": 25,
+      "shared_wall_seconds": 1220.3699550628662,
+      "stage": "main_input_novelty",
+      "stage_wall_seconds": 1.2754127979278564,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 135
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/main_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/generate.py",
+        "--kind",
+        "main",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/main/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1369382912,
+      "sampled_process_tree_peak_rss_bytes": 194756608,
+      "samples": 18,
+      "shared_wall_seconds": 1218.4397835731506,
+      "stage": "main_generate",
+      "stage_wall_seconds": 0.9161615371704102,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 135
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/generate.py",
+        "--kind",
+        "fixture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1354756096,
+      "sampled_process_tree_peak_rss_bytes": 194441216,
+      "samples": 12,
+      "shared_wall_seconds": 1049.4924652576447,
+      "stage": "fixture_generate",
+      "stage_wall_seconds": 0.6114997863769531,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/prelock_contract_tests.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/test_contract.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1352450048,
+      "sampled_process_tree_peak_rss_bytes": 192958464,
+      "samples": 13,
+      "shared_wall_seconds": 1047.0002417564392,
+      "stage": "prelock_contract_tests",
+      "stage_wall_seconds": 0.6624815464019775,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/fixture_compare.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/compare.py",
+        "--a",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run",
+        "--b",
+        "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/replay_run",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.4/audit/FIXTURE_REPLAY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1358204928,
+      "sampled_process_tree_peak_rss_bytes": 193015808,
+      "samples": 13,
+      "shared_wall_seconds": 1200.8308532238007,
+      "stage": "fixture_compare",
+      "stage_wall_seconds": 0.6639115810394287,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 135
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/audit/source_lock.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.4/src/freeze.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1351081984,
+      "sampled_process_tree_peak_rss_bytes": 191418368,
+      "samples": 12,
+      "shared_wall_seconds": 1048.2471332550049,
+      "stage": "source_lock",
+      "stage_wall_seconds": 0.6108841896057129,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/fixture_capture.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/capture.py",
+        "--kind",
+        "fixture",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/capture"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1658867712,
+      "sampled_process_tree_peak_rss_bytes": 562327552,
+      "samples": 148,
+      "shared_wall_seconds": 966.50452709198,
+      "stage": "fixture_capture",
+      "stage_wall_seconds": 7.556929588317871,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/fixture_score.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/score.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/input",
+        "--capture",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/capture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/scores"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 1,
+      "sampled_cgroup_peak_bytes": 1543065600,
+      "sampled_process_tree_peak_rss_bytes": 426917888,
+      "samples": 65,
+      "shared_wall_seconds": 970.4711332321167,
+      "stage": "fixture_score",
+      "stage_wall_seconds": 3.3148868083953857,
+      "status": "FAILED_STOP",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 45
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/final_prelock_contract_tests.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/test_contract.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1334194176,
+      "sampled_process_tree_peak_rss_bytes": 192786432,
+      "samples": 13,
+      "shared_wall_seconds": 885.2870478630066,
+      "stage": "final_prelock_contract_tests",
+      "stage_wall_seconds": 0.6616978645324707,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 0
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/fixture_input_novelty.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/novelty.py",
+        "--input",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/input",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.3/audit/FIXTURE_INPUT_IDENTITY.json"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1355358208,
+      "sampled_process_tree_peak_rss_bytes": 212168704,
+      "samples": 26,
+      "shared_wall_seconds": 950.3813846111298,
+      "stage": "fixture_input_novelty",
+      "stage_wall_seconds": 1.3211302757263184,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 0
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/fixture_generate.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/generate.py",
+        "--kind",
+        "fixture",
+        "--output",
+        "/mnt/data/NSS_CM02_Execution_v0.3/raw/fixture/capture_run/input"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1337434112,
+      "sampled_process_tree_peak_rss_bytes": 194600960,
+      "samples": 18,
+      "shared_wall_seconds": 948.449244260788,
+      "stage": "fixture_generate",
+      "stage_wall_seconds": 0.9166581630706787,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 0
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/prelock_contract_tests.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/test_contract.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1334390784,
+      "sampled_process_tree_peak_rss_bytes": 192823296,
+      "samples": 16,
+      "shared_wall_seconds": 733.5975480079651,
+      "stage": "prelock_contract_tests",
+      "stage_wall_seconds": 0.8130066394805908,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 0
+    },
+    {
+      "path": "failed_attempts/NSS_CM02_Execution_v0.5/failed_attempts/NSS_CM02_Execution_v0.4/failed_attempts/NSS_CM02_Execution_v0.3/audit/source_lock.json",
+      "command": [
+        "python",
+        "/mnt/data/NSS_CM02_Execution_v0.3/src/freeze.py"
+      ],
+      "failure": null,
+      "poll_interval_seconds": 0.05,
+      "returncode": 0,
+      "sampled_cgroup_peak_bytes": 1333583872,
+      "sampled_process_tree_peak_rss_bytes": 191447040,
+      "samples": 16,
+      "shared_wall_seconds": 946.8949952125549,
+      "stage": "source_lock",
+      "stage_wall_seconds": 0.815803050994873,
+      "status": "PASS",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "PYTHONHASHSEED": "0"
+      },
+      "total_recorded_attempted_forwards": 0
+    }
+  ]
+}

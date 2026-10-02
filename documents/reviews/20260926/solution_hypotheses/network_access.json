@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "purpose": "Bounded primary-source search for 5–8 competing mechanisms relevant to NSS; no paper download, code execution, model execution, or experiment.",
+  "date_utc": "2026-09-26",
+  "records": [
+    {
+      "time_window_utc": ["2026-09-26T23:55:55Z", "2026-09-26T23:56:56Z"],
+      "action": "web search",
+      "queries": [
+        "\"Echo state network\" Jaeger 2001 reservoir computing trained readout official PDF",
+        "Kirkpatrick et al Overcoming catastrophic forgetting in neural networks PNAS 2017",
+        "Hu et al LoRA Low-Rank Adaptation of Large Language Models ICLR 2022 arxiv",
+        "Rebuffi et al iCaRL Incremental Classifier and Representation Learning CVPR 2017"
+      ],
+      "urls_returned": [
+        "https://www.ai.rug.nl/minds/pubs/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5380101/",
+        "https://doi.org/10.1073/PNAS.1611835114",
+        "https://arxiv.org/abs/2106.09685",
+        "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "https://openaccess.thecvf.com/content_cvpr_2017/html/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.html",
+        "https://arxiv.org/abs/1611.07725"
+      ],
+      "outcome": "Identified primary/author sources for LoRA, iCaRL, and EWC; official author research list for Jaeger was found. EWC and search-only sources were not selected for the final eight-source set. Search engine also returned secondary mirrors, excluded from claims."
+    },
+    {
+      "time_window_utc": ["2026-09-26T23:56:56Z", "2026-09-26T23:57:12Z"],
+      "action": "web search",
+      "queries": [
+        "\"The echo state approach to analysing and training recurrent neural networks\" pdf Jaeger GMD 2001 148",
+        "\"Memory Efficient Optimizers with 4-bit States\" Li Chen Zhu arXiv",
+        "\"Loss of plasticity in deep continual learning\" Nature 2024 Dohare",
+        "\"Policy Distillation\" Rusu Atari 2015 arxiv 1511.06295"
+      ],
+      "urls_returned": [
+        "https://www.ai.rug.nl/minds/pubs/",
+        "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+        "https://arxiv.org/abs/2309.01507",
+        "https://www.nature.com/articles/s41586-024-07711-7",
+        "https://pubmed.ncbi.nlm.nih.gov/39169245/",
+        "https://arxiv.org/abs/1511.06295"
+      ],
+      "outcome": "Located author-hosted corrected Jaeger report, primary arXiv records for four-bit optimizer states and policy distillation, and the Nature article/official PubMed record on plasticity. Nature's publisher page was accessible via a cookie-parameter redirect."
+    },
+    {
+      "time_window_utc": ["2026-09-26T23:57:12Z", "2026-09-26T23:58:40Z"],
+      "actions": [
+        {
+          "action": "search",
+          "query": "site:openreview.net/forum \"LoRA: Low-Rank Adaptation of Large Language Models\" ICLR 2022",
+          "outcome": "Search results corroborated the ICLR 2022 citation; direct OpenReview forum access below was challenge-gated."
+        },
+        {
+          "action": "open/find",
+          "urls": [
+            "https://www.ai.rug.nl/minds/pubs/",
+            "https://arxiv.org/abs/1606.09282",
+            "https://openaccess.thecvf.com/content_cvpr_2017/html/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.html",
+            "https://proceedings.mlr.press/v162/borgeaud22a.html",
+            "https://arxiv.org/abs/1511.06295",
+            "https://arxiv.org/abs/2309.01507",
+            "https://www.nature.com/articles/s41586-024-07711-7",
+            "https://arxiv.org/abs/2106.09685",
+            "https://openreview.net/forum?id=nZeVKeeFYf9"
+          ],
+          "patterns": ["Jaeger 2001 report listing", "iCaRL", "ICML", "4-bit", "LoRA ICLR forum metadata"],
+          "outcomes": {
+            "accessible": [
+              "https://www.ai.rug.nl/minds/pubs/",
+              "https://arxiv.org/abs/1606.09282",
+              "https://proceedings.mlr.press/v162/borgeaud22a.html",
+              "https://arxiv.org/abs/1511.06295",
+              "https://arxiv.org/abs/2309.01507",
+              "https://www.nature.com/articles/s41586-024-07711-7",
+              "https://arxiv.org/abs/2106.09685"
+            ],
+            "search_result_content_available_but_direct_open_failed": [
+              "https://openaccess.thecvf.com/content_cvpr_2017/html/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.html"
+            ],
+            "challenge_gated": [
+              "https://openreview.net/forum?id=nZeVKeeFYf9"
+            ]
+          },
+          "notes": "The CVF search result exposed the primary paper title, authors, CVPR venue, abstract, and findings; direct open returned an internal fetch error. The LoRA arXiv record was accessible; OpenReview direct forum was redirected to a browser-verification challenge. The 4-bit arXiv v3 record states camera-ready revisions for NeurIPS 2023."
+        }
+      ]
+    },
+    {
+      "time_window_utc": ["2026-09-26T23:58:40Z", "2026-09-26T23:59:44Z"],
+      "action": "open author-hosted Jaeger report and erratum note",
+      "urls": [
+        "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+        "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRepErratum.pdf"
+      ],
+      "outcome": "The corrected 2010 report identifies itself as a corrected version of Jaeger's 2001 GMD Report 148. Its abstract and training section state that the approach can modify only weights to output units, training a readout by regression. The PDF was read through the web viewer only; it was not downloaded to the workspace."
+    }
+  ],
+  "final_eight_primary_sources": [
+    {
+      "title": "The 'echo state' approach to analysing and training recurrent neural networks",
+      "url": "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+      "status": "Author-hosted corrected version of 2001 GMD Report 148; 2010 erratum noted."
+    },
+    {
+      "title": "Learning without Forgetting",
+      "url": "https://arxiv.org/abs/1606.09282",
+      "status": "Primary arXiv record; ECCV 2016 venue/DOI also checked in bibliographic search."
+    },
+    {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "status": "Primary arXiv version accessible; cited as ICLR 2022, with venue corroboration from search/indexed OpenReview citations; direct OpenReview forum challenge-gated."
+    },
+    {
+      "title": "iCaRL: Incremental Classifier and Representation Learning",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.html",
+      "status": "CVPR 2017 primary paper and abstract surfaced in search; direct CVF open returned internal fetch error; arXiv version 1611.07725 also surfaced."
+    },
+    {
+      "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+      "url": "https://proceedings.mlr.press/v162/borgeaud22a.html",
+      "status": "Primary PMLR page for ICML 2022 accessible; arXiv version 2112.04426 checked."
+    },
+    {
+      "title": "Policy Distillation",
+      "url": "https://arxiv.org/abs/1511.06295",
+      "status": "Primary arXiv record accessible; publication venue not independently verified."
+    },
+    {
+      "title": "Memory Efficient Optimizers with 4-bit States",
+      "url": "https://arxiv.org/abs/2309.01507",
+      "status": "Primary arXiv record accessible through v3; its record notes camera-ready revisions for NeurIPS 2023."
+    },
+    {
+      "title": "Loss of plasticity in deep continual learning",
+      "url": "https://www.nature.com/articles/s41586-024-07711-7",
+      "status": "Nature version of record accessible after cookie-parameter redirect; official PubMed record also surfaced."
+    }
+  ],
+  "limits": "This is a focused source check, not a systematic review. No full-source download, model/code execution, or experiment occurred. Findings are from the cited benchmark/task domains and are not evidence of transfer to NSS."
+}

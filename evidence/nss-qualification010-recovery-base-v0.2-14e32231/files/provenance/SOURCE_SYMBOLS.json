@@ -1,0 +1,1552 @@
+{
+  "status": "AST_PARSED_FROM_RECOVERED_PARENT",
+  "symbols": [
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "load_pair",
+      "kind": "FunctionDef",
+      "line": 13,
+      "end_line": 15
+    },
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "make_resolver",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "load_binder",
+      "kind": "FunctionDef",
+      "line": 19,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "array_digest",
+      "kind": "FunctionDef",
+      "line": 27,
+      "end_line": 31
+    },
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "save_arrays",
+      "kind": "FunctionDef",
+      "line": 33,
+      "end_line": 37
+    },
+    {
+      "file": "reference/parent009/nbr009/common.py",
+      "symbol": "hashes_source",
+      "kind": "FunctionDef",
+      "line": 39,
+      "end_line": 40
+    },
+    {
+      "file": "reference/parent009/nbr009/context.py",
+      "symbol": "sample",
+      "kind": "FunctionDef",
+      "line": 14,
+      "end_line": 43
+    },
+    {
+      "file": "reference/parent009/nbr009/context.py",
+      "symbol": "evidence",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 49
+    },
+    {
+      "file": "reference/parent009/nbr009/context.py",
+      "symbol": "decide",
+      "kind": "FunctionDef",
+      "line": 51,
+      "end_line": 57
+    },
+    {
+      "file": "reference/parent009/nbr009/context.py",
+      "symbol": "calibrate",
+      "kind": "FunctionDef",
+      "line": 59,
+      "end_line": 74
+    },
+    {
+      "file": "reference/parent009/nbr009/context.py",
+      "symbol": "run",
+      "kind": "FunctionDef",
+      "line": 76,
+      "end_line": 86
+    },
+    {
+      "file": "reference/parent009/nbr009/episodes.py",
+      "symbol": "paired",
+      "kind": "FunctionDef",
+      "line": 7,
+      "end_line": 27
+    },
+    {
+      "file": "reference/parent009/nbr009/episodes.py",
+      "symbol": "build_state",
+      "kind": "FunctionDef",
+      "line": 29,
+      "end_line": 38
+    },
+    {
+      "file": "reference/parent009/nbr009/episodes.py",
+      "symbol": "near",
+      "kind": "FunctionDef",
+      "line": 12,
+      "end_line": 14
+    },
+    {
+      "file": "reference/parent009/nbr009/readout.py",
+      "symbol": "exact_owner_read",
+      "kind": "FunctionDef",
+      "line": 8,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/nbr009/readout.py",
+      "symbol": "logical_graph_arrays",
+      "kind": "FunctionDef",
+      "line": 19,
+      "end_line": 34
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "follow",
+      "kind": "FunctionDef",
+      "line": 10,
+      "end_line": 19
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "decode_store",
+      "kind": "FunctionDef",
+      "line": 21,
+      "end_line": 38
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "stats",
+      "kind": "FunctionDef",
+      "line": 40,
+      "end_line": 40
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "score_a",
+      "kind": "FunctionDef",
+      "line": 42,
+      "end_line": 81
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "score_b",
+      "kind": "FunctionDef",
+      "line": 83,
+      "end_line": 100
+    },
+    {
+      "file": "reference/parent009/nbr009/score.py",
+      "symbol": "score_cue",
+      "kind": "FunctionDef",
+      "line": 102,
+      "end_line": 114
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_a.py",
+      "symbol": "run",
+      "kind": "FunctionDef",
+      "line": 22,
+      "end_line": 83
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_a.py",
+      "symbol": "capture",
+      "kind": "FunctionDef",
+      "line": 32,
+      "end_line": 49
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_a.py",
+      "symbol": "mark",
+      "kind": "FunctionDef",
+      "line": 51,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_a.py",
+      "symbol": "event",
+      "kind": "FunctionDef",
+      "line": 54,
+      "end_line": 60
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "install",
+      "kind": "FunctionDef",
+      "line": 12,
+      "end_line": 20
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "scenarios",
+      "kind": "FunctionDef",
+      "line": 23,
+      "end_line": 40
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "maintain",
+      "kind": "FunctionDef",
+      "line": 43,
+      "end_line": 53
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "query_resolver",
+      "kind": "FunctionDef",
+      "line": 55,
+      "end_line": 58
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "run",
+      "kind": "FunctionDef",
+      "line": 61,
+      "end_line": 113
+    },
+    {
+      "file": "reference/parent009/nbr009/stage_b.py",
+      "symbol": "add",
+      "kind": "FunctionDef",
+      "line": 25,
+      "end_line": 26
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "OwnedState",
+      "kind": "ClassDef",
+      "line": 16,
+      "end_line": 172
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 18,
+      "end_line": 32
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "_bind_store",
+      "kind": "FunctionDef",
+      "line": 33,
+      "end_line": 34
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "revision",
+      "kind": "FunctionDef",
+      "line": 36,
+      "end_line": 36
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "arrays",
+      "kind": "FunctionDef",
+      "line": 37,
+      "end_line": 37
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "signature",
+      "kind": "FunctionDef",
+      "line": 38,
+      "end_line": 41
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "validate",
+      "kind": "FunctionDef",
+      "line": 42,
+      "end_line": 50
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "clone",
+      "kind": "FunctionDef",
+      "line": 51,
+      "end_line": 54
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "bytes",
+      "kind": "FunctionDef",
+      "line": 55,
+      "end_line": 55
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "register",
+      "kind": "FunctionDef",
+      "line": 56,
+      "end_line": 65
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "prepare",
+      "kind": "FunctionDef",
+      "line": 67,
+      "end_line": 100
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "commit",
+      "kind": "FunctionDef",
+      "line": 101,
+      "end_line": 114
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "event",
+      "kind": "FunctionDef",
+      "line": 115,
+      "end_line": 115
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "observed_event",
+      "kind": "FunctionDef",
+      "line": 116,
+      "end_line": 121
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "clear_scope",
+      "kind": "FunctionDef",
+      "line": 122,
+      "end_line": 124
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "add_noise",
+      "kind": "FunctionDef",
+      "line": 125,
+      "end_line": 130
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "maintain",
+      "kind": "FunctionDef",
+      "line": 132,
+      "end_line": 149
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "save",
+      "kind": "FunctionDef",
+      "line": 150,
+      "end_line": 158
+    },
+    {
+      "file": "reference/parent009/nbr009/state.py",
+      "symbol": "load",
+      "kind": "FunctionDef",
+      "line": 160,
+      "end_line": 172
+    },
+    {
+      "file": "reference/parent009/nbr009/train.py",
+      "symbol": "batch",
+      "kind": "FunctionDef",
+      "line": 12,
+      "end_line": 32
+    },
+    {
+      "file": "reference/parent009/nbr009/train.py",
+      "symbol": "fit",
+      "kind": "FunctionDef",
+      "line": 34,
+      "end_line": 52
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/common.py",
+      "symbol": "parents",
+      "kind": "FunctionDef",
+      "line": 8,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/common.py",
+      "symbol": "model_hashes",
+      "kind": "FunctionDef",
+      "line": 19,
+      "end_line": 19
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/common.py",
+      "symbol": "env",
+      "kind": "FunctionDef",
+      "line": 22,
+      "end_line": 24
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/config.py",
+      "symbol": "load_gate",
+      "kind": "FunctionDef",
+      "line": 8,
+      "end_line": 13
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/config.py",
+      "symbol": "resolver",
+      "kind": "FunctionDef",
+      "line": 15,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/config.py",
+      "symbol": "contract",
+      "kind": "FunctionDef",
+      "line": 19,
+      "end_line": 23
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/evaluate.py",
+      "symbol": "metric",
+      "kind": "FunctionDef",
+      "line": 16,
+      "end_line": 18
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/evaluate.py",
+      "symbol": "expose",
+      "kind": "FunctionDef",
+      "line": 21,
+      "end_line": 37
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/evaluate.py",
+      "symbol": "evaluate",
+      "kind": "FunctionDef",
+      "line": 40,
+      "end_line": 149
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/evaluate.py",
+      "symbol": "decode",
+      "kind": "FunctionDef",
+      "line": 24,
+      "end_line": 24
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/evaluate.py",
+      "symbol": "record",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 58
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/membership_eval.py",
+      "symbol": "evaluate",
+      "kind": "FunctionDef",
+      "line": 11,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/pipeline.py",
+      "symbol": "make_problem",
+      "kind": "FunctionDef",
+      "line": 11,
+      "end_line": 20
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/pipeline.py",
+      "symbol": "install",
+      "kind": "FunctionDef",
+      "line": 22,
+      "end_line": 33
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/pipeline.py",
+      "symbol": "init_query",
+      "kind": "FunctionDef",
+      "line": 35,
+      "end_line": 36
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/pipeline.py",
+      "symbol": "step_query",
+      "kind": "FunctionDef",
+      "line": 39,
+      "end_line": 61
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/pipeline.py",
+      "symbol": "read",
+      "kind": "FunctionDef",
+      "line": 64,
+      "end_line": 81
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/prepare.py",
+      "symbol": "fit",
+      "kind": "FunctionDef",
+      "line": 12,
+      "end_line": 30
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/prepare.py",
+      "symbol": "calibrate",
+      "kind": "FunctionDef",
+      "line": 33,
+      "end_line": 69
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "MatchHead",
+      "kind": "ClassDef",
+      "line": 13,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "features",
+      "kind": "FunctionDef",
+      "line": 19,
+      "end_line": 33
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "Decision",
+      "kind": "ClassDef",
+      "line": 36,
+      "end_line": 42
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "Resolver",
+      "kind": "ClassDef",
+      "line": 44,
+      "end_line": 88
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 14,
+      "end_line": 16
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 47
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "selective",
+      "kind": "FunctionDef",
+      "line": 49,
+      "end_line": 49
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/resolver.py",
+      "symbol": "__call__",
+      "kind": "FunctionDef",
+      "line": 50,
+      "end_line": 88
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/samples.py",
+      "symbol": "sample",
+      "kind": "FunctionDef",
+      "line": 11,
+      "end_line": 43
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/samples.py",
+      "symbol": "training_batch",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 53
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "State",
+      "kind": "ClassDef",
+      "line": 15,
+      "end_line": 121
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 16,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "validate",
+      "kind": "FunctionDef",
+      "line": 26,
+      "end_line": 29
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "present",
+      "kind": "FunctionDef",
+      "line": 31,
+      "end_line": 31
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "signature",
+      "kind": "FunctionDef",
+      "line": 32,
+      "end_line": 35
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "clone",
+      "kind": "FunctionDef",
+      "line": 36,
+      "end_line": 40
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "register",
+      "kind": "FunctionDef",
+      "line": 41,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "event",
+      "kind": "FunctionDef",
+      "line": 53,
+      "end_line": 67
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "clear_scope",
+      "kind": "FunctionDef",
+      "line": 68,
+      "end_line": 69
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "add_noise",
+      "kind": "FunctionDef",
+      "line": 70,
+      "end_line": 79
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "maintain",
+      "kind": "FunctionDef",
+      "line": 81,
+      "end_line": 94
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "bytes",
+      "kind": "FunctionDef",
+      "line": 95,
+      "end_line": 95
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "save",
+      "kind": "FunctionDef",
+      "line": 96,
+      "end_line": 103
+    },
+    {
+      "file": "reference/parent009/reference/parent008/nbr008/state.py",
+      "symbol": "load",
+      "kind": "FunctionDef",
+      "line": 105,
+      "end_line": 121
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "setup",
+      "kind": "FunctionDef",
+      "line": 7,
+      "end_line": 12
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "utc",
+      "kind": "FunctionDef",
+      "line": 13,
+      "end_line": 13
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "sha",
+      "kind": "FunctionDef",
+      "line": 14,
+      "end_line": 14
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "dump",
+      "kind": "FunctionDef",
+      "line": 15,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "weights_hash",
+      "kind": "FunctionDef",
+      "line": 18,
+      "end_line": 22
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "save_model",
+      "kind": "FunctionDef",
+      "line": 23,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "tensor",
+      "kind": "FunctionDef",
+      "line": 26,
+      "end_line": 26
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/common.py",
+      "symbol": "env",
+      "kind": "FunctionDef",
+      "line": 27,
+      "end_line": 28
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/continuation.py",
+      "symbol": "QueryRunner",
+      "kind": "ClassDef",
+      "line": 14,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/continuation.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 15,
+      "end_line": 18
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/continuation.py",
+      "symbol": "advance",
+      "kind": "FunctionDef",
+      "line": 20,
+      "end_line": 38
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/continuation.py",
+      "symbol": "save",
+      "kind": "FunctionDef",
+      "line": 39,
+      "end_line": 43
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/continuation.py",
+      "symbol": "load",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "normalize",
+      "kind": "FunctionDef",
+      "line": 11,
+      "end_line": 11
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "batch",
+      "kind": "FunctionDef",
+      "line": 13,
+      "end_line": 41
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "targets",
+      "kind": "FunctionDef",
+      "line": 43,
+      "end_line": 47
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "tensors",
+      "kind": "FunctionDef",
+      "line": 49,
+      "end_line": 50
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "oracle_answer",
+      "kind": "FunctionDef",
+      "line": 52,
+      "end_line": 62
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/data.py",
+      "symbol": "check_problem",
+      "kind": "FunctionDef",
+      "line": 64,
+      "end_line": 67
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "source_seed",
+      "kind": "FunctionDef",
+      "line": 16,
+      "end_line": 16
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "install",
+      "kind": "FunctionDef",
+      "line": 18,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "direct_binding_score",
+      "kind": "FunctionDef",
+      "line": 27,
+      "end_line": 37
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "distract",
+      "kind": "FunctionDef",
+      "line": 39,
+      "end_line": 53
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "metrics",
+      "kind": "FunctionDef",
+      "line": 56,
+      "end_line": 61
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "evaluate",
+      "kind": "FunctionDef",
+      "line": 64,
+      "end_line": 141
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/eval.py",
+      "symbol": "record",
+      "kind": "FunctionDef",
+      "line": 70,
+      "end_line": 80
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/exact_eval.py",
+      "symbol": "ExactReader",
+      "kind": "ClassDef",
+      "line": 15,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/exact_eval.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 16,
+      "end_line": 16
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/exact_eval.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "Matcher",
+      "kind": "ClassDef",
+      "line": 13,
+      "end_line": 22
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "RecordHop",
+      "kind": "ClassDef",
+      "line": 24,
+      "end_line": 36
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "UntiedHop",
+      "kind": "ClassDef",
+      "line": 38,
+      "end_line": 49
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "AttentionBlock",
+      "kind": "ClassDef",
+      "line": 51,
+      "end_line": 59
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "AttentionReader",
+      "kind": "ClassDef",
+      "line": 61,
+      "end_line": 78
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "AlignedAttentionReader",
+      "kind": "ClassDef",
+      "line": 80,
+      "end_line": 96
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "FlatGRU",
+      "kind": "ClassDef",
+      "line": 98,
+      "end_line": 110
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "make",
+      "kind": "FunctionDef",
+      "line": 112,
+      "end_line": 122
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "logits",
+      "kind": "FunctionDef",
+      "line": 124,
+      "end_line": 124
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 14,
+      "end_line": 16
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 22
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 25,
+      "end_line": 27
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 28,
+      "end_line": 36
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 40,
+      "end_line": 41
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 42,
+      "end_line": 49
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 52,
+      "end_line": 56
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 57,
+      "end_line": 59
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 62,
+      "end_line": 66
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 67,
+      "end_line": 78
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 86,
+      "end_line": 96
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 99,
+      "end_line": 101
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/models.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 102,
+      "end_line": 110
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "RecordStore",
+      "kind": "ClassDef",
+      "line": 16,
+      "end_line": 73
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 22
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "bytes",
+      "kind": "FunctionDef",
+      "line": 24,
+      "end_line": 24
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "snapshot",
+      "kind": "FunctionDef",
+      "line": 25,
+      "end_line": 25
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "clear_all",
+      "kind": "FunctionDef",
+      "line": 26,
+      "end_line": 26
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "event",
+      "kind": "FunctionDef",
+      "line": 28,
+      "end_line": 50
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "perturb",
+      "kind": "FunctionDef",
+      "line": 51,
+      "end_line": 55
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "save",
+      "kind": "FunctionDef",
+      "line": 56,
+      "end_line": 60
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/store.py",
+      "symbol": "load",
+      "kind": "FunctionDef",
+      "line": 62,
+      "end_line": 73
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/train.py",
+      "symbol": "fit",
+      "kind": "FunctionDef",
+      "line": 9,
+      "end_line": 48
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/train.py",
+      "symbol": "main",
+      "kind": "FunctionDef",
+      "line": 50,
+      "end_line": 51
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/verify.py",
+      "symbol": "truths",
+      "kind": "FunctionDef",
+      "line": 11,
+      "end_line": 24
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr006/verify.py",
+      "symbol": "rescore",
+      "kind": "FunctionDef",
+      "line": 26,
+      "end_line": 39
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "DictionaryRepair",
+      "kind": "ClassDef",
+      "line": 11,
+      "end_line": 31
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "IntrinsicRepair",
+      "kind": "ClassDef",
+      "line": 32,
+      "end_line": 39
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "make",
+      "kind": "FunctionDef",
+      "line": 40,
+      "end_line": 43
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "apply",
+      "kind": "FunctionDef",
+      "line": 44,
+      "end_line": 54
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "maintain",
+      "kind": "FunctionDef",
+      "line": 55,
+      "end_line": 61
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 17,
+      "end_line": 19
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "logits",
+      "kind": "FunctionDef",
+      "line": 20,
+      "end_line": 28
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 29,
+      "end_line": 31
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "__init__",
+      "kind": "FunctionDef",
+      "line": 34,
+      "end_line": 37
+    },
+    {
+      "file": "reference/parent009/reference/parent008/reference/nbr007/repair.py",
+      "symbol": "forward",
+      "kind": "FunctionDef",
+      "line": 38,
+      "end_line": 39
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "IdentityTests",
+      "kind": "ClassDef",
+      "line": 13,
+      "end_line": 129
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "setUpClass",
+      "kind": "FunctionDef",
+      "line": 15,
+      "end_line": 17
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "setUp",
+      "kind": "FunctionDef",
+      "line": 18,
+      "end_line": 20
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "val",
+      "kind": "FunctionDef",
+      "line": 21,
+      "end_line": 21
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "reg",
+      "kind": "FunctionDef",
+      "line": 22,
+      "end_line": 22
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_denied_unchanged",
+      "kind": "FunctionDef",
+      "line": 23,
+      "end_line": 24
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_wrong_scope_unchanged",
+      "kind": "FunctionDef",
+      "line": 25,
+      "end_line": 26
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_noop_unchanged",
+      "kind": "FunctionDef",
+      "line": 27,
+      "end_line": 28
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_registration_no_relation",
+      "kind": "FunctionDef",
+      "line": 29,
+      "end_line": 30
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_duplicate_registration",
+      "kind": "FunctionDef",
+      "line": 31,
+      "end_line": 32
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_denied_registration",
+      "kind": "FunctionDef",
+      "line": 33,
+      "end_line": 34
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_full_registry",
+      "kind": "FunctionDef",
+      "line": 35,
+      "end_line": 36
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_near_distinct_owner",
+      "kind": "FunctionDef",
+      "line": 37,
+      "end_line": 38
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_correction_owner",
+      "kind": "FunctionDef",
+      "line": 39,
+      "end_line": 40
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_clear_keeps_identity",
+      "kind": "FunctionDef",
+      "line": 41,
+      "end_line": 42
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_clear_then_rewrite",
+      "kind": "FunctionDef",
+      "line": 43,
+      "end_line": 44
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_stale_handle",
+      "kind": "FunctionDef",
+      "line": 45,
+      "end_line": 46
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_stale_transaction",
+      "kind": "FunctionDef",
+      "line": 47,
+      "end_line": 48
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_registration_invalidates_transaction",
+      "kind": "FunctionDef",
+      "line": 49,
+      "end_line": 50
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_prepare_read_only",
+      "kind": "FunctionDef",
+      "line": 51,
+      "end_line": 52
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_invalid_operation",
+      "kind": "FunctionDef",
+      "line": 53,
+      "end_line": 54
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_nonfinite_value",
+      "kind": "FunctionDef",
+      "line": 55,
+      "end_line": 57
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_bad_registration_norm",
+      "kind": "FunctionDef",
+      "line": 58,
+      "end_line": 59
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_hidden_future_code",
+      "kind": "FunctionDef",
+      "line": 60,
+      "end_line": 62
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_bad_allocation",
+      "kind": "FunctionDef",
+      "line": 63,
+      "end_line": 64
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_snapshot_roundtrip",
+      "kind": "FunctionDef",
+      "line": 65,
+      "end_line": 67
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_snapshot_contract",
+      "kind": "FunctionDef",
+      "line": 68,
+      "end_line": 71
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_snapshot_scope",
+      "kind": "FunctionDef",
+      "line": 72,
+      "end_line": 75
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_snapshot_corruption",
+      "kind": "FunctionDef",
+      "line": 76,
+      "end_line": 79
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_snapshot_transaction",
+      "kind": "FunctionDef",
+      "line": 80,
+      "end_line": 82
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_parent_mismatch_snapshot",
+      "kind": "FunctionDef",
+      "line": 83,
+      "end_line": 86
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_absence_not_repaired",
+      "kind": "FunctionDef",
+      "line": 87,
+      "end_line": 88
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_rehydrate_key_not_value",
+      "kind": "FunctionDef",
+      "line": 89,
+      "end_line": 90
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_erasure_not_recovered",
+      "kind": "FunctionDef",
+      "line": 91,
+      "end_line": 92
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_wrong_valid_value_survives",
+      "kind": "FunctionDef",
+      "line": 93,
+      "end_line": 94
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_invalid_owner_epoch",
+      "kind": "FunctionDef",
+      "line": 95,
+      "end_line": 97
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_repair_refuses_invalid_owner",
+      "kind": "FunctionDef",
+      "line": 98,
+      "end_line": 100
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_query_readonly",
+      "kind": "FunctionDef",
+      "line": 101,
+      "end_line": 102
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_queries_cannot_register",
+      "kind": "FunctionDef",
+      "line": 103,
+      "end_line": 104
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_revision_check",
+      "kind": "FunctionDef",
+      "line": 105,
+      "end_line": 107
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_reset_separates_scope",
+      "kind": "FunctionDef",
+      "line": 108,
+      "end_line": 109
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_noise_same_draws",
+      "kind": "FunctionDef",
+      "line": 110,
+      "end_line": 111
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_guard_no_cross_owner",
+      "kind": "FunctionDef",
+      "line": 112,
+      "end_line": 113
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_unguarded_reports_cross_owner",
+      "kind": "FunctionDef",
+      "line": 114,
+      "end_line": 115
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_independent_registration_keeps_book",
+      "kind": "FunctionDef",
+      "line": 116,
+      "end_line": 117
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_bytes_include_metadata",
+      "kind": "FunctionDef",
+      "line": 118,
+      "end_line": 119
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_matched_training_rng",
+      "kind": "FunctionDef",
+      "line": 120,
+      "end_line": 121
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_parent_weights_fixed",
+      "kind": "FunctionDef",
+      "line": 122,
+      "end_line": 123
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_context_identical_evidence",
+      "kind": "FunctionDef",
+      "line": 124,
+      "end_line": 127
+    },
+    {
+      "file": "reference/parent009/tests/test_identity.py",
+      "symbol": "test_duplicate_context_same_rule",
+      "kind": "FunctionDef",
+      "line": 128,
+      "end_line": 129
+    }
+  ]
+}

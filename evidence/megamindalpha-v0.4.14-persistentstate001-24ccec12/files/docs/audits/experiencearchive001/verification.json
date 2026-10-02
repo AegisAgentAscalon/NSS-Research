@@ -1,0 +1,84 @@
+{
+  "baseline_zip": "MegaMindAlpha_v0.4.2_StageHandoff001.zip",
+  "baseline_sha256": "ddbf7cf98d4826846852a12d0b266128de47fcbcd41909b59b463c1cf4a1b995",
+  "baseline_tests": 128,
+  "final_tests": 210,
+  "new_test_methods": 82,
+  "archive_process_crash_windows": 13,
+  "inherited_python_files_checked": 23,
+  "modified_inherited_python_files": [],
+  "modified_logic_flows": [
+    "experience"
+  ],
+  "total_logic_flows": 25,
+  "modified_historical_reference_files": [],
+  "modified_unrelated_diagrams": [],
+  "schema_generation_reproducible": true,
+  "commands": [
+    {
+      "check": "demo_001a",
+      "command": [
+        "-m",
+        "nss_base.experiment001a"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "demo_001b",
+      "command": [
+        "-m",
+        "nss_base.experiment001b"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "demo_stagehandoff",
+      "command": [
+        "-m",
+        "nss_base.stagehandoff001"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "demo_experiencearchive",
+      "command": [
+        "-m",
+        "nss_base.experiencearchive001"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "atlas",
+      "command": [
+        "-m",
+        "nss_base.logic_atlas"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "dependencies",
+      "command": [
+        "tools/check_dependencies.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "check": "compile",
+      "command": [
+        "-m",
+        "compileall",
+        "-q",
+        "nss_base",
+        "tests",
+        "tools"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "sqlite": "3.46.1"
+  },
+  "scope": "Local deterministic software/fixture evidence only; not a neural, authenticated human-review or production-security qualification."
+}

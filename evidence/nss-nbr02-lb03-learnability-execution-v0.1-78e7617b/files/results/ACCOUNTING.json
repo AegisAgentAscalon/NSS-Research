@@ -1,0 +1,20 @@
+{
+  "main_branches": 24,
+  "actual_main_updates": 12288,
+  "actual_preflight_updates": 24,
+  "actual_benchmark_updates": 102,
+  "actual_audit_updates": 24,
+  "actual_total_updates": 12438,
+  "global_allowed_updates": 12576,
+  "repeated_or_discarded_main_updates": 0,
+  "unknown_update_tails": 0,
+  "non_model_optimizer_arithmetic_reference_steps": 5,
+  "main_training_core_seconds": 116.87987780200615,
+  "main_branch_seconds": 122.7685943360002,
+  "main_peak_rss": 327864320,
+  "evaluation_core_seconds": 29.702962047000028,
+  "audit_core_seconds": 28.975874647999945,
+  "audit_peak_rss": 381157376,
+  "new_study_evidence_bytes_at_accounting": 111009226,
+  "note": "No additional training of retained main candidates after fixed endpoints; disposable timing and audit updates are counted separately. Core seconds omit research design, file reconciliation, compilation, imports, reporting and packaging. High-water RSS includes Python/Torch/corpus; memory union not peak. Main data writing capped, operating system not a dedicated sandbox."
+}

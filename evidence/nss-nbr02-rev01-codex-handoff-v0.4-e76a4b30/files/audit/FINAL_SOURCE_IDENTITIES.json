@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "frozen_source_entries": 28,
+  "parent_archives_unchanged": {
+    "/mnt/data/NSS_Architecture_Ledger_v0.1.zip": "8ca191b60c8793bfd4aa8bd2e36740b3f41c1d471f19a5e0e42388db04375b43",
+    "/mnt/data/NSS_NBR02_DC01_Complete_v0.5.zip": "89408f120363c37788abd0198cdcf980a6d98f661f2cb2999e47bf472d43a421"
+  },
+  "wrapper_CLI_only_no_third_run": true
+}

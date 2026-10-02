@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "generation_id": "test-package-g1",
+  "primary_generation": "test-primary-g1",
+  "producer_id": "builder",
+  "execution_scope": "TEST_ADAPTERS_ONLY",
+  "components": {
+    "PRIMARY": {
+      "role": "PRIMARY",
+      "component_id": "test-primary",
+      "revision": "test-r1",
+      "implementation": "deterministic-test-v1",
+      "weights_sha256": "d2ec059d5bf980714677a39db23ea4d763611317a1c0734a725035b926651a12",
+      "primary_generation": "test-primary-g1",
+      "interface_version": "exchange-v1",
+      "state_schema": "test-counter-v1",
+      "codec_version": "json-v1",
+      "tokenizer_abi": null,
+      "serving_frozen": true,
+      "capabilities": [
+        "structured",
+        "text",
+        "temporal_state"
+      ],
+      "evidence_class": "DETERMINISTIC_TEST_ADAPTER_NOT_NEURAL"
+    },
+    "SECONDARY": {
+      "role": "SECONDARY",
+      "component_id": "test-secondary",
+      "revision": "test-r1",
+      "implementation": "deterministic-test-v1",
+      "weights_sha256": "4cf57cf6d70da6c96ce5aab6813820fa9c7b2d012328b28c37d0a1054b072c6a",
+      "primary_generation": "test-primary-g1",
+      "interface_version": "exchange-v1",
+      "state_schema": "test-counter-v1",
+      "codec_version": "json-v1",
+      "tokenizer_abi": null,
+      "serving_frozen": true,
+      "capabilities": [
+        "structured",
+        "text",
+        "temporal_state",
+        "candidate_learning"
+      ],
+      "evidence_class": "DETERMINISTIC_TEST_ADAPTER_NOT_NEURAL"
+    },
+    "TERTIARY": {
+      "role": "TERTIARY",
+      "component_id": "test-tertiary",
+      "revision": "test-r1",
+      "implementation": "deterministic-test-v1",
+      "weights_sha256": "fee1018967c7cc973859d9c7179dbf1ad65eea0aed04a311e5477368b83dc52e",
+      "primary_generation": "test-primary-g1",
+      "interface_version": "exchange-v1",
+      "state_schema": "test-counter-v1",
+      "codec_version": "json-v1",
+      "tokenizer_abi": null,
+      "serving_frozen": true,
+      "capabilities": [
+        "structured",
+        "text",
+        "temporal_state"
+      ],
+      "evidence_class": "DETERMINISTIC_TEST_ADAPTER_NOT_NEURAL"
+    },
+    "VALIDATOR": {
+      "role": "VALIDATOR",
+      "component_id": "test-validator",
+      "revision": "test-r1",
+      "implementation": "deterministic-test-v1",
+      "weights_sha256": "c3772b755f9c912b1a92b8413c4bdc44437930e2ffe6c17441dc3f840d3a0338",
+      "primary_generation": "test-primary-g1",
+      "interface_version": "exchange-v1",
+      "state_schema": "test-counter-v1",
+      "codec_version": "json-v1",
+      "tokenizer_abi": null,
+      "serving_frozen": true,
+      "capabilities": [
+        "structured",
+        "text",
+        "temporal_state"
+      ],
+      "evidence_class": "DETERMINISTIC_TEST_ADAPTER_NOT_NEURAL"
+    }
+  },
+  "context_abi": "scoped-context-v3",
+  "exchange_abi": "exchange-v1",
+  "limits": {
+    "max_ticks": 100,
+    "max_state_bytes": 65536,
+    "max_message_bytes": 65536,
+    "callback_budget_ms": 1000
+  }
+}

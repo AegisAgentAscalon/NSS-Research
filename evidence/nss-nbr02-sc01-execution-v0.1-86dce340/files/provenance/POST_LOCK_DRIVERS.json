@@ -1,0 +1,33 @@
+{
+  "purpose": "Operational continuation, retained-data audit, analysis, report/demo/package tooling; no locked scientific source changed",
+  "drivers": {
+    "scripts/summarize.py": {
+      "bytes": 5211,
+      "sha256": "605cf3d2762c82c3c69f8ab347b91ac9c25f3a268caa6ad69c4d5c0b18ea72b6"
+    },
+    "scripts/demo.py": {
+      "bytes": 970,
+      "sha256": "dcaaf8d116329bd202be72df2b4cd0b84369fc499b54b754ff43627c1f6470c7"
+    },
+    "scripts/complete_timing.py": {
+      "bytes": 1960,
+      "sha256": "c4b0eb8d9a2261a03b38cb7dfa9eb61f26d551e11cebfdbcd414f64f7bbcf76c"
+    },
+    "scripts/verify_package.py": {
+      "bytes": 405,
+      "sha256": "60d94b6af348ae149dcaba1323e1a61f63848a68abf4732c087eadd57b708f24"
+    },
+    "scripts/complete_timing_128.py": {
+      "bytes": 1970,
+      "sha256": "b80b2e46f5dffd3ca182bb0319d14a5448ea760c70942092ee456cb3045f3c59"
+    },
+    "scripts/build_report.py": {
+      "bytes": 16358,
+      "sha256": "4703544e92eb63d92e254e2a5cd18b6ba76a2366e1b5d3537e54aa57526a898c"
+    },
+    "scripts/audit.py": {
+      "bytes": 5869,
+      "sha256": "2728c6cdcf6a3d0372379b3fd92796baa15c48080fbf4ecec15ea1090a411227"
+    }
+  }
+}

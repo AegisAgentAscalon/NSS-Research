@@ -1,0 +1,10 @@
+{
+  "end_utc": "2026-09-24T16:11:44.352437+00:00",
+  "exit_code": 0,
+  "name": "score_1203",
+  "new_optimizer_updates": 0,
+  "pid": 908,
+  "sampled_peak_process_tree_rss_bytes": 400162816,
+  "start_utc": "2026-09-24T16:08:28.200958+00:00",
+  "wall_seconds": 196.15150449999987
+}

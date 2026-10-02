@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 8028,
+      "sha256": "26c8968dddb5966b0a21de1d689c37be64f165d27dae6a905c770c8128855e6b"
+    },
+    {
+      "path": "RESTORE.md",
+      "bytes": 969,
+      "sha256": "e91b51b71e274eaf87e099ff83e7800632b271772f5e8c9ca674cf87d0c1028c"
+    },
+    {
+      "path": "REVIEW_AND_CANDIDATES.md",
+      "bytes": 14574,
+      "sha256": "28abe3162481b5fe27382ae2edadd89d0d30ef4954b0f60f8080397fa6bb92b2"
+    },
+    {
+      "path": "archive_audit.json",
+      "bytes": 22910,
+      "sha256": "c82cfc71d3cc724e0325188703ae21f44ec585f6d48a74235754ddba06ad579b"
+    },
+    {
+      "path": "archive_audit.md",
+      "bytes": 3790,
+      "sha256": "68d0de24998f21e4b54bb3bd198d94c8ef2fb07e48f9dbc82ca164c85b9ba43c"
+    },
+    {
+      "path": "inputs/NSS_NBR02_SURFACE01_Codex_Review_v0.1.md",
+      "bytes": 2690,
+      "sha256": "2e1684993b7468e82a2a2384fbd67d58f3d7790184dbdeba2d7f7a397066caeb"
+    },
+    {
+      "path": "inputs/NSS_NBR02_SURFACE01_Codex_Review_v0.1.md.ads_Zone.Identifier.bin",
+      "bytes": 55,
+      "sha256": "38cd3449f918acd5ef23d60ab74134aa6a1b4a0c794073ff2903b09086224cb7"
+    },
+    {
+      "path": "inputs/NSS_NBR02_SURFACE01_Report_v0.1.md",
+      "bytes": 16159,
+      "sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62"
+    },
+    {
+      "path": "inputs/NSS_NBR02_SURFACE01_Report_v0.1.md.ads_Zone.Identifier.bin",
+      "bytes": 55,
+      "sha256": "38cd3449f918acd5ef23d60ab74134aa6a1b4a0c794073ff2903b09086224cb7"
+    },
+    {
+      "path": "intake_receipt.json",
+      "bytes": 1677,
+      "sha256": "fe8f7bf140446d4cf4c1f948c50b82cb26abc1cbd8a317cea767927c694f727d"
+    }
+  ]
+}

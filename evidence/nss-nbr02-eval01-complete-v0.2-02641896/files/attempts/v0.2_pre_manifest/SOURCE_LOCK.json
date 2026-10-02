@@ -1,0 +1,40 @@
+{
+  "time_utc": "2026-09-25T22:02:17.303988+00:00",
+  "execution": "v0.2",
+  "scientific_protocol": "v0.1",
+  "before_first_policy_run": true,
+  "files": {
+    "source/score.py": {
+      "sha256": "6df6f189cb0a0e53f50c39558a9511443bdf8d5f8bf5b62bdc231f604b681474",
+      "bytes": 11638
+    },
+    "source/prepare.py": {
+      "sha256": "0d091baa4cf3070a753b9b74457654ca13fd4303107418027b4fb9cfb4224b5d",
+      "bytes": 10228
+    },
+    "source/policy.py": {
+      "sha256": "ed724b13af7b3a80b918c4a182d1adfe485ce35ce72deb3ac5f3485f0012714a",
+      "bytes": 4301
+    },
+    "source/run_review.py": {
+      "sha256": "325ed593d7207567222f2592626c3e3e2d0b71638f0d1e800d55fafc6f569bf8",
+      "bytes": 4683
+    },
+    "source/check_fixtures.py": {
+      "sha256": "882f597ee0fa083563eefc701792ca49e616684f8caf7ffd7858afbc3496a046",
+      "bytes": 3367
+    },
+    "protocol/PROTOCOL.md": {
+      "sha256": "901eb19ef9aeab36ef64aaa4611617e4064116319be6916f156862a8d8024c55",
+      "bytes": 10950
+    },
+    "protocol/EXECUTION_AMENDMENT.md": {
+      "sha256": "2b547e6d5341da9199bf1b41c6a7d1e0c28d494aeaa1ea5a5fad3199f612a7fc",
+      "bytes": 506
+    },
+    "protocol/CONFIG.json": {
+      "sha256": "46881380c1cffd7266731523834426719b45e6b02baae0ff2b0b04012050651d",
+      "bytes": 1199
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "kind": "source_bytes_and_document_review_only",
+  "review_utc": "2026-09-25T16:48:58.333651+00:00",
+  "scientific_execution": false,
+  "archives": [
+    {
+      "name": "NSS_NBR02_PROTECT01_PostResults_Candidates_v0.1.zip",
+      "bytes": 204554,
+      "sha256": "9c94a3569f703b1f6e6284378d8e6e848828b6def8214f409673e4cab3cc9fef",
+      "zip_members": 11,
+      "crc_clean": true,
+      "direct_payloads_hashed": 10,
+      "logical_paths_not_restored": []
+    },
+    {
+      "name": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "bytes": 25494039,
+      "sha256": "cfabcabc5f0dd7ffd189b4f0b91e44e5640b6f6d9c1619eefce28bb080be3f1b",
+      "zip_members": 184,
+      "crc_clean": true,
+      "direct_payloads_hashed": 183,
+      "logical_paths_not_restored": [
+        "raw/primary/worker/records.bin",
+        "raw/replay/worker/records.bin"
+      ]
+    },
+    {
+      "name": "NSS_NBR02_PROTECT01_Codex_Handoff_v0.3.zip",
+      "bytes": 196510,
+      "sha256": "0be5e35a33497a95f5c489ad5d831366aef9f69606a71d7ddd88e3e06ef88208",
+      "zip_members": 45,
+      "crc_clean": true,
+      "direct_payloads_hashed": 44,
+      "logical_paths_not_restored": []
+    }
+  ],
+  "loose_file_matches": [
+    {
+      "attachment": "CANDIDATES(2).md",
+      "member": "CANDIDATES.md",
+      "equal": true
+    },
+    {
+      "attachment": "CHAT_CONTINUITY.md",
+      "member": "CHAT_CONTINUITY.md",
+      "equal": true
+    },
+    {
+      "attachment": "CHAT_PROMPT(20260925-164343).md",
+      "member": "CHAT_PROMPT.md",
+      "equal": true
+    },
+    {
+      "attachment": "EVIDENCE_REVIEW(1).md",
+      "member": "EVIDENCE_REVIEW.md",
+      "equal": true
+    },
+    {
+      "attachment": "ANALYSIS(2).md",
+      "member": "ANALYSIS.md",
+      "equal": true
+    },
+    {
+      "attachment": "archive_receipt.json",
+      "member": "archive_receipt.json",
+      "equal": true
+    }
+  ],
+  "compact_full_matching_selected_files": [
+    "analysis/ADMISSION_COMPONENTS.csv",
+    "analysis/DEVELOPMENT_FIRST_CORRECTION.csv",
+    "analysis/DEVELOPMENT_NONLINEAR_RESIDUALS.csv",
+    "analysis/DEVELOPMENT_NORM_MATCH.csv",
+    "analysis/DEVELOPMENT_OLD_INDIVIDUAL.csv",
+    "analysis/DEVELOPMENT_SUMMARY.csv",
+    "analysis/EXPLORATORY_SUMMARY.json"
+  ],
+  "does_not_establish": [
+    "restoration of two logical record paths",
+    "neural execution or training",
+    "numerical rescoring or adaptive replay",
+    "cross-device replication"
+  ],
+  "review_tool_incidents": [
+    {
+      "kind": "container_command_rejected",
+      "effect": "Initial multi-command shell inspection failed; a simple ls and Python inspection worked. No scientific command dispatched."
+    },
+    {
+      "kind": "manifest_shape_assumption",
+      "effect": "First byte-audit script expected all files lists to be arrays; compact manifest is a dictionary. No audit receipt claimed from failed attempt. Complete byte-audit restarted with explicit shape handling; no scientific source or evidence mutated."
+    },
+    {
+      "kind": "document_checker_line_wrapping",
+      "effect": "First static checker reported missing \"extra computation\" because phrase crossed a newline. Checker now normalizes whitespace for boundary presence tests; no numerical contract changed. First launch also emitted an unrelated environment spreadsheet-daemon startup warning; final standard-library check uses Python -S, without loading site startup hooks."
+    },
+    {
+      "kind": "nested_manifest_coverage",
+      "effect": "Before final delivery, expanded the root payload manifest to include copied sources/Codex/MANIFEST.json. Only the root manifest excludes itself. All source bytes remain unchanged; final fresh-extraction verification covers the nested provenance manifest too."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "events": 1024,
+  "kind": "hard_slots",
+  "metadata_sha256": "803473350176edaa5b237fe65456cfa8f56a04906e1249b7ad81834bd9c0f67c",
+  "mode": "native",
+  "model_digest": "1c938dc4d6f24c9c6f05247fe55517bd50febdfbab1ccd53f2d6b754f24a0477",
+  "raw_state_bytes": 256,
+  "schema": 1,
+  "scope": "hard_slots_short_seed303-native",
+  "state_sha256": "7946331b380f34c8fd5e7ccad93c54a70ac5cd3c9b7b893ac86b7f1e80df1037",
+  "study": "NBR-01/HorizonBinding002",
+  "threshold": 0.5
+}

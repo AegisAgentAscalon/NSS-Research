@@ -1,0 +1,12 @@
+schemas 13
+Generated 4 DatasetSnapshot/batch-use schemas.
+Generated 4 EvaluationRun001 schemas.
+Regenerated: dataset, evaluation, neural, qualification, permission, generation, catalog, context, learner, candidate, state
+Generated seven structural qualification schemas and the exact frozen policy.
+Generated four permission schemas; sorted keys, lifetimes, identity inequality, grant/current evidence and receipts also require owner semantic validation.
+Generated five structural generation schemas. Owner validation adds exact evidence, closure, role, timing and current-state checks.
+Generated three structural catalogue/task schemas; no new schema-rendering script.
+Generated two context schemas using existing versioned source/task types.
+Generated scoped state, reviewed-delta, legacy-compatible task and context v2 schemas.
+Generated five bounded learner exchange schemas. Owner validators enforce policy, lineage, roles and recovery.
+REGEN_CHANGED []

@@ -1,0 +1,13 @@
+{
+  "events": 1024,
+  "kind": "gru_slots",
+  "metadata_sha256": "e346db92145b661f889e44645aa15fe492ec7c4e36ee5b0b69d6cb97b5545027",
+  "mode": "native",
+  "model_digest": "4c64ecddf133528a94c6183071e91b4d5ca6677f0d40a9be5c74af71923a4abb",
+  "raw_state_bytes": 256,
+  "schema": 1,
+  "scope": "gru_slots_short_seed305-native",
+  "state_sha256": "b0e913a54af97ffb050b79b6a698b81cbd809cd7b2c79a4ed8daf7b1c08f4377",
+  "study": "NBR-01/HorizonBinding002",
+  "threshold": 0.5
+}

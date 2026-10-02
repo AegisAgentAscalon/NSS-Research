@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "artifact": {
+      "$ref": "artifact.schema.json"
+    },
+    "requires": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]+"
+      },
+      "uniqueItems": true
+    },
+    "excludes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "[A-Za-z0-9_.:-]+"
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "id",
+    "artifact",
+    "requires",
+    "excludes"
+  ],
+  "additionalProperties": false
+}

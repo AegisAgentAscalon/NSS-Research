@@ -1,0 +1,8 @@
+usage: RESCORE.py [-h] --output OUTPUT
+
+Independent NumPy-only scoring of retained evidence; no Torch or model
+execution.
+
+options:
+  -h, --help       show this help message and exit
+  --output OUTPUT

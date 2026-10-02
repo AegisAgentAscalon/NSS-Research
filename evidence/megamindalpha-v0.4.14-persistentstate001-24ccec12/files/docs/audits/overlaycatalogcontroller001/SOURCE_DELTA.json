@@ -1,0 +1,80 @@
+{
+  "baseline_zip_sha256": "2cf1bd9393ace9b51537b7036da6c2fbcdffbf0a67bdc61a6c8e5f2020415d6d",
+  "changes": [
+    {
+      "path": "nss_base/catalog_cli.py",
+      "old_sha256": null,
+      "new_sha256": "f6955ca12a9d8dc783ba97ecc8b5fecbcfba21d0f02659bfade0674bcaaab5f1"
+    },
+    {
+      "path": "nss_base/catalog_contracts.py",
+      "old_sha256": null,
+      "new_sha256": "6aff307862408bc3ef8b12be45f8890cc844313ef0b62206f66d46ce00379897"
+    },
+    {
+      "path": "nss_base/catalog_controller.py",
+      "old_sha256": null,
+      "new_sha256": "f744b95e84b6a8acc0a88fb0f8a3d171a16521a511904de8f9a66bd12a7cef4a"
+    },
+    {
+      "path": "nss_base/catalog_tasks.py",
+      "old_sha256": null,
+      "new_sha256": "19799c2764dcb3229ff1b9316ba8bf3c01b20106782f7837db2617f45a934ad0"
+    },
+    {
+      "path": "nss_base/generation_state.py",
+      "old_sha256": "4e86a0610b67d6a485a2b2d56ed65a075454c8b546af92b0f1ab2a36d713cdc0",
+      "new_sha256": "6f2a9cf661f6b292a539d06a477a3c038855c2dc54bb0c2dc43a686131f8510d"
+    },
+    {
+      "path": "nss_base/generation_store.py",
+      "old_sha256": "d632ffb59f9142a02ff3904b79a9baaf721a6ee485982959e1cb9eb7b72c6774",
+      "new_sha256": "9fd0663983bc3305d624ef9433f6e4914ce6745790e0967b74f6852c23bd2b38"
+    },
+    {
+      "path": "nss_base/generation_views.py",
+      "old_sha256": null,
+      "new_sha256": "63d16bf011a456ee2ef8dfcec4b7ce02f31301460c2ab37b465e26a2868c62b1"
+    },
+    {
+      "path": "nss_base/overlaycatalogcontroller001.py",
+      "old_sha256": null,
+      "new_sha256": "e81a88cd359464acc1de3135b77182d59d34cea536ee5b435cbb09fbec12727c"
+    },
+    {
+      "path": "nss_base/task_records.py",
+      "old_sha256": "1947ae5c3967f04446410c418d77e3394610bed76cbcf997d556eb0131b8fd4f",
+      "new_sha256": "2f0c7b70d23f3c55b4bcee6c6453ea69214a6ca943233fead37aed9e629c3d1d"
+    },
+    {
+      "path": "tests/catalog_helpers.py",
+      "old_sha256": null,
+      "new_sha256": "0c9b16507797bfb7a4ce4c5a016b0261f7f3980f6353caac418a293e23623e77"
+    },
+    {
+      "path": "tests/test_catalog_controller.py",
+      "old_sha256": null,
+      "new_sha256": "12ca89f96343fa195d66d4b419f25565370e8e682bd308a38a07d75d6728ed3d"
+    },
+    {
+      "path": "tests/test_catalog_crashes_integrity.py",
+      "old_sha256": null,
+      "new_sha256": "7f07dfa0ec652319490bd733031eba92ef68c643ff9e943c71bbaec5fa5ef7f7"
+    },
+    {
+      "path": "tests/test_catalog_tooling.py",
+      "old_sha256": null,
+      "new_sha256": "234e153a33bf9057e8f674402c8a6947309a0b969aee0a19e8ac523478a1ef7f"
+    },
+    {
+      "path": "tools/generate_generation_schemas.py",
+      "old_sha256": "5bff3e5101915e531496d3f53884d0ec8b5321dff56e3f92554964680facca8f",
+      "new_sha256": "47b3168fb634def2f531e14c95460d2ecf7f76240ceb39042b206e73711c6fa4"
+    },
+    {
+      "path": "tools/run_release_checks.py",
+      "old_sha256": "245e13b47a96010b4ee71f12c8ec53299b22c7f1ad0e86e924294ac46c0ddbfb",
+      "new_sha256": "4827c9ab59f26dfadf4b317502b6d2b8b83f1f49f2864e8b44584fe174e353cd"
+    }
+  ]
+}

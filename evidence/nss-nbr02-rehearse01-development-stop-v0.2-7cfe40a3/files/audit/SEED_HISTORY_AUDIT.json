@@ -1,0 +1,2114 @@
+{
+  "direct_seeds": 33,
+  "scanned_members": 421,
+  "scanned_bytes": 99961601,
+  "collisions": [],
+  "members": [
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/ARCHITECTURE_EVIDENCE_UPDATE.md",
+      "bytes": 2179
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/CANDIDATES.md",
+      "bytes": 6838
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/CHAT_PROMPT.md",
+      "bytes": 5107
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/DELIVERY_MAP.json",
+      "bytes": 9049
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/MANIFEST.json",
+      "bytes": 34882
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/README.md",
+      "bytes": 2427
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/REPORT.md",
+      "bytes": 16838
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/RESCORE.py",
+      "bytes": 1298
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/RESEARCH_LOG.md",
+      "bytes": 1385
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/RESTORE_EVIDENCE.py",
+      "bytes": 2168
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/RETURN_TICKETS.md",
+      "bytes": 1754
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/STATUS.json",
+      "bytes": 1078
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/VERIFY_STUDY.py",
+      "bytes": 997
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/ACTUAL_SCHEMA_ACCOUNTING.json",
+      "bytes": 3636
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/ALL_ATTEMPT_LEDGER.json",
+      "bytes": 795
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/CONTINUATION_PREFLIGHT.json",
+      "bytes": 551
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/FULL_ADAPTIVE_REPLAY.json",
+      "bytes": 6375
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/INPUT_INTEGRITY.json",
+      "bytes": 10523
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/LAUNCH_PRIMARY.json",
+      "bytes": 42
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/LAUNCH_REPLAY.json",
+      "bytes": 41
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/PRIOR_PREFIT_INPUT_CHECK.json",
+      "bytes": 165
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/PRIOR_SEED_AND_SOURCE_PREFLIGHT.json",
+      "bytes": 4772
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/SOURCE_LOCK.json",
+      "bytes": 5260
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/START.json",
+      "bytes": 574
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/STATIC_SIZING_REFINEMENT.json",
+      "bytes": 324
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/STORAGE_REPAIR_STATIC.json",
+      "bytes": 2611
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/supervisor_primary/RESULT.json",
+      "bytes": 280
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/supervisor_primary/samples.jsonl",
+      "bytes": 121893
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/supervisor_replay/RESULT.json",
+      "bytes": 280
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/audit/supervisor_replay/samples.jsonl",
+      "bytes": 124815
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/failures/OBS-DC01-COST-001.json",
+      "bytes": 1280
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/ALL_ATTEMPT_LEDGER.json",
+      "bytes": 701
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/FORECAST_RECONSTRUCTION.json",
+      "bytes": 781
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/POSTSTOP_CODEC_MEASUREMENT.json",
+      "bytes": 334
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/REPORT.md",
+      "bytes": 13588
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/RETURN_TICKET.md",
+      "bytes": 1407
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/START.json",
+      "bytes": 243
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/history/STATUS.json",
+      "bytes": 1245
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/ARCHITECTURE_DELTA.md",
+      "bytes": 1711
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/CALL_AND_RESOURCE_LEDGER.json",
+      "bytes": 3465
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/CHAT_PROMPT.md",
+      "bytes": 3829
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/DATA_CONTRACT.md",
+      "bytes": 9291
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/DOCUMENT_QA.json",
+      "bytes": 1336
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/ENGINEERING_AMENDMENT_v0.5.md",
+      "bytes": 2598
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/EQUATIONS_AND_WITNESS.md",
+      "bytes": 6653
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/EXECUTION_COMPLETIONS.md",
+      "bytes": 4937
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/FAILURE_OBSERVABILITY.md",
+      "bytes": 6253
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/FAILURE_RECORD.schema.json",
+      "bytes": 7770
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/FAULT_MATRIX.md",
+      "bytes": 3351
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/MANIFEST.json",
+      "bytes": 3324
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/PLANNING_ENVIRONMENT.json",
+      "bytes": 571
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/PROGRAM_CONTEXT.md",
+      "bytes": 5150
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/PROPOSAL.md",
+      "bytes": 20118
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/PROTOCOL.json",
+      "bytes": 3567
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/README.md",
+      "bytes": 1895
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/REVIEW_AND_DELTAS.md",
+      "bytes": 6237
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/ROADMAP_AND_RETURN_GATE.md",
+      "bytes": 5230
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/SEED_RECIPE.json",
+      "bytes": 6925
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/SOURCE_IDENTITIES.json",
+      "bytes": 12823
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/STATUS.json",
+      "bytes": 683
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/protocol/VERIFY_PACKAGE.py",
+      "bytes": 3032
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/A0_DECISION.json",
+      "bytes": 1949
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/COST_ADMISSION.json",
+      "bytes": 4390
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/COUNTERS.json",
+      "bytes": 154
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/DELAY_INVARIANCE.json",
+      "bytes": 122
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/EXACT_CONTROL.json",
+      "bytes": 278234
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/A0_FIT_GATE.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/AUDIT.json",
+      "bytes": 546
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/GRADIENT_COMPARISON.csv",
+      "bytes": 20190
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 3376
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/QUERY_ROWS.csv",
+      "bytes": 17018
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/cost_audit/UPDATE_DIAGNOSTICS.csv",
+      "bytes": 27152
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/A0_FIT_GATE.csv",
+      "bytes": 283
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/AUDIT.json",
+      "bytes": 2375
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/EXACT_ROWS.csv",
+      "bytes": 18491
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/GRADIENT_COMPARISON.csv",
+      "bytes": 344061
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 144227
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/QUERY_ROWS.csv",
+      "bytes": 1124570
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/development_audit/UPDATE_DIAGNOSTICS.csv",
+      "bytes": 487374
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/faults/FAULT_RESULTS.json",
+      "bytes": 5294
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/faults/lost_commit.jsonl",
+      "bytes": 41
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/AUDIT.json",
+      "bytes": 2376
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/EXACT_ROWS.csv",
+      "bytes": 51931
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/GRADIENT_COMPARISON.csv",
+      "bytes": 709437
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 402271
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/QUERY_ROWS.csv",
+      "bytes": 3032284
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/final_audit/UPDATE_DIAGNOSTICS.csv",
+      "bytes": 1011729
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/fixture_audit/AUDIT.json",
+      "bytes": 542
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/fixture_audit/GRADIENT_COMPARISON.csv",
+      "bytes": 4411
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/fixture_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 1584
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/fixture_audit/QUERY_ROWS.csv",
+      "bytes": 4950
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/fixture_audit/UPDATE_DIAGNOSTICS.csv",
+      "bytes": 4711
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/initial_audit/AUDIT.json",
+      "bytes": 549
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/initial_audit/GRADIENT_COMPARISON.csv",
+      "bytes": 148982
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/initial_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 13740
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/initial_audit/QUERY_ROWS.csv",
+      "bytes": 131753
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/initial_audit/UPDATE_DIAGNOSTICS.csv",
+      "bytes": 209967
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/private/PLAN.json",
+      "bytes": 2421482
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/primary/worker/heartbeat.json",
+      "bytes": 183
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/replay/COST_ADMISSION.json",
+      "bytes": 4390
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/raw/replay/worker/heartbeat.json",
+      "bytes": 183
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/ALL_STRATA_SUMMARY.csv",
+      "bytes": 10585
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/BY_TRIAL.csv",
+      "bytes": 4028
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/D2_ADAPTATION_RETENTION.csv",
+      "bytes": 1496
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/D3_NONINFERIORITY.csv",
+      "bytes": 516
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/DECISIONS_AND_SUMMARY.json",
+      "bytes": 5098
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/FAILURE_INDEX.csv",
+      "bytes": 498988
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/FIRST_REVERSAL_FAILURES.csv",
+      "bytes": 6507
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/GRADIENT_AND_CLIPPING.csv",
+      "bytes": 5123
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/PRIMARY_BY_FIT.csv",
+      "bytes": 516
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/scores/RECORDED_RESOURCE_COMPONENTS.csv",
+      "bytes": 41723
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/auditor.py",
+      "bytes": 17093
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/driver.py",
+      "bytes": 15729
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/faults.py",
+      "bytes": 6610
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/preflight.py",
+      "bytes": 4055
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/runtime.py",
+      "bytes": 14843
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/storage_admission.py",
+      "bytes": 5434
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/supervise.py",
+      "bytes": 2594
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/source/worker.py",
+      "bytes": 2400
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/tools/analyze_results.py",
+      "bytes": 6827
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/tools/continuation_preflight.py",
+      "bytes": 2181
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/tools/cost_and_failure_audit.py",
+      "bytes": 4421
+    },
+    {
+      "archive": "NSS_NBR02_DC01_Complete_v0.5.zip",
+      "member": "NSS_NBR02_DC01_Execution_v0.5/tools/verify_replay.py",
+      "bytes": 2968
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/ARCHITECTURE_EVIDENCE_UPDATE.md",
+      "bytes": 2224
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/CHAT_PROMPT.md",
+      "bytes": 5496
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/DREAM_MAINTENANCE.md",
+      "bytes": 9842
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/PROGRAM_CONTEXT_CURRENT.md",
+      "bytes": 5172
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/README.md",
+      "bytes": 3373
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/REPLAY_STUDY.py",
+      "bytes": 1313
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/REPORT.md",
+      "bytes": 18226
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/RESCORE.py",
+      "bytes": 2169
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/RESTORE_EVIDENCE.py",
+      "bytes": 1989
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/RETURN_TICKETS.md",
+      "bytes": 2381
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/STATUS.json",
+      "bytes": 1082
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/VERIFY_STUDY.py",
+      "bytes": 1460
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/architecture/RESEARCH_LOG_ENTRY.md",
+      "bytes": 539
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/STATUS.json",
+      "bytes": 215
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/ENVIRONMENT.json",
+      "bytes": 324
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/HISTORICAL_SUMMARY.json",
+      "bytes": 17989
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/POST_STOP_CODEC_DIAGNOSTIC.json",
+      "bytes": 918
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/PREFLIGHT_IDENTITIES.json",
+      "bytes": 1422
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/SOURCE_LOCK.json",
+      "bytes": 3883
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/START.json",
+      "bytes": 235
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/SUPERVISOR_PID.json",
+      "bytes": 50
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/UNIT_CHECKS.json",
+      "bytes": 108
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/supervisor_primary/RESULT.json",
+      "bytes": 279
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/audit/supervisor_primary/samples.jsonl",
+      "bytes": 16021
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/ARCHITECTURE_DELTA.md",
+      "bytes": 2320
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/CALL_AND_STORAGE_LEDGER.json",
+      "bytes": 4234
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/CHAT_PROMPT.md",
+      "bytes": 3096
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/DREAM_MAINTENANCE.md",
+      "bytes": 8087
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/ENVIRONMENT.json",
+      "bytes": 375
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/EXECUTION_COMPLETIONS_v0.3.md",
+      "bytes": 4923
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/MANIFEST.json",
+      "bytes": 2181
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/PROGRAM_CONTEXT.md",
+      "bytes": 4644
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/PROPOSED_PROTOCOL_v0.2.md",
+      "bytes": 19889
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/README.md",
+      "bytes": 1055
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/REVIEW.md",
+      "bytes": 5771
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/REVIEW_QA.json",
+      "bytes": 9858
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/SCHEMA_ACCOUNTING.json",
+      "bytes": 1033
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/SEEDS.json",
+      "bytes": 2663
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/SOURCE_IDENTITIES.json",
+      "bytes": 7770
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/STATUS.json",
+      "bytes": 669
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/protocol/VERIFY_PACKAGE.py",
+      "bytes": 1772
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/COST_ADMISSION.json",
+      "bytes": 539
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/EXACT.json",
+      "bytes": 12227
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/FAILED.json",
+      "bytes": 853
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/RUNTIME.json",
+      "bytes": 64
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/cost_audit/AUDIT.json",
+      "bytes": 677
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/faults/FAULT_RESULTS.json",
+      "bytes": 5294
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/faults/lost_commit.jsonl",
+      "bytes": 41
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/fixture_audit/AUDIT.json",
+      "bytes": 672
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/private/PLAN.json",
+      "bytes": 75400
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/public_messages.jsonl",
+      "bytes": 565054
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/public_responses.jsonl",
+      "bytes": 950480
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/worker/events.jsonl",
+      "bytes": 1490070
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/raw/primary/worker/heartbeat.json",
+      "bytes": 173
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/base_runtime.py",
+      "bytes": 14843
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/driver.py",
+      "bytes": 18422
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/faults.py",
+      "bytes": 6712
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/reference_numeric.py",
+      "bytes": 17093
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/runtime.py",
+      "bytes": 12691
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/scorer.py",
+      "bytes": 22198
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/supervise.py",
+      "bytes": 2588
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/unit_checks.py",
+      "bytes": 3253
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/attempts/v0.3/source/worker.py",
+      "bytes": 2495
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/FINAL_SOURCE_IDENTITIES.json",
+      "bytes": 367
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/PRIOR_ATTEMPTS.json",
+      "bytes": 176
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/REPLAY_PID.json",
+      "bytes": 42
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/REPLAY_VERIFICATION.json",
+      "bytes": 2726
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/SOURCE_LOCK.json",
+      "bytes": 4184
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/STOPPED_PREFIX_COMPARISON.json",
+      "bytes": 262
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/SUPERVISOR_PID.json",
+      "bytes": 50
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/delivery_first_candidate/FAILURE.json",
+      "bytes": 888
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/delivery_first_candidate/RESCORE_before_fix.py",
+      "bytes": 1105
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/supervisor_primary/RESULT.json",
+      "bytes": 279
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/supervisor_primary/samples.jsonl",
+      "bytes": 74977
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/supervisor_replay/RESULT.json",
+      "bytes": 279
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/audit/supervisor_replay/samples.jsonl",
+      "bytes": 73602
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/audit/SOURCE_LOCK.json",
+      "bytes": 5260
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/ARCHITECTURE_DELTA.md",
+      "bytes": 1711
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/CALL_AND_RESOURCE_LEDGER.json",
+      "bytes": 3465
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/CHAT_PROMPT.md",
+      "bytes": 3829
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/DATA_CONTRACT.md",
+      "bytes": 9291
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/DOCUMENT_QA.json",
+      "bytes": 1336
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/ENGINEERING_AMENDMENT_v0.5.md",
+      "bytes": 2598
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/EQUATIONS_AND_WITNESS.md",
+      "bytes": 6653
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/EXECUTION_COMPLETIONS.md",
+      "bytes": 4937
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/FAILURE_OBSERVABILITY.md",
+      "bytes": 6253
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/FAILURE_RECORD.schema.json",
+      "bytes": 7770
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/FAULT_MATRIX.md",
+      "bytes": 3351
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/MANIFEST.json",
+      "bytes": 3324
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/PLANNING_ENVIRONMENT.json",
+      "bytes": 571
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/PROGRAM_CONTEXT.md",
+      "bytes": 5150
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/PROPOSAL.md",
+      "bytes": 20118
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/PROTOCOL.json",
+      "bytes": 3567
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/README.md",
+      "bytes": 1895
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/REVIEW_AND_DELTAS.md",
+      "bytes": 6237
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/ROADMAP_AND_RETURN_GATE.md",
+      "bytes": 5230
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/SEED_RECIPE.json",
+      "bytes": 6925
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/SOURCE_IDENTITIES.json",
+      "bytes": 12823
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/STATUS.json",
+      "bytes": 683
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/protocol/VERIFY_PACKAGE.py",
+      "bytes": 3032
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/ALL_STRATA_SUMMARY.csv",
+      "bytes": 10585
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/BY_TRIAL.csv",
+      "bytes": 4028
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/D2_ADAPTATION_RETENTION.csv",
+      "bytes": 1496
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/D3_NONINFERIORITY.csv",
+      "bytes": 516
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/DECISIONS_AND_SUMMARY.json",
+      "bytes": 5098
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/FAILURE_INDEX.csv",
+      "bytes": 498988
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/FIRST_REVERSAL_FAILURES.csv",
+      "bytes": 6507
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/GRADIENT_AND_CLIPPING.csv",
+      "bytes": 5123
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/PRIMARY_BY_FIT.csv",
+      "bytes": 516
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/scores/RECORDED_RESOURCE_COMPONENTS.csv",
+      "bytes": 41723
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/driver.py",
+      "bytes": 15729
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/faults.py",
+      "bytes": 6610
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/preflight.py",
+      "bytes": 4055
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/storage_admission.py",
+      "bytes": 5434
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/supervise.py",
+      "bytes": 2594
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/inherited/source/worker.py",
+      "bytes": 2400
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/protocol/ENGINEERING_AMENDMENT_v0.4.md",
+      "bytes": 2107
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/A0_AND_GUARDS_LOCK.json",
+      "bytes": 2644
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/COST_ADMISSION.json",
+      "bytes": 539
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/COUNTERS.json",
+      "bytes": 152
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/EXACT.json",
+      "bytes": 157875
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/NOVELTY.json",
+      "bytes": 3780
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/development_audit/AUDIT.json",
+      "bytes": 2434
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/A0.csv",
+      "bytes": 203
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/AUDIT.json",
+      "bytes": 5518
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/DECISIONS.json",
+      "bytes": 2812
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/DERIVATIVES.csv",
+      "bytes": 632
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/EXACT_ROWS.csv",
+      "bytes": 24370
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/FIRST_CORRECTION_PAIRS.csv",
+      "bytes": 8058
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 252234
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/QUERY_ROWS.csv",
+      "bytes": 3100580
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/RETENTION_BASE_CHECKPOINT.csv",
+      "bytes": 5305
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/RETENTION_INDIVIDUAL.csv",
+      "bytes": 295593
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/final_audit/UPDATES.csv",
+      "bytes": 382184
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/initial_audit/AUDIT.json",
+      "bytes": 679
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/private/PLAN.json",
+      "bytes": 626486
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/public_messages.jsonl",
+      "bytes": 6037660
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/public_responses.jsonl",
+      "bytes": 12098813
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/primary/worker/heartbeat.json",
+      "bytes": 181
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/replay/COST_ADMISSION.json",
+      "bytes": 539
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/raw/replay/worker/heartbeat.json",
+      "bytes": 181
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/reports/FAILURE_INDEX.csv",
+      "bytes": 441610
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/reports/HELDOUT_TIMEPOINTS.csv",
+      "bytes": 6009
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/reports/OLD_ERROR_CASES.csv",
+      "bytes": 152
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/reports/SUMMARY.json",
+      "bytes": 1450
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/source/driver.py",
+      "bytes": 18500
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/source/envelope_codec.py",
+      "bytes": 2107
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/source/runtime.py",
+      "bytes": 12691
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/tools/analyze.py",
+      "bytes": 3331
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/tools/package_study.py",
+      "bytes": 3008
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/tools/verify_replay.py",
+      "bytes": 2589
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/DELIVERY_MAP.json",
+      "bytes": 21512
+    },
+    {
+      "archive": "NSS_NBR02_REV01_Complete_v0.4.zip",
+      "member": "NSS_NBR02_REV01_Execution_v0.4/MANIFEST.json",
+      "bytes": 47212
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/ARCHITECTURE_EVIDENCE_UPDATE.md",
+      "bytes": 1674
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/CHAT_PROMPT.md",
+      "bytes": 3551
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/DELIVERY_MAP.json",
+      "bytes": 822
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/MANIFEST.json",
+      "bytes": 30537
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/README.md",
+      "bytes": 2740
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/REPLAY_STUDY.py",
+      "bytes": 1270
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/REPORT.md",
+      "bytes": 14916
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/RESCORE.py",
+      "bytes": 2305
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/RESTORE_EVIDENCE.py",
+      "bytes": 1989
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/RETURN_TICKET.md",
+      "bytes": 2009
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/STATUS.json",
+      "bytes": 982
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/VERIFY_STUDY.py",
+      "bytes": 1392
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/ADMISSION_COMPONENTS.csv",
+      "bytes": 446
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/DEVELOPMENT_FIRST_CORRECTION.csv",
+      "bytes": 3350
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/DEVELOPMENT_NONLINEAR_RESIDUALS.csv",
+      "bytes": 69981
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/DEVELOPMENT_NORM_MATCH.csv",
+      "bytes": 8786
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/DEVELOPMENT_OLD_INDIVIDUAL.csv",
+      "bytes": 229398
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/DEVELOPMENT_SUMMARY.csv",
+      "bytes": 2719
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/analysis/EXPLORATORY_SUMMARY.json",
+      "bytes": 1917
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/ENVIRONMENT.json",
+      "bytes": 3882
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/HISTORICAL_SUMMARY.json",
+      "bytes": 334173
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/INPUT_IDENTITIES.json",
+      "bytes": 325
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/LAUNCH_PRIMARY.json",
+      "bytes": 70
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/LAUNCH_REPLAY.json",
+      "bytes": 113
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/REPLAY_COMPARISON.json",
+      "bytes": 1595
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/SEED_COLLISION_AUDIT.json",
+      "bytes": 284
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/SOURCE_LOCK.json",
+      "bytes": 5269
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/START.json",
+      "bytes": 240
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/UNIT_CHECKS.json",
+      "bytes": 108
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/supervisor_primary/RESULT.json",
+      "bytes": 279
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/supervisor_primary/samples.jsonl",
+      "bytes": 82563
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/supervisor_replay/RESULT.json",
+      "bytes": 277
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/audit/supervisor_replay/samples.jsonl",
+      "bytes": 81027
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/base_runtime.py",
+      "bytes": 14843
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/driver.py",
+      "bytes": 18500
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/envelope_codec.py",
+      "bytes": 2107
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/faults.py",
+      "bytes": 6712
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/reference_numeric.py",
+      "bytes": 17093
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/runtime.py",
+      "bytes": 12691
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/scorer.py",
+      "bytes": 22198
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/supervise.py",
+      "bytes": 2588
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/unit_checks.py",
+      "bytes": 3253
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/inherited/worker.py",
+      "bytes": 2495
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/program/G01_G22_REGISTER.md",
+      "bytes": 3026
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/program/PRIOR_PROGRAM_AND_ARCHITECTURE.md",
+      "bytes": 5221
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/ARCHITECTURE_AND_PROGRAM.md",
+      "bytes": 2635
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/CHAT_PROMPT.md",
+      "bytes": 4039
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/EXECUTION_COMPLETIONS.json",
+      "bytes": 1368
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/FINAL_REVIEW_CHECKLIST.md",
+      "bytes": 2504
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/HOST_METADATA.json",
+      "bytes": 381
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/MANIFEST.json",
+      "bytes": 4034
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/PROTOCOL.md",
+      "bytes": 13160
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/README.md",
+      "bytes": 2111
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/REVIEW_CHECKS.json",
+      "bytes": 775
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/REVIEW_DISPOSITION.md",
+      "bytes": 5362
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/REVIEW_QA_HISTORY.json",
+      "bytes": 663
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/SEED_PLAN.json",
+      "bytes": 4530
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/SOLVER_AND_FLOAT32.md",
+      "bytes": 11574
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/SOLVER_FIXTURE_LITERALS.json",
+      "bytes": 5009
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/SOURCE_IDENTITIES.json",
+      "bytes": 4561
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/STATUS.json",
+      "bytes": 979
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/VERIFY_PACKAGE.py",
+      "bytes": 3348
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/WORK_AND_STORAGE.md",
+      "bytes": 8316
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/protocol/WORK_LEDGER.json",
+      "bytes": 2628
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/A0_AND_GUARDS_LOCK.json",
+      "bytes": 2659
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/COST_ADMISSION.json",
+      "bytes": 4500
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/COUNTERS.json",
+      "bytes": 251
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/EXACT.json",
+      "bytes": 97074
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/NOVELTY.json",
+      "bytes": 1808
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/RUNTIME.json",
+      "bytes": 64
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/SOLVER_FIXTURE_RESULTS.json",
+      "bytes": 2540
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/cost_audit/AUDIT.json",
+      "bytes": 781
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/development_audit/AUDIT.json",
+      "bytes": 2539
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/faults/FAULT_RESULTS.json",
+      "bytes": 5294
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/faults/lost_commit.jsonl",
+      "bytes": 41
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/A0.csv",
+      "bytes": 206
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/AUDIT.json",
+      "bytes": 2558
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/DECISIONS.json",
+      "bytes": 2
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/DERIVATIVES.csv",
+      "bytes": 632
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/EXACT_ROWS.csv",
+      "bytes": 15041
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/FIRST_CORRECTION_PAIRS.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 308717
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/NONLINEAR_MARGIN_RESIDUALS.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/PROJECTIONS.csv",
+      "bytes": 26074
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/QUERY_ROWS.csv",
+      "bytes": 2116295
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/RETENTION_BASE_CHECKPOINT.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/RETENTION_INDIVIDUAL.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/final_audit/UPDATES.csv",
+      "bytes": 284745
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/fixture_audit/AUDIT.json",
+      "bytes": 780
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/initial_audit/AUDIT.json",
+      "bytes": 787
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/private/PLAN.json",
+      "bytes": 438326
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/public_messages.jsonl",
+      "bytes": 3855614
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/public_responses.jsonl",
+      "bytes": 10973529
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/worker/SCHEMA_OBSERVED.json",
+      "bytes": 2458
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/worker/events.jsonl",
+      "bytes": 11398572
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/primary/worker/heartbeat.json",
+      "bytes": 259
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/A0_AND_GUARDS_LOCK.json",
+      "bytes": 2659
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/COST_ADMISSION.json",
+      "bytes": 4500
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/COUNTERS.json",
+      "bytes": 251
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/EXACT.json",
+      "bytes": 97074
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/NOVELTY.json",
+      "bytes": 1808
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/RUNTIME.json",
+      "bytes": 64
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/SOLVER_FIXTURE_RESULTS.json",
+      "bytes": 2540
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/cost_audit/AUDIT.json",
+      "bytes": 781
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/development_audit/AUDIT.json",
+      "bytes": 2539
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/faults/FAULT_RESULTS.json",
+      "bytes": 5294
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/faults/lost_commit.jsonl",
+      "bytes": 41
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/A0.csv",
+      "bytes": 206
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/AUDIT.json",
+      "bytes": 2558
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/DECISIONS.json",
+      "bytes": 2
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/DERIVATIVES.csv",
+      "bytes": 632
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/EXACT_ROWS.csv",
+      "bytes": 15041
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/FIRST_CORRECTION_PAIRS.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/NEGATIVE_QUERY_ROWS.csv",
+      "bytes": 308717
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/NONLINEAR_MARGIN_RESIDUALS.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/PROJECTIONS.csv",
+      "bytes": 26074
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/QUERY_ROWS.csv",
+      "bytes": 2116295
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/RETENTION_BASE_CHECKPOINT.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/RETENTION_INDIVIDUAL.csv",
+      "bytes": 7
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/final_audit/UPDATES.csv",
+      "bytes": 284745
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/fixture_audit/AUDIT.json",
+      "bytes": 780
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/initial_audit/AUDIT.json",
+      "bytes": 787
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/private/PLAN.json",
+      "bytes": 438326
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/public_messages.jsonl",
+      "bytes": 3855614
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/public_responses.jsonl",
+      "bytes": 10973529
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/worker/SCHEMA_OBSERVED.json",
+      "bytes": 2458
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/worker/events.jsonl",
+      "bytes": 11398572
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/raw/replay/worker/heartbeat.json",
+      "bytes": 260
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/base_runtime.py",
+      "bytes": 14843
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/check_lock.py",
+      "bytes": 320
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/driver.py",
+      "bytes": 21261
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/envelope_codec.py",
+      "bytes": 2107
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/faults.py",
+      "bytes": 6712
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/independent_projection.py",
+      "bytes": 3894
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/projection.py",
+      "bytes": 4462
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/reference_numeric.py",
+      "bytes": 17093
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/rev_runtime.py",
+      "bytes": 12691
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/runtime.py",
+      "bytes": 13643
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/scorer.py",
+      "bytes": 26885
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/solver_checks.py",
+      "bytes": 2796
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/supervise.py",
+      "bytes": 2588
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/unit_checks.py",
+      "bytes": 3253
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/source/worker.py",
+      "bytes": 2768
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/tools/analyze_development.py",
+      "bytes": 6556
+    },
+    {
+      "archive": "NSS_NBR02_PROTECT01_Development_Stop_v0.3.zip",
+      "member": "NSS_NBR02_PROTECT01_Execution_v0.3/tools/verify_replay.py",
+      "bytes": 2411
+    }
+  ],
+  "limits": "Missing historical draws and encoded records not searched exhaustively; shared semantic binary patterns remain possible."
+}

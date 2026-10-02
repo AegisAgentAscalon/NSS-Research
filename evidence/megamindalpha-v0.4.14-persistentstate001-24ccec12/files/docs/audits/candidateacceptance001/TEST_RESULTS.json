@@ -1,0 +1,32 @@
+{
+  "version": "0.4.13-megamind-alpha-candidateacceptance001",
+  "scope": "CONNECTED_HUMAN_ASSISTED_LOCAL_CANDIDATE_ADOPTION_AND_ROLLBACK",
+  "status": "REQUIRED_GATES_PASS_WITH_HISTORICAL_ADVISORY",
+  "input_zip_sha256": "c8339e362e95d4bca12975844e64400d2af4bb58703852d6e2ef0e1ee12aad61",
+  "baseline_tests": 987,
+  "passed_tests": 1063,
+  "new_test_methods": 76,
+  "inherited_test_files_changed": 0,
+  "inherited_test_files_removed": 0,
+  "new_process_exit_scenarios": 13,
+  "new_distinct_process_exit_boundaries": 11,
+  "demos_passed": 14,
+  "connected_acceptance_checks_passed": 2,
+  "required_gates_passed": 26,
+  "required_gates": 26,
+  "total_gates": 27,
+  "advisories": [
+    "reference_neural_evidence"
+  ],
+  "parent_logic_flows": 25,
+  "subordinate_logic_flows": 29,
+  "warnings_observed_in_unittest_log": 0,
+  "full_test_source_root": "/mnt/data/candidate_acceptance_validation/MegaMindAlpha_v0.4.13_CandidateAcceptance001",
+  "full_check_start_utc": "2026-09-11T20:15:14.284149+00:00",
+  "full_check_end_utc": "2026-09-11T20:30:09.637856+00:00",
+  "qualification_authority": "TRUSTED_LOCAL_OPERATOR_ATTESTATIONS_ONLY",
+  "production_deployment_authorized": false,
+  "runtime_execution_permit": false,
+  "final_packaging_rule": "The final delivery is checked against the exact executable/test/tool/spec/schema/fixture inputs of the fully tested clean extraction; final audit/docs are added only afterward.",
+  "raw_gate_logs_directory": "logs"
+}

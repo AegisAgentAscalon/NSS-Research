@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "WORK",
+        "CONTROL",
+        "EVALUATION"
+      ]
+    },
+    "sealed": {
+      "type": "boolean"
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "required_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fact_id": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9_.:-]+",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "value",
+                "unit"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 2,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "fact_id",
+          "fields"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 128
+    },
+    "requested_output": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    }
+  },
+  "required": [
+    "id",
+    "mode",
+    "sealed",
+    "objective",
+    "required_facts",
+    "requested_output"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,308 @@
+{
+  "status": "EVALUATED_NOT_GLOBALLY_ACCEPTED",
+  "exact_graph_screen_pairs_passed": 5,
+  "exact_targeted_transaction_comparisons": 7680,
+  "exact_cross_owner_commits": 0,
+  "records": [
+    {
+      "pair": 1,
+      "variant": "identity",
+      "every_saved_map_correct": true,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 33,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 1,
+      "variant": "parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 576,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 26,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 1,
+      "variant": "ordinary",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 561,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 27,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 1,
+      "variant": "near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 384,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 23,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 1,
+      "variant": "guard_parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 18,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 1,
+      "variant": "guard_near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 15,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "identity",
+      "every_saved_map_correct": true,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 33,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 576,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 26,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "ordinary",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 564,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 27,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 384,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 23,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "guard_parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 18,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 2,
+      "variant": "guard_near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 15,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "identity",
+      "every_saved_map_correct": true,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 33,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 576,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 28,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "ordinary",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 549,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 27,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 384,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 23,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "guard_parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 18,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 3,
+      "variant": "guard_near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 15,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "identity",
+      "every_saved_map_correct": true,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 33,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 576,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 28,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "ordinary",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 561,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 27,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 384,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 23,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "guard_parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 18,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 4,
+      "variant": "guard_near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 15,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "identity",
+      "every_saved_map_correct": true,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 33,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 576,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 26,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "ordinary",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 558,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 27,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 384,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 23,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "guard_parent",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 18,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    },
+    {
+      "pair": 5,
+      "variant": "guard_near",
+      "every_saved_map_correct": false,
+      "cross_owner_commits": 0,
+      "targeted_transaction_comparisons": 1536,
+      "failed_core_read_role_cells": 15,
+      "joint_read_screen_pass": false,
+      "scope": "not full production qualification; failures in listed required cells suffice to reject a joint screen"
+    }
+  ]
+}

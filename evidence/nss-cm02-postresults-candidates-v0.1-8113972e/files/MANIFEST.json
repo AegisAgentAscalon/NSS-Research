@@ -1,0 +1,75 @@
+{
+  "schema": "nss-result-analysis-and-proposals-v1",
+  "files": [
+    {
+      "path": "ANALYSIS.md",
+      "bytes": 5649,
+      "sha256": "48232cfb61074027f8d50e1d13225500e0223be7c3c9e3f5191548fd06ade075"
+    },
+    {
+      "path": "CANDIDATES.md",
+      "bytes": 8048,
+      "sha256": "a5d2b7a17b0983a487784829271f36ae9b988b24ef5f34c34676657e28ff111f"
+    },
+    {
+      "path": "CHAT_PROMPT.md",
+      "bytes": 2744,
+      "sha256": "27157aec65f461730922b0a69bfc846d07a0d75b250ed8d5ff1adf5214e62e67"
+    },
+    {
+      "path": "LITERATURE_NOTES.md",
+      "bytes": 2424,
+      "sha256": "4d1ac32e5b8e24df9ea6c89b984e5e501aea1e677d524e1e606255315665ad84"
+    },
+    {
+      "path": "METRICS.md",
+      "bytes": 2148,
+      "sha256": "09cce9efff768cc8165fd46495518fdf8d15ba486af75db5836c4b3fac153aee"
+    },
+    {
+      "path": "SCOPE_REVIEW.md",
+      "bytes": 6014,
+      "sha256": "3bbba15bf515f6ed658c8e0fc0e3b47d1956b3110dcb3a5823c22ed21be957d6"
+    },
+    {
+      "path": "SOURCE_IDENTITIES.json",
+      "bytes": 1240,
+      "sha256": "2ce3203e771d6eda12f9b16a2078381eeb2e5a10509b093e83a69a87fedd2a9d"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1796,
+      "sha256": "ccfdd3b3ec91598f4fbc08aca6ce9a609a6fc365f783b1b66083ede48dc25e96"
+    },
+    {
+      "path": "evidence/CM02_STATUS.json",
+      "bytes": 3125,
+      "sha256": "3303d9cb492a9cd220029939f6c2186f36d2431fd96523f6af08f453b1b7f748"
+    },
+    {
+      "path": "metrics_analysis.py",
+      "bytes": 13132,
+      "sha256": "579b5414e05ca4c83e11442385340ec5d664e38d32aaf5d07c4aeaabdfa814bc"
+    },
+    {
+      "path": "metrics_summary.json",
+      "bytes": 18796,
+      "sha256": "5c1297b8bba5adb14066173c866842cf5176bb9965146de1d62996717b0d9297"
+    },
+    {
+      "path": "provenance/CM01_ARCHIVE_INTEGRITY.json",
+      "bytes": 849,
+      "sha256": "3073af3498eb795fe09982c09dabc98a3a568e63825b14ff836f85136e3414fb"
+    },
+    {
+      "path": "provenance/CM02_ARCHIVE_INTEGRITY.json",
+      "bytes": 731,
+      "sha256": "5c7f0feabe63bc155d8b789b66fb9914c6f8e890a9051c0eeb167a6553218775"
+    },
+    {
+      "path": "provenance/Q010_ARCHIVE_INTEGRITY.json",
+      "bytes": 1918,
+      "sha256": "4221a392b8c9428eca879e1cfe21a898ec078c8a2c3c949cb23db6f1cb9c13c8"
+    }
+  ]
+}

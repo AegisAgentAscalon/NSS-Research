@@ -1,0 +1,9 @@
+{
+  "kind": "documentation_only",
+  "change": "Corrected prose detector-check count from eight to seven, matching raw faults/RESULT.json. Eight actual isolated faulty numerical applications per pass remains correct.",
+  "scientific_source_changed": false,
+  "scores_changed": false,
+  "additional_model_calls": 0,
+  "prior_candidate_delivered": false,
+  "epoch": 1790358167.2791348
+}

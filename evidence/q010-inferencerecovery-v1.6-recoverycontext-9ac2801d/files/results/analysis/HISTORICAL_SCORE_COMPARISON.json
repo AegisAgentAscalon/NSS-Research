@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "exact_score_file_match": true,
+      "fresh_sha256": "ed1570c450d05a79c426c0c399b0effaab08b2142356599873052533c0d00f8e",
+      "historical_reported_sha256": "ed1570c450d05a79c426c0c399b0effaab08b2142356599873052533c0d00f8e",
+      "seed": 1201
+    },
+    {
+      "exact_score_file_match": true,
+      "fresh_sha256": "91425488b2b95479dcfd133b258a19604ffcb70d17297123d9fdf7517cc2012a",
+      "historical_reported_sha256": "91425488b2b95479dcfd133b258a19604ffcb70d17297123d9fdf7517cc2012a",
+      "seed": 1202
+    },
+    {
+      "exact_score_file_match": true,
+      "fresh_sha256": "4d42c7e83876824dd0f920c9b170e09401229d90d99ab93154b582eedca8db20",
+      "historical_reported_sha256": "4d42c7e83876824dd0f920c9b170e09401229d90d99ab93154b582eedca8db20",
+      "seed": 1203
+    },
+    {
+      "exact_score_file_match": true,
+      "fresh_sha256": "a72a53b43682fce324911fd324a01ea9f55ab7b9c8bbf67de83c015ddfc74254",
+      "historical_reported_sha256": "a72a53b43682fce324911fd324a01ea9f55ab7b9c8bbf67de83c015ddfc74254",
+      "seed": 1204
+    },
+    {
+      "exact_score_file_match": true,
+      "fresh_sha256": "eb8e3731e9b603dce12a0e1471189bdb821ae4818a1913dc439be8488601175e",
+      "historical_reported_sha256": "eb8e3731e9b603dce12a0e1471189bdb821ae4818a1913dc439be8488601175e",
+      "seed": 1205
+    }
+  ],
+  "scope": "Comparison against retained historical digests only. Not a comparison to absent historical raw captures or an acceptance target."
+}

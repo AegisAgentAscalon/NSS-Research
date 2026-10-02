@@ -1,0 +1,31 @@
+{
+  "review": "TS01 v0.3 report-only evidence review",
+  "input_files": [
+    {
+      "label": "1-REPORT-5-1-.md",
+      "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\.codex-remote-attachments\\01a0ca9e-7135-72f2-b263-03a0c38af737\\cfd8574e-13ef-4004-8a05-efb741874558\\1-REPORT-5-1-.md",
+      "bytes": 17778,
+      "sha256": "28cd94cd2b99c1eea5ac4525083c425179e1a17e1696be794a85037f2798d10d",
+      "hash_basis": "raw file bytes"
+    },
+    {
+      "label": "2-CHAT_PROMPT-3-.md",
+      "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\.codex-remote-attachments\\01a0ca9e-7135-72f2-b263-03a0c38af737\\cfd8574e-13ef-4004-8a05-efb741874558\\2-CHAT_PROMPT-3-.md",
+      "bytes": 6666,
+      "sha256": "7389a7a35138d91b983ef0e342d1515bb839f4cf632ed4119e41103631e3f826",
+      "hash_basis": "raw file bytes"
+    }
+  ],
+  "comparison_reference": {
+    "label": "prior TS01 candidate",
+    "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\.research_review\\CM02_v0.6_20260924\\delivery_v0.1\\CANDIDATES.md",
+    "bytes": 8048,
+    "sha256": "a5d2b7a17b0983a487784829271f36ae9b988b24ef5f34c34676657e28ff111f"
+  },
+  "evidence_boundary": {
+    "available": "two Markdown attachments plus the prior candidate document",
+    "not_available": "TS01 execution ZIP, raw score tables, source lock, fit traces, and checkpoint bytes",
+    "archive_search": "Root reported that its targeted Research filename search found no TS01 ZIP",
+    "execution_performed": false
+  }
+}

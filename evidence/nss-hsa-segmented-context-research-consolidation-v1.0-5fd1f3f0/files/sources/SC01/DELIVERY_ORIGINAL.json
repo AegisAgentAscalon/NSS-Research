@@ -1,0 +1,41 @@
+{
+  "schema": "nss.delivery.v1",
+  "utc": "2026-09-28T02:40:11Z",
+  "study": "NSS_NBR02_SC01_Execution_v0.1",
+  "artifacts": [
+    {
+      "file": "NSS_NBR02_SC01_Execution_v0.1.zip",
+      "bytes": 3494844,
+      "sha256": "86dce340aedb46a711ad8d4145b9c761dd8df8a3a90ab2be27da72eef4861f47",
+      "payload_files_verified": 522,
+      "zip_crc_pass": true,
+      "no_unlisted_files": true
+    },
+    {
+      "file": "NSS_NBR02_SC01_Codex_Review_v0.1.zip",
+      "bytes": 98731,
+      "sha256": "2c6ad20b7d81dd23c65dd5713bd3437a7040cdb7a2afe178a93478c8bcc9258a",
+      "payload_files_verified": 49,
+      "zip_crc_pass": true,
+      "no_unlisted_files": true
+    }
+  ],
+  "source_lock_reverified_files": 54,
+  "standalone": [
+    {
+      "file": "NSS_NBR02_SC01_Report_v0.1.md",
+      "bytes": 16243,
+      "sha256": "c07f0f783ed68329a4048d475c43d1ff210c225a45fb6d11cf1da39dd6d27edf"
+    },
+    {
+      "file": "NSS_NBR02_SC01_Architecture_v0.1.md",
+      "bytes": 6875,
+      "sha256": "f1d7ace47a165252ca6c21a27365d3295561f05e9a3f494f0ea68c5f42567dc5"
+    },
+    {
+      "file": "NSS_NBR02_SC01_Codex_Review_v0.1.md",
+      "bytes": 5086,
+      "sha256": "da0cdf667ea14a6c6e9c24f532d026eb21b8b03e9b069922e9daf7d1d09e3a0c"
+    }
+  ]
+}

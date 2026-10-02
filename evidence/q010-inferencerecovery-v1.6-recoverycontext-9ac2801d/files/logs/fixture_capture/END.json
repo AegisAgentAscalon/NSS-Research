@@ -1,0 +1,10 @@
+{
+  "end_utc": "2026-09-24T16:00:47.741042+00:00",
+  "exit_code": 0,
+  "name": "fixture_capture",
+  "new_optimizer_updates": 0,
+  "pid": 696,
+  "sampled_peak_process_tree_rss_bytes": 335638528,
+  "start_utc": "2026-09-24T16:00:33.729438+00:00",
+  "wall_seconds": 14.011642445000007
+}

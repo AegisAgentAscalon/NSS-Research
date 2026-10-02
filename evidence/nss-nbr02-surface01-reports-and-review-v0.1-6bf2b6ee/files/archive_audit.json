@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "audit_utc": "2026-09-27T13:35:07Z",
+  "study": "NSS NBR02 SURFACE01 Execution v0.1",
+  "scope": "Bounded non-executing archive and retained-output audit. Checked archive/manifest identities, intake report copies, locked source/protocol hashes, four admission logits/labels/family fixtures, and the retained failed 4103 trace.",
+  "archive": {
+    "path": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip",
+    "size_bytes": 32141227,
+    "sha256": "e51efcdeef95839d6bda5749116f72bccbf9ce1446ba1bdf9875d45fc043ea61",
+    "zip_testzip_bad_member": null,
+    "duplicate_member_count": 0,
+    "zip_member_count": 115,
+    "manifest": {
+      "path": "NSS_NBR02_SURFACE01_Execution_v0.1/MANIFEST.json",
+      "file_count": 113,
+      "payload_bytes": 36280877,
+      "sidecar_path": "NSS_NBR02_SURFACE01_Execution_v0.1/MANIFEST.sha256",
+      "sidecar_sha256": "11367f30519c56487f0ef01cdf0d435ba390e7104f2383a0bb7120a0b3dbf5ac",
+      "manifest_self_hash_matches_sidecar": true,
+      "payloads_checked": 113,
+      "payloads_size_and_sha256_match": 113,
+      "missing_payloads": 0,
+      "unlisted_payloads": 0,
+      "payload_mismatches": 0
+    },
+    "checkpoint_files": {
+      "count": 33,
+      "parent_count": 24,
+      "probe_count": 9,
+      "byte_hashes_match_manifest": true,
+      "deserialized_or_tensor_hash_checked": false,
+      "members": [
+        {
+          "path": "checkpoints/parent_4101_0000.pt",
+          "bytes": 81862,
+          "sha256": "d73103d0a7d39dd4eb63fbcf2c1d47c144a715c0e4f1744c2db3351ed323a204"
+        },
+        {
+          "path": "checkpoints/parent_4101_0250.pt",
+          "bytes": 232367,
+          "sha256": "d6487c8ff7aa8cb7af100fab4ab9b534d5ad06c921df6eba2aba9a72a633b883"
+        },
+        {
+          "path": "checkpoints/parent_4101_0500.pt",
+          "bytes": 232367,
+          "sha256": "d84b7623b47d1df76e99369cf6106c7a4be915dd17fc8ecf2c48ccb36ff69c3f"
+        },
+        {
+          "path": "checkpoints/parent_4101_1000.pt",
+          "bytes": 232367,
+          "sha256": "7b7e33214ad89bd3fcdeec387ef514aef7de17445c02df2c1d4efbc9e497bd32"
+        },
+        {
+          "path": "checkpoints/parent_4101_1500.pt",
+          "bytes": 232367,
+          "sha256": "ad51533606c5576eb8185dfb7e7bcbb4eb0daf2cad4cfc2df97d66df1c0f6071"
+        },
+        {
+          "path": "checkpoints/parent_4101_2000.pt",
+          "bytes": 232367,
+          "sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978"
+        },
+        {
+          "path": "checkpoints/parent_4102_0000.pt",
+          "bytes": 81862,
+          "sha256": "18362ae64f12d6f8cfa713eae5332ac494ba1dbc81e2cb7e10fff96f7efb348f"
+        },
+        {
+          "path": "checkpoints/parent_4102_0250.pt",
+          "bytes": 232367,
+          "sha256": "e992317c3276d105fef3c4676f8d39f86f2eca4a5c1a87d8e0f008bd4dce78fc"
+        },
+        {
+          "path": "checkpoints/parent_4102_0500.pt",
+          "bytes": 232367,
+          "sha256": "0abc704b961f67ae49f1d8e7befe0ea03d06117f13ba83525eab7714b26e6e11"
+        },
+        {
+          "path": "checkpoints/parent_4102_1000.pt",
+          "bytes": 232367,
+          "sha256": "c2350a945f23c3562d1f7418dbc20890a9758b0c725696b2faa7b7eff1fcb141"
+        },
+        {
+          "path": "checkpoints/parent_4102_1500.pt",
+          "bytes": 232367,
+          "sha256": "22cbce120a1dcfd8abe2c39ca040a82ee4ef4fe59256a609f315754064411189"
+        },
+        {
+          "path": "checkpoints/parent_4102_2000.pt",
+          "bytes": 232367,
+          "sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb"
+        },
+        {
+          "path": "checkpoints/parent_4103_0000.pt",
+          "bytes": 81862,
+          "sha256": "4a2f7552418e20628f0a5fdf3a26812f1cbed92c235c6104854139b312156a25"
+        },
+        {
+          "path": "checkpoints/parent_4103_0250.pt",
+          "bytes": 232367,
+          "sha256": "9866cce51c142f6e0e0ddeb77448f7ed0b0ede787561cb7872fc4a0bd51e0553"
+        },
+        {
+          "path": "checkpoints/parent_4103_0500.pt",
+          "bytes": 232367,
+          "sha256": "1923ec94342301d3646aa3c99ba146de8dc7a2ef6e2abc8efd445b8542ebc5e9"
+        },
+        {
+          "path": "checkpoints/parent_4103_1000.pt",
+          "bytes": 232367,
+          "sha256": "888fea14e7495be350a69224035765c74f74e1cd0f2bf03cdc4e7b4e137c9f7b"
+        },
+        {
+          "path": "checkpoints/parent_4103_1500.pt",
+          "bytes": 232367,
+          "sha256": "81547b7b1565ad444cd37b64a1d48fa81b7bf834b7fedb92d4d99e67a4755848"
+        },
+        {
+          "path": "checkpoints/parent_4103_2000.pt",
+          "bytes": 232367,
+          "sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda"
+        },
+        {
+          "path": "checkpoints/parent_4104_0000.pt",
+          "bytes": 81862,
+          "sha256": "f8f9abb8e3dd69eca9e687dad5f81fc5df8b8ab483ba8bc097166db9566ffda8"
+        },
+        {
+          "path": "checkpoints/parent_4104_0250.pt",
+          "bytes": 232367,
+          "sha256": "87eeb4adc43537ae177bb524215165532167e26145f4148dd3c22a22e151b1fb"
+        },
+        {
+          "path": "checkpoints/parent_4104_0500.pt",
+          "bytes": 232367,
+          "sha256": "93ad7e37c30e938b76593be30c2b65ba0848514e16c7aab73c799a5863b40dd7"
+        },
+        {
+          "path": "checkpoints/parent_4104_1000.pt",
+          "bytes": 232367,
+          "sha256": "90a5ece40dea8094fa9779c77a1de9d6a6cf94bb3f49974842b070cd418ced59"
+        },
+        {
+          "path": "checkpoints/parent_4104_1500.pt",
+          "bytes": 232367,
+          "sha256": "132ae451cffa84a445303e1ce5739a601863a64e3acefd76a5012d17b1978722"
+        },
+        {
+          "path": "checkpoints/parent_4104_2000.pt",
+          "bytes": 232367,
+          "sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571"
+        },
+        {
+          "path": "checkpoints/probe_F_12.pt",
+          "bytes": 87861,
+          "sha256": "d031975287f1a3bfd4feb742c5293bea0434c653ead9abb60e8b1ece07099df5"
+        },
+        {
+          "path": "checkpoints/probe_F_8.pt",
+          "bytes": 87842,
+          "sha256": "d3e4c80b2e2a6403df607f42dc96f969917b49242480afc40ee335ef40086b24"
+        },
+        {
+          "path": "checkpoints/probe_F_resumed_12.pt",
+          "bytes": 88077,
+          "sha256": "06d6efa691b037ee9aea096d244cf87152f741e6ab2d8f3f36f94695ed1c47ff"
+        },
+        {
+          "path": "checkpoints/probe_U_12.pt",
+          "bytes": 232117,
+          "sha256": "00333f0ac54d67fb9a73f974e87631506c9d28fc184159a1f45d4468e911718f"
+        },
+        {
+          "path": "checkpoints/probe_U_8.pt",
+          "bytes": 232086,
+          "sha256": "b4f48e2bfbe7ac94b060ecdc28135c7f0a2f6f1769729bfee0b70500d9d5de85"
+        },
+        {
+          "path": "checkpoints/probe_U_resumed_12.pt",
+          "bytes": 232429,
+          "sha256": "bd8c2fec9c94ac71fe76c35ec307a3c1bea21ffa253705dda096c209d4b8968e"
+        },
+        {
+          "path": "checkpoints/probe_parent_12.pt",
+          "bytes": 232272,
+          "sha256": "a5896f47cdadc5c5f579cbfbc88a354d707a5431a2191c4e751da2262b4d2934"
+        },
+        {
+          "path": "checkpoints/probe_parent_8.pt",
+          "bytes": 232241,
+          "sha256": "0e39da51154264a4dd4fc92e67256431c306f5af9b21bc893b396377b3d23239"
+        },
+        {
+          "path": "checkpoints/probe_parent_resumed_12.pt",
+          "bytes": 232648,
+          "sha256": "492388068651ab293dd57c042ca3c5d0a02677db4147b6674abc756b24dbb0d3"
+        }
+      ]
+    }
+  },
+  "intake_copy_comparison": [
+    {
+      "desktop_source": "<PRIVATE_HOME>\\Desktop\\NSS_NBR02_SURFACE01_Report_v0.1.md",
+      "intake_copy": ".consolidation\\20260927\\surface01\\inputs\\NSS_NBR02_SURFACE01_Report_v0.1.md",
+      "archive_member": "NSS_NBR02_SURFACE01_Execution_v0.1/REPORT.md",
+      "receipt_bytes": 16159,
+      "receipt_sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62",
+      "copy_bytes": 16159,
+      "copy_sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62",
+      "archive_member_bytes": 16159,
+      "archive_member_sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62",
+      "copy_matches_receipt": true,
+      "archive_member_byte_equal_to_copy": true
+    },
+    {
+      "desktop_source": "<PRIVATE_HOME>\\Desktop\\NSS_NBR02_SURFACE01_Codex_Review_v0.1.md",
+      "intake_copy": ".consolidation\\20260927\\surface01\\inputs\\NSS_NBR02_SURFACE01_Codex_Review_v0.1.md",
+      "archive_member": "NSS_NBR02_SURFACE01_Execution_v0.1/CODEX_REVIEW.md",
+      "receipt_bytes": 2690,
+      "receipt_sha256": "2e1684993b7468e82a2a2384fbd67d58f3d7790184dbdeba2d7f7a397066caeb",
+      "copy_bytes": 2690,
+      "copy_sha256": "2e1684993b7468e82a2a2384fbd67d58f3d7790184dbdeba2d7f7a397066caeb",
+      "archive_member_bytes": 2690,
+      "archive_member_sha256": "2e1684993b7468e82a2a2384fbd67d58f3d7790184dbdeba2d7f7a397066caeb",
+      "copy_matches_receipt": true,
+      "archive_member_byte_equal_to_copy": true
+    }
+  ],
+  "execution_lock": {
+    "sources": {
+      "study.py": {
+        "locked_sha256": "8bdf65f98ded9c976c0bdfd45beb3a7979841222cb129df2ce66e82820c0f99f",
+        "manifest_sha256": "8bdf65f98ded9c976c0bdfd45beb3a7979841222cb129df2ce66e82820c0f99f",
+        "matches": true
+      },
+      "common.py": {
+        "locked_sha256": "29ca7788fdc1768784cc8f29a5559bfa65a10336f86a2740086c20b13b3186fd",
+        "manifest_sha256": "29ca7788fdc1768784cc8f29a5559bfa65a10336f86a2740086c20b13b3186fd",
+        "matches": true
+      },
+      "adapt.py": {
+        "locked_sha256": "fa1545691ed8677bdba1b55d772df1bbb3a90fd0f561de6646b881190583ae4d",
+        "manifest_sha256": "fa1545691ed8677bdba1b55d772df1bbb3a90fd0f561de6646b881190583ae4d",
+        "matches": true
+      }
+    },
+    "protocol_inputs": {
+      "proposal": {
+        "path": "protocol/NSS_NBR02_SURFACE01_Proposal_v0.1.md",
+        "locked_sha256": "08adad5a2367d574bd5b0c33ceb1e56fd8b52e2d47d3e512801c83007833fdaf",
+        "manifest_sha256": "08adad5a2367d574bd5b0c33ceb1e56fd8b52e2d47d3e512801c83007833fdaf",
+        "matches": true
+      },
+      "execution_protocol": {
+        "path": "protocol/EXECUTION_PROTOCOL.md",
+        "locked_sha256": "e6ff84c99952baae175e01b0fb4e0788f4857057dedc1ca0bd2b456f9e4a30f4",
+        "manifest_sha256": "e6ff84c99952baae175e01b0fb4e0788f4857057dedc1ca0bd2b456f9e4a30f4",
+        "matches": true
+      },
+      "preflight": {
+        "path": "evidence/preflight.json",
+        "locked_sha256": "a23e87edb3304cb96cfb036a8c42d43092d51c4a4c09dcb29a09f35a37f54dee",
+        "manifest_sha256": "a23e87edb3304cb96cfb036a8c42d43092d51c4a4c09dcb29a09f35a37f54dee",
+        "matches": true
+      },
+      "environment": {
+        "path": "protocol/environment.json",
+        "locked_sha256": "b0717a076b3b9de90e34f810a8a6b8a3db6222e4752870125a79ed8f15651af5",
+        "manifest_sha256": "b0717a076b3b9de90e34f810a8a6b8a3db6222e4752870125a79ed8f15651af5",
+        "matches": true
+      }
+    },
+    "all_locked_hashes_match_manifest": true
+  },
+  "selected_member_identities": {
+    "REPORT.md": {
+      "bytes": 16159,
+      "sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62"
+    },
+    "CODEX_REVIEW.md": {
+      "bytes": 2690,
+      "sha256": "2e1684993b7468e82a2a2384fbd67d58f3d7790184dbdeba2d7f7a397066caeb"
+    },
+    "protocol/EXECUTION_LOCK.json": {
+      "bytes": 964,
+      "sha256": "f41b5c4d565765e4c95c95afaeb684a87a79f66034c236a038c3e4104ebdc2bb"
+    },
+    "protocol/EXECUTION_PROTOCOL.md": {
+      "bytes": 8836,
+      "sha256": "e6ff84c99952baae175e01b0fb4e0788f4857057dedc1ca0bd2b456f9e4a30f4"
+    },
+    "evidence/outcome.json": {
+      "bytes": 70668,
+      "sha256": "908106f9179f4aa2a93b27b1d9afbb338b21f99e82707f3c7ed0347cac0207d6"
+    },
+    "analysis/parent_family_results.csv": {
+      "bytes": 917,
+      "sha256": "bc59977658cfe8d0082db685169c30044129545279d1056e9c357ae3d620a671"
+    },
+    "failures/parent_4103_idempotent_first.json": {
+      "bytes": 483,
+      "sha256": "dfe0630d2052324526077c863757fe59bd454dcee5c46382916ba23d7f76fd90"
+    },
+    "failures/parent_4103_idempotent_first.npz": {
+      "bytes": 11699,
+      "sha256": "0c427ea83fb8c021208330a7bb2425fed3f0d6f11237ecf51cdedd33a89481a2"
+    },
+    "evidence/admission_4101.npz": {
+      "bytes": 3161092,
+      "sha256": "bc6a3301bd294e6ba0f4cd29d837526433753e2d55961f0867ad2bbb3c86e1bc"
+    },
+    "evidence/admission_4102.npz": {
+      "bytes": 3161077,
+      "sha256": "bf1a6c187aea59e9728de93f7770d6796346b1d603e67d68fdb517af080c6611"
+    },
+    "evidence/admission_4103.npz": {
+      "bytes": 3159490,
+      "sha256": "98bba76154c792095faeebc3d8f56d512e452446108cf75d1f07f9545d5678d3"
+    },
+    "evidence/admission_4104.npz": {
+      "bytes": 3156302,
+      "sha256": "86f396ad3a93dbc0937397496631a9283cbd3b01665285724a4d704c0c4cc140"
+    }
+  },
+  "admission_recount": {
+    "method": "NumPy allow_pickle=False; argmax retained logits; score logits/targets indices 1:33 (32 suffix events), grouping by fixture family ids 0=mixed,1=idempotent,2=revision,3=reset; boundary index 0 separate. No model forward or update.",
+    "matched_analysis_parent_family_csv": true,
+    "matched_outcome_json": true,
+    "outcome_status": "STOP_BASELINE_COMPETENCE",
+    "rows": [
+      {
+        "seed": 4101,
+        "family": "mixed",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4101,
+        "family": "idempotent",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4101,
+        "family": "revision",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4101,
+        "family": "reset",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4102,
+        "family": "mixed",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4102,
+        "family": "idempotent",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4102,
+        "family": "revision",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4102,
+        "family": "reset",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4103,
+        "family": "mixed",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4103,
+        "family": "idempotent",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2042,
+        "events_total": 2048,
+        "whole_correct": 63,
+        "false_done": 6,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4103,
+        "family": "revision",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4103,
+        "family": "reset",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4104,
+        "family": "mixed",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4104,
+        "family": "idempotent",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4104,
+        "family": "revision",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      },
+      {
+        "seed": 4104,
+        "family": "reset",
+        "histories": 64,
+        "prefix8_histories": 32,
+        "prefix24_histories": 32,
+        "events_correct": 2048,
+        "events_total": 2048,
+        "whole_correct": 64,
+        "false_done": 0,
+        "boundary_correct": 64
+      }
+    ],
+    "aggregate": {
+      "events_correct": 32762,
+      "events_total": 32768,
+      "whole_correct": 1023,
+      "histories": 1024,
+      "false_done": 6
+    },
+    "gate": "At least 99% suffix event accuracy, at least 95% whole 32-event continuations, and zero false-DONE per family; three parents pass their own panels, seed 4103 fails only zero false-DONE in idempotent family, stopping cohort adaptation."
+  },
+  "failed_4103_trace": {
+    "source_member": "NSS_NBR02_SURFACE01_Execution_v0.1/failures/parent_4103_idempotent_first.npz",
+    "method": "Read tokens, targets and logits with NumPy allow_pickle=False; recomputed argmax, stable softmax and checklist bitmask from frozen token semantics. This is output-array analysis, not a forward replay.",
+    "summary": {
+      "first_error": {
+        "absolute_event": 17,
+        "suffix_event": 9,
+        "command": "SET(1)",
+        "mask_before": 223,
+        "mask_after": 223,
+        "target": 5,
+        "prediction": 8,
+        "correct": false,
+        "p_target": 0.23000340463952215,
+        "p_done": 0.47807806161499433
+      },
+      "error_run": [
+        {
+          "absolute_event": 17,
+          "suffix_event": 9,
+          "command": "SET(1)",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.23000340463952215,
+          "p_done": 0.47807806161499433
+        },
+        {
+          "absolute_event": 18,
+          "suffix_event": 10,
+          "command": "NOOP",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.05581671292680828,
+          "p_done": 0.9358592271349414
+        },
+        {
+          "absolute_event": 19,
+          "suffix_event": 11,
+          "command": "NOOP",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.044914564038865595,
+          "p_done": 0.9524073179500441
+        },
+        {
+          "absolute_event": 20,
+          "suffix_event": 12,
+          "command": "SET(3)",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.04120814552923246,
+          "p_done": 0.9558041495481889
+        },
+        {
+          "absolute_event": 21,
+          "suffix_event": 13,
+          "command": "SET(3)",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.01567991708165868,
+          "p_done": 0.9824100675065851
+        },
+        {
+          "absolute_event": 22,
+          "suffix_event": 14,
+          "command": "SET(3)",
+          "mask_before": 223,
+          "mask_after": 223,
+          "target": 5,
+          "prediction": 8,
+          "correct": false,
+          "p_target": 0.004594631649574401,
+          "p_done": 0.9940944055386784
+        }
+      ],
+      "following_event": {
+        "absolute_event": 23,
+        "suffix_event": 15,
+        "command": "SET(5)",
+        "mask_before": 223,
+        "mask_after": 255,
+        "target": 8,
+        "prediction": 8,
+        "correct": true,
+        "p_target": 0.9987363111308577,
+        "p_done": 0.9987363111308577
+      },
+      "errors_all_on_unchanged_mask_223": true,
+      "error_absolute_events": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "error_suffix_events": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "evidence_boundary": {
+    "independently_checked": "Outer ZIP identity, CRC, all 113 member sizes and SHA-256 values against manifest; copied REPORT/CODEX_REVIEW bytes; source/protocol lock hashes; admission event/whole/false-DONE counts; retained 4103 output trace.",
+    "source_report_only": "Float32 independent numerical checks, injected-fault detections, fresh-process inference replay, model-tensor-hash claims, training coverage counts, optimizer counts and resource measurements were not rerun by this audit.",
+    "not_performed": [
+      "No source file executed",
+      "No model/scorer/optimizer/checkpoint executed or loaded",
+      "No checkpoint pickle deserialization",
+      "No new model forward or training update",
+      "No numerical-reference replay",
+      "No whole training corpus rescore",
+      "No hidden-state flag-decodability test"
+    ]
+  }
+}

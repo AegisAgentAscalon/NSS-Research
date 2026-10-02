@@ -1,0 +1,20 @@
+[
+  {
+    "empty": 1.0,
+    "first_write": 1.0,
+    "known": 1.0,
+    "sigma": 0.0
+  },
+  {
+    "empty": 1.0,
+    "first_write": 1.0,
+    "known": 0.78125,
+    "sigma": 0.15
+  },
+  {
+    "empty": 1.0,
+    "first_write": 1.0,
+    "known": 0.0,
+    "sigma": 0.3
+  }
+]

@@ -1,0 +1,211 @@
+{
+  "created_utc": "2026-09-27T13:44:41.011484+00:00",
+  "scope": "Report preservation, retained-array audit, candidates and master v1.1 integration; no scientific execution",
+  "execution_archive": {
+    "path": "Research/NSS_NBR02_SURFACE01_Execution_v0.1.zip",
+    "size_bytes": 32141227,
+    "sha256": "e51efcdeef95839d6bda5749116f72bccbf9ce1446ba1bdf9875d45fc043ea61",
+    "zip_testzip_bad_member": null,
+    "duplicate_member_count": 0,
+    "zip_member_count": 115,
+    "manifest": {
+      "path": "NSS_NBR02_SURFACE01_Execution_v0.1/MANIFEST.json",
+      "file_count": 113,
+      "payload_bytes": 36280877,
+      "sidecar_path": "NSS_NBR02_SURFACE01_Execution_v0.1/MANIFEST.sha256",
+      "sidecar_sha256": "11367f30519c56487f0ef01cdf0d435ba390e7104f2383a0bb7120a0b3dbf5ac",
+      "manifest_self_hash_matches_sidecar": true,
+      "payloads_checked": 113,
+      "payloads_size_and_sha256_match": 113,
+      "missing_payloads": 0,
+      "unlisted_payloads": 0,
+      "payload_mismatches": 0
+    },
+    "checkpoint_files": {
+      "count": 33,
+      "parent_count": 24,
+      "probe_count": 9,
+      "byte_hashes_match_manifest": true,
+      "deserialized_or_tensor_hash_checked": false,
+      "members": [
+        {
+          "path": "checkpoints/parent_4101_0000.pt",
+          "bytes": 81862,
+          "sha256": "d73103d0a7d39dd4eb63fbcf2c1d47c144a715c0e4f1744c2db3351ed323a204"
+        },
+        {
+          "path": "checkpoints/parent_4101_0250.pt",
+          "bytes": 232367,
+          "sha256": "d6487c8ff7aa8cb7af100fab4ab9b534d5ad06c921df6eba2aba9a72a633b883"
+        },
+        {
+          "path": "checkpoints/parent_4101_0500.pt",
+          "bytes": 232367,
+          "sha256": "d84b7623b47d1df76e99369cf6106c7a4be915dd17fc8ecf2c48ccb36ff69c3f"
+        },
+        {
+          "path": "checkpoints/parent_4101_1000.pt",
+          "bytes": 232367,
+          "sha256": "7b7e33214ad89bd3fcdeec387ef514aef7de17445c02df2c1d4efbc9e497bd32"
+        },
+        {
+          "path": "checkpoints/parent_4101_1500.pt",
+          "bytes": 232367,
+          "sha256": "ad51533606c5576eb8185dfb7e7bcbb4eb0daf2cad4cfc2df97d66df1c0f6071"
+        },
+        {
+          "path": "checkpoints/parent_4101_2000.pt",
+          "bytes": 232367,
+          "sha256": "1b789bf946af2851c1c7c1f9510874ba62b68dbd64bb0fa4c4e0dff8ce9fb978"
+        },
+        {
+          "path": "checkpoints/parent_4102_0000.pt",
+          "bytes": 81862,
+          "sha256": "18362ae64f12d6f8cfa713eae5332ac494ba1dbc81e2cb7e10fff96f7efb348f"
+        },
+        {
+          "path": "checkpoints/parent_4102_0250.pt",
+          "bytes": 232367,
+          "sha256": "e992317c3276d105fef3c4676f8d39f86f2eca4a5c1a87d8e0f008bd4dce78fc"
+        },
+        {
+          "path": "checkpoints/parent_4102_0500.pt",
+          "bytes": 232367,
+          "sha256": "0abc704b961f67ae49f1d8e7befe0ea03d06117f13ba83525eab7714b26e6e11"
+        },
+        {
+          "path": "checkpoints/parent_4102_1000.pt",
+          "bytes": 232367,
+          "sha256": "c2350a945f23c3562d1f7418dbc20890a9758b0c725696b2faa7b7eff1fcb141"
+        },
+        {
+          "path": "checkpoints/parent_4102_1500.pt",
+          "bytes": 232367,
+          "sha256": "22cbce120a1dcfd8abe2c39ca040a82ee4ef4fe59256a609f315754064411189"
+        },
+        {
+          "path": "checkpoints/parent_4102_2000.pt",
+          "bytes": 232367,
+          "sha256": "58c45fe10c3efe7608d36355bbff074ab2170b8bf99bf66ee4d4a4e255029cbb"
+        },
+        {
+          "path": "checkpoints/parent_4103_0000.pt",
+          "bytes": 81862,
+          "sha256": "4a2f7552418e20628f0a5fdf3a26812f1cbed92c235c6104854139b312156a25"
+        },
+        {
+          "path": "checkpoints/parent_4103_0250.pt",
+          "bytes": 232367,
+          "sha256": "9866cce51c142f6e0e0ddeb77448f7ed0b0ede787561cb7872fc4a0bd51e0553"
+        },
+        {
+          "path": "checkpoints/parent_4103_0500.pt",
+          "bytes": 232367,
+          "sha256": "1923ec94342301d3646aa3c99ba146de8dc7a2ef6e2abc8efd445b8542ebc5e9"
+        },
+        {
+          "path": "checkpoints/parent_4103_1000.pt",
+          "bytes": 232367,
+          "sha256": "888fea14e7495be350a69224035765c74f74e1cd0f2bf03cdc4e7b4e137c9f7b"
+        },
+        {
+          "path": "checkpoints/parent_4103_1500.pt",
+          "bytes": 232367,
+          "sha256": "81547b7b1565ad444cd37b64a1d48fa81b7bf834b7fedb92d4d99e67a4755848"
+        },
+        {
+          "path": "checkpoints/parent_4103_2000.pt",
+          "bytes": 232367,
+          "sha256": "1277396419ae5ef2745a90fb8e5c4d7b61d4b0d17ac46950fddd5f756eb40fda"
+        },
+        {
+          "path": "checkpoints/parent_4104_0000.pt",
+          "bytes": 81862,
+          "sha256": "f8f9abb8e3dd69eca9e687dad5f81fc5df8b8ab483ba8bc097166db9566ffda8"
+        },
+        {
+          "path": "checkpoints/parent_4104_0250.pt",
+          "bytes": 232367,
+          "sha256": "87eeb4adc43537ae177bb524215165532167e26145f4148dd3c22a22e151b1fb"
+        },
+        {
+          "path": "checkpoints/parent_4104_0500.pt",
+          "bytes": 232367,
+          "sha256": "93ad7e37c30e938b76593be30c2b65ba0848514e16c7aab73c799a5863b40dd7"
+        },
+        {
+          "path": "checkpoints/parent_4104_1000.pt",
+          "bytes": 232367,
+          "sha256": "90a5ece40dea8094fa9779c77a1de9d6a6cf94bb3f49974842b070cd418ced59"
+        },
+        {
+          "path": "checkpoints/parent_4104_1500.pt",
+          "bytes": 232367,
+          "sha256": "132ae451cffa84a445303e1ce5739a601863a64e3acefd76a5012d17b1978722"
+        },
+        {
+          "path": "checkpoints/parent_4104_2000.pt",
+          "bytes": 232367,
+          "sha256": "ca41537b9e781fd876c523e81e0bd60b6765e9959191fd48e094b78c5577a571"
+        },
+        {
+          "path": "checkpoints/probe_F_12.pt",
+          "bytes": 87861,
+          "sha256": "d031975287f1a3bfd4feb742c5293bea0434c653ead9abb60e8b1ece07099df5"
+        },
+        {
+          "path": "checkpoints/probe_F_8.pt",
+          "bytes": 87842,
+          "sha256": "d3e4c80b2e2a6403df607f42dc96f969917b49242480afc40ee335ef40086b24"
+        },
+        {
+          "path": "checkpoints/probe_F_resumed_12.pt",
+          "bytes": 88077,
+          "sha256": "06d6efa691b037ee9aea096d244cf87152f741e6ab2d8f3f36f94695ed1c47ff"
+        },
+        {
+          "path": "checkpoints/probe_U_12.pt",
+          "bytes": 232117,
+          "sha256": "00333f0ac54d67fb9a73f974e87631506c9d28fc184159a1f45d4468e911718f"
+        },
+        {
+          "path": "checkpoints/probe_U_8.pt",
+          "bytes": 232086,
+          "sha256": "b4f48e2bfbe7ac94b060ecdc28135c7f0a2f6f1769729bfee0b70500d9d5de85"
+        },
+        {
+          "path": "checkpoints/probe_U_resumed_12.pt",
+          "bytes": 232429,
+          "sha256": "bd8c2fec9c94ac71fe76c35ec307a3c1bea21ffa253705dda096c209d4b8968e"
+        },
+        {
+          "path": "checkpoints/probe_parent_12.pt",
+          "bytes": 232272,
+          "sha256": "a5896f47cdadc5c5f579cbfbc88a354d707a5431a2191c4e751da2262b4d2934"
+        },
+        {
+          "path": "checkpoints/probe_parent_8.pt",
+          "bytes": 232241,
+          "sha256": "0e39da51154264a4dd4fc92e67256431c306f5af9b21bc893b396377b3d23239"
+        },
+        {
+          "path": "checkpoints/probe_parent_resumed_12.pt",
+          "bytes": 232648,
+          "sha256": "492388068651ab293dd57c042ca3c5d0a02677db4147b6674abc756b24dbb0d3"
+        }
+      ]
+    }
+  },
+  "old_master": {
+    "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\Research\\NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+    "bytes": 104740,
+    "sha256": "49ef49349312ff7e8be181fe6202bb5c079e13402e68427835a794181236fb20"
+  },
+  "new_master": {
+    "path": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\Research\\NSS_Research_and_Architecture_Chat_Handoff_v1.1.md",
+    "bytes": 122622,
+    "sha256": "274839937d14e182ee1795e9ab21d03bd4cfed3c1101c40fa62923622d2da558"
+  },
+  "desktop_originals": "Retained unchanged; copies and Zone.Identifier bytes included",
+  "master_is_separate": true
+}

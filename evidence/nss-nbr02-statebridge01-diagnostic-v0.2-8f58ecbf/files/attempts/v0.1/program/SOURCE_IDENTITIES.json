@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/mnt/data/NSS_NBR02_State_Learning_Bridge_v0.1/DIRECTION_AND_CANDIDATE.md",
+    "bytes": 13857,
+    "sha256": "f9f471da6101eb9f21a54d114b72ea78f42829bce8555321b6400b5d9e3087fb"
+  },
+  {
+    "path": "/mnt/data/NSS_TS01_Execution_v0.3/REPORT.md",
+    "bytes": 17778,
+    "sha256": "28cd94cd2b99c1eea5ac4525083c425179e1a17e1696be794a85037f2798d10d"
+  },
+  {
+    "path": "/mnt/data/NSS_NBR02_MICROMACRO01_Execution_v0.2/protocol/PROTOCOL.md",
+    "bytes": 15077,
+    "sha256": "ef276383a39de98d46e3dc7528bcf08ba850bcc77f4d7afe4a28cb0edc9defa0"
+  }
+]

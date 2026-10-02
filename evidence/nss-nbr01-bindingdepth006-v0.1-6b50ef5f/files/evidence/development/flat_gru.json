@@ -1,0 +1,106 @@
+{
+  "batch": 64,
+  "changed": true,
+  "checkpoint_sha256": "e73ee46685d87fb8f08ec52451ab035c7edbbbebb6d9a606e502d541676b6c76",
+  "development": true,
+  "end_utc": "2026-09-21T09:29:23.938310+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 717,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T09:29:23.939486+00:00"
+  },
+  "final_weight_hash": "89e934294c1ac72dd19566111976cce1b718b753dd41ccb2bd9e625b871cd2bb",
+  "history": [
+    {
+      "loss": 8.103765487670898,
+      "seconds": 0.015099357999986296,
+      "step": 1
+    },
+    {
+      "loss": 7.1828155517578125,
+      "seconds": 1.101663277,
+      "step": 100
+    },
+    {
+      "loss": 5.350343704223633,
+      "seconds": 2.2212937979999765,
+      "step": 200
+    },
+    {
+      "loss": 4.663370609283447,
+      "seconds": 3.245048854999993,
+      "step": 300
+    },
+    {
+      "loss": 6.247926712036133,
+      "seconds": 4.271277214999998,
+      "step": 400
+    },
+    {
+      "loss": 5.920963764190674,
+      "seconds": 5.3043088539999985,
+      "step": 500
+    },
+    {
+      "loss": 4.96414852142334,
+      "seconds": 6.3307148549999965,
+      "step": 600
+    },
+    {
+      "loss": 5.017632007598877,
+      "seconds": 7.365766421999979,
+      "step": 700
+    },
+    {
+      "loss": 4.975799083709717,
+      "seconds": 8.443629971999997,
+      "step": 800
+    },
+    {
+      "loss": 3.861319065093994,
+      "seconds": 9.484512267000014,
+      "step": 900
+    },
+    {
+      "loss": 5.235485076904297,
+      "seconds": 10.512847480999994,
+      "step": 1000
+    },
+    {
+      "loss": 5.463479042053223,
+      "seconds": 11.551399715000002,
+      "step": 1100
+    },
+    {
+      "loss": 4.423254489898682,
+      "seconds": 12.588827113999969,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "de9fa5856c6bc2f8489c7a2e374ecab480dd47e78e3177f4cfdb79ec7c663d82",
+  "kind": "flat_gru",
+  "parameters": 111665,
+  "recipe": {
+    "data_seed": 100741,
+    "intermediate_targets": true,
+    "lr": 0.002,
+    "max_chain": 4,
+    "optimizer": "AdamW",
+    "training_depths": [
+      1,
+      2,
+      4
+    ],
+    "weight_decay": 0.0001
+  },
+  "rss_max_kib": 326620,
+  "seed": 741,
+  "start_utc": "2026-09-21T09:29:11.347828+00:00",
+  "steps": 1200,
+  "training_seconds": 12.590567746999966
+}

@@ -1,0 +1,227 @@
+{
+  "mapping_comparisons": {
+    "old": {
+      "same_complete_label_assignment_as_DC01": false,
+      "new_assignment": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "historical_assignment": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "coordinates_intentionally_reused": true
+    },
+    "development": {
+      "same_complete_label_assignment_as_DC01": false,
+      "new_assignment": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "historical_assignment": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "coordinates_intentionally_reused": true
+    },
+    "heldout": {
+      "same_complete_label_assignment_as_DC01": false,
+      "new_assignment": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "historical_assignment": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coordinates_intentionally_reused": true
+    }
+  },
+  "patterns": [
+    {
+      "phase": "development",
+      "base": 0,
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "development",
+      "base": 1,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "development",
+      "base": 2,
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "development",
+      "base": 3,
+      "labels": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 4,
+      "labels": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 5,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 6,
+      "labels": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 7,
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 8,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 9,
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 10,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    },
+    {
+      "phase": "heldout",
+      "base": 11,
+      "labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abstract_label_sequence_overlap_DC01": true
+    }
+  ],
+  "warning": "Fresh random seeds do not imply new abstract binary grammar. Maps may repeat by chance; no resampling or selective removal. Historical overlap audit is limited to retained public maps and normalized transaction-label sequences, not all latent or PRNG histories."
+}

@@ -1,0 +1,2479 @@
+{
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789947117.824522,
+    "torch": "2.10.0+cpu"
+  },
+  "measured_scope": "Tensor bytes and descriptive CPU times; RSS sample peaks in training metadata. Exact per-op workspace peaks, target hardware latency and energy NOT_MEASURED. No low-bit or biological-efficiency claim.",
+  "modes": [
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 6.394966333346019e-05,
+      "mode": "hold",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        7.057449666641938e-05,
+        6.56090933334023e-05,
+        6.394966333346019e-05,
+        6.168255333326064e-05,
+        6.078242666679519e-05
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 8512,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 0.0002171068366669715,
+      "mode": "readout_repair",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        0.00021864764000004773,
+        0.00021501531666672235,
+        0.00021596364666644756,
+        0.0002171068366669715,
+        0.0002222890399999263
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 8512,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 0.0002161294600000474,
+      "mode": "recurrent",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        0.0002161294600000474,
+        0.00021756220333334872,
+        0.00021555965333353318,
+        0.00022927173999998256,
+        0.00021560665333330084
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 8512,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 6.133087000004404e-05,
+      "mode": "recurrent_off",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        6.125101666649849e-05,
+        6.235718333338507e-05,
+        6.160433666688429e-05,
+        6.100736000007601e-05,
+        6.133087000004404e-05
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 8512,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 0.00063598979666646,
+      "mode": "recurrent_query4",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        0.000648105160000038,
+        0.0006243022966668832,
+        0.0006375754999999117,
+        0.0006227169233333522,
+        0.00063598979666646
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 12,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 9.948212333370065e-05,
+      "mode": "fast_slow",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 512,
+      "replicate_seconds": [
+        9.921132333336876e-05,
+        9.948212333370065e-05,
+        9.941288666671729e-05,
+        0.00010078241000011682,
+        0.00010323686333360153
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 12,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 6.332003666670972e-05,
+      "mode": "fast_slow_off",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 512,
+      "replicate_seconds": [
+        6.269204000015331e-05,
+        6.332003666670972e-05,
+        6.796394999999696e-05,
+        6.40105266666069e-05,
+        6.175994999997177e-05
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 12,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 0.0001036402166668419,
+      "mode": "fast_slow_equal",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 512,
+      "replicate_seconds": [
+        0.00010372684333333382,
+        0.0001034307400000974,
+        0.00010560237666671431,
+        0.0001036402166668419,
+        0.00010325231333354168
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 7.232696666657528e-05,
+      "mode": "two_copy_mean",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 512,
+      "replicate_seconds": [
+        7.181471333334836e-05,
+        7.232696666657528e-05,
+        7.20600066665611e-05,
+        7.488574333327354e-05,
+        7.269798000000568e-05
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 3.4722773333442094e-05,
+      "mode": "nearest_read",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        3.4722773333442094e-05,
+        3.468909333340283e-05,
+        3.5461429999941176e-05,
+        3.460663666639145e-05,
+        3.477538666667594e-05
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 0.0001222380100000464,
+      "mode": "nearest_maintenance",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        0.00012776128999992883,
+        0.0001238729866668109,
+        0.0001218074766669967,
+        0.00012178934999989603,
+        0.0001222380100000464
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 1.5560599998328446e-06,
+      "mode": "exact_archive",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 32,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        1.6520000000734096e-06,
+        1.571653333106345e-06,
+        1.5321266668403648e-06,
+        1.5560599998328446e-06,
+        1.5439099998578361e-06
+      ]
+    },
+    {
+      "batch_streams": 64,
+      "extra_parameter_bytes": 0,
+      "frozen_representation_tensor_bytes": 4072,
+      "median_seconds_per_maintenance_plus_read_batch": 6.548741333328205e-05,
+      "mode": "state_off",
+      "note": "Descriptive microbenchmark, not inference-token latency; hold overhead includes original readout. Exact control retains dummy neural buffer plus separateint64 archive in this harness.",
+      "protected_archive_bytes_per_stream": 0,
+      "raw_activation_bytes_per_stream": 256,
+      "replicate_seconds": [
+        6.548741333328205e-05,
+        6.402589333333708e-05,
+        6.513573000006545e-05,
+        7.338946999993823e-05,
+        6.60069133334673e-05
+      ]
+    }
+  ],
+  "packages": {
+    "numpy": "2.3.5",
+    "psutil": "7.2.2",
+    "safetensors": "0.7.0",
+    "torch": "2.10.0+cpu"
+  },
+  "reused_preparation": {
+    "checkpoints": 5,
+    "note": "Historical documented preparation, NOT rerun or included in new46s training loops",
+    "old_events": 18820224,
+    "old_examples": 576000,
+    "old_loop_seconds": 48.808122918000095,
+    "old_steps": 12000
+  },
+  "training_records": [
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "a9955b3ea15b3ff32d9546bc0e12a616d11f594bf3648ba9f998aa06b288ac72",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946735.59848,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "e24f6ce0dbdca22c516cc23d6d026ca7bf125ab4afb4fba9cb6fba4e4f2775bd",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "3d25a6cdcc66bc00ab25467ae6f92304f2ba4202df02d3d9475fb4e7f203683e",
+      "kind": "readout_repair",
+      "learn_seed": 504,
+      "logs": [
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.24755524098873138,
+          "loss": 0.27008333802223206,
+          "mse": 0.24500861763954163,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9453125,
+          "grad_norm": 0.07909782230854034,
+          "loss": 0.059460580348968506,
+          "mse": 0.031168730929493904,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.06871237605810165,
+          "loss": 0.0608784481883049,
+          "mse": 0.04482313245534897,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04009842127561569,
+          "loss": 0.029090682044625282,
+          "mse": 0.02547716721892357,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03773481026291847,
+          "loss": 0.02658255770802498,
+          "mse": 0.024628307670354843,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.05947243794798851,
+          "loss": 0.03368880972266197,
+          "mse": 0.021729404106736183,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0500354990363121,
+          "loss": 0.0186852365732193,
+          "mse": 0.014749842695891857,
+          "rounds": 1,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.07488842308521271,
+          "loss": 0.017012428492307663,
+          "mse": 0.012068115174770355,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0496094636619091,
+          "loss": 0.01856929250061512,
+          "mse": 0.012324148789048195,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04925338178873062,
+          "loss": 0.014441385865211487,
+          "mse": 0.012895702384412289,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.030152644962072372,
+          "loss": 0.014650034718215466,
+          "mse": 0.013744605705142021,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04748498275876045,
+          "loss": 0.013605492189526558,
+          "mse": 0.011633726768195629,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.029085002839565277,
+          "loss": 0.01103274617344141,
+          "mse": 0.010376105085015297,
+          "rounds": 1,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+      "rep_seed": 304,
+      "rss_process_peak_5ms_sample_bytes": 328187904,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.581492935,
+      "train_wall_seconds": 2.5611256520001007,
+      "trainable_parameters": 2128,
+      "training_data_digest": "b72effa3294edccec318bf7b731597b4eb3156519485b162167f15e7444209b0"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "0732a345e9f03c91b0edc12d291c5c3efaa0d9c237636fdf1f0792ef8373988c",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946707.6052256,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "93af3c65f4e16c0804f7422cd6f90b1d703a933067e888dae5f26255bf6614e5",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "9bc37226d9d43667976cbe8ed1eaab0dcb2b368df628937c31df63cc5bf5d56f",
+      "kind": "readout_repair",
+      "learn_seed": 501,
+      "logs": [
+        {
+          "accuracy": 0.953125,
+          "grad_norm": 0.2151631861925125,
+          "loss": 0.28043827414512634,
+          "mse": 0.2550048828125,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.046677906066179276,
+          "loss": 0.03813929110765457,
+          "mse": 0.029225068166851997,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.08905414491891861,
+          "loss": 0.056155331432819366,
+          "mse": 0.03766263276338577,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.030636871233582497,
+          "loss": 0.02770807221531868,
+          "mse": 0.02624085359275341,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.05913134664297104,
+          "loss": 0.03229027986526489,
+          "mse": 0.02704000286757946,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.054780326783657074,
+          "loss": 0.02634829469025135,
+          "mse": 0.022487696260213852,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.07636009156703949,
+          "loss": 0.034672025591135025,
+          "mse": 0.022757448256015778,
+          "rounds": 1,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04469777271151543,
+          "loss": 0.023328928276896477,
+          "mse": 0.015957269817590714,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.057558573782444,
+          "loss": 0.016720829531550407,
+          "mse": 0.013318481855094433,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.07101511210203171,
+          "loss": 0.02464609593153,
+          "mse": 0.015187904238700867,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.038170844316482544,
+          "loss": 0.011776399798691273,
+          "mse": 0.01005004532635212,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03789819777011871,
+          "loss": 0.012639213353395462,
+          "mse": 0.011212650686502457,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.05218479782342911,
+          "loss": 0.014880288392305374,
+          "mse": 0.012962658889591694,
+          "rounds": 1,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+      "rep_seed": 301,
+      "rss_process_peak_5ms_sample_bytes": 327815168,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.511152858,
+      "train_wall_seconds": 2.4945051579999244,
+      "trainable_parameters": 2128,
+      "training_data_digest": "af8f440930005000089cfdabd29206905a8c263319098bdf95e738595a3c2890"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "e2ac23c3a18893f4ea5cb5648ea3ccaf6f3ad995458791255c9f69c02b7c6763",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946744.9611304,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "29a9a34f0ef7be252a544c7817339d602de2b1dfecd8d8cd32c4f977ec48a395",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "d38477bc1897c9dfbb5128c3c17495121fe7feb1aa3c9693f3aaddeb0f72085a",
+      "kind": "readout_repair",
+      "learn_seed": 505,
+      "logs": [
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.20906011760234833,
+          "loss": 0.28491130471229553,
+          "mse": 0.27353259921073914,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.06259500980377197,
+          "loss": 0.06342864781618118,
+          "mse": 0.04252760484814644,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04235581308603287,
+          "loss": 0.037325628101825714,
+          "mse": 0.032342951744794846,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.04405021667480469,
+          "loss": 0.03647332265973091,
+          "mse": 0.03163905069231987,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.03451137989759445,
+          "loss": 0.03063296712934971,
+          "mse": 0.019565153867006302,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.06935537606477737,
+          "loss": 0.03930891305208206,
+          "mse": 0.026554983109235764,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.04793533310294151,
+          "loss": 0.021828442811965942,
+          "mse": 0.018852753564715385,
+          "rounds": 1,
+          "step": 900
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.07444751262664795,
+          "loss": 0.03754464536905289,
+          "mse": 0.026258986443281174,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.06886366754770279,
+          "loss": 0.019554156810045242,
+          "mse": 0.014808185398578644,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.06713268160820007,
+          "loss": 0.02551305666565895,
+          "mse": 0.015290331095457077,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.08329710364341736,
+          "loss": 0.031882334500551224,
+          "mse": 0.021241363137960434,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.027669019997119904,
+          "loss": 0.01661538891494274,
+          "mse": 0.015837131068110466,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.029446206986904144,
+          "loss": 0.009863464161753654,
+          "mse": 0.009298576973378658,
+          "rounds": 1,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+      "rep_seed": 305,
+      "rss_process_peak_5ms_sample_bytes": 328204288,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.5234671669999997,
+      "train_wall_seconds": 2.503788348999933,
+      "trainable_parameters": 2128,
+      "training_data_digest": "f4e6069e66b2be3bcaf1c94999c6f383cbbf080b40e0f91dadf27e9a6778fcfd"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "f6623b76eaa7d7010167f2c77cfebead5043e4aa37e8f398d0e21e4e2c0158a6",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946748.7497528,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "f19680c6b86f50e86d0911c0cfec1f858d9d085745a3f9e820ed1a85b05e583e",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "d38477bc1897c9dfbb5128c3c17495121fe7feb1aa3c9693f3aaddeb0f72085a",
+      "kind": "recurrent",
+      "learn_seed": 505,
+      "logs": [
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.20906011760234833,
+          "loss": 0.28491130471229553,
+          "mse": 0.27353259921073914,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.07969961315393448,
+          "loss": 0.06136452406644821,
+          "mse": 0.0366053506731987,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04245639592409134,
+          "loss": 0.04050510749220848,
+          "mse": 0.03388569504022598,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.06566418707370758,
+          "loss": 0.03855803608894348,
+          "mse": 0.026131507009267807,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.08901398628950119,
+          "loss": 0.024151857942342758,
+          "mse": 0.009180665947496891,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.14251679182052612,
+          "loss": 0.043405093252658844,
+          "mse": 0.015905145555734634,
+          "rounds": 4,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.09212960302829742,
+          "loss": 0.019928239285945892,
+          "mse": 0.010569307021796703,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.11738123744726181,
+          "loss": 0.043937601149082184,
+          "mse": 0.01818251796066761,
+          "rounds": 4,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.08373954147100449,
+          "loss": 0.026359066367149353,
+          "mse": 0.012892200611531734,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0508735366165638,
+          "loss": 0.02527148276567459,
+          "mse": 0.01750297099351883,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.08909344673156738,
+          "loss": 0.044137224555015564,
+          "mse": 0.02688128501176834,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04569363594055176,
+          "loss": 0.01756887510418892,
+          "mse": 0.012120114639401436,
+          "rounds": 2,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03532595932483673,
+          "loss": 0.009993428364396095,
+          "mse": 0.006642127875238657,
+          "rounds": 2,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+      "rep_seed": 305,
+      "rss_process_peak_5ms_sample_bytes": 328204288,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.819443942999996,
+      "train_wall_seconds": 3.785642413000005,
+      "trainable_parameters": 2128,
+      "training_data_digest": "f4e6069e66b2be3bcaf1c94999c6f383cbbf080b40e0f91dadf27e9a6778fcfd"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "a0c955d5e38afa91e025e3c5c39114ecb01584354da7c21f469ae26b8eaed300",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946739.5310857,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "27d9d002d18c6b142fad16a20be119ef2d68b43e4867a8027a2645ded4c4b357",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "3d25a6cdcc66bc00ab25467ae6f92304f2ba4202df02d3d9475fb4e7f203683e",
+      "kind": "recurrent",
+      "learn_seed": 504,
+      "logs": [
+        {
+          "accuracy": 0.78125,
+          "grad_norm": 0.7374153733253479,
+          "loss": 0.4363808035850525,
+          "mse": 0.48745548725128174,
+          "rounds": 2,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9375,
+          "grad_norm": 0.09772923588752747,
+          "loss": 0.06005461886525154,
+          "mse": 0.026567380875349045,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.07090052962303162,
+          "loss": 0.05719269812107086,
+          "mse": 0.03880280256271362,
+          "rounds": 2,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.057709626853466034,
+          "loss": 0.03168482333421707,
+          "mse": 0.02192091755568981,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.09294568002223969,
+          "loss": 0.025855597108602524,
+          "mse": 0.018438275903463364,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.051869895309209824,
+          "loss": 0.03814226761460304,
+          "mse": 0.02726815827190876,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.05498052015900612,
+          "loss": 0.02244376577436924,
+          "mse": 0.012638464570045471,
+          "rounds": 2,
+          "step": 900
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.07393507659435272,
+          "loss": 0.014799166470766068,
+          "mse": 0.00831166934221983,
+          "rounds": 4,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.07626347988843918,
+          "loss": 0.024977881461381912,
+          "mse": 0.01307059358805418,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.07934582233428955,
+          "loss": 0.017432283610105515,
+          "mse": 0.00992631446570158,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.06166048347949982,
+          "loss": 0.019457997754216194,
+          "mse": 0.01119193248450756,
+          "rounds": 2,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.05808901786804199,
+          "loss": 0.02528328262269497,
+          "mse": 0.017837800085544586,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.031229721382260323,
+          "loss": 0.007375350221991539,
+          "mse": 0.00250545097514987,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+      "rep_seed": 304,
+      "rss_process_peak_5ms_sample_bytes": 328196096,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.9586254430000025,
+      "train_wall_seconds": 3.929779733000032,
+      "trainable_parameters": 2128,
+      "training_data_digest": "b72effa3294edccec318bf7b731597b4eb3156519485b162167f15e7444209b0"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "5726e038d132f82fda216beeb52aab30b52231708c52ef7a05badb5fd413e460",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946730.1151648,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "54a28c87fee71916182b13c77a8b80031be7dc0063c002a6b66463acac35fccc",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "9e0f483e1d90cfc3f1daf8fe5d7d238397026f0d8253bd75131af0d0ca076ccf",
+      "kind": "recurrent",
+      "learn_seed": 503,
+      "logs": [
+        {
+          "accuracy": 0.90625,
+          "grad_norm": 0.3858935236930847,
+          "loss": 0.4031413197517395,
+          "mse": 0.4830082356929779,
+          "rounds": 2,
+          "step": 1
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.02839525416493416,
+          "loss": 0.033333972096443176,
+          "mse": 0.030993834137916565,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.04600432515144348,
+          "loss": 0.035425327718257904,
+          "mse": 0.028450042009353638,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.06806064397096634,
+          "loss": 0.051353320479393005,
+          "mse": 0.03196327015757561,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.07365397363901138,
+          "loss": 0.04353038966655731,
+          "mse": 0.028157565742731094,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.09046810120344162,
+          "loss": 0.05875178053975105,
+          "mse": 0.035638973116874695,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.059603411704301834,
+          "loss": 0.01379957515746355,
+          "mse": 0.010478694923222065,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.050325263291597366,
+          "loss": 0.037974677979946136,
+          "mse": 0.03183605521917343,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.06155615672469139,
+          "loss": 0.022035712376236916,
+          "mse": 0.015111901797354221,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.10553634911775589,
+          "loss": 0.028106827288866043,
+          "mse": 0.011093475855886936,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03668124973773956,
+          "loss": 0.01092282123863697,
+          "mse": 0.0063858916983008385,
+          "rounds": 4,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.08224339038133621,
+          "loss": 0.0146428681910038,
+          "mse": 0.007693510968238115,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.43382203578948975,
+          "loss": 0.08702433854341507,
+          "mse": 0.034533265978097916,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+      "rep_seed": 303,
+      "rss_process_peak_5ms_sample_bytes": 328179712,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.9202048319999996,
+      "train_wall_seconds": 3.887870093999936,
+      "trainable_parameters": 2128,
+      "training_data_digest": "3edb2424206ee98b86ce2f17359af4fa20309b23f901792012fe01f7adb0d186"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "7ad97bac928742dcd7eed1f0dc34190d3b12ebff361bb83fa04052cdef195a96",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946726.2244081,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "123a0722a128e371f39b47443b3460401e25bab79609837ee9219a2788007bf2",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "9e0f483e1d90cfc3f1daf8fe5d7d238397026f0d8253bd75131af0d0ca076ccf",
+      "kind": "readout_repair",
+      "learn_seed": 503,
+      "logs": [
+        {
+          "accuracy": 0.953125,
+          "grad_norm": 0.20592758059501648,
+          "loss": 0.27261918783187866,
+          "mse": 0.24753589928150177,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.03665662184357643,
+          "loss": 0.033792976289987564,
+          "mse": 0.0300233606249094,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.042409736663103104,
+          "loss": 0.032698433846235275,
+          "mse": 0.026890885084867477,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.06491808593273163,
+          "loss": 0.05408598482608795,
+          "mse": 0.03729213401675224,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.07016433030366898,
+          "loss": 0.03646163269877434,
+          "mse": 0.024457955732941628,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.08388782292604446,
+          "loss": 0.05535413324832916,
+          "mse": 0.03039948269724846,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.034078728407621384,
+          "loss": 0.016377415508031845,
+          "mse": 0.014796841889619827,
+          "rounds": 1,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.05181786045432091,
+          "loss": 0.030838903039693832,
+          "mse": 0.024944255128502846,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.054170913994312286,
+          "loss": 0.015422742813825607,
+          "mse": 0.0121381226927042,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.05691513046622276,
+          "loss": 0.02233775705099106,
+          "mse": 0.018782636150717735,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.03436055779457092,
+          "loss": 0.0117073655128479,
+          "mse": 0.009539826773107052,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.08184666931629181,
+          "loss": 0.0111475121229887,
+          "mse": 0.00546548655256629,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.1572609692811966,
+          "loss": 0.06993664056062698,
+          "mse": 0.039193667471408844,
+          "rounds": 1,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+      "rep_seed": 303,
+      "rss_process_peak_5ms_sample_bytes": 328175616,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.486403470999999,
+      "train_wall_seconds": 2.4664929379999876,
+      "trainable_parameters": 2128,
+      "training_data_digest": "3edb2424206ee98b86ce2f17359af4fa20309b23f901792012fe01f7adb0d186"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 3,
+      "checkpoint_sha256": "f96b2fe67a8404eca68e24990df3fbd04d96b995dd11eb0278e4f63a7c2cc3d5",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946714.3331108,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": [
+        0.981296956539154,
+        0.6812225580215454,
+        0.30964958667755127
+      ],
+      "final_digest": "2f8ca1c750c70f2e3af3794eb053b0c732e48865da3ac74366eed40eb3ab52bf",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 12,
+      "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+      "kind": "fast_slow",
+      "learn_seed": 501,
+      "logs": [
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.014683994464576244,
+          "loss": 0.028772320598363876,
+          "mse": 0.018795276060700417,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0035683566238731146,
+          "loss": 0.035071276128292084,
+          "mse": 0.03080837056040764,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.00415221368893981,
+          "loss": 0.03898746892809868,
+          "mse": 0.030560825020074844,
+          "rounds": 4,
+          "step": 300
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.00508652301505208,
+          "loss": 0.029436202719807625,
+          "mse": 0.029082993045449257,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.003198567545041442,
+          "loss": 0.04068441689014435,
+          "mse": 0.03576737642288208,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0020363733638077974,
+          "loss": 0.042900994420051575,
+          "mse": 0.03622724115848541,
+          "rounds": 2,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0007251117494888604,
+          "loss": 0.04000862315297127,
+          "mse": 0.027392614632844925,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0035413431469351053,
+          "loss": 0.030886905267834663,
+          "mse": 0.021411165595054626,
+          "rounds": 2,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.005546143744140863,
+          "loss": 0.03733224794268608,
+          "mse": 0.026948409155011177,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.00036176139838062227,
+          "loss": 0.03792724758386612,
+          "mse": 0.02789938449859619,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.0028855307027697563,
+          "loss": 0.04663453251123428,
+          "mse": 0.022248810157179832,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.004301736131310463,
+          "loss": 0.04343780130147934,
+          "mse": 0.03557085990905762,
+          "rounds": 2,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0026952335610985756,
+          "loss": 0.03093266487121582,
+          "mse": 0.026722636073827744,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 28,
+      "parameter_bytes": 12,
+      "reference_sha256": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+      "rep_seed": 301,
+      "rss_process_peak_5ms_sample_bytes": 328167424,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.9078489659999995,
+      "train_wall_seconds": 2.8853656869999895,
+      "trainable_parameters": 3,
+      "training_data_digest": "af8f440930005000089cfdabd29206905a8c263319098bdf95e738595a3c2890"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "1641af25f2f1c73074ecf7abada34f4eed80c23111c3afe2c545a20247f8b06b",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946716.7560148,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "08652800bed02d5ef1b6d136f51e4b72e32c1c191b25ac09b8d4bcfdc9046b23",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "6543b40302dec46ff3b58d4ffcf984570fd5bb14045b84281c523baabd01a05e",
+      "kind": "readout_repair",
+      "learn_seed": 502,
+      "logs": [
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.24186573922634125,
+          "loss": 0.2807217538356781,
+          "mse": 0.2522914707660675,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.055556148290634155,
+          "loss": 0.043815627694129944,
+          "mse": 0.028382446616888046,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.043002042919397354,
+          "loss": 0.04208483546972275,
+          "mse": 0.03657129034399986,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.02413436956703663,
+          "loss": 0.021825335919857025,
+          "mse": 0.021032022312283516,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.08619032055139542,
+          "loss": 0.05211086943745613,
+          "mse": 0.03433246165513992,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.030435238033533096,
+          "loss": 0.01852084882557392,
+          "mse": 0.017256280407309532,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.05946895852684975,
+          "loss": 0.025951780378818512,
+          "mse": 0.020444992929697037,
+          "rounds": 1,
+          "step": 900
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.02508225105702877,
+          "loss": 0.00981215201318264,
+          "mse": 0.009099435061216354,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03330385312438011,
+          "loss": 0.014815249480307102,
+          "mse": 0.013287704437971115,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.05214603245258331,
+          "loss": 0.011892380192875862,
+          "mse": 0.008618581108748913,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.1332826018333435,
+          "loss": 0.03451196104288101,
+          "mse": 0.018590431660413742,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.08737324178218842,
+          "loss": 0.018593301996588707,
+          "mse": 0.014720654115080833,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.01901746354997158,
+          "loss": 0.01208465825766325,
+          "mse": 0.011801447719335556,
+          "rounds": 1,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+      "rep_seed": 302,
+      "rss_process_peak_5ms_sample_bytes": 328167424,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.4396538590000016,
+      "train_wall_seconds": 2.419824833000007,
+      "trainable_parameters": 2128,
+      "training_data_digest": "2e787091ecfe2ebcc3cedd612ee626f317421a39813b22c3842d2797222a3031"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 3,
+      "checkpoint_sha256": "5deb7064f70d72c57eed4069bb3c232d38dd903cee2cb1e4ce7d2d839cc55f63",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946723.7550282,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": [
+        0.9810617566108704,
+        0.6833287477493286,
+        0.3089104890823364
+      ],
+      "final_digest": "1459d1a1eb83b0b4b7618008b2f054c3f43c7af23846e0be7ed886e1c474f261",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 12,
+      "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+      "kind": "fast_slow",
+      "learn_seed": 502,
+      "logs": [
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.007548970635980368,
+          "loss": 0.03816651552915573,
+          "mse": 0.032739635556936264,
+          "rounds": 4,
+          "step": 1
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.005244394764304161,
+          "loss": 0.02986789494752884,
+          "mse": 0.028081761673092842,
+          "rounds": 4,
+          "step": 150
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.005480713210999966,
+          "loss": 0.041974302381277084,
+          "mse": 0.03159710764884949,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.001960720866918564,
+          "loss": 0.03609297797083855,
+          "mse": 0.022440677508711815,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0028744658920913935,
+          "loss": 0.036674514412879944,
+          "mse": 0.0327950194478035,
+          "rounds": 2,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0017288526287302375,
+          "loss": 0.03243231028318405,
+          "mse": 0.02689911611378193,
+          "rounds": 2,
+          "step": 750
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.003209571121260524,
+          "loss": 0.042365141212940216,
+          "mse": 0.030962364748120308,
+          "rounds": 2,
+          "step": 900
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0018598769092932343,
+          "loss": 0.022505924105644226,
+          "mse": 0.017679445445537567,
+          "rounds": 2,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0008466902072541416,
+          "loss": 0.020730115473270416,
+          "mse": 0.015990212559700012,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0027791305910795927,
+          "loss": 0.022895734757184982,
+          "mse": 0.019297532737255096,
+          "rounds": 2,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.0030725656542927027,
+          "loss": 0.04114421084523201,
+          "mse": 0.02974812500178814,
+          "rounds": 4,
+          "step": 1500
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.00160445726942271,
+          "loss": 0.032916657626628876,
+          "mse": 0.029854485765099525,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.00020601785217877477,
+          "loss": 0.037154246121644974,
+          "mse": 0.030826276168227196,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 28,
+      "parameter_bytes": 12,
+      "reference_sha256": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+      "rep_seed": 302,
+      "rss_process_peak_5ms_sample_bytes": 328175616,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.04740726,
+      "train_wall_seconds": 3.0232224830000405,
+      "trainable_parameters": 3,
+      "training_data_digest": "2e787091ecfe2ebcc3cedd612ee626f317421a39813b22c3842d2797222a3031"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "0e9c472144f70069a186876b8ac6f3ac1b9a78c2d2f12e47bbfe7d18a593a29a",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946711.4451585,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "9b22dae2b4f14d39ae55e25684d37c3c0fa1fb18d156158f0be9c8fb5b05ffc8",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "9bc37226d9d43667976cbe8ed1eaab0dcb2b368df628937c31df63cc5bf5d56f",
+      "kind": "recurrent",
+      "learn_seed": 501,
+      "logs": [
+        {
+          "accuracy": 0.953125,
+          "grad_norm": 0.2151631861925125,
+          "loss": 0.28043827414512634,
+          "mse": 0.2550048828125,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.054024454206228256,
+          "loss": 0.03801020234823227,
+          "mse": 0.025818543508648872,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9453125,
+          "grad_norm": 0.1692829132080078,
+          "loss": 0.06280888617038727,
+          "mse": 0.03110918030142784,
+          "rounds": 4,
+          "step": 300
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.030252311378717422,
+          "loss": 0.030683331191539764,
+          "mse": 0.029474768787622452,
+          "rounds": 1,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.10759679973125458,
+          "loss": 0.029347695410251617,
+          "mse": 0.018220113590359688,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.08785951882600784,
+          "loss": 0.03236357867717743,
+          "mse": 0.018713681027293205,
+          "rounds": 2,
+          "step": 750
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.07210446149110794,
+          "loss": 0.026645097881555557,
+          "mse": 0.014325428754091263,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.04771685227751732,
+          "loss": 0.022849436849355698,
+          "mse": 0.013890070840716362,
+          "rounds": 2,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.045441679656505585,
+          "loss": 0.015109776519238949,
+          "mse": 0.009966972284018993,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.08771292120218277,
+          "loss": 0.027331635355949402,
+          "mse": 0.013674723915755749,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.025548623874783516,
+          "loss": 0.011886374093592167,
+          "mse": 0.01085222139954567,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.051215995103120804,
+          "loss": 0.011187081225216389,
+          "mse": 0.0059483787044882774,
+          "rounds": 2,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.054506879299879074,
+          "loss": 0.008499551564455032,
+          "mse": 0.00579443946480751,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "e82a8f21ff359fc61abdaddf87bfe1dcc5ae32080a3dcab12b5549140a92a487",
+      "rep_seed": 301,
+      "rss_process_peak_5ms_sample_bytes": 328019968,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.8692869950000004,
+      "train_wall_seconds": 3.8371556809998992,
+      "trainable_parameters": 2128,
+      "training_data_digest": "af8f440930005000089cfdabd29206905a8c263319098bdf95e738595a3c2890"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 3,
+      "checkpoint_sha256": "72aec30834c02089da690b2380a0139e0d1aafe1600982a5e7de0e95cfadae62",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946742.4544396,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": [
+        0.980861246585846,
+        0.691274106502533,
+        0.3063780665397644
+      ],
+      "final_digest": "7e5a31b063846b2f44c0e9aeb97159a103f9ffd96e8b9b57259ef8afedde3653",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 12,
+      "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+      "kind": "fast_slow",
+      "learn_seed": 504,
+      "logs": [
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.004946003668010235,
+          "loss": 0.030749361962080002,
+          "mse": 0.029385577887296677,
+          "rounds": 2,
+          "step": 1
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.003487763460725546,
+          "loss": 0.04297816753387451,
+          "mse": 0.030485600233078003,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.003919880837202072,
+          "loss": 0.05079115927219391,
+          "mse": 0.03756711632013321,
+          "rounds": 2,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.004140657838433981,
+          "loss": 0.04122741520404816,
+          "mse": 0.030004840344190598,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0017607619520276785,
+          "loss": 0.0282805934548378,
+          "mse": 0.021692687645554543,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.0031928513199090958,
+          "loss": 0.042727164924144745,
+          "mse": 0.026763340458273888,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.000779075373429805,
+          "loss": 0.03168337792158127,
+          "mse": 0.023263808339834213,
+          "rounds": 2,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0029365818481892347,
+          "loss": 0.03297821432352066,
+          "mse": 0.025680046528577805,
+          "rounds": 4,
+          "step": 1050
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.0005684257484972477,
+          "loss": 0.027432266622781754,
+          "mse": 0.026299752295017242,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0027388152666389942,
+          "loss": 0.033466704189777374,
+          "mse": 0.025532877072691917,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0010955857578665018,
+          "loss": 0.035657428205013275,
+          "mse": 0.031144196167588234,
+          "rounds": 2,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.00036655637086369097,
+          "loss": 0.036543600261211395,
+          "mse": 0.031207650899887085,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0022176404017955065,
+          "loss": 0.03421458601951599,
+          "mse": 0.03210904449224472,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 28,
+      "parameter_bytes": 12,
+      "reference_sha256": "3d5648947925c082015360cca0666caeddc4b1724827eb1dc1e07103ddffd6ed",
+      "rep_seed": 304,
+      "rss_process_peak_5ms_sample_bytes": 328200192,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.9416703469999987,
+      "train_wall_seconds": 2.9207481769999504,
+      "trainable_parameters": 3,
+      "training_data_digest": "b72effa3294edccec318bf7b731597b4eb3156519485b162167f15e7444209b0"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 3,
+      "checkpoint_sha256": "e0b5196cc381b03d3a2d90b3c92b9e02f574aa3074f186555d1505ce52b55653",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946733.0344205,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": [
+        0.9815493226051331,
+        0.6875081658363342,
+        0.29564258456230164
+      ],
+      "final_digest": "fe875ae5504b328e8f85b693cab9cbab29929cdecd840c099da576357e7352e7",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 12,
+      "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+      "kind": "fast_slow",
+      "learn_seed": 503,
+      "logs": [
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.00900978036224842,
+          "loss": 0.04574253037571907,
+          "mse": 0.03732246160507202,
+          "rounds": 2,
+          "step": 1
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.004020057152956724,
+          "loss": 0.027042489498853683,
+          "mse": 0.02656499296426773,
+          "rounds": 1,
+          "step": 150
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0044215223751962185,
+          "loss": 0.03636068105697632,
+          "mse": 0.025418506935238838,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.008985474705696106,
+          "loss": 0.03691977262496948,
+          "mse": 0.027376044541597366,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.002548560034483671,
+          "loss": 0.049988798797130585,
+          "mse": 0.03251538425683975,
+          "rounds": 1,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.013057457283139229,
+          "loss": 0.0410425178706646,
+          "mse": 0.030406491830945015,
+          "rounds": 1,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0008080383413471282,
+          "loss": 0.04095982387661934,
+          "mse": 0.024742156267166138,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.0019066876266151667,
+          "loss": 0.031121263280510902,
+          "mse": 0.03065931238234043,
+          "rounds": 1,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0026859925128519535,
+          "loss": 0.03786984831094742,
+          "mse": 0.029545115306973457,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.0013692009961232543,
+          "loss": 0.04460357129573822,
+          "mse": 0.031196599826216698,
+          "rounds": 4,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0022179107181727886,
+          "loss": 0.03829376399517059,
+          "mse": 0.03284817188978195,
+          "rounds": 4,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0007201220141723752,
+          "loss": 0.027645550668239594,
+          "mse": 0.017241425812244415,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.0036107476335018873,
+          "loss": 0.036713287234306335,
+          "mse": 0.025069529190659523,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 28,
+      "parameter_bytes": 12,
+      "reference_sha256": "9d0c90aa01da25fe677579ae4d31e6c1efff639eac4981f611a6bc78c1ce4e0c",
+      "rep_seed": 303,
+      "rss_process_peak_5ms_sample_bytes": 328187904,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 2.937884165,
+      "train_wall_seconds": 2.9164092759999676,
+      "trainable_parameters": 3,
+      "training_data_digest": "3edb2424206ee98b86ce2f17359af4fa20309b23f901792012fe01f7adb0d186"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 3,
+      "checkpoint_sha256": "58d095e5d221299e77e71b3d34083dfb71715dc0135862b3c6d410aea4d319ef",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946751.7363417,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": [
+        0.9812313914299011,
+        0.6862263083457947,
+        0.31219401955604553
+      ],
+      "final_digest": "ca95911991974daf9a974b6eb5e4ad643e81d5ee992d0831a98914bf55650cce",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 12,
+      "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+      "kind": "fast_slow",
+      "learn_seed": 505,
+      "logs": [
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.012334287166595459,
+          "loss": 0.05294635146856308,
+          "mse": 0.043227195739746094,
+          "rounds": 1,
+          "step": 1
+        },
+        {
+          "accuracy": 0.9609375,
+          "grad_norm": 0.010020201094448566,
+          "loss": 0.04811161011457443,
+          "mse": 0.0283194612711668,
+          "rounds": 2,
+          "step": 150
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.005721851717680693,
+          "loss": 0.03078511171042919,
+          "mse": 0.029522454366087914,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.002295220736414194,
+          "loss": 0.03683051839470863,
+          "mse": 0.02619112655520439,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.004749684128910303,
+          "loss": 0.03212378919124603,
+          "mse": 0.030505403876304626,
+          "rounds": 4,
+          "step": 600
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.001243199803866446,
+          "loss": 0.05070590600371361,
+          "mse": 0.03042338415980339,
+          "rounds": 4,
+          "step": 750
+        },
+        {
+          "accuracy": 0.984375,
+          "grad_norm": 0.0007241987623274326,
+          "loss": 0.030677739530801773,
+          "mse": 0.02108636125922203,
+          "rounds": 4,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0014297168236225843,
+          "loss": 0.04611385613679886,
+          "mse": 0.036910973489284515,
+          "rounds": 4,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0005903631099499762,
+          "loss": 0.027728073298931122,
+          "mse": 0.02211614139378071,
+          "rounds": 2,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0006466566701419652,
+          "loss": 0.02582019381225109,
+          "mse": 0.023189105093479156,
+          "rounds": 1,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.0034479652531445026,
+          "loss": 0.03915422037243843,
+          "mse": 0.027119208127260208,
+          "rounds": 1,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.0019629658199846745,
+          "loss": 0.046584803611040115,
+          "mse": 0.028885312378406525,
+          "rounds": 2,
+          "step": 1650
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0012749792076647282,
+          "loss": 0.02840914949774742,
+          "mse": 0.025559332221746445,
+          "rounds": 2,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 28,
+      "parameter_bytes": 12,
+      "reference_sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+      "rep_seed": 305,
+      "rss_process_peak_5ms_sample_bytes": 328204288,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 3.0077379379999982,
+      "train_wall_seconds": 2.9839430369999036,
+      "trainable_parameters": 3,
+      "training_data_digest": "f4e6069e66b2be3bcaf1c94999c6f383cbbf080b40e0f91dadf27e9a6778fcfd"
+    },
+    {
+      "answer_labels": 230400,
+      "changed_parameter_elements": 2128,
+      "checkpoint_sha256": "7e3b59c3c5ca81347d492c0457fff767048bb88ff7510d4ec76701528648f222",
+      "direct_state_target_supervision": true,
+      "environment": {
+        "cpu_count": 5,
+        "cuda_available": false,
+        "device": "sandbox CPU, not user PC",
+        "energy": "NOT_MEASURED",
+        "numpy": "2.3.5",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+        "threads": 1,
+        "time_unix": 1789946720.7289736,
+        "torch": "2.10.0+cpu"
+      },
+      "evaluation_parameter_updates": 0,
+      "examples": 230400,
+      "fast_slow_rates": null,
+      "final_digest": "487dfa30312ce83ee086526e696546a81a510ef67cdea8cdd6b8869cd39cbabc",
+      "frozen_reference_unchanged": true,
+      "gradient_bytes": 8512,
+      "initial_digest": "6543b40302dec46ff3b58d4ffcf984570fd5bb14045b84281c523baabd01a05e",
+      "kind": "recurrent",
+      "learn_seed": 502,
+      "logs": [
+        {
+          "accuracy": 0.5078125,
+          "grad_norm": 1.8267027139663696,
+          "loss": 0.6877801418304443,
+          "mse": 0.741199791431427,
+          "rounds": 4,
+          "step": 1
+        },
+        {
+          "accuracy": 0.96875,
+          "grad_norm": 0.11981373280286789,
+          "loss": 0.043777503073215485,
+          "mse": 0.024800851941108704,
+          "rounds": 4,
+          "step": 150
+        },
+        {
+          "accuracy": 0.9765625,
+          "grad_norm": 0.048467691987752914,
+          "loss": 0.04698030278086662,
+          "mse": 0.03955494612455368,
+          "rounds": 1,
+          "step": 300
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.04402878135442734,
+          "loss": 0.024305712431669235,
+          "mse": 0.019436918199062347,
+          "rounds": 2,
+          "step": 450
+        },
+        {
+          "accuracy": 0.953125,
+          "grad_norm": 0.09258446097373962,
+          "loss": 0.05706101655960083,
+          "mse": 0.03302781283855438,
+          "rounds": 2,
+          "step": 600
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.046282101422548294,
+          "loss": 0.022431978955864906,
+          "mse": 0.015725385397672653,
+          "rounds": 2,
+          "step": 750
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.07110141962766647,
+          "loss": 0.028247032314538956,
+          "mse": 0.02071477100253105,
+          "rounds": 2,
+          "step": 900
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.0400870181620121,
+          "loss": 0.013238752260804176,
+          "mse": 0.007757490035146475,
+          "rounds": 2,
+          "step": 1050
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.042330317199230194,
+          "loss": 0.01918940059840679,
+          "mse": 0.01660112664103508,
+          "rounds": 1,
+          "step": 1200
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.05644287168979645,
+          "loss": 0.01315347384661436,
+          "mse": 0.007662830874323845,
+          "rounds": 2,
+          "step": 1350
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.12110140174627304,
+          "loss": 0.02339871972799301,
+          "mse": 0.008750597015023232,
+          "rounds": 4,
+          "step": 1500
+        },
+        {
+          "accuracy": 0.9921875,
+          "grad_norm": 0.07683391124010086,
+          "loss": 0.02390192076563835,
+          "mse": 0.019697368144989014,
+          "rounds": 1,
+          "step": 1650
+        },
+        {
+          "accuracy": 1.0,
+          "grad_norm": 0.03434076905250549,
+          "loss": 0.007755839731544256,
+          "mse": 0.0032551251351833344,
+          "rounds": 4,
+          "step": 1800
+        }
+      ],
+      "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+      "optimizer_tensor_bytes": 17040,
+      "parameter_bytes": 8512,
+      "reference_sha256": "fb8982423ec3ec13d61d2e7fb6d7be9d11aa130a84e4b32695680f8d255240e7",
+      "rep_seed": 302,
+      "rss_process_peak_5ms_sample_bytes": 328175616,
+      "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+      "status": "RUN",
+      "steps": 1800,
+      "target_code_scalars": 3686400,
+      "train_cpu_seconds": 4.003021468,
+      "train_wall_seconds": 3.970218262000003,
+      "trainable_parameters": 2128,
+      "training_data_digest": "2e787091ecfe2ebcc3cedd612ee626f317421a39813b22c3842d2797222a3031"
+    }
+  ]
+}

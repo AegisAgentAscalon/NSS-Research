@@ -1,0 +1,20 @@
+{
+  "pid": 1503,
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/NSS_CM02_Execution_v0.6/src/run_stage.py",
+    "--name",
+    "main_capture",
+    "--",
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/NSS_CM02_Execution_v0.6/src/capture.py",
+    "--kind",
+    "main",
+    "--input",
+    "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/input",
+    "--output",
+    "/mnt/data/NSS_CM02_Execution_v0.6/raw/main/capture_run/capture"
+  ],
+  "launched_unix": 1790281515.6072497,
+  "supervised_and_polled_in_current_turn": true
+}

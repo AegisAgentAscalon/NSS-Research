@@ -1,0 +1,30 @@
+{
+  "study": "NBR-01 / RepairBinding007",
+  "status": "RUN; NBR-01 OPEN",
+  "decision": "KEEP compatible dictionary-based restoration as research reference; exact rule is cheaper and at least as good here. REVISE membership/no-match for new identities.",
+  "main_parameter_adaptation": "OFF",
+  "new_fit_seeds": [
+    901,
+    902,
+    903,
+    904,
+    905
+  ],
+  "inherited_pair_seeds": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "next_proposal": "Membership-aware identity restoration; separate a perturbed known identity from a truly unregistered one, preserve legitimate new-record enrollment, compare cadence and robust-reader controls. NOT_RUN.",
+  "excluded": [
+    "NBR-02",
+    "NBR-03",
+    "RL",
+    "Titans test-time adaptation",
+    "low-bit learning state",
+    "production adoption",
+    "NSS role redesign"
+  ]
+}

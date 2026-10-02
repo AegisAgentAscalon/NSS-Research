@@ -1,0 +1,75 @@
+{
+  "study": "NSS NBR02 CYCLE01-A",
+  "version": "0.1",
+  "utc": "2026-09-29T11:57:33.550989+00:00",
+  "status": "COMPLETE_TWO_NIGHT_DEVELOPMENT_FEASIBILITY_RESERVED_MAIN_NOT_RUN",
+  "development_optimizer_applications": 2048,
+  "disposable_applications": 7,
+  "total_actual_optimizer_applications": 2055,
+  "repeated_optimizer_applications": 0,
+  "unknown_discarded_inference_from_interruption": true,
+  "all_branches": 16,
+  "all_night_receipts": 32,
+  "new_parent_fits": 0,
+  "archives": [
+    {
+      "filename": "NSS_NBR02_CYCLE01A_Feasibility_v0.1.zip",
+      "bytes": 42881327,
+      "sha256": "b954f19e4e4971ec4a5966b8852fc3cd25258c716d75f4f3ddef587587eaf223",
+      "declared_payloads": 803,
+      "payload_bytes": 67115558,
+      "CRC": "PASS_ALL_PAYLOADS_READ",
+      "SHA256": "PASS",
+      "exact_membership": "PASS",
+      "manifest_SHA256": "abadabb0c2b6a1265fdf11a38ece842562cc6d343e06d93cd45f9df441be81f3",
+      "pack_and_verify_seconds": 3.0419381850001628
+    },
+    {
+      "filename": "NSS_NBR02_CYCLE01A_Codex_Review_v0.1.zip",
+      "bytes": 96679,
+      "sha256": "1a4e102a115032a15496d7ed248d962a881264c8e0fa94f0665b6729308b5fc8",
+      "declared_payloads": 32,
+      "payload_bytes": 256719,
+      "CRC": "PASS_ALL_PAYLOADS_READ",
+      "SHA256": "PASS",
+      "exact_membership": "PASS",
+      "manifest_SHA256": "ae35357c18986da4a3e0bbac2b1b655966da0943d32f6a7deaf48b0f53c15516",
+      "pack_and_verify_seconds": 0.011124676999997973
+    }
+  ],
+  "standalone": [
+    {
+      "filename": "NSS_NBR02_CYCLE01A_Feasibility_Report_v0.1.md",
+      "bytes": 19435,
+      "sha256": "04ad334305b01162cd17b656c9729c87ec3bfa2513c9189d1b266d0c62dd5aa6"
+    },
+    {
+      "filename": "NSS_CYCLE01_Protocol_and_Feasibility_v0.1.md",
+      "bytes": 12315,
+      "sha256": "855853baade98d1cd2adcde44e435ba9a93a106a8dc5664847576c0a19705343"
+    },
+    {
+      "filename": "NSS_CYCLE01A_Tests_and_Answers_v0.1.md",
+      "bytes": 6446,
+      "sha256": "2031f389ace5c5508d8c4a5e17c0fd9d396068f16a9851f247e118652990a869"
+    },
+    {
+      "filename": "NSS_NBR02_CYCLE01A_Codex_Handoff_v0.1.md",
+      "bytes": 2650,
+      "sha256": "a1cd8ce18fb6d3669ca7eea4ae23efb66d9e15043799d8624ef49fb0eb6365dd"
+    },
+    {
+      "filename": "NSS_Research_Checklist_CURRENT.md",
+      "bytes": 24925,
+      "sha256": "a9eb1d51d5013814a89571ebb42b3fd3c1a2fc79701c0ff08f775d728dfa4c0e"
+    },
+    {
+      "filename": "NSS_Research_Checklist_CURRENT.json",
+      "bytes": 79602,
+      "sha256": "9fd501a73e3a834cf1288029b7bceae070836de023d83b730a7c5bcecdec2c18"
+    }
+  ],
+  "no_old_archive_merge_or_change": true,
+  "original_checklist_entries_preserved": 53,
+  "entries_now": 54
+}

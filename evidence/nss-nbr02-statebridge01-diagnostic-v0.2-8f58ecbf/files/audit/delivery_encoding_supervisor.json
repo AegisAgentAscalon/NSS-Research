@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "analysis/ENCODE_DELIVERY.py"
+  ],
+  "returncode": 0,
+  "stop": null,
+  "peak_sampled_process_rss": 488800256,
+  "peak_sampled_container": 2511626240,
+  "elapsed_since_origin": 1478.863736152649,
+  "sampling_seconds": 0.2
+}

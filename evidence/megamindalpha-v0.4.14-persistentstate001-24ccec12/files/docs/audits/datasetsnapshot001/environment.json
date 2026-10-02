@@ -1,0 +1,11 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "sqlite": "3.46.1",
+  "checks": {
+    "manifest": 0,
+    "dependencies": 0,
+    "atlas": 0,
+    "compile": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2/source/run_review.py",
+    "--root",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2",
+    "--out",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2/raw/primary"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 16.025799226999993,
+  "peak_sampled_rss_bytes": 248528896,
+  "peak_sampled_container_bytes": 1664212992,
+  "peak_physical_output_bytes": 159018698,
+  "sampling_seconds": 0.2,
+  "stop": null
+}

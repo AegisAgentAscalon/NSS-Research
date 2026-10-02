@@ -1,0 +1,694 @@
+{
+  "cases": [
+    {
+      "allowed_depth": 1,
+      "arm": "paired_eval",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "case_spec": {
+        "allowed_depth": 1,
+        "arm": "paired_eval",
+        "case_id": "c-51a4bc2ac67aade0c785",
+        "close_identity_transform": null,
+        "condition_id": "pre_registration_query",
+        "episode_id": "pre_registration_query-s1201-e000",
+        "generator_id": "q010r.data.make_case.v1",
+        "graph_pair_condition_id": "pre_registration_query",
+        "graph_pair_episode_id": "pre_registration_query-s1201-e000",
+        "graph_seed": 865777755328568447,
+        "graph_seed_context": {
+          "condition_id": "pre_registration_query",
+          "episode_id": "pre_registration_query-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_generation",
+          "split": "development",
+          "stage_index": null
+        },
+        "missing": false,
+        "missing_at": null,
+        "near_treatment": false,
+        "pair_id": "pre_registration_query-s1201-e000",
+        "paired_seed": 1201,
+        "path_length": 1,
+        "phase": "q010r-condition-matrix",
+        "schema_version": 1,
+        "split": "development",
+        "treatment_seed": 16426537767133093970,
+        "treatment_seed_context": {
+          "condition_id": "pre_registration_query",
+          "episode_id": "pre_registration_query-s1201-e000",
+          "paired_seed": 1201,
+          "protocol_version": "Q010R-CM1",
+          "purpose": "graph_treatment",
+          "split": "development",
+          "stage_index": null
+        }
+      },
+      "decoy_row": 10,
+      "displaced_decoy_id": 15,
+      "missing": false,
+      "missing_at": null,
+      "near_center_id": null,
+      "near_sigma": null,
+      "pair_id": "pre_registration_query-s1201-e000",
+      "paired_seed": 1201,
+      "path_length": 1,
+      "phase": "q010r-condition-matrix",
+      "physical_row_to_book_slot": [
+        9,
+        6,
+        3,
+        5,
+        4,
+        13,
+        1,
+        7,
+        14,
+        8,
+        15,
+        2,
+        12,
+        11,
+        10,
+        0
+      ],
+      "query_slot": 12,
+      "query_symbol_id": 12,
+      "replacement_decoy_id": 15,
+      "rng_record": {
+        "bit_generator": "PCG64",
+        "condition_id": "pre_registration_query",
+        "episode_id": "pre_registration_query-s1201-e000",
+        "graph_pair_condition_id": "pre_registration_query",
+        "graph_pair_episode_id": "pre_registration_query-s1201-e000",
+        "graph_seed": 865777755328568447,
+        "graph_seed_purpose": "graph_generation",
+        "near_draw": false,
+        "treatment_seed": 16426537767133093970,
+        "treatment_seed_purpose": "graph_treatment"
+      },
+      "schema_version": 1,
+      "shared_facts_hash": "6118567ab54be048ef65072c77fba60fec238ca67c80d38c38c76698d61bfd6c",
+      "split": "development",
+      "stage_next_ids": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "stage_row_targets": [
+        12,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "stage_source_ids": [
+        12,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "symbol_ids_by_book_slot": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "task_path_ids": [
+        12,
+        13
+      ],
+      "task_truth_hash": "7adc2af1653edea676d1996e3239f78c74e8b6f2b6ac738cbe47f84dab7b0cd0",
+      "terminal_id": 13,
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2"
+    }
+  ],
+  "checkpoint": null,
+  "condition_id": "clear",
+  "depth": 1,
+  "episode_ids": [
+    "c-51a4bc2ac67aade0c785-life-clear"
+  ],
+  "events": [
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "event_id": "c-51a4bc2ac67aade0c785-graph-truth",
+      "kind": "graph_truth",
+      "protocol_id": "q010r-draft-v1",
+      "registered_symbol_ids": [],
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 1,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "task_truth_hash": "7adc2af1653edea676d1996e3239f78c74e8b6f2b6ac738cbe47f84dab7b0cd0",
+      "truth_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "truth_graph_hash": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2"
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "event_id": "source-de4569ef2d086372-00000002",
+      "handle": 0,
+      "kind": "registration",
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 2,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "symbol_id": 12
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "event_id": "source-de4569ef2d086372-00000003",
+      "handle": 1,
+      "kind": "registration",
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 3,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "symbol_id": 13
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "event_id": "source-de4569ef2d086372-00000004",
+      "handle": 2,
+      "kind": "registration",
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 4,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "symbol_id": 0
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 13,
+      "event_id": "tx-de4569ef2d086372-00000001-truth",
+      "kind": "fact_write",
+      "previous_destination_symbol_id": null,
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 5,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "truth_revision": 1
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 0,
+      "event_id": "tx-de4569ef2d086372-00000002-truth",
+      "kind": "fact_correction",
+      "previous_destination_symbol_id": 13,
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 6,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "truth_revision": 2
+    },
+    {
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "event_id": "tx-de4569ef2d086372-00000003-truth",
+      "kind": "fact_clear",
+      "previous_destination_symbol_id": 0,
+      "protocol_id": "q010r-draft-v1",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 7,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "truth_revision": 3
+    }
+  ],
+  "feedback_mode": "direct",
+  "live_facts": [
+    []
+  ],
+  "operations": [
+    {
+      "after_map_sha256": "7dafc9bc4ae28266b77476199b20846b8aa1e349ae7d8dd58805fae16b0978cf",
+      "after_snapshot_id": null,
+      "after_state_signature": "3789d4fdc7936073bc0dac7c22ddac11719966a82a41c83a7e29d6c88a321a41",
+      "before_map_sha256": "539f31b1c58b4c11c4b743a5c8910f7740883d052661fbf223521e42b8d2028e",
+      "before_snapshot_id": null,
+      "before_state_signature": "f458b0d50a39347be4e49712bfb312e4fe4a1ed543f10fd46c44cba66a2dde16",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "register",
+      "operation_id": "c-51a4bc2ac67aade0c785-register-source",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000001",
+      "requested_epoch": 1,
+      "requested_operation": "register",
+      "requested_revision": null,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 1,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "committed",
+      "transaction_id": null,
+      "truth_changed": false,
+      "truth_event_id": "source-de4569ef2d086372-00000002"
+    },
+    {
+      "after_map_sha256": "e65337dd7300618d3186017617e1aad35a67b8eea47b3ab0d97eb3fd9f9073c6",
+      "after_snapshot_id": null,
+      "after_state_signature": "80fc902a17a2dfdf23aec4a42a4bba601e129f6128911dcd0afcc1d2c686c19b",
+      "before_map_sha256": "7dafc9bc4ae28266b77476199b20846b8aa1e349ae7d8dd58805fae16b0978cf",
+      "before_snapshot_id": null,
+      "before_state_signature": "3789d4fdc7936073bc0dac7c22ddac11719966a82a41c83a7e29d6c88a321a41",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "register",
+      "operation_id": "c-51a4bc2ac67aade0c785-register-destination",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000002",
+      "requested_epoch": 1,
+      "requested_operation": "register",
+      "requested_revision": null,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 2,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 13,
+      "status": "committed",
+      "transaction_id": null,
+      "truth_changed": false,
+      "truth_event_id": "source-de4569ef2d086372-00000003"
+    },
+    {
+      "after_map_sha256": "2169f96f1f21fb1823ab9eb11f9bb7854ff4c1409342a324ac7e1dd2dd05f3e4",
+      "after_snapshot_id": null,
+      "after_state_signature": "dca27e94e0c33280d45c15d542fa6094e1e0af3813a79251f35c5ef7c2bbdb47",
+      "before_map_sha256": "e65337dd7300618d3186017617e1aad35a67b8eea47b3ab0d97eb3fd9f9073c6",
+      "before_snapshot_id": null,
+      "before_state_signature": "80fc902a17a2dfdf23aec4a42a4bba601e129f6128911dcd0afcc1d2c686c19b",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "register",
+      "operation_id": "c-51a4bc2ac67aade0c785-register-alternative",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000003",
+      "requested_epoch": 1,
+      "requested_operation": "register",
+      "requested_revision": null,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 3,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 0,
+      "status": "committed",
+      "transaction_id": null,
+      "truth_changed": false,
+      "truth_event_id": "source-de4569ef2d086372-00000004"
+    },
+    {
+      "after_map_sha256": "2169f96f1f21fb1823ab9eb11f9bb7854ff4c1409342a324ac7e1dd2dd05f3e4",
+      "after_snapshot_id": null,
+      "after_state_signature": "dca27e94e0c33280d45c15d542fa6094e1e0af3813a79251f35c5ef7c2bbdb47",
+      "before_map_sha256": "2169f96f1f21fb1823ab9eb11f9bb7854ff4c1409342a324ac7e1dd2dd05f3e4",
+      "before_snapshot_id": null,
+      "before_state_signature": "dca27e94e0c33280d45c15d542fa6094e1e0af3813a79251f35c5ef7c2bbdb47",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 13,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "write",
+      "operation_id": "tx-de4569ef2d086372-00000001",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000004",
+      "requested_epoch": null,
+      "requested_operation": "write",
+      "requested_revision": 3,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 4,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "attempted",
+      "transaction_id": "tx-de4569ef2d086372-00000001",
+      "truth_changed": false,
+      "truth_event_id": null
+    },
+    {
+      "after_map_sha256": "3f65ea52db35646f904d5c2d3b003a7c227053919d7f974521344cc1f58c95ad",
+      "after_snapshot_id": null,
+      "after_state_signature": "4fec4f80afd7ee9a392700f804e14e1d88ab70a5d540fa3c8a7e74868b8a748c",
+      "before_map_sha256": "2169f96f1f21fb1823ab9eb11f9bb7854ff4c1409342a324ac7e1dd2dd05f3e4",
+      "before_snapshot_id": null,
+      "before_state_signature": "dca27e94e0c33280d45c15d542fa6094e1e0af3813a79251f35c5ef7c2bbdb47",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 13,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "write",
+      "operation_id": "tx-de4569ef2d086372-00000001",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000005",
+      "requested_epoch": null,
+      "requested_operation": "write",
+      "requested_revision": 3,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 5,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "committed",
+      "transaction_id": "tx-de4569ef2d086372-00000001",
+      "truth_changed": true,
+      "truth_event_id": "tx-de4569ef2d086372-00000001-truth"
+    },
+    {
+      "after_map_sha256": "3f65ea52db35646f904d5c2d3b003a7c227053919d7f974521344cc1f58c95ad",
+      "after_snapshot_id": null,
+      "after_state_signature": "4fec4f80afd7ee9a392700f804e14e1d88ab70a5d540fa3c8a7e74868b8a748c",
+      "before_map_sha256": "3f65ea52db35646f904d5c2d3b003a7c227053919d7f974521344cc1f58c95ad",
+      "before_snapshot_id": null,
+      "before_state_signature": "4fec4f80afd7ee9a392700f804e14e1d88ab70a5d540fa3c8a7e74868b8a748c",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 0,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "correct",
+      "operation_id": "tx-de4569ef2d086372-00000002",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000006",
+      "requested_epoch": null,
+      "requested_operation": "correct",
+      "requested_revision": 4,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 6,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "attempted",
+      "transaction_id": "tx-de4569ef2d086372-00000002",
+      "truth_changed": false,
+      "truth_event_id": null
+    },
+    {
+      "after_map_sha256": "7b0e3b39585b3c83882d48a1c8e5af05b9b9738efcda0fa656ef3cce391710e6",
+      "after_snapshot_id": null,
+      "after_state_signature": "462168cf02294900782ff62403b9561792aba30b6d23d8497df8d72ddb1899a4",
+      "before_map_sha256": "3f65ea52db35646f904d5c2d3b003a7c227053919d7f974521344cc1f58c95ad",
+      "before_snapshot_id": null,
+      "before_state_signature": "4fec4f80afd7ee9a392700f804e14e1d88ab70a5d540fa3c8a7e74868b8a748c",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": 0,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "correct",
+      "operation_id": "tx-de4569ef2d086372-00000002",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000007",
+      "requested_epoch": null,
+      "requested_operation": "correct",
+      "requested_revision": 4,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 7,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "committed",
+      "transaction_id": "tx-de4569ef2d086372-00000002",
+      "truth_changed": true,
+      "truth_event_id": "tx-de4569ef2d086372-00000002-truth"
+    },
+    {
+      "after_map_sha256": "7b0e3b39585b3c83882d48a1c8e5af05b9b9738efcda0fa656ef3cce391710e6",
+      "after_snapshot_id": null,
+      "after_state_signature": "462168cf02294900782ff62403b9561792aba30b6d23d8497df8d72ddb1899a4",
+      "before_map_sha256": "7b0e3b39585b3c83882d48a1c8e5af05b9b9738efcda0fa656ef3cce391710e6",
+      "before_snapshot_id": null,
+      "before_state_signature": "462168cf02294900782ff62403b9561792aba30b6d23d8497df8d72ddb1899a4",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "clear",
+      "operation_id": "tx-de4569ef2d086372-00000003",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000008",
+      "requested_epoch": null,
+      "requested_operation": "clear",
+      "requested_revision": 5,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 8,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "attempted",
+      "transaction_id": "tx-de4569ef2d086372-00000003",
+      "truth_changed": false,
+      "truth_event_id": null
+    },
+    {
+      "after_map_sha256": "229617a1d09d976e33632205a2bd54fffefb87cdc7e7a2c4ef5753085423e6a6",
+      "after_snapshot_id": null,
+      "after_state_signature": "5c120b49ea85a4e96178f204e831c3b61dbb2cfde0cf088a65d5952d61c1f2b5",
+      "before_map_sha256": "7b0e3b39585b3c83882d48a1c8e5af05b9b9738efcda0fa656ef3cce391710e6",
+      "before_snapshot_id": null,
+      "before_state_signature": "462168cf02294900782ff62403b9561792aba30b6d23d8497df8d72ddb1899a4",
+      "case_id": "c-51a4bc2ac67aade0c785",
+      "destination_symbol_id": null,
+      "fault_id": null,
+      "model_id": "lifecycle-control",
+      "operation": "clear",
+      "operation_id": "tx-de4569ef2d086372-00000003",
+      "protocol_id": "q010r-draft-v1",
+      "qualified": true,
+      "reason": null,
+      "record_id": "storage-de4569ef2d086372-00000009",
+      "requested_epoch": null,
+      "requested_operation": "clear",
+      "requested_revision": 5,
+      "requested_scope": "study",
+      "run_id": "chat13-lifecycle",
+      "schema_version": 1,
+      "sequence": 9,
+      "source_identity": "89f727fba59301fb848cfb293ce9530685128553557b213ed514bafb958534a2",
+      "source_symbol_id": 12,
+      "status": "committed",
+      "transaction_id": "tx-de4569ef2d086372-00000003",
+      "truth_changed": true,
+      "truth_event_id": "tx-de4569ef2d086372-00000003-truth"
+    }
+  ],
+  "queries": [
+    {
+      "algorithm": "book-row-copy-v1",
+      "anchor_symbol_id": 12,
+      "kind": "exact_symbol",
+      "normalization": "copy-book-row-f32x17",
+      "prior_call_id": null,
+      "prior_stage_index": null,
+      "rng_domain": null,
+      "rng_seed_u64": null,
+      "schema_version": 1,
+      "sigma": null,
+      "source_catalogue_sha256": "8cd4dd09ca75520e331bed4217166f22b4511afaffa3cc2dea1f58f090a8d93f"
+    }
+  ],
+  "readers": [
+    "inherited_801",
+    "cap_only",
+    "ordinary",
+    "near",
+    "attention",
+    "exact_owner"
+  ],
+  "seed": 1201,
+  "split": "development",
+  "state_mode": "identity",
+  "state_scope": "study",
+  "state_tick": 0
+}

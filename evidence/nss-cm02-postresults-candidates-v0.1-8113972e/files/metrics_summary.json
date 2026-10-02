@@ -1,0 +1,586 @@
+{
+  "source_members": [
+    "NSS_CM02_Execution_v0.6/raw/main/capture_run/scores/DECISIONS.csv",
+    "NSS_CM02_Execution_v0.6/raw/main/capture_run/scores/EXACT_CONTROLS.csv",
+    "NSS_CM02_Execution_v0.6/raw/main/capture_run/scores/FAMILY_PAIRED.csv",
+    "NSS_CM02_Execution_v0.6/raw/main/capture_run/scores/MEMORY_AND_READ_WORK.csv",
+    "NSS_CM02_Execution_v0.6/raw/main/capture_run/scores/EVENT_WORK.csv"
+  ],
+  "recomputed": {
+    "decision_rows": 2880,
+    "main_rows_by_arm": {
+      "W": {
+        "correct": 615,
+        "rows": 960
+      },
+      "I": {
+        "correct": 615,
+        "rows": 960
+      },
+      "O": {
+        "correct": 485,
+        "rows": 960
+      }
+    },
+    "heldout_rows_by_arm": {
+      "W": {
+        "correct": 391,
+        "rows": 600,
+        "unique_query_occasions": 120,
+        "unique_sequences": 20
+      },
+      "I": {
+        "correct": 391,
+        "rows": 600,
+        "unique_query_occasions": 120,
+        "unique_sequences": 20
+      },
+      "O": {
+        "correct": 307,
+        "rows": 600,
+        "unique_query_occasions": 120,
+        "unique_sequences": 20
+      }
+    },
+    "heldout_unique_query_occasions": 120,
+    "heldout_unique_sequences": 20,
+    "all_unique_query_ids": 192,
+    "unique_episode_ids": 32,
+    "w_i_exact_decision_pairs": 960,
+    "w_i_exact_decision_mismatches": 0,
+    "w_i_comparison_fields": [
+      "known",
+      "expected",
+      "predicted",
+      "correct",
+      "route",
+      "reason",
+      "accepted_reference",
+      "observable_invalid_acceptance",
+      "hidden_intent_wrong_binding",
+      "management_abstention",
+      "safe_but_lost_recall",
+      "correct_unknown",
+      "covered",
+      "intended_revision",
+      "bound_revision",
+      "neural_selected_row",
+      "output_id",
+      "whole_map_integrity"
+    ],
+    "heldout_family_results": [
+      {
+        "family": "CM02EVAL-01",
+        "W": {
+          "correct": 70,
+          "rows": 120,
+          "accuracy": 0.583333
+        },
+        "I": {
+          "correct": 70,
+          "rows": 120,
+          "accuracy": 0.583333
+        },
+        "O": {
+          "correct": 55,
+          "rows": 120,
+          "accuracy": 0.458333
+        },
+        "W_minus_I_pp": 0.0,
+        "W_minus_O_pp": 12.5
+      },
+      {
+        "family": "CM02EVAL-02",
+        "W": {
+          "correct": 77,
+          "rows": 120,
+          "accuracy": 0.641667
+        },
+        "I": {
+          "correct": 77,
+          "rows": 120,
+          "accuracy": 0.641667
+        },
+        "O": {
+          "correct": 76,
+          "rows": 120,
+          "accuracy": 0.633333
+        },
+        "W_minus_I_pp": 0.0,
+        "W_minus_O_pp": 0.8334
+      },
+      {
+        "family": "CM02EVAL-03",
+        "W": {
+          "correct": 88,
+          "rows": 120,
+          "accuracy": 0.733333
+        },
+        "I": {
+          "correct": 88,
+          "rows": 120,
+          "accuracy": 0.733333
+        },
+        "O": {
+          "correct": 58,
+          "rows": 120,
+          "accuracy": 0.483333
+        },
+        "W_minus_I_pp": 0.0,
+        "W_minus_O_pp": 25.0
+      },
+      {
+        "family": "CM02EVAL-04",
+        "W": {
+          "correct": 76,
+          "rows": 120,
+          "accuracy": 0.633333
+        },
+        "I": {
+          "correct": 76,
+          "rows": 120,
+          "accuracy": 0.633333
+        },
+        "O": {
+          "correct": 58,
+          "rows": 120,
+          "accuracy": 0.483333
+        },
+        "W_minus_I_pp": 0.0,
+        "W_minus_O_pp": 15.0
+      },
+      {
+        "family": "CM02EVAL-05",
+        "W": {
+          "correct": 80,
+          "rows": 120,
+          "accuracy": 0.666667
+        },
+        "I": {
+          "correct": 80,
+          "rows": 120,
+          "accuracy": 0.666667
+        },
+        "O": {
+          "correct": 60,
+          "rows": 120,
+          "accuracy": 0.5
+        },
+        "W_minus_I_pp": 0.0,
+        "W_minus_O_pp": 16.6667
+      }
+    ],
+    "heldout_exact_controls": {
+      "X_I": {
+        "correct": 100,
+        "rows": 120,
+        "unique_query_occasions": 120
+      },
+      "X_S": {
+        "correct": 100,
+        "rows": 120,
+        "unique_query_occasions": 120
+      },
+      "X_W": {
+        "correct": 100,
+        "rows": 120,
+        "unique_query_occasions": 120
+      },
+      "X_latest": {
+        "correct": 105,
+        "rows": 120,
+        "unique_query_occasions": 120
+      }
+    },
+    "selected_heldout_negative_strata": {
+      "F:16/O": {
+        "correct": 16,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "F:16/W": {
+        "correct": 0,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 25,
+        "management_abstention": 25,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "F:16/I": {
+        "correct": 0,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 25,
+        "management_abstention": 25,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "F:48/I": {
+        "correct": 25,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 25,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 25
+      },
+      "F:48/O": {
+        "correct": 2,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 2
+      },
+      "F:48/W": {
+        "correct": 25,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 25,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 25
+      },
+      "C:32/W": {
+        "correct": 12,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "C:32/I": {
+        "correct": 12,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "C:32/O": {
+        "correct": 12,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "N:16/O": {
+        "correct": 12,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      },
+      "N:16/W": {
+        "correct": 5,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 25,
+        "correct_unknown": 0
+      },
+      "N:16/I": {
+        "correct": 5,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 25,
+        "correct_unknown": 0
+      },
+      "N:32/W": {
+        "correct": 5,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 25,
+        "correct_unknown": 0
+      },
+      "N:32/I": {
+        "correct": 5,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 25,
+        "correct_unknown": 0
+      },
+      "N:32/O": {
+        "correct": 12,
+        "rows": 25,
+        "queries": 5,
+        "episodes": 5,
+        "safe_but_lost_recall": 0,
+        "management_abstention": 0,
+        "hidden_intent_wrong_binding": 0,
+        "correct_unknown": 0
+      }
+    }
+  },
+  "costs": {
+    "scope": "heldout EVENT_WORK rows plus seed-1201 heldout MEMORY_AND_READ_WORK query observations; additive work is summed, resident graph is summarized by mean/max, not summed as simultaneous memory",
+    "totals_by_arm": {
+      "W": {
+        "families": 5,
+        "event_plus_query_index_reads": 2800,
+        "packet_encodes": 170,
+        "packet_decodes": 250,
+        "task_field_semantic_bytes_rewritten": 4420,
+        "workspace_ascii_bytes_rewritten": 9520,
+        "selection_object_bytes_reallocated": 16490,
+        "query_returned_bytes": 122209,
+        "lookup_returned_bytes": 841170,
+        "journal_append_bytes": 1103380,
+        "numerical_bytes_rewritten": 180840,
+        "resident_graph_observations": 120,
+        "resident_graph_mean_bytes": 117407.72,
+        "resident_graph_max_bytes": 183508,
+        "peak_query_transient_controller_graph_bytes": 169155
+      },
+      "I": {
+        "families": 5,
+        "event_plus_query_index_reads": 2800,
+        "packet_encodes": 0,
+        "packet_decodes": 0,
+        "task_field_semantic_bytes_rewritten": 4420,
+        "workspace_ascii_bytes_rewritten": 0,
+        "selection_object_bytes_reallocated": 14960,
+        "query_returned_bytes": 118609,
+        "lookup_returned_bytes": 837270,
+        "journal_append_bytes": 1103380,
+        "numerical_bytes_rewritten": 180840,
+        "resident_graph_observations": 120,
+        "resident_graph_mean_bytes": 117440.47,
+        "resident_graph_max_bytes": 183532,
+        "peak_query_transient_controller_graph_bytes": 168945
+      }
+    },
+    "per_family": [
+      {
+        "family": "CM02EVAL-01",
+        "arm": "W",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117463.25,
+        "resident_graph_max_bytes": 183508,
+        "peak_query_transient_controller_graph_bytes": 169155,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 34,
+        "event_plus_query_packet_decodes": 50,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 1904,
+        "event_selection_object_bytes_reallocated": 3298,
+        "event_journal_append_bytes": 220489,
+        "event_lookup_returned_bytes": 168133,
+        "query_returned_bytes": 24409,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-01",
+        "arm": "I",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117496.0,
+        "resident_graph_max_bytes": 183532,
+        "peak_query_transient_controller_graph_bytes": 168945,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 0,
+        "event_plus_query_packet_decodes": 0,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 0,
+        "event_selection_object_bytes_reallocated": 2992,
+        "event_journal_append_bytes": 220489,
+        "event_lookup_returned_bytes": 167353,
+        "query_returned_bytes": 23689,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-02",
+        "arm": "W",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117425.92,
+        "resident_graph_max_bytes": 183496,
+        "peak_query_transient_controller_graph_bytes": 169143,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 34,
+        "event_plus_query_packet_decodes": 50,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 1904,
+        "event_selection_object_bytes_reallocated": 3298,
+        "event_journal_append_bytes": 220729,
+        "event_lookup_returned_bytes": 168256,
+        "query_returned_bytes": 24479,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-02",
+        "arm": "I",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117458.67,
+        "resident_graph_max_bytes": 183520,
+        "peak_query_transient_controller_graph_bytes": 168933,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 0,
+        "event_plus_query_packet_decodes": 0,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 0,
+        "event_selection_object_bytes_reallocated": 2992,
+        "event_journal_append_bytes": 220729,
+        "event_lookup_returned_bytes": 167476,
+        "query_returned_bytes": 23759,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-03",
+        "arm": "W",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117412.08,
+        "resident_graph_max_bytes": 183281,
+        "peak_query_transient_controller_graph_bytes": 168924,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 34,
+        "event_plus_query_packet_decodes": 50,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 1904,
+        "event_selection_object_bytes_reallocated": 3298,
+        "event_journal_append_bytes": 220878,
+        "event_lookup_returned_bytes": 168361,
+        "query_returned_bytes": 24468,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-03",
+        "arm": "I",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117444.83,
+        "resident_graph_max_bytes": 183305,
+        "peak_query_transient_controller_graph_bytes": 168718,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 0,
+        "event_plus_query_packet_decodes": 0,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 0,
+        "event_selection_object_bytes_reallocated": 2992,
+        "event_journal_append_bytes": 220878,
+        "event_lookup_returned_bytes": 167581,
+        "query_returned_bytes": 23748,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-04",
+        "arm": "W",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117359.75,
+        "resident_graph_max_bytes": 183192,
+        "peak_query_transient_controller_graph_bytes": 168839,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 34,
+        "event_plus_query_packet_decodes": 50,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 1904,
+        "event_selection_object_bytes_reallocated": 3298,
+        "event_journal_append_bytes": 220503,
+        "event_lookup_returned_bytes": 168091,
+        "query_returned_bytes": 24426,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-04",
+        "arm": "I",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117392.5,
+        "resident_graph_max_bytes": 183216,
+        "peak_query_transient_controller_graph_bytes": 168629,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 0,
+        "event_plus_query_packet_decodes": 0,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 0,
+        "event_selection_object_bytes_reallocated": 2992,
+        "event_journal_append_bytes": 220503,
+        "event_lookup_returned_bytes": 167311,
+        "query_returned_bytes": 23706,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-05",
+        "arm": "W",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117377.58,
+        "resident_graph_max_bytes": 183228,
+        "peak_query_transient_controller_graph_bytes": 168875,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 34,
+        "event_plus_query_packet_decodes": 50,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 1904,
+        "event_selection_object_bytes_reallocated": 3298,
+        "event_journal_append_bytes": 220781,
+        "event_lookup_returned_bytes": 168329,
+        "query_returned_bytes": 24427,
+        "event_numerical_bytes_rewritten": 36168
+      },
+      {
+        "family": "CM02EVAL-05",
+        "arm": "I",
+        "seed_for_query_observations": 1201,
+        "query_observations": 24,
+        "resident_graph_mean_bytes": 117410.33,
+        "resident_graph_max_bytes": 183252,
+        "peak_query_transient_controller_graph_bytes": 168665,
+        "event_plus_query_index_reads": 560,
+        "event_packet_encodes": 0,
+        "event_plus_query_packet_decodes": 0,
+        "event_task_field_semantic_bytes_rewritten": 884,
+        "event_workspace_ascii_bytes_rewritten": 0,
+        "event_selection_object_bytes_reallocated": 2992,
+        "event_journal_append_bytes": 220781,
+        "event_lookup_returned_bytes": 167549,
+        "query_returned_bytes": 23707,
+        "event_numerical_bytes_rewritten": 36168
+      }
+    ]
+  },
+  "interpretation_limits": {
+    "training_updates": 0,
+    "five_frozen_reader_seeds": "repeated measures, not independent episodes",
+    "heldout_unit": "20 sequences / 120 query occasions / five families",
+    "w_i_equal_decisions": "shared manager contract and experimental audit cache; not evidence of independent forward computations",
+    "status": "retained-table recomputation only; no scorer/model rerun"
+  }
+}

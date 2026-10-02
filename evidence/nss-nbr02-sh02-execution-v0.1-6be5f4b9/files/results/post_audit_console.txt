@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "seed": 8801,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.430511474609375e-06,
+        "max_normalized": 0.014666353352367878,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8801,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 2.384185791015625e-06,
+        "max_normalized": 0.017145829275250435,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8801,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.016720585525035858,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.01565326191484928,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.01597546599805355,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8802,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.019379548728466034,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "development",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 1024,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.016215553507208824,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "confirmation",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 8192,
+        "violations": 0,
+        "max_abs": 1.9073486328125e-06,
+        "max_normalized": 0.02267444133758545,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    },
+    {
+      "seed": 8804,
+      "split": "stress",
+      "fresh_clean_bit_exact": true,
+      "legacy_fullbatch_vs_archive_bit_exact": false,
+      "legacy_vs_archive_numerical": {
+        "scalars": 4096,
+        "violations": 0,
+        "max_abs": 2.384185791015625e-06,
+        "max_normalized": 0.017959434539079666,
+        "atol": 2e-05,
+        "rtol": 2e-05
+      },
+      "legacy_vs_archive_class_changes": 0,
+      "recount_match": true
+    }
+  ],
+  "locked_files_match": true
+}

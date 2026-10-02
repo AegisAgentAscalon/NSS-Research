@@ -1,0 +1,175 @@
+{
+  "status": "INTERNAL_CHECKS_PASS",
+  "scientific_joint_target": "NOT_MET",
+  "nbr01": "OPEN",
+  "unit_tests": {
+    "new": 45,
+    "unchanged_repair007": 34,
+    "unchanged_foundation": 68,
+    "distinct_total": 147
+  },
+  "replay": {
+    "arrays_exact": 41755,
+    "evaluations": 10,
+    "records": [
+      {
+        "arrays_exact": 1022,
+        "module": "membership_eval",
+        "pair": 1,
+        "rows": 242
+      },
+      {
+        "arrays_exact": 7329,
+        "module": "evaluate",
+        "pair": 1,
+        "rows": 2988
+      },
+      {
+        "arrays_exact": 1022,
+        "module": "membership_eval",
+        "pair": 2,
+        "rows": 242
+      },
+      {
+        "arrays_exact": 7329,
+        "module": "evaluate",
+        "pair": 2,
+        "rows": 2988
+      },
+      {
+        "arrays_exact": 1022,
+        "module": "membership_eval",
+        "pair": 3,
+        "rows": 242
+      },
+      {
+        "arrays_exact": 7329,
+        "module": "evaluate",
+        "pair": 3,
+        "rows": 2988
+      },
+      {
+        "arrays_exact": 1022,
+        "module": "membership_eval",
+        "pair": 4,
+        "rows": 242
+      },
+      {
+        "arrays_exact": 7329,
+        "module": "evaluate",
+        "pair": 4,
+        "rows": 2988
+      },
+      {
+        "arrays_exact": 1022,
+        "module": "membership_eval",
+        "pair": 5,
+        "rows": 242
+      },
+      {
+        "arrays_exact": 7329,
+        "module": "evaluate",
+        "pair": 5,
+        "rows": 2988
+      }
+    ],
+    "rows_exact": 16150,
+    "status": "PASS"
+  },
+  "rescore": {
+    "status": "PASS",
+    "membership_rows": 1210,
+    "state_rows": 14940,
+    "scored_state_answers": 956160,
+    "records": [
+      {
+        "path": "membership_pair1.json",
+        "rows": 242,
+        "sha256": "e2c50818395d42485375baeee2adcfba081096c88d22ca6494e8b4c2ff3c439f"
+      },
+      {
+        "path": "membership_pair2.json",
+        "rows": 242,
+        "sha256": "da9dfc83e3f79494e097416f9695719eecfafa7455dd3bccc1c45d22407587fb"
+      },
+      {
+        "path": "membership_pair3.json",
+        "rows": 242,
+        "sha256": "d32c01d1b38eb44951e5813103d97d930ff86dff523053c6dbaf0eabddb12fac"
+      },
+      {
+        "path": "membership_pair4.json",
+        "rows": 242,
+        "sha256": "f8f805b3f25beb8b967cffbf2094b58c79c861613ef87dee256577324f0f38c9"
+      },
+      {
+        "path": "membership_pair5.json",
+        "rows": 242,
+        "sha256": "e5a9c0605f417203d7bf748f7fa300cf2c9be77d9e1816d78e8c00a3ce3aa5a3"
+      },
+      {
+        "path": "state_pair1.json",
+        "rows": 2988,
+        "sha256": "3337382150300fe9982d6b3b9f457f81faa22cb16cf8013479759fbbace7e432"
+      },
+      {
+        "path": "state_pair2.json",
+        "rows": 2988,
+        "sha256": "cf111bf0f30332bd3fc962c7ec9ea1e5e648e00dd3158e4e38f511d727f63789"
+      },
+      {
+        "path": "state_pair3.json",
+        "rows": 2988,
+        "sha256": "bd94506adb0239ed64042fd8f7dfb802bc4f2ae78b9256ff3f55483a2e47c7fb"
+      },
+      {
+        "path": "state_pair4.json",
+        "rows": 2988,
+        "sha256": "04422b859f8149035dc17c21c4b30c8948519d5f24e19064f96b9305fa88c0b3"
+      },
+      {
+        "path": "state_pair5.json",
+        "rows": 2988,
+        "sha256": "398c1b0ea4ec08964d1d50750ccd4f012ac0e2743799ed84d381de9c75ccbd58"
+      }
+    ],
+    "method": "separate graph walk and count checks; no candidate imports; per-hop outputs are correlated"
+  },
+  "training": {
+    "calibration_identical": true,
+    "checkpoint_identical": true,
+    "history_and_batch_fingerprints_identical": true,
+    "optimizer_steps": 1200,
+    "seconds": 5.908943624999893,
+    "seed": 1001,
+    "sha256": "c59cf06827d6fd4fa8fd894c813c16f2949fd52d4f1b0f074b6e53ddb0cd6a5d",
+    "status": "PASS"
+  },
+  "continuations": 80,
+  "posthoc_diagnostic_reproduced": true,
+  "preservation": {
+    "all_inputs_unchanged": 13,
+    "execution_lock_files": 65,
+    "manifest_checks": [
+      {
+        "manifest_covered": 974,
+        "match": true,
+        "name": "foundation"
+      },
+      {
+        "manifest_covered": 244,
+        "match": true,
+        "name": "repair007"
+      }
+    ],
+    "original_zip_count": 11,
+    "reference_hashes": 54,
+    "status": "PASS"
+  },
+  "fresh_packaging": "see separate delivery receipt",
+  "limitations": [
+    "internal reproducibility not independent replication",
+    "full Windows replay not supported by Unix telemetry in this release",
+    "no language/biology/online-learning/low-bit/integrated companion test"
+  ]
+}

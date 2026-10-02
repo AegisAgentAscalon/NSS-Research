@@ -1,0 +1,316 @@
+# NSS LB03-LEARNABILITY
+## Reconciled evidence • low-bit training • results and decision
+
+**Execution v0.1 | Pass 61 | 1 October 2026, America/Detroit; runtime receipts 2 October UTC**
+
+**Disposition: COMPLETE_BOUNDED_COMPARISON / STOCHASTIC_MASTER_PRIMARY_SCREEN_MET / RETENTION_VARIATION_AND_NUMERICAL_WARNING_RETAINED.**
+
+<!-- PAGE -->
+## 01. Executive decision
+
+**What we asked:** Can smaller working weights actually learn, rather than merely preserve an already-mastered two-bit model?
+
+**What ran:** 24 matched branches from exact historical checkpoints. Two independent regimes distinguish adapting an imperfect Q2 conversion from learning two newly supplied association changes. No later repair phase, integration, new architecture or codec optimization was added.
+
+**What we found:** Both 16-bit-master variants genuinely learned. Stochastic writes meet the frozen three-of-four primary screen in each regime and save 19.45% of the named learning arrays. Nearest writes also learned, but fail the new-learning retention cohort. The stochastic success is not uniform: only two parent identities pass both regimes.
+
+| After 512 updates | 32-bit control | 16-bit nearest | 16-bit stochastic |
+|---|---|---|---|
+| Known-task preparation, correct events | 32,732 / 32,768 | 32,760 / 32,768 | 32,742 / 32,768 |
+| New-lesson old checklist, correct events | 32,746 / 32,768 | 32,746 / 32,768 | 32,740 / 32,768 |
+| New lesson: all cue answers | 32 / 32 | 32 / 32 | 32 / 32 |
+| New-lesson retention screen | 3 / 4 parents | 2 / 4 parents | 3 / 4 parents |
+| Named learning arrays | 183,650 B | 147,938 B | 147,938 B |
+
+**Meaning:** Low-bit forward weights and reduced-precision working copies can coexist with useful learning on this bounded task. We did not demonstrate all-two-bit training, faster training, preserved long-term plasticity, novel procedures or a production learner.
+
+**Numerical caution:** Observable states and outputs remained finite and passed the declared comparisons, but the inherited NumPy sigmoid expression overflowed internally at large gate inputs. Stable-reference checks agree with the original outputs; all warnings are retained. No blanket claim of every-intermediate numerical stability is made.
+
+**Recommendation:** Preserve stochastic FP16 masters as the leading bounded candidate, alongside the wider-precision control and every failed parent. Do not treat it as a universal replacement or silently extend this pass into repair.
+
+Sources: new `results/SUMMARY.json`, `DECISION.json`, `ACCOUNTING.json`, `audit/FINAL_AUDIT.json`; historical report claims remain separate.
+
+<!-- PAGE -->
+## 02. Evidence recovered and reconciled
+
+All five requested full execution archives and the additional pass-60 archive were present. Their complete archive SHA-256 digests match original delivery receipts. ZIP CRC, exact declared membership, manifest digest, every payload size and every payload SHA-256 passed: **2,735 payloads for passes 55–59, 174 for pass 60, 2,909 in total**. No declared payload is missing. This is integrity against supplied receipts, not cryptographic authentication of an untrusted publisher, independent replication or proof that unrecorded work never occurred.
+
+The separate reconciled-records ZIP preserves all six original ZIPs byte-for-byte, plus the original delivery receipts and this catalog. The new experiment ZIP is self-contained for the selected comparison but does not duplicate all historical raw arrays. `COMPLETE_RECORD_INVENTORY.json` gives every historical member's locator, category, size and SHA-256. Categories are navigation aids; an empty failure directory does not mean the model made no errors.
+
+| Pass | Study | Archive bytes | Verified payloads |
+|---|---|---|---|
+| 55 | BRIDGE01 | 7,732,985 | 719 |
+| 56 | LB01_TERNARY | 106,822,000 | 531 |
+| 57 | LB02_Q2_TRAIN | 98,307,290 | 580 |
+| 58 | LB02_MASTER16 | 44,845,903 | 429 |
+| 59 | LB01_T3_TARGET | 76,839,727 | 476 |
+| 60 | LB01_Q2_PACK | 44,566,585 | 174 |
+
+
+
+The complete historical sources are delivered in a separate reconciled-records package. The new execution archive contains exact selected checkpoints and inputs, inherited code, reports/protocols, and comprehensive locators. Each source archive keeps its original root and bytes.
+
+**Lineage:** Pass-55 original tensors equal the original model inputs used by 56/57/59. Pass-57 Q2_M8 step1024 starts pass 58; pass-57 Q2_M32 step1024 starts pass 59; pass-59 Q2_CONTROL packed finals enter pass 60. All 24 explicit linkage checks passed.
+
+**Unfilled gaps:** full ancestral training corpora and original fitting histories are not all present; pass-57 interrupted unjournaled tails and some terminal costs remain unknown. No declared payload for 55–60 is missing. A real LLM in pass 55 and training states in pass 60 were not part of those studies, not lost evidence.
+
+Archive checks prove consistency with supplied receipts, not third-party replication or external authentication. Full discussion and exact hashes: `docs/SOURCE_RECONCILIATION.md`, `provenance/COMPLETE_RECORD_INVENTORY.json`, `CHECKPOINT_LINEAGE.json`.
+
+<!-- PAGE -->
+## 03. What the previous passes do—and do not—settle
+
+| Pass | Established contribution | Boundary that motivates this study |
+|---|---|---|
+| 55 | Working dummy bridge and source model provenance. | Scripted language/tool stand-ins; no training. |
+| 56 | Real ternary packing; substantial QAT recovery. | Weak complete tasks; full-precision training copies. |
+| 57 | Useful Q2 preparation and smaller real optimizer arrays. | Correction/retention and budget limits remain. |
+| 58 | Smaller FP16 master arrays preserve near-perfect known work. | A nearly mastered start does not demonstrate learnability. |
+| 59 | Q2 remains useful; tested T3 transitions fall short. | Does not settle every ternary representation/preparation. |
+| 60 | Same four-valued codes stored below 2 bits on average. | Lossless coding is not lower-precision learning. |
+
+The selected question is new: can the existing smaller-master implementation make substantive progress from an imperfect conversion, and can it learn information not present in its starting associations? Pass 58 did neither. We do not rerun its already-mastered continuation and rename it acquisition.
+
+An additional full-precision-forward baseline or new optimizer-state format would answer another question. This pass holds the already-established Q2/M8 representation fixed and changes master storage/write rounding. The control is the same low-bit-forward learner with FP32 masters, not a claim of parity with every floating-point model.
+
+The two starting states are not successive phases of one run: EARLY uses pass-57 step0, NEW independently uses step1024. Those starts share ancestry. Twenty-four branches do not constitute twenty-four independent pretrained models.
+
+Source reports and original failed gates remain immutable. New practical gates are prospective for this new question, not retroactive repairs to the earlier record.
+
+<!-- PAGE -->
+## 04. Theoretical candidates and selection
+
+| Candidate | Benefit hypothesis | Failure mode / decision |
+|---|---|---|
+| C1: nearest FP16 masters | Half the matrix-master bytes, no full residual shadow. | Small proposed changes may disappear. Selected. |
+| C2: stochastic FP16 masters | Allow small updates to contribute probabilistically without a per-weight residual. | Rounding noise can damage recurrence; added overhead. Selected. |
+| C3: compressed saved activations | Targets the much larger backward-storage cost identified in pass 58. | Approximate gradients, hidden duplicate buffers, decode cost. Deferred. |
+
+C1 and C2 share the same initial nearest-even FP16 cast. The comparison changes subsequent writes, not the initial cast. Their common control stores masters in FP32. C3 is a plausible later intervention, not part of an untraceable bundle of changes.
+
+**Primary literature, limited scope:** Gupta et al. (2015) motivate stochastic rounding through 16-bit fixed-point experiments. Dettmers et al. (2022) motivate compressed optimizer statistics. Chen et al. (2021), ActNN, motivates saved-activation compression. This source review used claim-relevant abstracts; no published model, corpus or performance was reproduced or inherited. [L1–L3]
+
+Candidate selection was frozen before model outcomes: reuse the auditable kernel and address the explicit gap in 58. Do not choose a size, seed, schedule, endpoint or method after confirmation. All four source parents participate. The narrower findings do not establish that stochastic rounding is universally better, or that rounding unbiasedness survives arbitrary nonlinear recurrent computation.
+
+The original candidate document `docs/CANDIDATES.md` is part of the pre-main lock and contains the precision map and complete source references.
+
+<!-- PAGE -->
+## 05. What is low-bit—and what remains wide
+
+| Quantity | Control | Both candidate variants |
+|---|---|---|
+| Matrix forward values | Four-level Q2 per-row affine | Same four-level Q2 |
+| Persistent matrix masters | FP32 | FP16 |
+| Bias masters | FP32 | FP32 |
+| Effective training matrices | Transient FP32 tensors | Transient FP32 tensors |
+| Train activations and recurrent state | FP32 | FP32 |
+| Leaf gradients | FP32 | FP32 |
+| Optimizer first / second moments | 8-bit linear / square-root codes | Same, FP32 block scales |
+| Update arithmetic | Local FP64 → FP32 proposal | Same → nearest or stochastic FP16 |
+| Evaluation arithmetic | FP64 | FP64 |
+| Saved inference matrices | 2-bit codes + row metadata | Same |
+
+**No hidden FP32 master shadow:** candidate matrix masters are real NumPy float16 buffers. A small C row scratch derives Q2 values. There are still complete transient FP32 effective matrices, FP32 gradients, and saved autograd tensors. Serialization, audit and source loading can make additional copies.
+
+All 18,249 learned coefficients remain trainable; 17,856 are matrix entries and 393 are biases. Scales are derived row metadata, not an extra learned parameter set. The forward quantizer's discontinuous derivative is replaced by an identity straight-through surrogate. This is declared mixed-precision quantization-aware learning, not mathematically exact differentiation through rounding and not native two-bit backward arithmetic.
+
+The optimizer keeps 128-entry blocks, decoded one block at a time using wider arithmetic. Its custom signed-linear/square-root representation is inherited, not the published bitsandbytes nonlinear codebook. Stochastic rounding state is stored and restored. No per-weight high-precision residual is present. [Code: `source/candidate.py`, `master16.c`, `inherited_engine.py`.]
+
+<!-- PAGE -->
+## 06. Two learning tests and their controls
+
+| Regime | Exact start | Learning question |
+|---|---|---|
+| EARLY | Pass 57 Q2_M8 step0000 | Adapt the learned float ancestor to Q2; its conversion initially performs poorly. |
+| NEW | Pass 57 Q2_M8 step1024 | Learn cue 2: 0→1 and cue 5: 1→0; keep six other associations and the checklist. |
+
+Every branch receives 512 identical-order updates: one archived A batch (32 histories × 32 events), plus all eight applicable B cues. Loss is mean A cross-entropy + mean B cross-entropy. The same 64 A batches repeat eight times.
+
+Optimizer notes and counter are reset identically for every branch; original source optimizer state remains preserved but unused. This is different from pass 58's inherited counter. Learning rate follows the fixed cosine .003→.0003; clipping is 1; beta values .9/.999; epsilon 1e-8; no weight decay. No hyperparameter search, favorable replacement seed or extra training phase.
+
+**No post-learning repair:** old A examples are practiced concurrently from the first NEW update. This retention control is identical in every mode, not a separate restoration phase. The 512 endpoint is the end, regardless of performance.
+
+EARLY is not training from random initialization. NEW is genuine new association information, but its eight input cues are directly supervised; it is not a held-out new-input or new-procedure test. Current cue labels come from the declared source rule, not from the old model treated as truth.
+
+Initial checkpoints provide no-learning references. The model initially answers both changed cues incorrectly in every NEW branch; a final correct answer therefore cannot be credited merely to unchanged competence.
+
+<!-- PAGE -->
+## 07. Data, freezing and qualification rules
+
+New concrete panels were frozen before training: 16 development histories, 256 confirmation histories, 32 long stress histories. The first two use 24 prefix + 32 scored events; stress uses 64 prefix + 128 scored events. Each panel balances four public-rule families. Exact 32-event windows were excluded against supplied replay and accessible prior low-bit fixtures, then across new panels. No collision rejection was needed. Full ancestral data are not all available.
+
+The public rule is explicit: SET completes until CLEAR/RESET, NOOP changes nothing, and the answer is the lowest unfinished index or DONE only if none remain. The model never receives expected masks, labels or future events. Test validity and unedited output correctness are checked separately through independent exact interpretations.
+
+**Freeze:** 45 protocol/source/input files were locked at 2026-10-02 03:33:44 UTC. Every fixed endpoint and journal was sealed in a 192-file endpoint lock at 03:38:11 UTC before confirmation scoring. Local timestamp/hash records are an audit trail, not independently witnessed preregistration.
+
+| Screen | Prospective rule |
+|---|---|
+| EARLY learning | ≥98% event; ≥90% whole; ≥90% initial error reduction; all B correct, score≥.8. |
+| NEW learning | Both reversals initially wrong; all current B correct, score≥.8. |
+| NEW retention | ≤1 pp event loss, ≤2 pp whole loss vs own start; ≤1 newly induced false DONE; 98%/90% floors. |
+| Matched quality | ≤0.5 pp event loss; ≤2 pp whole loss; ≤1 extra false DONE vs matched M32. |
+| Candidate resources | ≥15% saving in declared arrays; timed median ratio≤1.25 in both regimes. |
+
+Each primary regime needs at least three of four parents. Technical and budget checks must pass. Stress is reported separately, not selected in place of a disappointing primary result. No result altered these thresholds. Probability scores are not calibrated reliability guarantees.
+
+<!-- PAGE -->
+## 08. Results: early learning under the Q2 restriction
+
+| Mode | Initial event accuracy | Final correct events | Final whole | False DONE |
+|---|---|---|---|---|
+| 32-bit control | 69.376% | 32,732/32,768 | 1016/1,024 | 1 |
+| 16-bit nearest | 69.028% | 32,760/32,768 | 1022/1,024 | 0 |
+| 16-bit stochastic | 69.028% | 32,742/32,768 | 1016/1,024 | 7 |
+
+All four parents in all modes meet the early-learning criterion. This is substantive progress from roughly 69% initial event accuracy, not the near-perfect preservation tested in pass 58. The known-task learner adjusts to the quantized representation while retaining all original cue answers.
+
+Nearest rounding has the best aggregate primary result here. That does not establish universal superiority: scores differ across initializations and the longer-history test is less favorable to both smaller-copy variants. Stochastic rounding incurs five false-DONE events in parent 4102; this exceeds its allowed difference from the matched M32 control, so that parent fails the paired-quality screen despite otherwise learning.
+
+The final matched-quality parent counts are M32 4/4, nearest 4/4, stochastic 3/4. All source parents remain in the result rather than discarding the weaker stochastic fit. Initial-cast effects are separately saved: M32 begins at 22,733 correct events; the common FP16 cast begins at 22,619.
+
+All percentages refer to 256 underlying confirmation histories evaluated across four inherited parents. Fields, events, checkpoints and method variants are repeated measures. No inferential equivalence or architecture-population claim is made. [New `SUMMARY.json`, per-parent raw arrays.]
+
+<!-- PAGE -->
+## 09. Results: new material and prior competence
+
+| After changed cues | Correct old events | Whole old histories | False DONE | Current B |
+|---|---|---|---|---|
+| 32-bit control | 32,746/32,768 | 1016/1,024 | 7 | 32/32 |
+| 16-bit nearest | 32,746/32,768 | 1012/1,024 | 9 | 32/32 |
+| 16-bit stochastic | 32,740/32,768 | 1013/1,024 | 6 | 32/32 |
+
+All four parents in all three modes acquired both association changes and retained the other six current cue answers. The minimum correct-target score was 0.9731 for M32, 0.9798 for nearest and 0.9755 for stochastic. These are model scores, not calibrated guarantees.
+
+Old-skill retention passes in 3/4 M32 parents, 2/4 nearest parents and 3/4 stochastic parents. Every method retains high pooled accuracy, but individual completion errors matter. Nearest fails in parents 4103 and 4104 because each produces four newly induced false-DONE events; stochastic fails in 4104, with five newly induced false-DONE events and six total. M32 also fails one parent's retention rule.
+
+A retention miss is not automatically caused by low precision. Conversely, the reference's own miss does not excuse a candidate regression in a different parent. The frozen paired comparison keeps both facts visible.
+
+The primary new-association input set contains eight directly supervised cues, not new held-out cue identities. Retention is assessed on independent generated checklist histories. This is a small fixed associative update under concurrent rehearsal, not proof of long-horizon procedure acquisition, repeated accepted nights or a maintenance policy. No acceptance mask repairs the raw answers.
+
+<!-- PAGE -->
+## 10. Every parent, stress, and the actual decision
+
+| Parent | EARLY M32 / nearest / SR | NEW M32 / nearest / SR |
+|---|---|---|
+| 4101 | pass / pass / pass | pass / pass / pass |
+| 4102 | pass / pass / fail | fail / pass / pass |
+| 4103 | pass / pass / pass | pass / fail / pass |
+| 4104 | pass / pass / pass | pass / fail / fail |
+
+These cells include learning, paired quality and (for NEW) old-skill retention. Stochastic has three passes in each regime, but **only parents 4101 and 4103 pass both**. The protocol required three-of-four separately; that screen passes without making the intersecting cohort disappear. Nearest fails the required NEW cohort. Neither result establishes every-parent safety.
+
+| Long stress, final | M32 | Nearest | Stochastic |
+|---|---|---|---|
+| EARLY complete histories | 127/128 | 125/128 | 124/128 |
+| EARLY false DONE | 1 | 1 | 6 |
+| NEW complete histories | 125/128 | 120/128 | 121/128 |
+| NEW false DONE | 1 | 9 | 1 |
+
+The stress panel has only 32 unique histories, repeated across parents. Both smaller-copy modes produce more imperfect long histories than M32. Stochastic's low false-DONE count in NEW does not offset other wrong-next-item answers. No general stability frontier is inferred.
+
+**Decision:** C2 stochastic FP16 meets the declared bounded, separate-regime quality/resource screen. C1 nearest is useful for early preparation but does not pass the new-learning retention cohort. Keep C2 as a candidate and M32 as control; no deployment, broad equivalence, or automatic repair campaign follows. [DECISION.json; exact gates remain in pre-main PROTOCOL.md.]
+
+<!-- PAGE -->
+## 11. Memory: a real saving, not an all-two-bit learner
+
+| Numerical storage | M32 | Either M16 |
+|---|---|---|
+| Matrix/bias masters | 72,996 B | 37,284 B |
+| Gradients | 72,996 B | 72,996 B |
+| M8 optimizer + scales | 37,658 B | 37,658 B |
+| Named subtotal | 183,650 B | 147,938 B |
+| Additional effective tensors | 72,996 B | 72,996 B |
+| Saved backward storages excluding effective | 2,276,520 B | 2,276,520 B |
+
+The named subtotal falls by 35,712 bytes, **19.45%**. No permanent FP32 copy of candidate masters is retained. Including the saved numerical storage union, effective tensors, 48-byte RNG state, 1,024-byte optimizer scratch and 256-byte quantizer scratch gives 2,534,494 versus 2,498,782 bytes: **1.41%** less.
+
+This is a union of observed distinct tensor storages during one graph, not simultaneous allocator peak. Tensor lifetimes overlap differently. Temporary encoding, checkpoints, dictionaries, corpus, source loading, Python and framework allocations remain additional. Main high-water process RSS was about 328 MB. The experiment does not demonstrate a 19.45% reduction in whole RAM or an out-of-memory workload rescued by these changes.
+
+Packed inference remains an 8,001-byte Q2 numerical body, before archive/header overhead. This is independent of master precision. Pass-60 Huffman encoding was not applied to live training state and contributes no saving here.
+
+The much larger saved-activation cost motivates deferred C3, but changing that simultaneously would obscure the current question. The experiment does not establish two-bit activations, two-bit gradients, all-low-bit arithmetic, native low-bit acceleration or scaling to a 20B model. [MEMORY_PROFILES.json; source lifetime contract.]
+
+<!-- PAGE -->
+## 12. Runtime, budgets and small-update behavior
+
+| Median update time | M32 | Nearest | Stochastic |
+|---|---|---|---|
+| EARLY | 8.977 ms | 9.539 ms | 9.779 ms |
+| NEW | 8.609 ms | 9.058 ms | 9.618 ms |
+
+The benchmark uses parent 4101 only, two initial-update warmups and three fresh five-update repetitions per regime/mode. It executes **102 real disposable updates**, including warmups. Nearest is 5.2–6.3% slower; stochastic is 8.9–11.7% slower. Both remain within the frozen 1.25× overhead allowance. This is early-step CPU overhead, not an end-to-end throughput or energy win.
+
+**Actual updates:** 12,288 main +24 preflight +102 timing +24 audit replay = **12,438**, under the 12,576 global ceiling. No main update was interrupted, discarded, repeated or added after confirmation. Five C arithmetic reference steps and non-updating gradient checks are additional non-model engineering work.
+
+Training cores sum to 116.880 seconds; full recorded branch cores to 122.769 seconds. Evaluation sums to 29.703 seconds; fresh audit to 28.976 seconds. Source gathering, compilation, imports, study design, report rendering and packaging are not included in those cores. No energy measurement was made.
+
+Per-update journals retain total/A/B loss, gradient norm/hash, proposed-versus-stored write counters, rounding error, state/RNG hash and actual time. Suppressing fewer tiny updates is not itself success; subsequent behavior is the test. The new results establish genuine learning despite smaller masters, not that every discarded update was harmless or every stochastic write useful.
+
+The freeze allows no transfer of unused audit/preflight budget to extra main learning. All fixed endpoints were evaluated, not selected from learning curves. [ACCOUNTING.json, BENCHMARK.json, updates.jsonl.]
+
+<!-- PAGE -->
+## 13. Numerical stability and preserved warnings
+
+The declared observable-value checks passed: **159,230,400** recorded hidden/logit comparisons, zero tolerance violations, maximum absolute difference **6.71e-12** under 1e-9 + 1e-8 × absolute reference. Fresh-process audit reproduced every saved output and final state exactly. Losses, gradients, stored masters and optimizer state remained finite under the enforced checks.
+
+**Important warning:** during NEW evaluation, the inherited NumPy reference used `1/(1+exp(-x))`. Very negative inputs overflowed `exp(-x)` to infinity; the final sigmoid became finite zero. The warning text is retained in eight main log files. Neither code nor gate was changed to conceal it.
+
+A separately frozen post-result sign-stable sigmoid reference was compared over every evaluated trajectory. It gives the same class decisions and remains within the original tolerance (maximum logit difference 3.04e-12). Repeated gate checks counted **10,587** sites beyond the naive FP64 exponential range; observed preactivations ranged from **-1210.66 to 1481.69**. These counts repeat stages and panels; they are not independent defects.
+
+This explains why an overflowing intermediate can coexist with finite agreeing outputs. It does **not** prove that these highly saturated computations are robust under every input, precision or further learning trajectory. The causes of large gate inputs have not been isolated by a new intervention. The custom optimizer, quantization and learning dynamics remain possible contributors; no causal diagnosis is invented.
+
+**Status:** declared finite-output/gradient/state and numerical-comparison gates passed, with a retained internal-reference warning. Do not summarize this as “no numerical issues” or “every intermediate is finite.” The stable audit is diagnostic confirmation, not retrospective replacement of the frozen original implementation. [failures/NUMERICAL_WARNING_AND_DIAGNOSIS.json; REPLAY_4101–4104.json.]
+
+<!-- PAGE -->
+## 14. Tests, exact answers, audit and reproduction
+
+The exact test inputs, expected finite labels, raw predictions, output scores, final recurrent states, parent and fixture identities are retained for every observation. No generated answer is replaced with a checker result. A set-based interpreter independently recounts the bitmask-derived labels.
+
+The readable sheet uses the predeclared primary indices 0, 64, 128 and 192—one history per family—across all 24 final branch profiles. It shows prefixes as well as scored suffixes. Retrospective first failures are separately labeled; four received explicit same-author dual-review records. This is not independent human review of all cases. The public rule supplies unambiguous answerability, not a general language-semantic oracle.
+
+**Fresh audit:** 336 arrays, 652,224 scored observations, 1,091,520 total events/cues including prefixes, 120 main checkpoints and 120 packed exports verified. All outputs and final states replay exactly. Six four-update suffixes from saved step64 reproduce their original hashes, losses, gradients and RNG progression: **24 actual audit updates**, not free inference. Twenty-four deliberately altered checkpoint copies are rejected. All three fixture files regenerate byte-for-byte.
+
+Only current-stage numerical/scientific outputs were rerun. Historical 55–60 packages were audited for bytes and lineage, not retrained or comprehensively rescored. Frozen 45-file main and 192-file endpoint identities remain unchanged; separately authored post-result audit/report code has its own hash records.
+
+`README.md` gives separate verification, inference audit and fresh-directory training commands. Shipped binaries are Linux/x86-64; rebuilding changes binary identity. PyTorch 2.10.0+cpu, NumPy 2.3.5, Python 3.13.5 and GCC 14.2.0 identify the observed environment. No pretrained download, network inference or real tool action is required. The repository retains code attribution and an unresolved license-review notice, not an unauthorized open-source license.
+
+Internal replay, compatible-environment reruns, external replication and product qualification remain different evidence classes.
+
+<!-- PAGE -->
+## 15. Recommendation, scope and research etiquette
+
+**Keep:** exact source lineage, the practical Q2 forward model, M32/M8 control, both smaller-copy results, every failed parent and numerical warning. C2 stochastic FP16 is the leading bounded candidate because it meets the frozen separate-regime screen while removing actual master storage. C1 nearest should not become a general default merely because its early-preparation aggregate is strongest.
+
+**Do not claim:** general FP16/FP32 equivalence, all-two-bit training, faster training, preserved lifetime plasticity, 20B feasibility, a new procedure learned, or full NSS qualification. Only two common parent identities pass both regimes for C2. High pooled accuracy is not a guarantee that every continued history succeeds.
+
+**Next recommendation—not a dispatch:** independent review of the candidate and the saturated-gate warning, then one separately frozen intervention targeting a measured training cost if further work is authorized. Saved-activation compression is a stronger memory lever on this tiny task than another small master-array reduction, but its gradient and recurrence effects require their own test. No companion integration or post-learning repair begins here.
+
+The current user explicitly authorized this low-bit-training comparison; historical “training later” notes are preserved as former scope, not silently erased. A new request is still needed for another pass.
+
+Good procedure in this package means: make missing evidence visible; identify what was learned versus supplied; keep a competent matched baseline; freeze selection and gates before confirmation; count all updates including warmups and audits; review the test as well as its answer; keep negative results and code defects; show parent-level and complete-task outcomes; distinguish file integrity from correctness; and never make every repaired mistake disappear into a cleaned final score.
+
+Publication remains under the owner's control. No GitHub repository or public release was created. Source/code/checkpoint licensing and private provenance should be reviewed before redistribution.
+
+**Overall conclusion:** meaningful learning with smaller working copies is demonstrated in this bounded mixed-precision system. The strongest candidate meets its prospective screen, but its residual failures and numerical robustness warnings justify retaining the reference and avoiding broader claims.
+
+<!-- PAGE -->
+## 16. Source and reproduction locator index
+
+**Historical sources [P55–P60]:** `provenance/reports/P55_REPORT.md` through `P60_REPORT.md`, their original protocols and README files; all six untouched full archives in the separate records bundle. `COMPLETE_RECORD_INVENTORY.json` lists all 2,909 payloads, not just this selected reading order.
+
+**Lineage:** `SOURCE_ARCHIVE_VERIFICATION.json`, original pass delivery/manifests, `CHECKPOINT_LINEAGE.json`, `SELECTED_STARTS.json`. Exact inherited code lives in `source/inherited_engine.py`, `master16.c`, `kernels.c`, `task.py`.
+
+**New method:** `protocol/PROTOCOL.md`, `CONFIG.json`, `MAIN_LOCK.json`, `ENDPOINT_LOCK.json`; `docs/CANDIDATES.md`; `source/candidate.py`; `tools/prepare.py`, `preflight.py`, `run_one.py`, `evaluate_one.py`, `analyze.py`. The latter result calculation was frozen before outcomes.
+
+**New results:** every branch under `checkpoints/` and `results/`; `SUMMARY.json`, `DECISION.json`, `ACCOUNTING.json`, `MEMORY_PROFILES.json`, `PARAMETER_AND_LOSS_CHANGES.json`, `FIRST_FAILURES.json`. Exact tests and raw answers: `docs/ALL_TESTS.jsonl`, `TESTS_AND_ANSWERS.md`, fixture and output NPZs.
+
+**New audit:** `audit/REPLAY_4101.json` through `REPLAY_4104.json`, `FINAL_AUDIT.json`, `BENCHMARK.json`, all update metering logs, original captured warnings and post-result diagnosis under `failures/`. Post-result code locks identify these additions separately.
+
+**External primary sources (abstract-level mechanism context, not reproduced results):**
+
+[L1] Gupta et al., Deep Learning with Limited Numerical Precision, ICML 2015. https://proceedings.mlr.press/v37/gupta15.html
+
+[L2] Dettmers et al., 8-bit Optimizers via Block-wise Quantization, ICLR 2022 / arXiv:2110.02861v2. https://arxiv.org/abs/2110.02861v2
+
+[L3] Chen et al., ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training, ICML 2021. https://proceedings.mlr.press/v139/chen21z.html
+
+A mechanism precedent is not a transferred result. The custom inherited optimizer is not bitsandbytes; the FP16 experiment is not Gupta's fixed-point system; ActNN is a deferred lead, not an executed NSS activation experiment.

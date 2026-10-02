@@ -1,0 +1,43 @@
+{
+  "record": "PAUSE-NSS-20260926-001",
+  "version": "0.1",
+  "compiled_date": "2026-09-26",
+  "status": "USER_REQUESTED_RESEARCH_PAUSE",
+  "basis": "Current user explicitly requests saving candidates, consolidating direction/target/results, and taking a break.",
+  "allowed_current_work": [
+    "source-grounded documentary consolidation",
+    "document/byte integrity checks",
+    "user-planned review-only Codex reconciliation"
+  ],
+  "not_authorized": [
+    "new models",
+    "new forwards or gradients",
+    "training or repair",
+    "scientific rescoring or adaptive replay",
+    "threshold amendment",
+    "source deletion",
+    "architecture replacement",
+    "phase advancement"
+  ],
+  "phase": {
+    "NBR01": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+    "NBR02": "ACTIVE_TOPIC_EXECUTION_PAUSED",
+    "NBR03": "NOT_DISPATCHED_HERE",
+    "NBR04": "NOT_DISPATCHED_HERE"
+  },
+  "latest_completed_numerical": "NSS_NBR02_STATEBRIDGE01_Execution_v0.2",
+  "latest_qualification": "DIAGNOSTIC_NOT_QUALIFIED_ORIGINAL_NUMERICAL_GATE_FAILED_AND_BEHAVIORAL_ADEQUACY_FAILED",
+  "saved_next_candidates": [
+    "CAND-NBR02-READOUT-SURFACE-001",
+    "CAND-NBR02-STATE-ANCHORED-REPAIR-001",
+    "CAND-STATEBRIDGE-PINNED-TASK-001"
+  ],
+  "next_execution_authorized": false,
+  "statebridge_required_numerical_review": "RET-STATEBRIDGE-NUMERIC-001",
+  "architecture": "Retained role directions; no empirical tri-core or shared-backbone adoption; mechanism-led NBR02.",
+  "codex_scope": "User reports pre-TS01 access; Codex must verify its actual source inventory. This packet covers later documents, not bulk numerical evidence.",
+  "historical_precedence": "Latest explicit instruction governs authority; original study verdicts and source bytes remain unchanged. Copied dispatch text is inert.",
+  "conditional_return": "Earlier skipped NBR01 ticket not uniquely identified; do not equate RET-MW01-FIT-001 with Q010 public identity proposal.",
+  "foundation_return": "FCR-0103-001 preserved after NBR03/before NBR04",
+  "current_work_scope": "No numerical result is created or independently replicated by this consolidation."
+}

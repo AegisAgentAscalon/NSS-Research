@@ -1,0 +1,896 @@
+{
+  "source": "TIMING01",
+  "targets": {
+    "0": 1,
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 1,
+    "7": 1,
+    "8": 0,
+    "9": 1,
+    "10": 0,
+    "11": 1,
+    "12": 1,
+    "13": 0,
+    "14": 0,
+    "15": 1,
+    "16": 1,
+    "17": 0,
+    "18": 1,
+    "19": 0
+  },
+  "conditions": [
+    {
+      "arm": "G",
+      "base": 10,
+      "delay": 0,
+      "fit": 0,
+      "focal": 18,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 2,
+      "transactions": [
+        {
+          "cue": 18,
+          "fillers": [],
+          "receipt": "9bfd401677c73f73",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 2,
+          "fillers": [],
+          "receipt": "1150103d20afe34f",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 18,
+          "fillers": [],
+          "receipt": "74046328d20a76ca",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 18,
+          "fillers": [],
+          "receipt": "43d2c804486c1bac",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 2,
+          "fillers": [],
+          "receipt": "fcba611b7359da63",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 18,
+          "fillers": [],
+          "receipt": "d24a31d8192e6ca3",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base10",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 3,
+      "delay": 0,
+      "fit": 0,
+      "focal": 11,
+      "method": "G",
+      "phase": "development",
+      "protected": 1,
+      "transactions": [
+        {
+          "cue": 11,
+          "fillers": [],
+          "receipt": "8876ad2b3757932e",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 1,
+          "fillers": [],
+          "receipt": "2a1a743f307adff9",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 11,
+          "fillers": [],
+          "receipt": "f116f76df68202cf",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 11,
+          "fillers": [],
+          "receipt": "8a405fa0a0c2050c",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 1,
+          "fillers": [],
+          "receipt": "ee19e4ae3eeb11f0",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 11,
+          "fillers": [],
+          "receipt": "72db7afe314582ab",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base03",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 6,
+      "delay": 0,
+      "fit": 0,
+      "focal": 14,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 6,
+      "transactions": [
+        {
+          "cue": 14,
+          "fillers": [],
+          "receipt": "fc7dae25137fa217",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 6,
+          "fillers": [],
+          "receipt": "a7e1825bbc246172",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 14,
+          "fillers": [],
+          "receipt": "eb6ddbda444757ec",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 14,
+          "fillers": [],
+          "receipt": "493647145c5731d4",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 6,
+          "fillers": [],
+          "receipt": "da819ba66a030d73",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 14,
+          "fillers": [],
+          "receipt": "68186bef9e5e0d0a",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base06",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 2,
+      "delay": 0,
+      "fit": 0,
+      "focal": 10,
+      "method": "G",
+      "phase": "development",
+      "protected": 0,
+      "transactions": [
+        {
+          "cue": 10,
+          "fillers": [],
+          "receipt": "7f872e44b0dc9285",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 0,
+          "fillers": [],
+          "receipt": "6ba9cc43b06910d8",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 10,
+          "fillers": [],
+          "receipt": "079e58cc64e0be78",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 10,
+          "fillers": [],
+          "receipt": "4937b67b3dde360d",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 0,
+          "fillers": [],
+          "receipt": "412d4976f6983ff4",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 10,
+          "fillers": [],
+          "receipt": "dd89abb40420328e",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base02",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 9,
+      "delay": 0,
+      "fit": 0,
+      "focal": 17,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 1,
+      "transactions": [
+        {
+          "cue": 17,
+          "fillers": [],
+          "receipt": "ace04c532506d089",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 1,
+          "fillers": [],
+          "receipt": "2fa2af8abd41935e",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 17,
+          "fillers": [],
+          "receipt": "2b6a106b239e8f40",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 17,
+          "fillers": [],
+          "receipt": "24775ced1de2ba30",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 1,
+          "fillers": [],
+          "receipt": "bf5457e96524f3cd",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 17,
+          "fillers": [],
+          "receipt": "33a34c390f616391",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base09",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 7,
+      "delay": 0,
+      "fit": 0,
+      "focal": 15,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 7,
+      "transactions": [
+        {
+          "cue": 15,
+          "fillers": [],
+          "receipt": "162ea7353e90212b",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 7,
+          "fillers": [],
+          "receipt": "d58482095c80b935",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 15,
+          "fillers": [],
+          "receipt": "f9a2eb8cc6b3546f",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 15,
+          "fillers": [],
+          "receipt": "42a4567f19a98c4d",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 7,
+          "fillers": [],
+          "receipt": "b8bd22b8791d346c",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 15,
+          "fillers": [],
+          "receipt": "f5e9ce6e33f21908",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base07",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 4,
+      "delay": 0,
+      "fit": 0,
+      "focal": 12,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 4,
+      "transactions": [
+        {
+          "cue": 12,
+          "fillers": [],
+          "receipt": "46180f42d399caca",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 4,
+          "fillers": [],
+          "receipt": "cab3728878f78613",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 12,
+          "fillers": [],
+          "receipt": "0fc26560816968db",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 12,
+          "fillers": [],
+          "receipt": "12147dd3f081fee5",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 4,
+          "fillers": [],
+          "receipt": "ef0d9384b7d0fbb8",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 12,
+          "fillers": [],
+          "receipt": "b9203085513253a7",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base04",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 1,
+      "delay": 0,
+      "fit": 0,
+      "focal": 9,
+      "method": "G",
+      "phase": "development",
+      "protected": 5,
+      "transactions": [
+        {
+          "cue": 9,
+          "fillers": [],
+          "receipt": "6d07637e95875a40",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 5,
+          "fillers": [],
+          "receipt": "8e0163ffb33971e4",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 9,
+          "fillers": [],
+          "receipt": "7759deda43dc6cb6",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 9,
+          "fillers": [],
+          "receipt": "0541e1b480712ea0",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 5,
+          "fillers": [],
+          "receipt": "7165038eafd1c1a9",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 9,
+          "fillers": [],
+          "receipt": "f6dde3427fdeb04a",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base01",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 8,
+      "delay": 0,
+      "fit": 0,
+      "focal": 16,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 0,
+      "transactions": [
+        {
+          "cue": 16,
+          "fillers": [],
+          "receipt": "972784f9e5de84ca",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 0,
+          "fillers": [],
+          "receipt": "15f34ac3e0ef1c71",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 16,
+          "fillers": [],
+          "receipt": "e6388655d8f53f05",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 16,
+          "fillers": [],
+          "receipt": "fcd04567166d4077",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 0,
+          "fillers": [],
+          "receipt": "a792705d13a06cff",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 16,
+          "fillers": [],
+          "receipt": "051231fa11dca907",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base08",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 5,
+      "delay": 0,
+      "fit": 0,
+      "focal": 13,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 5,
+      "transactions": [
+        {
+          "cue": 13,
+          "fillers": [],
+          "receipt": "334d842b4bcf9771",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 5,
+          "fillers": [],
+          "receipt": "329c9f60aa59fe59",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 13,
+          "fillers": [],
+          "receipt": "6112a7aa0d4b9fcc",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 13,
+          "fillers": [],
+          "receipt": "cc985d8bb0bda124",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 5,
+          "fillers": [],
+          "receipt": "797e2ae3516b1411",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 13,
+          "fillers": [],
+          "receipt": "e9b3cbac47809213",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base05",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 0,
+      "delay": 0,
+      "fit": 0,
+      "focal": 8,
+      "method": "G",
+      "phase": "development",
+      "protected": 4,
+      "transactions": [
+        {
+          "cue": 8,
+          "fillers": [],
+          "receipt": "f9bee5dd8c2d38f8",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 4,
+          "fillers": [],
+          "receipt": "07d1fb62bd8f5734",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 8,
+          "fillers": [],
+          "receipt": "d201175d7ed1e488",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 8,
+          "fillers": [],
+          "receipt": "1b14fc56f11df710",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 4,
+          "fillers": [],
+          "receipt": "f503e14b6da9ec41",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        },
+        {
+          "cue": 8,
+          "fillers": [],
+          "receipt": "781b55956c19284d",
+          "scope": 0,
+          "target": 1,
+          "wire_base": "base00",
+          "wire_key": "wire/main",
+          "wire_phase": "development"
+        }
+      ]
+    },
+    {
+      "arm": "G",
+      "base": 11,
+      "delay": 0,
+      "fit": 0,
+      "focal": 19,
+      "method": "G",
+      "phase": "heldout",
+      "protected": 3,
+      "transactions": [
+        {
+          "cue": 19,
+          "fillers": [],
+          "receipt": "fa71f9bf0b1ec2ba",
+          "scope": 1,
+          "target": 0,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 3,
+          "fillers": [],
+          "receipt": "f1e7df4b32b2637d",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 19,
+          "fillers": [],
+          "receipt": "0a61927d91bcc434",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 19,
+          "fillers": [],
+          "receipt": "408edcce5d27cc40",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 3,
+          "fillers": [],
+          "receipt": "94f9df2a0f68e112",
+          "scope": 0,
+          "target": 0,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        },
+        {
+          "cue": 19,
+          "fillers": [],
+          "receipt": "79e3e9003e2d72d4",
+          "scope": 1,
+          "target": 1,
+          "wire_base": "base11",
+          "wire_key": "wire/main",
+          "wire_phase": "heldout"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "physical_manifest_entries_verified": 121,
+    "logical_manifest_entries": 168
+  },
+  "no_historical_models_loaded": true
+}

@@ -1,0 +1,10 @@
+{
+  "end_utc": "2026-09-24T16:01:13.763259+00:00",
+  "exit_code": 0,
+  "name": "fixture_replay",
+  "new_optimizer_updates": 0,
+  "pid": 712,
+  "sampled_peak_process_tree_rss_bytes": 335630336,
+  "start_utc": "2026-09-24T16:00:59.751957+00:00",
+  "wall_seconds": 14.011333114000081
+}

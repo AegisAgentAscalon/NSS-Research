@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM01_Execution_v0.2/source/compare.py",
+    "--left",
+    "/mnt/data/NSS_CM01_Execution_v0.2/raw/main/capture_run",
+    "--right",
+    "/mnt/data/NSS_CM01_Execution_v0.2/raw/main/replay_run",
+    "--output",
+    "/mnt/data/NSS_CM01_Execution_v0.2/audit/MAIN_REPLAY.json"
+  ],
+  "ended_epoch": 1790275070.5234554,
+  "name": "main_compare",
+  "optimizer_updates": 0,
+  "peak_sampled_process_tree_rss_bytes": 195268608,
+  "returncode": 0,
+  "sampling_interval_seconds": 0.1,
+  "shared_elapsed_seconds": 780.9241688251495,
+  "stage_seconds": 1.007150411605835,
+  "started_epoch": 1790275069.5163064,
+  "status": "PASS",
+  "stop_reason": null
+}

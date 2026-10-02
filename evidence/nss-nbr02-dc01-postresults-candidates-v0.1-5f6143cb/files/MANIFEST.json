@@ -1,0 +1,41 @@
+{
+  "kind": "DC01 compact-handoff result analysis and unexecuted REV01 proposal",
+  "evidence_tier": "manifest-checked compact handoff; full execution archive not supplied",
+  "members": [
+    {
+      "name": "ANALYSIS.md",
+      "bytes": 4375,
+      "sha256": "fc411482e427038fa969660c76c47fd1c7e0dd6a1ce7b48253315744eb307c9b"
+    },
+    {
+      "name": "CANDIDATES.md",
+      "bytes": 8259,
+      "sha256": "83f4549da95751d2a022314bf3f1f1677c79ed6ea834edb486bd25ed94b64860"
+    },
+    {
+      "name": "CHAT_PROMPT.md",
+      "bytes": 1987,
+      "sha256": "5a519713d46a0670805bbb5a165d31c05746473205ec9fa5c0c17505f754a3e5"
+    },
+    {
+      "name": "EVIDENCE_REVIEW.md",
+      "bytes": 3292,
+      "sha256": "594c4f8b94bc636f52374f3a1dce0a2599f281a1a070dae1499f8d14bed5b9ed"
+    },
+    {
+      "name": "input/NSS_NBR02_DC01_Codex_Handoff_v0.5.zip",
+      "bytes": 52630,
+      "sha256": "da273f6fb74d0e35c409914331d4f4d9198e8fa2d767578a8f95f2fb824cbcb2"
+    },
+    {
+      "name": "metrics_summary.json",
+      "bytes": 8870,
+      "sha256": "9b162b94f34b4be699bbfd5f7c7bba037b0c25c53708f9a92aa3a7624f3b8c50"
+    },
+    {
+      "name": "source_receipt.json",
+      "bytes": 13713,
+      "sha256": "0741769b9d2c95401204bdb74aa80c4b6f8e845cf979008146d8babba367fea7"
+    }
+  ]
+}

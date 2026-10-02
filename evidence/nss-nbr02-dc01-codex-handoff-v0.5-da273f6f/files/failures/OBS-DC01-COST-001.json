@@ -1,0 +1,11 @@
+{
+  "id": "OBS-DC01-COST-001",
+  "status": "OPEN_MEASUREMENT_LIMIT",
+  "observed": "The historical runtime measure walker does not traverse NumPy ndarray.base or autograd-native object graphs. Local trace_steps is a reshape view; its backing diagnostic array can be absent from the reported Python object inventory.",
+  "source": "source/runtime.py Learner.measure/forward/start_cue",
+  "impact": "Do not compare reported Python inventories as complete memory or claim an overall resource win. Scalar/data correctness and separately sampled process-memory caps do not depend on this inventory.",
+  "known_shape": "L stores 3*640 float32 trace_steps, 7680 data bytes, for diagnostics in addition to its final eligibility; actual allocator total was not remeasured.",
+  "available_evidence": "scores/RECORDED_RESOURCE_COMPONENTS.csv, saved graph tensor inventory and supervisor RSS; separate principal trace payload from audit overhead.",
+  "cause_status": "Implementation coverage limitation established by source inspection, not a cause of learning errors.",
+  "repair_proposed": "In a separately versioned instrumentation update traverse ndarray backing bases and count shared storage once, then test a controlled alias fixture. No numerical rerun or hidden score repair here."
+}

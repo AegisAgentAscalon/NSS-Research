@@ -1,0 +1,40 @@
+{
+  "prior_v0.4": {
+    "cell": 1160,
+    "head": 280,
+    "backward": 128,
+    "update_attempt": 240,
+    "update_commit": 240
+  },
+  "new_v0.5": {
+    "primary": {
+      "cell": 165292,
+      "head": 24196,
+      "backward": 2216,
+      "update_attempt": 4424,
+      "update_commit": 4424
+    },
+    "replay": {
+      "cell": 165292,
+      "head": 24196,
+      "backward": 2216,
+      "update_attempt": 4424,
+      "update_commit": 4424
+    }
+  },
+  "total_all_authorized_attempts": {
+    "cell": 331744,
+    "head": 48672,
+    "backward": 4560,
+    "update_attempt": 9088,
+    "update_commit": 9088
+  },
+  "caps": {
+    "cell": 400000,
+    "head": 60000,
+    "backward": 5000,
+    "update_attempt": 9800
+  },
+  "unknown_completion_updates": 0,
+  "historical_science_ledgers_unchanged": true
+}

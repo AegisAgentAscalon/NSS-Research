@@ -1,0 +1,46 @@
+{
+  "kind": "TS03 compact-handoff analysis and unexecuted NBR02 specification proposal",
+  "evidence_tier": "manifest-checked 18-member compact handoff; full execution ZIP not available",
+  "members": [
+    {
+      "name": "ANALYSIS.md",
+      "bytes": 4534,
+      "sha256": "c825491cba67db7eaecaeffc9797766c224b160efa9e059c9fe222fee3eb7cd7"
+    },
+    {
+      "name": "CANDIDATES.md",
+      "bytes": 8976,
+      "sha256": "0b0e2c8ff3b3b7a5ea36528051944ae1bd010c4f6b1f09c0e03d45b056178284"
+    },
+    {
+      "name": "CHAT_PROMPT.md",
+      "bytes": 2475,
+      "sha256": "0ca1e23b9f4f56b784c41092322320430a695704bbcca2830b2a1e70bde42958"
+    },
+    {
+      "name": "CRITIQUE.md",
+      "bytes": 1979,
+      "sha256": "7c97146a330d9858567d87d39b77ebd8fdfa333f855c1c3200570818f907856f"
+    },
+    {
+      "name": "EVIDENCE_REVIEW.md",
+      "bytes": 3722,
+      "sha256": "9b7e77f3ae4c3a9985c120a2051fbc4c3fabca0602a2061c68214568f9b5e040"
+    },
+    {
+      "name": "input/NSS_TS03_CR01_Codex_Handoff_v0.4.zip",
+      "bytes": 47114,
+      "sha256": "38bffa49b2eb8aa621396bdd338c3068db5ca6f4d3a445921953f291de667cb1"
+    },
+    {
+      "name": "metrics_summary.json",
+      "bytes": 4554,
+      "sha256": "d218e21d3b1eea8117a979d6325dd02ecefade1d44386eec2bb7a51011013c09"
+    },
+    {
+      "name": "source_receipt.json",
+      "bytes": 6417,
+      "sha256": "1cdd3e35839f6ede7c52761e1678728f36604f863e7cd31832087377accb90f2"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ENG-STATEBRIDGE-SHAPE-001",
+  "time": "2026-09-26T03:28:25.590872+00:00",
+  "old_disposition": "INCOMPLETE_AT_FIRST_UNTRAINED_FIXTURE_APPLICATION",
+  "error": "torch.Size was called as a function in setflat",
+  "first_observable_boundary": "First tensor reshape, before its copy_ call; no main fit or dataset generated.",
+  "charged": {
+    "update_attempts": 1,
+    "backward_attempts": 1,
+    "cells": 3,
+    "heads": 3
+  },
+  "durable_commits": 0,
+  "attempt_completion": "No durable completion. Source/trace localizes exception before first parameter tensor copy; no restart from this instance.",
+  "evidence_gap": "Failed fixture gradient and post vector were not durably saved; only input recipe, parameter identity and traceback remain. No reconstructed capture presented as original.",
+  "repair": "p.shape() -> p.shape; save fixture initial weights before dispatch; new source lock, fresh numerical instance; no scientific task/budget/seed/threshold changes.",
+  "old_capture_kept": "attempts/v0.1",
+  "scope": "Implementation repair of untrained fixture, not an outcome-based model retry"
+}

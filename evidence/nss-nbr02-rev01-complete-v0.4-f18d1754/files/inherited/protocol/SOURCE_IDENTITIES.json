@@ -1,0 +1,323 @@
+{
+  "reviewed_at_utc": "2026-09-25T04:50:34.538034+00:00",
+  "sources": [
+    {
+      "file": "NSS_NBR02_Theoretical_Candidates_v0.1.zip",
+      "bytes": 65414,
+      "sha256": "78bafe220ad74d01cd268e2f5ad347c49dbdf9a40df1ababc5cf99ace398fc9c",
+      "zip_crc_passed": true,
+      "manifest_members_verified": 9,
+      "members": [
+        {
+          "member": "ANALYSIS.md",
+          "bytes": 3637,
+          "sha256": "ad2a42a9fd1a22049cd76dc9d49421dcbe97c59cd8198e005366a4a2900f7dee"
+        },
+        {
+          "member": "CANDIDATES.md",
+          "bytes": 10240,
+          "sha256": "e615a98d86f15291459276038cbc1895f2a3c56bf9b8136f36e6402b94ddd186"
+        },
+        {
+          "member": "CHAT_PROMPT.md",
+          "bytes": 2086,
+          "sha256": "ab3eea7fca527422666389cf0c9ef4cca825c4f88e0c80a1c2ec3f047eff3c31"
+        },
+        {
+          "member": "MECHANISM_REVIEW.md",
+          "bytes": 3516,
+          "sha256": "4b2fc280b8a025b1f2080c0703ec464f74b7500aa633c026a2c590acb65b5a3d"
+        },
+        {
+          "member": "NETWORK_ACCESS.json",
+          "bytes": 2092,
+          "sha256": "c127c1c9e9f596d1186786e9f4469db2fe71d62695737471a40941e63c8ff63b"
+        },
+        {
+          "member": "PROPOSED_PROTOCOL.md",
+          "bytes": 4248,
+          "sha256": "c87ac5a69415744787d2ed72ccd9261244d550a3b7fcff9d6af97dc842be4b5e"
+        },
+        {
+          "member": "original_inputs/1-NSS_NBR01_Bounded_Closeout_Decision_v0.1.md",
+          "bytes": 8242,
+          "sha256": "367ef84404f826574f4c8a77b78ed9f25c69bc01299a34d9683526463a1a5591"
+        },
+        {
+          "member": "original_inputs/NSS_Research_Log_NBR02_Handoff_v0.1.zip",
+          "bytes": 48987,
+          "sha256": "02aa4432da2945cf36e1e2bf4608faeb6c86cb2e394d0b0d46481ad458676853"
+        },
+        {
+          "member": "source_receipt.json",
+          "bytes": 1082,
+          "sha256": "d90802e269151d2cd76aa17a7e43b544ce39eb9a3b01f2d377b84951ce6a97b3"
+        }
+      ]
+    },
+    {
+      "file": "NSS_NBR02_DC01_Proposal_v0.1.zip",
+      "bytes": 99329,
+      "sha256": "d07f223c0d1c78b4f40ae0d86685e0e50d5975ee7ae2c29de0c98984d202909b",
+      "zip_crc_passed": true,
+      "manifest_members_verified": 16,
+      "members": [
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/00_READ_FIRST.md",
+          "bytes": 1667,
+          "sha256": "dcbe815d514c15b40db43ad51353169afe83fc503eba0cc904c73afa9f009407"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/ARCHITECTURE_DELTA.md",
+          "bytes": 2426,
+          "sha256": "711bc62205fbb1d092fa69322ecff9d6bd559326ab7a87e1ae238bc1953f3fa1"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/CALL_AND_RESOURCE_LEDGER.json",
+          "bytes": 2242,
+          "sha256": "10a89f0e5e6f1077d246930235dce5329ca34b51ad25d069bf1c0e61fb526b24"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/CHAT_PROMPT.md",
+          "bytes": 3778,
+          "sha256": "29a0ff9419826b8ee25eb4d0aa35a7deda3a4c44633c484571e10f378bb3cb67"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/DOCUMENT_QA.json",
+          "bytes": 860,
+          "sha256": "676f449ea43a1c9939d188a9475cb969ba124e68db5a906b9d831d79e9a61800"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/EVENT_AND_SCORE_CONTRACT.md",
+          "bytes": 6318,
+          "sha256": "eff0f9aa4dc1226e83a9be2f960931c522fe3e5aa916183b73238a5ba79b577c"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/NSS_NBR02_DC01_Proposal_v0.1.docx",
+          "bytes": 57923,
+          "sha256": "d22990544fc9f0b6bcee275d0782509da1cd893633fe8880364b7131c6cf364b"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/PLANNING_ENVIRONMENT.json",
+          "bytes": 467,
+          "sha256": "dd4432e711e47bcfbc217fa156e33f4dd3710d79365dbc3fb2a507f5da46f8d2"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/PROGRAM_CONTEXT.md",
+          "bytes": 4733,
+          "sha256": "a3cc2714ac121b8f02b0dc4a7f28ed32d19c35e871431d980dc6df2b8c2322cc"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/PROPOSAL.md",
+          "bytes": 44308,
+          "sha256": "5a06d760176e78e8493016a294839dbe0240ede7d98a50838706482f0d605bb3"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/PROTOCOL.json",
+          "bytes": 3784,
+          "sha256": "1e012361f7c2b8a9bfb7b559c37bbac427f339265dec65defa1de866fb93b1e0"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/REVIEW_CHOICES.md",
+          "bytes": 4825,
+          "sha256": "27a169bb01484ee8e1441704c681176a02aef2ac5efacb19c6e5d7b7551ab9da"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/SEED_RECIPE.json",
+          "bytes": 5389,
+          "sha256": "281618dca8cb5752dabe7a46b42287f187d5b692358d7bd76db4f1d180056c3c"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/SOURCE_IDENTITIES.json",
+          "bytes": 4184,
+          "sha256": "ece768592fc9e2692e565a7601b4212ef66b95cf25e7208eade6f50a5c28143a"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/STATUS.json",
+          "bytes": 607,
+          "sha256": "df84edd9c3efb5c6064cb36eb52ed41192115611a70eba3460ef1182f6d150ad"
+        },
+        {
+          "member": "NSS_NBR02_DC01_Proposal_v0.1/VERIFY_PACKAGE.py",
+          "bytes": 6985,
+          "sha256": "d4f0ce39045da05e00a6aff10254e0bc90c13399f44992530f2a9027e2bc94af"
+        }
+      ]
+    },
+    {
+      "file": "NSS_Failure_First_Instrumentation_v0.1.zip",
+      "bytes": 18699,
+      "sha256": "5bfd62687237014af5f616fae8db92263f673f3401db59ed567f22815a2ed919",
+      "zip_crc_passed": true,
+      "manifest_members_verified": 8,
+      "members": [
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/ADDENDUM.md",
+          "bytes": 19573,
+          "sha256": "7e6a493fdeda58d207b77454a2c45479a5ae9fb9e2e18f3e236697c82806886f"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/CHAT_PROMPT.md",
+          "bytes": 3275,
+          "sha256": "bdff3c473e573aa47c4581eda2b213effd76cf9c2af4d90da3608afc400a2fac"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/FAILURE_RECORD.schema.json",
+          "bytes": 7770,
+          "sha256": "6dfa41738205b600540ba780cc71b2fe8a1148d504f61557f99117f1188f2f0c"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/FAILURE_RECORD_EXAMPLE.json",
+          "bytes": 1242,
+          "sha256": "242f76a82180998c49fcc37f56f5c6433d0855d6b5343c4ae5f5ec628fa8010e"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/FAULT_MATRIX.md",
+          "bytes": 3988,
+          "sha256": "22b71b9e67470eec5b44ff2e3efeb5cb23e1b08b95c5ca31343500d4403c190c"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/README.md",
+          "bytes": 1126,
+          "sha256": "5a73a569285f80718a61a172fee7398e5db1e293ed4f7c996592081bf6f78add"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/SOURCE_IDENTITIES.json",
+          "bytes": 2435,
+          "sha256": "5cc0397ba43b8ae2dd52655d76699b277e6ffcb45be4123bda1fea94482a41f9"
+        },
+        {
+          "member": "NSS_Failure_First_Instrumentation_v0.1/STATUS.json",
+          "bytes": 1178,
+          "sha256": "620e62304b34f48fa6bfdd7f830541da644600626606257a48051945f122e043"
+        }
+      ]
+    },
+    {
+      "file": "NSS_Research_Log_NBR02_Handoff_v0.1.zip",
+      "bytes": 48987,
+      "sha256": "02aa4432da2945cf36e1e2bf4608faeb6c86cb2e394d0b0d46481ad458676853",
+      "zip_crc_passed": true,
+      "manifest_members_verified": 18,
+      "members": [
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/ARCHITECTURE_LOG_DELTA.json",
+          "bytes": 1313,
+          "sha256": "fe33b59df2035410b06eab7d098184031e5b25f4d4367bbc7b362670f45bead0"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/CHAT_PROMPT.md",
+          "bytes": 5638,
+          "sha256": "bdbcd96d7edc5afc324191c0d685235656016360cd6e4c5bd6a9a00756a7b9c3"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/CLOSEOUT_DECISION_STATUS.md",
+          "bytes": 2703,
+          "sha256": "79c67c80c1d1e9626d818ea4392d32a4ae93d82b1cfbd38a1cd12126cd3cc3e6"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/NBR02_DC01_REVIEW.md",
+          "bytes": 9946,
+          "sha256": "5b9aedc38ed00a07e1614e104585dc000a9c1139d6dc94ccfd9fe9795a6ebffe"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/PROGRAM_CLOSEOUT_AND_REVIVED_QUESTIONS.md",
+          "bytes": 9363,
+          "sha256": "24f965293d88bd60e8a4870f849191e3918fb8133c8df1c7edb4cd36595747bd"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/README.md",
+          "bytes": 2766,
+          "sha256": "c8d80ae8463e4f50fac122ba247d2602dbdb820f589bb2f1ac0e832bb7759fe3"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/REGISTERS.json",
+          "bytes": 2919,
+          "sha256": "c6ca99cd5ceba64cea631ddb53f9398f20d2083518fd95394ed762d1ac4944ac"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/RESEARCH_LOG.md",
+          "bytes": 5917,
+          "sha256": "83c232375e1c53a5f60c54218fbfa425c4cec2fe763ed6f3385b546f45c62f66"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/RETURN_TICKET_MW01.md",
+          "bytes": 6811,
+          "sha256": "e88887eb5ea2f74d6f78d97301d5e15e6e472eb417a1bba8fa8ae462503fbaf5"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/SOURCE_IDENTITIES.json",
+          "bytes": 3284,
+          "sha256": "05f8d78e4276a245982a470c69f24866f53cf72ab959602fb05ce28be00fa6c9"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/STATUS.json",
+          "bytes": 1262,
+          "sha256": "3247186812b96705f31009453f51493e53ec98ff7026c91b8a80dd4f44beac9d"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/VERIFY_LOG.py",
+          "bytes": 2797,
+          "sha256": "4fa893e19e74c70eb0000f27929e369b81c688ab901c2e8b9297947cbcf397f7"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/CKA01_REPORT.md",
+          "bytes": 14716,
+          "sha256": "8f84ec10b0879f9be1e43288996efb83f3306ab5b5827e5ef58e34bfc0a3dcf4"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/CODEX_ANALYSIS.md",
+          "bytes": 4534,
+          "sha256": "c825491cba67db7eaecaeffc9797766c224b160efa9e059c9fe222fee3eb7cd7"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/CODEX_CANDIDATES.md",
+          "bytes": 8976,
+          "sha256": "0b0e2c8ff3b3b7a5ea36528051944ae1bd010c4f6b1f09c0e03d45b056178284"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/CODEX_CRITIQUE.md",
+          "bytes": 1979,
+          "sha256": "7c97146a330d9858567d87d39b77ebd8fdfa333f855c1c3200570818f907856f"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/CODEX_REVIEW_REQUEST.md",
+          "bytes": 2475,
+          "sha256": "0ca1e23b9f4f56b784c41092322320430a695704bbcca2830b2a1e70bde42958"
+        },
+        {
+          "member": "NSS_Research_Log_NBR02_Handoff_v0.1/evidence/NBR01_CLOSURE_PROPOSAL.md",
+          "bytes": 8585,
+          "sha256": "4a05b22eabc9d352579551128c8f11f6a15bb05de77fa1e7c56a200a8e596dc8"
+        }
+      ]
+    },
+    {
+      "file": "NSS_NBR01_Bounded_Closeout_Decision_v0.1.md",
+      "bytes": 8242,
+      "sha256": "367ef84404f826574f4c8a77b78ed9f25c69bc01299a34d9683526463a1a5591",
+      "scope": "identified existing document; no historical numerical rerun"
+    },
+    {
+      "file": "NSS_Architecture_Ledger_v0.1/ARCHITECTURE.md",
+      "bytes": 57993,
+      "sha256": "478ea35c8b3bc59a111e06c2c13c4f584fa17ac2ffabdb8b3727a128bfe71be6",
+      "scope": "identified existing document; no historical numerical rerun"
+    },
+    {
+      "file": "NSS_Checkpoint_Generalization_Audit_v0.2/REPORT.md",
+      "bytes": 14716,
+      "sha256": "8f84ec10b0879f9be1e43288996efb83f3306ab5b5827e5ef58e34bfc0a3dcf4",
+      "scope": "identified existing document; no historical numerical rerun"
+    },
+    {
+      "file": "CHAT_PROMPT (3).md",
+      "bytes": 2086,
+      "sha256": "ab3eea7fca527422666389cf0c9ef4cca825c4f88e0c80a1c2ec3f047eff3c31",
+      "scope": "identified existing document; no historical numerical rerun"
+    }
+  ],
+  "scientific_verification_performed": false,
+  "source_manifest_checks_are_byte_checks": true,
+  "external_literature_review_performed": false
+}

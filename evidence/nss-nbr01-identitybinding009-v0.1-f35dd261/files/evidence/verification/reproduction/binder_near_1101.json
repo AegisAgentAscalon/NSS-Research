@@ -1,0 +1,80 @@
+{
+  "batch": 128,
+  "checkpoint_sha256": "2181a5a3e9a9ee6c6d3375a4c407f850f6d591f4f5e3a68c81d031b0f50eb2f8",
+  "data_checks": {
+    "1": "6848f455ccee2d4472b963910cc4aac57d45d3c9be2fb2f031037882becc44aa",
+    "1200": "af760c1591a59ad270ea1aee0aba6038117f96a46383e8dd8fe8d6ec4bff6099",
+    "601": "579186c8a41f1f9e2fd8fee978d778ee7f8ef51b8b7927f4c10a1f0dc0b2416e"
+  },
+  "development": false,
+  "end_utc": "2026-09-21T19:05:27.528626+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 992,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T19:05:27.528691+00:00"
+  },
+  "examples": 153600,
+  "final_weight_hash": "e9b543859149084cd1adee3b70e7fdf480a66a97d7bcc666969138112b21cfd8",
+  "fit_seconds": 4.242823788000123,
+  "history": [
+    {
+      "accuracy": 0.6796875,
+      "loss": 1.6696765422821045,
+      "seconds": 0.00896673300007933,
+      "step": 1
+    },
+    {
+      "accuracy": 0.7578125,
+      "loss": 0.5807734131813049,
+      "seconds": 0.7440362290001303,
+      "step": 200
+    },
+    {
+      "accuracy": 0.7421875,
+      "loss": 0.6188127398490906,
+      "seconds": 1.549517116000061,
+      "step": 400
+    },
+    {
+      "accuracy": 0.7578125,
+      "loss": 0.5651764273643494,
+      "seconds": 2.2022211900000457,
+      "step": 600
+    },
+    {
+      "accuracy": 0.8515625,
+      "loss": 0.48119303584098816,
+      "seconds": 2.8238814700000603,
+      "step": 800
+    },
+    {
+      "accuracy": 0.765625,
+      "loss": 0.48562532663345337,
+      "seconds": 3.610884593000037,
+      "step": 1000
+    },
+    {
+      "accuracy": 0.8046875,
+      "loss": 0.5097000002861023,
+      "seconds": 4.241227127000002,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "0870d3c59e9aade92ccfa976a986172423c9dc1ce8b3b665a8c60a56ff18ab67",
+  "kind": "near",
+  "lr": 0.002,
+  "optimizer": "AdamW",
+  "pair": 1,
+  "parameters": 818,
+  "scale": 80.0,
+  "seed": 1101,
+  "start_utc": "2026-09-21T19:05:23.285824+00:00",
+  "steps": 1200,
+  "threshold": 0.97942715883255,
+  "weight_decay": 0.0001
+}

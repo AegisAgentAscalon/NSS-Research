@@ -1,0 +1,29 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/NSS_CM02_Execution_v0.4/src/capture.py",
+    "--kind",
+    "fixture",
+    "--input",
+    "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/input",
+    "--output",
+    "/mnt/data/NSS_CM02_Execution_v0.4/raw/fixture/capture_run/capture"
+  ],
+  "failure": null,
+  "poll_interval_seconds": 0.05,
+  "returncode": 0,
+  "sampled_cgroup_peak_bytes": 1665396736,
+  "sampled_process_tree_peak_rss_bytes": 562831360,
+  "samples": 144,
+  "shared_wall_seconds": 1177.3140997886658,
+  "stage": "fixture_capture",
+  "stage_wall_seconds": 7.346664190292358,
+  "status": "PASS",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "total_recorded_attempted_forwards": 90
+}

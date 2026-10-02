@@ -1,0 +1,1417 @@
+{
+  "schema": "nss.research-checklist.v1",
+  "version": "0.19",
+  "as_of": "2026-09-29",
+  "purpose": "Prioritized running checklist with ELI5 explanations and source-bound historical dispositions.",
+  "goal": "A competent local companion; stable serving during use, useful bounded maintenance; not RSI/frontier or mandatory tri-core.",
+  "status_rule": "A completed feasibility is not a confirmed lifecycle. Keep adopted learning, deferred learning and old-task retention separate; preserve historical failed gates.",
+  "current_task": "CYCLE01-B",
+  "current_task_status": "NEXT_LONGER_PROTOCOL_AND_RESERVED_RUN_NOT_STARTED",
+  "last_completed_task": "CYCLE01-A",
+  "queue": [
+    {
+      "id": "MEM01",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_HANDOFF_DIAGNOSTIC_READER_LIMITED",
+      "eli5": "Save the work, restart later, and check that the right unfinished tasks and current facts survive.",
+      "next_action": "Retain handoff and ordinary scoped retrieval; proceed to PREP01 specification, not further automatic reader training. No broad companion or changed-weight continuation qualification.",
+      "sources": [
+        "PLAN",
+        "CODEX",
+        "LAB02_BIND",
+        "DUAL_REVIEW",
+        "MEM01_ROUTE_DECISION"
+      ],
+      "dependency": "Freeze exact models/interfaces and fair explicit task/evidence/retrieval contracts in a versioned protocol before execution. Broad language COMP01 competence is not claimed; the restricted route is not completion of the original language-qualified MEM01.",
+      "result": "Frozen3LAB02-BINDmixed readers;3888responseobservations,0updates. DIRECT/FULL413/864post-break completeanswers,COMPACT504/864(+10.53pp);150gain/59loss;allthreeparentsgain. Wholefour-answerresume8/216allpolicies.1944recordchecks0loss;2592packetreplaysand432snapshotrestores exact. Current-status errors remain;ordinary scoped lookup supplies benefit,not newreaderlearning.23preflightgroups;3888recounts/fullreplays;41580sample precisionvaluespass. One audit-calltimeout, maincomplete; partialauditworkunknown."
+    },
+    {
+      "id": "COMP01-A",
+      "priority": 0,
+      "status": "COMPLETE_ENGINEERING_ONLY",
+      "eli5": "Build the exam and check that its marking works before testing the companion.",
+      "next_action": "Completed in this package: protocol, fictional histories, exact-field scorer and fault checks. No model run.",
+      "sources": [
+        "PLAN",
+        "CODEX",
+        "CURRENT"
+      ],
+      "dependency": null
+    },
+    {
+      "id": "LAB01",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_REFERENCE_NOT_READY",
+      "eli5": "Extend our own small reader so it can use simple evidence and corrections, then test it on unseen histories.",
+      "next_action": "Completed three fresh AR readers. Inspect binding/wording failures; no family met the working point. Preserve all outputs/checkpoints; no post-confirmation tuning.",
+      "sources": [
+        "ROUTE_20260928",
+        "CODEX",
+        "DARP",
+        "HISTORY"
+      ],
+      "dependency": "Versioned restricted-task interface, bounded feasibility and execution contract; not an external download."
+    },
+    {
+      "id": "LAB02-SIZE",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CONSISTENT_WIDTH_GAIN",
+      "eli5": "Give the same reader a little more room and see whether better answers justify the added cost.",
+      "next_action": "Nine fresh fits completed. Supported833/1536,825/1536,844/1536 by width64/72/80; no family qualified. Preserve all outcomes; no automatic fourth size or extra training.",
+      "sources": [
+        "LAB01",
+        "LAB02_SIZE_PLAN"
+      ],
+      "dependency": "Completed on user dispatch; same ordinary preparation across three modest widths."
+    },
+    {
+      "id": "LAB02-BIND",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CURRICULUM_GAIN",
+      "eli5": "Teach the reader which fact belongs to which project and time before relying on it for memory.",
+      "next_action": "Preserve all models, corrected fixtures and reviews; park this staged schedule. MEM01 will separate reader errors from additional information/handoff losses.",
+      "sources": [
+        "LAB01",
+        "TEMPORAL_REVIEW",
+        "DUAL_REVIEW"
+      ],
+      "dependency": "Public-wording, evidence-entailment and output-contract review; versioned candidate corpus and fresh confirmation if training later proceeds.",
+      "result": "Six fresh paired readers; mixed757/1536(49.28%),staged734/1536(47.79%) supported answers. Staged lower in all3pairs. No family working point. Explicit new rules and full raw test/answer traces; finite-grammar review of9984outputs and manual64items/384responses. No old scores changed."
+    },
+    {
+      "id": "LAB-READER-DECISION",
+      "priority": 0,
+      "status": "ROUTE_SELECTED_READER_PREPARATION_PARKED",
+      "eli5": "Decide how to get an informative research reader without repeatedly training the same weak one.",
+      "next_action": "Proceed to a bounded MEM01 mechanism comparison. Preserve all LAB reader failures; no new size or curriculum campaign by default. Do not claim COMP01-B competence.",
+      "sources": [
+        "LAB02_BIND",
+        "CODEX",
+        "MEM01_ROUTE_DECISION"
+      ],
+      "dependency": "LAB02-BIND complete; no family reached its working point."
+    },
+    {
+      "id": "LAB-SEMANTIC-REVIEW",
+      "priority": "standing",
+      "status": "NEW_CORPUS_REVIEW_COMPLETE_RETROSPECTIVE_REVIEW_PENDING",
+      "eli5": "Check whether the exam is fair as well as whether each answer follows what the exam actually says.",
+      "next_action": "Retain historical temporal review; new SUPPORT01 status-field scope defect and per-response notes recorded. Do not equate exact training-code matching with fully supported English. No automatic historical regrading or new training.",
+      "sources": [
+        "TEMPORAL_REVIEW",
+        "DUAL_REVIEW"
+      ],
+      "dependency": "Exact retained prompts, raw responses and original grading references; the initial targeted temporal source review is not the full audit."
+    },
+    {
+      "id": "COMP01-B",
+      "priority": "deferred parallel route",
+      "status": "DEFERRED_MODEL_SELECTED_ACQUISITION_BLOCKED",
+      "eli5": "Can an actual language model answer with the right page in front of it, then find that page in a notebook?",
+      "next_action": "Retain the approved pinned135M/conditional360M setup. No laptop download is a prerequisite for the immediate bounded MEM01 route. Language-reference evaluation remains unrun and acquisition-blocked on the inspected host; do not infer a fresh availability check.",
+      "sources": [
+        "PLAN",
+        "CODEX",
+        "COMP01B_SETUP"
+      ],
+      "dependency": "Deferred approved, pinned SmolLM2-135M reference (one conditional360M fallback); acquisition on a network-capable host. Not a prerequisite for the internal LAB route; no new choice or consent needed.",
+      "readiness_artifact": "NSS_COMP01B_Readiness_v0.1.json"
+    },
+    {
+      "id": "PREP01",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_WORKSHEET_TRADEOFF_NO_ADVANCE_GAIN",
+      "eli5": "Try preparing a source-linked task sheet before questions arrive, then check whether that helps more than ordinary retrieval or making/caching the same sheet when asked.",
+      "next_action": "Park eager generic sheets as default. Next proposed bounded lead: select the supporting records for the actual question, with simple lookup and answer-only controls; no gold at inference. Then repeated learning cycles; do not require a perfect language reader.",
+      "sources": [
+        "PLAN",
+        "MEM_READER_LIT_REVIEW"
+      ],
+      "dependency": "MEM01 record/evaluation path",
+      "result": "Three unchanged99674parameterreaders;5472main responses. RAW818/1368(59.80%) vsall3sheetpolicies790/1368(57.75%);all3readersdecline,163gains191losses. Falsecompletion54→14butdone-worksuggestions330→384. Identicalsheetqualitybefore/afterquery;ADVANCEslowerthanCACHEinall9timingmedians,highreuseratio1.043. Exposedgold-supportdiagnostic41/72→58/72(mainlystatus22/36→36/36,work19/36→22/36);notdeployable.0updates.5472main+288diagnosticrecounts,5472freshreplays,576restores,73920sampleprecisionvaluespass.21preflightgroupsafterpreservedcopybug;postresultaudittypemismatchcorrectedseparately."
+    },
+    {
+      "id": "CYCLE01-B",
+      "priority": 1,
+      "status": "NEXT_LONGER_PROTOCOL_AND_RESERVED_RUN_NOT_STARTED",
+      "eli5": "Test whether learning keeps accumulating over several nights instead of proving only one successful update.",
+      "next_action": "One longer, freshly evaluated CYCLE01-B comparison; bind an equal-B-exposure control and separate screening from reserved evaluation before running.",
+      "sources": [
+        "PLAN",
+        "CYCLE01_A"
+      ],
+      "dependency": "Usable evaluation and bounded learning baseline"
+    },
+    {
+      "id": "ADAPT01",
+      "priority": 3,
+      "status": "CONDITIONAL_CANDIDATE_NOT_RUN",
+      "eli5": "Try one way to make learning less disruptive without stopping useful learning.",
+      "next_action": "First lead: activity-subspace computation-preserving updates; one mechanism and proper control at a time.",
+      "sources": [
+        "PLAN"
+      ],
+      "dependency": "Observed interference or a separately scoped mechanistic question"
+    },
+    {
+      "id": "BUDGET01",
+      "priority": 4,
+      "status": "CONDITIONAL_MAY_MOVE_EARLIER",
+      "eli5": "Make a useful learner fit the available memory and compute instead of shrinking numbers blindly.",
+      "next_action": "Measure the actual blocker; change one optimizer/state/precision mechanism and charge all hidden state.",
+      "sources": [
+        "PLAN"
+      ],
+      "dependency": "Measured resource bottleneck; may precede other stages"
+    },
+    {
+      "id": "INT01",
+      "priority": 5,
+      "status": "QUEUED_NOT_RUN",
+      "eli5": "Combine only the pieces that actually make the companion better.",
+      "next_action": "Compare the selected system against a simple competent reference over whole interaction/maintenance cycles.",
+      "sources": [
+        "PLAN"
+      ],
+      "dependency": "Useful individual components, not perfection in every old task"
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "priority": 0,
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_PRIMARY_GAIN_OUTPUT_CONTRACT_LIMIT",
+      "eli5": "Teach one small reader which notes support its answer; compare it with answer-only practice and an ordinary question-aware index.",
+      "next_action": "Park automatic reader preparation. Retain ordinary lookup and explicit source/action diagnostics; CYCLE01 specification next using a declared restricted competent reference and unambiguous public fields.",
+      "sources": [
+        "READER_SUPPORT01_REPORT",
+        "READER_SUPPORT01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "dependency": "Use an explicit public task contract, preserve sample limits and old data exposure. Not a new scale/curriculum/DARP campaign; not a mandatory prerequisite to a separately scoped CYCLE01.",
+      "result": "Six fresh106615parameter readers; A answer-only vs S answer+source loss. Supported five-field A586/1536(38.15%),S521/1536(33.92%); no primary gain, parent differences−11.91/−3.91/+3.13pp. A keepsall, S exactsupport808/1536 but answers287/808ofthosecorrect. PublicLOOKUPA769/1536,S692/1536; retrospective namedstatusfactAlookup768/768 is notcompletehandoff. Positivecompletion136→89,done-worksuggestions235→341; wholefouranswers0→9/384. Publicstatusancillaryfieldscopeunderspecified; rawkeyandsynonym/reviewkeptseparate.29952recounts,576freshreplays,42912sampleprecisionvaluespass,30maincheckpointsverified.9600logicalmain;9808–9809actualmain+12preflight afterrecorded208steptailreplay. No follow-up fitting.",
+      "evidence_type": "fresh paired training and inference; exact finite-contract scoring plus144same-author reviews; sampled numerical checks; output-scope limitation retained"
+    },
+    {
+      "id": "CYCLE01-A",
+      "priority": 0,
+      "status": "COMPLETE_DEVELOPMENT_FEASIBILITY_PROMISING_SIGNAL",
+      "eli5": "Let a copy learn at night, check it, then use the accepted version and its unfinished work the next day.",
+      "result": "Four source parents, two nights, FIXED/LEARN/REPLAY/BALANCED.2048development+7disposableupdates;0newfits. Balanced5/8adoptions,allfourend32/32currentcueanswers,4087/4096guardanswers,2046/2048liveanswers,30/32entiretwo-dayhistories,0livefalseDONE.Only4103acceptedbothnights. ExtraBexposureconfounded;allmaterialdevelopment.232savedoutputsreplayedexact,160checkpointfilesverified;9,304,960evaluationnumericcomparisons0violationsinnewfloat64contract. Onecallerinterruption,resume32missingupdatesatprovenphasebarrier,0repeatedupdates;discardedinference/time/RSSunknown.",
+      "next_action": "Freeze one longer comparison on fresh reserved tasks; add B96-only control for extra B practice. Do not repeat tiny-reader sweeps.",
+      "sources": [
+        "CYCLE01_A",
+        "RECOVER",
+        "PLAN"
+      ],
+      "evidence_type": "new internal two-night development/engineering study, not confirmatory main or product qualification"
+    }
+  ],
+  "optional_and_returns": [
+    {
+      "id": "DIRECT01",
+      "priority": "optional after COMP01",
+      "status": "SPEC_READY_CONDITIONAL_NOT_RUN",
+      "eli5": "Can the model write a whole structured block at once instead of one field at a time?",
+      "next_action": "Train matched new AR and parallel heads only when a capable shared representation and output question are bound.",
+      "sources": [
+        "CODEX",
+        "DIRECT"
+      ],
+      "dependency": "COMP01 competence or separately authorized mechanism-only route"
+    },
+    {
+      "id": "BALANCE01",
+      "priority": "optional before/within CYCLE01",
+      "status": "PROPOSAL_ONLY_NOT_RUN",
+      "eli5": "While rehearsing old skills, also practice the new correct answer, possibly with gentler updates.",
+      "next_action": "Use the original bounded comparison or explicitly adapt it into CYCLE01; do not do both just to duplicate evidence.",
+      "sources": [
+        "BALANCE",
+        "PLAN"
+      ],
+      "dependency": null
+    },
+    {
+      "id": "SURFACE01-FACTORIAL",
+      "priority": "conditional diagnostic",
+      "status": "NOT_RUN_AFTER_BASELINE_STOP",
+      "eli5": "Which part of a weight update breaks an unfinished task: the reader or the state updater?",
+      "next_action": "Reopen only when update location is decision-relevant; the original parent admission stopped the comparison.",
+      "sources": [
+        "SURFACE",
+        "PLAN"
+      ],
+      "dependency": null
+    },
+    {
+      "id": "NUM-STATEBRIDGE-RECOVER",
+      "priority": "conditional prerequisite",
+      "status": "OPEN_HISTORICAL_GATE_FAILURE",
+      "eli5": "Do two implementations agree well enough to trust this old learning path?",
+      "next_action": "Diagnose exposed cases and prospectively justify verification before qualifying reused paths; do not erase old failures.",
+      "sources": [
+        "HISTORY",
+        "RECOVER",
+        "PLAN"
+      ],
+      "dependency": null
+    },
+    {
+      "id": "RET-MW01-FIT-001",
+      "priority": "parked return",
+      "status": "OPEN_PARKED",
+      "eli5": "Why did the older workspace learner fail to learn and transfer its task?",
+      "next_action": "Revisit only for a named dependency or the foundation checkpoint.",
+      "sources": [
+        "HISTORY",
+        "PLAN"
+      ],
+      "dependency": null
+    },
+    {
+      "id": "FCR-0103-001",
+      "priority": "after NBR-03 / before NBR-04",
+      "status": "REQUIRED_RETURN_NOT_YET_DUE",
+      "eli5": "Review what the foundation still needs before moving to the next major research area.",
+      "next_action": "Preserve the named checkpoint and explicitly defer nonblocking old issues; not a demand for perfect old prototypes.",
+      "sources": [
+        "HISTORY",
+        "PLAN"
+      ],
+      "dependency": null
+    }
+  ],
+  "previous_tasks": [
+    {
+      "id": "Q001",
+      "eli5": "Can a tiny memory keep a symbol while distractions arrive?",
+      "result": "Short tasks worked; long distraction exposed decay. Exact memory remained a strong control.",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain the persistence/distractor tests; no rerun.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q002",
+      "eli5": "Can addressed memory know both a value and when nothing is known?",
+      "result": "Prepared/gated versions could retain records; short preparation and poorly calibrated admission failed.",
+      "status": "COMPLETED_DIAGNOSTIC",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse UNKNOWN and event-admission distinctions.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q003",
+      "eli5": "Can noisy memories be repaired without inventing missing ones?",
+      "result": "Denoising improved known values but could destroy UNKNOWN. Simple exact controls were stronger.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain absence/novelty controls, not denoising as proof of truthful memory.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q004",
+      "eli5": "Can memory remain empty, then be written, corrected, cleared and rewritten?",
+      "result": "Protected presence worked narrowly; neural alternatives retained failures.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse lifecycle tests.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q005",
+      "eli5": "Should knowing that a memory exists be separate from its contents?",
+      "result": "Separate presence lanes worked, but did not beat simple controls.",
+      "status": "COMPLETED_NO_UNIQUE_GAIN",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the separation; no architecture win inferred.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q006",
+      "eli5": "Can a reader follow links through records with more thinking steps?",
+      "result": "Structured readers followed longer clean chains with more rounds; noise broke binding.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse relation-depth fixtures; not broad reasoning qualification.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q007",
+      "eli5": "Can stored reference codes repair damaged records?",
+      "result": "Registered records recovered; unfamiliar identities could be forced into false familiar answers.",
+      "status": "COMPLETED_MIXED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep novelty tests and exact source identity.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q008",
+      "eli5": "Can a gate reject unfamiliar identities without rejecting recoverable memories?",
+      "result": "False acceptance fell, but valid known coverage suffered; joint gates failed.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the tradeoff; no preferred gate established.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q009",
+      "eli5": "Can almost-identical people or records be kept from overwriting each other?",
+      "result": "Exact ownership worked; learned close-identity readers/binders remained weak.",
+      "status": "COMPLETED_BOUNDED_REFERENCE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse exact ownership; keep learned-binding gap open.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q010-ORIGINAL",
+      "eli5": "Was the original broader qualification reproducible from retained evidence?",
+      "result": "Original report remains historical; essential original training/code/checkpoint bytes were missing in the documented inventory.",
+      "status": "REPORT_ONLY_ORIGINAL_PAYLOAD_GAP",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not relabel reconstructed weights as originals.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "Q010-RECOVERY-v1.6",
+      "eli5": "Can the recovered reference at least be evaluated at fixed weights?",
+      "result": "Bounded reconstructed inference/state evidence accepted; close-identity and novel-query limitations remained.",
+      "status": "CLOSED_BOUNDED_RECOVERED_EVIDENCE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Preserve closure scope; no restoration of missing original training.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "CM01",
+      "eli5": "Can a small explicit reference packet help the reader identify the right record?",
+      "result": "Reference assistance helped noisy cases; exact lookup stayed a strong control.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse references; bytes are not language tokens.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "CM02",
+      "eli5": "Is a little context packet better than an ordinary index with the same information?",
+      "result": "Packet and index tied; retaining selection information mattered more than its format.",
+      "status": "COMPLETED_NO_FORMAT_ADVANTAGE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep ordinary index baseline.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TS01",
+      "eli5": "Can a recurrent state track two checklists?",
+      "result": "Yes on a narrow fixed-weight task with supplied routing/no-op handling; exact tracking also worked.",
+      "status": "COMPLETED_BOUNDED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse temporal-state baseline; not learned task routing.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TS02-MW01",
+      "eli5": "Do small metadata tokens improve revision-aware progress tracking?",
+      "result": "Some pooled gains, but reliability and stale/false-completion gates failed.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Retain under RET-MW01-FIT-001.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TS03-CR01",
+      "eli5": "Does a revised curriculum fix the workspace learner?",
+      "result": "Coverage, interaction, reliability and final-advantage screens failed despite correct bindings in some cases.",
+      "status": "COMPLETED_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not mistake correct identity labels for correct procedures.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "CKA01",
+      "eli5": "Did the task learner forget later, or never learn adequately?",
+      "result": "Saved-checkpoint analysis found substantial fitting/transfer weakness, not an early-stop rescue.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep as diagnostic; no new training in this audit.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DC01-v0.4",
+      "eli5": "Can the delayed-feedback experiment fit its evidence budget?",
+      "result": "Storage forecast stopped main work before learning evaluation.",
+      "status": "TECHNICAL_PREFLIGHT_STOP",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Historical stop preserved; v0.5 is separately identified.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DC01-v0.5",
+      "eli5": "Can a correctly identified delayed signal teach a new association?",
+      "result": "Bounded identified delayed updates worked; general temporal credit and total cost remain open.",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Use as a limited mechanism reference; raw archive availability remains source-reported.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "REV01",
+      "eli5": "Does a stronger correction teach faster?",
+      "result": "Faster first correction, but old-confidence damage and some old-label errors prevented complete qualification.",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Do not adopt larger updates merely from faster acquisition.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "PROTECT01",
+      "eli5": "Can a projected update protect old answers while learning?",
+      "result": "Projection had a development tradeoff; acquisition admission stopped held-out work.",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Not the later activity-subspace method.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "REHEARSE01",
+      "eli5": "Can old-example practice repair damage from a strong correction?",
+      "result": "Stopped at development admission; useful old-loss effects did not qualify the whole rule.",
+      "status": "STOPPED_AT_DEVELOPMENT_ADMISSION",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep the old/new competition evidence.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "ANA-REHEARSE01",
+      "eli5": "What do the saved rehearsal gradients and losses explain?",
+      "result": "Retained-data analysis supported old/new competition; it did not run another repair policy.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse diagnosis rather than retrain to fill documentation.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TIMING01",
+      "eli5": "Should replay happen early or after later feedback?",
+      "result": "Endpoints improved in many cases, but full-trajectory confidence requirements failed.",
+      "status": "COMPLETED_TRADEOFF_GATE_FAILED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep transient harm separate from final recovery.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "ANA-TIMING01",
+      "eli5": "Did favorable endpoints hide damage during the update sequence?",
+      "result": "Retained analysis preserved the original failures and exposed worse peaks.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Measure both temporary candidate harm and accepted behavior.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "MICROMACRO01",
+      "eli5": "Can one bounded learn-and-repair cycle retain a gain through later feedback?",
+      "result": "A narrow cycle contract passed; stricter criteria failed. Not indefinite successive generations.",
+      "status": "COMPLETED_BOUNDED_CYCLE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse as a cycle ingredient, not a complete day/night system.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TEACH01",
+      "eli5": "Does a stable teacher help when direct replay misses old examples?",
+      "result": "Modest report-level benefit; complete old records and ordinary controls were strong.",
+      "status": "COMPLETED_BOUNDED_REPORT_LEVEL",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Does not justify a separate Tertiary; preserve source-availability limits.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "C00-CONTRACT01",
+      "eli5": "Can the software safely review and record a proposed change?",
+      "result": "Authored transaction/contract checks worked after a preserved bug fix; no neural reviewer tested.",
+      "status": "COMPLETED_SOFTWARE_CONTRACT",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Reuse receipts and interruption semantics.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "EVAL01",
+      "eli5": "Does stricter checking reject bad changes without rejecting too many useful ones?",
+      "result": "Retrospective snapshots showed an admission/deferral tradeoff, not a universal evaluator winner.",
+      "status": "RETAINED_DATA_ANALYSIS_COMPLETE",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep false accepts and false rejects separate.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "STATEBRIDGE01",
+      "eli5": "Can unfinished internal state continue after weights change?",
+      "result": "Initial reading could work while subsequent computation failed; numerical gate also failed.",
+      "status": "COMPLETED_DIAGNOSTIC_UNQUALIFIED",
+      "sources": [
+        "HISTORY"
+      ],
+      "next_action": "Keep state/weight and numerical questions open.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "SURFACE01",
+      "eli5": "Can we isolate which changed weights break old work?",
+      "result": "Four parents trained; one false-DONE history stopped the planned surface comparison before B corrections.",
+      "status": "STOP_BASELINE_COMPETENCE",
+      "sources": [
+        "SURFACE"
+      ],
+      "next_action": "Parent study complete; factorial remains unrun.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "TRACE01",
+      "eli5": "Can observed degradation guide what to rehearse?",
+      "result": "Tracked onset; guided replay had mixed development tradeoffs. Numerical failure and storage stop left 3/32 confirmation contexts.",
+      "status": "TECHNICAL_STOP_PARTIAL_CONFIRMATION",
+      "sources": [
+        "TRACE"
+      ],
+      "next_action": "No qualified guided-replay superiority.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "RECOVER01-v0.2",
+      "eli5": "Can ordinary replay recover old work after new learning?",
+      "result": "Very large observed repair; corrected classes survived. Residual errors and strict numerical failure remain.",
+      "status": "COMPLETED_DIAGNOSTIC_STRONG_RECOVERY",
+      "sources": [
+        "RECOVER"
+      ],
+      "next_action": "Keep replay reference; no reset-to-parent result proves long-run learning.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "SH01",
+      "eli5": "Does a hierarchy help a small maintenance reader?",
+      "result": "HSA learned the bounded rule better than paired dense models; initial sparse execution was slower. One fit incomplete.",
+      "status": "COMPLETED_PARTIAL_COHORT",
+      "sources": [
+        "SH01"
+      ],
+      "next_action": "Retain three completed pairs, not four.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "SH02",
+      "eli5": "Can we clean the same hierarchy without changing its decisions?",
+      "result": "Packed execution improved larger cases; small/batched costs and historical bitwise mismatch remain.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SH02"
+      ],
+      "next_action": "Keep three levels; no further depth campaign.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "SC01",
+      "eli5": "Can bounded segments track revisions and interrupted maintenance?",
+      "result": "Exact integration worked; ordinary caching supplied most savings and some jobs were slower.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SC01"
+      ],
+      "next_action": "Reuse lifecycle; not a language-token result.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "SC02",
+      "eli5": "Can incremental work make the segmented implementation better?",
+      "result": "Incremental publication/plans helped; intermediate neural caching was slower in all tested cells.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "SC02"
+      ],
+      "next_action": "Keep useful simple improvements; neural cache off by default.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "CAP01",
+      "eli5": "Can the computation finish when all its evidence cannot fit at once?",
+      "result": "Exact multipass attention extended input reach; ordinary streaming matched custom grouping. Larger-layout learned errors persisted.",
+      "status": "WORKING_COMPONENT_PARKED",
+      "sources": [
+        "CAP01"
+      ],
+      "next_action": "Capacity demonstrated narrowly; no exclusive segmentation advantage.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "CAP02",
+      "eli5": "Can broader practice help use the expanded input reach without losing the small task?",
+      "result": "Mixed-size preparation improved larger layouts and retained small-task skill; remaining errors preserved.",
+      "status": "BOUNDED_CLOSEOUT_PARKED_FOR_INTEGRATION",
+      "sources": [
+        "CAP02"
+      ],
+      "next_action": "HSA/segmented series closed for now, not whole NSS qualification.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DARP01",
+      "eli5": "Can segmented diffusion plan, check and repair maintenance output blocks?",
+      "result": "Mechanism ran; initial writers were weak. Copying and missing replanning preparation limited comparison.",
+      "status": "COMPLETED_OUTPUT_COMPETENCE_NOT_ESTABLISHED",
+      "sources": [
+        "DARP01"
+      ],
+      "next_action": "Historical first pass; do not reopen weak controls.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DARP02",
+      "eli5": "Does better creation/edit/revision preparation help?",
+      "result": "Large preparation gain; richer feedback had no broad advantage; natural errors remained hard to repair.",
+      "status": "COMPLETED_PREPARATION_GAIN",
+      "sources": [
+        "DARP02"
+      ],
+      "next_action": "Retain curriculum and exact metadata support.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DARP03",
+      "eli5": "Does learning from real mistakes give diffusion a clear advantage over AR?",
+      "result": "Useful supported DARP approached AR, but no clear quality/speed win; more false completion and slower sample.",
+      "status": "PARK_CURRENT_DARP_IMPLEMENTATION",
+      "sources": [
+        "DARP03"
+      ],
+      "next_action": "Keep AR reference and plan/check/edit/commit, not diffusion as a requirement.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "HSA-CONSOLIDATION",
+      "eli5": "Can we preserve the whole HSA/context record and its boundaries?",
+      "result": "Six studies consolidated and evidence indexed; result remains a bounded component.",
+      "status": "DOCUMENTATION_COMPLETE",
+      "sources": [
+        "HSA"
+      ],
+      "next_action": "Reference for integration; not another experiment.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DARP-CONSOLIDATION",
+      "eli5": "Can we preserve DARP findings and a clear stop decision?",
+      "result": "Three studies consolidated; viable supported alternative without established practical superiority or general equivalence.",
+      "status": "DOCUMENTATION_COMPLETE",
+      "sources": [
+        "DARP"
+      ],
+      "next_action": "Park current implementation, retain evidence.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "EVIDENCE-LED-PLAN",
+      "eli5": "What should we do next without repeating old experiments?",
+      "result": "Stepwise main path and conditional literature queue established.",
+      "status": "PLAN_CURRENT",
+      "sources": [
+        "PLAN"
+      ],
+      "next_action": "Follow priorities, one bounded task at a time.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "DIRECT01-SPEC",
+      "eli5": "Can we specify a fair direct-parallel versus AR output comparison?",
+      "result": "Conditional protocol ready; no selected model, trained heads or execution.",
+      "status": "DOCUMENTATION_COMPLETE_EXPERIMENT_NOT_RUN",
+      "sources": [
+        "DIRECT"
+      ],
+      "next_action": "Optional after competence and a live output question.",
+      "evidence_type": "source-reported historical result; not rerun in checklist task"
+    },
+    {
+      "id": "COMP01-B-SETUP",
+      "eli5": "Choose a small test reader and wire it to the exam.",
+      "result": "Official135M selected with a single conditional360M fallback. Model acquisition failed before inference;18 offline runner contract tests passed.",
+      "status": "ENGINEERING_ONLY_MODEL_ACQUISITION_BLOCKED",
+      "sources": [
+        "COMP01B_SETUP"
+      ],
+      "next_action": "Run actual pinned development where public download is available; do not repeat completed architecture studies.",
+      "evidence_type": "fresh source/data engineering and failed acquisition, not a model experiment"
+    },
+    {
+      "id": "LAB01",
+      "eli5": "Can our own small reader answer from simple English evidence without a pretrained download?",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_REFERENCE_NOT_READY",
+      "result": "3new92837parameterARfits;5400main+6preflightupdates. Familiar supported833/1536,withheld768/768,paraphrase251/768;nofamilypasses.21preflightgroups;5376recounts;384freshreplays;24checkpointhashes;48480sampledprecisionvaluesallpass.",
+      "carry_forward": "Keep internal code/corpus/checkpoints. Main leads are project/date binding and wording sensitivity; not a memory-system verdict or completed COMP01-B.",
+      "sources": [
+        "LAB01"
+      ]
+    },
+    {
+      "id": "LAB02-SIZE",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CONSISTENT_WIDTH_GAIN",
+      "eli5": "Giving the same reader about22%or47%more room did not consistently help it choose the right project/date record.",
+      "result": "Nine fresh fits: supported whole answers833/1536,825/1536,844/1536; largest+0.72pp, wording31.12%→35.81%with mixed seed changes. No family working point.16,218total optimizer applications;40engineering groups;no main interruptions.",
+      "next_action": "Retain width64 as economical diagnostic control. LAB02-BIND proposed separately; no further size increase authorized.",
+      "sources": [
+        "LAB02_SIZE_REPORT",
+        "LAB02_SIZE_EXECUTION"
+      ]
+    },
+    {
+      "id": "LAB02-BIND",
+      "eli5": "Give two identical readers the same exercises in different orders and check which learns to use the evidence better.",
+      "result": "Six fresh paired readers; mixed757/1536(49.28%),staged734/1536(47.79%) supported answers. Staged lower in all3pairs. No family working point. Explicit new rules and full raw test/answer traces; finite-grammar review of9984outputs and manual64items/384responses. No old scores changed.",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_CURRICULUM_GAIN",
+      "sources": [
+        "LAB02_BIND",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park this staged teaching order; retain all controls and test/answer records. One next decision, not another automatic study.",
+      "evidence_type": "actual current execution; same-author review and internal reproduction, not external replication"
+    },
+    {
+      "id": "MEM01",
+      "eli5": "Save unfinished work, reopen it with current records, and distinguish missing memories from a reader misunderstanding correct notes.",
+      "result": "Frozen3LAB02-BINDmixed readers;3888responseobservations,0updates. DIRECT/FULL413/864post-break completeanswers,COMPACT504/864(+10.53pp);150gain/59loss;allthreeparentsgain. Wholefour-answerresume8/216allpolicies.1944recordchecks0loss;2592packetreplaysand432snapshotrestores exact. Current-status errors remain;ordinary scoped lookup supplies benefit,not newreaderlearning.23preflightgroups;3888recounts/fullreplays;41580sample precisionvaluespass. One audit-calltimeout, maincomplete; partialauditworkunknown.",
+      "status": "COMPLETE_BOUNDED_HANDOFF_DIAGNOSTIC_READER_LIMITED",
+      "sources": [
+        "MEM01_REPORT",
+        "MEM01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Retain handoff and ordinary scoped retrieval; proceed to PREP01 specification, not further automatic reader training. No broad companion or changed-weight continuation qualification.",
+      "evidence_type": "actual frozen-model inference and software lifecycle tests; same-author semantic sample and internal replay, not external replication"
+    },
+    {
+      "id": "PREP01",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_WORKSHEET_TRADEOFF_NO_ADVANCE_GAIN",
+      "eli5": "Try preparing a source-linked task sheet before questions arrive, then check whether that helps more than ordinary retrieval or making/caching the same sheet when asked.",
+      "result": "Three unchanged99674parameterreaders;5472main responses. RAW818/1368(59.80%) vsall3sheetpolicies790/1368(57.75%);all3readersdecline,163gains191losses. Falsecompletion54→14butdone-worksuggestions330→384. Identicalsheetqualitybefore/afterquery;ADVANCEslowerthanCACHEinall9timingmedians,highreuseratio1.043. Exposedgold-supportdiagnostic41/72→58/72(mainlystatus22/36→36/36,work19/36→22/36);notdeployable.0updates.5472main+288diagnosticrecounts,5472freshreplays,576restores,73920sampleprecisionvaluespass.21preflightgroupsafterpreservedcopybug;postresultaudittypemismatchcorrectedseparately.",
+      "sources": [
+        "PREP01_REPORT",
+        "PREP01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park eager generic sheets as default. Next proposed bounded lead: select the supporting records for the actual question, with simple lookup and answer-only controls; no gold at inference. Then repeated learning cycles; do not require a perfect language reader.",
+      "evidence_type": "actual frozen-reader inference, exact finite-grammar preparation and CPU timing; privileged exposed diagnostic separately marked; same-author sampled semantic review"
+    },
+    {
+      "id": "READER-SUPPORT01",
+      "status": "COMPLETE_BOUNDED_DIAGNOSTIC_NO_PRIMARY_GAIN_OUTPUT_CONTRACT_LIMIT",
+      "eli5": "Teach one small reader which notes support its answer; compare it with answer-only practice and an ordinary question-aware index.",
+      "result": "Six fresh106615parameter readers; A answer-only vs S answer+source loss. Supported five-field A586/1536(38.15%),S521/1536(33.92%); no primary gain, parent differences−11.91/−3.91/+3.13pp. A keepsall, S exactsupport808/1536 but answers287/808ofthosecorrect. PublicLOOKUPA769/1536,S692/1536; retrospective namedstatusfactAlookup768/768 is notcompletehandoff. Positivecompletion136→89,done-worksuggestions235→341; wholefouranswers0→9/384. Publicstatusancillaryfieldscopeunderspecified; rawkeyandsynonym/reviewkeptseparate.29952recounts,576freshreplays,42912sampleprecisionvaluespass,30maincheckpointsverified.9600logicalmain;9808–9809actualmain+12preflight afterrecorded208steptailreplay. No follow-up fitting.",
+      "sources": [
+        "READER_SUPPORT01_REPORT",
+        "READER_SUPPORT01_EXECUTION",
+        "DUAL_REVIEW"
+      ],
+      "next_action": "Park automatic reader preparation. Retain ordinary lookup and explicit source/action diagnostics; CYCLE01 specification next using a declared restricted competent reference and unambiguous public fields.",
+      "evidence_type": "fresh paired training and inference; exact finite-contract scoring plus144same-author reviews; sampled numerical checks; output-scope limitation retained"
+    },
+    {
+      "id": "CYCLE01-A",
+      "status": "COMPLETE_DEVELOPMENT_FEASIBILITY_PROMISING_SIGNAL",
+      "eli5": "Let a copy learn at night, check it, then use the accepted version and its unfinished work the next day.",
+      "result": "Four source parents, two nights, FIXED/LEARN/REPLAY/BALANCED.2048development+7disposableupdates;0newfits. Balanced5/8adoptions,allfourend32/32currentcueanswers,4087/4096guardanswers,2046/2048liveanswers,30/32entiretwo-dayhistories,0livefalseDONE.Only4103acceptedbothnights. ExtraBexposureconfounded;allmaterialdevelopment.232savedoutputsreplayedexact,160checkpointfilesverified;9,304,960evaluationnumericcomparisons0violationsinnewfloat64contract. Onecallerinterruption,resume32missingupdatesatprovenphasebarrier,0repeatedupdates;discardedinference/time/RSSunknown.",
+      "next_action": "Freeze one longer comparison on fresh reserved tasks; add B96-only control for extra B practice. Do not repeat tiny-reader sweeps.",
+      "sources": [
+        "CYCLE01_A",
+        "RECOVER",
+        "PLAN"
+      ],
+      "evidence_type": "new internal two-night development/engineering study, not confirmatory main or product qualification"
+    }
+  ],
+  "literature_leads": [
+    {
+      "lead": "Computation-preserving recurrent updates",
+      "when": "ADAPT01 first lead",
+      "eli5": "Protect useful old computations while allowing new ones. Distinct from PROTECT01 output-margin projection."
+    },
+    {
+      "lead": "OML / meta-experience replay",
+      "when": "Conditional after measured adaptation weakness",
+      "eli5": "Prepare representations to learn later with less interference; charge the preparation."
+    },
+    {
+      "lead": "Plasticity renewal",
+      "when": "Conditional on loss of future learnability",
+      "eli5": "Refresh capacity only if it actually becomes harder to learn; protect rare skills."
+    },
+    {
+      "lead": "RIM / compositional state",
+      "when": "Conditional on state interference or binding failures",
+      "eli5": "Keep separate concerns in interacting state parts, not a restored tri-core."
+    },
+    {
+      "lead": "Differentiable plasticity / Backpropamine",
+      "when": "Separate later update-rule lane",
+      "eli5": "Learn how adaptation responds to experience; define temporary versus accepted changes."
+    },
+    {
+      "lead": "TTT / Titans adaptive working memory",
+      "when": "Separate later state-contract lane",
+      "eli5": "Test a learnable working-memory mechanism without renaming hidden daytime weight updates."
+    },
+    {
+      "lead": "Griffin / Mamba / dense-local attention",
+      "when": "COMP01 feasibility or BUDGET01",
+      "eli5": "Choose an adequate prepared language backbone if efficiency is blocking; do not assume memory reliability."
+    },
+    {
+      "lead": "Adafactor / low-bit optimizer states",
+      "when": "BUDGET01 when optimizer memory matters",
+      "eli5": "Reduce a measured storage burden, not every value indiscriminately."
+    },
+    {
+      "lead": "Eligibility traces / e-prop / G08-G12",
+      "when": "Scoped learning-rule and precision lane",
+      "eli5": "Identify past activity deserving a later update; test float behavior before compression."
+    },
+    {
+      "lead": "Learned optimizers",
+      "when": "Later after repeatable repair tasks",
+      "eli5": "Test learned update policies against strong conventional optimization."
+    },
+    {
+      "lead": "Net2Net / structural growth",
+      "when": "Conditional on capacity bottleneck",
+      "eli5": "Add bounded capacity while preserving initial function; then test specialization and continuation."
+    },
+    {
+      "lead": "HyperNetworks / KAN-style functions",
+      "when": "Theoretical shelf",
+      "eli5": "Investigate a concrete representation limitation, not flexible-looking machinery for its own sake."
+    },
+    {
+      "lead": "Generative replay / distillation / self-play / world models",
+      "when": "Later, after relevant foundation return",
+      "eli5": "Test useful generated practice against exact replay and extra-compute controls; generated history is not evidence."
+    },
+    {
+      "lead": "Biological inspiration / appraisal / multimodal bridges",
+      "when": "Later function-specific hypotheses",
+      "eli5": "Tie each idea to a useful companion behavior; affect is not fact or permission."
+    }
+  ],
+  "source_catalog": {
+    "PLAN": {
+      "filename": "NSS_Evidence_Led_Research_Plan_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "19a75b2d6f8b23b58e4aa1d88b05ab143ca1642038da2bd07cb696a9d1544837",
+      "bytes": 44889
+    },
+    "CODEX": {
+      "filename": "NSS_DIRECT01_Chat_Handoff_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "e6bc8f7afcf351d8b679fb1c687549cb34d10009cd0d941b1de743a03857e16a",
+      "bytes": 15818
+    },
+    "DIRECT": {
+      "filename": "NSS_DIRECT01_Protocol_and_Fixture_Specification_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "c52f12d1fb9c91aec1b32328846e1d268da4a1d1e4c7b7a49aad1c66c78ab88b",
+      "bytes": 19505
+    },
+    "HISTORY": {
+      "filename": "NSS_Research_and_Architecture_Chat_Handoff_v1.0.md",
+      "exists_at_recorded_path": true,
+      "sha256": "49ef49349312ff7e8be181fe6202bb5c079e13402e68427835a794181236fb20",
+      "bytes": 104740
+    },
+    "HSA": {
+      "filename": "NSS_HSA_Segmented_Context_Research_Consolidation_v1.0.md",
+      "exists_at_recorded_path": true,
+      "sha256": "16a88dc2f97d5b1c78246e1bd390a80d3b0ea602d4a5b0e10c3e5ceced225665",
+      "bytes": 74063
+    },
+    "DARP": {
+      "filename": "NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.md",
+      "exists_at_recorded_path": true,
+      "sha256": "72af740124a1fe054e9d25bb124b9f149e7428807046644078a35e4fbf4373dc",
+      "bytes": 57960
+    },
+    "SURFACE": {
+      "filename": "NSS_NBR02_SURFACE01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "974b7fa6f6cd4b502c10bd41e5a75b2b51f18fa8d395228d348df0376a94df62",
+      "bytes": 16159
+    },
+    "TRACE": {
+      "filename": "NSS_NBR02_TRACE01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "95a6a68de2c462fc77ebdfcba31abd5a06e8df08e5793306a2c1c2afee15fb00",
+      "bytes": 21324
+    },
+    "RECOVER": {
+      "filename": "NSS_NBR02_RECOVER01_Report_v0.2.md",
+      "exists_at_recorded_path": true,
+      "sha256": "e3af77587c6b4cee48ced31d36a905a0297cc6a76fd119a7bded58053ccda64b",
+      "bytes": 18384
+    },
+    "BALANCE": {
+      "filename": "NSS_NBR02_BALANCE01_Proposal_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "9bfd0948664221e2e693352de2b4a10f4e1963fbbf9ff08dd01ded0332924d49",
+      "bytes": 11796
+    },
+    "SH01": {
+      "filename": "NSS_NBR02_SH01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "ae855b0e1d1968faad951b0b40b4a3766d1133169443385d02a24c07568ee098",
+      "bytes": 19727
+    },
+    "SH02": {
+      "filename": "NSS_NBR02_SH02_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "c52f086d87e508750727039b447574b77db5cc392f92dba88a85993f0f9aeee5",
+      "bytes": 12497
+    },
+    "SC01": {
+      "filename": "NSS_NBR02_SC01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "c07f0f783ed68329a4048d475c43d1ff210c225a45fb6d11cf1da39dd6d27edf",
+      "bytes": 16243
+    },
+    "SC02": {
+      "filename": "NSS_NBR02_SC02_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "e4394647389e3679afd836dd696a469331b81dfdc83f06e8a83bdf38848000af",
+      "bytes": 16734
+    },
+    "CAP01": {
+      "filename": "NSS_NBR02_CAP01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "b4660fcd559421941b406cbe61c529a2881a597d37bcb2826e93e3f92042c61e",
+      "bytes": 14914
+    },
+    "CAP02": {
+      "filename": "NSS_NBR02_CAP02_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "4e7a5dbb5f19b6dfaea71f6d40a0c714db0e549deb4ba1b0c0aa225609e0fb2a",
+      "bytes": 12181
+    },
+    "DARP01": {
+      "filename": "NSS_NBR02_DARP01_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "9b1ed9cabaa607f5f1cd7104432c5cfac10393c4001bf456e663212433d03ae3",
+      "bytes": 21189
+    },
+    "DARP02": {
+      "filename": "NSS_NBR02_DARP02_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "690c403089df27adabfba1e8c8471749c2d7f646b5fe288674bff568383fc82e",
+      "bytes": 21148
+    },
+    "DARP03": {
+      "filename": "NSS_NBR02_DARP03_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "8437d4188e6c83c6a1855c52735cd46fe2df733a13dd32cd38956bd74d088b02",
+      "bytes": 17988
+    },
+    "CURRENT": {
+      "filename": "results/PREFLIGHT.json",
+      "scope": "new COMP01-A engineering receipts"
+    },
+    "COMP01B_SETUP": {
+      "filename": "NSS_COMP01B_Small_Reader_Setup_Report_v0.1.md",
+      "evidence": "current-host engineering/setup record; not a model result",
+      "sha256": "bbfa6e95c5e6de40ff286c48b609af603be1d490faa7f89f7dfcc43ac1eb0143",
+      "bytes": 7951,
+      "exists_at_recorded_path": true
+    },
+    "ROUTE_20260928": {
+      "type": "conversation_planning_decision",
+      "user_request": "Okay, so what's the plan here? Are we sticking with our own internal stuff or am I going to have to download a pre-trained model when I get back to my laptop, probably tomorrow?",
+      "scope": "Assistant recommended routing clarification; no new measured outcome or experiment execution.",
+      "at_utc": "2026-09-28T22:20:23.016582+00:00"
+    },
+    "LAB01": {
+      "path": "NSS_NBR02_LAB01_Report_v0.1.md",
+      "scope": "New completed bounded execution; full data/source/checkpoints in LAB01 archive."
+    },
+    "LAB02_SIZE_PLAN": {
+      "filename": "NSS_LAB02_SIZE_Planning_Addendum_v0.1.md",
+      "sha256": "5f50342a4d0421ae61607c064c847afd8bb0df691466af82f49d9c9a2cdc94cc",
+      "bytes": 9336,
+      "scope": "Planning addendum; exact proposed parameter arithmetic from archived source. No trained-model result."
+    },
+    "LAB02_SIZE_REPORT": {
+      "file": "NSS_NBR02_LAB02_SIZE_Report_v0.1.md",
+      "scope": "new complete bounded execution; not COMP01-B qualification"
+    },
+    "LAB02_SIZE_EXECUTION": {
+      "file": "NSS_NBR02_LAB02_SIZE_Execution_v0.1.zip",
+      "scope": "new raw source/data/model/output evidence"
+    },
+    "TEMPORAL_REVIEW": {
+      "filename": "NSS_LAB_Temporal_Wording_Review_v0.1.md",
+      "bytes": 7312,
+      "sha256": "8af4356a473ab495e315f2f59b9172905ae966dec96fcdfcce56cdedc2a4a7ec",
+      "exists_at_recorded_path": true
+    },
+    "DUAL_REVIEW": {
+      "filename": "NSS_Test_and_Response_Review_Standard_v0.1.md",
+      "bytes": 11745,
+      "sha256": "9da5d9a84c9dbd0faacde42db161ad0bd74ae0cffb634585e16f39734c3326db",
+      "exists_at_recorded_path": true
+    },
+    "DUAL_REVIEW_RECORD": {
+      "filename": "NSS_Test_and_Response_Review_Record_Template_v0.1.json",
+      "bytes": 3973,
+      "sha256": "684c241efb22b5cb0d417979e00d1ff80337fdbb87bb107867d65f70919206e6",
+      "exists_at_recorded_path": true
+    },
+    "LAB02_BIND": {
+      "filename": "NSS_NBR02_LAB02_BIND_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "89a1228cae7e774a77b5959d7b8d7acbc5a59f1734ad881af7ff0833f8bf6358",
+      "bytes": 17286
+    },
+    "MEM01_ROUTE_DECISION": {
+      "type": "conversation_planning_direction",
+      "user_message": "So then on to memory and handoffs?",
+      "scope": "Assistant proposes proceeding with bounded memory/handoff testing rather than further reader fitting. This is not a model execution or a claim of language competence.",
+      "at_utc": "2026-09-29T00:54:10.823302+00:00"
+    },
+    "MEM01_REPORT": {
+      "filename": "NSS_NBR02_MEM01_Report_v0.1.md",
+      "sha256": "999b0bd058169b5f1724b91aba7bb2f6a84fe4ab6a560bf76d2b232ee8403216",
+      "scope": "new frozen-reader handoff diagnostic, not broad memory or COMP01-B competence"
+    },
+    "MEM01_EXECUTION": {
+      "filename": "NSS_NBR02_MEM01_Execution_v0.1.zip",
+      "scope": "new source/tests/raw responses and retained original parents; not a merge of old execution archives"
+    },
+    "MEM_READER_LIT_REVIEW": {
+      "filename": "NSS_Memory_and_Reader_Literature_Candidates_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "ba118414191674fff59c35f735c7ad59a6243e79cd732970113d2506e259f3fb",
+      "bytes": 22367,
+      "kind": "new planning synthesis; primary literature and existing reports, not execution"
+    },
+    "PREP01_REPORT": {
+      "filename": "NSS_NBR02_PREP01_Report_v0.1.md",
+      "sha256": "936cbf1f67722c7d22afd1792d726d96d76b066fc0f915bf8423b86e8d4d459e",
+      "scope": "new fixed-reader preparation comparison; not language or full-night qualification"
+    },
+    "PREP01_EXECUTION": {
+      "filename": "NSS_NBR02_PREP01_Execution_v0.1.zip",
+      "scope": "new reproducible package; selected inherited source/model copies, not a merge of old archives"
+    },
+    "READER_SUPPORT01_REPORT": {
+      "filename": "NSS_NBR02_READER_SUPPORT01_Report_v0.1.md",
+      "sha256": "0b986910018a93575a4f49174cdbdf5b05f4cdf200fd9c264c259ef0f63bc1a2",
+      "scope": "new source-supervision comparison; original key scores and test-scope limit separate"
+    },
+    "READER_SUPPORT01_EXECUTION": {
+      "filename": "NSS_NBR02_READER_SUPPORT01_Execution_v0.1.zip",
+      "scope": "all new source/model/fixture/output evidence; not a merge of historical archives"
+    },
+    "CYCLE01_A": {
+      "filename": "NSS_NBR02_CYCLE01A_Feasibility_Report_v0.1.md",
+      "exists_at_recorded_path": true,
+      "sha256": "04ad334305b01162cd17b656c9729c87ec3bfa2513c9189d1b266d0c62dd5aa6",
+      "bytes": 19435
+    }
+  },
+  "history": [
+    {
+      "date": "2026-09-28",
+      "event": "Initial running checklist created from retained plan and handoffs; COMP01-A engineering completed. No previous outcome changed."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "User approved the named Qwen2.5-1.5B-Instruct Q4_K_M download and llama.cpp setup, while asking about a smaller testing-only or custom model. No model substitution, download, installation, training or inference was performed in this update. Smaller-model options remain proposals; COMP01-B language-evidence objective, priority order and all historical statuses remain unchanged."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "User delegated model selection;135M/conditional360M selected, acquisition blocked. Local adapter and18offline tests completed. No model load, inference, training, confirmation or cloud fallback."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Routing clarification after user asked whether a laptop download is necessary: recommend one bounded internal evidence-reader bootstrap as the next research task, reusing existing conventional AR/model-training infrastructure. No external model download is needed to start that mechanism route. COMP01-B remains an unrun, deferred language-reference evaluation with its selected public model and acquisition failure preserved. Internal results must not be relabeled COMP01-B language qualification. This update changes planning priority only; no model/code experiment, training, inference, or download occurred."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Planning clarification only: retain LAB02-BIND as the next proposed comparison. Treat 92,837 parameters as a tested size, not a demonstrated resource ceiling or proven cause of failure. Compare ordinary additional preparation with a binding-focused schedule on the same eligible corpus and target budget; keep untouched parents, fresh grouped confirmation, and no inference answer leakage. If inadequate, use one resource-admitted capacity control or a separately prepared shared-weight recurrent-depth comparison, according to the observed limitation; do not launch both automatically. Extra deterministic reruns of identical input/state are not deliberation. A proposed depth test must carry evolving latent state, preserve evidence access, train for the tested depths, and count execution/activation costs. No new optimizer applications, model loads, inference, or experiment occurred in this planning update."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "User requested a moderate capacity-direction check with no more than two upward size steps and no need to double. Recommend LAB02-SIZE next: widths64/72/80 (92,837/113,645/136,501 parameters, source-derived), fixed ordinary preparation and three fresh fits per size proposed. Use fresh matched baseline fits, not a pretrained-small versus random-large comparison; match data/targets and report unequal compute. LAB02-BIND remains pending after the size decision; recurrent depth remains a separate conditional candidate, not a factorial expansion. No model instantiation/loading, forward/backward, optimizer update, or new model result occurred; source reading and parameter arithmetic only."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Added plain-English current/next/later orientation after user reported losing track. LAB02-BIND remains next; reader bootstrap is distinct from maintenance research. Basic useful mechanisms precede further scale tests. All 49 prior task entries, priorities, source records and parked/deferred statuses preserved. No model execution."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Owner requires paired test-validity and response-appropriateness review beside immutable raw grading. Standard/template written; broader audit pending. Synced mounted Markdown v0.11 and JSON v0.10 without altering 49 historical entries; both originals preserved at their actual versions."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "User authorized next test. Completed new explicit-contract LAB02-BIND,6fresh readers and10800main+12preflight updates. Broad retrospective regrading deferred; new tests/answers reviewed. Staged curriculum showed no gain. No further model run, download, HSA or DARP changes."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "MEM01 moved to next priority via a bounded mechanism route; reader-training detour parked without promoting its competence. COMP01-B remains deferred. No inference, training, rescoring or new semantic audit."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "MEM01 executed on user request after clarifying NBR-01 overlap. Exact handoffs worked; compact scope retrieval improved aggregate answers but whole-episode reliability remained low. PREP01 specification queued; no new training or automatic follow-on."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "Focused MEM01/LAB reader literature review only. Keep PREP01 next, specify source-linked working sheets with on-demand and no-preparation comparators; include a bounded source/field diagnostic before new fits. Conditional neural lead: record-aware evidence supervision, not repeated curriculum or width sweeps. Exact bounded execution is a distinct system control; learned entity-state memory later. No model run or regrading. All51 historical entries,6 optional tickets and14 prior literature leads preserved."
+    },
+    {
+      "date": "2026-09-28",
+      "event": "PREP01completed:query-independent generic sheets havequalitytradeoffandnoeager-costwin;exposedquestion-specificsupportprobeismorepromising. RecordREADER-SUPPORT01asoneproposedboundedcandidate,thenCYCLE01.Noautomaticfollow-on. All51historicalentries,6optionalreturnsand14literatureleadspreserved."
+    },
+    {
+      "version": "0.18",
+      "date": "2026-09-28",
+      "change": "Completed READER-SUPPORT01 with no primary supervision gain and output-scope review limitation. All52past entries unchanged; new53rd. CYCLE01 specification next."
+    }
+  ],
+  "maintenance_rule": "Update this ledger and regenerate Markdown after each authorized research step. Preserve immutable versioned snapshots and link latest via NSS_Research_Checklist_CURRENT.*. No scheduled or background updates implied. Include review coverage and public-answer-support findings. Never turn a policy/documentation update into a completed experiment.",
+  "updated_at_utc": "2026-09-29T11:55:52.079684+00:00",
+  "latest_readiness_receipt": "NSS_NBR02_READER_SUPPORT01_Delivery_v0.1.json",
+  "model_readiness_note": "The internal LAB01 pipeline executes, but none of four supported task families met its working point. This does not change the external model acquisition status.",
+  "change_log": [
+    {
+      "version": "0.2",
+      "at_utc": "2026-09-28T21:08:47.553396+00:00",
+      "change": "COMP01-B model/runtime readiness inspected; named public checkpoint proposal recorded; evaluation remains NOT_RUN. Previous study outcomes and priorities unchanged."
+    },
+    {
+      "version": "0.3",
+      "at_utc": "2026-09-28T21:22:06.986293+00:00",
+      "change": "User approved the named Qwen2.5-1.5B-Instruct Q4_K_M download and llama.cpp setup, while asking about a smaller testing-only or custom model. No model substitution, download, installation, training or inference was performed in this update. Smaller-model options remain proposals; COMP01-B language-evidence objective, priority order and all historical statuses remain unchanged."
+    },
+    {
+      "version": "0.4",
+      "at_utc": "2026-09-28T21:40:04.079417+00:00",
+      "change": "Selected small reader, preserved authorization, recorded actual acquisition failure and adapter engineering;47 historical/engineering entries now retained."
+    },
+    {
+      "version": "0.5",
+      "at_utc": "2026-09-28T22:20:23.016582+00:00",
+      "change": "Routing clarification after user asked whether a laptop download is necessary: recommend one bounded internal evidence-reader bootstrap as the next research task, reusing existing conventional AR/model-training infrastructure. No external model download is needed to start that mechanism route. COMP01-B remains an unrun, deferred language-reference evaluation with its selected public model and acquisition failure preserved. Internal results must not be relabeled COMP01-B language qualification. This update changes planning priority only; no model/code experiment, training, inference, or download occurred."
+    },
+    {
+      "version": "0.6",
+      "date": "2026-09-28T22:42:04.604199+00:00",
+      "change": "Completed authorized LAB01 with all trained models and failures; proposed one binding-focused next review; all previous47entries preserved. COMP01-B remains deferred; no external download or historical rerun."
+    },
+    {
+      "version": "0.7",
+      "at_utc": "2026-09-28T22:55:41.746490+00:00",
+      "change": "Planning clarification only: retain LAB02-BIND as the next proposed comparison. Treat 92,837 parameters as a tested size, not a demonstrated resource ceiling or proven cause of failure. Compare ordinary additional preparation with a binding-focused schedule on the same eligible corpus and target budget; keep untouched parents, fresh grouped confirmation, and no inference answer leakage. If inadequate, use one resource-admitted capacity control or a separately prepared shared-weight recurrent-depth comparison, according to the observed limitation; do not launch both automatically. Extra deterministic reruns of identical input/state are not deliberation. A proposed depth test must carry evolving latent state, preserve evidence access, train for the tested depths, and count execution/activation costs. No new optimizer applications, model loads, inference, or experiment occurred in this planning update."
+    },
+    {
+      "version": "0.8",
+      "at_utc": "2026-09-28T23:11:21.071990+00:00",
+      "change": "User requested a moderate capacity-direction check with no more than two upward size steps and no need to double. Recommend LAB02-SIZE next: widths64/72/80 (92,837/113,645/136,501 parameters, source-derived), fixed ordinary preparation and three fresh fits per size proposed. Use fresh matched baseline fits, not a pretrained-small versus random-large comparison; match data/targets and report unequal compute. LAB02-BIND remains pending after the size decision; recurrent depth remains a separate conditional candidate, not a factorial expansion. No model instantiation/loading, forward/backward, optimizer update, or new model result occurred; source reading and parameter arithmetic only."
+    },
+    {
+      "version": "0.9",
+      "utc": "2026-09-28T23:36:47.093798+00:00",
+      "change": "LAB02-SIZE executed:9freshfits/16,218actualupdates;no consistent width gain;LAB02-BIND next proposed. All48historical entries preserved plus new49th. HSA/DARP and external reader status unchanged."
+    },
+    {
+      "version": "0.10",
+      "at_utc": "2026-09-28T23:44:49.967178+00:00",
+      "change": "Added plain-English current/next/later orientation after user reported losing track. LAB02-BIND remains next; reader bootstrap is distinct from maintenance research. Basic useful mechanisms precede further scale tests. All 49 prior task entries, priorities, source records and parked/deferred statuses preserved. No model execution."
+    },
+    {
+      "version": "0.12",
+      "at_utc": "2026-09-29T00:01:53.985954+00:00",
+      "change": "Owner requires paired test-validity and response-appropriateness review beside immutable raw grading. Standard/template written; broader audit pending. Synced mounted Markdown v0.11 and JSON v0.10 without altering 49 historical entries; both originals preserved at their actual versions."
+    },
+    {
+      "version": "0.14",
+      "at_utc": "2026-09-29T00:54:10.823302+00:00",
+      "change": "MEM01 moved to next priority via a bounded mechanism route; reader-training detour parked without promoting its competence. COMP01-B remains deferred. No inference, training, rescoring or new semantic audit."
+    },
+    {
+      "version": "0.15",
+      "at_utc": "2026-09-29T01:17:03.989166+00:00",
+      "change": "Completed MEM01; preserve50oldtasks,add51st;prior0.14snapshots retained;PREP01next,without qualifying weak reader."
+    },
+    {
+      "version": "0.16",
+      "at_utc": "2026-09-29T01:55:22.842521+00:00",
+      "change": "Focused MEM01/LAB reader literature review only. Keep PREP01 next, specify source-linked working sheets with on-demand and no-preparation comparators; include a bounded source/field diagnostic before new fits. Conditional neural lead: record-aware evidence supervision, not repeated curriculum or width sweeps. Exact bounded execution is a distinct system control; learned entity-state memory later. No model run or regrading. All51 historical entries,6 optional tickets and14 prior literature leads preserved."
+    },
+    {
+      "version": "0.17",
+      "at_utc": "2026-09-29T03:27:27.470465+00:00",
+      "change": "PREP01completed:query-independent generic sheets havequalitytradeoffandnoeager-costwin;exposedquestion-specificsupportprobeismorepromising. RecordREADER-SUPPORT01asoneproposedboundedcandidate,thenCYCLE01.Noautomaticfollow-on. All51historicalentries,6optionalreturnsand14literatureleadspreserved."
+    },
+    {
+      "version": "0.18",
+      "date": "2026-09-28",
+      "change": "Completed READER-SUPPORT01 with no primary supervision gain and output-scope review limitation. All52past entries unchanged; new53rd. CYCLE01 specification next."
+    },
+    {
+      "version": "0.19",
+      "at_utc": "2026-09-29T11:55:52.079684+00:00",
+      "change": "Completed CYCLE01-A protocol/engineering/two-night development rehearsal. Added54thhistoryentry; main CYCLE01-B remains unrun. Original53entries,sixoptionalreturns,14literatureleads preserved exactly."
+    }
+  ],
+  "model_download_authorization": {
+    "status": "APPROVED_SELECTED_ROUTE_DEFERRED",
+    "scope": "Official Qwen2.5-1.5B-Instruct Q4_K_M weights and local llama.cpp setup for COMP01-B",
+    "user_message": "I do but is it not possible to set up a testing only, perhaps smaller model for our own purposes?",
+    "smaller_or_custom_model": "User delegated best judgment and asked for a clear route. Current assistant recommendation: own restricted learner for next mechanism experiment; selected pretrained reader retained for later language-reference comparison. Not a production-backbone choice.",
+    "proposed_next_decision": "No download required tomorrow for immediate progress; no user model selection needed. Keep existing source pins for later COMP01-B."
+  },
+  "selected_test_reader": {
+    "primary": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "fallback": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "fallback_rule": "Only after a complete135M development screen gives fewer than2provisionally usable families; never because download or runtime setup fails.",
+    "scope": "research reference, not production NSS; no training",
+    "weight_bytes_acquired": 0
+  },
+  "next_pass_notes": {
+    "next": "CYCLE01-B longer protocol and reserved comparison",
+    "no_automatic_run": true,
+    "equal_B_exposure_control_needed": true,
+    "HSA_DARP": "parked",
+    "pretrained_route": "unchanged approved and deferred",
+    "new_procedure_learning": "still unestablished by finite cue corrections"
+  },
+  "orientation": {
+    "question_now": "Can useful learned updates survive more than this short two-night rehearsal while older work remains usable?",
+    "just_tested": "CYCLE01-A: separate accepted/candidate models, two source corrections, ordinary versus balanced replay, checked adoption and real state carry.",
+    "what_we_found": "Promising exposed-development signal: balanced route ends with32/32current cue answers,2046/2048old continuing answers,0livefalseDONE. One parent accepts twice; three defer then catch up. No longer-horizon confirmation or new-procedure learning yet.",
+    "next": "One longer, freshly evaluated CYCLE01-B comparison; bind an equal-B-exposure control and separate screening from reserved evaluation before running.",
+    "later": [
+      "Assess new procedural learning rather than only finite corrections.",
+      "Choose one targeted learning change only if a clear failure warrants it.",
+      "Measure actual resources and selectively integrate retained components."
+    ],
+    "scope": "English-reader preparation, HSA and DARP remain parked. No deployment or general competence claim.",
+    "review": "Exact typed task rules are explicit; all retained outputs recounted. Four same-author illustrative reviews; no independent semantic critic. Prior defects and scores remain unchanged."
+  },
+  "current_evaluation_policy": {
+    "standard": "NSS_Test_and_Response_Review_Standard_v0.1.md",
+    "record_template": "NSS_Test_and_Response_Review_Record_Template_v0.1.json",
+    "requirement": "Retain every actual public test and raw answer; grade test validity and response appropriateness in addition to the original key score.",
+    "status": "DOCUMENTED_NOT_YET_INTEGRATED_IN_EXECUTABLE_SCORER",
+    "semantic_review_completed_this_update": false,
+    "original_results_unchanged": true,
+    "scope": "Prospective recording and review policy; retrospective adjudication separately versioned; no model execution.",
+    "coverage_rule": "Audit apparent successes and failures; report unreviewed cases and matched comparison denominators.",
+    "latest_application": {
+      "study": "LAB02-BIND",
+      "item_checks": 4768,
+      "response_checks": 9984,
+      "manual_items": 64,
+      "manual_responses": 384,
+      "manual_coverage": "confirmation64/1024items and384/6144outputs; same-author, not independent",
+      "historical_regrading": false
+    },
+    "support01_note": "Public status complete/next scope gap detected in declared same-author review. Preserve raw scores, preregistered aliases and retrospective narrow fact interpretation separately. No all-panel semantic-quality claim."
+  },
+  "candidate_review": {
+    "artifact": "NSS_Memory_and_Reader_Literature_Candidates_v0.1.md",
+    "date": "2026-09-28",
+    "candidates": [
+      {
+        "id": "CAND-PREP-SOURCE-SHEET-001",
+        "priority": "PREP01 scope lead",
+        "status": "PROPOSED_NOT_RUN",
+        "eli5": "Prepare a current worksheet with exact source links so later work does not need to rebuild the same situation.",
+        "comparison": "Ordinary retrieval versus identical preparation now or before the unknown query, with refresh and full costs."
+      },
+      {
+        "id": "CAND-READER-SUPPORT-001",
+        "priority": "First conditional neural lead",
+        "status": "PROPOSED_NOT_RUN",
+        "eli5": "Teach which records justify each answer, not only the answer itself.",
+        "comparison": "Same record-aware learner with answer-only versus added supporting-fact supervision; extra labels and computation disclosed."
+      },
+      {
+        "id": "CAND-STATE-EXEC-001",
+        "priority": "Conditional practical system control",
+        "status": "PROPOSED_NOT_RUN",
+        "eli5": "Have the model read the facts and a verified small routine apply exact rules to those facts.",
+        "comparison": "Learned composer versus exact executor on the same learned extracted facts; gold facts only as a labeled ceiling."
+      },
+      {
+        "id": "CAND-ENTITY-STATE-001",
+        "priority": "Later if state updating is a bottleneck",
+        "status": "PROPOSED_NOT_RUN",
+        "eli5": "Keep distinct changing representations for projects or operations while preserving exact evidence.",
+        "comparison": "Learned incremental update versus rebuild and exact tracker; avoid repeating TS01/Q009 as new discoveries."
+      }
+    ],
+    "status": "FOCUSED_LITERATURE_REVIEW_NO_EXPERIMENT",
+    "changes_main_priority": false
+  }
+}

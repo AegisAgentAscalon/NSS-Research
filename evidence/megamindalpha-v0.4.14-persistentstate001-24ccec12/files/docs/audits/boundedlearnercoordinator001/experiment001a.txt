@@ -1,0 +1,25 @@
+{
+  "status": "SUCCESS",
+  "source_AB": [
+    -4,
+    14,
+    26,
+    80
+  ],
+  "recovered_A": [
+    -11,
+    7,
+    19,
+    73
+  ],
+  "clean_A": [
+    -11,
+    7,
+    19,
+    73
+  ],
+  "exact_match": true,
+  "replayed": true,
+  "effect_count": 1,
+  "scope": "Integer simulator and local mock effects only; no neural execution"
+}

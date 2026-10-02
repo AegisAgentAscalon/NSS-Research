@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "fields": [
+    {
+      "id": "speed",
+      "value": "10",
+      "unit": "m/s"
+    },
+    {
+      "id": "question",
+      "value": "Interpret then solve the given speed problem.",
+      "unit": null
+    }
+  ]
+}

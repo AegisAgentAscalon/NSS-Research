@@ -1,0 +1,8 @@
+[
+  {
+    "time_utc": "2026-09-27T04:21:31.606608+00:00",
+    "kind": "TOOL_SESSION_UNAVAILABLE",
+    "detail": "Interactive container session launch rejected with StreamingExecNotEnabledContainerError before script execution. Switched to ordinary foreground execution. No model or optimizer application occurred in the rejected call.",
+    "scientific_protocol_change": false
+  }
+]

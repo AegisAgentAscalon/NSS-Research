@@ -1,0 +1,157 @@
+{
+  "array_digest": "9fafb874e53c2d4e991234168e6faec6011208268b576380f12aed11f96342bf",
+  "array_sha256": "ed4e0b4da498aaebe18635710e89ad47ab358f9d07d261223c1f5c66204c7abf",
+  "configs": [
+    {
+      "batch": 16,
+      "cadence": 32,
+      "fault": "",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 1024,
+      "invalid_detected": false,
+      "label": "long_shared_A_c32",
+      "noise_seed": 73921008,
+      "policy": "shared_A",
+      "query_noise": 0,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    },
+    {
+      "batch": 16,
+      "cadence": 32,
+      "fault": "",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 1024,
+      "invalid_detected": false,
+      "label": "long_internal_A_c32",
+      "noise_seed": 73921008,
+      "policy": "internal_A",
+      "query_noise": 0,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    },
+    {
+      "batch": 16,
+      "cadence": 8,
+      "fault": "erased_value",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 0,
+      "invalid_detected": false,
+      "label": "fault_internal_A_erased_value",
+      "noise_seed": 73921008,
+      "policy": "internal_A",
+      "query_noise": 0,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    },
+    {
+      "batch": 16,
+      "cadence": 8,
+      "fault": "wrong_valid_value",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 0,
+      "invalid_detected": false,
+      "label": "fault_internal_A_wrong_valid_value",
+      "noise_seed": 73921008,
+      "policy": "internal_A",
+      "query_noise": 0,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    },
+    {
+      "batch": 16,
+      "cadence": 8,
+      "fault": "stale_owner",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 0,
+      "invalid_detected": true,
+      "label": "fault_internal_A_stale_owner",
+      "noise_seed": 73921008,
+      "policy": "internal_A",
+      "query_noise": 0,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    },
+    {
+      "batch": 16,
+      "cadence": 8,
+      "fault": "",
+      "fields": "both",
+      "hops": 8,
+      "horizon": 0,
+      "invalid_detected": false,
+      "label": "query20_internal_A",
+      "noise_seed": 73921008,
+      "policy": "internal_A",
+      "query_noise": 0.2,
+      "raw_state_bytes_per_stream": 3864,
+      "seed": 71921008,
+      "sigma": 0.02,
+      "state_on": true
+    }
+  ],
+  "development": true,
+  "fixed_weights": {
+    "binder": "0870d3c59e9aade92ccfa976a986172423c9dc1ce8b3b665a8c60a56ff18ab67",
+    "dictionary": "beb065fae6fe9418cabba3eaafb08b3757d6ad875235e638f829bef910c04080",
+    "gated_hop": "a13caec58426254fb6b49e30003599c17c0cc280663489fb8a266c6891059104",
+    "record_hop": "f73b510fe0b20f3156999941049be7d2c551711fbe93ea66eaf7c5bdca43d9b5"
+  },
+  "n_arrays": 150,
+  "pair": 1,
+  "stage": "B",
+  "timestamp": "2026-09-21T18:56:24.224101+00:00",
+  "timing": [
+    {
+      "label": "long_shared_A_c32",
+      "maintenance_seconds": 0.16805826200004503,
+      "query_seconds_both_readers_and_control": 0.02772985299998254,
+      "sweeps": 32
+    },
+    {
+      "label": "long_internal_A_c32",
+      "maintenance_seconds": 0.1541846779999787,
+      "query_seconds_both_readers_and_control": 0.03250803599996743,
+      "sweeps": 32
+    },
+    {
+      "label": "fault_internal_A_erased_value",
+      "maintenance_seconds": 1.5729999631730607e-06,
+      "query_seconds_both_readers_and_control": 0.021822325000016463,
+      "sweeps": 0
+    },
+    {
+      "label": "fault_internal_A_wrong_valid_value",
+      "maintenance_seconds": 1.7130000742326956e-06,
+      "query_seconds_both_readers_and_control": 0.022278987999925448,
+      "sweeps": 0
+    },
+    {
+      "label": "fault_internal_A_stale_owner",
+      "maintenance_seconds": 1.5629999552402296e-06,
+      "query_seconds_both_readers_and_control": 1.8207000039183185e-05,
+      "sweeps": 0
+    },
+    {
+      "label": "query20_internal_A",
+      "maintenance_seconds": 1.0810000503624906e-06,
+      "query_seconds_both_readers_and_control": 0.022226209999985258,
+      "sweeps": 0
+    }
+  ]
+}

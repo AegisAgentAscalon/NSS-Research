@@ -1,0 +1,64 @@
+{
+  "document": {
+    "filename": "NSS_NBR02_BRIDGE01_Architecture_Report_and_Low_Bit_Handoff_v0.1.docx",
+    "bytes": 51832,
+    "sha256": "3d45f9f4b9b6202942288e957c6458b94e93c34c586a469b34c19764dc637bc0"
+  },
+  "pages": 10,
+  "visual_review": "All 10 final page PNGs opened and inspected after final rendering; no clipping, overlap, missing text or orphan spill pages observed.",
+  "reviewer": "same assistant author, not external reviewer",
+  "format": "Editable DOCX with static internal contents links, tables, sources, explicit limitations.",
+  "qa_images_delivered": false,
+  "render_images": [
+    {
+      "filename": "page-1.png",
+      "bytes": 238340,
+      "sha256": "f3f1207c99515e1e92e9b1fa67f4671a2e0d2b667fe092f21c83965c6d7d0308"
+    },
+    {
+      "filename": "page-2.png",
+      "bytes": 361039,
+      "sha256": "1e0bb4dd86542764b532cc519a51b91de2f75b90d4aa9d77ea5ada48db949043"
+    },
+    {
+      "filename": "page-3.png",
+      "bytes": 391833,
+      "sha256": "0eb76a39e01e2ddeaab71134f2cd70471dd47eca67aa26100acae145cb33be56"
+    },
+    {
+      "filename": "page-4.png",
+      "bytes": 414117,
+      "sha256": "6ecec5bb1d4539e2a96ede0e9f163184ed3ca3c1e7a819feee515ba5ce78c4e0"
+    },
+    {
+      "filename": "page-5.png",
+      "bytes": 374857,
+      "sha256": "12919d6077c5b9b4f7022012a87fe52a6058d8da6ed074ac203a7a0de33a17f8"
+    },
+    {
+      "filename": "page-6.png",
+      "bytes": 358413,
+      "sha256": "6a07e2e60a2cf85a168081849225f003b7f41913fc33a3be911392438ade0ff4"
+    },
+    {
+      "filename": "page-7.png",
+      "bytes": 440628,
+      "sha256": "0eb92ee058df90bb23a0f72a81ecdd54b3ad483f42b3c7f8a19dea8a7191d413"
+    },
+    {
+      "filename": "page-8.png",
+      "bytes": 356722,
+      "sha256": "7cd010de362cfa55fb1d461e8641c765e3f832fb44baf462e9000bf88232b333"
+    },
+    {
+      "filename": "page-9.png",
+      "bytes": 582339,
+      "sha256": "7848965da9f7e6f5d6835af32cc1e27d9a078e82a92301b1f81705b15a65e704"
+    },
+    {
+      "filename": "page-10.png",
+      "bytes": 481647,
+      "sha256": "510858bb38e54a6249f97dd59f8ceb81b661da008f76080ed1ee765bd66354bc"
+    }
+  ]
+}

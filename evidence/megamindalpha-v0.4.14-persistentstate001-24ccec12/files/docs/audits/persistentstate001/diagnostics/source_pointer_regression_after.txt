@@ -1,0 +1,6 @@
+test_note_only_task_source_is_selected_and_exactly_rehydratable (test_persistent_state.PersistentStateTests.test_note_only_task_source_is_selected_and_exactly_rehydratable) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 12.919s
+
+OK

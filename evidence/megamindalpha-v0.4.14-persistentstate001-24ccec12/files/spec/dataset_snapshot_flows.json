@@ -1,0 +1,478 @@
+{
+  "schema_version": 2,
+  "title": "DatasetSnapshot001 implementation subflows",
+  "purpose": "Two bounded helpers of the existing Builder/Archive architecture.",
+  "global_outcomes": [
+    "SUCCESS",
+    "NEEDS_CLARIFICATION",
+    "INSUFFICIENT_EVIDENCE",
+    "BUDGET_EXHAUSTED",
+    "CONSTRAINT_CONFLICT",
+    "CAPABILITY_UNAVAILABLE",
+    "INCOMPATIBLE_CONFIGURATION",
+    "TRANSITION_UNQUALIFIED",
+    "AUTHORIZATION_DENIED",
+    "VALIDATION_FAILED",
+    "RECOVERY_REQUIRED",
+    "ACTION_UNCERTAIN",
+    "ACTION_FAILED",
+    "INTERNAL_FAILURE",
+    "QUALIFICATION_FAILED",
+    "STAGING_FAILED",
+    "MIGRATION_REQUIRED",
+    "POLICY_DENIED",
+    "NO_VALID_OVERLAY",
+    "STALE_STATE",
+    "SOURCE_INVALID",
+    "TRAINING_NOT_JUSTIFIED",
+    "DATA_RESTRICTED",
+    "CORE_MUTATION_DETECTED",
+    "TRAINING_DIVERGED",
+    "EVIDENCE_INCOMPLETE",
+    "THRESHOLD_NOT_MET",
+    "NONDETERMINISTIC_RESULT",
+    "ABI_MISMATCH",
+    "CHECKSUM_MISMATCH",
+    "DEPENDENCY_CONFLICT",
+    "RESOURCE_UNAVAILABLE",
+    "TOKENIZER_MISMATCH",
+    "CONTEXT_ABI_MISMATCH",
+    "MANDATORY_CONTEXT_OVERFLOW",
+    "SOURCE_VALIDATION_FAILED",
+    "REHYDRATION_FAILED",
+    "DEPTH_STALLED",
+    "CONTEXT_REQUIRED",
+    "ARTIFACT_MISSING",
+    "UNQUALIFIED_CONFIGURATION",
+    "QUALIFICATION_EVIDENCE_MISSING",
+    "MODALITY_UNSUPPORTED",
+    "ENCODE_FAILED",
+    "CONTINUITY_VALIDATION_FAILED",
+    "IDENTITY_INVALID",
+    "POLICY_CONFLICT",
+    "CHECKPOINT_INVALID",
+    "MIGRATION_UNSAFE",
+    "COMPATIBILITY_UNKNOWN",
+    "RETENTION_RESTRICTED",
+    "CONFLICT_REQUIRES_REVIEW",
+    "PROVENANCE_INCOMPLETE",
+    "TRAINING_RESTRICTED",
+    "CONFLICT_UNRESOLVED",
+    "SOURCE_UNKNOWN",
+    "RETRIEVAL_FAILED",
+    "STALE_OR_CONFLICTED",
+    "DATASET_INVALID",
+    "RESOURCE_FAILURE",
+    "ACTION_RECONCILIATION_REQUIRED",
+    "ATOMIC_PUBLISH_FAILED"
+  ],
+  "shared_primitives": {
+    "REQUIRE": "Abort the current flow immediately with the supplied typed non-success outcome unless the predicate is true.",
+    "VALIDATE": "Validate schema plus semantic invariants.",
+    "RESOLVE": "Resolve an exact immutable reference; never guess a missing artifact.",
+    "HASH": "Content-address identity material.",
+    "QUALIFIED": "Check claim/profile/transition against bound qualification evidence.",
+    "AUTHORIZE": "Request scoped authorization from Nexus; no implicit authority carry-forward.",
+    "PIN": "Bind state to an exact ECID/configuration identity.",
+    "BUDGET": "Reserve/release bounded compute, context, or refinement budget.",
+    "ATOMIC_PUBLISH": "Stage fully, then atomically publish or preserve prior valid state.",
+    "REPLAY_SAFE": "Check durable action evidence; unresolved effects block replay. Reconciliation is explicit, never a hidden automatic retry.",
+    "REHYDRATE": "Load only the externally referenced context required for the current step.",
+    "COMPACT": "Produce minimal carry-forward state while preserving required dependencies.",
+    "RESULT": "Return typed success or typed non-success outcome.",
+    "AUDIT": "Append immutable/auditable decision or lifecycle evidence.",
+    "IDEMPOTENT_EXECUTE": "Execute side effect under idempotency key and durable commit semantics.",
+    "TRY": "Unwrap a typed result only on SUCCESS; propagate its non-success code unchanged. Helper failures are implicit exits from every process node."
+  },
+  "global_rules": [
+    "Compress implementation, not contract meaning: factor repeated guards into shared primitives only after behavior is test-covered.",
+    "Every terminal path returns a typed outcome.",
+    "Every production mutation is staged and atomically published or leaves the prior valid state intact.",
+    "Every side effect is separated from replayable computation and has idempotency/reconciliation semantics.",
+    "No subsystem reaches into another subsystem internals; use versioned typed public contracts.",
+    "Research mechanisms (HSA/MSA, recurrent depth, DARP, directional-guidance implementations) are independently qualified and are not prerequisites for proving overlay composition.",
+    "Core-only execution remains mandatory for each Core generation.",
+    "Terminal maps contain allowed outcome sets. Grouped failure exits preserve the actual error code; they do not translate every failure into one generic status.",
+    "Every helper failure implicitly exits through the declared failure envelope. Graphs are summaries, not exhaustive executable programs. TRY and REQUIRE are fail-fast.",
+    "All loops consume finite budgets and have stalled/no-progress exits. Graph reachability alone does not prove termination.",
+    "Canonical describes design authority, not implementation. The implementation field states the available simulator coverage.",
+    "Forbidden-edge statements are reviewed architectural constraints; the graph validator does not inspect runtime imports/calls or enforce these prose rules."
+  ],
+  "flows": [
+    {
+      "id": "dataset_snapshot_build",
+      "title": "DatasetSnapshot001 \u2014 build / historical retry",
+      "owner": "dataset_store (archive checks delegated to public experience_store methods)",
+      "purpose": "Bounded DatasetSnapshot001 helper inside Builder/Dataset Curator, not another cognitive system.",
+      "status": "canonical local helper; authenticated authority and neural learning deferred",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact versioned request/snapshot ref",
+        "Bound archive",
+        "Pinned tokenizer artifact"
+      ],
+      "outputs": [
+        "Snapshot receipt or permitted examples",
+        "Typed non-success with no partial output"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Explicit request",
+          "kind": "start"
+        },
+        {
+          "id": "validate",
+          "label": "Strict schema, local binding, tokenizer bytes",
+          "kind": "process"
+        },
+        {
+          "id": "retry",
+          "label": "Operation already published?",
+          "kind": "decision"
+        },
+        {
+          "id": "historical",
+          "label": "Verify original receipt, return history only",
+          "kind": "process"
+        },
+        {
+          "id": "batch",
+          "label": "Atomic current archive batch-use check",
+          "kind": "process"
+        },
+        {
+          "id": "project",
+          "label": "Project text; enforce membership and split rules",
+          "kind": "process"
+        },
+        {
+          "id": "publish",
+          "label": "Transaction: manifest + operation receipt",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Receipt only; not use permission",
+          "kind": "success"
+        },
+        {
+          "id": "fail",
+          "label": "Typed failure; rollback unpublished changes",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "validate",
+          "when": "always"
+        },
+        {
+          "from": "validate",
+          "to": "retry",
+          "when": "valid"
+        },
+        {
+          "from": "validate",
+          "to": "fail",
+          "when": "invalid"
+        },
+        {
+          "from": "retry",
+          "to": "historical",
+          "when": "exact retry"
+        },
+        {
+          "from": "retry",
+          "to": "fail",
+          "when": "ID conflict"
+        },
+        {
+          "from": "retry",
+          "to": "batch",
+          "when": "new"
+        },
+        {
+          "from": "historical",
+          "to": "done",
+          "when": "intact"
+        },
+        {
+          "from": "historical",
+          "to": "fail",
+          "when": "corrupt"
+        },
+        {
+          "from": "batch",
+          "to": "project",
+          "when": "all exact-current and permitted"
+        },
+        {
+          "from": "batch",
+          "to": "fail",
+          "when": "any failure"
+        },
+        {
+          "from": "project",
+          "to": "publish",
+          "when": "valid"
+        },
+        {
+          "from": "project",
+          "to": "fail",
+          "when": "invalid or split conflict"
+        },
+        {
+          "from": "publish",
+          "to": "done",
+          "when": "committed"
+        },
+        {
+          "from": "publish",
+          "to": "fail",
+          "when": "storage failure"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "RECOVERY_REQUIRED",
+          "RETENTION_RESTRICTED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "RECOVERY_REQUIRED",
+        "RETENTION_RESTRICTED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "Snapshot -> Archive private SQL",
+        "Snapshot -> Runtime checkpoint mutation",
+        "Receipt -> Automatic training grant"
+      ],
+      "invariants": [
+        "Exact immutable membership and sources",
+        "All selected revisions/purposes checked; no silent subset",
+        "No training, external actions or automatic review"
+      ],
+      "pseudocode": [
+        "BUILD(request): normalize; verify local archive binding and actual tokenizer bytes",
+        "  if exact prior operation: return verified historical receipt, not examples",
+        "  TRY(archive.read_batch_for_use(exact_references, training))",
+        "  TRY(project_and_validate_membership_and_splits())",
+        "  TRY(ATOMIC_PUBLISH(manifest, operation_receipt))",
+        "  return RESULT(SUCCESS, immutable_snapshot_reference)",
+        "  on failure: return RESULT(original_code); no partial snapshot"
+      ],
+      "uses_primitives": [
+        "VALIDATE",
+        "REQUIRE",
+        "TRY",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Deterministic text projection; no custom executable transforms.",
+        "Archive batch consistency is point-in-time, not a cross-store lease."
+      ]
+    },
+    {
+      "id": "dataset_snapshot_read",
+      "title": "DatasetSnapshot001 \u2014 current-use gate",
+      "owner": "dataset_store (archive checks delegated to public experience_store methods)",
+      "purpose": "Bounded DatasetSnapshot001 helper inside Builder/Dataset Curator, not another cognitive system.",
+      "status": "canonical local helper; authenticated authority and neural learning deferred",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact versioned request/snapshot ref",
+        "Bound archive",
+        "Pinned tokenizer artifact"
+      ],
+      "outputs": [
+        "Snapshot receipt or permitted examples",
+        "Typed non-success with no partial output"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Exact snapshot ref / requested split",
+          "kind": "start"
+        },
+        {
+          "id": "stored",
+          "label": "Verify manifest and original operation receipt",
+          "kind": "process"
+        },
+        {
+          "id": "config",
+          "label": "Verify archive binding and tokenizer bytes",
+          "kind": "process"
+        },
+        {
+          "id": "batch",
+          "label": "Recheck ALL selected refs and source permissions",
+          "kind": "process"
+        },
+        {
+          "id": "match",
+          "label": "Rebuilt views/text equal frozen manifest?",
+          "kind": "decision"
+        },
+        {
+          "id": "split",
+          "label": "Requested split has examples?",
+          "kind": "decision"
+        },
+        {
+          "id": "done",
+          "label": "Return checked split; recheck on next read",
+          "kind": "success"
+        },
+        {
+          "id": "fail",
+          "label": "Typed failure; return no examples; never rewrite manifest",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "stored",
+          "when": "always"
+        },
+        {
+          "from": "stored",
+          "to": "config",
+          "when": "intact"
+        },
+        {
+          "from": "stored",
+          "to": "fail",
+          "when": "invalid"
+        },
+        {
+          "from": "config",
+          "to": "batch",
+          "when": "matches"
+        },
+        {
+          "from": "config",
+          "to": "fail",
+          "when": "mismatch"
+        },
+        {
+          "from": "batch",
+          "to": "match",
+          "when": "all currently permitted"
+        },
+        {
+          "from": "batch",
+          "to": "fail",
+          "when": "any member blocked or missing"
+        },
+        {
+          "from": "match",
+          "to": "split",
+          "when": "yes"
+        },
+        {
+          "from": "match",
+          "to": "fail",
+          "when": "no"
+        },
+        {
+          "from": "split",
+          "to": "done",
+          "when": "yes"
+        },
+        {
+          "from": "split",
+          "to": "fail",
+          "when": "no"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "fail": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONFLICT_REQUIRES_REVIEW",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "INTERNAL_FAILURE",
+          "RECOVERY_REQUIRED",
+          "RETENTION_RESTRICTED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONFLICT_REQUIRES_REVIEW",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "INTERNAL_FAILURE",
+        "RECOVERY_REQUIRED",
+        "RETENTION_RESTRICTED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED"
+      ],
+      "forbidden_edges": [
+        "Snapshot -> Archive private SQL",
+        "Snapshot -> Runtime checkpoint mutation",
+        "Receipt -> Automatic training grant"
+      ],
+      "invariants": [
+        "Exact immutable membership and sources",
+        "All selected revisions/purposes checked; no silent subset",
+        "No training, external actions or automatic review"
+      ],
+      "pseudocode": [
+        "READ(snapshot, expected_hash, split, tokenizer):",
+        "  TRY(verify exact immutable manifest and operation receipt)",
+        "  TRY(verify archive identity and tokenizer bytes)",
+        "  TRY(archive.read_batch_for_use(ALL manifest references, training))",
+        "  REQUIRE(rederived manifest equals stored manifest, VALIDATION_FAILED)",
+        "  REQUIRE(requested split has members, INSUFFICIENT_EVIDENCE)",
+        "  return RESULT(SUCCESS, examples with lineage; point-in-time gate only)",
+        "  on failure: return RESULT(original_code); no partial output or silent membership rewrite"
+      ],
+      "uses_primitives": [
+        "VALIDATE",
+        "REQUIRE",
+        "TRY",
+        "RESULT",
+        "ATOMIC_PUBLISH"
+      ],
+      "optimization_notes": [
+        "Deterministic text projection; no custom executable transforms.",
+        "Archive batch consistency is point-in-time, not a cross-store lease."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "NSS_CM02_Execution_v0.6_Delivery",
+  "status": "COMPLETED_WITH_DECLARED_EXECUTION_RECOVERY_AND_FINAL_ARCHIVE_QA",
+  "archive": {
+    "filename": "NSS_CM02_Execution_v0.6.zip",
+    "bytes": 13701695,
+    "sha256": "0eed7d2f86f53a20e207ce8a915e8be9345e3368c5ae27d61975334bfa84cd56",
+    "crc_verified": true,
+    "fresh_extraction_verified": true,
+    "single_zip_cap_bytes": 67108864
+  },
+  "uncompressed_delivered_bytes": 98387674,
+  "uncompressed_cap_bytes": 268435456,
+  "final_package_verification": {
+    "status": "PASS_PACKAGE_INTEGRITY",
+    "manifest_files": 6664,
+    "local_frozen_source_files": 29,
+    "baseline_files_verified": 164,
+    "attempt_ledgers": 9,
+    "attempted_forwards_all_versions": 5995,
+    "acknowledged_completions": 5993,
+    "models_loaded": 0,
+    "new_forwards": 0,
+    "scope": "byte/source/ledger checks, not re-execution of numerical study"
+  },
+  "final_archive_relocated_independent_rescoring": {
+    "status": "PASS_RELOCATABLE_INDEPENDENT_RESCORING",
+    "byte_identical_files": 32,
+    "files": [
+      {
+        "file": "main/CONTROL_NEGATIVES.csv",
+        "sha256": "687172253461cc724a47547284a1902c4c656514232952278ff6a8d1ba4223ca"
+      },
+      {
+        "file": "main/POOLED.csv",
+        "sha256": "bcb2a1ccb94c46fd410932e543d9a41438165953d31f866e68051d7fd36fc826"
+      },
+      {
+        "file": "main/EVENT_WORK.csv",
+        "sha256": "136feeecb01ae8af4be39fd3a6d7403b46156d06762c5ca0cf9626bd4b23f129"
+      },
+      {
+        "file": "main/EXACT_CONTROLS.csv",
+        "sha256": "1ab605388d71dfc40d68a22e37b5648a9312299998f907440a7ca56a913aaa4f"
+      },
+      {
+        "file": "main/SEQUENCE_GRID.csv",
+        "sha256": "3870c25c4396815910462fe8f157183a1fade0b64244faf8ac6f0c8973b9afe9"
+      },
+      {
+        "file": "main/COST_FAMILY_GRID.csv",
+        "sha256": "8aa459a45f0626922a5767dca7733d5f789fe05301e7af32f7f30a2cbe196c47"
+      },
+      {
+        "file": "main/NO_CUE_ALTERNATE_LABELS.csv",
+        "sha256": "2b61cac287695853bcebf7ce50dd2f36b26b7520d8d284a1e606ddc8094e3c39"
+      },
+      {
+        "file": "main/DECISIONS.csv",
+        "sha256": "8fa3775726c8f709a67cbd829cba7a9e3cb271c532f184614a271e9327fda601"
+      },
+      {
+        "file": "main/CONTROL_GRID.csv",
+        "sha256": "5b8db243066e4a3f442abedba8cc1e4e3505b6ded1fdd9d56eb8d586818aa0be"
+      },
+      {
+        "file": "main/SCORE_RECEIPT.json",
+        "sha256": "e9c8d57f19e4752de66613ada6de710c76d7977b50f0cb86f55f0ef0611a31a8"
+      },
+      {
+        "file": "main/MEMORY_AND_READ_WORK.csv",
+        "sha256": "b06ed8a065287ca196faee896642391ed211e98e3e70f94347358790f51285a7"
+      },
+      {
+        "file": "main/CHECKPOINT_GRID.csv",
+        "sha256": "677afbd2190b0ee092065a47fa892f030ba66e88dbc7b8290a3af0250f5ed6e6"
+      },
+      {
+        "file": "main/NEGATIVE_OUTCOMES.csv",
+        "sha256": "0b0f6900afdf8ecf664cdcc7d3a58d33d6851bb554d29870e195808becd4c441"
+      },
+      {
+        "file": "main/NOISE_GRID.csv",
+        "sha256": "c122f568bb44ed40a45239701cc2781c77a3d454bf5f71e877e36628a109412b"
+      },
+      {
+        "file": "main/FAMILY_GRID.csv",
+        "sha256": "b2594ac8560b6cb04ccc096d483777dc6afca65131fdb9fef64cee4e12db046a"
+      },
+      {
+        "file": "main/FAMILY_PAIRED.csv",
+        "sha256": "64fda26fda92979ed81f9d3f370df712c4217808a1ceb5afa32239f002a85e50"
+      },
+      {
+        "file": "fixture/CONTROL_NEGATIVES.csv",
+        "sha256": "d981b5792cf7e65910a318877d30be3c0f7ed88a13e095990f1a331464977d6e"
+      },
+      {
+        "file": "fixture/POOLED.csv",
+        "sha256": "ac05651690feae5320a31b41a91e9aacd34de6b3ab9bc9ddff4ccee28dbd79ac"
+      },
+      {
+        "file": "fixture/EVENT_WORK.csv",
+        "sha256": "014bfdcd7d1ec8a0608ddbbf8f78125af917b8c55d74dd96ac7d014acac3448b"
+      },
+      {
+        "file": "fixture/EXACT_CONTROLS.csv",
+        "sha256": "ae33619649bbf680510eafd932bc1b0bbc539ab3832b96fb42a0cc1a2bef1908"
+      },
+      {
+        "file": "fixture/SEQUENCE_GRID.csv",
+        "sha256": "c98a34bc10840e616a72856a19a5c62ece1a6e0311148e50b6f8e502104c866b"
+      },
+      {
+        "file": "fixture/COST_FAMILY_GRID.csv",
+        "sha256": "abdbc8ae76c82d92fbfc516e85f37394e884c0819e44a22c18832816fcfe11ef"
+      },
+      {
+        "file": "fixture/NO_CUE_ALTERNATE_LABELS.csv",
+        "sha256": "cd4bb7f315d3e5d87b9bc9ee5b1736d6b28cf7ae0a185a7b081f1b14e898ab5c"
+      },
+      {
+        "file": "fixture/DECISIONS.csv",
+        "sha256": "fac1611291d5a1003a513acbce13468e53e3a4835b9d623d617c5b7acbdd1689"
+      },
+      {
+        "file": "fixture/CONTROL_GRID.csv",
+        "sha256": "d1995fdd80db520f6d258758f06fade82b7cf6d4426629f6d3ae3d618bb27ccb"
+      },
+      {
+        "file": "fixture/SCORE_RECEIPT.json",
+        "sha256": "199894b42dde636216e5786b899a9242f4307015ac4f609dfd1b56334147a255"
+      },
+      {
+        "file": "fixture/MEMORY_AND_READ_WORK.csv",
+        "sha256": "12ca26dbc3de10a691d21a54ea65c834e7a45b2c07b3007e93f512cc9de393cb"
+      },
+      {
+        "file": "fixture/CHECKPOINT_GRID.csv",
+        "sha256": "cfced841e2e35704c2d777f77ce6e64775cca20f9f5ade35c6c2b9270a15b04a"
+      },
+      {
+        "file": "fixture/NEGATIVE_OUTCOMES.csv",
+        "sha256": "38251de9adb18da830b9833d2b4f4cc95f81964cbda97b28bcc5e056fac02e27"
+      },
+      {
+        "file": "fixture/NOISE_GRID.csv",
+        "sha256": "2be458e66b908a405f9ef3dc95c5d35116769bef77096dc6bf62d8f861685137"
+      },
+      {
+        "file": "fixture/FAMILY_GRID.csv",
+        "sha256": "b4ca119153b2419820150dea6537722c2c19e691d6cd57565fb957ffd51e907e"
+      },
+      {
+        "file": "fixture/FAMILY_PAIRED.csv",
+        "sha256": "130ce327f7b76b0ac891f3d9b0365b2d9503c74a4505e6ff490fe1ad82e603c1"
+      }
+    ],
+    "new_model_forwards": 0,
+    "new_scientific_samples": 0
+  },
+  "final_shared_elapsed_seconds": 2226.2368450164795,
+  "wall_cap_seconds": 7200,
+  "no_new_model_calls_for_delivery_qa": true,
+  "total_model_attempts_including_all_failures": 5995,
+  "hard_cap_forwards": 6000,
+  "main_replay": {
+    "arrays": 14400,
+    "byte_identical_independently_scored_files": 16,
+    "byte_identical_npz_containers": 1800,
+    "deterministic_metadata_files": 39,
+    "distinct_outputs": 1800,
+    "elements": 187200,
+    "excluded": [
+      "timing.jsonl",
+      "worker stderr logs",
+      "external supervisor elapsed/RSS/cgroup receipts"
+    ],
+    "no_new_scientific_samples": true,
+    "status": "PASS_EXACT_FRESH_PROCESS_REPLAY"
+  },
+  "carried_fixture": "v0.5 passed fixture capture/replay retained verbatim, scientific source matched and re-scored; no fresh fixture inference claimed for v0.6",
+  "all_15_exports_unchanged": true,
+  "zero_optimizer_updates": true,
+  "negative_evidence_complete": true,
+  "training_history_gaps_unchanged": true,
+  "reports": {
+    "REPORT.md": {
+      "bytes": 19583,
+      "sha256": "a323fcc9e3a7fb1f62359e3eb99a5bdea61fc9ca2be01ac44de29b5a4aac6b68"
+    },
+    "STATUS.json": {
+      "bytes": 3125,
+      "sha256": "3303d9cb492a9cd220029939f6c2186f36d2431fd96523f6af08f453b1b7f748"
+    },
+    "README.md": {
+      "bytes": 4189,
+      "sha256": "0bafeb4a1d36f6cb32bda902cd0f5e8d6e4b786c8ac4e701be51258f35015c60"
+    },
+    "CHAT_PROMPT.md": {
+      "bytes": 2628,
+      "sha256": "bad74b586c4ed150d3ab76f24270e4b45c39f0aefb25e24b326835ce2ecb0a50"
+    }
+  },
+  "historical_dependency": {
+    "filename": "Q010_InferenceRecovery_v1.6_RecoveryContext.zip",
+    "sha256": "9ac2801dc9a67ce3d7fbea5d4f79281b66176e961488fbffb6bf9c660056279e",
+    "models_included_in_new_zip": false
+  },
+  "scope": "Completed fixed-weight chronological reference-management pilot; no native recurrence/token learning/state compression qualification; v0.3/v0.4/v0.5 failures remain incomplete."
+}

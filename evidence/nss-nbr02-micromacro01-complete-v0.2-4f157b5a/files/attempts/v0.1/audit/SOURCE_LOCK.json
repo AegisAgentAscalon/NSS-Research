@@ -1,0 +1,105 @@
+{
+  "study": "NSS-NBR02-MICROMACRO01",
+  "scientific_version": "0.1",
+  "execution_version": "0.1",
+  "locked_host_utc": "2026-09-26T01:02:41Z",
+  "before_model_or_generated_stimulus": true,
+  "files": {
+    "source/base_runtime.py": {
+      "bytes": 14843,
+      "sha256": "9b522020876505110f1f7b9e2016d0531d0030a11a7ec68a5439cf71466f5f6f"
+    },
+    "source/check_lock.py": {
+      "bytes": 348,
+      "sha256": "7c51da981b6dae89ba065e4c0c82385f5de9c574aa952c0a14ce90630781b97d"
+    },
+    "source/driver.py": {
+      "bytes": 21523,
+      "sha256": "81a01781bd57cee0bdff5b2ba7fe3fd4515ac5051265fd6356d78371bf1d06ae"
+    },
+    "source/envelope_codec.py": {
+      "bytes": 2107,
+      "sha256": "8625887beadec27347a54b9f32d03cb12709164ed0141defb51b49724ae23429"
+    },
+    "source/faults.py": {
+      "bytes": 2795,
+      "sha256": "d46047c4f8d2ed11cc1402dcea30fcb752ea40ca1775915c61cf654058ab93a3"
+    },
+    "source/micro_assessment.py": {
+      "bytes": 6908,
+      "sha256": "0c88ef19e9f3432d76a151ae1faba062d397bbd5b1d518c84aaf7693b3878687"
+    },
+    "source/micro_policy.py": {
+      "bytes": 801,
+      "sha256": "44c64e258ae563302baf56f6a40954d416474fb4ea68194acd6a9a98996553ac"
+    },
+    "source/reference_numeric.py": {
+      "bytes": 17093,
+      "sha256": "ddca810c67229504e744199ea377b0c781136d732ab9f95ab50446e9a173cf53"
+    },
+    "source/rev_runtime.py": {
+      "bytes": 12691,
+      "sha256": "0cf2301154d1377430545f59b2a5cc0205bc0b8fa2303638361e93bede8946dd"
+    },
+    "source/runtime.py": {
+      "bytes": 18790,
+      "sha256": "b51e443e039e0e0b25bfb2ca5505f1b770afada91298e560c8eb14bd789fcc9f"
+    },
+    "source/scorer.py": {
+      "bytes": 27342,
+      "sha256": "f74c93420eef6127d935d1fe2e09ce44a32afadd0e3a35fd9a5e3aabba16f570"
+    },
+    "source/static_checks.py": {
+      "bytes": 4459,
+      "sha256": "53638634ac16681637848671e5d5d5aa08abd8bdc77f6e2efcfe077d0d9dcc7a"
+    },
+    "source/supervise.py": {
+      "bytes": 2588,
+      "sha256": "b94350cd8dc8c2552be50774ad3df510de7ad1370b2b248a8847432af7142b91"
+    },
+    "source/worker.py": {
+      "bytes": 2747,
+      "sha256": "17c81d6ace1e6ded2dbd61f331777ea19dd3f71a9a777fa290845390f167287b"
+    },
+    "protocol/PROTOCOL.md": {
+      "bytes": 15077,
+      "sha256": "ef276383a39de98d46e3dc7528bcf08ba850bcc77f4d7afe4a28cb0edc9defa0"
+    },
+    "protocol/SEEDS.json": {
+      "bytes": 3571,
+      "sha256": "b377e6c84c4bf02cb72a074cfb96cf0fbdc5e3e4fc3dce3c0079e227fa58bc6f"
+    },
+    "protocol/SOURCE_CANDIDATES.md": {
+      "bytes": 20464,
+      "sha256": "cf61ee356f5043aaf9b5e16802271e21d3d2a29905c1b0f24e5da59c73d58891"
+    },
+    "protocol/SOURCE_OBJECTIVE.md": {
+      "bytes": 8531,
+      "sha256": "d4972ecd025046f12a39760801f9d815be9b8c6bdcfade30285299975cac3711"
+    },
+    "protocol/WORK_LEDGER.json": {
+      "bytes": 1370,
+      "sha256": "9d60b6465a7871189baca12546247f2b7c7f2c718cf36e894f8ef5aa351dc5bb"
+    },
+    "program/CURRENT_STATUS.md": {
+      "bytes": 610,
+      "sha256": "156dfec80dbb1539217b297427aad91475517ae19c3455e55a319b58e0bcb01a"
+    },
+    "program/G01_G22_REGISTER.md": {
+      "bytes": 3026,
+      "sha256": "d88db9ad87ca020d8e36ac1fd99fb52f7b9e90300a76557d4436211aba390806"
+    },
+    "program/INHERITED_PROGRAM_STATUS.md": {
+      "bytes": 3136,
+      "sha256": "42a9ea968e407bf3295116176b8182b660d2a8db3183848239deaa78426591b6"
+    },
+    "program/TRAINING_PAPER_BACKLOG.md": {
+      "bytes": 1323,
+      "sha256": "3c3fac4d0f1dfc9ca4664c80c97534424ce61e60018b09a35b7e4c31706527be"
+    },
+    "program/USER_RETURN_PLAN.md": {
+      "bytes": 666,
+      "sha256": "4a0f415ea6a28e2dc21a28574bd35ce988e6d46b948adb1016a3e9cec553e336"
+    }
+  }
+}

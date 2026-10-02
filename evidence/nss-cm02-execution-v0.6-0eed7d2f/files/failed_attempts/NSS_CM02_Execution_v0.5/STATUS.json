@@ -1,0 +1,17 @@
+{
+  "status": "INCOMPLETE_INTERRUPTED_DURING_MAIN_CAPTURE",
+  "reason": "Second container tool timeout despite request for 180 seconds; observed tool command lifetime shorter than requested. No study hard resource limit reached. Switching current-turn compute to supervised detached process with explicit polling.",
+  "main_scoring_started": false,
+  "main_capture_complete": false,
+  "main_attempts": {
+    "attempted": 1085,
+    "completed": 1084,
+    "physical_forward_batches": 1085,
+    "query_id": "058856ab561e1d10e00246877fdc1e62-08",
+    "seed": 1205
+  },
+  "all_prior_attempts": 2395,
+  "partial_evidence_retained": true,
+  "source_lock_sha256": "809b0dc2c0462d2c59345cad258e619dff44a3d719069db567939471528230c3",
+  "timestamp_unix": 1790281488.813787
+}

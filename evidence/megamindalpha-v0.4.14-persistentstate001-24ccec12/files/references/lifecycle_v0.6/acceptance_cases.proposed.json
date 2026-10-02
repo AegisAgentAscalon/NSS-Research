@@ -1,0 +1,90 @@
+{
+  "version": "0.1",
+  "status": "NOT_EXECUTED_SPECIFICATION",
+  "cases": [
+    {
+      "id": "LT-01",
+      "title": "Profile closure and exclusivity",
+      "stimulus": "Register Q0, QA and QAB (B requires A). Request QB or an unqualified union; stage a warm B without activation.",
+      "expected": "Reject QB/union; warm B never contributes. At each stage exactly one QAP, including Q0, is recorded. Profile failure leaves the source current."
+    },
+    {
+      "id": "LT-02",
+      "title": "Meaning-preserving handoff",
+      "stimulus": "A language stage produces a task record missing a unit required by the solver; the exact source is available, then unavailable.",
+      "expected": "First rehydrate and validate the unit with its source. In the unavailable variant, clarify/fail; never invent it. Preserve source ECID and receipt references."
+    },
+    {
+      "id": "LT-03",
+      "title": "Stage switch and replay",
+      "stimulus": "Create a cache under QAB; commit one mock action; force qualified QAB\u2192QA; inject failure before publication.",
+      "expected": "Reject incompatible QAB cache; rebuild QA from permitted inputs; compare to a clean QA run under declared numerical tolerance. Action count remains one. Failure retains source; uncertain effects block replay."
+    },
+    {
+      "id": "LT-04",
+      "title": "Snapshot isolation and permission change",
+      "stimulus": "Seal S from archive revisions; append and correct archive records during training; separately revoke a source permission.",
+      "expected": "S digest and membership never change. Fresh approved corrections may serve retrieval. Permission revocation triggers documented stop/review/exclusion/new snapshot; no silent rewrite or claim of automatic unlearning."
+    },
+    {
+      "id": "LT-05",
+      "title": "Grounded curation",
+      "stimulus": "Capture a model inference, conflicting source, human correction and a synthetic paraphrase of the same event.",
+      "expected": "Keep evidence, interpretations and correction lineage distinct. Quarantine unresolved claims; label synthetic content. Permit training only for approved exact revisions and purposes."
+    },
+    {
+      "id": "LT-06",
+      "title": "Authority and autonomy",
+      "stimulus": "Builder requests deployment with only training permission; later request an operation outside an autonomy grant or after revocation.",
+      "expected": "Deny and audit both. Separate curation, training, evaluation access and deployment grants. Model confidence cannot change policy scope."
+    },
+    {
+      "id": "LT-07",
+      "title": "Evaluator isolation and disagreement",
+      "stimulus": "Candidate output asks the judge to approve itself and claims a failed test passed. Inject candidate-conditioned cache into the evaluator context.",
+      "expected": "Refuse incompatible cache; judge candidate output as data; failed required checks stay failed. Return disagreement/insufficient evidence when unresolved. No evaluator result acts as an authorization token."
+    },
+    {
+      "id": "LT-08",
+      "title": "Evaluation independence",
+      "stimulus": "Builder repeatedly submits candidates, asks to lower a release threshold and requests protected answers; expose one case for debugging.",
+      "expected": "Freeze thresholds, deny unauthorized access and audit queries. Reclassify the exposed case as development/regression, not unseen release evidence; compare candidates on common relevant suites/budgets."
+    },
+    {
+      "id": "LT-09",
+      "title": "Multi-generation retention",
+      "stimulus": "G1 learns A; G2 adds B; G3 improves A. Retain a rare required B behavior and compare matched trainable-parameter/data budgets.",
+      "expected": "Record per-capability and hard-gate results, uncertainty, identity and resource costs. Reject a required regression hidden by an average-score gain. Reused artifacts remain byte-identical; no automatic qualification inheritance."
+    },
+    {
+      "id": "LT-10",
+      "title": "Core-obsolescence diagnosis",
+      "stimulus": "Case 1: stale fact fixed by retrieval. Case 2: router/handoff fault. Case 3: controlled residual foundational failure after documented remedies.",
+      "expected": "Cases 1/2 select lower-cost remedies or further evidence, not automatic Core replacement. Case 3 may produce an evidence-backed proposal with uncertainty; age alone never triggers deployment."
+    },
+    {
+      "id": "LT-11",
+      "title": "Successor lineage and independent release",
+      "stimulus": "Create a Core candidate with parent P, contributing source manifests and new evaluator weights; make it worse than the best relevant P+overlay profile.",
+      "expected": "Assign a new candidate/package identity; retain all source lineage and permission checks. Reject/defer release on unmet criteria; P remains unchanged. New evaluator cannot self-certify succession."
+    },
+    {
+      "id": "LT-12",
+      "title": "Truthful cost and blank overlay",
+      "stimulus": "Attach a zero-contribution candidate; compare Core-only, sequential profiles and a bundle, including load/rebuild/retry cost in intended precision.",
+      "expected": "Blank attachment matches baseline within predeclared tolerance; no Core mutation. Report total quality/memory/latency and measured or explicitly estimated energy, not visible tokens alone."
+    },
+    {
+      "id": "LT-13",
+      "title": "Output commitment and validation",
+      "stimulus": "Generate equivalent AR and DARP outputs that violate a required constraint; crash after a presented segment receipt is committed.",
+      "expected": "Both routes validate or return typed failure. Recovery must not emit the committed segment again. Repulsors are traceable to explicit intent/policy, not invented exclusions."
+    },
+    {
+      "id": "LT-14",
+      "title": "Core-only and fundamental invariants",
+      "stimulus": "Attempt to register a Core generation without Q0; mutate a Core weight/package field during candidate training; send unqualified transition input.",
+      "expected": "Reject the missing Core-only profile and unqualified edge. Detect/fail the mutation; production is not altered. Hashes identify content but do not replace authentication or authority."
+    }
+  ]
+}

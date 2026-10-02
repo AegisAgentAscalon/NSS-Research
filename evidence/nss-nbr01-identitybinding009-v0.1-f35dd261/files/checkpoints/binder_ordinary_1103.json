@@ -1,0 +1,80 @@
+{
+  "batch": 128,
+  "checkpoint_sha256": "0f1ba6ecf0663f02091151cd535d1bc32360f861071b265032230b61a05623e0",
+  "data_checks": {
+    "1": "27d5207eed0b1d52be9872b7bbb0107495a61ffed4caeacf9c00f861efff9e4a",
+    "1200": "41bc6916b7c4755af776f6c63cdfa8f5e8d14b3974ec78e3dfaf650995b72164",
+    "601": "d11880ed961e4aa3c9c17d0da80b23cabad59ebd47f2c3c87a67681d0f0d11c8"
+  },
+  "development": false,
+  "end_utc": "2026-09-21T18:58:21.193633+00:00",
+  "env": {
+    "cuda": false,
+    "numpy": "2.3.5",
+    "pid": 844,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "torch": "2.10.0+cpu",
+    "torch_threads": 1,
+    "utc": "2026-09-21T18:58:21.193696+00:00"
+  },
+  "examples": 153600,
+  "final_weight_hash": "f9bdb42b1cd4e77e18bf331f0871896f275d74ea3c55136bc26a455a5fd173dd",
+  "fit_seconds": 2.795227781000108,
+  "history": [
+    {
+      "accuracy": 1.0,
+      "loss": 0.0030671621207147837,
+      "seconds": 0.003473474000088572,
+      "step": 1
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0004603759734891355,
+      "seconds": 0.46270455600006244,
+      "step": 200
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0005738041363656521,
+      "seconds": 0.9230712000000949,
+      "step": 400
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.0002109654451487586,
+      "seconds": 1.379103353000005,
+      "step": 600
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.00035433570155873895,
+      "seconds": 1.8345271290000937,
+      "step": 800
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.00011110311606898904,
+      "seconds": 2.326533105000067,
+      "step": 1000
+    },
+    {
+      "accuracy": 1.0,
+      "loss": 0.00011278981401119381,
+      "seconds": 2.7916628420000507,
+      "step": 1200
+    }
+  ],
+  "initial_weight_hash": "90801de82d07a9fafd985683d0b6bdaf13cc64af579a3b8b973373b7e027fb52",
+  "kind": "ordinary",
+  "lr": 0.002,
+  "optimizer": "AdamW",
+  "pair": 3,
+  "parameters": 818,
+  "scale": 72.12133026123047,
+  "seed": 1103,
+  "start_utc": "2026-09-21T18:58:18.398428+00:00",
+  "steps": 1200,
+  "threshold": 0.8439168334007263,
+  "weight_decay": 0.0001
+}

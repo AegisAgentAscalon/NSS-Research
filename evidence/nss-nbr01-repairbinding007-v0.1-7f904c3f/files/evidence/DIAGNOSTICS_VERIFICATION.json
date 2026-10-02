@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rows": 240,
+  "answer_evaluations": 15360,
+  "state_configurations": 30,
+  "fresh_replay": true,
+  "exploratory": true
+}

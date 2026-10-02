@@ -1,0 +1,17 @@
+{
+  "attempt_role": "main",
+  "checkpoint_compressed_sha256": "6569bff2190fe197e57dc19f609d7bdd7f8e20b74d5525bd7c3028ea1682dc61",
+  "elapsed_seconds": 354.7551583210002,
+  "end_utc": "2026-09-24T02:45:30.621478+00:00",
+  "final_loss": 8.483114652335644e-05,
+  "final_public_sha256": "d6fdb3270c57e1d1f4b673ef7af9f2b30a11316df1943dc6321834bad1039cd6",
+  "final_strict_sha256": "2af88c920a01e19d157a1947e2f690674dd1afc5407ae175bff3b5f48b8e1247",
+  "peak_rss_bytes": 1180094464,
+  "protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+  "role": "ordinary",
+  "seed": 1204,
+  "sequence_presentations": 384000,
+  "source_lock_sha256": "4166b3643b16ae7da33a06188f83be1b335017dafcf0eef875ced9bf3a3da02c",
+  "status": "COMPLETE_FIT_NOT_SCIENTIFIC_QUALIFICATION",
+  "updates": 6000
+}

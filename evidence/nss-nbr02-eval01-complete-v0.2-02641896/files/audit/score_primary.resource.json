@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2/source/score.py",
+    "--root",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2",
+    "--raw",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2/raw/primary",
+    "--out",
+    "/mnt/data/NSS_NBR02_EVAL01_Execution_v0.2/results/primary"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 37.34113804900005,
+  "peak_sampled_rss_bytes": 453586944,
+  "peak_sampled_container_bytes": 2130718720,
+  "peak_physical_output_bytes": 169201398,
+  "sampling_seconds": 0.2,
+  "stop": null
+}

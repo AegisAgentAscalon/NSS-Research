@@ -1,0 +1,11 @@
+test_cli_help_and_dependency_check (test_learner_tooling.LearnerToolTests.test_cli_help_and_dependency_check) ... ok
+test_connected_verifier_rejects_missing_evidence (test_learner_tooling.LearnerToolTests.test_connected_verifier_rejects_missing_evidence) ... ok
+test_helper_graphs_have_no_qualification_or_deployment_authority (test_learner_tooling.LearnerToolTests.test_helper_graphs_have_no_qualification_or_deployment_authority) ... ok
+test_orchestrator_has_no_private_storage_or_release_shortcut (test_learner_tooling.LearnerToolTests.test_orchestrator_has_no_private_storage_or_release_shortcut) ... ok
+test_public_gate_rejects_malformed_ids_as_typed_errors (test_learner_tooling.LearnerToolTests.test_public_gate_rejects_malformed_ids_as_typed_errors) ... ok
+test_schemas_and_logic_regenerate_exactly (test_learner_tooling.LearnerToolTests.test_schemas_and_logic_regenerate_exactly) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.307s
+
+OK

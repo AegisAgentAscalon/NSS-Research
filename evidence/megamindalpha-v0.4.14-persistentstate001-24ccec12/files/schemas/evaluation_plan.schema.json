@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "actor": {
+      "$ref": "experience_actor.schema.json"
+    },
+    "at": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 20,
+      "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4096
+    },
+    "candidate": {
+      "type": "object",
+      "properties": {
+        "manifest": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 512
+            },
+            "sha256": {
+              "type": "string",
+              "minLength": 64,
+              "maxLength": 64,
+              "pattern": "[0-9a-f]{64}"
+            }
+          },
+          "required": [
+            "path",
+            "sha256"
+          ],
+          "additionalProperties": false
+        },
+        "profile": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "[A-Za-z0-9_.:-]+"
+        },
+        "expected_ecid": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "[0-9a-f]{64}"
+        }
+      },
+      "required": [
+        "manifest",
+        "profile",
+        "expected_ecid"
+      ],
+      "additionalProperties": false
+    },
+    "suite": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "[0-9a-f]{64}"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "implementation_sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64,
+      "pattern": "[0-9a-f]{64}"
+    },
+    "repeats": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "max_evaluations": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 160
+    },
+    "development_snapshot": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "snapshot_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "[A-Za-z0-9_.:-]+"
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64,
+          "pattern": "[0-9a-f]{64}"
+        },
+        "split": {
+          "type": "string",
+          "enum": [
+            "validation"
+          ]
+        }
+      },
+      "required": [
+        "snapshot_id",
+        "sha256",
+        "split"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "run_id",
+    "actor",
+    "at",
+    "reason",
+    "candidate",
+    "suite",
+    "implementation_sha256",
+    "repeats",
+    "max_evaluations",
+    "development_snapshot"
+  ],
+  "additionalProperties": false
+}

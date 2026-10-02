@@ -1,0 +1,154 @@
+{
+  "namespace": "NSS-NBR02-MICROMACRO01-v0.1/",
+  "derivation": "first 8 SHA256 bytes, unsigned big-endian",
+  "allocations": [
+    {
+      "label": "init/main/0",
+      "seed_uint64": 1219220696055285244
+    },
+    {
+      "label": "init/main/1",
+      "seed_uint64": 7222604684583361048
+    },
+    {
+      "label": "init/main/2",
+      "seed_uint64": 7076931422835606036
+    },
+    {
+      "label": "init/main/3",
+      "seed_uint64": 2673923062148526762
+    },
+    {
+      "label": "order/main/0",
+      "seed_uint64": 3518285524297897069
+    },
+    {
+      "label": "order/main/1",
+      "seed_uint64": 8874108206160880260
+    },
+    {
+      "label": "order/main/2",
+      "seed_uint64": 11782541174882436058
+    },
+    {
+      "label": "order/main/3",
+      "seed_uint64": 7591191506430063434
+    },
+    {
+      "label": "labels/old/scope0",
+      "seed_uint64": 14137845498064243038
+    },
+    {
+      "label": "labels/old/scope1",
+      "seed_uint64": 6325956664368315601
+    },
+    {
+      "label": "labels/development/scope0",
+      "seed_uint64": 3902604907718304352
+    },
+    {
+      "label": "labels/development/scope1",
+      "seed_uint64": 5586607084209711800
+    },
+    {
+      "label": "labels/heldout/scope0",
+      "seed_uint64": 9293079393520975531
+    },
+    {
+      "label": "labels/heldout/scope1",
+      "seed_uint64": 8974241769121717549
+    },
+    {
+      "label": "init/fixture",
+      "seed_uint64": 10221253131304708776
+    },
+    {
+      "label": "init/probe",
+      "seed_uint64": 17519899512558263722
+    },
+    {
+      "label": "order/probe",
+      "seed_uint64": 919128645816693386
+    },
+    {
+      "label": "wire/main",
+      "seed_uint64": 15116996572155282387
+    },
+    {
+      "label": "wire/fixture",
+      "seed_uint64": 8204638445931467530
+    },
+    {
+      "label": "wire/probe",
+      "seed_uint64": 5141204633086201198
+    },
+    {
+      "label": "wire/faults",
+      "seed_uint64": 765445183494307779
+    },
+    {
+      "label": "fixture/filler/case0/trial1",
+      "seed_uint64": 5681148664574438055
+    },
+    {
+      "label": "fixture/filler/case0/trial2",
+      "seed_uint64": 8582595582738974751
+    },
+    {
+      "label": "fixture/filler/case0/trial3",
+      "seed_uint64": 5233796623489906059
+    },
+    {
+      "label": "fixture/filler/case0/trial4",
+      "seed_uint64": 446466066905512252
+    },
+    {
+      "label": "fixture/filler/case0/trial5",
+      "seed_uint64": 14975778255124785241
+    },
+    {
+      "label": "fixture/filler/case0/trial6",
+      "seed_uint64": 12840678338173284603
+    },
+    {
+      "label": "fixture/filler/case0/trial7",
+      "seed_uint64": 11466665744715059983
+    },
+    {
+      "label": "fixture/filler/case0/trial8",
+      "seed_uint64": 13324323423175389076
+    },
+    {
+      "label": "fixture/filler/case1/trial1",
+      "seed_uint64": 18108896182392554457
+    },
+    {
+      "label": "fixture/filler/case1/trial2",
+      "seed_uint64": 16248928632115133928
+    },
+    {
+      "label": "fixture/filler/case1/trial3",
+      "seed_uint64": 4929802770454330600
+    },
+    {
+      "label": "fixture/filler/case1/trial4",
+      "seed_uint64": 8626490847053005188
+    },
+    {
+      "label": "fixture/filler/case1/trial5",
+      "seed_uint64": 17840472081931419793
+    },
+    {
+      "label": "fixture/filler/case1/trial6",
+      "seed_uint64": 5306948369746909993
+    },
+    {
+      "label": "fixture/filler/case1/trial7",
+      "seed_uint64": 18252495822892350891
+    },
+    {
+      "label": "fixture/filler/case1/trial8",
+      "seed_uint64": 12048701466977624159
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "frames": 19428,
+  "arrays": 61150,
+  "numeric_elements": 14577108,
+  "metadata_bytes_equal": true,
+  "files_equal": [
+    "worker/events.jsonl",
+    "public_messages.jsonl",
+    "public_responses.jsonl",
+    "private/PLAN.json",
+    "A0_AND_GUARDS_LOCK.json",
+    "COUNTERS.json",
+    "EXACT.json",
+    "NOVELTY.json",
+    "STATIC_FIXTURES.json"
+  ],
+  "scorefiles_equal": [
+    "A0.csv",
+    "AUDIT.json",
+    "BATCH_UPDATES.csv",
+    "DECISIONS.json",
+    "DERIVATIVES.csv",
+    "EXACT_ROWS.csv",
+    "FIRST_CORRECTION_PAIRS.csv",
+    "NEGATIVE_QUERY_ROWS.csv",
+    "QUERY_ROWS.csv",
+    "RECOVERY_TRANSITIONS.csv",
+    "RETENTION_BASE_CHECKPOINT.csv",
+    "RETENTION_INDIVIDUAL.csv",
+    "UPDATES.csv"
+  ],
+  "raw_byte_equality": true,
+  "exclusions": [
+    "measured wall time",
+    "heartbeat wall timestamps",
+    "supervisor measurements",
+    "cost admission timing forecasts"
+  ],
+  "replay_scope": "entire executed fixture/probe/initial/development prefix, no held-out generated",
+  "new_training_reproduction": true,
+  "third_party_replication": false
+}

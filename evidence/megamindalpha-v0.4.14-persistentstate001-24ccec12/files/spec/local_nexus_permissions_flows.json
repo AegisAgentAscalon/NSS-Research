@@ -1,0 +1,704 @@
+{
+  "schema_version": 2,
+  "global_outcomes": [
+    "SUCCESS",
+    "NEEDS_CLARIFICATION",
+    "INSUFFICIENT_EVIDENCE",
+    "BUDGET_EXHAUSTED",
+    "CONSTRAINT_CONFLICT",
+    "CAPABILITY_UNAVAILABLE",
+    "INCOMPATIBLE_CONFIGURATION",
+    "TRANSITION_UNQUALIFIED",
+    "AUTHORIZATION_DENIED",
+    "VALIDATION_FAILED",
+    "RECOVERY_REQUIRED",
+    "ACTION_UNCERTAIN",
+    "ACTION_FAILED",
+    "INTERNAL_FAILURE",
+    "QUALIFICATION_FAILED",
+    "STAGING_FAILED",
+    "MIGRATION_REQUIRED",
+    "POLICY_DENIED",
+    "NO_VALID_OVERLAY",
+    "STALE_STATE",
+    "SOURCE_INVALID",
+    "TRAINING_NOT_JUSTIFIED",
+    "DATA_RESTRICTED",
+    "CORE_MUTATION_DETECTED",
+    "TRAINING_DIVERGED",
+    "EVIDENCE_INCOMPLETE",
+    "THRESHOLD_NOT_MET",
+    "NONDETERMINISTIC_RESULT",
+    "ABI_MISMATCH",
+    "CHECKSUM_MISMATCH",
+    "DEPENDENCY_CONFLICT",
+    "RESOURCE_UNAVAILABLE",
+    "TOKENIZER_MISMATCH",
+    "CONTEXT_ABI_MISMATCH",
+    "MANDATORY_CONTEXT_OVERFLOW",
+    "SOURCE_VALIDATION_FAILED",
+    "REHYDRATION_FAILED",
+    "DEPTH_STALLED",
+    "CONTEXT_REQUIRED",
+    "ARTIFACT_MISSING",
+    "UNQUALIFIED_CONFIGURATION",
+    "QUALIFICATION_EVIDENCE_MISSING",
+    "MODALITY_UNSUPPORTED",
+    "ENCODE_FAILED",
+    "CONTINUITY_VALIDATION_FAILED",
+    "IDENTITY_INVALID",
+    "POLICY_CONFLICT",
+    "CHECKPOINT_INVALID",
+    "MIGRATION_UNSAFE",
+    "COMPATIBILITY_UNKNOWN",
+    "RETENTION_RESTRICTED",
+    "CONFLICT_REQUIRES_REVIEW",
+    "PROVENANCE_INCOMPLETE",
+    "TRAINING_RESTRICTED",
+    "CONFLICT_UNRESOLVED",
+    "SOURCE_UNKNOWN",
+    "RETRIEVAL_FAILED",
+    "STALE_OR_CONFLICTED",
+    "DATASET_INVALID",
+    "RESOURCE_FAILURE",
+    "ACTION_RECONCILIATION_REQUIRED",
+    "ATOMIC_PUBLISH_FAILED"
+  ],
+  "shared_primitives": {
+    "REQUIRE": "Abort the current flow immediately with the supplied typed non-success outcome unless the predicate is true.",
+    "VALIDATE": "Validate schema plus semantic invariants.",
+    "RESOLVE": "Resolve an exact immutable reference; never guess a missing artifact.",
+    "HASH": "Content-address identity material.",
+    "QUALIFIED": "Check claim/profile/transition against bound qualification evidence.",
+    "AUTHORIZE": "Request scoped authorization from Nexus; no implicit authority carry-forward.",
+    "PIN": "Bind state to an exact ECID/configuration identity.",
+    "BUDGET": "Reserve/release bounded compute, context, or refinement budget.",
+    "ATOMIC_PUBLISH": "Stage fully, then atomically publish or preserve prior valid state.",
+    "REPLAY_SAFE": "Check durable action evidence; unresolved effects block replay. Reconciliation is explicit, never a hidden automatic retry.",
+    "REHYDRATE": "Load only the externally referenced context required for the current step.",
+    "COMPACT": "Produce minimal carry-forward state while preserving required dependencies.",
+    "RESULT": "Return typed success or typed non-success outcome.",
+    "AUDIT": "Append immutable/auditable decision or lifecycle evidence.",
+    "IDEMPOTENT_EXECUTE": "Execute side effect under idempotency key and durable commit semantics.",
+    "TRY": "Unwrap a typed result only on SUCCESS; propagate its non-success code unchanged. Helper failures are implicit exits from every process node."
+  },
+  "global_rules": [
+    "Compress implementation, not contract meaning: factor repeated guards into shared primitives only after behavior is test-covered.",
+    "Every terminal path returns a typed outcome.",
+    "Every production mutation is staged and atomically published or leaves the prior valid state intact.",
+    "Every side effect is separated from replayable computation and has idempotency/reconciliation semantics.",
+    "No subsystem reaches into another subsystem internals; use versioned typed public contracts.",
+    "Research mechanisms (HSA/MSA, recurrent depth, DARP, directional-guidance implementations) are independently qualified and are not prerequisites for proving overlay composition.",
+    "Core-only execution remains mandatory for each Core generation.",
+    "Terminal maps contain allowed outcome sets. Grouped failure exits preserve the actual error code; they do not translate every failure into one generic status.",
+    "Every helper failure implicitly exits through the declared failure envelope. Graphs are summaries, not exhaustive executable programs. TRY and REQUIRE are fail-fast.",
+    "All loops consume finite budgets and have stalled/no-progress exits. Graph reachability alone does not prove termination.",
+    "Canonical describes design authority, not implementation. The implementation field states the available simulator coverage.",
+    "Forbidden-edge statements are reviewed architectural constraints; the graph validator does not inspect runtime imports/calls or enforce these prose rules."
+  ],
+  "title": "LocalNexusPermissions002 bounded workflow",
+  "purpose": "Three subordinate protocol flows; replay executor has no production or arbitrary tool authority.",
+  "flows": [
+    {
+      "id": "permission_issue",
+      "title": "Exact qualification to scoped local grant",
+      "owner": "LocalNexusPermissions002 local owners",
+      "purpose": "Bounded trusted-local replay authorization; not production security.",
+      "status": "Implemented local development protocol",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact PermissionRequest",
+        "Current qualification/evidence refs",
+        "Local operator declarations"
+      ],
+      "outputs": [
+        "Historical grant/receipt or point-in-time admission",
+        "Typed non-success without renewed authority"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Operation request + issuer + TTL",
+          "kind": "start"
+        },
+        {
+          "id": "valid",
+          "label": "Validate fixed policy, schema and distinct roles",
+          "kind": "process"
+        },
+        {
+          "id": "old",
+          "label": "Identical request already issued?",
+          "kind": "decision"
+        },
+        {
+          "id": "history",
+          "label": "Return historical grant; expiry/revocation unchanged",
+          "kind": "success"
+        },
+        {
+          "id": "check",
+          "label": "Recheck exact current qualification, dependencies, data, code and numerical scope",
+          "kind": "process"
+        },
+        {
+          "id": "clock",
+          "label": "Read trusted local clock and validate TTL",
+          "kind": "process"
+        },
+        {
+          "id": "commit",
+          "label": "Atomically append ISSUE and journal head",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return nondelegable one-use local grant",
+          "kind": "success"
+        },
+        {
+          "id": "bad",
+          "label": "Deny with typed reason; retain audit where valid",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "valid",
+          "when": "always"
+        },
+        {
+          "from": "valid",
+          "to": "old",
+          "when": "valid"
+        },
+        {
+          "from": "valid",
+          "to": "bad",
+          "when": "invalid"
+        },
+        {
+          "from": "old",
+          "to": "history",
+          "when": "identical"
+        },
+        {
+          "from": "old",
+          "to": "check",
+          "when": "new"
+        },
+        {
+          "from": "old",
+          "to": "bad",
+          "when": "conflicting request ID"
+        },
+        {
+          "from": "check",
+          "to": "clock",
+          "when": "current evidence"
+        },
+        {
+          "from": "check",
+          "to": "bad",
+          "when": "revoked/mismatched/failed"
+        },
+        {
+          "from": "clock",
+          "to": "commit",
+          "when": "valid"
+        },
+        {
+          "from": "clock",
+          "to": "bad",
+          "when": "rollback or invalid lifetime"
+        },
+        {
+          "from": "commit",
+          "to": "done",
+          "when": "durable"
+        },
+        {
+          "from": "commit",
+          "to": "bad",
+          "when": "failure before commit"
+        }
+      ],
+      "terminals": {
+        "history": [
+          "SUCCESS"
+        ],
+        "done": [
+          "SUCCESS"
+        ],
+        "bad": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED",
+          "CAPABILITY_UNAVAILABLE"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED",
+        "CAPABILITY_UNAVAILABLE"
+      ],
+      "invariants": [
+        "Local declarations are not authentication; a host grant is not an Aegis Runtime permit.",
+        "Grants bind exact caller/task/operation, source state, action receipts, qualification claim, numerical environment and code.",
+        "Single-use consumption precedes dispatch; unresolved consumed attempts never automatically retry.",
+        "History inspection and reconciliation do not renew current authority or data permissions.",
+        "No production checkpoint publication, external action creation, delegation or deployment authority."
+      ],
+      "forbidden_edges": [
+        "Permission owner cannot edit qualification, dataset, neural or action-owner SQL.",
+        "Qualification certificate cannot replace an operation grant.",
+        "A consumed grant cannot be reset to GRANTED.",
+        "A caller-provided result cannot substitute for the executor owner receipt."
+      ],
+      "optimization_notes": [
+        "Bounded fixed fixture scope; no unbounded request loop.",
+        "Reuse semantic owner APIs, not duplicated SQL or cached authorization."
+      ],
+      "uses_primitives": [
+        "REQUIRE",
+        "VALIDATE",
+        "QUALIFIED",
+        "AUTHORIZE",
+        "ATOMIC_PUBLISH",
+        "AUDIT",
+        "RESULT"
+      ],
+      "pseudocode": [
+        "req = VALIDATE(request, fixed_policy)",
+        "REQUIRE(distinct_local_issuer_and_executor)",
+        "IF exact_prior_issue: RETURN history_not_renewal",
+        "QUALIFIED(exact_claim_and_prerequisites, current_source)",
+        "REQUIRE(monotonic_observed_clock AND bounded_TTL)",
+        "ATOMIC_PUBLISH(issue_event, journal_head)",
+        "RETURN local_grant_without_runtime_or_deployment_authority"
+      ]
+    },
+    {
+      "id": "permission_use",
+      "title": "Single-use consumption, dispatch and receipt binding",
+      "owner": "LocalNexusPermissions002 local owners",
+      "purpose": "Bounded trusted-local replay authorization; not production security.",
+      "status": "Implemented local development protocol",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact PermissionRequest",
+        "Current qualification/evidence refs",
+        "Local operator declarations"
+      ],
+      "outputs": [
+        "Historical grant/receipt or point-in-time admission",
+        "Typed non-success without renewed authority"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Exact request, grant, caller and executor",
+          "kind": "start"
+        },
+        {
+          "id": "validate",
+          "label": "Validate exact request, grant and caller identity",
+          "kind": "process"
+        },
+        {
+          "id": "historyq",
+          "label": "Already COMMITTED?",
+          "kind": "decision"
+        },
+        {
+          "id": "history",
+          "label": "Cross-check executor receipt; return history only",
+          "kind": "success"
+        },
+        {
+          "id": "live",
+          "label": "Recheck expiry, revocation, evidence and unused status",
+          "kind": "process"
+        },
+        {
+          "id": "consume",
+          "label": "Atomically consume: STARTED",
+          "kind": "process"
+        },
+        {
+          "id": "dispatch",
+          "label": "Revalidate source; live dispatch check; append DISPATCHED",
+          "kind": "process"
+        },
+        {
+          "id": "execute",
+          "label": "Rebuild fixed neural target; no new external effect",
+          "kind": "process"
+        },
+        {
+          "id": "stage",
+          "label": "Atomically persist executor result and receipt",
+          "kind": "process"
+        },
+        {
+          "id": "finish",
+          "label": "Read owner receipt; atomically append COMMITTED",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return completion; not production deployment",
+          "kind": "success"
+        },
+        {
+          "id": "bad",
+          "label": "Typed failure; spent attempt needs reconciliation",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "validate",
+          "when": "always"
+        },
+        {
+          "from": "validate",
+          "to": "historyq",
+          "when": "valid"
+        },
+        {
+          "from": "validate",
+          "to": "bad",
+          "when": "invalid"
+        },
+        {
+          "from": "historyq",
+          "to": "history",
+          "when": "yes"
+        },
+        {
+          "from": "historyq",
+          "to": "live",
+          "when": "no"
+        },
+        {
+          "from": "live",
+          "to": "consume",
+          "when": "approved and unused"
+        },
+        {
+          "from": "live",
+          "to": "bad",
+          "when": "otherwise"
+        },
+        {
+          "from": "consume",
+          "to": "dispatch",
+          "when": "durable"
+        },
+        {
+          "from": "consume",
+          "to": "bad",
+          "when": "failed/interrupted"
+        },
+        {
+          "from": "dispatch",
+          "to": "execute",
+          "when": "admitted once"
+        },
+        {
+          "from": "dispatch",
+          "to": "bad",
+          "when": "revoked/expired/uncertain"
+        },
+        {
+          "from": "execute",
+          "to": "stage",
+          "when": "valid result"
+        },
+        {
+          "from": "execute",
+          "to": "bad",
+          "when": "failure"
+        },
+        {
+          "from": "stage",
+          "to": "finish",
+          "when": "durable receipt"
+        },
+        {
+          "from": "stage",
+          "to": "bad",
+          "when": "uncertain/interrupted"
+        },
+        {
+          "from": "finish",
+          "to": "done",
+          "when": "durable completion"
+        },
+        {
+          "from": "finish",
+          "to": "bad",
+          "when": "unavailable receipt"
+        }
+      ],
+      "terminals": {
+        "history": [
+          "SUCCESS"
+        ],
+        "done": [
+          "SUCCESS"
+        ],
+        "bad": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED",
+          "CAPABILITY_UNAVAILABLE"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED",
+        "CAPABILITY_UNAVAILABLE"
+      ],
+      "invariants": [
+        "Local declarations are not authentication; a host grant is not an Aegis Runtime permit.",
+        "Grants bind exact caller/task/operation, source state, action receipts, qualification claim, numerical environment and code.",
+        "Single-use consumption precedes dispatch; unresolved consumed attempts never automatically retry.",
+        "History inspection and reconciliation do not renew current authority or data permissions.",
+        "No production checkpoint publication, external action creation, delegation or deployment authority."
+      ],
+      "forbidden_edges": [
+        "Permission owner cannot edit qualification, dataset, neural or action-owner SQL.",
+        "Qualification certificate cannot replace an operation grant.",
+        "A consumed grant cannot be reset to GRANTED.",
+        "A caller-provided result cannot substitute for the executor owner receipt."
+      ],
+      "optimization_notes": [
+        "Bounded fixed fixture scope; no unbounded request loop.",
+        "Reuse semantic owner APIs, not duplicated SQL or cached authorization."
+      ],
+      "uses_primitives": [
+        "REQUIRE",
+        "VALIDATE",
+        "QUALIFIED",
+        "AUTHORIZE",
+        "ATOMIC_PUBLISH",
+        "AUDIT",
+        "RESULT"
+      ],
+      "pseudocode": [
+        "VALIDATE(request, grant, exact_caller)",
+        "IF COMMITTED: REQUIRE(owner_receipt_matches); RETURN history",
+        "AUTHORIZE(current_evidence, clock, unused_grant)",
+        "ATOMIC_PUBLISH(STARTED)",
+        "VALIDATE(real_source_state, existing_action_receipts)",
+        "AUTHORIZE(current_evidence, clock); ATOMIC_PUBLISH(DISPATCHED)",
+        "result = fixed_neural_replay_without_external_actions()",
+        "ATOMIC_PUBLISH(executor_result_and_receipt)",
+        "ATOMIC_PUBLISH(COMMITTED_from_executor_receipt)",
+        "ON interruption: do_not_retry_consumed_grant"
+      ]
+    },
+    {
+      "id": "permission_reconcile",
+      "title": "Explicit spent-grant reconciliation or abandonment",
+      "owner": "LocalNexusPermissions002 local owners",
+      "purpose": "Bounded trusted-local replay authorization; not production security.",
+      "status": "Implemented local development protocol",
+      "implementation": "partial-simulator",
+      "inputs": [
+        "Exact PermissionRequest",
+        "Current qualification/evidence refs",
+        "Local operator declarations"
+      ],
+      "outputs": [
+        "Historical grant/receipt or point-in-time admission",
+        "Typed non-success without renewed authority"
+      ],
+      "nodes": [
+        {
+          "id": "start",
+          "label": "Spent request and declared reconciler",
+          "kind": "start"
+        },
+        {
+          "id": "check",
+          "label": "Check exact grant, roles and journal integrity",
+          "kind": "process"
+        },
+        {
+          "id": "lookup",
+          "label": "Read authoritative executor result receipt",
+          "kind": "process"
+        },
+        {
+          "id": "found",
+          "label": "Matching receipt exists?",
+          "kind": "decision"
+        },
+        {
+          "id": "record",
+          "label": "Require dispatch history; append reconciled COMMITTED",
+          "kind": "process"
+        },
+        {
+          "id": "abandon",
+          "label": "Confirm absence; append permanent ABANDONED",
+          "kind": "process"
+        },
+        {
+          "id": "done",
+          "label": "Return historical result or abandonment; no re-execution",
+          "kind": "success"
+        },
+        {
+          "id": "bad",
+          "label": "Hold spent status and return typed failure",
+          "kind": "failure"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "start",
+          "to": "check",
+          "when": "always"
+        },
+        {
+          "from": "check",
+          "to": "lookup",
+          "when": "valid spent grant"
+        },
+        {
+          "from": "check",
+          "to": "bad",
+          "when": "invalid/unspent/role failure"
+        },
+        {
+          "from": "lookup",
+          "to": "found",
+          "when": "owner readable"
+        },
+        {
+          "from": "lookup",
+          "to": "bad",
+          "when": "missing/corrupt owner"
+        },
+        {
+          "from": "found",
+          "to": "record",
+          "when": "yes"
+        },
+        {
+          "from": "found",
+          "to": "abandon",
+          "when": "no"
+        },
+        {
+          "from": "record",
+          "to": "done",
+          "when": "atomic"
+        },
+        {
+          "from": "record",
+          "to": "bad",
+          "when": "undispatched or invalid receipt"
+        },
+        {
+          "from": "abandon",
+          "to": "done",
+          "when": "atomic"
+        },
+        {
+          "from": "abandon",
+          "to": "bad",
+          "when": "journal failure"
+        }
+      ],
+      "terminals": {
+        "done": [
+          "SUCCESS"
+        ],
+        "bad": [
+          "AUTHORIZATION_DENIED",
+          "BUDGET_EXHAUSTED",
+          "CONSTRAINT_CONFLICT",
+          "INCOMPATIBLE_CONFIGURATION",
+          "INSUFFICIENT_EVIDENCE",
+          "RECOVERY_REQUIRED",
+          "TRAINING_RESTRICTED",
+          "VALIDATION_FAILED",
+          "CAPABILITY_UNAVAILABLE"
+        ]
+      },
+      "failure_codes": [
+        "AUTHORIZATION_DENIED",
+        "BUDGET_EXHAUSTED",
+        "CONSTRAINT_CONFLICT",
+        "INCOMPATIBLE_CONFIGURATION",
+        "INSUFFICIENT_EVIDENCE",
+        "RECOVERY_REQUIRED",
+        "TRAINING_RESTRICTED",
+        "VALIDATION_FAILED",
+        "CAPABILITY_UNAVAILABLE"
+      ],
+      "invariants": [
+        "Local declarations are not authentication; a host grant is not an Aegis Runtime permit.",
+        "Grants bind exact caller/task/operation, source state, action receipts, qualification claim, numerical environment and code.",
+        "Single-use consumption precedes dispatch; unresolved consumed attempts never automatically retry.",
+        "History inspection and reconciliation do not renew current authority or data permissions.",
+        "No production checkpoint publication, external action creation, delegation or deployment authority."
+      ],
+      "forbidden_edges": [
+        "Permission owner cannot edit qualification, dataset, neural or action-owner SQL.",
+        "Qualification certificate cannot replace an operation grant.",
+        "A consumed grant cannot be reset to GRANTED.",
+        "A caller-provided result cannot substitute for the executor owner receipt."
+      ],
+      "optimization_notes": [
+        "Bounded fixed fixture scope; no unbounded request loop.",
+        "Reuse semantic owner APIs, not duplicated SQL or cached authorization."
+      ],
+      "uses_primitives": [
+        "REQUIRE",
+        "VALIDATE",
+        "QUALIFIED",
+        "AUTHORIZE",
+        "ATOMIC_PUBLISH",
+        "AUDIT",
+        "RESULT"
+      ],
+      "pseudocode": [
+        "REQUIRE(explicit_reconciler_role AND exact_spent_grant)",
+        "receipt = executor.lookup(exact_request, grant_hash)",
+        "IF receipt: REQUIRE(dispatch_was_admitted); ATOMIC_PUBLISH(COMMITTED)",
+        "ELSE: ATOMIC_PUBLISH(ABANDONED_permanently)",
+        "DO_NOT_DISPATCH; DO_NOT_RESTORE_GRANT; RETURN history"
+      ]
+    }
+  ]
+}

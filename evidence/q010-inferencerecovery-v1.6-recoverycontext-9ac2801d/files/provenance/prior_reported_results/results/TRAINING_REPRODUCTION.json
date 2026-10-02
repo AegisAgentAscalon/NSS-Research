@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "exact_fields": [
+        "model_state",
+        "optimizer_state",
+        "rng_states",
+        "stream_state",
+        "6000 full trace rows except run identity/wall time"
+      ],
+      "raw_reproduction_sha256": "470576cbad1378d57bb899c60cb45b0428e9f27831e696c3df69dcf8191f02d7",
+      "raw_source_sha256": "4ffb0f2788b119661d3f0a0a3e8159cad751c07202419972f80574e1068fcfb1",
+      "role": "ordinary",
+      "status": "PASS",
+      "steps": 6000,
+      "strict_model_sha256": "c7e3ba9a578bbb60f8cf74f5dd05724ab62d073870b938391814d09897b38fd9"
+    },
+    {
+      "exact_fields": [
+        "model_state",
+        "optimizer_state",
+        "rng_states",
+        "stream_state",
+        "6000 full trace rows except run identity/wall time"
+      ],
+      "raw_reproduction_sha256": "254088cdab224bcaf6dd7cd68e92126dc506f490ec9c496b40b36ab5a7f18c43",
+      "raw_source_sha256": "34f39731fb991634801b55825b716c7001d4f505f23700aa15d07ca2f7b725c6",
+      "role": "near",
+      "status": "PASS",
+      "steps": 6000,
+      "strict_model_sha256": "9135f2b4a8be77103eeadb5890f4894b69805d6bacb487f7a658970829216364"
+    },
+    {
+      "exact_fields": [
+        "model_state",
+        "optimizer_state",
+        "rng_states",
+        "stream_state",
+        "6000 full trace rows except run identity/wall time"
+      ],
+      "raw_reproduction_sha256": "1eab86081bae9c78354a5d3c4c56f791801e81e9609afc9e46d300c60665ab70",
+      "raw_source_sha256": "9268ce674e24645f57908dc286d49413b3d738f1ea928cb926ef767600f32de3",
+      "role": "attention",
+      "status": "PASS",
+      "steps": 6000,
+      "strict_model_sha256": "a43d878f0783f010f41f60218bf1379f5305529fd85726785d0973de09522392"
+    }
+  ],
+  "extra_optimizer_updates": 18000,
+  "not_counted_as_main": true,
+  "status": "PASS"
+}

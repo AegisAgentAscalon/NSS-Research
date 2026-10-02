@@ -1,0 +1,241 @@
+{
+  "arm": "task_adapted_attention",
+  "batch_size": 64,
+  "completed_steps": 6000,
+  "config_sha256": "6dba3049dd5e8944952809410844f136908336dc8129babaf500b7c6cdd70dee",
+  "data_cursor": {
+    "next_batch_index": 6000,
+    "rng_state": {
+      "allocation": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 337581524415526805054767609989279505409,
+          "state": 155136670976025122893178663919879602606
+        },
+        "uinteger": 29214978
+      },
+      "near_selection": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 253161926461134862541240449410532843949,
+          "state": 119259211112012306204397960795617000222
+        },
+        "uinteger": 0
+      }
+    },
+    "schema_version": 1,
+    "state_sha256": "72bb106b39b7d3443499f9af3768aa3aaaf2cea22ebe7b3619c8a9ee45785b85",
+    "stream_identity": {
+      "arm": "task_adapted_attention",
+      "config": {
+        "arm": "task_adapted_attention",
+        "batch_size": 64,
+        "paired_seed": 1205,
+        "protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+        "role": "main_training",
+        "split": "training",
+        "total_batches": 6000
+      },
+      "config_sha256": "90d8bcac318e3432e6c8c8683c5a412b9a6e0629fc2a4024c352a3dd3cd58f09",
+      "data_generator_sha256": "a6406930b023ec831f2f7bbfcb1d6e161e605208d1ee01134b0162c247658fff",
+      "paired_seed": 1205,
+      "reader": "attention",
+      "role": "main_training",
+      "schema_version": 1,
+      "source_files": {
+        "plan/main_data_recipe.md": "4a274a5ff2a422644f1ee587cf7be30e5b650d26a7a5a671ced3b8b9f040e836",
+        "q010r/data.py": "50acafa7f9dca53c780e9cd3c4e89fa4e0a4f8f0c4e387ffae3319e9f06e7547",
+        "q010r/models.py": "006e19bd972ad335300a8f82233910b18892037b9b649fa69ecbb086763c4bbf",
+        "q010r/streaming.py": "e3630dc2a09ce137562d87d941a7bf4fb84c317136b425e9f4571c860180be22",
+        "q010r/training.py": "78fc64757994995901626f4da8abb7364c3f73d7cc40635c31a54b48c90f274d"
+      },
+      "source_sha256": "4c64843898d8936b73078895202ace7257a14a107e3e341f40fa5e81d89d5a70",
+      "split": "training",
+      "stream_protocol_version": "q010r-main-stream-v1.0"
+    },
+    "stream_identity_sha256": "0f15569f94b73d5356dae773fbb76d39665daee0573cc866567223f63c6cf318"
+  },
+  "final_checkpoint": {
+    "bytes": 111421075,
+    "model_state_sha256": "fc3e0f4ecf8195a22093f262c4b61fb60b22ae1bda41ce6da7f7148f7649a745",
+    "optimizer_step": 6000,
+    "path": "/mnt/data/NSS_NBR01_Q010_Reconstruction_v1.4/results/main_fits/seed1205/attention/checkpoint_step_006000.pt",
+    "sha256": "71658d9b1fe413e63d1bd3c670dd8173f1d26da82517793c76c7c98e943e5ef6"
+  },
+  "final_weight_sha256": "133282720e8e5613da0932b21ba88133eed0c1bdc9c3a6d948181e306ee723b0",
+  "identity": {
+    "arm": "task_adapted_attention",
+    "config": {
+      "arm": "task_adapted_attention",
+      "batch_size": 64,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "epsilon": 1e-08,
+      "feedback_schedule": "main",
+      "fit_role": "main",
+      "grad_norm_clip": 5.0,
+      "lr_end": 0.00015,
+      "lr_start": 0.0015,
+      "matcher_cap": null,
+      "max_steps": 6000,
+      "paired_seed": 1205,
+      "pilot_switch_step": null,
+      "reader_kind": "attention",
+      "run_id": "chat14-main-s1205-attention",
+      "sampler_seed": 2009011905844255615,
+      "stages": 8,
+      "start_parent_seed": null,
+      "study_phase": "main_fits",
+      "teacher_forcing_every_n": 4,
+      "teacher_forcing_until_step": 1000,
+      "training_torch_seed": 5195349421386571700,
+      "weight_decay": 1e-05
+    },
+    "config_sha256": "6dba3049dd5e8944952809410844f136908336dc8129babaf500b7c6cdd70dee",
+    "environment": {
+      "deterministic_algorithms": true,
+      "device": "cpu",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+      "torch": "2.10.0+cpu",
+      "torch_interop_threads": 1,
+      "torch_intraop_threads": 1
+    },
+    "model_signature": {
+      "attributes": {},
+      "class": "q010r.models.AttentionPointerReader"
+    },
+    "paired_seed": 1205,
+    "protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+    "rng_domains": {
+      "model_init": 5613205718365439586,
+      "sampler": 2009011905844255615,
+      "training_torch": 5195349421386571700
+    },
+    "run_id": "chat14-main-s1205-attention",
+    "schema_version": 1,
+    "source": {
+      "files": {
+        "data.py": "50acafa7f9dca53c780e9cd3c4e89fa4e0a4f8f0c4e387ffae3319e9f06e7547",
+        "models.py": "006e19bd972ad335300a8f82233910b18892037b9b649fa69ecbb086763c4bbf",
+        "pilot_gate.py": "9d7ace7d58d50f9dbe6c38a0d405f5b96143db15cf501c71dc8c0d1449be8e14",
+        "plan/main_data_recipe.md": "4a274a5ff2a422644f1ee587cf7be30e5b650d26a7a5a671ced3b8b9f040e836",
+        "resources.py": "bf698581a8ce292930f25333a148ed62d4e4f33e7e81ce9635527ec89f56cd8a",
+        "run_pilot.py": "bb367f3228d350a30a4c1a2c70793d662e89b9aff554b3b3bf75d2c80da66807",
+        "streaming.py": "e3630dc2a09ce137562d87d941a7bf4fb84c317136b425e9f4571c860180be22",
+        "training.py": "78fc64757994995901626f4da8abb7364c3f73d7cc40635c31a54b48c90f274d"
+      },
+      "sha256": "557a0dcd1d6ae570b91b61ab60d03c42d62e17295c3e395cc77586053925192d"
+    },
+    "source_sha256": "557a0dcd1d6ae570b91b61ab60d03c42d62e17295c3e395cc77586053925192d",
+    "source_truth_sha256": null,
+    "start_artifact_receipt": null,
+    "start_artifact_sha256": null,
+    "start_identity_kind": "fresh_model_initialization",
+    "start_weight_sha256": "d8cc18838a1754120b592ea8befe671c071c3a1aeb3059fd48214d2ac202a513",
+    "stream_config_sha256": "90d8bcac318e3432e6c8c8683c5a412b9a6e0629fc2a4024c352a3dd3cd58f09",
+    "stream_generator_sha256": "a6406930b023ec831f2f7bbfcb1d6e161e605208d1ee01134b0162c247658fff",
+    "stream_identity": {
+      "arm": "task_adapted_attention",
+      "config": {
+        "arm": "task_adapted_attention",
+        "batch_size": 64,
+        "paired_seed": 1205,
+        "protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+        "role": "main_training",
+        "split": "training",
+        "total_batches": 6000
+      },
+      "config_sha256": "90d8bcac318e3432e6c8c8683c5a412b9a6e0629fc2a4024c352a3dd3cd58f09",
+      "data_generator_sha256": "a6406930b023ec831f2f7bbfcb1d6e161e605208d1ee01134b0162c247658fff",
+      "paired_seed": 1205,
+      "reader": "attention",
+      "role": "main_training",
+      "schema_version": 1,
+      "source_files": {
+        "plan/main_data_recipe.md": "4a274a5ff2a422644f1ee587cf7be30e5b650d26a7a5a671ced3b8b9f040e836",
+        "q010r/data.py": "50acafa7f9dca53c780e9cd3c4e89fa4e0a4f8f0c4e387ffae3319e9f06e7547",
+        "q010r/models.py": "006e19bd972ad335300a8f82233910b18892037b9b649fa69ecbb086763c4bbf",
+        "q010r/streaming.py": "e3630dc2a09ce137562d87d941a7bf4fb84c317136b425e9f4571c860180be22",
+        "q010r/training.py": "78fc64757994995901626f4da8abb7364c3f73d7cc40635c31a54b48c90f274d"
+      },
+      "source_sha256": "4c64843898d8936b73078895202ace7257a14a107e3e341f40fa5e81d89d5a70",
+      "split": "training",
+      "stream_protocol_version": "q010r-main-stream-v1.0"
+    },
+    "stream_identity_sha256": "0f15569f94b73d5356dae773fbb76d39665daee0573cc866567223f63c6cf318",
+    "training_data_sha256": null
+  },
+  "identity_sha256": "197f58295834ec352f824f80c6e4004c6029957f4b234b2b849f32078bc59bdd",
+  "last_batch_identity": {
+    "batch_identity_sha256": "964bbe9fc5150e3ecbb0441490137fca5807e6014001021f0843caa230b76fa5",
+    "batch_index": 5999,
+    "data_generator_sha256": "a6406930b023ec831f2f7bbfcb1d6e161e605208d1ee01134b0162c247658fff",
+    "paired_batch_identity_sha256": "f9e93f5936ac6d02d5771d93e73303eb8b455ef43af369f153f221dd5a6e62ba",
+    "rng_after_sha256": "949ec92d84d28e346e5541d2e1057148436cc5827c39aaa19f705a7959ee13c3",
+    "rng_before_sha256": "9fb307808efefa9545d0011be648f2d4a7e78181118e1e95a8833a6279684171",
+    "stream_config_sha256": "90d8bcac318e3432e6c8c8683c5a412b9a6e0629fc2a4024c352a3dd3cd58f09",
+    "stream_identity_sha256": "0f15569f94b73d5356dae773fbb76d39665daee0573cc866567223f63c6cf318"
+  },
+  "last_joint_checkpoint": {
+    "bytes": 111421075,
+    "model_state_sha256": "fc3e0f4ecf8195a22093f262c4b61fb60b22ae1bda41ce6da7f7148f7649a745",
+    "optimizer_step": 6000,
+    "path": "/mnt/data/NSS_NBR01_Q010_Reconstruction_v1.4/results/main_fits/seed1205/attention/checkpoint_step_006000.pt",
+    "sha256": "71658d9b1fe413e63d1bd3c670dd8173f1d26da82517793c76c7c98e943e5ef6"
+  },
+  "last_joint_checkpoint_step": 6000,
+  "loss": "mean over 8 stages of cross_entropy(row,17-way) + 0.5 * mean_batch(sum_squared_code_error,17-D)",
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "gradient_norm_clip": 5.0,
+    "lr_end": 0.00015,
+    "lr_start": 0.0015,
+    "name": "AdamW",
+    "schedule": "cosine; one-based first step uses lr_start and last step uses lr_end",
+    "weight_decay": 1e-05
+  },
+  "optimizer_state_present": true,
+  "paired_seed": 1205,
+  "parameter_bytes": 345856,
+  "parameter_count": 86464,
+  "protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
+  "recovery_required": false,
+  "rng_domains": {
+    "model_init": 5613205718365439586,
+    "sampler": 2009011905844255615,
+    "training_torch": 5195349421386571700
+  },
+  "rng_final_is_jointly_committed": true,
+  "rng_final_sha256": "92e9512e129231208c660bf589fc95cf359622a9c5b2cb732c6a764be5c889cf",
+  "rng_start_sha256": "b5690730edb9844daf1e46fe704772d558c2864344a4fc8c8279d7e51b712053",
+  "run_id": "chat14-main-s1205-attention",
+  "scheduled_steps": 6000,
+  "schema_version": 1,
+  "source_sha256": "557a0dcd1d6ae570b91b61ab60d03c42d62e17295c3e395cc77586053925192d",
+  "source_truth_sha256": "a6ad56643f703d91d5aa0cdfd06b805568bfe2905c6d5cf224b23e91676dcff8",
+  "stages": 8,
+  "start_artifact_sha256": null,
+  "start_identity_kind": "fresh_model_initialization",
+  "start_weight_sha256": "d8cc18838a1754120b592ea8befe671c071c3a1aeb3059fd48214d2ac202a513",
+  "status": "complete",
+  "stream_config_sha256": "90d8bcac318e3432e6c8c8683c5a412b9a6e0629fc2a4024c352a3dd3cd58f09",
+  "stream_generator_sha256": "a6406930b023ec831f2f7bbfcb1d6e161e605208d1ee01134b0162c247658fff",
+  "stream_identity_sha256": "0f15569f94b73d5356dae773fbb76d39665daee0573cc866567223f63c6cf318",
+  "study_phase": "main_fits",
+  "teacher_schedule": {
+    "kind": "main",
+    "pilot_switch_step": null,
+    "teacher_forcing_every_n": 4,
+    "teacher_forcing_until_step": 1000
+  },
+  "trace_rows": 6000,
+  "training_data_sha256": "2b269e2f5a4d002c666ae24ab6ce568266a2db5c52940d80b83d56f2947d5547"
+}

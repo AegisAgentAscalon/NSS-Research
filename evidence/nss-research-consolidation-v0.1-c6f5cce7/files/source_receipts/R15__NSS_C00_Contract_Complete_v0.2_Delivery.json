@@ -1,0 +1,28 @@
+{
+  "study": "C00-CONTRACT01",
+  "version": "0.2",
+  "archive": "NSS_C00_Contract_Complete_v0.2.zip",
+  "bytes": 7447771,
+  "sha256": "02b3e5a3fa93ba1010a6186807bd570e98ed7c6120f1d57bb59b932fe32dbe2b",
+  "payloads": 259,
+  "uncompressed_payload_bytes": 48785967,
+  "zip_crc": "PASS",
+  "fresh_extraction_payloads": "PASS",
+  "source_lock_checks": [
+    "v0.2 unchanged",
+    "v0.1 unchanged"
+  ],
+  "retained_score_files_reproduced": 7,
+  "relocated_rescore": "EXACT",
+  "production_reviews_in_relocation": 0,
+  "neural_calls_total": 0,
+  "all_attempt_production_rule_calls": 6069,
+  "current_fixture_matches": 1494,
+  "current_lifecycle_scenarios": 14,
+  "prior_failure_preserved": "truthy non-Boolean permission accepted in v0.1 adverse QA",
+  "scope": "SYNTHETIC_ENGINEERING_CONFORMANCE; no operational threshold/reviewer qualification",
+  "seconds_from_original_source_lock_through_delivery": 318.649154,
+  "earlier_document_and_code_preparation": "not continuously timed",
+  "verification_stdout": "Verified 259 payloads. This checks bytes, not scientific generalization.\n",
+  "rescore_stdout": "{\n  \"scope\": \"SYNTHETIC_CONTRACT_CONFORMANCE_NOT_LEARNED_REVIEW\",\n  \"cases\": 1494,\n  \"dispositions\": {\n    \"DEFER\": 1212,\n    \"ADOPT_ELIGIBLE\": 256,\n    \"REJECT\": 26\n  },\n  \"exact_decision_reason_metric_matches\": 1494,\n  \"lifecycle_independent_assertions\": 25,\n  \"lifecycle_scenarios\": 14,\n  \"behavioral_deferrals\": 479,\n  \"unresolved_deferrals\": 733,\n  \"hidden_extra_capability_pair\": {\n    \"public_identical\": true,\n    \"same_decision\": true,\n    \"full_scope_misses\": 1,\n    \"cases\": 2\n  },\n  \"model_forwards\": 0,\n  \"optimizer_updates\": 0,\n  \"fit_or_holdout_claim\": false,\n  \"controls\": [\n    {\n      \"policy\": \"CONTRACT_RULE\",\n      \"eligible_missed\": 0,\n      \"behavioral_violations_adopted\": 0,\n      \"integrity_rejections_adopted\": 0,\n      \"unresolved_adopted\": 0\n    },\n    {\n      \"policy\": \"ACCEPT_ALL\",\n      \"eligible_missed\": 0,\n      \"behavioral_violations_adopted\": 479,\n      \"integrity_rejections_adopted\": 26,\n      \"unresolved_adopted\": 733\n    },\n    {\n      \"policy\": \"NEVER_ADOPT\",\n      \"eligible_missed\": 256,\n      \"behavioral_violations_adopted\": 0,\n      \"integrity_rejections_adopted\": 0,\n      \"unresolved_adopted\": 0\n    }\n  ]\n}\nAll retained independent result files reproduced exactly. No neural calls or updates.\n"
+}

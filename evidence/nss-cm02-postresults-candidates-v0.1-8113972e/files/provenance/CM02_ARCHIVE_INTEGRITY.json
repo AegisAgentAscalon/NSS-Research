@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-09-24T21:19:34.081841+00:00",
+  "archive_path": "Research/NSS_CM02_Execution_v0.6.zip",
+  "archive_bytes": 13701695,
+  "archive_sha256": "0eed7d2f86f53a20e207ce8a915e8be9345e3368c5ae27d61975334bfa84cd56",
+  "manifest_sha256": "f104fafbd62e3eb33042744038b1bd5e042e9bb14cf9158edf2e032ee7e87f9f",
+  "zip_file_members": 6665,
+  "manifest_files_verified": 6664,
+  "verified_uncompressed_bytes": 96748650,
+  "selected_evidence_copies": [
+    "REPORT.md",
+    "STATUS.json",
+    "protocol/PROTOCOL_v0.6.json",
+    "results/DESCRIPTIVE_SUMMARY.json",
+    "audit/RESOURCE_ROLLUP.json"
+  ],
+  "scientific_execution_performed": false,
+  "elapsed_seconds": 0.40293840001686476
+}

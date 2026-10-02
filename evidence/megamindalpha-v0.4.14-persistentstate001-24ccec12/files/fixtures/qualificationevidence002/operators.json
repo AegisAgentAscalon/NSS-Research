@@ -1,0 +1,21 @@
+[
+  {
+    "id": "fixture-builder",
+    "roles": [
+      "PRODUCER"
+    ]
+  },
+  {
+    "id": "fixture-reviewer",
+    "roles": [
+      "REVIEWER"
+    ]
+  },
+  {
+    "id": "fixture-both",
+    "roles": [
+      "PRODUCER",
+      "REVIEWER"
+    ]
+  }
+]

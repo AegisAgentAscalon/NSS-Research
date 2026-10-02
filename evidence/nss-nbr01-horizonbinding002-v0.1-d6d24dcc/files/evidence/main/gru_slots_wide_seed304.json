@@ -1,0 +1,160 @@
+{
+  "changed_parameter_elements": 2681,
+  "checkpoint_bytes": 11540,
+  "checkpoint_sha256": "a1dfb2eead0d174c556cd7b7c4e2014faa06636c36523cb36eb0514c70551b3c",
+  "curriculum": "wide",
+  "environment": {
+    "cuda": false,
+    "energy": "NOT_MEASURED",
+    "forge": "NOT_CONNECTED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "psutil": "7.2.2",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "runtime": "NOT_CONNECTED",
+    "safetensors": "0.7.0",
+    "scope": "SANDBOX_CPU_NOT_USER_DEVICE",
+    "threads": 1,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 115200,
+  "final_parameter_digest": "afd29a421bd35ec239e2f46a71bdacbf2d1c4acc6f22c9ee316144c83680bf59",
+  "gradient_bytes_when_allocated": 10724,
+  "initial_parameter_digest": "e4443e695b271244b5eeb8fd875a06a9a8322023a260eb00ff0a1f08633d90cb",
+  "kind": "gru_slots",
+  "logs": [
+    {
+      "accuracy": 0.1666666716337204,
+      "grad_norm": 0.4072650969028473,
+      "length": 62,
+      "loss": 2.179636240005493,
+      "step": 1
+    },
+    {
+      "accuracy": 0.6822916865348816,
+      "grad_norm": 1.3428353071212769,
+      "length": 21,
+      "loss": 0.8990740776062012,
+      "step": 150
+    },
+    {
+      "accuracy": 0.859375,
+      "grad_norm": 2.5988364219665527,
+      "length": 12,
+      "loss": 0.3902972936630249,
+      "step": 300
+    },
+    {
+      "accuracy": 0.7708333134651184,
+      "grad_norm": 4.156224727630615,
+      "length": 60,
+      "loss": 0.6604381799697876,
+      "step": 450
+    },
+    {
+      "accuracy": 0.796875,
+      "grad_norm": 3.942366123199463,
+      "length": 63,
+      "loss": 0.519567608833313,
+      "step": 600
+    },
+    {
+      "accuracy": 0.9791666865348816,
+      "grad_norm": 0.7023742198944092,
+      "length": 7,
+      "loss": 0.04172351583838463,
+      "step": 750
+    },
+    {
+      "accuracy": 0.859375,
+      "grad_norm": 3.054309844970703,
+      "length": 36,
+      "loss": 0.2744939923286438,
+      "step": 900
+    },
+    {
+      "accuracy": 0.8645833134651184,
+      "grad_norm": 2.628957509994507,
+      "length": 37,
+      "loss": 0.3236500024795532,
+      "step": 1050
+    },
+    {
+      "accuracy": 0.953125,
+      "grad_norm": 3.8522043228149414,
+      "length": 22,
+      "loss": 0.16279378533363342,
+      "step": 1200
+    },
+    {
+      "accuracy": 0.9114583134651184,
+      "grad_norm": 4.254992485046387,
+      "length": 43,
+      "loss": 0.24415959417819977,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.9479166865348816,
+      "grad_norm": 2.4137120246887207,
+      "length": 55,
+      "loss": 0.12906931340694427,
+      "step": 1500
+    },
+    {
+      "accuracy": 0.953125,
+      "grad_norm": 4.315659523010254,
+      "length": 57,
+      "loss": 0.14044184982776642,
+      "step": 1650
+    },
+    {
+      "accuracy": 0.921875,
+      "grad_norm": 3.5273046493530273,
+      "length": 61,
+      "loss": 0.23458963632583618,
+      "step": 1800
+    },
+    {
+      "accuracy": 0.9270833134651184,
+      "grad_norm": 5.933685779571533,
+      "length": 58,
+      "loss": 0.17998357117176056,
+      "step": 1950
+    },
+    {
+      "accuracy": 0.9427083134651184,
+      "grad_norm": 2.5769386291503906,
+      "length": 52,
+      "loss": 0.17244456708431244,
+      "step": 2100
+    },
+    {
+      "accuracy": 0.9635416865348816,
+      "grad_norm": 2.0759072303771973,
+      "length": 42,
+      "loss": 0.07937221229076385,
+      "step": 2250
+    },
+    {
+      "accuracy": 0.9791666865348816,
+      "grad_norm": 1.5531092882156372,
+      "length": 33,
+      "loss": 0.06243358552455902,
+      "step": 2400
+    }
+  ],
+  "observed_events": 3780864,
+  "optimizer_tensor_bytes": 21492,
+  "parameter_bytes": 10724,
+  "parameter_count": 2681,
+  "preparation_only": true,
+  "rss_process_peak_5ms_sample_bytes": 335486976,
+  "seed": 304,
+  "steps": 2400,
+  "supervised_key_answers": 460800,
+  "timing_excludes": "Interpreter startup, evaluation, calibration, replay, reporting, all other fits",
+  "train_batch_sha256": "a04f1a85123b7bea6cae294d0f7e46172756d2ccc71f66ba5e6ca57bfa108000",
+  "train_cpu_seconds": 16.50033134199998,
+  "train_wall_seconds": 16.343856155000026
+}

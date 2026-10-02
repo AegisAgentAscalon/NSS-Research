@@ -1,0 +1,10 @@
+{
+  "time_unix": 1789931179.1452014,
+  "protected_episode_scores_seen": false,
+  "scope": "Supplementary lifecycle, state-off and paired censored-observation checks; noise-distribution-informed belief control. No change to registered main criteria, training or candidate weights.",
+  "knowledge_advantage": "Belief control receives declared generator noise parameters and update prior. It receives no hidden intended scores or target labels. Comparison is NOT matched-knowledge.",
+  "files": {
+    "nbr01_horizon/verify.py": "4db639a8e0fce8a8fbe7dc136e4187356fdf91ecb0330bcca3921551cc69fc62",
+    "nbr01_horizon/checks.py": "94164dec299a4469a4560dc168ba22f09553ddbf662dabf2c3342891bfede389"
+  }
+}

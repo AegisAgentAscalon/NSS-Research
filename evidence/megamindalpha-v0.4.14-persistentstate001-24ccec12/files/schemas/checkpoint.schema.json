@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "profile": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9_.:-]+"
+    },
+    "ecid": {
+      "type": "string",
+      "pattern": "[0-9a-f]{64}"
+    },
+    "input_artifact": {
+      "$ref": "artifact.schema.json"
+    },
+    "cache": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "draft": {
+      "type": "string"
+    },
+    "task_record": {
+      "$ref": "task_record.schema.json"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_id",
+    "profile",
+    "ecid",
+    "input_artifact",
+    "cache",
+    "draft"
+  ],
+  "additionalProperties": false
+}

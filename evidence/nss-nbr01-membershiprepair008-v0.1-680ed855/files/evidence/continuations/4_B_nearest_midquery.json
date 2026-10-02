@@ -1,0 +1,33 @@
+{
+  "abi": "nbr008-membership-v1",
+  "binder": "b8ef067d211bac4ec5f0e49c5f49508e3e81590382092bc35dd134fbe43a1a7b",
+  "contract": {
+    "abi": "nbr008-membership-v1",
+    "calibration": {
+      "threshold": 0.6112217903137207
+    },
+    "capacity": 16,
+    "head": "b7d8801b69bfddaa793dc3ee7c06dd723b388a9c4744b8c504129ffe66259375",
+    "method": "B_nearest",
+    "parents": {
+      "binder": "b8ef067d211bac4ec5f0e49c5f49508e3e81590382092bc35dd134fbe43a1a7b",
+      "dictionary": "e19b4f622a4d0c4e8bb777e00218d3167ffbe29f348108c970c1799a200abf61",
+      "gated_hop": "e7c4b7c6780efd27c38e87c497a78a3c2c2ce94da4471a18425e2dda67a5ad6b",
+      "record_hop": "564e51e47d7b81dfddcf4a0e76816daecd45bb4e891eb19c44a2f5d1626c97ba"
+    },
+    "unreadable_policy": "sticky_until_qualified_write_or_clear"
+  },
+  "events": 13,
+  "rng": {
+    "bit_generator": "PCG64",
+    "has_uint32": 0,
+    "state": {
+      "inc": 119206529847156766713319282953746101931,
+      "state": 219226220537380974627015595667911909542
+    },
+    "uinteger": 0
+  },
+  "scope": "study",
+  "sha256": "74d08c2dd94a08d07ed32f33d0fd8fa7717e1372cc396bfb09dd593924463f00",
+  "tick": 0
+}

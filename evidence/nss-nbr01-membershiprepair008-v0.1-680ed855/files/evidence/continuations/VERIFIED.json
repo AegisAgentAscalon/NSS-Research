@@ -1,0 +1,487 @@
+{
+  "cases": 80,
+  "fresh_process": true,
+  "records": [
+    {
+      "file": "1_nearest_registered.npz",
+      "method": "nearest",
+      "pair": 1,
+      "phase": "registered"
+    },
+    {
+      "file": "1_nearest_corrected.npz",
+      "method": "nearest",
+      "pair": 1,
+      "phase": "corrected"
+    },
+    {
+      "file": "1_nearest_unreadable.npz",
+      "method": "nearest",
+      "pair": 1,
+      "phase": "unreadable"
+    },
+    {
+      "file": "1_nearest_midquery.npz",
+      "method": "nearest",
+      "pair": 1,
+      "phase": "midquery"
+    },
+    {
+      "file": "1_A_nearest_registered.npz",
+      "method": "A_nearest",
+      "pair": 1,
+      "phase": "registered"
+    },
+    {
+      "file": "1_A_nearest_corrected.npz",
+      "method": "A_nearest",
+      "pair": 1,
+      "phase": "corrected"
+    },
+    {
+      "file": "1_A_nearest_unreadable.npz",
+      "method": "A_nearest",
+      "pair": 1,
+      "phase": "unreadable"
+    },
+    {
+      "file": "1_A_nearest_midquery.npz",
+      "method": "A_nearest",
+      "pair": 1,
+      "phase": "midquery"
+    },
+    {
+      "file": "1_B_nearest_registered.npz",
+      "method": "B_nearest",
+      "pair": 1,
+      "phase": "registered"
+    },
+    {
+      "file": "1_B_nearest_corrected.npz",
+      "method": "B_nearest",
+      "pair": 1,
+      "phase": "corrected"
+    },
+    {
+      "file": "1_B_nearest_unreadable.npz",
+      "method": "B_nearest",
+      "pair": 1,
+      "phase": "unreadable"
+    },
+    {
+      "file": "1_B_nearest_midquery.npz",
+      "method": "B_nearest",
+      "pair": 1,
+      "phase": "midquery"
+    },
+    {
+      "file": "1_B_learned_registered.npz",
+      "method": "B_learned",
+      "pair": 1,
+      "phase": "registered"
+    },
+    {
+      "file": "1_B_learned_corrected.npz",
+      "method": "B_learned",
+      "pair": 1,
+      "phase": "corrected"
+    },
+    {
+      "file": "1_B_learned_unreadable.npz",
+      "method": "B_learned",
+      "pair": 1,
+      "phase": "unreadable"
+    },
+    {
+      "file": "1_B_learned_midquery.npz",
+      "method": "B_learned",
+      "pair": 1,
+      "phase": "midquery"
+    },
+    {
+      "file": "2_nearest_registered.npz",
+      "method": "nearest",
+      "pair": 2,
+      "phase": "registered"
+    },
+    {
+      "file": "2_nearest_corrected.npz",
+      "method": "nearest",
+      "pair": 2,
+      "phase": "corrected"
+    },
+    {
+      "file": "2_nearest_unreadable.npz",
+      "method": "nearest",
+      "pair": 2,
+      "phase": "unreadable"
+    },
+    {
+      "file": "2_nearest_midquery.npz",
+      "method": "nearest",
+      "pair": 2,
+      "phase": "midquery"
+    },
+    {
+      "file": "2_A_nearest_registered.npz",
+      "method": "A_nearest",
+      "pair": 2,
+      "phase": "registered"
+    },
+    {
+      "file": "2_A_nearest_corrected.npz",
+      "method": "A_nearest",
+      "pair": 2,
+      "phase": "corrected"
+    },
+    {
+      "file": "2_A_nearest_unreadable.npz",
+      "method": "A_nearest",
+      "pair": 2,
+      "phase": "unreadable"
+    },
+    {
+      "file": "2_A_nearest_midquery.npz",
+      "method": "A_nearest",
+      "pair": 2,
+      "phase": "midquery"
+    },
+    {
+      "file": "2_B_nearest_registered.npz",
+      "method": "B_nearest",
+      "pair": 2,
+      "phase": "registered"
+    },
+    {
+      "file": "2_B_nearest_corrected.npz",
+      "method": "B_nearest",
+      "pair": 2,
+      "phase": "corrected"
+    },
+    {
+      "file": "2_B_nearest_unreadable.npz",
+      "method": "B_nearest",
+      "pair": 2,
+      "phase": "unreadable"
+    },
+    {
+      "file": "2_B_nearest_midquery.npz",
+      "method": "B_nearest",
+      "pair": 2,
+      "phase": "midquery"
+    },
+    {
+      "file": "2_B_learned_registered.npz",
+      "method": "B_learned",
+      "pair": 2,
+      "phase": "registered"
+    },
+    {
+      "file": "2_B_learned_corrected.npz",
+      "method": "B_learned",
+      "pair": 2,
+      "phase": "corrected"
+    },
+    {
+      "file": "2_B_learned_unreadable.npz",
+      "method": "B_learned",
+      "pair": 2,
+      "phase": "unreadable"
+    },
+    {
+      "file": "2_B_learned_midquery.npz",
+      "method": "B_learned",
+      "pair": 2,
+      "phase": "midquery"
+    },
+    {
+      "file": "3_nearest_registered.npz",
+      "method": "nearest",
+      "pair": 3,
+      "phase": "registered"
+    },
+    {
+      "file": "3_nearest_corrected.npz",
+      "method": "nearest",
+      "pair": 3,
+      "phase": "corrected"
+    },
+    {
+      "file": "3_nearest_unreadable.npz",
+      "method": "nearest",
+      "pair": 3,
+      "phase": "unreadable"
+    },
+    {
+      "file": "3_nearest_midquery.npz",
+      "method": "nearest",
+      "pair": 3,
+      "phase": "midquery"
+    },
+    {
+      "file": "3_A_nearest_registered.npz",
+      "method": "A_nearest",
+      "pair": 3,
+      "phase": "registered"
+    },
+    {
+      "file": "3_A_nearest_corrected.npz",
+      "method": "A_nearest",
+      "pair": 3,
+      "phase": "corrected"
+    },
+    {
+      "file": "3_A_nearest_unreadable.npz",
+      "method": "A_nearest",
+      "pair": 3,
+      "phase": "unreadable"
+    },
+    {
+      "file": "3_A_nearest_midquery.npz",
+      "method": "A_nearest",
+      "pair": 3,
+      "phase": "midquery"
+    },
+    {
+      "file": "3_B_nearest_registered.npz",
+      "method": "B_nearest",
+      "pair": 3,
+      "phase": "registered"
+    },
+    {
+      "file": "3_B_nearest_corrected.npz",
+      "method": "B_nearest",
+      "pair": 3,
+      "phase": "corrected"
+    },
+    {
+      "file": "3_B_nearest_unreadable.npz",
+      "method": "B_nearest",
+      "pair": 3,
+      "phase": "unreadable"
+    },
+    {
+      "file": "3_B_nearest_midquery.npz",
+      "method": "B_nearest",
+      "pair": 3,
+      "phase": "midquery"
+    },
+    {
+      "file": "3_B_learned_registered.npz",
+      "method": "B_learned",
+      "pair": 3,
+      "phase": "registered"
+    },
+    {
+      "file": "3_B_learned_corrected.npz",
+      "method": "B_learned",
+      "pair": 3,
+      "phase": "corrected"
+    },
+    {
+      "file": "3_B_learned_unreadable.npz",
+      "method": "B_learned",
+      "pair": 3,
+      "phase": "unreadable"
+    },
+    {
+      "file": "3_B_learned_midquery.npz",
+      "method": "B_learned",
+      "pair": 3,
+      "phase": "midquery"
+    },
+    {
+      "file": "4_nearest_registered.npz",
+      "method": "nearest",
+      "pair": 4,
+      "phase": "registered"
+    },
+    {
+      "file": "4_nearest_corrected.npz",
+      "method": "nearest",
+      "pair": 4,
+      "phase": "corrected"
+    },
+    {
+      "file": "4_nearest_unreadable.npz",
+      "method": "nearest",
+      "pair": 4,
+      "phase": "unreadable"
+    },
+    {
+      "file": "4_nearest_midquery.npz",
+      "method": "nearest",
+      "pair": 4,
+      "phase": "midquery"
+    },
+    {
+      "file": "4_A_nearest_registered.npz",
+      "method": "A_nearest",
+      "pair": 4,
+      "phase": "registered"
+    },
+    {
+      "file": "4_A_nearest_corrected.npz",
+      "method": "A_nearest",
+      "pair": 4,
+      "phase": "corrected"
+    },
+    {
+      "file": "4_A_nearest_unreadable.npz",
+      "method": "A_nearest",
+      "pair": 4,
+      "phase": "unreadable"
+    },
+    {
+      "file": "4_A_nearest_midquery.npz",
+      "method": "A_nearest",
+      "pair": 4,
+      "phase": "midquery"
+    },
+    {
+      "file": "4_B_nearest_registered.npz",
+      "method": "B_nearest",
+      "pair": 4,
+      "phase": "registered"
+    },
+    {
+      "file": "4_B_nearest_corrected.npz",
+      "method": "B_nearest",
+      "pair": 4,
+      "phase": "corrected"
+    },
+    {
+      "file": "4_B_nearest_unreadable.npz",
+      "method": "B_nearest",
+      "pair": 4,
+      "phase": "unreadable"
+    },
+    {
+      "file": "4_B_nearest_midquery.npz",
+      "method": "B_nearest",
+      "pair": 4,
+      "phase": "midquery"
+    },
+    {
+      "file": "4_B_learned_registered.npz",
+      "method": "B_learned",
+      "pair": 4,
+      "phase": "registered"
+    },
+    {
+      "file": "4_B_learned_corrected.npz",
+      "method": "B_learned",
+      "pair": 4,
+      "phase": "corrected"
+    },
+    {
+      "file": "4_B_learned_unreadable.npz",
+      "method": "B_learned",
+      "pair": 4,
+      "phase": "unreadable"
+    },
+    {
+      "file": "4_B_learned_midquery.npz",
+      "method": "B_learned",
+      "pair": 4,
+      "phase": "midquery"
+    },
+    {
+      "file": "5_nearest_registered.npz",
+      "method": "nearest",
+      "pair": 5,
+      "phase": "registered"
+    },
+    {
+      "file": "5_nearest_corrected.npz",
+      "method": "nearest",
+      "pair": 5,
+      "phase": "corrected"
+    },
+    {
+      "file": "5_nearest_unreadable.npz",
+      "method": "nearest",
+      "pair": 5,
+      "phase": "unreadable"
+    },
+    {
+      "file": "5_nearest_midquery.npz",
+      "method": "nearest",
+      "pair": 5,
+      "phase": "midquery"
+    },
+    {
+      "file": "5_A_nearest_registered.npz",
+      "method": "A_nearest",
+      "pair": 5,
+      "phase": "registered"
+    },
+    {
+      "file": "5_A_nearest_corrected.npz",
+      "method": "A_nearest",
+      "pair": 5,
+      "phase": "corrected"
+    },
+    {
+      "file": "5_A_nearest_unreadable.npz",
+      "method": "A_nearest",
+      "pair": 5,
+      "phase": "unreadable"
+    },
+    {
+      "file": "5_A_nearest_midquery.npz",
+      "method": "A_nearest",
+      "pair": 5,
+      "phase": "midquery"
+    },
+    {
+      "file": "5_B_nearest_registered.npz",
+      "method": "B_nearest",
+      "pair": 5,
+      "phase": "registered"
+    },
+    {
+      "file": "5_B_nearest_corrected.npz",
+      "method": "B_nearest",
+      "pair": 5,
+      "phase": "corrected"
+    },
+    {
+      "file": "5_B_nearest_unreadable.npz",
+      "method": "B_nearest",
+      "pair": 5,
+      "phase": "unreadable"
+    },
+    {
+      "file": "5_B_nearest_midquery.npz",
+      "method": "B_nearest",
+      "pair": 5,
+      "phase": "midquery"
+    },
+    {
+      "file": "5_B_learned_registered.npz",
+      "method": "B_learned",
+      "pair": 5,
+      "phase": "registered"
+    },
+    {
+      "file": "5_B_learned_corrected.npz",
+      "method": "B_learned",
+      "pair": 5,
+      "phase": "corrected"
+    },
+    {
+      "file": "5_B_learned_unreadable.npz",
+      "method": "B_learned",
+      "pair": 5,
+      "phase": "unreadable"
+    },
+    {
+      "file": "5_B_learned_midquery.npz",
+      "method": "B_learned",
+      "pair": 5,
+      "phase": "midquery"
+    }
+  ],
+  "status": "PASS"
+}

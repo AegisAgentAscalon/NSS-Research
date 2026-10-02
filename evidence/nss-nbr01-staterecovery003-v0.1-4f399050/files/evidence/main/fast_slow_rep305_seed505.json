@@ -1,0 +1,151 @@
+{
+  "answer_labels": 230400,
+  "changed_parameter_elements": 3,
+  "checkpoint_sha256": "58d095e5d221299e77e71b3d34083dfb71715dc0135862b3c6d410aea4d319ef",
+  "direct_state_target_supervision": true,
+  "environment": {
+    "cpu_count": 5,
+    "cuda_available": false,
+    "device": "sandbox CPU, not user PC",
+    "energy": "NOT_MEASURED",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "threads": 1,
+    "time_unix": 1789946751.7363417,
+    "torch": "2.10.0+cpu"
+  },
+  "evaluation_parameter_updates": 0,
+  "examples": 230400,
+  "fast_slow_rates": [
+    0.9812313914299011,
+    0.6862263083457947,
+    0.31219401955604553
+  ],
+  "final_digest": "ca95911991974daf9a974b6eb5e4ad643e81d5ee992d0831a98914bf55650cce",
+  "frozen_reference_unchanged": true,
+  "gradient_bytes": 12,
+  "initial_digest": "220a173ea8af998189601ae760d18f49cd1daf83829e2a3c2c9efc01c9edc6ef",
+  "kind": "fast_slow",
+  "learn_seed": 505,
+  "logs": [
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.012334287166595459,
+      "loss": 0.05294635146856308,
+      "mse": 0.043227195739746094,
+      "rounds": 1,
+      "step": 1
+    },
+    {
+      "accuracy": 0.9609375,
+      "grad_norm": 0.010020201094448566,
+      "loss": 0.04811161011457443,
+      "mse": 0.0283194612711668,
+      "rounds": 2,
+      "step": 150
+    },
+    {
+      "accuracy": 1.0,
+      "grad_norm": 0.005721851717680693,
+      "loss": 0.03078511171042919,
+      "mse": 0.029522454366087914,
+      "rounds": 1,
+      "step": 300
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.002295220736414194,
+      "loss": 0.03683051839470863,
+      "mse": 0.02619112655520439,
+      "rounds": 2,
+      "step": 450
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.004749684128910303,
+      "loss": 0.03212378919124603,
+      "mse": 0.030505403876304626,
+      "rounds": 4,
+      "step": 600
+    },
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.001243199803866446,
+      "loss": 0.05070590600371361,
+      "mse": 0.03042338415980339,
+      "rounds": 4,
+      "step": 750
+    },
+    {
+      "accuracy": 0.984375,
+      "grad_norm": 0.0007241987623274326,
+      "loss": 0.030677739530801773,
+      "mse": 0.02108636125922203,
+      "rounds": 4,
+      "step": 900
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.0014297168236225843,
+      "loss": 0.04611385613679886,
+      "mse": 0.036910973489284515,
+      "rounds": 4,
+      "step": 1050
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.0005903631099499762,
+      "loss": 0.027728073298931122,
+      "mse": 0.02211614139378071,
+      "rounds": 2,
+      "step": 1200
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.0006466566701419652,
+      "loss": 0.02582019381225109,
+      "mse": 0.023189105093479156,
+      "rounds": 1,
+      "step": 1350
+    },
+    {
+      "accuracy": 0.9765625,
+      "grad_norm": 0.0034479652531445026,
+      "loss": 0.03915422037243843,
+      "mse": 0.027119208127260208,
+      "rounds": 1,
+      "step": 1500
+    },
+    {
+      "accuracy": 0.96875,
+      "grad_norm": 0.0019629658199846745,
+      "loss": 0.046584803611040115,
+      "mse": 0.028885312378406525,
+      "rounds": 2,
+      "step": 1650
+    },
+    {
+      "accuracy": 0.9921875,
+      "grad_norm": 0.0012749792076647282,
+      "loss": 0.02840914949774742,
+      "mse": 0.025559332221746445,
+      "rounds": 2,
+      "step": 1800
+    }
+  ],
+  "matching": "Same corrupt inputs, labels, code targets and optimizer steps; different rounds/compute/state bytes",
+  "optimizer_tensor_bytes": 28,
+  "parameter_bytes": 12,
+  "reference_sha256": "f1761e26045e66a531289fc7ba95dc3d67d2b5764999024ad36d4370745e7a77",
+  "rep_seed": 305,
+  "rss_process_peak_5ms_sample_bytes": 328204288,
+  "source_preparation": "Reused prior 2400-step wide soft model (development141 differs); prior preparation is not free",
+  "status": "RUN",
+  "steps": 1800,
+  "target_code_scalars": 3686400,
+  "train_cpu_seconds": 3.0077379379999982,
+  "train_wall_seconds": 2.9839430369999036,
+  "trainable_parameters": 3,
+  "training_data_digest": "f4e6069e66b2be3bcaf1c94999c6f383cbbf080b40e0f91dadf27e9a6778fcfd"
+}

@@ -1,0 +1,14 @@
+{
+  "cause": "tool execution timeout",
+  "completed_checkpoint_pairs_before_interruption": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "interrupted": "pair5 ordinary seed1105",
+  "last_logged_step": 800,
+  "recovery": "Restarted same seed/recipe from original frozen parent; no seed discarded; completed outputs remain unchanged",
+  "retained_log": "PREPARE_ATTEMPT_INTERRUPTED.log",
+  "unknown_unlogged_steps": true
+}

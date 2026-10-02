@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "analysis/LOCAL_NUMERIC_AUDIT.py"
+  ],
+  "returncode": 0,
+  "stop": null,
+  "peak_sampled_process_rss": 127680512,
+  "peak_sampled_container": 2106429440,
+  "elapsed_since_origin": 1090.634378194809,
+  "sampling_seconds": 0.2
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "raw/primary/public_messages.jsonl",
+    "target": "attempts/v0.1/raw/primary/public_messages.jsonl",
+    "bytes": 1740698,
+    "sha256": "b405d3065d49bcda499f2143f37d90c381dab554562a0402172b52abf84ddfd9",
+    "identical_prefix": true
+  },
+  {
+    "source": "raw/primary/public_responses.jsonl",
+    "target": "attempts/v0.1/raw/primary/public_responses.jsonl",
+    "bytes": 7955606,
+    "sha256": "98adcc79fad1eac5d9d60b0842f6acd24ba1182feee5e8c19ca89afc638673b1",
+    "identical_prefix": true
+  },
+  {
+    "source": "raw/primary/worker/events.jsonl",
+    "target": "attempts/v0.1/raw/primary/worker/events.jsonl",
+    "bytes": 6647354,
+    "sha256": "24a6fee26e8d2f1a8ae3ce9eab241ace3872e677b2abf437bced30252a3d03f1",
+    "identical_prefix": true
+  }
+]

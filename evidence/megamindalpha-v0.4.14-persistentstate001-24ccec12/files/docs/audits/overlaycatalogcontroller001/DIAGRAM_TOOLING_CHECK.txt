@@ -1,0 +1,9 @@
+test_cli_help_does_not_train_or_execute (test_catalog_tooling.CatalogToolingTests.test_cli_help_does_not_train_or_execute) ... ok
+test_helper_graphs_have_history_exits_and_no_deployment (test_catalog_tooling.CatalogToolingTests.test_helper_graphs_have_history_exits_and_no_deployment) ... ok
+test_schema_export_has_explicit_action_and_cost_units (test_catalog_tooling.CatalogToolingTests.test_schema_export_has_explicit_action_and_cost_units) ... ok
+test_schemas_and_shared_renderer_regenerate_identically (test_catalog_tooling.CatalogToolingTests.test_schemas_and_shared_renderer_regenerate_identically) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.882s
+
+OK
