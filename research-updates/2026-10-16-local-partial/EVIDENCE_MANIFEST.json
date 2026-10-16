@@ -1,0 +1,71 @@
+{
+  "schema": "NSS.PartialPublicationManifest.v1",
+  "base_commit": "360f86d75322361685a426026b50dd870deb3f5a",
+  "scope": "Six additive documentary files only. No existing public path is changed or removed.",
+  "transformations": [
+    "Project only the 24 local study records; retain scientific values, controls, limits and negative outcomes.",
+    "Replace private paths and internal source bindings with report titles, neutral citation IDs and existing paragraph/table locators.",
+    "Omit CPU vendor labels while preserving the stated runtime-admission mismatch and its scientific limits.",
+    "Select two entire archived CSV parent-summary tables; preserve every cell string and row order.",
+    "Exclude private inventories, raw scalar dumps, source hashes, coordination chats, internal workflow receipts, unpublished locators and archives. Private source-to-derivative mapping is retained separately."
+  ],
+  "included_counts": {
+    "studies": 24,
+    "reported_outcomes": 24,
+    "tables": 2,
+    "table_rows_including_headers": 6,
+    "executable_code_files": 0
+  },
+  "verification": "Source candidate identities checked against the prior receipt; selected CSV source bytes and all retained cells checked. This verifies documentary derivation only.",
+  "evidence_gaps": [
+    {
+      "id": "PASS63",
+      "status": "Direct source missing; secondary summary only.",
+      "consequence": "Exact protocol, tables, denominators and magnitude remain unavailable. No reconstruction is claimed."
+    },
+    {
+      "id": "LATER_CLOUD_EVIDENCE",
+      "status": "Closed cloud study packages are not included or reconciled in this local partial update.",
+      "consequence": "No verified CLOUDMIG, completed SPAN continuation, MIX5050, MIXABLATE/HALF, SHORTMASS, SEQUENCE supplements or LAYERED outcome is supplied here. Later cloud work requires a separate screened update."
+    },
+    {
+      "id": "RAW_EVIDENCE",
+      "status": "Raw model states, checkpoints, complete execution archives and source documents are excluded.",
+      "consequence": "This batch preserves selected documentary results; it is not a complete research-data backup or reproduction package."
+    }
+  ],
+  "licensing": "CC BY 4.0 for each listed derivative, approved by the repository owner on 2026-10-16. See LICENSE_SCOPE.md and LICENSE_MAP.jsonl.",
+  "outputs": [
+    {
+      "path": "research-updates/2026-10-16-local-partial/RESEARCH_OVERVIEW.md",
+      "bytes": 2949,
+      "sha256": "a8ee134e2589f39fcc97f1198a2655af9aab764b8e0e080cd9f6529ada18f37d"
+    },
+    {
+      "path": "research-updates/2026-10-16-local-partial/STUDY_LEDGER.json",
+      "bytes": 39487,
+      "sha256": "aaee5406c194f923cec5f05dc974cf5155a6fb435df787d9f1c9288835ef84ee"
+    },
+    {
+      "path": "research-updates/2026-10-16-local-partial/RESULTS.json",
+      "bytes": 25320,
+      "sha256": "077efaae0ad5db0a4011810cc4eb64bbe972999e8dbd96ec09057aecdd9f8d0b"
+    },
+    {
+      "path": "research-updates/2026-10-16-local-partial/LICENSE_SCOPE.md",
+      "bytes": 1398,
+      "sha256": "f316c334b293c73d6cf31e23abcafbb4755aa8fa0f1a0b7392b0a7084cae28ce"
+    },
+    {
+      "path": "research-updates/2026-10-16-local-partial/LICENSE_MAP.jsonl",
+      "bytes": 1724,
+      "sha256": "0b86ac2c2c63a60117b8132461c12f4009b7405f922043b6ea56c05dd44f31a5"
+    },
+    {
+      "path": "research-updates/2026-10-16-local-partial/EVIDENCE_MANIFEST.json",
+      "bytes": null,
+      "sha256": null,
+      "integrity_note": "Self-size and self-hash omitted to avoid circularity. Exact bytes and SHA256 are recorded in the separate private publication receipt; Git identifies this manifest by its published blob."
+    }
+  ]
+}
