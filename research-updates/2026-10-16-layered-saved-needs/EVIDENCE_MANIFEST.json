@@ -1,0 +1,397 @@
+{
+  "analysis_archive_member_licenses": [
+    {
+      "license": "CC-BY-4.0",
+      "member": "ANALYSIS_PLAN.json",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "member": "INPUT_MANIFEST.json",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "member": "LABEL_CLARIFICATION.json",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "member": "README.txt",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "member": "SCORING_CLARIFICATION.json",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "MIT",
+      "member": "analyze_saved.py",
+      "status": "Owner-authorized16October2026"
+    },
+    {
+      "license": "MIT",
+      "member": "test_analysis.py",
+      "status": "Owner-authorized16October2026"
+    }
+  ],
+  "analysis_source_transform": {
+    "changes": [
+      "stdlib argparse input/output paths",
+      "exact19-file manifest replaces original178-file receipt lookup",
+      "input-binding scope string updated"
+    ],
+    "created_utc": "2026-10-16T02:09:03.615921+00:00",
+    "export_source_sha256": "9bce369ff9e4b37411230e85e3246d1b8f1c72ef97d19604c8c59f6eb2904ba0",
+    "original_source_sha256": "1cde5dcfa4bc1282b73e0b7790a801b1eed46f7255bf2af1880f5a2e17366a86",
+    "scientific_semantics_changed": false,
+    "source_files": [
+      {
+        "bytes": 1910,
+        "logical_path": "audit/FINAL_AUDIT.json",
+        "sha256": "fa72b113815536ce2d96e05c565fd091e3cdb4d6ec56c0174b36ebcdcc55da89"
+      },
+      {
+        "bytes": 3246,
+        "logical_path": "results/DIAGNOSTIC.json",
+        "sha256": "26516f388136dae60d40f910ff995bb5e9b2e5b42e61c90ae86f5720efb2d678"
+      },
+      {
+        "bytes": 1750,
+        "logical_path": "results/PLAIN_RESULT.txt",
+        "sha256": "17d67e2e521c5625d52b52ff213e5b6ac5e4e0b0d4be9981c0168493defaf02f"
+      },
+      {
+        "bytes": 1959286,
+        "logical_path": "results/confirmation/CASE_SWAPS.csv",
+        "sha256": "974a8f3b75173fcfa78f36c7d4e560fe684aa4a9d8becfc1b8b3165b2e0881dc"
+      },
+      {
+        "bytes": 482750,
+        "logical_path": "results/confirmation/DECISION.json",
+        "sha256": "3d606d34805ed82521432a1ca3bc926e9e1ee1a0960eac1a8bdf510348f36e14"
+      },
+      {
+        "bytes": 1933949,
+        "logical_path": "results/confirmation/ERRORS.jsonl",
+        "sha256": "98273c71e14be0fdb4c77e8fd182291f1d8d79a05cd134846fd4bc5ac39fae2f"
+      },
+      {
+        "bytes": 6277709,
+        "logical_path": "results/confirmation/MEMORY_PROBES.csv",
+        "sha256": "a621658f17290b8e0467c403b5315e4b47ed0138ce5d854c0017b8e0c9f82b5f"
+      },
+      {
+        "bytes": 61548,
+        "logical_path": "results/confirmation/WINDOW_SCOREBOARD.csv",
+        "sha256": "ef5dd04b141df1aabbd8992aa1bdf41c7a04c23dc3ad75a3f7b9f3b5591b8b1c"
+      },
+      {
+        "bytes": 140064,
+        "logical_path": "results/diagnostic_confirmation/RETENTION_CASES.jsonl",
+        "sha256": "e6af7c0503dae6515bd5162e807d817645dda975f51cfd12295c47c23b1dec88"
+      },
+      {
+        "bytes": 94219,
+        "logical_path": "results/diagnostic_confirmation/RETENTION_COUNTS.csv",
+        "sha256": "d508ded1e1aa8b669a56ec9d514b822faa5d221d056630c85e659b7a5f27332d"
+      },
+      {
+        "bytes": 73393,
+        "logical_path": "results/diagnostic_confirmation/RETENTION_TRANSITIONS.csv",
+        "sha256": "4ac21938a9094dc3adebb962b47202a700621e0a7b85e7e763e836e193df33a6"
+      },
+      {
+        "bytes": 859156,
+        "logical_path": "results/diagnostic_existing/RETENTION_CASES.jsonl",
+        "sha256": "c8421081d07b296b7a5017d950c18abe2e9ded3f545afc88cfe2d16c09d90f11"
+      },
+      {
+        "bytes": 361002,
+        "logical_path": "results/diagnostic_existing/RETENTION_COUNTS.csv",
+        "sha256": "e95e203649e661a70f3c3a1a8b675c437d228b0b179661f33748cc62dac407fd"
+      },
+      {
+        "bytes": 278463,
+        "logical_path": "results/diagnostic_existing/RETENTION_TRANSITIONS.csv",
+        "sha256": "b609ac92ad8454d5413fb611d2943d25ed3d74f8078c40c0d5e9b851fd3a42e3"
+      },
+      {
+        "bytes": 6767185,
+        "logical_path": "results/existing/CASE_SWAPS.csv",
+        "sha256": "48fc4339f65a14294248203579d23df498e4ea48b904071546720470e2d1b95f"
+      },
+      {
+        "bytes": 5825322,
+        "logical_path": "results/existing/DECISION.json",
+        "sha256": "d5883b4283001baf23714c4896fe6f2c101254c64979901b194cee95cdd34223"
+      },
+      {
+        "bytes": 7270043,
+        "logical_path": "results/existing/ERRORS.jsonl",
+        "sha256": "1537f602ec930cc9c2cc92f8130dca550fa91fb8177e209875ccd9af1217fa2b"
+      },
+      {
+        "bytes": 11410201,
+        "logical_path": "results/existing/MEMORY_PROBES.csv",
+        "sha256": "d4ea5a877f66018bf85135e5a7a6f0e1a371a896c6a609b891d3e1e5d6cc71f0"
+      },
+      {
+        "bytes": 278781,
+        "logical_path": "results/existing/WINDOW_SCOREBOARD.csv",
+        "sha256": "f1d0899718d2242182c274dbeb36abbda385b53c77b18ae082cc2ed01f5101da"
+      }
+    ]
+  },
+  "available_reproduction": "Self-contained saved-data analysis only, using standard-library Python and19bound input files. All9scientific CSVs reproduce byte-exactly.",
+  "created_utc": "2026-10-16T03:43:21.726582+00:00",
+  "files": [
+    {
+      "bytes": 11119,
+      "license": "MIT for .py members; CC-BY-4.0 for documentation/metadata members",
+      "path": "ANALYSIS_SOURCE.zip",
+      "publication_scope": "Owner-authorized16October2026",
+      "sha256": "12654ec903272514b90a313d3c34d653f6c2129d1371e3034a3e12f7435db02f"
+    },
+    {
+      "bytes": 15117,
+      "license": "CC-BY-4.0",
+      "path": "RESEARCH_FINDINGS.md",
+      "publication_scope": "Owner-authorized16October2026",
+      "sha256": "ca67c186fc4204824276fb508efc11a9c11f10df2749609c2db32ad2969d25c7"
+    },
+    {
+      "bytes": 6475813,
+      "license": "CC-BY-4.0",
+      "path": "RESULTS.json",
+      "publication_scope": "Owner-authorized16October2026",
+      "sha256": "cb7fc28b52f0670eb73eadc20d453d0f878779eb9a51bd61ba147b579a0dbec8"
+    },
+    {
+      "bytes": 1556929,
+      "license": "CC-BY-4.0",
+      "path": "SAVED_DATA.zip",
+      "publication_scope": "Owner-authorized16October2026",
+      "sha256": "40f8384fbc37b1467bc9b341a9126af149ee1184571b6c6365f7a7eaaa8359c9"
+    },
+    {
+      "bytes": 12190,
+      "license": "CC-BY-4.0",
+      "path": "VERIFICATION.json",
+      "publication_scope": "Owner-authorized16October2026",
+      "sha256": "defea9b6f3345641f535fa8d8ec0634a1b257368fb4b1c81a5c7ec5ba4998b0a"
+    }
+  ],
+  "independent_review_sha256": "e8eb98dffe4c10ac0a4839e5b0128d223652cbcf3ab3de5528ef33e8e2a1ac7f",
+  "manifest_license": "CC-BY-4.0",
+  "model_operations": 0,
+  "old_combined_candidate": "Not superseded or deleted. Its48runtimepath occurrences in46values and one operational transportpath require separate cleanup before public release. This six-file addition is separate.",
+  "original_recovery_receipt_sha256": "53541eee2fefe786a58e10f3da60abb2abbc5947662a4b7b6eb2704da8e829b5",
+  "original_source_binding_sha256": "ba2b31c34a84ce00eb6c2fa6bd59cb7a23e780a64a810248d54b732c8ecc46ea",
+  "proposal_to_release_derivation": {
+    "changes": [
+      "Finalize publication/license approval markers in report, release manifest and two noncode source-archive members"
+    ],
+    "original_proposal_files": [
+      {
+        "bytes": 11056,
+        "path": "ANALYSIS_SOURCE.zip",
+        "sha256": "3908eb858b4b2c3ad7257093a1147292347e9b834fc9b920bc617c3351d5a1de"
+      },
+      {
+        "bytes": 14488,
+        "path": "EVIDENCE_MANIFEST.json",
+        "sha256": "65269cec479c259e8ee25bf5c6f45eb99a95d24e95037456687b701ab92a746c"
+      },
+      {
+        "bytes": 14863,
+        "path": "RESEARCH_FINDINGS.md",
+        "sha256": "176c8beb5b4202e57240d167c9c16dfcba34de2c33f05936404aef110870d7f8"
+      },
+      {
+        "bytes": 6475813,
+        "path": "RESULTS.json",
+        "sha256": "cb7fc28b52f0670eb73eadc20d453d0f878779eb9a51bd61ba147b579a0dbec8"
+      },
+      {
+        "bytes": 1556929,
+        "path": "SAVED_DATA.zip",
+        "sha256": "40f8384fbc37b1467bc9b341a9126af149ee1184571b6c6365f7a7eaaa8359c9"
+      },
+      {
+        "bytes": 12190,
+        "path": "VERIFICATION.json",
+        "sha256": "defea9b6f3345641f535fa8d8ec0634a1b257368fb4b1c81a5c7ec5ba4998b0a"
+      }
+    ],
+    "scientific_data_and_python_unchanged": true,
+    "source_archive_noncode_changes": [
+      {
+        "change": "Approval/license marker only; no scientific code/data change",
+        "member": "INPUT_MANIFEST.json",
+        "original_sha256": "be1fd32a73e4833af8ebf19a64c589920e92a16689e85794da4486d1199d52bc",
+        "release_sha256": "cad9174fb1c535fa482fe81ca11a0de3d1c0878c8a34a197da26591bb922abce"
+      },
+      {
+        "change": "Approval/license marker only; no scientific code/data change",
+        "member": "README.txt",
+        "original_sha256": "df2f863765e827e09816beed556b1f1614829afacfc9a7be395cc1226713dc5e",
+        "release_sha256": "9b7f72dc20276a18d3413197a05918a5a3f2e3213133fa9e23dda93b89f6214f"
+      }
+    ]
+  },
+  "publication_scope": {
+    "analysis_python_scripts": "MIT",
+    "approved_date": "2026-10-16",
+    "destination": "AegisAgentAscalon/NSS-Research",
+    "existing_repository_files": "Preserve; append-only study addition",
+    "licensor": "AegisAgentAscalon",
+    "research": "CC-BY-4.0",
+    "scientific_changes": false
+  },
+  "publication_status": "OWNER_AUTHORIZED_FOR_NSS_RESEARCH_RELEASE_NOT_YET_PUSH_VERIFIED",
+  "schema": "NSS_LAYERED_SAVED_NEEDS_PUBLIC_PROPOSAL_V1",
+  "scope_limits": [
+    "Both panels development",
+    "R128 descriptive",
+    "No per-parent best-order selection",
+    "Intermediate fixedsubset; unequal exposure",
+    "Older SL512 duration/LR confounded",
+    "No gate changes, adoption, significance or causal claims"
+  ],
+  "source_archive": "SAVED_DATA.zip; exact original bytes, all19members required for analysis or independent reference checks",
+  "source_bytes": 44079977,
+  "source_count": 19,
+  "source_inputs": [
+    {
+      "bytes": 1910,
+      "license": "CC-BY-4.0",
+      "logical_path": "audit/FINAL_AUDIT.json",
+      "sha256": "fa72b113815536ce2d96e05c565fd091e3cdb4d6ec56c0174b36ebcdcc55da89"
+    },
+    {
+      "bytes": 3246,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/DIAGNOSTIC.json",
+      "sha256": "26516f388136dae60d40f910ff995bb5e9b2e5b42e61c90ae86f5720efb2d678"
+    },
+    {
+      "bytes": 1750,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/PLAIN_RESULT.txt",
+      "sha256": "17d67e2e521c5625d52b52ff213e5b6ac5e4e0b0d4be9981c0168493defaf02f"
+    },
+    {
+      "bytes": 1959286,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/confirmation/CASE_SWAPS.csv",
+      "sha256": "974a8f3b75173fcfa78f36c7d4e560fe684aa4a9d8becfc1b8b3165b2e0881dc"
+    },
+    {
+      "bytes": 482750,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/confirmation/DECISION.json",
+      "sha256": "3d606d34805ed82521432a1ca3bc926e9e1ee1a0960eac1a8bdf510348f36e14"
+    },
+    {
+      "bytes": 1933949,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/confirmation/ERRORS.jsonl",
+      "sha256": "98273c71e14be0fdb4c77e8fd182291f1d8d79a05cd134846fd4bc5ac39fae2f"
+    },
+    {
+      "bytes": 6277709,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/confirmation/MEMORY_PROBES.csv",
+      "sha256": "a621658f17290b8e0467c403b5315e4b47ed0138ce5d854c0017b8e0c9f82b5f"
+    },
+    {
+      "bytes": 61548,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/confirmation/WINDOW_SCOREBOARD.csv",
+      "sha256": "ef5dd04b141df1aabbd8992aa1bdf41c7a04c23dc3ad75a3f7b9f3b5591b8b1c"
+    },
+    {
+      "bytes": 140064,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_confirmation/RETENTION_CASES.jsonl",
+      "sha256": "e6af7c0503dae6515bd5162e807d817645dda975f51cfd12295c47c23b1dec88"
+    },
+    {
+      "bytes": 94219,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_confirmation/RETENTION_COUNTS.csv",
+      "sha256": "d508ded1e1aa8b669a56ec9d514b822faa5d221d056630c85e659b7a5f27332d"
+    },
+    {
+      "bytes": 73393,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_confirmation/RETENTION_TRANSITIONS.csv",
+      "sha256": "4ac21938a9094dc3adebb962b47202a700621e0a7b85e7e763e836e193df33a6"
+    },
+    {
+      "bytes": 859156,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_existing/RETENTION_CASES.jsonl",
+      "sha256": "c8421081d07b296b7a5017d950c18abe2e9ded3f545afc88cfe2d16c09d90f11"
+    },
+    {
+      "bytes": 361002,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_existing/RETENTION_COUNTS.csv",
+      "sha256": "e95e203649e661a70f3c3a1a8b675c437d228b0b179661f33748cc62dac407fd"
+    },
+    {
+      "bytes": 278463,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/diagnostic_existing/RETENTION_TRANSITIONS.csv",
+      "sha256": "b609ac92ad8454d5413fb611d2943d25ed3d74f8078c40c0d5e9b851fd3a42e3"
+    },
+    {
+      "bytes": 6767185,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/existing/CASE_SWAPS.csv",
+      "sha256": "48fc4339f65a14294248203579d23df498e4ea48b904071546720470e2d1b95f"
+    },
+    {
+      "bytes": 5825322,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/existing/DECISION.json",
+      "sha256": "d5883b4283001baf23714c4896fe6f2c101254c64979901b194cee95cdd34223"
+    },
+    {
+      "bytes": 7270043,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/existing/ERRORS.jsonl",
+      "sha256": "1537f602ec930cc9c2cc92f8130dca550fa91fb8177e209875ccd9af1217fa2b"
+    },
+    {
+      "bytes": 11410201,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/existing/MEMORY_PROBES.csv",
+      "sha256": "d4ea5a877f66018bf85135e5a7a6f0e1a371a896c6a609b891d3e1e5d6cc71f0"
+    },
+    {
+      "bytes": 278781,
+      "license": "CC-BY-4.0",
+      "logical_path": "results/existing/WINDOW_SCOREBOARD.csv",
+      "sha256": "f1d0899718d2242182c274dbeb36abbda385b53c77b18ae082cc2ed01f5101da"
+    }
+  ],
+  "study": "LAYERED01 saved-data task-needs analysis",
+  "table_to_source_mapping": {
+    "ERROR_GROUPS.csv": "results/{scope}/ERRORS.jsonl; CYCLIC1024/BLOCKED1024 records",
+    "MEMORY_GROUPS.csv;MEMORY_MATCHED_CASES.csv": "results/{scope}/MEMORY_PROBES.csv; exact keys id,cell,truth,probe within model/parent",
+    "RETENTION_*.csv": "results/diagnostic_{scope}/RETENTION_CASES.jsonl; scored positions1..n-1 and wholepath; comparisons with original COUNTS/TRANSITIONS",
+    "SWAP_GROUPS.csv": "results/{scope}/CASE_SWAPS.csv; exact CYCLIC1024_VS_BLOCKED1024 rows",
+    "WINDOW_GROUPS.csv": "results/{scope}/WINDOW_SCOREBOARD.csv; paired model,parent,stratum,window",
+    "original_diagnostic": "results/DIAGNOSTIC.json and results/{scope}/DECISION.json"
+  },
+  "third_party_distribution": "None. Python is an external standard-library runtime requirement; no package/native dependency distribution.",
+  "unavailable_or_not_distributed": [
+    "Model checkpoints, native runtime wheels, original full raw logits and broad earlier cloud-study evidence are not in this proposed batch. Hash references to those objects do not provide a public download.",
+    "Original full178-file selected recovery receipt and the private partial-consolidation delivery are retained privately; their identity does not imply public accessibility.",
+    "Post-upload original owner/delivery closure receipts were not in the recovered source archives and remain missing."
+  ]
+}
