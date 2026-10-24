@@ -1,1 +1,1 @@
-{"schema":"nss-cas-capability-test-v1","run_id":"nss-owner-cas-test-20261024","state":"OPEN_TEST","sequence":1,"owner":"A","predecessor":"f132034e58c01141fb28d7dd554df2658d90f0c7","scientific_dispatch":false}
+{"schema":"nss-cas-capability-test-v1","run_id":"nss-owner-cas-test-20261024","state":"CLOSED_TEST","sequence":2,"owner":null,"predecessor":"06039fdc086144fdafead8f04363ffd3e3b8bb87","scientific_dispatch":false}
