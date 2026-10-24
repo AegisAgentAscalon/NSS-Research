@@ -1,6 +1,0 @@
-test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event (test_persistent_state.PersistentStateTests.test_all_expired_notes_can_be_retired_in_one_bounded_reviewed_event) ... ok
-
-----------------------------------------------------------------------
-Ran 1 test in 12.499s
-
-OK

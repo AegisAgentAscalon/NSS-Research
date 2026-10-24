@@ -1,1 +1,0 @@
-PROTOCOL.md and the frozen new source/SEEDS/WORK_LEDGER are normative for TIMING01. Files prefixed HISTORICAL are provenance only; their old admission, branch names and timing are NOT the current contract. Core forward/local derivative, initialization/order and mean arithmetic are preserved.

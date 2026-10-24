@@ -1,6 +1,0 @@
-{
-  "time_epoch": 1790274439.5992897,
-  "note": "Clock conservatively backdated 150 seconds to cover initial inspection",
-  "budget_start_epoch": 1790274289.59929,
-  "shell_python_ok": true
-}

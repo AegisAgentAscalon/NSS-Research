@@ -1,7 +1,0 @@
-{
-  "extra_semantic_ID_access": false,
-  "scope": "Exact byte-key traversal of the same workspace; streaming writer still learned. Not an independently protected archive.",
-  "source_sha256": "c0cbdaf33b98a2e1b5d4d1107eaa4de59ea8789969480383d13e75dc31fa77fb",
-  "status": "Registered concept; implementation added during main execution; no learned fit or threshold selection",
-  "utc": "2026-09-21T09:44:22.193932+00:00"
-}

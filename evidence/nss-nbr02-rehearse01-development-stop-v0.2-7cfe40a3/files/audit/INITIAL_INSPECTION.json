@@ -1,8 +1,0 @@
-{
-  "shell_python_ok": true,
-  "proposal_bytes": 92746,
-  "proposal_sha256": "2ef9d78b87dc76ffd9a05288a788e1be6fc4173e8342f95eafedb780bd729aa2",
-  "zip_crc_ok": true,
-  "inspection_issue": "Initial standalone folder contains only surfaced attachments; BATCH_AND_AUTHORITY.md not there. Entire valid proposal ZIP subsequently extracted into dependencies; no numerical work had started.",
-  "historical_models_loaded": false
-}

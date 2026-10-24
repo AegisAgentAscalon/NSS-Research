@@ -1,5 +1,0 @@
-# Observed execution environment; no automatic installation occurs.
-# CPU execution used torch 2.10.0+cpu. A matching CPU wheel is suitable.
-numpy==2.3.5
-torch==2.10.0
-safetensors==0.7.0

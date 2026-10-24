@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "checks": 34,
-  "failed": [],
-  "seconds": 0.1627300220000052
-}

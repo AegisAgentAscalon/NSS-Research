@@ -1,7 +1,0 @@
-{
-  "input_archive": "NSS_NBR02_CAP01_Execution_v0.1.zip",
-  "sha256": "2d7cfe7fc5190b3137cd25f6293ffa1d96a3d03341ae2cd057f35539eb518069",
-  "manifest_payloads_checked": 652,
-  "bad": [],
-  "purpose": "Source/model reuse only, no historical outcome rewriting"
-}

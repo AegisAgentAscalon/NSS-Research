@@ -1,4 +1,0 @@
-BENCH 16 128 {'old_gather': 238.6076, 'packed_hsa': 69.5437, 'full_dense': 29.7374}
-/opt/pyvenv/lib/python3.13/site-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.
-  _warn_once(
-COMPLETE 19.40600992000003

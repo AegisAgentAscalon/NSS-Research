@@ -1,2 +1,0 @@
-Generated 4 DatasetSnapshot/batch-use schemas.
-PASS: four schemas regenerate byte-identically.

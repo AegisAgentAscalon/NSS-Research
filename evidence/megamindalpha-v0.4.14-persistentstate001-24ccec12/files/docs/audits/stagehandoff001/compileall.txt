@@ -1,1 +1,0 @@
-$ /opt/pyvenv/bin/python -m compileall -q nss_base tests tools

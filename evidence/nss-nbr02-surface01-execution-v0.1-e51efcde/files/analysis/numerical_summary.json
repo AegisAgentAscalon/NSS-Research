@@ -1,9 +1,0 @@
-{
-  "admission_hidden_and_logit_coordinates": 3588096,
-  "failed_coordinates": 0,
-  "max_abs": 9.059906005859375e-06,
-  "max_scaled": 0.7749060392379761,
-  "all_classes_agree": true,
-  "envelope": "2e-6 + 2e-5 * abs(reference)",
-  "thresholds_changed": false
-}

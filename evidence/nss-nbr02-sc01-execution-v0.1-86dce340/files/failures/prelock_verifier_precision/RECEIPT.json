@@ -1,6 +1,0 @@
-{
-  "phase": "prelock_engineering",
-  "observation": "JSON reconstructed logits become float64 containers; comparator selected float64 tolerance although reference/model arithmetic is float32. Four lifecycle assertions failed. This does not establish four numerical model failures.",
-  "change": "select unchanged envelope from reference computation dtype; not from JSON container dtype",
-  "utc": "2026-09-28T02:21:12Z"
-}

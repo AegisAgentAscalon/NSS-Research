@@ -1,9 +1,0 @@
-usage: REPLAY_STUDY.py [-h] --output OUTPUT
-
-Explicit separate adaptive reproduction; never extends the archived execution
-ledger.
-
-options:
-  -h, --help       show this help message and exit
-  --output OUTPUT  New independent reproduction directory; source/data recipes
-                   are copied here.

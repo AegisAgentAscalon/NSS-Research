@@ -1,6 +1,0 @@
-{
-  "status": "RAW_MAIN_NUMERIC_TRACES_ABSENT_IN_UPLOADED_V15",
-  "fresh_trace_verification": false,
-  "prior_v15_audit_retained": "provenance/SAVED15_AUDIT_v15.json",
-  "explanation": "The previous audit reports verifying15 contiguous6000-row traces. This v1.5 delivery contains the audit and fit manifests, but not numeric_trace.npz. No raw histories were synthesized or retrained. Inference-only loader checks recorded update metadata and explicitly reports absence."
-}

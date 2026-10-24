@@ -1,9 +1,0 @@
-{
-  "status": "POST_EXECUTION_REPORTING_AND_DELIVERY_ONLY",
-  "files": {
-    "tools/build_report.py": "fd7ad2871b53fa6f2bd496f890f0b52bc8b63e11fd0ffd1048e469b67c2cfda5",
-    "VERIFY_STUDY.py": "5b3196de347e49fdbb8206a55507600d1ffdfbceb8c557fc6064e91db48f0592",
-    "REPLAY_STUDY.py": "82edc4f76f9e718ef52f0de56ee7d52249e38079b2c9dd284d42da131bbe67c3"
-  },
-  "additional_model_forwards": 0
-}

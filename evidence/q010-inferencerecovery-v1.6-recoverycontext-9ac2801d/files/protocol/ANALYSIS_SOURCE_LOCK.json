@@ -1,6 +1,0 @@
-{
-  "utc": "2026-09-24T16:02:14.204741+00:00",
-  "sha256": "d506dbd527a6f35dc60b8a63a900e8cd54a6b993a7b63c5e361e3ff008c4721d",
-  "source": "recovery/aggregate_results.py",
-  "timing": "Pinned before main scoring outputs exist; uses byte-identical original frozen criteria."
-}

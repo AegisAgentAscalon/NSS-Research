@@ -1,7 +1,0 @@
-{
-  "old_bytes": 18495799,
-  "old_sha256": "8ecf426cdc2a4fd9977b5bdbd05005864a91611a884455648d210982ead823ae",
-  "new_prefix_sha256": "8ecf426cdc2a4fd9977b5bdbd05005864a91611a884455648d210982ead823ae",
-  "byte_identical_completed_prefix": true,
-  "verification": "direct bytes, prefix of independently recomputed v0.2 run"
-}

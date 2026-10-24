@@ -1,9 +1,0 @@
-[
-  {
-    "id": "INSPECT-001",
-    "phase": "source layout inspection before source lock",
-    "observed": "An inspection helper assumed REV01 delivery-map keys for TIMING01 and raised KeyError encoded_records.",
-    "resolution": "Inspected the two actual delivery schemas and explicitly handle each.",
-    "scientific_effect": "None: no policy calculation, data selection by outcome, or model work."
-  }
-]

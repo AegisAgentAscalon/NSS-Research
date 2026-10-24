@@ -1,8 +1,0 @@
-{
-  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
-  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
-  "hash_seed": "0",
-  "standard_library_only": true,
-  "cpu_quota": "400000 100000",
-  "container_memory_limit": "4294967296"
-}

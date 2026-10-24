@@ -1,4 +1,0 @@
-# Observed reference environment: Python3.13.5, Linux, CPU. No automatic install.
-numpy==2.3.5
-torch==2.10.0
-safetensors==0.7.0

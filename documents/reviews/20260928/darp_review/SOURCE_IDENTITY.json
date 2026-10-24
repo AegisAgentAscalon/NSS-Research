@@ -1,8 +1,0 @@
-{
-  "source": "<PRIVATE_HOME>\\Desktop\\MegaMind_Alpha_Proto\\NSS_DARP_Research_Results_Analysis_and_Decision_v1.0.docx",
-  "bytes": 68425,
-  "sha256": "d7db73d8e79520bfe760bb4fb71fc084ceea220bca1aa5bd062ac4e58e802bd5",
-  "text_paragraph_or_table_rows": 399,
-  "words": 8024,
-  "method": "DOCX main body XML paragraphs and table rows in order; content extraction only; no render/visual review"
-}

@@ -1,8 +1,0 @@
-{
-  "direct_allocations": 33,
-  "within_unique": true,
-  "available_historical_members": 276,
-  "bytes_scanned": 39653276,
-  "literal_collisions": [],
-  "limitation": "Only available REV01/DC01 text. Opaque historical RNG states and unexpanded streams are not exhaustively audited."
-}

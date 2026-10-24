@@ -1,8 +1,0 @@
-{
-  "new_optimizer_updates": 0,
-  "numerical_evaluator": "v1.5 unchanged capture_seed and v1.3 batch_core",
-  "original_protocol_sha256": "0425f7a75643f3f6f612b754d6d65c86541ef753ad92fe8fafa26ddd33db9ff5",
-  "shell_python_confirmed": true,
-  "underflow": "Reimplemented exactly from retained rationale; original v2 source and rejected raw row not present in supplied v1.5 package. Fresh reproduction tests required before reuse.",
-  "utc": "2026-09-24T15:55:43.692507+00:00"
-}

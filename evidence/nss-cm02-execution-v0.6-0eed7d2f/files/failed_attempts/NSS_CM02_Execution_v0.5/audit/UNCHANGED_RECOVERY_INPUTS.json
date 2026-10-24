@@ -1,9 +1,0 @@
-{
-  "status": "EXACT_BYTE_IDENTITY_WITH_INTERRUPTED_V0_4_STIMULI",
-  "files_compared": {
-    "fixture": 7,
-    "main": 35
-  },
-  "only_input_lock_source_lock_reference_changes": true,
-  "no_scored_selection_or_retuning": true
-}

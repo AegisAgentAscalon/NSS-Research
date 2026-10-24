@@ -1,6 +1,0 @@
-{
-  "new_tools_added": "Reporting, lifecycle, resource and post-hoc diagnosis tools do not replace main implementation.",
-  "registered_core_and_tests_unchanged": true,
-  "registered_protocol_unchanged": true,
-  "status": "PASS"
-}

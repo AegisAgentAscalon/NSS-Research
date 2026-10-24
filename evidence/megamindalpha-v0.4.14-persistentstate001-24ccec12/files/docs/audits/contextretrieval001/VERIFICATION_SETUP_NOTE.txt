@@ -1,1 +1,0 @@
-Initial baseline run aborted: implementation work directory was inadvertently renamed while tests were running, invalidating absolute fixture/module paths. This interrupted run is not used as baseline evidence. Baseline rerun uses an independent immutable extracted source tree.

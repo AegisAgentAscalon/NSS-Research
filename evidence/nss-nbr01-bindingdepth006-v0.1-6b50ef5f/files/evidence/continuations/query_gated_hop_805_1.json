@@ -1,8 +1,0 @@
-{
-  "abi": "nbr006-query-v1",
-  "array_sha256": "60546000b5d2de821314e8fd110441864690925a056c9baaa5e05c89a24c389b",
-  "kind": "gated_hop",
-  "round": 1,
-  "scope": "study",
-  "weight_identity": "20a980c78c4adc46662d0f3f41ef5ff47e93c13ab31a499ddb07482029bbe30d"
-}

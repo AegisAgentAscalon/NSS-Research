@@ -1,4 +1,0 @@
-benchmark 32 reuse [('index', 76.237), ('cache', 11.179), ('segment', 8.914)]
-benchmark 32 sweep [('index', 29.639), ('cache', 16.228), ('segment', 15.1)]
-benchmark 32 churn [('index', 76.823), ('cache', 40.636), ('segment', 38.477)]
-benchmark 32 resume [('index', 90.515), ('cache', 22.548), ('segment', 24.195)]

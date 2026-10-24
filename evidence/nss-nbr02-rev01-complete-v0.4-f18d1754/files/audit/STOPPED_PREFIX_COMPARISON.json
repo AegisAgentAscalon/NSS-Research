@@ -1,7 +1,0 @@
-{
-  "old_bytes": 2932609,
-  "old_sha256": "f3ba18c7f6ae88bbac41e7189897a29069164883d0b4ced88d8eb72509de2422",
-  "new_prefix_sha256": "f3ba18c7f6ae88bbac41e7189897a29069164883d0b4ced88d8eb72509de2422",
-  "byte_identical": true,
-  "no_reuse_of_old_weights": true
-}

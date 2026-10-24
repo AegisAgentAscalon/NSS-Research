@@ -1,7 +1,0 @@
-{
-  "authorization": "User: Okay, let's do it; applies reviewed CM-02 v0.2 including X_latest",
-  "first_shell_python_check_utc": "2026-09-24T19:59:58Z",
-  "budget_start_unix": 1790279970.0,
-  "conservative_allowance_before_first_shell_seconds": 28,
-  "hard_wall_seconds": 7200
-}

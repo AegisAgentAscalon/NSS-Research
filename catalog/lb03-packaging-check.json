@@ -1,9 +1,0 @@
-{
-  "source_archive": "Research/NSS_NBR02_LB03_LEARNABILITY_Execution_v0.1.zip",
-  "checked_against": "fresh recursive inventory",
-  "declared_payloads": 898,
-  "size_or_hash_mismatches": [],
-  "extra_members": [],
-  "manifest_sha256_matches": true,
-  "no_model_or_scientific_execution": true
-}

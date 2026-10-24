@@ -1,5 +1,0 @@
-# Suggested Chat message — not dispatched
-
-Use the attached NSS_NBR02_RECOVER01_Proposal_v0.1.zip as the proposed protocol and NSS_NBR02_SURFACE01_Execution_v0.1.zip as the source of the four exact existing parents. Implement and run this bounded recovery diagnostic. Freeze the final implementation/config/input identities before confirmation; report any necessary protocol change explicitly before running the changed protocol. Keep SURFACE01's original STOP_BASELINE_COMPETENCE unchanged and admit all four parents here. Compare U, L, R and LR; A-only repair must contain no B loss. Preserve unsuccessful contexts and separate old errors, new harm, repaired errors and retained B learning. Do not extend budgets or tune on confirmation. Return one versioned execution archive containing the report, code/config/source identities, raw paired outcomes, relevant checkpoints and full actual costs, plus a plain-language explanation. Stop after this diagnostic; no automatic successor experiment.
-
-This message is a handoff template for the user to choose to send. Codex has not dispatched or run it.

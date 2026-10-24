@@ -1,4 +1,0 @@
-completed 128 932101 8801
-completed 128 932101 8802
-completed 128 932101 8804
-{"conditions": 54, "elapsed": 8.35105626199993, "answers": 4446, "changed": 0, "numeric_violations": 0}

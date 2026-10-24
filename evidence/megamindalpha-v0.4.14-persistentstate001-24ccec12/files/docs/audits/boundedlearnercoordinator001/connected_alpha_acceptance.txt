@@ -1,1 +1,0 @@
-PASS: connected human-assisted local demo through review-only proposal. Fresh-candidate qualification/adoption remains NOT IMPLEMENTED; no Runtime execution authority.

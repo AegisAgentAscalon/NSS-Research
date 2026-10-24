@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "recounts": 324,
-  "policy_pairs": 216,
-  "fresh_process_replays": 54,
-  "snapshot_restores": 36,
-  "seconds": 7.951669245000176
-}

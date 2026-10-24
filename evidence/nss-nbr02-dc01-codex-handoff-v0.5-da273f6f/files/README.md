@@ -1,3 +1,0 @@
-# Compact Codex review packet
-
-Start with CHAT_PROMPT.md, REPORT.md and CANDIDATES.md. This packet contains review text and selected retained score/audit tables, not raw training/replay arrays or executable full-study sources. Its replay and numerical-verification claims are the full study's internal results, not independent reproduction by merely opening this packet. FULL_EVIDENCE_IDENTITY.json identifies the complete28.9MBarchive. Final delivery/relocation receipt is external. No automatic new fits, phase closure, or budget reuse is authorized. Original G01–G22 and adopted boundedNBR01status are included; old proposal snapshots do not supersede current execution status.
